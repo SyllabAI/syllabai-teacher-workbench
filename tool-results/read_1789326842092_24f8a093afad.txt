@@ -1,0 +1,606 @@
+     1→"use client";
+     2→
+     3→import { useCallback, useEffect, useMemo, useState } from "react";
+     4→import { Badge } from "@/components/ui/badge";
+     5→import { Button } from "@/components/ui/button";
+     6→import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+     7→import { Input } from "@/components/ui/input";
+     8→import { ScrollArea } from "@/components/ui/scroll-area";
+     9→import { Separator } from "@/components/ui/separator";
+    10→import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+    11→import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+    12→import { Textarea } from "@/components/ui/textarea";
+    13→import { useToast } from "@/hooks/use-toast";
+    14→import {
+    15→  AlertTriangle, CheckCircle2, ClipboardList, Download, FileText, Flag,
+    16→  Lock, ScrollText, Search, Undo2, XCircle, RefreshCw,
+    17→} from "lucide-react";
+    18→import type { ReviewIndex, SessionDossier } from "@/lib/review-data";
+    19→
+    20→type Effective = Record<string, "VALIDATED" | "REJECTED" | "FLAGGED">;
+    21→type PaperCounts = Record<string, { validated: number; rejected: number; flagged: number }>;
+    22→
+    23→interface DecisionEntry {
+    24→  seq: number; ts: string; action: string; targetType: string;
+    25→  targetId: string; targetLabel: string; reviewer: string; note: string; hash: string;
+    26→}
+    27→
+    28→interface DecisionsState {
+    29→  entries: DecisionEntry[];
+    30→  chainValid: boolean;
+    31→  staged: { validated: number; rejected: number; flagged: number; reversed: number };
+    32→  effective: Effective;
+    33→  paperCounts: PaperCounts;
+    34→}
+    35→
+    36→const TARGET_VERSION = "question_version" as const;
+    37→const TARGET_SCHEME = "mark_scheme" as const;
+    38→const TARGET_PAPER = "exam_paper" as const;
+    39→
+    40→function bridgeBadge(status: string) {
+    41→  if (status === "OK") return <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-100">bridge OK</Badge>;
+    42→  if (status === "REVIEW_REQUIRED") return <Badge className="bg-amber-100 text-amber-900 hover:bg-amber-100">review required</Badge>;
+    43→  return <Badge variant="outline">{status}</Badge>;
+    44→}
+    45→
+    46→function stagedBadge(effective: Effective, targetId: string | null | undefined, canonical?: string | null) {
+    47→  const items: React.ReactNode[] = [];
+    48→  if (canonical === "VALIDATED") {
+    49→    items.push(<Badge key="seed" variant="outline" className="gap-1 text-stone-500"><Lock className="h-3 w-3" /> seed-validated</Badge>);
+    50→  } else if (canonical) {
+    51→    items.push(<Badge key="canon" variant="outline" className="text-stone-500">{canonical}</Badge>);
+    52→  }
+    53→  const st = targetId ? effective[targetId] : undefined;
+    54→  if (st === "VALIDATED") items.push(<Badge key="st" className="bg-emerald-600 hover:bg-emerald-600">staged VALIDATE</Badge>);
+    55→  if (st === "REJECTED") items.push(<Badge key="st" className="bg-rose-600 hover:bg-rose-600">staged REJECT</Badge>);
+    56→  if (st === "FLAGGED") items.push(<Badge key="st" className="bg-amber-500 hover:bg-amber-500">staged FLAG</Badge>);
+    57→  return items;
+    58→}
+    59→
+    60→export default function ReviewWorkbench() {
+    61→  const { toast } = useToast();
+    62→  const [index, setIndex] = useState<ReviewIndex | null>(null);
+    63→  const [selectedId, setSelectedId] = useState<string | null>(null);
+    64→  const [dossier, setDossier] = useState<SessionDossier | null>(null);
+    65→  const [decisions, setDecisions] = useState<DecisionsState | null>(null);
+    66→  const [reviewer, setReviewer] = useState("");
+    67→  const [search, setSearch] = useState("");
+    68→  const [onlyReview, setOnlyReview] = useState(false);
+    69→  const [dialog, setDialog] = useState<
+    70→    | null
+    71→    | { kind: "REJECT" | "FLAG"; targetType: string; targetId: string; label: string; note: string }
+    72→  >(null);
+    73→
+    74→  useEffect(() => {
+    75→    fetch("/api/review/index").then((r) => r.json()).then(setIndex).catch(() =>
+    76→      toast({ title: "failed to load review index", variant: "destructive" })
+    77→    );
+    78→  }, []);
+    79→
+    80→  const refreshDecisions = useCallback(() => {
+    81→    fetch("/api/decisions").then((r) => r.json()).then(setDecisions).catch(() => {});
+    82→  }, []);
+    83→
+    84→  useEffect(() => {
+    85→    refreshDecisions();
+    86→    const saved = window.localStorage.getItem("tv-reviewer");
+    87→    if (saved) {
+    88→      const id = requestAnimationFrame(() => setReviewer(saved));
+    89→      return () => cancelAnimationFrame(id);
+    90→    }
+    91→  }, [refreshDecisions]);
+    92→
+    93→  useEffect(() => {
+    94→    if (!selectedId) return;
+    95→    let cancelled = false;
+    96→    fetch(`/api/review/session/${selectedId}`)
+    97→      .then((r) => r.json())
+    98→      .then((d) => { if (!cancelled) setDossier(d); })
+    99→      .catch(() => { if (!cancelled) toast({ title: "failed to load session", variant: "destructive" }); });
+   100→    return () => { cancelled = true; };
+   101→  }, [selectedId]);
+   102→
+   103→  const requireReviewer = (): boolean => {
+   104→    if (reviewer.trim().length < 2) {
+   105→      toast({ title: "enter a reviewer name first (top right)", variant: "destructive" });
+   106→      return false;
+   107→    }
+   108→    return true;
+   109→  };
+   110→
+   111→  const stageDecision = useCallback(
+   112→    async (payload: Record<string, unknown>, okTitle: string) => {
+   113→      const res = await fetch("/api/decisions", {
+   114→        method: "POST",
+   115→        headers: { "Content-Type": "application/json" },
+   116→        body: JSON.stringify({ ...payload, reviewer: reviewer.trim() }),
+   117→      });
+   118→      const data = await res.json();
+   119→      if (!res.ok) {
+   120→        toast({ title: "refused by lifecycle gate", description: data.error, variant: "destructive" });
+   121→        return false;
+   122→      }
+   123→      setDecisions((prev) => prev ? {
+   124→        ...prev,
+   125→        chainValid: data.chainValid,
+   126→        staged: data.staged,
+   127→        effective: data.effective,
+   128→        paperCounts: data.paperCounts,
+   129→        entries: [...prev.entries, data.entry],
+   130→      } : prev);
+   131→      toast({ title: okTitle, description: `seq ${data.entry.seq} appended to the hash-chained staging log` });
+   132→      return true;
+   133→    },
+   134→    [reviewer, toast]
+   135→  );
+   136→
+   137→  const act = async (action: "VALIDATE" | "REJECT" | "FLAG", targetType: string, targetId: string, label: string) => {
+   138→    if (!requireReviewer()) return;
+   139→    if (action === "VALIDATE") {
+   140→      await stageDecision({ action, targetType, targetId }, "VALIDATE staged");
+   141→    } else {
+   142→      setDialog({ kind: action, targetType, targetId, label, note: "" });
+   143→    }
+   144→  };
+   145→
+   146→  const reverse = async (seq: number) => {
+   147→    if (!requireReviewer()) return;
+   148→    await stageDecision({ action: "REVERSE", reverseSeq: seq }, "reversal staged");
+   149→  };
+   150→
+   151→  const exportLog = async () => {
+   152→    const res = await fetch("/api/decisions/export");
+   153→    if (!res.ok) { toast({ title: "export failed", variant: "destructive" }); return; }
+   154→    const blob = await res.blob();
+   155→    const a = document.createElement("a");
+   156→    a.href = URL.createObjectURL(blob);
+   157→    a.download = (res.headers.get("Content-Disposition") || "").match(/"(.+)"/)?.[1] || "decision-bundle.json";
+   158→    a.click();
+   159→    URL.revokeObjectURL(a.href);
+   160→    toast({ title: "evidence bundle exported", description: "a durable copy was also written into download/teacher-validation/" });
+   161→  };
+   162→
+   163→  const papers = useMemo(() => {
+   164→    if (!index) return [];
+   165→    const q = search.trim().toLowerCase();
+   166→    return index.papers.filter((p) =>
+   167→      (!onlyReview || p.bridgeStatus === "REVIEW_REQUIRED") &&
+   168→      (!q || `${p.paperCode} ${p.sessionLabel} ${p.title}`.toLowerCase().includes(q))
+   169→    );
+   170→  }, [index, search, onlyReview]);
+   171→
+   172→  const openPaper = dossier?.paper;
+   173→  const dossierLoading = !!selectedId && dossier?.paper?.id !== selectedId;
+   174→  const dossierCurrent = !!selectedId && dossier?.paper?.id === selectedId;
+   175→  const pc = selectedId ? decisions?.paperCounts[selectedId] : undefined;
+   176→  const decidable = (canonical: string | null | undefined) => canonical !== "VALIDATED";
+   177→
+   178→  return (
+   179→    <div className="min-h-screen flex flex-col bg-stone-50">
+   180→      {/* header */}
+   181→      <header className="border-b bg-white">
+   182→        <div className="mx-auto max-w-7xl px-4 py-3 flex flex-wrap items-center gap-2">
+   183→          <ClipboardList className="h-5 w-5 text-emerald-700" />
+   184→          <h1 className="text-base font-semibold tracking-tight">SyllabAI · Teacher Validation Workbench</h1>
+   185→          <span className="text-xs text-stone-500">T-C04 · 81 imported sessions</span>
+   186→          <div className="ml-auto flex flex-wrap items-center gap-1.5">
+   187→            <Badge variant="outline" className="font-mono text-[10px]">T-C04-CAMPAIGN @ syllabai</Badge>
+   188→            <Badge variant="outline" className="font-mono text-[10px]">core a54f310</Badge>
+   189→            <Badge variant="outline" className="font-mono text-[10px]">dump c06d8ab3…</Badge>
+   190→            <Badge className="bg-stone-800 hover:bg-stone-800 text-[10px]">INFERRED read model</Badge>
+   191→            <Input
+   192→              value={reviewer}
+   193→              onChange={(e) => { setReviewer(e.target.value); window.localStorage.setItem("tv-reviewer", e.target.value); }}
+   194→              placeholder="reviewer name"
+   195→              className="h-7 w-36 text-xs"
+   196→              aria-label="reviewer name"
+   197→            />
+   198→            <Sheet>
+   199→              <SheetTrigger asChild>
+   200→                <Button variant="outline" size="sm" className="h-7 text-xs">
+   201→                  Staging log {decisions ? `(${decisions.entries.length})` : ""}
+   202→                </Button>
+   203→              </SheetTrigger>
+   204→              <SheetContent className="w-full sm:max-w-lg overflow-y-auto">
+   205→                <SheetHeader>
+   206→                  <SheetTitle className="flex items-center gap-2">
+   207→                    Staged decision log
+   208→                    {decisions?.chainValid
+   209→                      ? <Badge className="bg-emerald-600 hover:bg-emerald-600">chain valid</Badge>
+   210→                      : <Badge className="bg-rose-600 hover:bg-rose-600">CHAIN BROKEN</Badge>}
+   211→                  </SheetTitle>
+   212→                </SheetHeader>
+   213→                <div className="px-3 pb-6 text-xs">
+   214→                  <p className="text-stone-600 mb-3">
+   215→                    Append-only, hash-chained. <b>Staging only</b> — applying these decisions to the canonical
+   216→                    campaign DB happens through a gated importer once the canonical state is provisioned.
+   217→                  </p>
+   218→                  <div className="flex gap-2 mb-3">
+   219→                    <Button size="sm" variant="outline" onClick={exportLog} className="gap-1">
+   220→                      <Download className="h-3.5 w-3.5" /> Export evidence bundle
+   221→                    </Button>
+   222→                  </div>
+   223→                  <Separator className="my-3" />
+   224→                  {decisions?.entries.length === 0 && <p className="text-stone-500">No staged decisions yet.</p>}
+   225→                  <div className="space-y-2">
+   226→                    {[...(decisions?.entries || [])].reverse().map((e) => (
+   227→                      <div key={e.seq} className="rounded-md border p-2">
+   228→                        <div className="flex items-center gap-2 flex-wrap">
+   229→                          <span className="font-mono text-[10px] text-stone-400">#{e.seq}</span>
+   230→                          <Badge variant="outline" className={
+   231→                            e.action === "VALIDATE" ? "text-emerald-700 border-emerald-300" :
+   232→                            e.action === "REJECT" ? "text-rose-700 border-rose-300" :
+   233→                            e.action === "FLAG" ? "text-amber-700 border-amber-300" : ""
+   234→                          }>{e.action}</Badge>
+   235→                          <span className="text-[10px] text-stone-400">{e.targetType}</span>
+   236→                          <span className="ml-auto text-[10px] text-stone-400">{new Date(e.ts).toLocaleString()}</span>
+   237→                        </div>
+   238→                        <div className="mt-1 text-[11px] font-medium">{e.targetLabel}</div>
+   239→                        {e.note && <div className="text-[11px] text-stone-600">{e.note}</div>}
+   240→                        <div className="mt-1 flex items-center gap-2">
+   241→                          <span className="text-[10px] text-stone-400">by {e.reviewer}</span>
+   242→                          {e.action !== "REVERSE" && (
+   243→                            <button className="ml-auto text-[10px] text-stone-500 hover:text-rose-600 underline flex items-center gap-0.5"
+   244→                              onClick={() => reverse(e.seq)}>
+   245→                              <Undo2 className="h-3 w-3" /> reverse
+   246→                            </button>
+   247→                          )}
+   248→                        </div>
+   249→                      </div>
+   250→                    ))}
+   251→                  </div>
+   252→                </div>
+   253→              </SheetContent>
+   254→            </Sheet>
+   255→          </div>
+   256→        </div>
+   257→      </header>
+   258→
+   259→      {/* quarantine + note */}
+   260→      <div className="mx-auto w-full max-w-7xl px-4 pt-3">
+   261→        <div className="rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-xs text-amber-900 flex gap-2">
+   262→          <AlertTriangle className="h-4 w-4 mt-0.5 shrink-0" />
+   263→          <div>
+   264→            <b>Quarantine intact:</b> {index?.quarantine.session ?? "1c-2016jan"} is absent from this dataset and must stay
+   265→            unresolved until original-source/operator review. Never auto-fixed, never inferred. — {index?.quarantine.rule}
+   266→          </div>
+   267→        </div>
+   268→        <p className="mt-2 text-[11px] text-stone-500">
+   269→          {index?.label} · All content below is <b>SUGGESTED</b> in the canonical lifecycle; decisions made here are staged for the gated apply.
+   270→        </p>
+   271→      </div>
+   272→
+   273→      {/* stats */}
+   274→      <div className="mx-auto w-full max-w-7xl px-4 py-3 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2">
+   275→        {[
+   276→          ["sessions", index?.stats.papers], ["questions", index?.stats.questions],
+   277→          ["versions", index?.stats.versions], ["parts", index?.stats.parts],
+   278→          ["schemes", index?.stats.schemes], ["mark points", index?.stats.points],
+   279→          ["review-required", index?.stats.reviewRequiredSessions], ["embedded", index?.stats.embedded],
+   280→        ].map(([label, val]) => (
+   281→          <Card key={label as string} className="py-2">
+   282→            <CardContent className="px-3">
+   283→              <div className="text-lg font-semibold leading-tight">{val ?? "—"}</div>
+   284→              <div className="text-[11px] text-stone-500">{label}</div>
+   285→            </CardContent>
+   286→          </Card>
+   287→        ))}
+   288→      </div>
+   289→
+   290→      {/* main */}
+   291→      <main className="mx-auto w-full max-w-7xl px-4 pb-6 flex-1 grid gap-4 lg:grid-cols-[340px_1fr]">
+   292→        {/* session list */}
+   293→        <Card className="self-start">
+   294→          <CardHeader className="pb-2">
+   295→            <CardTitle className="text-sm flex items-center gap-2">
+   296→              <ScrollText className="h-4 w-4" /> Sessions
+   297→              <span className="ml-auto flex gap-1">
+   298→                <Button variant={onlyReview ? "default" : "outline"} size="sm" className="h-6 text-[11px]"
+   299→                  onClick={() => setOnlyReview(!onlyReview)}>
+   300→                  review-required
+   301→                </Button>
+   302→              </span>
+   303→            </CardTitle>
+   304→            <div className="relative">
+   305→              <Search className="absolute left-2 top-2 h-4 w-4 text-stone-400" />
+   306→              <Input value={search} onChange={(e) => setSearch(e.target.value)}
+   307→                placeholder="search code / session…" className="h-8 pl-7 text-xs" />
+   308→            </div>
+   309→          </CardHeader>
+   310→          <CardContent className="p-0">
+   311→            <ScrollArea className="h-[calc(100vh-320px)] min-h-72">
+   312→              <div className="px-3 pb-3 space-y-1">
+   313→                {papers.map((p) => {
+   314→                  const counts = decisions?.paperCounts[p.id];
+   315→                  return (
+   316→                    <button key={p.id}
+   317→                      onClick={() => setSelectedId(p.id)}
+   318→                      className={`w-full text-left rounded-md border px-2.5 py-2 transition-colors hover:bg-stone-100 ${
+   319→                        selectedId === p.id ? "border-emerald-500 bg-emerald-50" : "border-transparent"
+   320→                      }`}>
+   321→                      <div className="flex items-center gap-2">
+   322→                        <span className="font-mono text-xs font-semibold">{p.paperCode}</span>
+   323→                        <span className="text-xs text-stone-600">{p.sessionLabel}</span>
+   324→                        <span className="ml-auto">{bridgeBadge(p.bridgeStatus)}</span>
+   325→                      </div>
+   326→                      <div className="mt-0.5 flex items-center gap-2 text-[11px] text-stone-500">
+   327→                        <span>{p.questions} Q · {p.parts} parts · {p.points} pts</span>
+   328→                        {counts && (counts.validated + counts.rejected + counts.flagged > 0) && (
+   329→                          <span className="ml-auto">
+   330→                            <span className="text-emerald-700">{counts.validated}✓</span>{" "}
+   331→                            <span className="text-rose-700">{counts.rejected}✗</span>{" "}
+   332→                            <span className="text-amber-700">{counts.flagged}⚑</span>
+   333→                          </span>
+   334→                        )}
+   335→                      </div>
+   336→                    </button>
+   337→                  );
+   338→                })}
+   339→                {papers.length === 0 && <p className="text-xs text-stone-500 p-2">no sessions match</p>}
+   340→              </div>
+   341→            </ScrollArea>
+   342→          </CardContent>
+   343→        </Card>
+   344→
+   345→        {/* dossier */}
+   346→        <div className="min-w-0">
+   347→          {!selectedId && (
+   348→            <Card className="grid place-items-center min-h-72">
+   349→              <CardContent className="text-center text-sm text-stone-500 py-10">
+   350→                <FileText className="mx-auto h-8 w-8 mb-2 text-stone-300" />
+   351→                Select a session to review its imported content.
+   352→              </CardContent>
+   353→            </Card>
+   354→          )}
+   355→          {selectedId && dossierLoading && (
+   356→            <Card className="grid place-items-center min-h-72">
+   357→              <CardContent className="flex items-center gap-2 text-sm text-stone-500 py-10">
+   358→                <RefreshCw className="h-4 w-4 animate-spin" /> loading dossier…
+   359→              </CardContent>
+   360→            </Card>
+   361→          )}
+   362→          {selectedId && dossierCurrent && (
+   363→            <div className="space-y-3">
+   364→              {/* paper header */}
+   365→              <Card>
+   366→                <CardHeader className="pb-2">
+   367→                  <CardTitle className="text-base flex flex-wrap items-center gap-2">
+   368→                    <span className="font-mono">{openPaper?.paperCode}</span>
+   369→                    <span>{openPaper?.sessionLabel}</span>
+   370→                    {bridgeBadge(dossier.bridge?.status || "UNKNOWN")}
+   371→                    {stagedBadge(decisions?.effective || {}, selectedId, openPaper?.validationState)}
+   372→                  </CardTitle>
+   373→                  <div className="text-xs text-stone-500">
+   374→                    {openPaper?.title} · {openPaper?.board} · {openPaper?.qualification} ·
+   375→                    {" "}provenance {openPaper?.provenance} · bridge {openPaper?.bridge}
+   376→                  </div>
+   377→                </CardHeader>
+   378→                <CardContent className="flex flex-wrap items-center gap-2">
+   379→                  <span className="text-xs text-stone-500 mr-1">session decision:</span>
+   380→                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-emerald-700 border-emerald-300 hover:bg-emerald-50"
+   381→                    disabled={!decidable(openPaper?.validationState) || decisions?.effective[selectedId!] === "VALIDATED" || decisions?.effective[selectedId!] === "REJECTED"}
+   382→                    onClick={() => act("VALIDATE", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+   383→                    <CheckCircle2 className="h-3.5 w-3.5" /> validate session
+   384→                  </Button>
+   385→                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-rose-700 border-rose-300 hover:bg-rose-50"
+   386→                    disabled={!decidable(openPaper?.validationState) || decisions?.effective[selectedId!] === "VALIDATED" || decisions?.effective[selectedId!] === "REJECTED"}
+   387→                    onClick={() => act("REJECT", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+   388→                    <XCircle className="h-3.5 w-3.5" /> reject
+   389→                  </Button>
+   390→                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-amber-700 border-amber-300 hover:bg-amber-50"
+   391→                    onClick={() => act("FLAG", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+   392→                    <Flag className="h-3.5 w-3.5" /> flag
+   393→                  </Button>
+   394→                  {pc && (
+   395→                    <span className="ml-auto text-[11px] text-stone-500">
+   396→                      staged here: <b className="text-emerald-700">{pc.validated}</b> validated ·{" "}
+   397→                      <b className="text-rose-700">{pc.rejected}</b> rejected · <b className="text-amber-700">{pc.flagged}</b> flagged
+   398→                    </span>
+   399→                  )}
+   400→                </CardContent>
+   401→              </Card>
+   402→
+   403→              <Tabs defaultValue="questions">
+   404→                <TabsList>
+   405→                  <TabsTrigger value="questions">Questions ({dossier.questions.length})</TabsTrigger>
+   406→                  <TabsTrigger value="findings">Reconciliation ({dossier.bridge?.findings?.length || 0})</TabsTrigger>
+   407→                  <TabsTrigger value="qp">QP source</TabsTrigger>
+   408→                  <TabsTrigger value="ms">MS source</TabsTrigger>
+   409→                </TabsList>
+   410→
+   411→                <TabsContent value="questions" className="space-y-3 mt-3">
+   412→                  {dossier.questions.map((q) => {
+   413→                    const label = `${q.externalRef} — ${q.prompt?.slice(0, 60) || ""}`;
+   414→                    return (
+   415→                      <Card key={q.id}>
+   416→                        <CardHeader className="pb-2">
+   417→                          <CardTitle className="text-sm flex flex-wrap items-center gap-2">
+   418→                            <span className="font-mono text-xs bg-stone-100 rounded px-1.5 py-0.5">{q.externalRef}</span>
+   419→                            <Badge variant="outline" className="text-[10px]">{q.type}</Badge>
+   420→                            {q.marks !== null && <Badge variant="outline" className="text-[10px]">{q.marks} marks</Badge>}
+   421→                            {q.commandWord && <Badge variant="outline" className="text-[10px]">{q.commandWord}</Badge>}
+   422→                            {q.topicNode && <span className="text-[10px] text-stone-400">{q.topicNode}</span>}
+   423→                            <span className="ml-auto flex gap-1">
+   424→                              {stagedBadge(decisions?.effective || {}, q.versionId, q.validationState)}
+   425→                            </span>
+   426→                          </CardTitle>
+   427→                        </CardHeader>
+   428→                        <CardContent className="space-y-2 text-sm">
+   429→                          <p className="whitespace-pre-wrap leading-relaxed">{q.prompt}</p>
+   430→
+   431→                          {q.options.length > 0 && (
+   432→                            <div className="grid gap-1 sm:grid-cols-2">
+   433→                              {q.options.map((o) => (
+   434→                                <div key={o.label}
+   435→                                  className={`rounded border px-2 py-1 text-xs flex gap-2 ${String(o.isCorrect) === "true" ? "border-emerald-300 bg-emerald-50" : ""}`}>
+   436→                                  <b>{o.label}</b><span>{o.text}</span>
+   437→                                  {String(o.isCorrect) === "true" && <CheckCircle2 className="h-3.5 w-3.5 ml-auto text-emerald-600" />}
+   438→                                </div>
+   439→                              ))}
+   440→                            </div>
+   441→                          )}
+   442→
+   443→                          {q.parts.length > 0 && (
+   444→                            <div className="rounded border divide-y">
+   445→                              {q.parts.map((p) => (
+   446→                                <div key={p.id} className="px-2 py-1.5 flex gap-2 text-xs">
+   447→                                  <b className="font-mono w-8 shrink-0">({p.label})</b>
+   448→                                  <span className="whitespace-pre-wrap">{p.text}</span>
+   449→                                </div>
+   450→                              ))}
+   451→                            </div>
+   452→                          )}
+   453→
+   454→                          {q.schemes.map((s) => (
+   455→                            <div key={s.id} className="rounded border border-stone-200 bg-stone-50">
+   456→                              <div className="px-2 py-1.5 flex items-center gap-2 border-b bg-white rounded-t">
+   457→                                <span className="text-xs font-semibold">Mark scheme #{s.questionNumber}</span>
+   458→                                <Badge variant="outline" className="text-[10px]">{s.validationState}</Badge>
+   459→                                <span className="ml-auto flex items-center gap-1">
+   460→                                  {stagedBadge(decisions?.effective || {}, s.id, s.validationState).slice(-1)}
+   461→                                  {decidable(s.validationState) && decisions?.effective[s.id] !== "VALIDATED" && decisions?.effective[s.id] !== "REJECTED" && (
+   462→                                    <>
+   463→                                      <button className="text-[10px] text-emerald-700 hover:underline"
+   464→                                        onClick={() => act("VALIDATE", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>validate</button>
+   465→                                      <button className="text-[10px] text-rose-700 hover:underline"
+   466→                                        onClick={() => act("REJECT", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>reject</button>
+   467→                                      <button className="text-[10px] text-amber-700 hover:underline"
+   468→                                        onClick={() => act("FLAG", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>flag</button>
+   469→                                    </>
+   470→                                  )}
+   471→                                </span>
+   472→                              </div>
+   473→                              <div className="divide-y">
+   474→                                {s.points.map((m) => (
+   475→                                  <div key={m.id} className="px-2 py-1.5 flex gap-2 text-xs">
+   476→                                    <b className="font-mono w-12 shrink-0">{m.partLabel}</b>
+   477→                                    <span className="whitespace-pre-wrap">{m.text}</span>
+   478→                                    {m.marks !== null && m.marks !== "" && (
+   479→                                      <Badge variant="outline" className="ml-auto h-4 text-[10px] shrink-0">{m.marks}</Badge>
+   480→                                    )}
+   481→                                  </div>
+   482→                                ))}
+   483→                              </div>
+   484→                            </div>
+   485→                          ))}
+   486→
+   487→                          <div className="flex items-center gap-2 pt-1">
+   488→                            <span className="text-[11px] text-stone-500">question decision:</span>
+   489→                            <Button size="sm" variant="outline" className="h-6 text-[11px] gap-1 text-emerald-700 border-emerald-300 hover:bg-emerald-50"
+   490→                              disabled={!decidable(q.validationState) || decisions?.effective[q.versionId || ""] === "VALIDATED" || decisions?.effective[q.versionId || ""] === "REJECTED"}
+   491→                              onClick={() => act("VALIDATE", TARGET_VERSION, q.versionId!, label)}>
+   492→                              <CheckCircle2 className="h-3 w-3" /> validate
+   493→                            </Button>
+   494→                            <Button size="sm" variant="outline" className="h-6 text-[11px] gap-1 text-rose-700 border-rose-300 hover:bg-rose-50"
+   495→                              disabled={!decidable(q.validationState) || decisions?.effective[q.versionId || ""] === "VALIDATED" || decisions?.effective[q.versionId || ""] === "REJECTED"}
+   496→                              onClick={() => act("REJECT", TARGET_VERSION, q.versionId!, label)}>
+   497→                              <XCircle className="h-3 w-3" /> reject
+   498→                            </Button>
+   499→                            <Button size="sm" variant="outline" className="h-6 text-[11px] gap-1 text-amber-700 border-amber-300 hover:bg-amber-50"
+   500→                              onClick={() => act("FLAG", TARGET_VERSION, q.versionId!, label)}>
+   501→                              <Flag className="h-3 w-3" /> flag
+   502→                            </Button>
+   503→                          </div>
+   504→                        </CardContent>
+   505→                      </Card>
+   506→                    );
+   507→                  })}
+   508→                </TabsContent>
+   509→
+   510→                <TabsContent value="findings" className="mt-3">
+   511→                  <Card>
+   512→                    <CardContent className="pt-4">
+   513→                      {!dossier.bridge?.findings?.length && <p className="text-sm text-stone-500">No reconciliation findings recorded.</p>}
+   514→                      <div className="space-y-1.5">
+   515→                        {dossier.bridge?.findings?.map((f, i) => (
+   516→                          <div key={i} className="rounded border px-2 py-1.5 text-xs flex gap-2 items-start">
+   517→                            <Badge variant="outline" className={
+   518→                              f.severity === "qp-only" || f.severity === "ms-only" ? "text-amber-700 border-amber-300" : ""
+   519→                            }>{String(f.severity)}</Badge>
+   520→                            <span className="font-mono">{String(f.questionNumber)}</span>
+   521→                            <span>{String(f.detail)}</span>
+   522→                            <span className="ml-auto text-stone-400 shrink-0">
+   523→                              QP {String(f.qpMarks)} / MS {String(f.msMarks ?? "—")}
+   524→                            </span>
+   525→                          </div>
+   526→                        ))}
+   527→                      </div>
+   528→                    </CardContent>
+   529→                  </Card>
+   530→                </TabsContent>
+   531→
+   532→                {(["qp", "ms"] as const).map((which) => {
+   533→                  const src = which === "qp" ? dossier.questionPaper : dossier.markSchemePaper;
+   534→                  return (
+   535→                    <TabsContent key={which} value={which} className="mt-3">
+   536→                      <Card>
+   537→                        <CardHeader className="pb-1">
+   538→                          <CardTitle className="text-xs flex flex-wrap gap-2 items-center">
+   539→                            <span>{which === "qp" ? "Question paper (as ingested)" : "Mark scheme (as ingested)"}</span>
+   540→                            <Badge variant="outline" className="text-[10px]">{src?.engine} {src?.engineVersion}</Badge>
+   541→                            <span className="text-stone-400 font-normal">{src?.sourceUri}</span>
+   542→                            <span className="ml-auto text-stone-400 font-normal">sha-256 {String(src?.checksum || "").slice(0, 16)}…</span>
+   543→                          </CardTitle>
+   544→                        </CardHeader>
+   545→                        <CardContent>
+   546→                          <ScrollArea className="h-[60vh]">
+   547→                            <div className="space-y-2 pr-3">
+   548→                              {src?.chunks.map((c) => (
+   549→                                <div key={c.index} className="rounded border">
+   550→                                  <div className="px-2 py-1 bg-stone-100 text-[10px] font-mono text-stone-500">chunk {c.index}</div>
+   551→                                  <pre className="px-3 py-2 text-xs whitespace-pre-wrap font-mono leading-relaxed">{c.content}</pre>
+   552→                                </div>
+   553→                              ))}
+   554→                            </div>
+   555→                          </ScrollArea>
+   556→                        </CardContent>
+   557→                      </Card>
+   558→                    </TabsContent>
+   559→                  );
+   560→                })}
+   561→              </Tabs>
+   562→            </div>
+   563→          )}
+   564→        </div>
+   565→      </main>
+   566→
+   567→      {/* decision note dialog */}
+   568→      {dialog && (
+   569→        <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true"
+   570→          onClick={() => setDialog(null)}>
+   571→          <div className="w-full max-w-md rounded-lg bg-white p-4 shadow-lg" onClick={(e) => e.stopPropagation()}>
+   572→            <h3 className="text-sm font-semibold mb-1">{dialog.kind === "REJECT" ? "Reject with reason" : "Flag for review"}</h3>
+   573→            <p className="text-xs text-stone-500 mb-2">{dialog.label}</p>
+   574→            <Textarea value={dialog.note} onChange={(e) => setDialog({ ...dialog, note: e.target.value })}
+   575→              placeholder={dialog.kind === "REJECT" ? "reason (required, min 4 chars)…" : "what needs review? (required, min 4 chars)…"}
+   576→              className="mb-3 text-xs" rows={3} />
+   577→            <div className="flex justify-end gap-2">
+   578→              <Button size="sm" variant="outline" onClick={() => setDialog(null)}>cancel</Button>
+   579→              <Button size="sm"
+   580→                className={dialog.kind === "REJECT" ? "bg-rose-600 hover:bg-rose-600" : "bg-amber-500 hover:bg-amber-500"}
+   581→                onClick={async () => {
+   582→                  const d = dialog;
+   583→                  setDialog(null);
+   584→                  await stageDecision({ action: d.kind, targetType: d.targetType, targetId: d.targetId, note: d.note },
+   585→                    d.kind === "REJECT" ? "REJECT staged" : "FLAG staged");
+   586→                }}>
+   587→                stage {dialog.kind.toLowerCase()}
+   588→              </Button>
+   589→            </div>
+   590→          </div>
+   591→        </div>
+   592→      )}
+   593→
+   594→      {/* sticky footer */}
+   595→      <footer className="mt-auto border-t bg-white">
+   596→        <div className="mx-auto max-w-7xl px-4 py-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-stone-500">
+   597→          <span>Derived read model from retained campaign dump <span className="font-mono">c06d8ab3…</span> (byte-identical isolation proof, 2026-09-13)</span>
+   598→          <span>·</span>
+   599→          <span>Canonical DB provisioning: <b>pending repo access</b> — V1..V16 immutable, replay path machine-gated</span>
+   600→          <span className="ml-auto">Decisions are staged only · hash-chained log · durable copy at export</span>
+   601→        </div>
+   602→      </footer>
+   603→    </div>
+   604→  );
+   605→}
+   606→
