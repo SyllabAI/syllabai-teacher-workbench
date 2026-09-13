@@ -1,0 +1,10 @@
+3f44e99059c49f3910e6783de9a01609c075586db320057dfeca0e78e8b2ea05  VERIFICATION-VERDICT.txt
+04468fdce271066579c5d867322451c78d150c9b8979df8f28e88b578ee14b50  baseline-vs-retained.diff
+f525e69763af9eb04b32617be66f840712ce4d3f1457ad1c3108458f5930cec7  negative-gate-test.log
+22ba73ef335dc98e2cd2ef7bad43e526adea6f18bd3c23e4a1badafa7435fff2  isolation-verdict.txt
+0ae4b9dfe08a7a54852220914678fcaa21b4f032cd516de252f3710481512afe  parser-suite-summary.txt
+cd839caba6e1b01c965fa9db7e265c6bc970c7abbddb2fcfc03dfb64c7ef253f  /home/z/my-project/download/campaign-baseline/campaign-baseline.json
+f6dc51cedbdcdd9a83a313c9c4c20e1eaf4dafe1bdff98c35273cb0f267151f2  /home/z/my-project/download/isolation-proof/after.dump.gz
+5d02d09e36c3c778d8919d2b9e50ec6d270d3c9641dc44a0df4a5b6ef1e81f33  /home/z/my-project/download/isolation-proof/suite-run.log
+4514f1a5ab8b1a188d4ece63291409e463f4f1c6d557b3a6a786ad134f2c8452  /home/z/my-project/download/isolation-proof/parser-suite-run.log
+9f3a37a940403de5c5e7bb0c34679adbdf476a3bd2b261c72e581f308e25593f  /home/z/my-project/download/ingestion-campaign-r2/cumulative-audit.json

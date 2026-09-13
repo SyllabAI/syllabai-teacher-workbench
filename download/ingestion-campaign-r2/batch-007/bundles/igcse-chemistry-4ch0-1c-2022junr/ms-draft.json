@@ -1,0 +1,707 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70946A",
+    "publicationCode" : "4CH1_1CR_2206_MS",
+    "session" : "Summer 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "240b0052-eb0f-58a9-9406-5a5e9af6a653"
+  },
+  "entries" : [ {
+    "entryId" : "ms-240b0052-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Atomic number of this atom4Mass number of this atom9Period number of this element2Number of electrons in the2+ion formed from this atom2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark each correct answer"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Similarity = number of protonsDifference = number of neutrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW both isotopes have4 protonsALLOW references to electronsALLOW stated exampleseg one isotope has5 neutrons,the other has6 neutronsIf similarity: same atomic number and difference: different mass numberALLOW1 mark"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Apparatus\n(gas) syringe\n(top pan) balance OR\n(weighing) scales\nM2 so the water vapour/steam condenses\nM2 white precipitate\nM2 (boiling point is) 100℃\nOR\nM1 measure its freezing point",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Unit"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ml"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW words"
+    }, {
+      "kind" : "note",
+      "text" : "e.g.grams"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weighing"
+    }, {
+      "kind" : "note",
+      "text" : "machine"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW kg"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark each correct row/column"
+    }, {
+      "kind" : "note",
+      "text" : "Mark horizontally or vertically (whichever benefits the candidate)"
+    }, {
+      "kind" : "note",
+      "text" : "cm3"
+    }, {
+      "kind" : "note",
+      "text" : "g OR mg"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 to cool (the water vapour/steam)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to keep condenser cool"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 add silver nitrate/AgNO3(solution)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE addition of nitric acid but REJECT addition of hydrochloric/sulfuric acid for M1"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 measure its boiling point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW boil it"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (freezing point is) 0℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW freeze it"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A and B"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 2 and 8"
+    }, {
+      "kind" : "note",
+      "text" : "0.25 without working scores 2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 for 1.8-2.2 and 8 and ALLOW M2 ECF as long as correctly evaluated to at least 2 SF"
+    }, {
+      "kind" : "note",
+      "text" : "(Special case if used ruler and then) 1.4-1.7 and 5.9-6.2 used no M1 but ALLOW M2 ECF as long as correctly evaluated to at least 2 SF"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "the dye is the most soluble (in the solvent/water)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any four from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 draw start line in pencil"
+    }, {
+      "kind" : "note",
+      "text" : "M2 use same food colourings/use same solvent/use same (type of chromatography) paper"
+    }, {
+      "kind" : "note",
+      "text" : "M3 place (spots/samples of) A, B, C, D/food colourings on the start line OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M4 (place paper in beaker) with start line above solvent OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M5 (remove paper/stop experiment) when solvent almost reaches top of paper/when spots stop moving OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M6 mark solvent front (on paper)"
+    }, {
+      "kind" : "note",
+      "text" : "M7 (remove paper from beaker and) allow to dry"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water for solvent throughout"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dye for food colouring throughout"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE length of paper"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one from:NaKAlIn",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW names of elementsApply list principle"
+    }, {
+      "kind" : "note",
+      "text" : "Any one fromSCl"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW names of elements"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "same number/three electrons in the outer shell"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW valence shell"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Xe or xenon"
+    }, {
+      "kind" : "note",
+      "text" : "M2 as it has a full outer shell(of electrons)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW has eight electrons in outer shellACCEPT does not(easily) gain/lose/share electronsM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(universal indicator turns) blue or purple"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because an alkali is produced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT OH-/hydroxide ions are producedALLOW sodium hydroxide is a base/a base is produced"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(similarity) any one from:(both)effervesce melt/turn into a spheremove on surfaceuniversal indicator turns the same colour"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fizzes/bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "(difference) any one from:potassium gives a lilac flamepotassium moves fasterpotassium effervesces faster"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW faster/more vigorous reaction for potassiumALLOW reverse arguments for sodium"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores 3 marks"
+    }, {
+      "kind" : "note",
+      "text" : "M1(moles of hydrogen)0.036÷2OR0.018molM20.018×6.0×1023OR1.08×1022moleculesM31.1×1022"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF M1×6.0×1023ALLOW ECF M2but must be to 2 sig figs2.16×1022scores12.2×1022scores2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(put the carbonate in the boiling tube) and the limewater in the test tube",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2heat the carbonate and time how long it takes for the limewater to turn cloudy OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3repeat with the same mass/amount/number of moles of another carbonate"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT repeat with another carbonate using same volume of limewater OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M4(the carbonate which decomposes the fastest) will turn the limewater cloudy in the least time"
+    }, {
+      "kind" : "note",
+      "text" : "To score M4 reference to limewater turning cloudy must be mentioned at least once somewhere in answer"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "to prevent loss of solid/XCO3/carbonate/XO"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so only carbon dioxide/gas can escape"
+    }, {
+      "kind" : "note",
+      "text" : "0.05"
+    }, {
+      "kind" : "note",
+      "text" : "0.05"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M17.40÷0.05M2148"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores2ALLOW ECF from(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1Arof metal=148-60OR88M2metal is strontium/Sr"
+    }, {
+      "kind" : "note",
+      "text" : "If(iv)correct strontium/Sr scores2without workingALLOW ECF from(iv)ALLOW ECF fromM1as long as answer is nearest Group2 metal"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 shared pair(s) of electronsM2 attracted to(two) nuclei",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT nucleus.Must be plural for M2M2 dep on mention of electrons in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "a pair of electrons in each bond and no non-bonding electrons."
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dots, crosses or any combination"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one fromM1 oxygen is a smaller atom/particle than siliconM2 each(atom of) oxygen forms two bonds(to silicon atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 silicon dioxide has a giant(covalent) structureM2(in melting silicon dioxide) strong/many covalent bonds(need to be broken)M3(in melting silicon hydride) weak intermolecular forces(of attraction need to be overcome/broken)M4 more(thermal/heat) energy is needed to break the(covalent) bonds(in SiO2) than break/overcome the intermolecular forces(in SiH4)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW description of covalent bonds as long as strong/many mentionedALLOW weak intermolecular bondsMax 2 if contradictions/references to incorrect forces/particles"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "SiH4+2O2→SiO2+2H2Oall formula correct and equation correctly balanced"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbolsALLOW multiples and fractions"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any five from",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "M2 crude oil heated/vapourised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW boiled"
+    }, {
+      "kind" : "note",
+      "text" : "M3 reference to (fractionating) column/tower"
+    }, {
+      "kind" : "note",
+      "text" : "M4 which is hotter at the bottom than at the top"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to temperature gradient ALLOW the hydrocarbons/gases/vapours cool as they rise up the column"
+    }, {
+      "kind" : "note",
+      "text" : "M5 shorter hydrocarbons/chains/molecules have lower boiling point (and rise higher/towards the top)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "M6 fractions/hydrocarbons/gases/vapours/kerosene condense(s) at (levels depending on) their boiling points OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct reference to position of kerosene fraction below refinery gases and gasoline fractions or above diesel and fuel oil fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C8H18"
+    }, {
+      "kind" : "note",
+      "text" : "Any four from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fractional distillation/crude oil produces more long-chain hydrocarbons than can be used (directly)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW short(er) chain hydrocarbons are in higher demand/more useful than long(er) chain hydrocarbons ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 cracking produces short chain alkanes"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW cracking changes long(er) chain hydrocarbons into short(er) chain hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "M3 short chain alkanes/hydrocarbons are more flammable/can be used as fuels"
+    }, {
+      "kind" : "note",
+      "text" : "M4 cracking produces alkene(s)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE named alkene"
+    }, {
+      "kind" : "note",
+      "text" : "M5 alkenes can be used to make polymers"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW named alkene forming (named) polymer e.g. ethene can be used to make poly(ethene)/polymer"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "zinc+copper(II)sulfate→zinc sulfate+copper",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT copper(II)as a productACCEPT zinc(II)sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "polystyrene is an insulator/ prevents heat loss"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to prevent the cup falling over"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "zinc is more reactive/higher in the reactivity series than copper"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 temperature rise=28.6℃M2(75×4.2×28.6=)9009"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores2ALLOW9010/9000IGNORE any signALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1800÷1000OR0.8(kJ)M20.65÷65OR0.01(mol)M30.8÷0.01=-80(kJ/mol)ORM10.65÷65OR0.01(mol)M2800÷0.01OR80000(J/mol)M3-80(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores3ALLOW ECF but answer must have a-sign80/+80 scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1zinc/Zn is oxidised because loses electronsM2silver ion(s)/Ag+reduced because gain electronsORM1zinc/Zn is oxidised and silver ion(s)/Ag+reducedM2zinc/Zn loses electrons and silver ion(s)/Ag+gain electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 copper(II) sulfate(solution)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW copper sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 shortest time taken to turn colourless"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gave greatest increase in rate OWTTE ALLOW made reaction happen fastest OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M1 a catalyst provides an alternative pathway"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 of lower activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "Any reference to increasing energy/speed of particles scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation with following four points"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the rate of reaction increases/the reaction is faster/the reaction speeds up"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the particles gain(kinetic) energy/move faster"
+    }, {
+      "kind" : "note",
+      "text" : "M3 there are more collisions per unit time"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT more frequent collisions OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M4 more of the collisions are successful/more collisions/particles have energy greater than the activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "No M4 if refer to lower activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "there are more frequent successful collisions scores M3 and M4"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fewer particles per unit volume"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles less tightly packed/particles further apart"
+    }, {
+      "kind" : "note",
+      "text" : "M2(hence) fewer collisions per unit time"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW decrease in the frequency of collisions between particles"
+    }, {
+      "kind" : "note",
+      "text" : "Any reference to changing energy/speed of particles scores 0"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-240b0052-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "measuring cylinder / burette / pipette"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW syringe"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 and M2 all the points correct ± half a square"
+    }, {
+      "kind" : "note",
+      "text" : "If only one plotting error scores M1"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "2 straight lines of best fit, ignoring the anomalous point"
+    }, {
+      "kind" : "note",
+      "text" : "Left line does not have to go through/use (0.0,10.0) if point has not been plotted"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "as the volume of sulfuric acid increases the (electrical) conductivity decreases"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to gradient/slope/correlation"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "(the student) forgot to stir the mixture"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any reference to adding less acid/lower volume (than should have done) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 barium sulfate has a (giant) ionic structure OR has ionic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ionic substances do not conduct when solid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW only conduct when dissolved/molten ALLOW in solid ions cannot move"
+    }, {
+      "kind" : "note",
+      "text" : "M3 water has covalent bonding and covalent compounds do not (usually) conduct electricity"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water does not conduct because it is covalent"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "filtration OR filtering"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE explanations of why covalent do not conduct"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 6,
+    "2" : 8,
+    "3" : 9,
+    "4" : 12,
+    "5" : 11,
+    "6" : 9,
+    "7" : 15,
+    "8" : 10,
+    "9" : 10,
+    "10" : 10,
+    "11" : 10
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: (d)(i)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (11)(a)(i)", "orphan row before first entry: M2W(s)+3H2O(g or I)", "orphan row before first entry: heat again to constant mass OWTTE", "orphan row before first entry: M1(mass of tungsten=)1.84g", "orphan row before first entry: AND(mass of oxygen=)0.48g", "orphan row before first entry: M2(moles of tungsten)=1.84or0.01184", "orphan row before first entry: AND(moles of oxygen)=0.48or0.0316", "orphan row before first entry: (14)(iv)", "orphan row before first entry: Any one from", "orphan row before first entry: M1 use a safety screen", "orphan row before first entry: M2 position the class some distance from the apparatus OWTTE", "orphan row before first entry: (b)", "orphan row before first entry: M1 moles of tungsten oxide=(2784×106÷232)=12000000", "orphan row before first entry: M2 maximum mass of tungsten=(12000000×184)=2208000000g OR2208tonnes", "orphan row before first entry: M3 mass of tungsten(considering73.5% yield)=(73.5×2208÷100)=1622.88(tonnes)" ]
+}

@@ -1,0 +1,499 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2011",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "09f487b0-e064-5bce-aed9-e576a44fb6da"
+  },
+  "entries" : [ {
+    "entryId" : "ms-09f487b0-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• Fizzing occurs (box 2)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "• potassium moves around (box 4)"
+    }, {
+      "kind" : "note",
+      "text" : "• potassium melts (box 5)"
+    }, {
+      "kind" : "note",
+      "text" : "• a lilac flame is seen (box 7)"
+    }, {
+      "kind" : "note",
+      "text" : "[If more than four boxes are ticked, deduct a mark for each incorrect answer above four]"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "iron",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "haematite"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "ammonia"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "sodium hydroxide"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "ammonia"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Magnesium",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Mg"
+    }, {
+      "kind" : "note",
+      "text" : "(a)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "It would react with the sulfuric acid/the clouds/the atmosphere/it will fizz"
+    }, {
+      "kind" : "note",
+      "text" : "It is too reactive/very reactive/the most reactiveDissolve in the(sulfuric) acid/eq"
+    }, {
+      "kind" : "note",
+      "text" : "“reactive” by itself"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "it has low melting point/would melt/temperature on Venus is higher than the melting point of lead(ora)IGNORE heavy/dense"
+    }, {
+      "kind" : "note",
+      "text" : "Lead would be a liquidAnswer using data from table e.g.328℃ is lower than temp on Venus"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "TitaniumAny two from: it has a low density/is lightweightit has a high melting point/wouldn’t melt/temperature on Venus is lower than the melting point of titanium(ora)does not react with sulfuric acid/the clouds/the atmosphere/it will not fizz"
+    }, {
+      "kind" : "note",
+      "text" : "TiThe probe would be lightRemains solidReason marks can be scored for copper(density mark would need to be compared to lead)"
+    }, {
+      "kind" : "note",
+      "text" : "Light on its own/light in weight on its own"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Contains a (carbon to carbon) double bond / contains C=C / multiple bond\nIGNORE references to ‘free’ bond / spare bond",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Can undergo addition reactions / does not contain the maximum number of hydrogen (atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(add) bromine (water) / Br2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to any other solvent"
+    }, {
+      "kind" : "note",
+      "text" : "decolourised / turns (from orange/brown to) colourless"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE starting colour"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE discolour"
+    }, {
+      "kind" : "note",
+      "text" : "2ndmark dependent on 1stmark having been awarded, but for near miss on reagent, e.g. bromine in presence of uv, observation mark can be awarded"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to any products, correctly named or otherwise"
+    }, {
+      "kind" : "note",
+      "text" : "KMnO4 / potassium (per) manganate (VII) with either an acid or an alkali"
+    }, {
+      "kind" : "note",
+      "text" : "(purple to) colourless (if acid used)"
+    }, {
+      "kind" : "note",
+      "text" : "(purple to) green (if alkali used)"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from magnesium chloride, calcium chloride, iron(II) chloride\nIf more than 2 given, deduct 1 mark for each incorrect answer\nIf name and formula given, both must be correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "MgCl2/ CaCl2/ FeCl2/ ferrous chloride/ iron chloride"
+    }, {
+      "kind" : "note",
+      "text" : "Iron(III) chloride/ ferric chloride"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "To check the reliability/ repeatability(of the results/method)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to obtaining a mean/average"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to identifying anomalous results"
+    }, {
+      "kind" : "note",
+      "text" : "To get concordant/ consistent/precise results"
+    }, {
+      "kind" : "note",
+      "text" : "To increase the accuracy(of the results)"
+    }, {
+      "kind" : "note",
+      "text" : "To increase the validity/to make it a fair test"
+    }, {
+      "kind" : "note",
+      "text" : "To increase the accuracy of the method"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "4.30 circled"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Repeat the experiment"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to validity/fair test"
+    }, {
+      "kind" : "note",
+      "text" : "Discard/ignore this result"
+    }, {
+      "kind" : "note",
+      "text" : "Work out average only using other 2 results"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q5d",
+    "label" : "5(d)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Burette",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Minor spelling mistakes, e.g. burrete / burete"
+    }, {
+      "kind" : "note",
+      "text" : "Biuret"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "$\\frac{(1.60+1.70+1.65)}{3}$"
+    }, {
+      "kind" : "note",
+      "text" : "=1.65"
+    }, {
+      "kind" : "note",
+      "text" : "(2ndmark consequential on 1st and can be awarded if small slip in data)"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer on its own scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for a correct average of the data for any other row except iron(II) chloride or water"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for use of 1.90 and 1.95 to give 1.93"
+    }, {
+      "kind" : "note",
+      "text" : "Any answer not to 2 d.p.(loses 2ndmark only)"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Giant (structure / lattice / atomic / molecular)\nCovalent\nIdea that (covalent) bonds are broken(Covalent bonds) are strong / many bonds (are broken) / lots of {energy/heat} required\nNB No penalty for referring to graphite",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Macromolecular"
+    }, {
+      "kind" : "note",
+      "text" : "Max 2 for mentioning of ionic or metallic bonding orIntermolecular forcesBonds loosened"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Layers slide / slip / move over each otherIGNORE particles in layers such as atoms, butREJECT if ions / molecules / electrons for first mark only"
+    }, {
+      "kind" : "note",
+      "text" : "Sheets / planes slide"
+    }, {
+      "kind" : "note",
+      "text" : "Rows slide"
+    }, {
+      "kind" : "note",
+      "text" : "Weak (intermolecular forces of) attraction between layers / weak van der Waals (forces of attraction) between layers"
+    }, {
+      "kind" : "note",
+      "text" : "Any indication that the forces are those of attraction, e.g. forces overcome / forces are broken / forces hold the layers together"
+    }, {
+      "kind" : "note",
+      "text" : "Any reference to bonds between layers / molecules"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to bonds within the layers"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Delocalised electrons(which) move / mobile / flowIGNORE references to “carrying” charge / current"
+    }, {
+      "kind" : "note",
+      "text" : "Refs to atoms / ions / molecules scores 0/2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q6d",
+    "label" : "6(d)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nNot a giant structure\nIGNORE simple molecular\nWeak intermolecular (forces of ) attraction/weak (forces of) attraction between molecules/weak van der Waals (forces of attraction) between molecules\nNo covalent bonds break (when melting)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Smaller molecules/simpler structure than diamond"
+    }, {
+      "kind" : "note",
+      "text" : "Any indication that the forces are those of attraction,e.g.forces overcome/forces broken/forces hold the molecules together"
+    }, {
+      "kind" : "note",
+      "text" : "First and third marking points can be awarded for correct comparisons between the two structures,e.g.buckminsterfullerene is simple molecular whereas diamond is giant covalent scores the first mark;weak intermolecular forces of attraction in buckminsterfullerene are broken as opposed to the covalent bonds in diamond(scores the 3rd mark,as well as the 2nd)"
+    }, {
+      "kind" : "note",
+      "text" : "MAX1 for any mention of covalent bonds are broken in Buckminster fullerene"
+    }, {
+      "kind" : "note",
+      "text" : "Any reference to bonds between molecules"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "It (like water) is a colourless (liquid)\nIgnore it is clear / transparent\nIgnore references to smell",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "it looks the same"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(Sulfuric acid / it) contains water"
+    }, {
+      "kind" : "note",
+      "text" : "Aqueous"
+    }, {
+      "kind" : "note",
+      "text" : "(Copper sulfate) becomes hydrated"
+    }, {
+      "kind" : "note",
+      "text" : "Contains hydrogen and oxygen / the elements of water"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Pressure: >1 but ≤5(atm)"
+    }, {
+      "kind" : "note",
+      "text" : "Temperature:350 to 550(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "Catalyst:vanadium(V)oxide"
+    }, {
+      "kind" : "note",
+      "text" : "Any range within this range, including1-2atm"
+    }, {
+      "kind" : "note",
+      "text" : "Any range within this range"
+    }, {
+      "kind" : "note",
+      "text" : "Vanadium pentoxide/V2O5/vanadium oxide/vanadium(5)oxide"
+    }, {
+      "kind" : "note",
+      "text" : "Values in alternative units"
+    }, {
+      "kind" : "note",
+      "text" : "Values in alternative units"
+    }, {
+      "kind" : "note",
+      "text" : "other oxidation states"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-09f487b0-q8di",
+    "label" : "8(d)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "30(.00)x0.2(00)1000",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "30(.00)x0.2",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "30(.00)x0.2"
+    }, {
+      "ordinal" : 2,
+      "text" : "1000",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "1000"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "=0.006(00)"
+    }, {
+      "kind" : "note",
+      "text" : "6 for 1 mark only(i.e. not dividing by 1000)"
+    }, {
+      "kind" : "note",
+      "text" : "0.003(00)OR(d)(i)÷2"
+    }, {
+      "kind" : "note",
+      "text" : "0.003(00)x40OR(d)(ii)x40=0.12(0)"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer with no working scores2Award 1 mark for dividing d(ii) by 25 and correctly evaluating"
+    }, {
+      "kind" : "note",
+      "text" : "0.12(0)x100=12(.0)OR(d)(iii)x100"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(b)(i)(ii)(c)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 7(a)(i)(ii)", "orphan row before first entry: Mr of NaN3=65", "orphan row before first entry: Moles of NaN3=3 OR two thirds of(a)(i)", "orphan row before first entry: Mass of NaN3=195(g) OR moles of NaN3xMr[Mark consequentially at each stage]", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: K2O(s)+SiO2(s)→K2SiO3(s)ORK2O(s)+SiO2(s)→K2SiO3(l)", "orphan row before first entry: IGNORE same numbers of Na2O on both sides of equation", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: Filtration/filterIGNORE refs to adding water", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)" ]
+}

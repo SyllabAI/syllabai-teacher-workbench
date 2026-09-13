@@ -1,0 +1,751 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG035595",
+    "session" : "Summer 2013",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "9f1d8cc9-6e6a-526b-811d-12b3c56e8f1b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-9f1d8cc9-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "can easily/quickly identify each gas OR less likely to make a mistake in identification\nIGNORE just to identify the gas",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "argon/Ar and helium/He"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen/O2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE O"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "air/it is a mixture(of gases)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "air/it is not a single substance"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE mixture of elements"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "not flammable/not explosive/does not burn"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen/H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE H"
+    }, {
+      "kind" : "note",
+      "text" : "air"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide/CO2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide/CO2"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 before heating- colourless (solution/liquid)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear/transparent/looks like water"
+    }, {
+      "kind" : "note",
+      "text" : "M2 after heating- milky/chalky/cloudy/white"
+    }, {
+      "kind" : "note",
+      "text" : "(precipitate)/turbid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to goes clear OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "no colour"
+    }, {
+      "kind" : "note",
+      "text" : "white solution/liquid any colour other than white"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (sulfur dioxide/it) dissolves in/reacts with (rain) water"
+    }, {
+      "kind" : "note",
+      "text" : "M2 to form an acidic solution/an acid/sulfurous acid/acid rain"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to any other products whether correct or not"
+    }, {
+      "kind" : "note",
+      "text" : "M3 which reacts with/corrodes the marble/calcium carbonate"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE erodes/weathers/melts/eats into"
+    }, {
+      "kind" : "note",
+      "text" : "SO2+H2O→H2SO3OR"
+    }, {
+      "kind" : "note",
+      "text" : "SO2+H2O+1/2O2→H2SO4for both M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "chemical"
+    }, {
+      "kind" : "note",
+      "text" : "weathering dissolves correct equation for reaction with either sulfurous or sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "SO2 reacts with marble for M3 only"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Name of barium salt"
+    }, {
+      "kind" : "note",
+      "text" : "Formula of barium salt"
+    }, {
+      "kind" : "note",
+      "text" : "Solubility in water"
+    }, {
+      "kind" : "note",
+      "text" : "Poisonous"
+    }, {
+      "kind" : "note",
+      "text" : "barium chloride"
+    }, {
+      "kind" : "note",
+      "text" : "BaCl2"
+    }, {
+      "kind" : "note",
+      "text" : "barium nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "barium carbonate"
+    }, {
+      "kind" : "note",
+      "text" : "BaCO3"
+    }, {
+      "kind" : "note",
+      "text" : "barium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(it forms) barium chloride/BaCl2/a soluble(barium)saltM2by reaction/with hydrochloric acid/stomach acid"
+    }, {
+      "kind" : "note",
+      "text" : "by neutralisationword or chemical equation for 2 marks(equation can be unbalanced)"
+    }, {
+      "kind" : "note",
+      "text" : "any suggestion that barium chloride is reacting"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "barium sulfate/BaSO4"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q3d",
+    "label" : "3(d)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 barium sulfate is formed",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "‘products’, provided shown correctly in word equation"
+    }, {
+      "kind" : "note",
+      "text" : "M2 which is not poisonous/not toxic/harmless"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to magnesium hydroxide not poisonous"
+    }, {
+      "kind" : "note",
+      "text" : "is insoluble"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Ba(OH)2+MgSO4→BaSO4+Mg(OH)2"
+    }, {
+      "kind" : "note",
+      "text" : "M3 barium hydroxide+magnesium sulfate→barium sulfate+magnesium hydroxide"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "Ba2++SO42-→BaSO4"
+    }, {
+      "kind" : "note",
+      "text" : "barium ions+sulfate ions→barium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 water-(reacts)very/extremely quickly/more quickly than strontium/quickest"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE rapidly/vigorously"
+    }, {
+      "kind" : "note",
+      "text" : "explosively/violently"
+    }, {
+      "kind" : "note",
+      "text" : "M2 air-(reacts)very/extremely quickly/more quickly than strontium/quickest"
+    }, {
+      "kind" : "note",
+      "text" : "(without heating)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE rapidly/vigorously"
+    }, {
+      "kind" : "note",
+      "text" : "explosively/violently"
+    }, {
+      "kind" : "note",
+      "text" : "in a vacuum"
+    }, {
+      "kind" : "note",
+      "text" : "in/under any one of the following:"
+    }, {
+      "kind" : "note",
+      "text" : "(paraffin/mineral) oil/petroleum (oil)/(liquid) paraffin"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE in an air tight container"
+    }, {
+      "kind" : "note",
+      "text" : "reactivity increases as atomic number increases"
+    }, {
+      "kind" : "note",
+      "text" : "reactivity increases with atomic number/down the group OWTTE reverse argument"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(negative electrode)-graphiteM2(positive electrode)-graphite",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "carboncarbon"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "it/aluminium oxide/alumina has a(very) highm.ptIGNORE high b.pt/references to strongbonding/bauxite has a high m.pt/lot of energyneeded to melt italuminium oxide/alumina is dissolved in/mixedwith(molten/liquid) cryoliteIGNORE cryolite lowers the m.pt of aluminium oxide/alumina"
+    }, {
+      "kind" : "note",
+      "text" : "added toNa3AlF6for cryolitecryolite is used as thesolvent(for aluminium oxide/alumina)"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium has a highmelting pointaluminium is dissolved in cryolite"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 reductionM2(it/aluminium ions/Al3+) gain of electron(s)IGNORE references to loss of oxygenM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "reacts with/combines withdecrease in oxidationnumber/oxidation numberchanges from+3to0"
+    }, {
+      "kind" : "note",
+      "text" : "redox for M1 onlyAl/aluminium gainselectrons"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 oxygen formed/produced(at the positiveelectrode/anode)IGNORE oxygen from the aluminium oxideM2 reacts with the carbon/the(positive)electrodeM2 not dep on M1,but must mention oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen from the electrolysisanode/graphite"
+    }, {
+      "kind" : "note",
+      "text" : "any indication that the oxygen is from the airfor M1 onlycathode/negative electrode"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:M1 malleableM2 low density"
+    }, {
+      "kind" : "note",
+      "text" : "easy to shape/easy tobend/easy to extrude bend"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(molecules/compounds/substances) with the same molecular formula/number of each type of atoms\nIGNORE chemical formula/same compound\nM2(but) different structural formulae/different displayed formulae/different structures",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "atoms arranged differently"
+    }, {
+      "kind" : "note",
+      "text" : "elements/atoms general formula/empirical formula for M1 only"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1CnH2n"
+    }, {
+      "kind" : "note",
+      "text" : "M1 double bond between two left hand end carbon atoms"
+    }, {
+      "kind" : "note",
+      "text" : "M2 single bond between each pair of rest of carbon atoms"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise max 1 mark for any extra bond shown"
+    }, {
+      "kind" : "note",
+      "text" : "letters other than n,e.g.x"
+    }, {
+      "kind" : "note",
+      "text" : "Cn+H2n"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 addition"
+    }, {
+      "kind" : "note",
+      "text" : "M2 orange"
+    }, {
+      "kind" : "note",
+      "text" : "M3 colourless"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear/transparent/looks like water"
+    }, {
+      "kind" : "note",
+      "text" : "additional"
+    }, {
+      "kind" : "note",
+      "text" : "yellow/brown"
+    }, {
+      "kind" : "note",
+      "text" : "red,either on its own or in combination with any other colour"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 saturated-all(carbon to carbon) bonds are single"
+    }, {
+      "kind" : "note",
+      "text" : "/contains only(carbon to carbon)"
+    }, {
+      "kind" : "note",
+      "text" : "does not contain any multiple/double bonds"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-9f1d8cc9-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(reactants)saq",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "capital letters"
+    }, {
+      "kind" : "note",
+      "text" : "M2(products)aqlg"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "to prevent acid escaping/spraying out/spitting outIGNORE to prevent water escaping"
+    }, {
+      "kind" : "note",
+      "text" : "solution/liquid/HCl"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1A"
+    }, {
+      "kind" : "note",
+      "text" : "reaction is faster"
+    }, {
+      "kind" : "note",
+      "text" : "M2gas produced/collected more quickly/experiment overin shorter time/(gradient of) line steeperM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M10.1(0)"
+    }, {
+      "kind" : "note",
+      "text" : "Half the products are produced"
+    }, {
+      "kind" : "note",
+      "text" : "M2volume of gas is half/40÷80=1/2/80=40x2M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1&M2-all points plotted to nearest gridline deduct1markfor each incorrect plot up to a max.of2"
+    }, {
+      "kind" : "note",
+      "text" : "M3suitable straight line of best fit(csq on plotted points)(must be drawn with the aid of a ruler).Line need not be extrapolated."
+    }, {
+      "kind" : "note",
+      "text" : "(show a)positive correlation"
+    }, {
+      "kind" : "note",
+      "text" : "M1as concentration increases rate increases"
+    }, {
+      "kind" : "note",
+      "text" : "as one doubles the other doubles/directly proportional"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "any two from:\n• forward and backward reactions(still) occurring\n• concentrations/amounts of reactants/products/components remain constant\n• rate of forward reaction=rate of reverse reaction\nIGNORE concentrations/amounts of reactants and products are the same\nIGNORE reaction is reversible/goes both ways, OWTTE\nIGNORE references to le Chatelier",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "both reactions(still) occurring"
+    }, {
+      "kind" : "note",
+      "text" : "stay the same in place of remain constant"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(increase in temperature) decrease(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(increase in pressure) increase(s)"
+    }, {
+      "kind" : "note",
+      "text" : "less/lower(s)/drop(s)/gets smaller"
+    }, {
+      "kind" : "note",
+      "text" : "more/raise(s)/higher/gets bigger"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(forward) reaction is exothermic/gives out heat"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "reverse reaction is endothermic/takes in heat"
+    }, {
+      "kind" : "note",
+      "text" : "M2-fewer(gas) molecules/particles on right hand side"
+    }, {
+      "kind" : "note",
+      "text" : "OR fewer moles(of gas) on right hand side"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to volumes"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to le Chatelier's principle"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to reverse reaction lowers the temperature"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to forward reaction reduces the pressure"
+    }, {
+      "kind" : "note",
+      "text" : "atoms"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument shifts to side with fewer(gas) molecules/fewer moles(of gas)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9f1d8cc9-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(produces) most heat/energy per gram/per unit mass",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "highest temperature rise per gram/per unit mass"
+    }, {
+      "kind" : "note",
+      "text" : "most energy for smallest number of grams/ mass"
+    }, {
+      "kind" : "note",
+      "text" : "per amount"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(produces) most heat/energy per mole/per molecule/per amount"
+    }, {
+      "kind" : "note",
+      "text" : "highest temperature rise per mole/per molecule"
+    }, {
+      "kind" : "note",
+      "text" : "most energy for smallest number of moles/molecules/amount"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "• heat/energy losses (e.g. by convection, by conduction, to air, to surroundings)"
+    }, {
+      "kind" : "note",
+      "text" : "• incomplete combustion"
+    }, {
+      "kind" : "note",
+      "text" : "• evaporation of water"
+    }, {
+      "kind" : "note",
+      "text" : "• copper/ can/beaker/thermometer/apparatus"
+    }, {
+      "kind" : "note",
+      "text" : "absorbs heat"
+    }, {
+      "kind" : "note",
+      "text" : "• flame moves around because of draughts"
+    }, {
+      "kind" : "note",
+      "text" : "• non-standard conditions"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 breaking bonds is endothermic/takes in heat/energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2 making bonds is exothermic/gives out heat/energy"
+    }, {
+      "kind" : "note",
+      "text" : "M3 more heat/energy given out than taken in"
+    }, {
+      "kind" : "note",
+      "text" : "more energy is given out when bonds are made than is taken in when bonds are broken for 3 marks"
+    }, {
+      "kind" : "note",
+      "text" : "more energy is given out when bonds are made than when bonds are broken for 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: positive correlation", "orphan row before first entry: Total", "4(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M3 does not react with food/drink(s)\nIGNORE light(er)/high strength to weight ratio/references to cost/lightweight/does not rust", "orphan row before first entry: Total", "orphan row before first entry: IGNORE light(er)/high strength to weight ratio/references to cost/lightweight/does not rust", "orphan row before first entry: Total", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: single bondsM2 unsaturated-contains(carbon to carbon)double/multiplebond(s)", "orphan row before first entry: Total", "orphan row before first entry: 6(a)(i)(ii)(iii)(iv)", "orphan row before first entry: M1 solid", "orphan row before first entry: M2 black", "orphan row before first entry: M1(formula)-HAt", "orphan row before first entry: M2(name)-hydrogen astatide", "orphan row before first entry: (iv)", "orphan row before first entry: IGNORE astatine is unreactive", "orphan row before first entry: M2-elements get less reactive withincreasingatomicnumber/as group isdescended/the lowerthey arein the group", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: (paper)turns white/bleachesIGNORE turns red", "orphan row before first entry: (c)(i)(ii)(iii)", "orphan row before first entry: to displace(all of)the bromine/to react all ofthe bromide(ions)", "orphan row before first entry: Br2+SO2+2H2O→2HBr+H2SO4M1all formulae correctM2balanced", "orphan row before first entry: 2HBr+Cl2→Br2+2HCl", "orphan row before first entry: (d)", "orphan row before first entry: M2 brown (solution) / (dark) grey/black solid/precipitate", "orphan row before first entry: Total", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M1more ions/particles(in a given volume)", "orphan row before first entry: IGNORE more reactants", "orphan row before first entry: M2collide(successfully)", "orphan row before first entry: M3more per second/more frequently", "orphan row before first entry: Must be reference to frequency or number of collisions per unit time", "orphan row before first entry: IGNORE greater chance of collision", "orphan row before first entry: 8(a)(i)(ii)(iii)", "orphan row before first entry: colour can(easily)be seen(in a non-luminous flame)\nIGNORE references to temperature", "orphan row before first entry: yellow/orange/gold(en)", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: M1-ammonia/NH3", "orphan row before first entry: M2-(water is needed)to form hydroxide ions/OH-", "orphan row before first entry: M1-iron(III)/Fe3+", "orphan row before first entry: M2-ammonium/NH4+If both names and formulae given both must be correct", "orphan row before first entry: Total", "orphan row before first entry: 9(a)(i)(ii)(iii)", "orphan row before first entry: M1 44", "orphan row before first entry: M2 cm3", "orphan row before first entry: M1 $ \\frac{44 \\times0.01(0)}{1000} $M2 0.00044(0)Mark csq on answer to(a)(ii)", "orphan row before first entry: (b)", "orphan row before first entry: M1 1 mol zinc reacts with 2 mol HCl", "orphan row before first entry: M2 only 0.005 mol of zinc are neededM1 is standaloneM2 is dep on zinc given as being in excess", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: no effect/same volume(of hydrogen) produced", "orphan row before first entry: Total", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10(c)(i)(ii)(iii)", "orphan row before first entry: M1-(the mixture of gases is) cooled", "orphan row before first entry: M2-ammonia liquefies/condenses recycled/reused/recirculated", "orphan row before first entry: (d)", "orphan row before first entry: (e)(i)(ii)", "orphan row before first entry: M2 112000÷28(=4000)/112000÷M1", "orphan row before first entry: M3 8000/M2×2", "orphan row before first entry: 1200/15% of M3", "orphan row before first entry: Total", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: IGNORE references to numbers/strengths of bonds", "orphan row before first entry: Total" ]
+}

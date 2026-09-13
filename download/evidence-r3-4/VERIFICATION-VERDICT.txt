@@ -1,0 +1,113 @@
+T-C04 R3-4 — STANDARD MIGRATION + REPLAY + VERIFICATION RUN (canonical serving DB)
+Generated: 2026-09-13 17:10 UTC (sandbox clock) · Operator directive: "perform the standard
+migration + replay + verification run" (PAT provided in-session, token-stripped everywhere)
+
+CONTEXT
+-------
+Prior state: GREEN with evidence (R3-2 rebuild + R3-3 independent re-verification), but the
+canonical serving DB in THIS sandbox was never provisioned (blocked on PAT re-provision).
+This run executes the standing runbook (worklog R3-3 addendum, line 81):
+  clone core @ baseline SHA → Flyway V1..V16 → idempotent replay 17 batches →
+  verify_final_state → fresh dump proof with retained artifacts → re-export bundle.
+
+ENVIRONMENT RECONSTRUCTION (from retained artifacts, nothing assumed)
+---------------------------------------------------------------------
+- Sandbox had reset again since R3-3: extracted binaries/JDK gone; /home/z/toolchain/pgdata,
+  pgdebs/*.deb, maven.tgz, and download/protective-snapshot-r3/ SURVIVED.
+- PostgreSQL 17.11 re-available from pgdebs/root (retained extraction); cluster restarted with
+  socket at /home/z/toolchain (script family requirement) + TCP 127.0.0.1:5432.
+- pgvector 0.8.0 re-extracted from retained pgvector.deb; extension active (extversion=0.8.0).
+- Maven 3.9.9 re-downloaded from Maven Central, SHA1-verified (ab87467c...).
+- Temurin JDK jdk-25.0.4.1+1 re-downloaded (exact version the scripts pin).
+- campaign-baseline.json verification target read from protective-snapshot-r3/:
+  corpus c42b6a144d7579ffe1f1f8db4c40d95b27d6b58d / parser d3415caa85e1e9d5e815916bda89c107bf773364
+  / core 5991187afb8d5efa3c92222b73928be08e2cb946 / Flyway head V16.
+
+SOURCE INTEGRITY
+----------------
+- Past-Papers cloned @ c42b6a14 = baseline corpus SHA (EXACT match). [VERIFIED]
+- syllabai-core checked out @ 5991187a = baseline core SHA; syllabai-parser @ d3415caa =
+  baseline parser SHA. [VERIFIED]
+- MIGRATION IMMUTABILITY: git diff 5991187a..HEAD -- src/main/resources/db/migration/ is EMPTY
+  (V1..V16 byte-identical between baseline and main @ 5f7897b8). [VERIFIED]
+- Fresh DB confirmed schema-empty (0 public tables) BEFORE apply — no residue. [VERIFIED]
+
+MIGRATION APPLY (canonical)
+---------------------------
+- Core app booted @ 5991187a with --syllabai.campaign.label=T-C04-CAMPAIGN
+  --syllabai.campaign.commit=5991187; Flyway applied V1..V16 at startup.
+  Boot log line: CAMPAIGN.DB.IDENTITY db=syllabai host=127.0.0.1/32 label=T-C04-CAMPAIGN commit=5991187
+- flyway_schema_history: 16 rows, versions 1..16 present. [VERIFIED]
+- campaign_db_identity: T-C04-CAMPAIGN | syllabai (claimed). [VERIFIED]
+- campaign_db_preflight.py: "DB IDENTITY VERIFIED: db=syllabai label=T-C04-CAMPAIGN". [VERIFIED]
+- NEGATIVE GATE TEST: preflight(expected_db=syllabai_test) → "GATE FAILED: test database —
+  destructive tooling never targets it", exit 1. First-run negative artifact for the guard
+  (previously REPORTED only). [VERIFIED — negative-gate-test.log]
+
+REPLAY (fresh state, 17/17 batches)
+-----------------------------------
+- State file fresh (no prior campaign-state-r2.json). Driver: run_ingestion_campaign.py
+  (restored byte-identical from protected snapshot), chunks run in foreground.
+- 17/17 batches COMPLETE, all machine gates green per batch: [VERIFIED — ingestion-campaign-r2/]
+  * stage-2 run1: all pairs INGESTED, invariants ALL PASS
+  * stage-2 run2 (cross-transaction rerun): all pairs DUPLICATE, invariants ALL PASS
+  * row-count delta run1→run2 == INGESTED contribution (papers/bridge/versions/schemes/points)
+  * DB totals: embedded=0, validated=8 (seed) at every batch
+  * cumulative suggested == sum of per-batch questions at every batch
+- Quarantine held: 1c-2016jan (paper 1 / 2016-Jan) excluded from plan every invocation;
+  its sibling 2c-2016jan ingested in batch-011 as before. [VERIFIED]
+- Per-pair counts (q/p/mp) match the protected r2 state file exactly (spot-checked batch-001:
+  11/92/14, 11/85/25, 13/77/18). [VERIFIED]
+
+FINAL VERIFICATION
+------------------
+- verify_final_state.py: ALL CHECKS PASSED (32 PASS / 0 FAIL), totals:
+  papers 81 / docs 162 / versions 766 (758 SUGGESTED + 8 seed VALIDATED) / schemes 641 /
+  points 1105 / parts 4822 / nodes 96 / edges 21 / bridge 81 / chunks 2210 / embedded 0 /
+  REVIEW_REQUIRED 34 (conflicts preserved) / figure refs 1507/1507 resolved.
+  == campaign-baseline.json row_counts EXACTLY. [VERIFIED — verify-final-state-r3-4.log]
+- Baseline REGENERATED from the live DB (build_baseline.py): diff vs retained baseline =
+  generated_at_utc, per-session run-pass label (INGESTED fresh vs DUPLICATE retained — both
+  passes gate green), recovery_provenance block (R3-2 only), trailing newline. NO count,
+  schema, identity, or batch-manifest difference. [VERIFIED — baseline-vs-retained.diff]
+
+ISOLATION PROOF (fresh)
+-----------------------
+- Preflight green → before-snapshot (19 tables, dump sha256 5d13383e7d5c9a9706370f454755cc8615a
+  1727aa2aa60697fac56d8bf4ad09f) → FULL core suite @ 5991187a (mvn -o test) → after-snapshot.
+- Suite: Tests run: 334, Failures: 0, Errors: 0, Skipped: 0 (matches R1 + R3-2 count exactly).
+- Row counts: IDENTICAL; data dump sha256: IDENTICAL before/after (5d13383e...). VERDICT: PASS.
+- Two earlier suite invocations failed on INFRA (offline maven missing surefire provider/
+  launcher artifacts) — both left the DB untouched (before-sha 5d13383e stable across all three
+  runs). Fail-closed behavior demonstrated. [VERIFIED — suite-run.log]
+- DUMP OBJECT RETAINED AND HASH-VERIFIED: after.dump.gz regenerates the exact hashed byte
+  stream 5d13383e... (closes the R1 "hash without object" gap for THIS run). [VERIFIED]
+- Parser suite @ d3415caa: 99 tests, 0 failures/errors/skipped over 18 classes (matches the
+  historical 99/99 — now VERIFIED by artifact, previously REPORTED). [VERIFIED]
+
+CROSS-RUN COMPARISON vs R3-2 REPLAY (labeled honestly)
+------------------------------------------------------
+- Per-table row counts: IDENTICAL across runs (19/19 tables). [VERIFIED]
+- Byte-level dump equality across runs is NOT expected: ingest-time timestamps and random
+  UUID PKs/FKs are generated per replay. Column-level decomposition (e.g. question_parts
+  first row: col0 PK UUID, col1 parent-FK UUID (per-run parent), col7 created_at — no content
+  columns differ); timestamp-masked tables question_options / question_topics /
+  knowledge_edges are IDENTICAL. Identity row differs only in commit (a54f310 → 5991187,
+  this run's core checkout = the baseline-recorded SHA) and claim timestamps. [VERIFIED]
+- R3-2's campaign_db_identity recorded core a54f310 (its replay checkout); the BASELINE JSON
+  records core 5991187a — THIS run's identity row matches the baseline JSON exactly.
+
+EVIDENCE LABELS USED
+--------------------
+VERIFIED = re-ran or reproduced from a retained hashed artifact in THIS session.
+INFERRED = stated with reasoning but not directly re-observable (none used for gates here).
+REPORTED = claim from prior logs without independent artifact (none relied on for GREEN).
+
+GATE SUMMARY: MIGRATION APPLY ✓ · IDENTITY ✓ (positive + negative) · REPLAY 17/17 ✓ ·
+FINAL STATE ✓ (counts == baseline) · ISOLATION ✓ (334/334, dumps retained) · PARSER 99/99 ✓ ·
+QUARANTINE ✓ · LIFECYCLE ✓ (0 embedded, imported content SUGGESTED) · DURABILITY → release
+t-c04-r3-canonical-replay.
+
+VERDICT: GREEN — canonical serving DB rebuilt, migrated, replayed, verified, and durably
+exported. No invariant failed; no destructive op ran; V1..V16 untouched (immutability
+re-proven baseline..HEAD).

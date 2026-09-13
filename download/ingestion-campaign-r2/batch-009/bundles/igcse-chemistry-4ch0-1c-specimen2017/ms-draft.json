@@ -1,0 +1,1798 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "fd84b468-ed62-5e97-be75-fb00c118c720"
+  },
+  "entries" : [ {
+    "entryId" : "ms-fd84b468-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Nucleus",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q1b",
+    "label" : "1(b)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Proton",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q1c",
+    "label" : "1(c)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Equal numbers of protons and electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept equal numbers of positive and negative particles/charges"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q1d",
+    "label" : "1(d)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "5",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q1e",
+    "label" : "1(e)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Lithium",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following two points:\n• boxes 1 and 2(1)\n• because they both have only one type of atom/molecule(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following two points:\n• boxes 1 and 2",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following two points:\n• boxes 1 and 2"
+    }, {
+      "ordinal" : 2,
+      "text" : "• because they both have only one type of atom/molecule",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• because they both have only one type of atom/molecule"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept other indications,e.g. only He and onlyH-Haccept species in place ofatom/moleculesecond mark can beawarded if only box 1 orbox 2 identified"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q2aii",
+    "label" : "2(a)(ii)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following two points:\n• boxes 3 and 5(1)\n• because they both have two different molecules(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following two points:\n• boxes 3 and 5",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following two points:\n• boxes 3 and 5"
+    }, {
+      "ordinal" : 2,
+      "text" : "• because they both have two different molecules",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• because they both have two different molecules"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "second mark can be awarded if only box 3 or box 5 identified"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q2bi",
+    "label" : "2(b)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Simple distillation",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q2bii",
+    "label" : "2(b)(ii)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Chromatography",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q2biii",
+    "label" : "2(b)(iii)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Crystallisation",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Reversible arrow",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q3bi",
+    "label" : "3(b)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·(X) ammonium chloride(1)\n·(Y) ammonia and hydrogen chloride(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "·(X) ammonium chloride",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(X) ammonium chloride"
+    }, {
+      "ordinal" : 2,
+      "text" : "·(Y) ammonia and hydrogen chloride",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(Y) ammonia and hydrogen chloride"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept formulae"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q3bii",
+    "label" : "3(b)(ii)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D(subliming)",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following three points:\n• C(1)\n• because ammonia molecules have lower mass or smaller $ M_{r} $ (hence travel faster)(1)\n• and so travel further in the same time(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following three points:\n• C",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following three points:\n• C"
+    }, {
+      "ordinal" : 2,
+      "text" : "• because ammonia molecules have lower mass",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ "smaller $ M_{r} $ (hence travel faster)" ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• because ammonia molecules have lower mass or smaller $ M_{r} $ (hence travel faster)"
+    }, {
+      "ordinal" : 3,
+      "text" : "• and so travel further in the same time",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• and so travel further in the same time"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept reverse arguments for hydrogen chloride"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "35(1)\n41(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "35",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "35"
+    }, {
+      "ordinal" : 2,
+      "text" : "41",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "41"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "final answer consequential on syringe readings"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q4b",
+    "label" : "4(b)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Calculation of volume of oxygen usedCalculation of original volume of airCalculation of percentageExample calculation:80-43=37(cm3)(1)100+10+80=190(cm3)(1)(37×100)÷190(=19.47%)=19%(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Calculation of volume of oxygen usedCalculation of original volume of airCalculation of percentageExample calculation:80-43=37(cm3)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Calculation of volume of oxygen usedCalculation of original volume of airCalculation of percentageExample calculation:80-43=37(cm3)"
+    }, {
+      "ordinal" : 2,
+      "text" : "100+10+80=190(cm3)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "100+10+80=190(cm3)"
+    }, {
+      "ordinal" : 3,
+      "text" : "(37×100)÷190(=19.47%)=19%",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(37×100)÷190(=19.47%)=19%"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept19.47% or19.5%"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Decreased(1)\nDecreased(1)\nNo effect(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Decreased",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Decreased"
+    }, {
+      "ordinal" : 2,
+      "text" : "Decreased",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Decreased"
+    }, {
+      "ordinal" : 3,
+      "text" : "No effect",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "No effect"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two of:\n• concentration of copper(II) sulfate solution(1)\n• volume of copper(II) sulfate solution(1)\n• particle size of metal(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Any two of:\n• concentration of copper(II) sulfate solution",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Any two of:\n• concentration of copper(II) sulfate solution"
+    }, {
+      "ordinal" : 2,
+      "text" : "• volume of copper(II) sulfate solution",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• volume of copper(II) sulfate solution"
+    }, {
+      "ordinal" : 3,
+      "text" : "• particle size of metal",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• particle size of metal"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q5bi",
+    "label" : "5(b)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·(G)5.5(℃)(1)\n·(H)11.5(℃)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "·(G)5.5(℃)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(G)5.5(℃)"
+    }, {
+      "ordinal" : 2,
+      "text" : "·(H)11.5(℃)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(H)11.5(℃)"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept 5.47"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q5bii",
+    "label" : "5(b)(ii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following two points:\n• H(1)\n• because of the biggest temperature increase(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following two points:\n• H",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following two points:\n• H"
+    }, {
+      "ordinal" : 2,
+      "text" : "• because of the biggest temperature increase",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• because of the biggest temperature increase"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q5biii",
+    "label" : "5(b)(iii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following two points:\n• F(1)\n• because there is no temperature increase(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following two points:\n• F",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following two points:\n• F"
+    }, {
+      "ordinal" : 2,
+      "text" : "• because there is no temperature increase",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• because there is no temperature increase"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept there is no reaction"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "The atoms of both elements have one electron in the outer shell",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept highest energy level in place of outer shell"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "The atoms of both elements have one electron in the outer shell",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept highest energy level in place of outer shell"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6bi",
+    "label" : "6(b)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that makes reference to any two of the following points:\n• sodium floats/moves across the water(1)\n• sodium melts(1)\n• sodium disappears/getts smaller(1)\n• effervescence/fizzing/bubbles/gas given off(1)\n• white trail(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "A description that makes reference to any two of the following points:\n• sodium floats/moves across the water",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "A description that makes reference to any two of the following points:\n• sodium floats/moves across the water"
+    }, {
+      "ordinal" : 2,
+      "text" : "• sodium melts",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• sodium melts"
+    }, {
+      "ordinal" : 3,
+      "text" : "• sodium disappears/getts smaller",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• sodium disappears/getts smaller"
+    }, {
+      "ordinal" : 4,
+      "text" : "• effervescence/fizzing/bubbles/gas given off",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• effervescence/fizzing/bubbles/gas given off"
+    }, {
+      "ordinal" : 5,
+      "text" : "• white trail",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• white trail"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept forms a ball accept sodium dissolves ignore name of gas"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6bii",
+    "label" : "6(b)(ii)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following points:\n•(final colour is) purple/blue(1)\n•because the solution is alkaline(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following points:\n•(final colour is) purple/blue",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following points:\n•(final colour is) purple/blue"
+    }, {
+      "ordinal" : 2,
+      "text" : "•because the solution is alkaline",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•because the solution is alkaline"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept sodium hydroxide forms/solution has high pH"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6biii",
+    "label" : "6(b)(iii)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D(12)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "D",
+      "marks" : 12,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "D"
+    } ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Lithium",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6d",
+    "label" : "6(d)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Potassium catches fire",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept lilac/purple/violet flame"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q6e",
+    "label" : "6(e)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2Rb+2H2O→2RbOH+H2(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "2Rb+2H2O→2RbOH+H2",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "2Rb+2H2O→2RbOH+H2"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept multiples and fractions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B and E",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7aii",
+    "label" : "7(a)(ii)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(the only one that shows) All atoms and all bonds",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7aiii",
+    "label" : "7(a)(iii)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·D and F(1)\n·they have the same molecular formula/the same number of each type of atom(1)\n·but different structures/atoms joined together in different ways/different structural formulae(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "·D and F",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·D and F"
+    }, {
+      "ordinal" : 2,
+      "text" : "·they have the same molecular formula/the same number of each type of atom",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·they have the same molecular formula/the same number of each type of atom"
+    }, {
+      "ordinal" : 3,
+      "text" : "·but different structures/atoms joined together in different ways/different structural formulae",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·but different structures/atoms joined together in different ways/different structural formulae"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7aiv",
+    "label" : "7(a)(iv)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "4",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7bi",
+    "label" : "7(b)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following points:\n·incomplete combustion/lack of oxygen(1)\n·leads to the formation of carbon monoxide(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following points:\n·incomplete combustion/lack of oxygen",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following points:\n·incomplete combustion/lack of oxygen"
+    }, {
+      "ordinal" : 2,
+      "text" : "·leads to the formation of carbon monoxide",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·leads to the formation of carbon monoxide"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7bii",
+    "label" : "7(b)(ii)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "It reduces the capacity of blood to transport oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q7c",
+    "label" : "7(c)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following points:\n·nitrogen in the air and oxygen react(1)\n·at high temperatures(1)\n·which causes the formation of nitrogen oxide(s)(1)\n·oxides then react with water(vapour) in the atmosphere to form nitric acid(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following points:\n·nitrogen in the air and oxygen react",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following points:\n·nitrogen in the air and oxygen react"
+    }, {
+      "ordinal" : 2,
+      "text" : "·at high temperatures",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·at high temperatures"
+    }, {
+      "ordinal" : 3,
+      "text" : "·which causes the formation of nitrogen oxide(s)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·which causes the formation of nitrogen oxide(s)"
+    }, {
+      "ordinal" : 4,
+      "text" : "·oxides then react with water(vapour) in the atmosphere to form nitric acid",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·oxides then react with water(vapour) in the atmosphere to form nitric acid"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept equation and formulae such asNO/NO2/NOxaccept nitrous acid and formulae"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "One reaction product is a gas and so escapes from the flask",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q8bi",
+    "label" : "8(b)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one of:\nbalance reading recorded too late\nacid concentration greater than recorded",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q8bii",
+    "label" : "8(b)(ii)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Loss in mass directly proportional to acid concentration",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q8c",
+    "label" : "8(c)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following two points:\n• more particles in the same volume(1)\n• so collide more frequently(with malachite)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following two points:\n• more particles in the same volume",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following two points:\n• more particles in the same volume"
+    }, {
+      "ordinal" : 2,
+      "text" : "• so collide more frequently(with malachite)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• so collide more frequently(with malachite)"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept particles closer together"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that makes reference to five of the following points:\n• crude oil is heated/vaporised(1)\n• the vapour enters the lower part of the column(1)\n• there is a temperature gradient up the column(1)\n• the vapour in the diesel fraction rises up the column until it condenses(1)\n• at a height where its boiling point is lower than the temperature in the column(1)\n• so the diesel fraction is removed(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "A description that makes reference to five of the following points:\n• crude oil is heated/vaporised",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "A description that makes reference to five of the following points:\n• crude oil is heated/vaporised"
+    }, {
+      "ordinal" : 2,
+      "text" : "• the vapour enters the lower part of the column",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• the vapour enters the lower part of the column"
+    }, {
+      "ordinal" : 3,
+      "text" : "• there is a temperature gradient up the column",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• there is a temperature gradient up the column"
+    }, {
+      "ordinal" : 4,
+      "text" : "• the vapour in the diesel fraction rises up the column until it condenses",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• the vapour in the diesel fraction rises up the column until it condenses"
+    }, {
+      "ordinal" : 5,
+      "text" : "• at a height where its boiling point is lower than the temperature in the column",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• at a height where its boiling point is lower than the temperature in the column"
+    }, {
+      "ordinal" : 6,
+      "text" : "• so the diesel fraction is removed",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• so the diesel fraction is removed"
+    } ],
+    "guidance" : [ ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9b",
+    "label" : "9(b)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that makes reference to the following three points:\n• dodecane contains hydrogen and carbon(1)\n• only/and no other elements(1)\n• and contains only single bonds(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that makes reference to the following three points:\n• dodecane contains hydrogen and carbon",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that makes reference to the following three points:\n• dodecane contains hydrogen and carbon"
+    }, {
+      "ordinal" : 2,
+      "text" : "• only/and no other elements",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• only/and no other elements"
+    }, {
+      "ordinal" : 3,
+      "text" : "• and contains only single bonds",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• and contains only single bonds"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept does not contain double bonds/multiple bonds"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9c",
+    "label" : "9(c)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9d",
+    "label" : "9(d)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C8H18",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9ei",
+    "label" : "9(e)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Ultraviolet radiation",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept ultraviolet light"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9eii",
+    "label" : "9(e)(ii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "HCl",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9eiii",
+    "label" : "9(e)(iii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "All 6 atoms with a dot and cross representing each bonding pair of electrons(1)3 lone pairs of electrons on Cl and none on any of the H atoms(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "All 6 atoms with a dot and cross representing each bonding pair of electrons",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "All 6 atoms with a dot and cross representing each bonding pair of electrons"
+    }, {
+      "ordinal" : 2,
+      "text" : "3 lone pairs of electrons on Cl and none on any of the H atoms",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "3 lone pairs of electrons on Cl and none on any of the H atoms"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept 2 dots or 2 crosses for each bondaccept any combination of dots and crosses"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9eiv",
+    "label" : "9(e)(iv)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Substitution",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9fi",
+    "label" : "9(f)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q9fii",
+    "label" : "9(f)(ii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Dividing percentages by atomic masses(1)Dividing results by smallest valueORobtaining ratio(1)Writing empirical formula(1)Example calculation:C25.9125.018011.52.165.00.720.72311C3H7BrOaccept symbols in any order",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Dividing percentages by atomic masses",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Dividing percentages by atomic masses"
+    }, {
+      "ordinal" : 2,
+      "text" : "Dividing results by smallest valueORobtaining ratio",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Dividing results by smallest valueORobtaining ratio"
+    }, {
+      "ordinal" : 3,
+      "text" : "Writing empirical formula",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Writing empirical formula"
+    }, {
+      "ordinal" : 4,
+      "text" : "Example calculation:C25.9125.018011.52.165.00.720.72311C3H7BrOaccept symbols in any order",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Example calculation:C25.9125.018011.52.165.00.720.72311C3H7BrOaccept symbols in any order"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• Increment in volume smaller/more precise(1)\n• Avoids refilling the measuring cylinder(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "• Increment in volume smaller/more precise",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• Increment in volume smaller/more precise"
+    }, {
+      "ordinal" : 2,
+      "text" : "• Avoids refilling the measuring cylinder",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• Avoids refilling the measuring cylinder"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10b",
+    "label" : "10(b)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "thermometer reading at end/℃\nthermometer reading at start/℃\ntemperature rise/℃",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark for temperature at start"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for temperature rise consequential on readings"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10ci",
+    "label" : "10(c)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "29.5",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10cii",
+    "label" : "10(c)(ii)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "20.8",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10d",
+    "label" : "10(d)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• Calculation of volume/mass of mixture\n• Calculation of temperature increase\n• Substitution of values into q=mcΔT\n• Calculation of heat energy released with unit\nExample calculation:\n20.0+20.0=40.0(cm3)(1)\n30.0-18.5=11.5(℃)(1)\nq=40.0×4.2×11.5(1)\nq=1900J(1)(accept1932J)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "• Calculation of volume/mass of mixture\n• Calculation of temperature increase\n• Substitution of values into q=mcΔT\n• Calculation of heat energy released with unit\nExample calculation:\n20.0+20.0=40.0(cm3)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• Calculation of volume/mass of mixture\n• Calculation of temperature increase\n• Substitution of values into q=mcΔT\n• Calculation of heat energy released with unit\nExample calculation:\n20.0+20.0=40.0(cm3)"
+    }, {
+      "ordinal" : 2,
+      "text" : "30.0-18.5=11.5(℃)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "30.0-18.5=11.5(℃)"
+    }, {
+      "ordinal" : 3,
+      "text" : "q=40.0×4.2×11.5",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "q=40.0×4.2×11.5"
+    }, {
+      "ordinal" : 4,
+      "text" : "q=1900J",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "q=1900J"
+    }, {
+      "ordinal" : 5,
+      "text" : "(accept1932J)",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(accept1932J)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q10e",
+    "label" : "10(e)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• Setting out of ΔH calculation\n• Division by 1000 to obtain answer in kJ/mol\nExample calculation:\n1600÷0.040(1)\n=-40(kJ/mol)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "• Setting out of ΔH calculation\n• Division by 1000 to obtain answer in kJ/mol\nExample calculation:\n1600÷0.040",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• Setting out of ΔH calculation\n• Division by 1000 to obtain answer in kJ/mol\nExample calculation:\n1600÷0.040"
+    }, {
+      "ordinal" : 2,
+      "text" : "=-40(kJ/mol)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "=-40(kJ/mol)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "1 mark for each box completed correctly",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Reactants"
+    }, {
+      "kind" : "note",
+      "text" : "Name of salt formed"
+    }, {
+      "kind" : "note",
+      "text" : "Other product(s)"
+    }, {
+      "kind" : "note",
+      "text" : "(zinc+hydrochloric acid)"
+    }, {
+      "kind" : "note",
+      "text" : "zinc chloride"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "(calcium carbonate+nitric acid)"
+    }, {
+      "kind" : "note",
+      "text" : "calcium nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "water+carbon dioxide"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11bi",
+    "label" : "11(b)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Use excess aluminium hydroxide(1)\nStir(thoroughly)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Use excess aluminium hydroxide",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Use excess aluminium hydroxide"
+    }, {
+      "ordinal" : 2,
+      "text" : "Stir(thoroughly)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Stir(thoroughly)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11bii",
+    "label" : "11(b)(ii)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "To remove unreacted aluminium hydroxide/solid",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11biii",
+    "label" : "11(b)(iii)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one of:\nleave in a warm place(1)\nuse filter paper or paper towel(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Any one of:\nleave in a warm place",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Any one of:\nleave in a warm place"
+    }, {
+      "ordinal" : 2,
+      "text" : "use filter paper",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ "paper towel" ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "use filter paper or paper towel"
+    } ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11c",
+    "label" : "11(c)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Calculation of $ M_{\\mathrm{r}} $ of aluminium hydroxideCalculation of amount of aluminium hydroxideReference to 2:3 ratio in equation ANDstatement that sulfuric acid is in excessExample calculation:27+($ 3 \\times17 $)=78(1)3.9÷78=0.05mol(1)This is more than 3/2 times amount of aluminium hydroxide, so sulfuric acid is in excess(1)(accept other valid methods of calculation)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Calculation of $ M_{\\mathrm{r}} $ of aluminium hydroxideCalculation of amount of aluminium hydroxideReference to 2:3 ratio in equation ANDstatement that sulfuric acid is in excessExample calculation:27+($ 3 \\times17 $)=78",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Calculation of $ M_{\\mathrm{r}} $ of aluminium hydroxideCalculation of amount of aluminium hydroxideReference to 2:3 ratio in equation ANDstatement that sulfuric acid is in excessExample calculation:27+($ 3 \\times17 $)=78"
+    }, {
+      "ordinal" : 2,
+      "text" : "3.9÷78=0.05mol",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "3.9÷78=0.05mol"
+    }, {
+      "ordinal" : 3,
+      "text" : "This is more than 3/2 times amount of aluminium hydroxide, so sulfuric acid is in excess",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "This is more than 3/2 times amount of aluminium hydroxide, so sulfuric acid is in excess"
+    }, {
+      "ordinal" : 4,
+      "text" : "(accept other valid methods of calculation)",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(accept other valid methods of calculation)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11d",
+    "label" : "11(d)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Calculation of $ M_{r} $ of aluminium sulfate setting out calculation of mass final answer\nExample calculation:\n$(27\\times2)+(32\\times3)+(16\\times12)=342(1)$\nmass=342x0.25(1)\n85.5g(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Calculation of $ M_{r} $ of aluminium sulfate setting out calculation of mass final answer\nExample calculation:\n$(27\\times2)+(32\\times3)+(16\\times12)=342",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Calculation of $ M_{r} $ of aluminium sulfate setting out calculation of mass final answer\nExample calculation:\n$(27\\times2)+(32\\times3)+(16\\times12)=342"
+    }, {
+      "ordinal" : 2,
+      "text" : "$\nmass=342x0.25",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "$\nmass=342x0.25"
+    }, {
+      "ordinal" : 3,
+      "text" : "85.5g",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "85.5g"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fd84b468-q11e",
+    "label" : "11(e)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Calculation of amount of lead(II) nitratePercentage methodPercentage answerExample calculation:209÷331=0.631mol(1)0.631x100(1)=84%(1)0.75",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Calculation of amount of lead(II) nitratePercentage methodPercentage answerExample calculation:209÷331=0.631mol",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Calculation of amount of lead(II) nitratePercentage methodPercentage answerExample calculation:209÷331=0.631mol"
+    }, {
+      "ordinal" : 2,
+      "text" : "0.631x100",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "0.631x100"
+    }, {
+      "ordinal" : 3,
+      "text" : "=84%",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "=84%"
+    }, {
+      "ordinal" : 4,
+      "text" : "0.75",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "0.75"
+    } ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "allow full credit for calculations using masses"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 7,
+    "3" : 7,
+    "4" : 8,
+    "5" : 8,
+    "6" : 9,
+    "7" : 13,
+    "8" : 5,
+    "10" : 12,
+    "11" : 17
+  },
+  "paperTotal" : 110,
+  "icTable" : null,
+  "warnings" : [ ]
+}

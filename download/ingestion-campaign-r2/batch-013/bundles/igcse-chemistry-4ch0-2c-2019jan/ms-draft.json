@@ -1,0 +1,272 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_2C_1901_MS",
+    "session" : "January 2019",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "f02c75c6-9491-5031-b032-bd1c3ab78d8a"
+  },
+  "entries" : [ {
+    "entryId" : "ms-f02c75c6-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Name of apparatus\nbeaker\nburette\nmeasuring cylinder\npipette",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Letter"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "F"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(thermal) decomposition"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(bubble through/add to) limewater"
+    }, {
+      "kind" : "note",
+      "text" : "M2turns milky"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT cloudy/turbid/white precipitateM2DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "gas(es)/CO2/H2O/steam/water given off/formed/evolved"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "all of the NaHCO3has decomposed/reacted"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the reaction has finishedALLOW all the CO2/water/steam/H2O/gas(es)has been given off"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "heat(energy)is given out/lost(to the surroundings)/heat is transferred to the surroundings",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Not just energyACCEPT thermal energy is given outALLOW heat(energy)is produced/released"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1has giant(ionic structure)/giant(ionic lattice)M2strong(electrostatic)forces/strong attractionM3between(opositely charged)ionsM4large amount of(thermal/heat)energyrequired to overcome the forces/attraction"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW strong bondsACCEPT large amount of(thermal/heat)energyrequired to break the bondsIGNOREmore energy"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Mass of sodium hydrogencarbonate in g",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Initial temperature in ℃"
+    }, {
+      "kind" : "note",
+      "text" : "Lowest temperature reached in ℃"
+    }, {
+      "kind" : "note",
+      "text" : "Decrease in temperature in ℃"
+    }, {
+      "kind" : "note",
+      "text" : "Calculations in M2 CSQ on values given in M1"
+    }, {
+      "kind" : "note",
+      "text" : "0.5"
+    }, {
+      "kind" : "note",
+      "text" : "1.0"
+    }, {
+      "kind" : "note",
+      "text" : "1.5"
+    }, {
+      "kind" : "note",
+      "text" : "2.0"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Decrease in temperature in ℃Mass of sodium hydrogencarbonate in g"
+    }, {
+      "kind" : "note",
+      "text" : "M1&M2All five points plotted correctly=2Deduct one mark for each incorrectly plotted pointM3both lines drawn correctly with the aid of a rulerFirst line does not need to pass through origin and IGNORE extrapolation"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "n\nC=C\nH\nH\nH\nH\nM1 correct repeat unit with single bond between carbon atoms\nM2 extension bonds, brackets and n included",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept n anywhere after brackets but not before"
+    }, {
+      "kind" : "note",
+      "text" : "Extension bonds do not need to go out of brackets"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "the polymer is the only product(of the reaction)/no small molecule is produced(as well as the polymer)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW only one type of monomer"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 ions cannot flow/move when solid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT ions are in fixed positions"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ions can flow/move when liquid/molten"
+    }, {
+      "kind" : "note",
+      "text" : "If reference to electrons cannot/can move then 0"
+    }, {
+      "kind" : "note",
+      "text" : "Mg2+ + 2e- $\\rightarrow$ Mg"
+    }, {
+      "kind" : "note",
+      "text" : "(it/steel) reacts with chlorine"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE not inert"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f02c75c6-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 lanthanum",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 melting point is below 1030(℃)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW melting point/920(℃) is lower than operating temperature"
+    }, {
+      "kind" : "note",
+      "text" : "Sm2O3+6HCl→2SmCl3+3H2O"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE(lanthanum) has lowest melting pointM2DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 2(a)(i)(ii)(iii)", "orphan row before first entry: (contain) different numbers of neutrons/87 has two more neutrons/85 has two fewer neutrons/85 has 48 neutrons but 87 has 50 neutrons", "orphan row before first entry: A(1)", "orphan row before first entry: (b)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Any reference to covalent bonds / metallic bonding / intermolecular forces max 1 mark", "5(a): bare integer cell \"25\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"22\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"24\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"20\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"23\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"18\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"23\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"18\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: IGNORE light\nALLOW odourless so does not taint food\nIGNORE references to cost\nIGNORE non-biodegradable\nIf two correct properties with no links allow 1 mark", "orphan row before first entry: (c)(ii)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 8(a)(i)(ii)", "orphan row before first entry: M2n[CO2]=(67200÷24)=2800(mol)", "orphan row before first entry: OR", "orphan row before first entry: M1(per person)n[CO2]=480÷24OR20(mol)", "orphan row before first entry: M2(total)n[CO2]=(20x140)=2800(mol)", "orphan row before first entry: M1mass ofNa2O2=2800x78(.0)OR218400(g)", "orphan row before first entry: ORM2from part(i)x78(.0)", "orphan row before first entry: M2218(.4)(kg)", "orphan row before first entry: M1( it/Li2O2) absorbs/reacts with more CO2(per mole/per gram)", "orphan row before first entry: ACCEPT only 1 mol Li2O2 needed per mol of CO2but 2 mol of LiOH needed per mol of CO2", "orphan row before first entry: Answers in either order", "orphan row before first entry: M2( it/Li2O2) produces oxygen", "orphan row before first entry: 9(a)(i)(ii)", "orphan row before first entry: M2(ΔH) enthalpy change (of reaction)", "orphan row before first entry: phosphoric acid", "orphan row before first entry: (b)(i)", "orphan row before first entry: M2because (forward) reaction is exothermic", "orphan row before first entry: IGNORE because reaction moves in exothermic direction", "orphan row before first entry: IGNORE references to rate", "orphan row before first entry: IGNORE references to Le Chatelier's principle, eg lower temperature favours the exothermic reaction / equilibrium position shifts to raise the temperature", "orphan row before first entry: M2DEP M1", "orphan row before first entry: i)", "orphan row before first entry: M2because there are more moles/molecules(of gas) on the left/ORA", "orphan row before first entry: REJECTatoms", "orphan row before first entry: ACCEPTthere are more moles/molecules of reactants", "orphan row before first entry: IGNOREreaction moves to the side with the larger number of moles/molecules", "orphan row before first entry: IGNOREreferences to rate", "orphan row before first entry: IGNOREreferences to Le Chatelier's principle, eg lower pressure favours the reaction that produces the larger number of moles(of gas)/equilibrium position shifts to increase the pressure", "orphan row before first entry: M2DEP M1", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)" ]
+}

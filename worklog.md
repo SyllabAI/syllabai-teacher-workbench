@@ -79,3 +79,25 @@ Work Log (addendum):
 Stage Summary:
 - Milestone GREEN with evidence bundle: evidence chain independently re-verified; invariants hold in derived state (counts/identity/lifecycle/quarantine/bridge-conflicts); workbench v1 live and gate-enforced.
 - SINGLE BLOCKER for canonical serving DB + remote-durability verification: GitHub PAT re-provision (previous token not persistent across sandbox resets). Runbook on PAT arrival: clone core @ baseline SHA → Flyway V1..V16 into ready cluster → idempotent replay 17 batches → verify_final_state 26 checks → fresh dump proof with retained artifacts → re-export bundle to release.
+
+---
+Task ID: R3-4
+Agent: Super Z (main agent, this session)
+Task: On PAT arrival, execute the standard migration + replay + verification runbook (R3-3 addendum): clone @ baseline SHAs → Flyway V1..V16 → idempotent 17-batch replay → verify_final_state → fresh isolation proof with retained artifacts → durable export.
+
+Work Log:
+- Sandbox had reset again (extracted binaries/JDK gone); reconstructed from retained artifacts: pgdebs/root extraction survived, pgdata survived, pgvector re-extracted from retained .deb (0.8.0 active), Maven 3.9.9 re-fetched from Maven Central (SHA1 ab87467c verified — archive.apache.org stall bypassed), Temurin jdk-25.0.4.1+1 re-fetched at exact pinned version.
+- Cloned SyllabAI/syllabai-core + syllabai-parser + Past-Papers (token-stripped origins). Corpus HEAD = c42b6a14 EXACT baseline match; core checked out @ 5991187a (baseline-recorded SHA), parser @ d3415caa. Migration immutability RE-PROVEN: git diff 5991187a..HEAD on src/main/resources/db/migration/ is EMPTY.
+- Campaign DB was schema-empty (0 public tables). Canonical apply = core boot @ 5991187a with campaign label: CAMPAIGN.DB.IDENTITY db=syllabai label=T-C04-CAMPAIGN commit=5991187; flyway_schema_history 16 rows V1..V16; pgvector 0.8.0.
+- Replay (fresh state file): 17/17 batches, every gate green (run1 INGESTED + invariants, run2 all DUPLICATE, row-delta == INGESTED contribution, embedded=0, validated=8, cumulative suggested == per-batch sum). Per-pair counts match protected r2 state exactly. 1c-2016jan quarantined in every plan; 2c-2016jan in batch-011.
+- verify_final_state.py: ALL CHECKS PASSED — 81/162/766(758+8)/641/1105/4822/96/21/81/2210/0, REVIEW_REQUIRED 34 preserved, figures 1507/1507. Baseline regenerated from live DB: diff vs retained = timestamp + run-pass labels + R3-2 provenance block only; zero count/schema/identity deltas.
+- Isolation proof: 334/334 core suite green @ 5991187a (matches R1/R3-2 counts); 19-table row counts IDENTICAL; dump sha256 IDENTICAL before/after = 5d13383e...; dump OBJECT retained + hash-verified (after.dump.gz). Two infra-failed suite attempts (offline maven missing surefire artifacts) left DB untouched — before-sha stable across all three runs. Parser suite @ d3415caa: 99/99 over 18 classes (previously REPORTED, now VERIFIED).
+- NEGATIVE GATE TEST artifact produced: preflight(expected_db=syllabai_test) → GATE FAILED exit 1 (previously REPORTED only).
+- Cross-run comparison vs R3-2 dump (labeled): per-table row counts IDENTICAL (19/19); byte diffs decomposed to per-run random UUID PKs/FKs + ingest timestamps + identity-row commit/last_seen only (a54f310→5991187; this run matches the baseline JSON's recorded core SHA). Full-dump byte equality across runs is impossible by design (random PKs) — within-run before/after equality remains the isolation claim.
+- Resolved an extraction subtlety: the run_tests_isolated.sh copy used was the 5991187a version (hash-no-retain); the dump-retention patch was already committed upstream in e1d5ee8 (+4 lines). Local scripts copy synced to main. No new commit needed.
+- Durability: GitHub release t-c04-r3-canonical-replay (id 387971653) on SyllabAI/syllabai-core @ main 5f7897b8 with 7 assets: VERIFICATION-VERDICT.txt, fresh campaign-baseline.json, after.dump.gz (5d13383e), cumulative-audit.json (17 batches), verify-final-state-r3-4.log, negative-gate-test.log, SHA256SUMS. Evidence pack also at download/evidence-r3-4/ + fresh campaign evidence regenerated at download/{ingestion-campaign-r2,campaign-baseline,isolation-proof}/.
+
+Stage Summary:
+- Canonical serving DB is LIVE at 127.0.0.1:5432/syllabai: migrated (V1..V16), identity-claimed (T-C04-CAMPAIGN, commit 5991187 = baseline), 81-session content replayed and independently verified == baseline. Serving-boundary discipline intact: all imported content SUGGESTED, 0 embedded, seed 8 VALIDATED.
+- Every previously REPORTED evidence gap now has a VERIFIED artifact: parser 99/99 log, negative gate test, retained hash-verified dump object.
+- Status: GREEN, evidence-backed and durably exported off-container. No destructive ops; V1..V16 untouched; no manual gates added. 1c-2016jan remains quarantined pending operator/PDF resolution.

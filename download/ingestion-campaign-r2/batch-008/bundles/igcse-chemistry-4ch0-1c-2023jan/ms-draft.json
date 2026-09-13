@@ -1,0 +1,745 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "f9058f52-19bf-5939-bbad-483392b87d5b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-f9058f52-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "particles should be close together and should fill from the bottom of the box, most particles should touch with a minimum of 2 random rows of particles",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW particles filling the whole box"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE the size of the particles"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT a regular arrangement"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "solid"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "solid to liquid melting"
+    }, {
+      "kind" : "note",
+      "text" : "solid to gas sublimation"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW subliming"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the two points."
+    }, {
+      "kind" : "note",
+      "text" : "M1(particles/molecules have) more(kinetic) energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2 can overcome/break the(intermolecular) forces/forces(between water molecules)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW hot water has more(kinetic) energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(particles/molecules) move faster"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE vibrate more"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW can overcome/break thebonds(between water molecules)OR to break away from one another OR to escape more easily"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to collisions,activation energy or rate of reaction"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B(Cl2)\nA is not the correct answer as the symbol O is for atoms of oxygen not molecules\nC is not the correct answer as HCl is a compound\nD is not the correct answer as H2O is a compound\nTotal for question=7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C(filtration)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer as crystallisation is not used to separate an insoluble solid from a liquid"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as evaporation will not separate an insoluble solid from a liquid"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer as simple distillation is used to separate a solvent from a solution"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT distillation"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT simple distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "D(X(s)→X(aq))"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer as(l) is not the correct final state symbol"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as(g) Is not the final state symbol"
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer as the state symbols are the wrong way round"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(diffusion)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer as boiling does not occur in the beaker"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as condensing does not occur in the beaker"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer as sublimation does not occur in the beaker"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 potassium/K+M2 sulfate/SO42-"
+    }, {
+      "kind" : "note",
+      "text" : "potassium sulfate scores 2K2SO4 scores 2KSO4 alone scores 1ALLOW in either orderIf name correct ignore incorrect formula"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal for question=6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "argon/Ar"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(nitrogen)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because nitrogen is more abundant than carbon dioxide methane or oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because nitrogen is more abundant than methane"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because nitrogen is more abundant than oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(hydrated) iron(III) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT other oxidation states"
+    }, {
+      "kind" : "note",
+      "text" : "(neon) has a full outer shell(of electrons)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Fe2O3"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE iron oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 75-30 OR 45(mm)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(45÷75×100)=60(%)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(neon) is unreactive/inert/has 8 electrons in the outer shell"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(neon) does not lose or gain(or share) electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 baseline has been drawn in ink\nTotal for question = 7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW baseline is not drawn in pencil"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and will therefore interfere with / contaminate the results"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW will move up the paper / will get mixed up with A / will produce other colours / affect results / will smudge / ink is soluble"
+    }, {
+      "kind" : "note",
+      "text" : "M3 the water level is above A/the baseline"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water level is too high / A is under water"
+    }, {
+      "kind" : "note",
+      "text" : "M4 and therefore A will mix with/dissolve in the water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW A will wash off the paper"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to lid"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 one spot about 1/4 of the way between the baseline and the top of the paper / solvent front and one spot about 1/2 way"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW answers that show solvent front"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the lower spot labelled yellow and the higher spot labelled blue"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)the blue food colouring/it is more soluble (in water) ORA as long as yellow food colouring is referred to"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE blue colour/it travels further up the paper"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B( chloroethene)\nA is not correct as the monomer has a double bond\nC is not correct as the monomer has two carbons\nD is not correct as the monomer has two carbons\nTotal for question=10",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Chemical structure of a monomer"
+    }, {
+      "kind" : "note",
+      "text" : "Extension bonds do not need to go through the brackets"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Mr of chloroethene)=62.5"
+    }, {
+      "kind" : "note",
+      "text" : "M22490000÷62.5=39840"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "A discussion which refers to any 4 of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 polymers/poly(propene) will remain in landfill indefinitely OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2(as they) are inert/unreactive/do not biodegrade/do not decompose"
+    }, {
+      "kind" : "note",
+      "text" : "M3 burning produces greenhouse gases/CO2"
+    }, {
+      "kind" : "note",
+      "text" : "M4 reference to climate change/global warming"
+    }, {
+      "kind" : "note",
+      "text" : "M5 burning produces toxic gases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to running out of landfill sites OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon monoxide/CO/hydrogen chloride/HCl"
+    }, {
+      "kind" : "note",
+      "text" : "Max 3 if any reference to the ozone layer"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M11:1:3/31800÷10600"
+    }, {
+      "kind" : "note",
+      "text" : "M2CHCl3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW other evidence of working"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the atoms in any order"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of CHCl3 without working scores 2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "X contains oxygen/OH\nTotal for question=12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW hydrocarbons only contain hydrogen and carbon (atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT oxygen molecules or hydrogen and carbon molecules"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "W"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "V"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "CH2=CHCH2CH3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW CH2CHCH2CH3"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 same molecular formula"
+    }, {
+      "kind" : "note",
+      "text" : "M2 different displayed/structural formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same numbers of C and H atoms"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW different arrangement of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(f)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C4H10+Br2→C4H9Br+HBr"
+    }, {
+      "kind" : "note",
+      "text" : "M1 C4H9Br as product"
+    }, {
+      "kind" : "note",
+      "text" : "M2 rest of the equation correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polysubstitution"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(substitution)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because alkanes do not undergo addition reactions"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as this is not a combustion reaction"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer as this reaction is not thermal decomposition"
+    }, {
+      "kind" : "note",
+      "text" : "(g)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to any 3 from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 nitrogen and oxygen(from air)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 react at the high temperatures(in a car engine)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 forming oxides of nitrogen"
+    }, {
+      "kind" : "note",
+      "text" : "M4 which react with/dissolve in water forming nitric acid/HNO3/acid rain"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT mention of petrol contains nitrogen for M1 only"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on mention of nitrogen and oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW NOx or named oxides of nitrogen"
+    }, {
+      "kind" : "note",
+      "text" : "M4 dep on M3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal for question = 10",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 NaCl"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise once only for incorrect case or superscript numbers"
+    }, {
+      "kind" : "note",
+      "text" : "M2 MgCl2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW symbols reversed e.g. N2Mg3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 Mg3N2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct charges on ions e.g Mg2+(Cl-)2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) magnesium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "Spelling must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(iii) 83"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE units"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 lithium changes (from 2.1) to 2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (two) lithium (atoms) lose one electron"
+    }, {
+      "kind" : "note",
+      "text" : "M2 oxygen changes (from 2.6) to 2.8"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxygen (atom) gains two electrons"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the three points"
+    }, {
+      "kind" : "note",
+      "text" : "No marks if mention of sharing electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M1 strong (electrostatic) forces of attraction"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW strong ionic bonds"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 between oppositely charged ions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE more energy"
+    }, {
+      "kind" : "note",
+      "text" : "M3 which require a lot of energy to break"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if any mention of covalent bonds, intermolecular forces or molecules"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(electrostatic) attraction between nuclei\nM2 and shared pair(s) of electrons\nOR\nM1(electrostatic) attraction between shared pair(s) of electrons\nM2 and nuclei\nTotal for question=10",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "must be plural"
+    }, {
+      "kind" : "note",
+      "text" : "must be plural"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links any 3 from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the boiling points increase(down the group/from F to Br)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the intermolecular forces get stronger"
+    }, {
+      "kind" : "note",
+      "text" : "M3 as(molecular) mass/size/number of electrons/(electron) shells increases"
+    }, {
+      "kind" : "note",
+      "text" : "M4 so more energy needed to separate the molecules/break the intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "No M2,M3 or M4 if any mention of breaking covalent/ionic bonds"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links any five from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the structure is in layers"
+    }, {
+      "kind" : "note",
+      "text" : "M2 there are weak forces between the layers(of atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 which can slide(over one another making it soft)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 each carbon/atom makes three covalent bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M5(one) delocalised electron(per carbon/atom)"
+    }, {
+      "kind" : "note",
+      "text" : "M6(delocalised) electrons flow/move/are mobile(to conduct electricity)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sheets/rows"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT intermolecular forces/molecules/ions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT ionic bonds"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT molecules/ions"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f9058f52-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal for question=9",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "measuring cylinder"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW burette/pipette/syringe"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT gas syringe"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Q=m×c×ΔT"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ΔT=2880÷(50×4.2)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 ΔT=13.7(1)℃"
+    }, {
+      "kind" : "note",
+      "text" : "M4(maximum temp=13.7(1)+21.(0)=)34.7(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 subsumes M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except1inM3andM4"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer without working scores4"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "thermal energy/heat lost(to the atmosphere/surroundings)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE energy lost"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M12880÷1000OR2.880kJ"
+    }, {
+      "kind" : "note",
+      "text" : "M22.880÷0.05(00)"
+    }, {
+      "kind" : "note",
+      "text" : "M3-57.6kJ/mol"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M12880÷0.05(00)OR57600J"
+    }, {
+      "kind" : "note",
+      "text" : "M257600÷1000"
+    }, {
+      "kind" : "note",
+      "text" : "M3-57.6kJ/mol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except1inM3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except1inM3"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer without working scores3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(a)(i)(ii)", "orphan row before first entry: magnesium cannot displace itself", "orphan row before first entry: magnesium/Mg\naluminium/Al\nX\ncopper/Cu", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: (c)", "orphan row before first entry: Total for question=7 marks", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: AND", "orphan row before first entry: M2 therefore the solution only contains magnesium nitrate", "orphan row before first entry: OR", "orphan row before first entry: M3 if acid is still present it will contaminate the crystals OWTTE", "orphan row before first entry: M1 moles of Mg that reacts = 0.0250÷2 OR 0.0125", "orphan row before first entry: M2 mass of Mg that reacts = 0.0125×24 OR 0.3(g)", "orphan row before first entry: M3 mass of Mg remaining = 0.45(g)", "orphan row before first entry: OR", "orphan row before first entry: M1 moles of Mg = 0.0250÷2 OR 0.0125", "orphan row before first entry: M2 moles of Mg remaining = 0.75÷24-0.0125 OR 0.03125-0.0125 OR 0.01875", "orphan row before first entry: (iii)", "orphan row before first entry: M1 filter off the excess magnesium", "orphan row before first entry: M2 heat the solution until crystals first start to form", "orphan row before first entry: M3 leave the solution to cool (and crystallise)", "orphan row before first entry: M4 pour/filter off excess liquid (to obtain crystals)", "orphan row before first entry: M5 leave (crystals) to dry", "orphan row before first entry: If heated to dryness only M1 can be scored", "orphan row before first entry: If solution is not heated only M1,M4 and M5 can be scored", "orphan row before first entry: (b)", "orphan row before first entry: Total for question=13", "orphan row before first entry: 12(a)(i)(ii)(iii)(iv)", "orphan row before first entry: 5.2(0g)", "orphan row before first entry: 0.9(0g)", "orphan row before first entry: M1 moles of BaCl2=5.2÷208OR0.025", "orphan row before first entry: M2 moles ofH2O=0.9÷18OR0.05(0)M30.05(0)÷0.025=2", "orphan row before first entry: (b)", "orphan row before first entry: M2100℃", "orphan row before first entry: (c)(i)(ii)(iii)", "orphan row before first entry: M1add water to anhydrous copper sulfate", "orphan row before first entry: M2which turns(from white)to blue", "orphan row before first entry: M1moles ofwater=0.02x5OR0.1M2molecules ofwater=6x10^{22}$", "orphan row before first entry: Total for question=13" ]
+}

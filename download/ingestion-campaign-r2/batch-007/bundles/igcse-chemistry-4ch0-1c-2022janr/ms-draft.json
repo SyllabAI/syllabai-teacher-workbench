@@ -1,0 +1,1052 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70703A",
+    "publicationCode" : "4CH1_1CR_2201_MS",
+    "session" : "January 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "965200a3-5034-5a7d-8f3c-76f62680c30b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-965200a3-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C red is correct because litmus indicator in an acidic solution is redA is incorrect because litmus indicator in an acidic solution is not blueB is incorrect because litmus indicator in an acidic solution is not orangeD is incorrect because litmus indicator in an acidic solution is not yellow",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q1b",
+    "label" : "1(b)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C 7 is correct because the pH value of a neutral solution is 7A is incorrect because the pH value of a neutral solution is not 0B is incorrect because the pH value of a neutral solution is not 4D is incorrect because the pH value of a neutral solution is not 14",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q1c",
+    "label" : "1(c)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D is correct because a solution with a pH value of 9 is weakly alkalineA is incorrect because a solution with a pH value of 9 is not strongly acidicB is incorrect because a solution with a pH value of 9 is not strongly alkalineC is incorrect because a solution with a pH value of 9 is not weakly acidic",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q1d",
+    "label" : "1(d)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A is correct because HNO3is the chemical formula of an acidB is incorrect because H2O is not the chemical formula of an acidC is incorrect because NaCl is not the chemical formula of an acidD is incorrect because NaOH is not the chemical formula of an acid",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q1e",
+    "label" : "1(e)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "neutralisation",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW exothermic"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q1f",
+    "label" : "1(f)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 potassium chlorideM2 water",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT in either orderALLOW correct chemical formulae"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nM2at a particular temperature\nM2particles spread out(evenly throughout water/solution/liquid)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(solute is) the substance/solid that dissolves(in a solvent) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(solvent is) the substance/liquid the solute/solid/substance dissolves in OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(saturated solution) contains as much dissolved solute/solid/substance as possible OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1process called diffusion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles move from area of high concentration to area of low concentration"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(same) solvent\nALLOWreference to use of pencil(for start line)/spots must start on horizontal line/solvent must start below line or spots\nALLOWsame distance travelled by solvent\nIGNOREdistance of line from bottom of paper\nIGNOREamount/volume/concentration of solvent/references to size/volume of dyes or spots/references to temperature/time",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW(same) named solvent eg water"
+    }, {
+      "kind" : "note",
+      "text" : "M2(same type of chromatography) paper"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREreference to size/length of paper"
+    }, {
+      "kind" : "note",
+      "text" : "3(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C is insoluble(in the solvent)"
+    }, {
+      "kind" : "note",
+      "text" : "M1Student 2 and dyeD/(Rfvalue)1.20"
+    }, {
+      "kind" : "note",
+      "text" : "M2becauseRfvalue must be less than1cannot be greater than1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWspot cannot move further than solvent front OWTTE"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(Rf=)9.7/12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2=0.808(33..)"
+    }, {
+      "kind" : "note",
+      "text" : "0.808(33..) with no working scores M1 and M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M2 ECF if used 10.7 or 13 and Rf<1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 1 mark for12=1.2(37..)/9.7"
+    }, {
+      "kind" : "note",
+      "text" : "M3=0.81(to2SF)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M3 ECF M2(must be correct to2SF)0.81 with no working scores3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "number of protons(in nucleus of atom)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE references to electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q4bi",
+    "label" : "4(b)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D29 is correct because mass number=total number of protons and neutrons=14+15=29A is incorrect because14is the number of protonsB is incorrect because15is the number of neutronsC is incorrect because28is the number of protons+the number of electrons",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q4bii",
+    "label" : "4(b)(ii)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(group)4M2because4electronsinoutershell",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW electronic configuration is2.8.4"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(32x95.0)+(33x0.75)+(34x4.25)100",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "OR(3040)+(24.75)+(144.5)100"
+    }, {
+      "kind" : "note",
+      "text" : "M2=32.0925"
+    }, {
+      "kind" : "note",
+      "text" : "32.09(25)with no working scores2ALLOW1mark for3209.25ALLOWM2ECFM1if minor error in calculation using all3isotopes"
+    }, {
+      "kind" : "note",
+      "text" : "M3=32.1(1dp)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer to1dpwith or without working scores3ALLOWM3ECFM2(must be correct to1dp)"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(good) conductors of electricity/malleable",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT(good) conductors of heat/ductile/have basic oxides/hydroxidesALLOWhigh density/high melting point/sonorous/shiny/hard/strong"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5b",
+    "label" : "5(b)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(in mercury) particles can move/flow OWTTEM2(in solid metal) particles do not move/are in fixed positions",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNOREreferences to spacing/gaps between particles/energy of particlesACCEPTparticles vibrate(about fixed position)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(bright) white flame",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOWwhite lightACCEPTwhite solid/ash/powder(formed)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5cii",
+    "label" : "5(c)(ii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(product/magnesium oxide is) basic/a base",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW(product/magnesium oxide) neutralises acid/dissolves in/reacts with acid/(produces) alkali(when added to water)REJECTif incorrect product given"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5di",
+    "label" : "5(d)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "magnesium/sulfur would react with/burn in oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTmagnesium oxide(not magnesium sulfide) would be formedALLOWsulfur dioxide would be formed"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5dii",
+    "label" : "5(d)(ii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1magnesium(atom) loses two electronsM2sulfur(atom) gains two electrons(from magnesium)M3charge on magnesium(ion) $ 2^{+} / \\mathrm{M g}^{2+} $ AND charge on sulfur/sulfide(ion) $ 2^{-} / \\mathrm{S}^{2-} $",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "two electrons transferred from magnesium(atom) to sulfur(atom) scores M1and M2"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5diii",
+    "label" : "5(d)(iii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 strong (electrostatic) force of attraction",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW strong ionic bonds butNo M1 or M2 if between atoms/molecules or any reference to intermolecular forces/covalent bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M2 between magnesium ions/Mg2+ and sulfide ions/S2-ions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT between oppositely charged ionsACCEPT between positive and negative ions"
+    }, {
+      "kind" : "note",
+      "text" : "M3 large amount/lot of (heat/thermal) energy needed to overcome forces/attraction"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT large amount/lot of (heat/thermal) energy needed to break the bondsIGNORE more energyNo M3 if reference to overcoming/breaking intermolecular forces/covalent bonds"
+    }, {
+      "kind" : "note",
+      "text" : "MgS+2HCl→MgCl2+H2SM1 all formulae correctM2 correctly balanced"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbolsM2 DEP M1ACCEPT multiples and fractions"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q5div",
+    "label" : "5(d)(iv)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-965200a3-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "136",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6b",
+    "label" : "6(b)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1simplest(whole number)ratio of atoms present(in a compound)M2empirical formula(ofocimene/C10H16)isC5H8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOWelements for atomsALLOWC:Hratio5:8"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "unsaturated hydrocarbon becauseM1 contains(carbon to carbon) double bond(s)M2 contains carbon and hydrogen(atoms)M3 only",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT moleculesM3 DEP on mention of carbon and hydrogen"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6di",
+    "label" : "6(d)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A additionB is incorrect because the type of reaction between an alkene and bromine is addition not polymerisationC is incorrect because the type of reaction between an alkene and bromine is addition not precipitationD is incorrect because the type of reaction between an alkene and bromine is addition not substitution",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6dii",
+    "label" : "6(d)(ii)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "ocimene contains more than one double bond/three double bonds",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6e",
+    "label" : "6(e)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C10H16+14O2→10CO2+8H2OM1CO2+H2OM2correctly balanced",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTin either orderM2DEP M1ACCEPTmultiples or fractions"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q6fi",
+    "label" : "6(f)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1carbon/C/sootM2carbon monoxide/CO",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTM1M2in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(carbon monoxide/CO) reduces capacity of blood to carry oxygen OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTcorrect references to haemoglobin/carboxyhaemoglobin"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 breaking up/down of a compound/substance OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT elements"
+    }, {
+      "kind" : "note",
+      "text" : "M2 by heat(ing)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any references to heat being given out/exothermic"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "examples of calculation of maximum mass of K2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Mr of KHCO3=100 AND Mr of K2CO3=138"
+    }, {
+      "kind" : "note",
+      "text" : "M2 200 g KHCO3produces138gK2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 2.50g KHCO3produces138x2.50=200"
+    }, {
+      "kind" : "note",
+      "text" : "M4 1.725(gK2CO3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2ormoreSF"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M2M3M4ECFM1correct answer with or without working scores4"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Mr of KHCO3=100 AND Mr of K2CO3=138"
+    }, {
+      "kind" : "note",
+      "text" : "M2 amountKHCO3=2.50/100=0.025(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 amountK2CO3=0.025/2=0.0125(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 massK2CO3(=0.0125x138)=1.725(g)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2ormoreSF"
+    }, {
+      "kind" : "note",
+      "text" : "M2M3M4ECFM1correct answer with or without working scores43.45/3.46/3.5/6.9scores3"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Zn(s)+H2SO4(aq)→ZnSO4(aq)+H2(g) all state symbols correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "8(b) with graph"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "all points correctly plotted (within+/-half a square)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "circle around point at 6 min"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "smooth curve of best fit"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "student took reading too soon/before 6 min"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "mass from graph at 6 min"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE UNITS"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q8ci",
+    "label" : "8(c)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 curve becomes less steep/gradient decreases (as time increases)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so rate of reaction decreases the (sulfuric) acid was in excess OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 ALLOW not all (sulfuric) acid reacted ALLOW zinc was limiting reagent ALLOW zinc was not in excess"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q8d",
+    "label" : "8(d)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 magnesium(more reactive than zinc so)would make reaction faster/increase the rate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECTreference to different surface area"
+    }, {
+      "kind" : "note",
+      "text" : "M2 less concentrated acid would make reaction slower/decrease the rate"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTreferences to differences in energy/speed of particles"
+    }, {
+      "kind" : "note",
+      "text" : "M3(so)difficult/impossible to know whether rate will increase or decrease overall OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWdifficult/impossible to know which change has greater effect OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWidea of difficult/impossible to predict(overall) effect of changing two factors at same time OWTTE"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q8e",
+    "label" : "8(e)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1at higher temperature particles have more(kinetic)energy",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTmore particles have the required activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2more(successful)collisions per unit time"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWparticles move faster"
+    }, {
+      "kind" : "note",
+      "text" : "M3rate of reaction increases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWmore frequent(successful)collisions"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 copper(II) carbonate is green\nM2 copper(II) carbonate is insoluble/cannot form a solution OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE is not white/is a different colour"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q9b",
+    "label" : "9(b)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Description including six of following points\n(Test for potassium ions)\nM1 flame test\nM2 lilac flame\n(Test for carbonate ions)\nM3 add acid (to mixture of solids/solution)\nM4 (pass/bubble) gas/carbon dioxide into limewater\nM5 which goes cloudy/milky/white ppt forms\n(Test for iodide ions)\nM6 (add dilute nitric acid followed by) silver nitrate (solution)\nM7 yellow ppt/solid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW description of flame test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any named acid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to concentration"
+    }, {
+      "kind" : "note",
+      "text" : "M4 DEP on M3"
+    }, {
+      "kind" : "note",
+      "text" : "M5 DEP on mention of limewater"
+    }, {
+      "kind" : "note",
+      "text" : "M7 DEP on mention of silver nitrate"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "contain water of crystallisation /are hydrated",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "3.18g"
+    }, {
+      "kind" : "note",
+      "text" : "3.78g"
+    }, {
+      "kind" : "note",
+      "text" : "calculation with following steps"
+    }, {
+      "kind" : "note",
+      "text" : "M1calculate moles ofNa2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "M2calculate moles ofH2O"
+    }, {
+      "kind" : "note",
+      "text" : "M3divide each by smaller to obtain ratio1:7"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "example calculation:"
+    }, {
+      "kind" : "note",
+      "text" : "M1$\\frac{3.18}{106}$=0.03"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWECFfrom(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2$\\frac{3.78}{18}$=0.21"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWECFfrom(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M3$\\frac{0.03}{0.03}$:$\\frac{0.21}{0.03}$=1:7"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Alternative method:"
+    }, {
+      "kind" : "note",
+      "text" : "M1(If formula isNa2CO3.7H2O products will form in ratio)106gNa2CO3:126gH2O"
+    }, {
+      "kind" : "note",
+      "text" : "M2so mass of water that forms with3.18gNa2CO3should=$\\frac{(126\\times3.18)}{106}$"
+    }, {
+      "kind" : "note",
+      "text" : "M3=3.78g so formula is correct"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1not heated crystals(for long) enough"
+    }, {
+      "kind" : "note",
+      "text" : "M2so not all water removed/evaporated OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M1repeat heating(and cooling)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWheat for longer"
+    }, {
+      "kind" : "note",
+      "text" : "M2until constant mass OWTTE"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Award 1 mark each for any six of the following:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Method 1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 polystyrene (insulator so) reduces/prevents heat loss (to atmosphere) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 no lid so heat/thermal energy will be lost (to atmosphere)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 stirring will ensure even temperature / more accurate (highest) temperature OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to heat/thermal energy evenly spread (throughout solution) OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to increases rate of reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M4 no lid so possibility of spillage OR polystyrene cup (containing thermometer) unstable/may fall over OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "Method 2"
+    }, {
+      "kind" : "note",
+      "text" : "M5 glass bottle poor insulator so heat/thermal energy loss occurs OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M6 bung helps reduce/prevent heat/thermal energy loss (to atmosphere)"
+    }, {
+      "kind" : "note",
+      "text" : "M7 bung so no spillage"
+    }, {
+      "kind" : "note",
+      "text" : "M8 cannot stir so cannot ensure even temperature / cannot ensure accurate (highest) temperature OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to heat/thermal energy not evenly spread (throughout solution) OWTTE"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q11b",
+    "label" : "11(b)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M10.025molCuSO4reactswith0.025molZn\nM2massZnneeded=0.025x65=1.625g\n(3g>1.625gsohaving3gZnisexcess)\nOR\nM10.025molCuSO4reactswith0.025molZn\nM23gZn=3/65=0.046mol\n(0.046>0.025sohaving3gZnisexcess)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOWreference to1:1molarratioor(only)0.025molZnneeded"
+    }, {
+      "kind" : "note",
+      "text" : "M2subsumesM1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWreference to1:1molarratioor(only)0.025molZnneeded"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q11ci",
+    "label" : "11(c)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(ii)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 calculation of temperature rise"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct substitution into Q=m×4.2xtemp rise"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct evaluation of Q"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1(40.6-21.1)OR19.5"
+    }, {
+      "kind" : "note",
+      "text" : "M2Q=50×4.2×19.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3=4100(J)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW4095IGNORE sign"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 answer to(i)÷0.025"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTuse of4000"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct evaluation inJ"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct conversion tokJandminus sign"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M14095÷0.025"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT160000/164000"
+    }, {
+      "kind" : "note",
+      "text" : "M2=163800(J)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT-163.8/-164160/163.8/164scores2"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-965200a3-q11d",
+    "label" : "11(d)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(d)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1Zn/zinc is oxidised because loses electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2Cu2+/copper ions reduced because gains electrons"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 7,
+    "2" : 6,
+    "3" : 8,
+    "4" : 7,
+    "5" : 14,
+    "6" : 13,
+    "7" : 6,
+    "8" : 15,
+    "9" : 8,
+    "10" : 10,
+    "11" : 16
+  },
+  "paperTotal" : 110,
+  "icTable" : null,
+  "warnings" : [ "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(d)(iii): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(f)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11(c)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)" ]
+}

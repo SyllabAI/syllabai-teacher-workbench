@@ -1,0 +1,523 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_1C_1706_MS",
+    "session" : "Summer 2017",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "9e53afca-2665-5853-b04c-6ad129a1056e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-9e53afca-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "atomic number of the atom\nnumber of shells shown\nmass number of the atom\nnumber of protons in an isotope of this element\ngroup where element is found in the Periodic Table",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "3"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B(H2)The only correct answer is BA is not correct because H is the symbol of an atom of hydrogen not a molecule of hydrogenC is not correct because H2O is the formula of water which is a compoundD is not correct because H2O2 is the formula of hydrogen peroxide which is a compound",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D(sodium chloride solution)The only correct answer is DA is not correct because sodium is an element not a mixtureB is not correct because chlorine is an element not a mixtureC is not correct because sodium chloride is a pure compound not a mixture"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "galvanising/galvanisation",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore sacrificial protection"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "rust"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "Accept air/O2Ignore O"
+    }, {
+      "kind" : "note",
+      "text" : "M2 water"
+    }, {
+      "kind" : "note",
+      "text" : "Accept H2OAllow moistureIgnore vapour"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answers in either orderIf name and formulae given both must be correct"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(top row)CuCl2M2(middle row)(NH4)2SO4M3(bottom row)Fe2(CO3)3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C(copper(II) sulfate)The only correct answer is CA is not correct because the name of CuSO4 is not copper(I) sulfateB is not correct because the name of CuSO4 is not copper(I) sulfiteD is not correct because the name of CuSO4 is not copper(II) sulphite"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "C(white AND colourless)The only correct answer is CA is not correct because NH4Cl(s) is not colourlessB is not correct because NH4Cl(s) is not colourlessD is not correct because NH4Cl(aq) is not white"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 vaporisation\nM2 temperature\nM3 condensation\nM4 boiling point",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "the molecules that are cracked are hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for each correct tickIf more than 3 ticks then subtract 1 mark for each extra tick"
+    }, {
+      "kind" : "note",
+      "text" : "catalytic cracking uses iron as the catalyst"
+    }, {
+      "kind" : "note",
+      "text" : "cracking is used because of different requirements for hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "cracking reactions are examples of addition reactions"
+    }, {
+      "kind" : "note",
+      "text" : "cracking produces molecules with shorter chains"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "CH4+2O2→CO2+2H2O is an equation for a cracking reaction"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "reaction faster/takes less time\nM2(at end)16\nM3(change)(-)55",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore references to larger surface area"
+    }, {
+      "kind" : "note",
+      "text" : "Reject references to dissolving"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "reaction very slow/too slow without water"
+    }, {
+      "kind" : "note",
+      "text" : "Accept rusting needs water/ moisture"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow so that iron can rust"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reference to increasing rate of reaction/rusting"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(at start)71"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore trailing .0(0) in all answers"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore units"
+    }, {
+      "kind" : "note",
+      "text" : "M3 CQ M1-M2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "the elements can be obtained by electrolysing molten metal halides\nthe elements with paler colours are lower down the group\nthe boiling points decrease down the group\nthe elements form covalent compounds with other non-metals\ntheir molecules contain two atoms\nall are gases at room temperature",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for each correct tickIf more than 3 ticks then subtract 1 mark for each extra tick"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "2K+I2→2KI"
+    }, {
+      "kind" : "note",
+      "text" : "Accept fractions/multiplesIgnore state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(hydrogen chloride) g(hydrochloric acid)aq"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q9ei",
+    "label" : "9(e)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 test 2\nM2 chlorine does not react with chloride(ions)\nAllow chlorine does not react with itself\nAccept reference to halogen/halide in place of chlorine/chloride\nIgnore chlorine does not displace chloride",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "Allow description of test"
+    }, {
+      "kind" : "note",
+      "text" : "Accept chlorine does not displace itself"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(solution becomes darker)"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is C"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because original sodium iodide solution is colourless but in Test 1 iodine is formed in the solution so the solution becomes darker(red/brown)-no effervescence is seen as no gas being formed"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because original sodium iodide solution is colourless but in Test 1 iodine is formed in the solution so the solution becomes darker(red/brown)-no iodine vapour produced so no purple fumes produced"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because original sodium iodide solution is colourless but in Test 1 iodine is formed in the solution so the solution becomes darker(red/brown)-no white precipitate formed"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 replace signs by + signs/OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept all ions should be cations/positive Reject if state/imply these particles are protons/nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "M2 replace protons (label) by electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow electrons (not protons) are delocalised"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(magnesium) ions in layers/rows/sheets/planes/OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "Accept atoms/cations/particles for ions Reject molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M2 slip/slide(over each other)"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow OWTTE eg shift/roll/flow"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on mention of EITHER layers or equivalent OR mention of ions or equivalent"
+    }, {
+      "kind" : "note",
+      "text" : "Do not award M2 if molecules/protons/electrons/nuclei in place of ions etc."
+    }, {
+      "kind" : "note",
+      "text" : "If reference to ionic bonding/covalent bonding/molecules/intermolecular forces,M1 and M2 cannot be scored"
+    }, {
+      "kind" : "note",
+      "text" : "M3 delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept sea of electrons Ignore free electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M4 can flow/move(through the magnesium/metal/structure)/are mobile(when voltage/p.d.is applied)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore carry the charge M4 DEP on mention of electrons"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q10e",
+    "label" : "10(e)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "calculation of mass of water"
+    }, {
+      "kind" : "note",
+      "text" : "m(H2O)=(17.2-8.3)=8.9(g)"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "calculation of amounts of MgSO4 AND H2O"
+    }, {
+      "kind" : "note",
+      "text" : "n(MgSO4)=8.3÷120 OR 0.069(mol)Allow any sig. fig e.g.0.07ANDn(H2O)=8.9÷18 OR 0.49(mol)Allow any sig. fig e.g.0.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "calculation of MgSO4:H2O ratio"
+    }, {
+      "kind" : "note",
+      "text" : "0.069:0.49 OR 1:7.101449275..allow any sig. fig."
+    }, {
+      "kind" : "note",
+      "text" : "M4"
+    }, {
+      "kind" : "note",
+      "text" : "x=7"
+    }, {
+      "kind" : "note",
+      "text" : "OR 0.49/0.069 OR 7.101449275..allow any sig. fig.accept MgSO4.7H2OCorrect final answer with or without working scores 4 marksCheck for incorrect workinge.g.120÷18=6.66=7Mark CQ throughout"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q11ai",
+    "label" : "11(a)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(moles route)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 n(CaO)=28000÷56OR500(mol)"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow0.5iffinalanswergiveninkg"
+    }, {
+      "kind" : "note",
+      "text" : "M2 n(H2O)=500(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "ForM2needtouseorstatemolH2O"
+    }, {
+      "kind" : "note",
+      "text" : "M3 m(H2O)=500×18=9000g/9kg"
+    }, {
+      "kind" : "note",
+      "text" : "Unitsnotneededforintermediateanswers"
+    }, {
+      "kind" : "note",
+      "text" : "OR(massratiosroute)"
+    }, {
+      "kind" : "note",
+      "text" : "Do notawardM3ifunitmissingorincorrectCorrectfinalanswerwithorwithoutworkingscores3marks"
+    }, {
+      "kind" : "note",
+      "text" : "M1Mr(CaO)=56ANDMr(H2O)=18"
+    }, {
+      "kind" : "note",
+      "text" : "MarkM2andM3CQonM1"
+    }, {
+      "kind" : "note",
+      "text" : "M2m(H2O)=28×18/56"
+    }, {
+      "kind" : "note",
+      "text" : "Do notawardM3ifunitmissingorincorrectCorrectfinalanswerwithorwithoutworkingscores3marks"
+    }, {
+      "kind" : "note",
+      "text" : "M3=9kg/9000g"
+    }, {
+      "kind" : "note",
+      "text" : "MarkM2andM3CQonM1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1carbondioxideis(an)acidic(oxide)"
+    }, {
+      "kind" : "note",
+      "text" : "M2calciumhydroxideisabase/analkali"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignorecontainshydroxide/OH-ions"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-9e53afca-q11b",
+    "label" : "11(b)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Time to collect100cm3of gasin seconds\nTemperature in℃",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1+M2all five points plotted tonearest gridline"
+    }, {
+      "kind" : "note",
+      "text" : "Deduct1mark for each error up to max2"
+    }, {
+      "kind" : "note",
+      "text" : "M3curve of best fit"
+    }, {
+      "kind" : "note",
+      "text" : "Curve CQ on points plotted"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise repeated straight line(s)"
+    }, {
+      "kind" : "note",
+      "text" : "joining points"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise more than one curve visible"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1particles have more energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2more collisions have energy equal to/greater than the activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "M3more successful collisions per second"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 11,
+    "3" : 7,
+    "4" : 13,
+    "5" : 6,
+    "6" : 16,
+    "7" : 9,
+    "8" : 9,
+    "9" : 15,
+    "10" : 18,
+    "11" : 11
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (d)(ii)", "orphan row before first entry: (e)(i)", "orphan row before first entry: (ii)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M2", "orphan row before first entry: M3", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: M2 sodium sulfate", "orphan row before first entry: (iii)", "orphan row before first entry: (d)(iv)", "orphan row before first entry: (e)", "orphan row before first entry: M2 bubble/pass gas/carbon dioxide into limewater/OWTTE", "orphan row before first entry: M3(limewater)turns milky", "orphan row before first entry: 5(a)(i)(ii)", "orphan row before first entry: to produce the reducing agent", "orphan row before first entry: (b)", "orphan row before first entry: (c)", "orphan row before first entry: M2 (because) iron/iron oxide loses oxygen AND carbon gains oxygen", "orphan row before first entry: Ignore references to electrons", "orphan row before first entry: Allow reference to oxidation number of iron has decreased and oxidation number of carbon has increased (if oxidation numbers stated must be correct)", "6(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 6(c)(i)(ii)(iii)", "orphan row before first entry: M1 propene", "orphan row before first entry: M2 methane", "orphan row before first entry: (iv)", "orphan row before first entry: H-C=C-C-C-H\nH-H", "orphan row before first entry: H-C-C=C-C-C-H\nH-H", "orphan row before first entry: (d)", "orphan row before first entry: M2", "orphan row before first entry: M3", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: (e)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Allow 70×100=28 for(1)Correct final answer with or without working scores 2 marks", "orphan row before first entry: 8(a)(i)(ii)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: M2because equal numbers of(gas)moles/molecules on both sides", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: M2", "orphan row before first entry: M3", "orphan row before first entry: M1", "orphan row before first entry: M2", "orphan row before first entry: M3", "9(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (f)(i)", "orphan row before first entry: (ii)", "10(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 white solid/powder/ash/smoke", "orphan row before first entry: (ii)", "orphan row before first entry: (d)", "orphan row before first entry: Accept to increase the concentration(of the solution)\nAccept to produce a(hot) saturated solution\nAccept to reach crystallisation point\nAllow to reduce the volume(of the solution)\nAllow to evaporate/remove some of the solution\nIgnore references to rate of reaction\nReject to evaporate acid", "orphan row before first entry: M1 to see if/when crystals form", "orphan row before first entry: M2 indicates the crystallisation point/when solution is saturated/OWTTE", "orphan row before first entry: Any two from\nM1 MgSO4\nM2 H2O\nM3 H2SO4", "11(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11(b): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)" ]
+}

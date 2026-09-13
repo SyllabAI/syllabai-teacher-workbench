@@ -1,0 +1,426 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P75822A",
+    "publicationCode" : "4CH1_2C_2406_MS",
+    "session" : "Summer 2024",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8fe25072-6546-5de3-808d-6f21d3a9e309"
+  },
+  "entries" : [ {
+    "entryId" : "ms-8fe25072-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sulfur"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW S"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "beryllium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Be"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "boron"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW B"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "2,8,4/2.8.4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT diagram showing electron configuration"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three pointsM1 the outer shell is further from the nucleus in sodium/sodium has more shells/sodium has a larger atomic radius ORAALLOW a sodium atom is larger than a lithium atomALLOW Li 2,1 Na 2,8,1M2 there is less attraction to the nucleus for the outer electron/outer shell in sodium ORAALLOW there is more shielding in sodium ORAM3 so the (outer) electron is more easily lost ORAIGNORE electrons (plural) in M1 and M2 but do not allow electrons in M3"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8fe25072-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(A) refinery gases",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2(F) bitumen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "aircraft fuel"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to three of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 crude oil is heated/vaporised"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE evaporated"
+    }, {
+      "kind" : "note",
+      "text" : "M2(the vapour) passes into/rises up the fractionating column/ chamber OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3 the kerosene/the fraction is tapped off/removed at its boiling point range/condenses and removed"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW kerosene/the fraction is removed at the 3rd or 4th level"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 silica/alumina"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW silicon dioxide/SiO2/aluminium oxide/Al2O3/zeolites/aluminosilicates"
+    }, {
+      "kind" : "note",
+      "text" : "M2 any value or range between 600 and 700(℃) inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links three of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 there is a surplus supply of/less demand for larger fractions/molecules/hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "ORthere is not enough supply/greater demand for smaller fractions/molecules/hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 alkenes are produced which are needed to make polymers"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW plastics/to make ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "M3 smaller fractions/alkanes/molecules/hydrocarbons are needed for petrol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gasoline/fuel for cars"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8fe25072-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 same general formula"
+    }, {
+      "kind" : "note",
+      "text" : "M2 same functional group"
+    }, {
+      "kind" : "note",
+      "text" : "M3 similar chemical properties/characteristics"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE same chemical properties"
+    }, {
+      "kind" : "note",
+      "text" : "M4 trend in physical properties/characteristics"
+    }, {
+      "kind" : "note",
+      "text" : "accept any trend in specified physical property"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(from) orange"
+    }, {
+      "kind" : "note",
+      "text" : "must be in the correct order"
+    }, {
+      "kind" : "note",
+      "text" : "M2(to) green"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(methanol) H"
+    }, {
+      "kind" : "note",
+      "text" : "I"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "I"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise once only if O-H bond not shown and both structures correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2(methanoic acid) O"
+    }, {
+      "kind" : "note",
+      "text" : "II"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "CH3OH+HCOOH→HCOOCH3+H2O"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW CH3OOCH"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT CH3COOH and C2H4O2"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A(butyl ethanoate)"
+    }, {
+      "kind" : "note",
+      "text" : "Bbutyl methanoate is not the correct name of the ester CH3COOCH2CH2CH3"
+    }, {
+      "kind" : "note",
+      "text" : "Cethyl butanoate is not the correct name of the ester CH3COOCH2CH2CH3"
+    }, {
+      "kind" : "note",
+      "text" : "Dmethyl butanoate is not the correct name of the ester CH3COOCH2CH2CH3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C6H12O2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW symbols in any order"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8fe25072-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that refers to the following three points\nREJECT M3 if they attempt to crystallise the filtrate\nREJECT solution for M3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 filter (the mixture)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 wash (the precipitate/solid/lead(II) bromide with distilled water)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 suitable drying method"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. dry with filter paper/leave to dry/dry in a desiccator/dry in an oven"
+    }, {
+      "kind" : "note",
+      "text" : "If any attempt to evaporate the solution allow MAX 1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "2(.0)x0.025=0.05(0)(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT25÷1000=0.0250.05÷0.025=2"
+    }, {
+      "kind" : "note",
+      "text" : "OR2(.0)x25=0.05(0)(mol)1000"
+    }, {
+      "kind" : "note",
+      "text" : "All working must be shown to gain full marks"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(nPbBr2)=0.05(0)÷2=0.025"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2:1=0.05:0.025"
+    }, {
+      "kind" : "note",
+      "text" : "M20.025x367=9.175(g)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT9.18/9.2/9(g)"
+    }, {
+      "kind" : "note",
+      "text" : "ORM10.05x367=18.35(g)"
+    }, {
+      "kind" : "note",
+      "text" : "M218.35÷2=9.175(g)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT9.18/9.2/9(g)All working must be shown to gain full marks"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1when solid the ions are in fixed positions/in a lattice"
+    }, {
+      "kind" : "note",
+      "text" : "M2so there are no ions/electrons/charged particles free to move"
+    }, {
+      "kind" : "note",
+      "text" : "M3(when molten)the ions are free to move so can conduct electricity/carry a current"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE carry charge"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT electrons moving/delocalised electrons for M3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8fe25072-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(electrostatic) attraction between nuclei(of both atoms)\nM2 and a shared/bonding pair of electrons\nOR\nM1(electrostatic) attraction between a shared/bonding pair of electrons\nAn explanation that links the following four points\nM1(in the organic solvent) litmus paper stays blue/has no change\nM2 because there are no(H+)ions/the solution is not acidic/does not dissociate in an organic solvent\nM3(in the aqueous solution) litmus paper turns red\nM4 because H+ions are formed/hydrochloric acid forms\nM1 reactants bond energy=436+242 OR 678(kJ)\nM2 products bond energy=2x431 OR 862(kJ)\nM2 correct labelling of(reactants)H2+Cl2and(products)2HCl\nM3 vertical line in correct position labelledΔH",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "nuclei must be plural"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and nuclei(of both atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "nuclei must be plural"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT M3 if litmus is bleached or turns white"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer-184 with or without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(+)184 scores2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf on incorrect values onM1 and/or M2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 show correct positions of horizontal lines and activation energy hump"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf if positive answer in(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 REJECT arrow pointing down"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT arrow pointing down or double headed arrow"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT arrow pointing up"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)", "orphan row before first entry: M2 water", "orphan row before first entry: painting/oiling/coating with plastic/galvanising/electroplating/waxing/greasing", "orphan row before first entry: (b)", "orphan row before first entry: M1 a more reactive metal is connected to/coated on the iron OWTTE", "orphan row before first entry: M2 the more reactive metal will react/oxidise/corrode instead of iron", "orphan row before first entry: Total 5", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(a)(i)(ii)(b)", "orphan row before first entry: M1 smooth curve of best fit forKNO3M2 smooth curve of best fit forNaNO3", "orphan row before first entry: temperature where their lines cross(expected value approximately68℃)", "orphan row before first entry: (c)(d)", "orphan row before first entry: M1 mass at50℃read from graph(expected value approximately21g)M2 mass at20℃read from graph(expected value approximately8g)M3M1-M2(expected value approximately13g)", "orphan row before first entry: Total10", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: M1 graphite", "orphan row before first entry: M2 resistance to high temperature /has a high melting point", "orphan row before first entry: ALLOW conducts electricity /doesn't react with product /is inert", "orphan row before first entry: M2 dependent on graphite /carbon /a transition metal", "orphan row before first entry: (iii)", "orphan row before first entry: IGNORE state symbols even if incorrect", "orphan row before first entry: (d)", "orphan row before first entry: REJECT orange/orange-brown/red alone", "orphan row before first entry: (ii)", "orphan row before first entry: REJECT bromine loses electrons", "orphan row before first entry: Total 14", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M4 vertical line in correct position labelled Ea or activation energy" ]
+}

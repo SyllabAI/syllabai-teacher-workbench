@@ -1,0 +1,1115 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_1C_1606_MS",
+    "session" : "Summer 2016",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d5191851-8500-5fd7-a4dc-e13a0833cf4a"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d5191851-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B(condensation)\nM2(the particles/they) move closer together/pack more closely\nM3(the particles/they) do not move as freely/move more slowly/move less randomly\nNB M1,M2andM3can be scored anywhere across the whole answer",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(the particles/they) lose(kinetic)energy/have less energy"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT lose potential/heat energy"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT not as many gaps/smaller gaps REJECT refs to density"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT molecules for particles"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT atoms once only."
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A(argon)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "CO2/H2O"
+    }, {
+      "kind" : "note",
+      "text" : "do not allow as part of an equation"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE names even if correct"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(the copper) reacts/combines with oxygen/oxidised"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE bonds with oxygen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE burns/combusts"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT refs to rust"
+    }, {
+      "kind" : "note",
+      "text" : "M2to form copper(II) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT copper oxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any other oxidation state"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "the volume of a gas changes with temperature/gas expands when hot/heated"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse argument"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to density"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "all the oxygen has reacted/the oxygen has been used up/no oxygen(left to react)"
+    }, {
+      "kind" : "note",
+      "text" : "DO NOT ACCEPT refs to`not enough oxygen'"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(150-125)or25(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(25/150)x100=16.7(%)OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1100x(125/150)=83.3(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2100-83.3=16.7(%)M2is cq onM1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT17/16.67/16.6"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT83/83.33/83.3"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT16.6forM2correct answer(with no working) scores2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D(filtration)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(chromatography) paper"
+    }, {
+      "kind" : "note",
+      "text" : "(original) position(of spot)"
+    }, {
+      "kind" : "note",
+      "text" : "solvent"
+    }, {
+      "kind" : "note",
+      "text" : "award one mark for each correct label"
+    }, {
+      "kind" : "note",
+      "text" : "solvent:ALLOW label line to any point under the solvent level"
+    }, {
+      "kind" : "note",
+      "text" : "paper:ALLOW label line to paper,including under solvent level"
+    }, {
+      "kind" : "note",
+      "text" : "original spot:has to be in the centre of the baseline i.e. below the visible spots"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Four because there are four spots/dots(above the baseline in the chromatogram)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW blobs/marks/colours"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to different heights"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "E",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "F"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "F"
+    }, {
+      "kind" : "note",
+      "text" : "(vi)"
+    }, {
+      "kind" : "note",
+      "text" : "E"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(bonding/shared) electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT protons/nucleus(es)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT nucleus(es)"
+    }, {
+      "kind" : "note",
+      "text" : "M2bonding/shared electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A2D/DA2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2O"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if charges shown"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Metal\naluminium\ncopper\niron\nmagnesium\nzinc",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Highest temperature"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for magnesium and zincM2 and M3 for other 3 metals-1 mark for 2 correct,2 marks for all 3 correctPenalise missing trailing0 once only"
+    }, {
+      "kind" : "note",
+      "text" : "42.0"
+    }, {
+      "kind" : "note",
+      "text" : "25.0"
+    }, {
+      "kind" : "note",
+      "text" : "29.0"
+    }, {
+      "kind" : "note",
+      "text" : "46.5"
+    }, {
+      "kind" : "note",
+      "text" : "31.5"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium"
+    }, {
+      "kind" : "note",
+      "text" : "mark csq on table in(a)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "it/copper does not react(with sulfuric acid)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT there is no reaction/the(sulfuric) acid does not react(with copper)IGNORE copper is unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(change/rise in temperature would be) lessM2because there is a largervolume/mass of solution/liquid(to be heated)OR same(amount of)energy distributed to a larger number of particles"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT halvedIGNORE any quoted temperaturesACCEPT there is more/twice as much solution/liquid to be heatedALLOW acid for solution/liquidREJECT the magnesium has to react with more acidM2dep onM1"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "H $ ^{x} $ H",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "NB H does not need to be shown if touching/ overlapping circles are shown"
+    }, {
+      "kind" : "note",
+      "text" : "if overlapping/touching circles used both electrons must be within the overlapping/touching area"
+    }, {
+      "kind" : "note",
+      "text" : "M1 weak forces (of attraction) between molecules/weak intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT particles ACCEPT bonds for forces for both M1 and M2 ACCEPT correctly named IMF"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (therefore) little (thermal/heat) energy required to overcome these forces/separate the molecules (into the gaseous state)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE more easily separated/easier to break"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT atoms for both M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "NB any mention of breaking covalent or ionic bonds scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "M1 atoms of the same element"
+    }, {
+      "kind" : "note",
+      "text" : "atoms with same atomic number/atoms same number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 with different masses"
+    }, {
+      "kind" : "note",
+      "text" : "different mass numbers/different numbers of neutrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to electrons unless incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "$ ^{1} $ H"
+    }, {
+      "kind" : "note",
+      "text" : "$ ^{2} $ H"
+    }, {
+      "kind" : "note",
+      "text" : "one mark for each correct row"
+    }, {
+      "kind" : "note",
+      "text" : "protons"
+    }, {
+      "kind" : "note",
+      "text" : "neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nM1 calcium/solid/it disappears",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT dissolves / gets smaller"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE mass decreases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 bubbles (of gas) / fizzing / effervescence"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT gas given off"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE hydrogen given off"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE incorrect gas / colour"
+    }, {
+      "kind" : "note",
+      "text" : "M3 white solid (forms) / white suspension (forms) / (liquid) turns milky / (liquid) turns cloudy / white trails forms"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT white precipitate forms"
+    }, {
+      "kind" : "note",
+      "text" : "M4 calcium moves (up and down)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE floats"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT refs to moving on the surface"
+    }, {
+      "kind" : "note",
+      "text" : "M5 water/solution/liquid gets warm"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT temperature of water/solution/liquid rises"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to heat released"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 any value greater than 7"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT “greater than 7”"
+    }, {
+      "kind" : "note",
+      "text" : "M2 hydroxide ions/OH- are present / calcium hydroxide/Ca(OH)2 is an alkali / calcium hydroxide/Ca(OH)2 is a base"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT metal hydroxides are alkalis/bases"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE hydroxides are alkalis/bases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on correct or missing M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE calcium is an alkali metal"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (Solid X) - CaO / calcium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "if both formula and name given both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (Solution Y) - CaCl2 / calcium chloride"
+    }, {
+      "kind" : "note",
+      "text" : "M3 (Solid Z) - CaCO3 / calcium carbonate"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT Ca(HCO3)2 / calcium hydrogencarbonate"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "hydrated copper(II) sulfate\nopen tube\nice\nwater\nNB the arrow must point to the solid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT a flame"
+    }, {
+      "kind" : "note",
+      "text" : "if >1 arrow drawn, all must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "to condense the (water) vapour / steam"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to cool the water vapour"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to cool/condense the gas (given off)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to condense the water"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to stop the water escaping as water vapour"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to condense the product"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 n(CuSO4.5H2O)=2.50÷250OR0.01(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 n(H2O)=0.01×5OR0.05(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 mass of water=(0.05×18)=0.9(0)(g)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 5×18OR90"
+    }, {
+      "kind" : "note",
+      "text" : "M2 250(g)→90(g)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 2.50(g)→0.9(0)(g)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 5×18OR90"
+    }, {
+      "kind" : "note",
+      "text" : "M2 90÷250×100(%)→36(%)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 36(%)×2.50(g)→0.9(0)(g)"
+    }, {
+      "kind" : "note",
+      "text" : "mark csq throughout"
+    }, {
+      "kind" : "note",
+      "text" : "correct final answer (with no working) scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT calculations that useArofCu as63.5(giving0.9(05)(g)as a final answer)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 subsumesM1for all methods"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1&M2 all points plotted correctly, to the nearest gridline\nM3 best fit straight line through first 3 points drawn with the aid of a ruler\nM4 best fit straight line through last 6 points drawn with the aid of a ruler",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "deduct one mark for each incorrectly plotted point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M3 and M4 even if lines do not intersect"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "value correctly read ($\\pm0.25\\text{cm}^3$) to nearest gridline from candidate's graph"
+    }, {
+      "kind" : "note",
+      "text" : "(12.5cm3 if correctly drawn)"
+    }, {
+      "kind" : "note",
+      "text" : "Do not award these marks if lines do not cross"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "value correctly read ($\\pm0.1\\textcircled{C}$) to nearest gridline from candidate's graph"
+    }, {
+      "kind" : "note",
+      "text" : "(10℃ if correctly drawn)"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q9c",
+    "label" : "9(c)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(water) - to remove/flush out solution(X)\nM2(solution Y) - to remove the water/avoid diluting solutionY",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT so that the only liquid in the burette is solutionY"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to remove impurities for bothM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "solution Y is less concentrated(than solutionX)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "solution(in Experiment2) is less concentrated"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to reactivity"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weaker/less strong instead of less concentrated"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to more/less acidic"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse argument"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "propane",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C4H10"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H10C4penalise incorrect use of symbols and subscriptsREJECT structural and displayed formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "W X Y"
+    }, {
+      "kind" : "note",
+      "text" : "all three required"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "CH2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2CREJECT CnH2n"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(unsaturated) contains a(carbon to carbon) double bondM2(hydrocarbon)(compound/molecule/substance)contains (the elements/atoms)hydrogen and carbon...M3...only"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiple bondsIGNORE refs to single bondsREJECT element/atom/mixture for compound/molecule/substanceREJECT ions/molecules for elements/atomsM3 dep on mention of hydrogen & carbon inM2ACCEPT other equivalents e.g. solely,just, exclusively"
+    }, {
+      "kind" : "note",
+      "text" : "(f)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "H H HH-C-C-C-BrH H H"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT bromine in any positionACCEPT multiple substitutionsACCEPT correct displayed formula given as a product of an equationIGNORE any structural formula eg CH3CH2CH2Bror molecular formulaIGNORE H-Br"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "UV/ultraviolet light/radiation"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to heat/(high)temperature/(high)pressure"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q12a",
+    "label" : "12(a)",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(Fe)36.856"
+    }, {
+      "kind" : "note",
+      "text" : "(Ti)31.648"
+    }, {
+      "kind" : "note",
+      "text" : "(O)31.616"
+    }, {
+      "kind" : "note",
+      "text" : "Division by atomic number scores0"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "0.66"
+    }, {
+      "kind" : "note",
+      "text" : "0.66"
+    }, {
+      "kind" : "note",
+      "text" : "1.98"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig figs except oneALLOW0.65,0.65,1.97"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1calculation ofMrofFeTiO3=152"
+    }, {
+      "kind" : "note",
+      "text" : "M2expression for% ofeachelemente.g.Fe:56÷152x100%"
+    }, {
+      "kind" : "note",
+      "text" : "M3evaluation to show these equal36.8%Fe,31.6%Ti,31.6%O"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(element oxidised)-carbon/C"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to electron lossACCEPT oxidation state/number increasesACCEPT oxidation state/number changes from0to(+)4"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(reason)-(it has) gained/combined with oxygen/forms carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "M2dep onM1"
+    }, {
+      "kind" : "note",
+      "text" : "TiCl4+2Mg→Ti+2MgCl2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and halvesIGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "M1all formulae correctM2balanced"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "titanium/Ti/magnesium/Mg reacts with oxygenOR titanium/Ti/magnesium/Mg reacts with nitrogen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE refs to oxidationACCEPT forms an oxideACCEPT forms a nitride"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium chloridewill dissolve more quickly/to help the magnesium chlorideto dissolve/more of the magnesium chlorideis in contact with the water"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to speed up the reactionIGNORE refs to increasing surface area"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q13a",
+    "label" : "13(a)",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$\\mathrm{I}_{2}+\\mathrm{Cl}_{2}\\rightarrow 2\\mathrm{ICl}$",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT halves and multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1rate of forward reaction=rate of backwards reaction"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT both reactions occur at the same rateIGNORE forward reaction=backwards reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2concentrations of reactants/products remain constant"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT amounts/masses for concentrationsACCEPT don't change/stay for remainIGNORE concentrations/amounts of reactants and products are the same/are equalALLOW colour remains constant"
+    }, {
+      "kind" : "note",
+      "text" : "M1equilibrium has shifted to the left/equilibrium has shifted to the ICl side/equilibrium has shifted to the reactants sideORmore ICl has been produced/more reactants have been produced"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to Le Chatelier's principle e.g. an increase in temperature favours the endothermic reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2an increase in temperature shifts the equilibrium in the endothermic direction"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT `therefore the (backward) reaction is endothermic' for M2if M1has been awarded"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q14a",
+    "label" : "14(a)",
+    "number" : 14,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Solid\nKHCO3\nK2O\nKOH\nK2CO3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Amount"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW values (corrected rounded) from 1 sf up to calculator value"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "0.080"
+    }, {
+      "kind" : "note",
+      "text" : "0.059"
+    }, {
+      "kind" : "note",
+      "text" : "0.099"
+    }, {
+      "kind" : "note",
+      "text" : "0.040"
+    }, {
+      "kind" : "note",
+      "text" : "all four correct = 2 marks three correct = 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 equation 3"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the (mole) ratio of KHCO3 to K2CO3/reactant to product is 2:1"
+    }, {
+      "kind" : "note",
+      "text" : "mark csq on amounts given in part(a)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q15a",
+    "label" : "15(a)",
+    "number" : 15,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Enthalpy change(of reaction)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT heat(energy) change"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 temperature rise=23.5(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 heat produced=200x4.2x23.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3=20000(J) OR 20kJ unit must be given if answer in kJ"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise use of0.725/200.725/199.275g inM2 only"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT19740/19700(J)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT19.74(0)/19.7(00)kJ"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign"
+    }, {
+      "kind" : "note",
+      "text" : "mark consequentially throughout"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer(with no working) scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(the reaction is) exothermic"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "transfers heat/thermal energy to the surroundings/gives out heat/thermal energy"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "gives out heat"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT loses for gives out"
+    }, {
+      "kind" : "note",
+      "text" : "DO NOT ACCEPT just energy"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT loses for gives out"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "incomplete combustion/burning(of the butane)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "(burns in a) limited supply of oxygen/air"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "less heat(energy)/thermal energy produced"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "temperature rise less(than expected)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT less heat(energy)/thermal energy transferred to the water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW soot has absorbed some of the heat(energy)/soot has acted as an insulator"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "heat/energy is lost to the air/beaker/surroundings/water evaporates"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW beaker is not insulated/has no lid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water is not stirred"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d5191851-q16a",
+    "label" : "16(a)",
+    "number" : 16,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to avoid loss of acid (spray) / solution / liquid\nOR\nonly gas/carbon dioxide can escape",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT to avoid CaCO3/solid escaping"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide / gas"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "escapes / given off / released"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT incorrectly named gas"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT ions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT atoms / molecules"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT per unit time / per minute"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT collision frequency increases"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any refs to chance of collisions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"0\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)", "orphan row before first entry: (iv)", "orphan row before first entry: M2100℃", "orphan row before first entry: OR", "orphan row before first entry: M1measure/determine the melting/freezing point", "orphan row before first entry: M20℃", "orphan row before first entry: OR", "orphan row before first entry: M1measure/determine the density", "orphan row before first entry: M21g/cm3", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10(a)(i)(ii)", "orphan row before first entry: M1 Q and P correct", "orphan row before first entry: M2 R and S correct", "orphan row before first entry: M1 magnesium chlorideM2 hydrogenM1 and M2 can be in either order", "orphan row before first entry: (b)", "orphan row before first entry: M2white precipitate(forms)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "13(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "14(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "16(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "16(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "16(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)" ]
+}

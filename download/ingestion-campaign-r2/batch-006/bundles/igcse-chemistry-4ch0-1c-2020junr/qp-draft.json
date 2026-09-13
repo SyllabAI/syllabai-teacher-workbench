@@ -1,0 +1,972 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH1/1CR",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2020",
+    "examDate" : "Thursday 14 May 2020",
+    "duration" : null,
+    "canonicalDocumentId" : "7682f9e7-cd79-5d42-aace-ed86260e1f0e"
+  },
+  "questions" : [ {
+    "questionId" : "q01-7682f9e7",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) The box gives some methods used in the separation of mixtures. chromatography crystallisation evaporation filtration fractional distillation simple distillation Use words from the box to answer these questions. (i) Identify the method used to obtain pure water from sea water. (ii) Identify the method used to separate the dyes in a food colouring. (iii) Identify the method used to obtain ethanol from a mixture of ethanol and water.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-7682f9e7-pb",
+      "label" : "b",
+      "text" : "Complete the sentences by writing a suitable word in each blank space. When salt is added to water and stirred until no more will a saturated solution forms. The salt is the ... The water is the ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 6,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-7682f9e7",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows the positions of some elements in the Periodic Table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Use symbols from this table to answer these questions. Each symbol may be used once, more than once or not at all.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-7682f9e7-pa-i",
+      "label" : "a-i",
+      "text" : "Give the symbol of a metal.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-7682f9e7-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give the symbol of a noble gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-7682f9e7-pa-iii",
+      "label" : "a-iii",
+      "text" : "Give the symbol of a liquid at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-7682f9e7-pa-iv",
+      "label" : "a-iv",
+      "text" : "Give the symbols of the two elements in Period 3",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-7682f9e7-pb",
+      "label" : "b",
+      "text" : "Deduce the electronic configuration of Na",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000035" ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-7682f9e7",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about alkenes and alkanes.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Complete the table by giving the missing information about the alkene with the molecular formula $ \\mathrm{C_{3}H_{6}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pb",
+      "label" : "b",
+      "text" : "Alkenes are unsaturated compounds.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pb-i",
+      "label" : "b-i",
+      "text" : "State what is meant by the term unsaturated.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pb-ii",
+      "label" : "b-ii",
+      "text" : "Describe a test to show that a compound is unsaturated.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pc",
+      "label" : "c",
+      "text" : "When the alkane methane reacts with chlorine, the products are chloromethane $ \\mathrm{(C H_{3} C l)} $ and hydrogen chloride gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pc-i",
+      "label" : "c-i",
+      "text" : "Give a chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pc-ii",
+      "label" : "c-ii",
+      "text" : "What is the name of this type of reaction? A addition B decomposition neutralisation substitution",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pc-iii",
+      "label" : "c-iii",
+      "text" : "State the condition needed for this reaction to occur.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pd",
+      "label" : "d",
+      "text" : "When ethane reacts with chlorine, one of the products of the reaction has the formula $ \\mathrm{C_{2} H_{4} Cl_{2}} $ There are two isomers with this formula.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pd-i",
+      "label" : "d-i",
+      "text" : "State what is meant by the term isomers.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7682f9e7-pd-ii",
+      "label" : "d-ii",
+      "text" : "Draw the displayed formulae of the two isomers with the formula $ \\mathrm{C_{2} H_{4} Cl_{2}} $",
+      "marks" : 2,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000046", "e000063" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-7682f9e7",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A solution of hydrogen peroxide decomposes when a catalyst of manganese(IV) oxide is added. The products of the reaction are water and oxygen.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Complete the chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000068",
+        "sourceName" : "assets/crop_1_1789055236589.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789055236589.png",
+        "availability" : "available",
+        "assetId" : "img:c508a0b8d091e96e0ccd997cd99a58189ba56ab0b11b63890c38782106634de1",
+        "sha256" : "c508a0b8d091e96e0ccd997cd99a58189ba56ab0b11b63890c38782106634de1",
+        "mimeType" : "image/jpeg",
+        "width" : 1027,
+        "height" : 70,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pb",
+      "label" : "b",
+      "text" : "Give a test for oxygen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pc",
+      "label" : "c",
+      "text" : "State the reason for adding a catalyst.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd",
+      "label" : "d",
+      "text" : "A student investigates how changing the concentration of the hydrogen peroxide solution affects the rate of this reaction. She uses this apparatus. The student records the volume of oxygen that collects every 2 minutes for 16 minutes. The table shows her results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000073",
+        "sourceName" : "assets/crop_2_1789055236593.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789055236593.png",
+        "availability" : "available",
+        "assetId" : "img:4fb97b2c9c6ff29e03e2dc033f3f4e28dff48f42f1a06bc91d2b5bd049b922c8",
+        "sha256" : "4fb97b2c9c6ff29e03e2dc033f3f4e28dff48f42f1a06bc91d2b5bd049b922c8",
+        "mimeType" : "image/jpeg",
+        "width" : 1495,
+        "height" : 787,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd-i",
+      "label" : "d-i",
+      "text" : "Plot the student's results on the grid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd-ii",
+      "label" : "d-ii",
+      "text" : "Draw a circle on the grid around the anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd-iii",
+      "label" : "d-iii",
+      "text" : "Draw a curve of best fit through the points, ignoring the anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000079",
+        "sourceName" : "assets/crop_1_1789055236608.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789055236608.png",
+        "availability" : "available",
+        "assetId" : "img:972495b0cdec863790f72ae29910b7d5f584b67e6c9d69c16289db09e3be3c8a",
+        "sha256" : "972495b0cdec863790f72ae29910b7d5f584b67e6c9d69c16289db09e3be3c8a",
+        "mimeType" : "image/jpeg",
+        "width" : 1187,
+        "height" : 1118,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd-iv",
+      "label" : "d-iv",
+      "text" : "Suggest a mistake that the student might have made to cause the anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pd-v",
+      "label" : "d-v",
+      "text" : "Determine the volume of oxygen collected during the first 3 minutes. Show on your graph how you obtain your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "volume of oxygen" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pe",
+      "label" : "e",
+      "text" : "The student repeats the experiment using hydrogen peroxide solution of half the concentration of the original solution. She keeps the volume of the hydrogen peroxide solution and all other conditions the same.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pe-i",
+      "label" : "e-i",
+      "text" : "Draw on the grid the curve you would expect the student to obtain.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7682f9e7-pe-ii",
+      "label" : "e-ii",
+      "text" : "Explain how using hydrogen peroxide solution of half the concentration affects the rate of the reaction. Refer to particle collision theory in your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000068",
+      "sourceName" : "assets/crop_1_1789055236589.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236589.png",
+      "availability" : "available",
+      "assetId" : "img:c508a0b8d091e96e0ccd997cd99a58189ba56ab0b11b63890c38782106634de1",
+      "sha256" : "c508a0b8d091e96e0ccd997cd99a58189ba56ab0b11b63890c38782106634de1",
+      "mimeType" : "image/jpeg",
+      "width" : 1027,
+      "height" : 70,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000073",
+      "sourceName" : "assets/crop_2_1789055236593.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789055236593.png",
+      "availability" : "available",
+      "assetId" : "img:4fb97b2c9c6ff29e03e2dc033f3f4e28dff48f42f1a06bc91d2b5bd049b922c8",
+      "sha256" : "4fb97b2c9c6ff29e03e2dc033f3f4e28dff48f42f1a06bc91d2b5bd049b922c8",
+      "mimeType" : "image/jpeg",
+      "width" : 1495,
+      "height" : 787,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000079",
+      "sourceName" : "assets/crop_1_1789055236608.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236608.png",
+      "availability" : "available",
+      "assetId" : "img:972495b0cdec863790f72ae29910b7d5f584b67e6c9d69c16289db09e3be3c8a",
+      "sha256" : "972495b0cdec863790f72ae29910b7d5f584b67e6c9d69c16289db09e3be3c8a",
+      "mimeType" : "image/jpeg",
+      "width" : 1187,
+      "height" : 1118,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000075" ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-7682f9e7",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) The diagram shows the displayed formula of the organic compound methanol, $ \\mathrm{C H_{3} O H} $ (i) Determine the number of atoms in one molecule of methanol. (ii) State why methanol is not a hydrocarbon.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-7682f9e7-pb",
+      "label" : "b",
+      "text" : "The atoms in methanol are held together by covalent bonds.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7682f9e7-pb-i",
+      "label" : "b-i",
+      "text" : "State what is meant by the term covalent bond.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7682f9e7-pb-ii",
+      "label" : "b-ii",
+      "text" : "Draw a dot-and-cross diagram to show the bonding in a molecule of methanol. Show only the outer electrons of each atom.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7682f9e7-pc",
+      "label" : "c",
+      "text" : "Another organic compound has the percentage composition by mass $C = 38.7 \\% \\quad H = 9.7 \\% \\quad O = 51.6 \\%$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7682f9e7-pc-i",
+      "label" : "c-i",
+      "text" : "Calculate the empirical formula of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7682f9e7-pc-ii",
+      "label" : "c-ii",
+      "text" : "The relative molecular mass $ ( M_{r} ) $ of the compound is 62 Determine the molecular formula of the compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000090",
+      "sourceName" : "assets/crop_1_1789055236647.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236647.png",
+      "availability" : "available",
+      "assetId" : "img:af58aefc593f38986c36bf2ded1e2305a8e1b9a9410142f9274587f7bf1ffe73",
+      "sha256" : "af58aefc593f38986c36bf2ded1e2305a8e1b9a9410142f9274587f7bf1ffe73",
+      "mimeType" : "image/jpeg",
+      "width" : 246,
+      "height" : 192,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-7682f9e7",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about elements in Group 7 of the Periodic Table and their compounds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Give the name of this group of elements.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7682f9e7-pa-ii",
+      "label" : "a-ii",
+      "text" : "State the colour of chlorine gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7682f9e7-pa-iii",
+      "label" : "a-iii",
+      "text" : "Give a test for chlorine gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7682f9e7-pb",
+      "label" : "b",
+      "text" : "Give a test to show that a solution contains iodide ions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7682f9e7-pc",
+      "label" : "c",
+      "text" : "A student compares the reactivity of the elements bromine, chlorine and iodine. He mixes these pairs of solutions and observes the reactions that occur. chlorine solution and potassium bromide solution Explain how the reactions can be used to show the order of reactivity of the three elements. bromine solution and potassium iodide solution Include the colour change that the student would observe in each reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q07-7682f9e7",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student uses the reaction between zinc and dilute sulfuric acid to prepare some zinc sulfate crystals.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Complete the equation for this reaction by giving the correct state symbols. $\\mathrm {Z n} (\\dots \\dots \\dots \\dots) + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} (\\dots \\dots \\dots \\dots) \\rightarrow \\mathrm {Z n S O} _ {4} (\\dots \\dots \\dots \\dots) + \\mathrm {H} _ {2} (\\dots \\dots \\dots \\dots)$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pa-ii",
+      "label" : "a-ii",
+      "text" : "State what would be observed during this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pb",
+      "label" : "b",
+      "text" : "The student adds excess zinc to a beaker of dilute sulfuric acid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pb-i",
+      "label" : "b-i",
+      "text" : "Explain why it is necessary to add excess zinc.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pb-ii",
+      "label" : "b-ii",
+      "text" : "Draw a diagram of the apparatus the student should use to remove the unreacted zinc and collect the zinc sulfate solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pc",
+      "label" : "c",
+      "text" : "The student obtains a pure, dry sample of zinc sulfate crystals. The formula of zinc sulfate crystals is $ \\mathrm{Z n S O_{4}. 7 H_{2} O} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pc-i",
+      "label" : "c-i",
+      "text" : "Calculate the relative molecular mass $ ( M_{r} ) $ of zinc sulfate crystals. $M _ {\\mathrm {r}} =$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pc-ii",
+      "label" : "c-ii",
+      "text" : "The student uses 0.0200 mol of dilute sulfuric acid in her preparation. Show that the maximum mass of zinc sulfate crystals that the student could obtain is about 6 g.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7682f9e7-pc-iii",
+      "label" : "c-iii",
+      "text" : "The student obtains a mass of 4.28 g of zinc sulfate crystals. Calculate the percentage yield of the zinc sulfate crystals. Give your answer to three significant figures.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 13,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q08-7682f9e7",
+    "number" : 8,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) A piece of magnesium ribbon is ignited and placed in a gas jar of oxygen. The equation for the reaction is $2 \\mathrm {M g} + \\mathrm {O} _ {2} \\rightarrow 2 \\mathrm {M g O}$ (i) Give two observations that would be made in this reaction. (ii) State why this is an oxidation reaction.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q08-7682f9e7-pb",
+      "label" : "b",
+      "text" : "A second piece of magnesium ribbon is ignited and placed in a gas jar of carbon dioxide. A very exothermic reaction occurs, forming magnesium oxide and carbon.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-7682f9e7-pb-i",
+      "label" : "b-i",
+      "text" : "State what is meant by the term exothermic.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-7682f9e7-pb-ii",
+      "label" : "b-ii",
+      "text" : "Give the chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-7682f9e7-pb-iii",
+      "label" : "b-iii",
+      "text" : "A fire starts in a warehouse where magnesium is stored. Suggest why it would not be suitable to use a carbon dioxide fire extinguisher to put out this fire.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-7682f9e7-pc",
+      "label" : "c",
+      "text" : "A student uses this apparatus to find the mass of magnesium oxide that forms when a known mass of magnesium is heated. This is his method. find the mass of the crucible and lid place some magnesium ribbon in the crucible heat the crucible with the lid on for a few minutes find the mass of the crucible, lid and magnesium find the mass of the crucible, lid and magnesium oxide Using this method, the mass of magnesium oxide formed is less than expected. Explain two changes that the student should make to his method to obtain a mass of magnesium oxide closer to the expected mass.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000140",
+        "sourceName" : "assets/crop_1_1789055236683.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789055236683.png",
+        "availability" : "available",
+        "assetId" : "img:7f707a98f3d36410441309aef8ba0303f96fac40d7d2a644f532c7a9435c4ce6",
+        "sha256" : "7f707a98f3d36410441309aef8ba0303f96fac40d7d2a644f532c7a9435c4ce6",
+        "mimeType" : "image/jpeg",
+        "width" : 912,
+        "height" : 529,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000140",
+      "sourceName" : "assets/crop_1_1789055236683.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236683.png",
+      "availability" : "available",
+      "assetId" : "img:7f707a98f3d36410441309aef8ba0303f96fac40d7d2a644f532c7a9435c4ce6",
+      "sha256" : "7f707a98f3d36410441309aef8ba0303f96fac40d7d2a644f532c7a9435c4ce6",
+      "mimeType" : "image/jpeg",
+      "width" : 912,
+      "height" : 529,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q09-7682f9e7",
+    "number" : 9,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about some compounds of the elements in Group 4 of the Periodic Table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q09-7682f9e7-pa",
+      "label" : "a",
+      "text" : "When carbon dioxide dissolves in water, a weak acid forms.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pa-i",
+      "label" : "a-i",
+      "text" : "Which of these could be the pH of this weak acid? A 1 B 5 C 7 D 9",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pa-ii",
+      "label" : "a-ii",
+      "text" : "Which of these is a correct statement about acids? A acids contain OH $ ^{-} $ ions B acids are electron donors C acids are proton acceptors D acids are proton donors",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pb",
+      "label" : "b",
+      "text" : "When lead(II) carbonate is heated, lead(II) oxide and carbon dioxide form.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pb-i",
+      "label" : "b-i",
+      "text" : "Give the name of this type of reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pb-ii",
+      "label" : "b-ii",
+      "text" : "Complete the equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pc",
+      "label" : "c",
+      "text" : "Silicon dioxide, $ \\mathrm{S i O_{2}} $ , and silicon(IV) chloride, $ \\mathrm{S i C l_{4}} $ , are both covalently bonded compounds. The table shows the melting and boiling points of these two compounds, and the physical state of silicon dioxide at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pc-i",
+      "label" : "c-i",
+      "text" : "Complete the table by giving the physical state of silicon(IV) chloride at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-7682f9e7-pc-ii",
+      "label" : "c-ii",
+      "text" : "Explain, in terms of structure and bonding, why silicon dioxide has a much higher melting point than silicon(IV) chloride.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000166" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q10-7682f9e7",
+    "number" : 10,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student uses this apparatus to investigate the reaction between potassium hydroxide solution and dilute hydrochloric acid. This is her method. pour $ 2 5 \\mathrm{c m}^{3} $ of potassium hydroxide solution into a polystyrene cup and record the temperature of the solution pour $ 2 5 \\mathrm{c m}^{3} $ of dilute hydrochloric acid into a measuring cylinder and record the temperature of the acid add the acid to the polystyrene cup and stir the mixture record the highest temperature reached",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q10-7682f9e7-pa",
+      "label" : "a",
+      "text" : "Give a word equation for the reaction between potassium hydroxide and hydrochloric acid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-7682f9e7-pa-ii",
+      "label" : "a-ii",
+      "text" : "Explain why the student needs to stir the mixture.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-7682f9e7-pb",
+      "label" : "b",
+      "text" : "The table gives the temperatures of the solutions before the student mixes them. Calculate the mean (average) temperature of the two solutions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-7682f9e7-pc",
+      "label" : "c",
+      "text" : "The student repeats the experiment on a different day, using $ 2 5 \\mathrm{c m}^{3} $ of potassium hydroxide solution and $ 2 5 \\mathrm{c m}^{3} $ of dilute hydrochloric acid. The thermometer shows the highest temperature reached at the end of the experiment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000184",
+        "sourceName" : "assets/crop_1_1789055236749.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789055236749.png",
+        "availability" : "available",
+        "assetId" : "img:a2737c62094d0c96196e62b820b958a71e414f4c03435f691aa1653a20fd25fe",
+        "sha256" : "a2737c62094d0c96196e62b820b958a71e414f4c03435f691aa1653a20fd25fe",
+        "mimeType" : "image/jpeg",
+        "width" : 231,
+        "height" : 550,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-7682f9e7-pc-i",
+      "label" : "c-i",
+      "text" : "Complete the table by giving the missing information. Give both temperatures to the nearest 0.1 $ ^{\\circ} \\mathrm{C}. $",
+      "marks" : 2,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q10-7682f9e7-pc-ii",
+      "label" : "c-ii",
+      "text" : "Show that the heat energy change, Q, in the student's experiment is about 1100 J. [for the mixture, c = 4.2 J/g/ $ ^{\\circ} \\mathrm{C} $] [mass of 1.0 $ cm^{3} $ of mixture = 1.0 g]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-7682f9e7-pc-iii",
+      "label" : "c-iii",
+      "text" : "The student uses 0.020 mol of potassium hydroxide in his experiment. Calculate the enthalpy change $ (\\Delta H) $ in kJ/mol, for 1.0 mol of potassium hydroxide. Include a sign in your answer. $\\Delta H =$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000171",
+      "sourceName" : "assets/crop_1_1789055236721.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236721.png",
+      "availability" : "available",
+      "assetId" : "img:6b7f20f5a3f7bdd40f928df0c621950a93487c94419e92a14119fad7510975c1",
+      "sha256" : "6b7f20f5a3f7bdd40f928df0c621950a93487c94419e92a14119fad7510975c1",
+      "mimeType" : "image/jpeg",
+      "width" : 756,
+      "height" : 594,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000184",
+      "sourceName" : "assets/crop_1_1789055236749.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789055236749.png",
+      "availability" : "available",
+      "assetId" : "img:a2737c62094d0c96196e62b820b958a71e414f4c03435f691aa1653a20fd25fe",
+      "sha256" : "a2737c62094d0c96196e62b820b958a71e414f4c03435f691aa1653a20fd25fe",
+      "mimeType" : "image/jpeg",
+      "width" : 231,
+      "height" : 550,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000180", "e000188" ],
+    "marks" : 13,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 6,
+    "2" : 5,
+    "4" : 14,
+    "7" : 13,
+    "10" : 13
+  },
+  "paperTotal" : 110,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: empirical formula =" ]
+}

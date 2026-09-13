@@ -1,0 +1,39 @@
+2c2
+<   "generated_at_utc": "2026-09-13 16:58:21 UTC",
+---
+>   "generated_at_utc": "2026-09-13 13:08:04 UTC",
+458c458
+<           "status": "INGESTED",
+---
+>           "status": "DUPLICATE",
+464c464
+<           "status": "INGESTED",
+---
+>           "status": "DUPLICATE",
+470c470
+<           "status": "INGESTED",
+---
+>           "status": "DUPLICATE",
+476c476
+<           "status": "INGESTED",
+---
+>           "status": "DUPLICATE",
+482c482
+<           "status": "INGESTED",
+---
+>           "status": "DUPLICATE",
+606a607,615
+>   },
+>   "recovery_provenance": {
+>     "event": "T-C04 r2 state lost to environment reset; rebuilt 2026-09-13 from committed sources",
+>     "replay": "run_ingestion_campaign.py all \u2014 17/17 batches, all gates green (idempotent rerun DUPLICATE, row-delta, DB totals)",
+>     "core_at_replay": "a54f3101c0d4630bcb7a02b4aba2fe815a81f649 (baseline commit)",
+>     "parser_at_replay": "d3415caa (post-baseline Python-reference sync; Java stage-1 CLI unaffected \u2014 per-pair counts identical to r2 evidence)",
+>     "corpus_at_replay": "c42b6a144d7579ffe1f1f8db4c40d95b27d6b58d (exact baseline match)",
+>     "isolation_proof": "PASS 334/334 green, campaign DB byte-identical; data dumps RETAINED (isolation-proof/before.dump.gz, after.dump.gz) \u2014 closes the hash-without-object gap",
+>     "verification": "verify_final_state.py ALL CHECKS PASSED; totals identical to original baseline"
+608c617
+< }
+---
+> }
+\ No newline at end of file

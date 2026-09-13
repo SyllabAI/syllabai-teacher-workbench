@@ -1,0 +1,609 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2CR_2101_MS",
+    "session" : "January 2021",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8d9ae32d-e64f-5731-b5c6-b39402e78c85"
+  },
+  "entries" : [ {
+    "entryId" : "ms-8d9ae32d-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(from) solid to liquid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "iodine(s)→iodine(g)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(diagram showing) particles well spread out with none touching"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Statement"
+    }, {
+      "kind" : "note",
+      "text" : "Tick"
+    }, {
+      "kind" : "note",
+      "text" : "the particles only vibrate"
+    }, {
+      "kind" : "note",
+      "text" : "the particles do not move"
+    }, {
+      "kind" : "note",
+      "text" : "the particles have no gaps between them"
+    }, {
+      "kind" : "note",
+      "text" : "the particles move randomly"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "the particles have more energy than in ice"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "the particles have a regular arrangement"
+    }, {
+      "kind" : "note",
+      "text" : "tick in 4th box(1)"
+    }, {
+      "kind" : "note",
+      "text" : "tick in 5th box(1)"
+    }, {
+      "kind" : "note",
+      "text" : "if more than two ticks deduct 1 mark for each incorrect tick"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(pale/light) yellow",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "The correct answer isB1as bromine is the only liquid at room temperature(20℃)"
+    }, {
+      "kind" : "note",
+      "text" : "A0is incorrect because bromine is a liquid at room temperature(20℃)"
+    }, {
+      "kind" : "note",
+      "text" : "C2is incorrect because bromine is the only liquid at room temperature(20℃)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "At2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation includingM1oxidising agent ischlorine/Cl2M2because chlorine/Cl2gains electron(s)/is reduced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT because bromide ions/Br-lose electrons/are oxidisedREJECT bromine ionsM2DEP M1correct or missing"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q2bii",
+    "label" : "2(b)(ii)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation containing three of following pointsM1 bromine and chlorine react by gaining electron/forming 1- or negative ionM2 bromine atom larger (than chlorine atom)M3 bromine (atom) has smaller/weaker attraction (from nucleus) for (outer shell) electrons (than chlorine) OWTTEM4 so (bromine has) less tendency to gain electron/form negative ion (so less reactive than chlorine) OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW bromine has larger atomic radiusALLOW bromine outer (electron) shell further from nucleusALLOW bromine atom has more (electron) shells (than chlorine)ALLOW reverse argument for chlorine in M2 M3 M4"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "The correct answer is D K+ and Cl- because both have electronic configuration of 2.8.8A is not correct because Li+ does not have electronic configuration of 2.8.8B is not correct because F- does not have electronic configuration of 2.8.8C is not correct because neither Li+ nor F- have electronic configuration of 2.8.8"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Explanation including the following points:"
+    }, {
+      "kind" : "note",
+      "text" : "(metals)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 contain delocalised electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE free electrons/sea of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (which) move/flow/are mobile/are free to move (through the metal structure)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dependent on mention of electrons If any mention of ions/atoms moving cannot score M1 M2"
+    }, {
+      "kind" : "note",
+      "text" : "and two from (covalent compounds)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 contain neutral molecules / molecules with no overall charge"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW do not contain ions"
+    }, {
+      "kind" : "note",
+      "text" : "M4 electrons held (tightly) in covalent bonds (so)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW there are no delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M5 no electrons free to move (so do not conduct)"
+    }, {
+      "kind" : "note",
+      "text" : "If state ions present cannot score M3 M4 M5"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "ion(s)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW hydrogen ion/H+ ALLOW chloride ion/Cl-"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "all points plotted correctly (within half a small square)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "point at (0.4,25) circled"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "straight line of best fit through origin drawn with ruler"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation linking"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the volume/reading is less than expected"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the current was less than 0.4A / some gas escaped/ there was a leak"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reading taken before 5 minutes"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "the greater the current the greater the volume (of gas)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT directly proportional ACCEPT positive correlation"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q3di",
+    "label" : "3(d)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(transfer of two/same number of electrons produces) one mole of chlorine/Cl2and one mole of hydrogen/H2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW same number of moles of chlorine/Cl2and hydrogen/H2ALLOW molecules for moles"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine dissolves/soluble in acid/solution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dissolves/soluble in water"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1CH3COOHM2CH3COOCH3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Name"
+    }, {
+      "kind" : "note",
+      "text" : "Structural formula"
+    }, {
+      "kind" : "note",
+      "text" : "Relative formula mass"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct names of isomersIf oxidation number given must be correctALLOWH2SO4IGNORE reference to concentration"
+    }, {
+      "kind" : "note",
+      "text" : "methanol"
+    }, {
+      "kind" : "note",
+      "text" : "CH3OH"
+    }, {
+      "kind" : "note",
+      "text" : "ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "C2H5OH"
+    }, {
+      "kind" : "note",
+      "text" : "46(1)"
+    }, {
+      "kind" : "note",
+      "text" : "butanol(1)"
+    }, {
+      "kind" : "note",
+      "text" : "C4H9OH"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "from orange to green"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ethyl ethanoate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW as one word"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "CH3OH+CH3COOH→CH3COOCH3+H2O"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW displayed formula"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a catalyst is chemically unchanged at the end of the reaction",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW (provides alternative route for reaction of) lower activation energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW not used up in reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "description including six of the following points:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 do experiment using hydrogen peroxide solution only/without X/Y/Z"
+    }, {
+      "kind" : "note",
+      "text" : "M2 use known volume of hydrogen peroxide solution OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3 (and) measure time for certain volume of oxygen gas to be collected OR measure volume of gas collected in a certain time period OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M4 repeat using same volume of hydrogen peroxide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M5 with known mass/amount of solid X(then Y,then Z)"
+    }, {
+      "kind" : "note",
+      "text" : "M6 measure time for same volume of oxygen gas to be collected OR measure volume of gas collected in same time period(with solid/X/Y/Z present)"
+    }, {
+      "kind" : "note",
+      "text" : "M7 after reaction(remove solid/X/Y/Z by filtration and dry)find mass of solid/X/Y/Z/check if mass unchanged"
+    }, {
+      "kind" : "note",
+      "text" : "M8 reference to reduced time(for certain volume of oxygen gas to be collected)OR increased volume of gas(collected in a certain time period)meansX/Y/Z(possible)catalyst(1)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW measure time until no more oxygen produced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to increased rate"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 labelled profile curve drawn for reaction without catalystM2 labelled profile curve drawn with lower activation energy for reaction with catalyst",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "must start from reactants energy level and end at products energy level"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "energy needed=[(4x463)+2(146)]=2144"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore sign"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "energy released=[(4x463)]=1852"
+    }, {
+      "kind" : "ignore",
+      "text" : "ignore sign"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for showing equation linking between(i),(ii),O=O bond energy and△HM2 correct calculationExample:M1[1852+(O=O)]-2144=204OR(O=O)=2144-1852+204M2(O=O)=496"
+    }, {
+      "kind" : "note",
+      "text" : "Mark CSQ on(i) and(ii)-496 scores 1 mark"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "pipette",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW graduated pipette"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "The correct answer isD yellow because methyl orange is yellow in alkaline solutionA is incorrect because methyl orange is not blue in alkaline solutionB is incorrect because methyl orange is not orange in alkaline solutionC is incorrect because methyl orange is not red in alkaline solution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ticks under titration numbers1,2and4"
+    }, {
+      "kind" : "note",
+      "text" : "20.65"
+    }, {
+      "kind" : "note",
+      "text" : "20.60"
+    }, {
+      "kind" : "note",
+      "text" : "20.90"
+    }, {
+      "kind" : "note",
+      "text" : "20.55"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(20.65+20.60+20.55)=3M220.60"
+    }, {
+      "kind" : "note",
+      "text" : "M1 CSQ on results tickedM2 CSQ on correct calculation from M1Answer to M2 must be correct to 2dp20.60 without working scores220.6 with or without working scores1If no ticks then only use of 2 or 3 concordant titres can score M1 and M2 in(ii)If only one tick then M2 can be scored for averaging two or more titre values correctly"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 mol(KOH)=0.0370x251000",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2=9.25x10-4/0.000925"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except oneIf no division by 1000 giving answer of0.925 award 1 markcorrect answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 from(i) divided by2expected answer4.625x10-4/0.0004625"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except one"
+    }, {
+      "kind" : "note",
+      "text" : "M1 answer to(ii)x100021.20M2 correctly evaluatedexpected answer if(i)和(ii)correct0.0218"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig fig except one(unless ECF answer is exactly1 sig fig)correct answer with no working scores2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8d9ae32d-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 use of amount in moles = volume of gas molar volume",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 correct evaluation"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount in moles = 60024000"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 = 0.025 (mol)"
+    }, {
+      "kind" : "note",
+      "text" : "0.025 with no working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT 0.03 for M2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 statement/use of amount in moles = massMr"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 substitution and correct evaluation:"
+    }, {
+      "kind" : "note",
+      "text" : "Mr = 1.45 = 580.025"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "molecular formula = C4H10 = (4 x 12) + (10 x 1) = 58"
+    }, {
+      "kind" : "note",
+      "text" : "OR alkane general formula = CnH2n+2so"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (nx12) + (2n+2)x1 = 58 so 14n = 56"
+    }, {
+      "kind" : "note",
+      "text" : "C4H10"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : 70,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(b)(ii): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Question number", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"32\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"74\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 8(a)(i)(ii)", "orphan row before first entry: M1 moist/damp red litmus paperM2 turns blue", "orphan row before first entry: (b)", "orphan row before first entry: M2 the concentrations of reactants and products remain constant", "orphan row before first entry: (c)", "orphan row before first entry: M2 so forward reaction is exothermic", "orphan row before first entry: M2 so forward reaction is exothermic", "orphan row before first entry: M2 DEP M1" ]
+}

@@ -1,0 +1,701 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2CR_msc_20200305",
+    "session" : "January 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "4faf474b-ca4e-5517-82c5-a4403f0b090e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-4faf474b-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : true,
+    "correctOption" : "B",
+    "answerText" : "B box 2\nThe only correct answer is B because box 2 contains two different particles in the same space that are not chemically joined",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "A is not correct because box A shows an element"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because box C shows an element"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because box 4 shows a compound"
+    }, {
+      "kind" : "note",
+      "text" : "C Boxes 1 and 3"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is C because boxes 1 and 2 contain one type of atom only."
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because box 2 shows a mixture"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because box 2 shows a mixture"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because box 4 shows a compound"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (box 5 shows) two (different) elements"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW two (different) types of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (chemically) bonded (together)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT mixture for M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (chemically) combined/joined (together)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on mention of elements/atoms in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is B because the elements in the periodic table are arranged in order of proton number"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because elements are not arranged in order of mass number"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because elements are not arranged in order of the number of neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because elements are not arranged in order of reactivity"
+    }, {
+      "kind" : "note",
+      "text" : "A electrons in the outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is A because elements in the same group of the periodic table have the same number of electrons in the outer shell."
+    }, {
+      "kind" : "note",
+      "text" : "B Is not the correct answer because elements in the same period have the same number of shells"
+    }, {
+      "kind" : "note",
+      "text" : "C elements in the same group do not have the same number of neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because elements in the same group do not have the same number of protons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.85
+  }, {
+    "entryId" : "ms-4faf474b-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 level of the water must be below the dyes/start lineM2 the start line must be drawn in pencil",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT dyes/start line should be above water level"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q2bi",
+    "label" : "2(b)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2 marks for any two conclusions from(the green food colouringM1 contains(dye)B and(dye)D M2 contains an unknown dyeM3 does not containA orC M4 contains three dyesand1 mark for a correct explanation of given conclusion for the green food colouringeg(explanation forM1)because has spots at same level(asB andD)eg(explanation forM2)because has a spot at different level(fromA B C D)eg(explanation forM3)because has no spots at same level(asA andC)eg(explanation forM4)because has three spots",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW is not pure"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(distance moved by solvent correctly measured)=9.5(cm)M2 use ofRf=distance moved by the dye C distance moved by the solventM3 evaluation ofRf"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a tolerance of±2mmeg6.29.5ALLOW ECF fromM1eg(6.2)=0.65(3)(9.5)ALLOW1-4sig figALLOW ECF fromM2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(dyeA)is not soluble in water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW solvent for water"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : true,
+    "correctOption" : "B",
+    "answerText" : "B Precipitation\nThe only correct answer is B the reaction of two solutions to produce an insoluble solid is precipitation.\nA is not correct because this reaction is not neutralisation\nC is not correct because this reaction is not a redox reaction\nD is not correct because this reaction is not thermal decomposition",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.85
+  }, {
+    "entryId" : "ms-4faf474b-q3b",
+    "label" : "3(b)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 wash the solid with (deionised) water\nM2 suitable method of drying solid eg dry between filter papers/on paper towel/in (warm) oven/in a desiccator",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW leave to dry"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW leave in a warm place"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW leave for the water to evaporate"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE dry it alone"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT hot oven or any method of direct heating eg Bunsen burner"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references (direct or inferred) to silver chloride solution or crystallisation for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "No M2 if solid washed after drying"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one from:\nM1 (hydrochloric acid/it) contains chloride ions\nM2 (hydrochloric acid/it) produces a (white) precipitate with silver nitrate\nM3 (hydrochloric acid/it) reacts with silver nitrate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW contains Cl-"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q3d",
+    "label" : "3(d)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 n(AgNO3orAgCl)=0.0025\nM2(mass AgCl)=0.0025x143.5=0.35(9)g",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "M1 n(AgNO3orAgCl)=0.0025\nM2(mass AgCl)=0.0025x143.5=0.35",
+      "marks" : 9,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "M1 n(AgNO3orAgCl)=0.0025\nM2(mass AgCl)=0.0025x143.5=0.35"
+    }, {
+      "ordinal" : 2,
+      "text" : "g",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "g"
+    } ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW one or more sig fig"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer without working scores 2 marks."
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 layers of atoms/positive ions\nM2 can slide over one another",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE layers unqualified"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT layers of molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on mention of layers/atoms/ions in M1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q4bi",
+    "label" : "4(b)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "ions cannot move\n(ii)2Br-→Br2+2e-\nM2 lead ions gain electrons/Pb2+ (ions) gain electrons (to form lead)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW ions are in fixed positions/in a lattice"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE no free ions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any reference to electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)M1 lead ions (are positive and) are attracted to the negative electrode/Pb2+ (ions) are attracted to the negative electrode"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW cathode for negative electrode"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)metal or lead connects the electrodes or completes the circuit OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW metal or lead conducts electricity"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW metal or lead allows electrons to flow"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(lithium) moves(on the surface)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW floats"
+    }, {
+      "kind" : "note",
+      "text" : "M2(lithium) gets smaller/disappears"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M3 colourless solution forms"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE white trail forms"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT melts/turns into a ball"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW temperature increases/heat given off"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)(when mixed with air)lit spill/splint or flame gives(squeaky)pop"
+    }, {
+      "kind" : "note",
+      "text" : "must refer to test and resultIGNORE squeaky poptest aloneALLOW burns with(squeaky)popREJECT glowingspill/splint and pop"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q5bi",
+    "label" : "5(b)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one from:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1more rapid bubbles/fizzing/effervescence"
+    }, {
+      "kind" : "note",
+      "text" : "M2turns into a ball"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium melts"
+    }, {
+      "kind" : "note",
+      "text" : "M3moves more quickly"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW getssmaller/disappearsmore quickly"
+    }, {
+      "kind" : "note",
+      "text" : "M4catches alight/burns/produces a flame"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE flame colour"
+    }, {
+      "kind" : "note",
+      "text" : "M1potassium has more shells than lithium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium atomis bigger than lithium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW outershell/electron is furtherfrom nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(therefore)there is less attraction between theouter shell/electron and the nucleus"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW more repulsion(from inner shell)ormore shielding(from the nuclear attraction)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW nuclear pull forthe outer shell/electronis weaker"
+    }, {
+      "kind" : "note",
+      "text" : "M3so the electron in the outer shell is more easilylost"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT answersinterms of lithium forM1,M2andM3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 n(Li) = 0.500/7 OR 0.0714\nALLOW ECF from M1\nALLOW ECF from M2(M2÷0.150)\nALLOW any number of sig fig except one for M1 M2 and M3Correct answer without working scores 3 marks.",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 n(H2) = 0.0714/2 OR 0.0357"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 volume of H2(=0.0357x24000)=857(cm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF M2x24000M3 must be to 3 sig figCorrect answer to 3 sig fig without working scores 3 marks."
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 n(H2SO4)=0.02485x0.1OR0.002485M2 n(LiOH)=2x0.002485OR0.00497M3 concentration of LiOH=0.0331(mol/dm3)"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description including the following points:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(use) fractional distillation/ fractionating column/ fractionating tower"
+    }, {
+      "kind" : "note",
+      "text" : "M2(crude oil) heated/ vaporised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW boiled"
+    }, {
+      "kind" : "note",
+      "text" : "M3 column is cooler at top/ hotter at the bottom/ idea of temperature gradient"
+    }, {
+      "kind" : "note",
+      "text" : "M4 fractions condense/collected at different heights OWTTE OR fractions have different boiling point(ranges)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fractions with high(er) boiling points/large(r) molecules condense/collected near bottom ORA"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q6bi",
+    "label" : "6(b)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 particles/molecules are closer together",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW more particles/molecules per unit volume"
+    }, {
+      "kind" : "note",
+      "text" : "M2 therefore more(successful) collisions per unit time"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW more frequent(successful) collisions If reference to particles have more energy/move faster, then0/2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1(a catalyst provides) an alternative pathway"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a catalyst provides a surface for the reaction to take place on"
+    }, {
+      "kind" : "note",
+      "text" : "M2 of lower activation energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so more collisions/particles have energy greater than the activation energy."
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "increase the temperature"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW heat it up IGNORE references to concentration REJECT increase the surface area"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q6biv",
+    "label" : "6(b)(iv)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 $C_{2}H_{6}$ on horizontal line below the reactants\nM2 activation energy correctly shown and labelled\nM3 $\\Delta H$ correctly shown and labelled\n• find energy needed to break bonds\n• find energy released when bonds form\n• correct evaluation of $\\Delta H$\nExample calculation\nM1 (4 x 412) + 612 + 436 OR 2696\nM2 (6 x 412) + 348 OR 2820\nM3 -124 if M1 M2 correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT arrow pointing upwards or double headed arrow"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT arrow pointing from reactants level to product level or double headed arrow"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW max 2 for a correctly labelled endothermic reaction"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign ALLOW 1048"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign ALLOW 1172"
+    }, {
+      "kind" : "note",
+      "text" : "-124 without working scores 3 (+)124 scores 2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M3 ECF M1 M2"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "CO2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(otherwise) ethanoic acid will form"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(otherwise) ethanol will be oxidised or react with oxygen ALLOW fermentation/reaction/respiration needs to be anaerobic ALLOW(otherwise) ethanol would not be formed/CO2和H2O would be formed"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(reaction is catalysed by) enzymes(in yeast)M2which will denature(above40℃)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE yeast unqualifiedALLOW enzymes do not work above40℃"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 maximum mass of ethanol=8x46=368(g)M255.2x100(=15%)Alternative method:M1 actual yield of ethanol in mol=55.2/46=1.2M21.2x100(=15%)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 rate of the forwards reaction=the rate of the backwards reactionM2the concentrations of reactants and products remain constant"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE it is reversible reactionREJECT concentrations of reactants and products are equal or are the same"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 an increase in temperature shifts the (position of) equilibrium in the endothermic direction(so backwards reaction is endothermic)M2so forward reaction is exothermic"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to LeChatelier's PrincipleALLOW heating for increase in temperatureM2DEP M1 or near miss"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4faf474b-q7ci",
+    "label" : "7(c)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(displayed formula ofA-propanoic acid)\nChemical structure ofM1\nM2(displayed formula ofB-butan-1-ol)\nChemical structure ofM2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW1markifbothOHbutotherwisecorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1addanamedcarbonateorhydrogencarbonate"
+    }, {
+      "kind" : "note",
+      "text" : "M2effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1adda suitable namedmetale.g.magnesium,aluminium,zinc,iron"
+    }, {
+      "kind" : "note",
+      "text" : "M2effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1adda namedalcohol(andsomeconcentratedsulfuricacidandwarm)"
+    }, {
+      "kind" : "note",
+      "text" : "M2sweetsmell(ofanester)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWcorrectformula"
+    }, {
+      "kind" : "note",
+      "text" : "M2DEP M1ornearmiss"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWcarbondioxide/CO2produced"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTincorrectgas"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWcorrectsymbol"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTametalthatistoo reactivee.g.potassiumortoo unreactivee.g.copper"
+    }, {
+      "kind" : "note",
+      "text" : "M2DEP M1ornearmiss"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWhydrogen/H2produced"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTincorrectgas"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWcorrectformula"
+    }, {
+      "kind" : "note",
+      "text" : "M2DEP M1ornearmiss"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(b)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(b)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(c)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,1079 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH0/1C",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2013",
+    "examDate" : "Monday 14 January 2013 – Morning",
+    "duration" : null,
+    "canonicalDocumentId" : "06a1d491-4b40-5421-8a8c-e37da09a1a47"
+  },
+  "questions" : [ {
+    "questionId" : "q01-06a1d491",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about the element beryllium.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-06a1d491-pa",
+      "label" : "a",
+      "text" : "Use words from the box to complete the sentences about beryllium. Each word may be used once, more than once or not at all. electrons negative neutral neutrons nucleus positive protons shells An atom of beryllium has a central ... that contains particles called ... and ... . Around these particles there are ... orbiting in ... . An atom of beryllium has no charge because it contains equal numbers of ... and ... . The particles with the lowest mass in an atom of beryllium are called ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-06a1d491-pb",
+      "label" : "b",
+      "text" : "Beryllium forms a compound with the formula $ \\mathrm{B e(OH)}_{2} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-06a1d491-pb-i",
+      "label" : "b-i",
+      "text" : "How many different elements are there in $ \\mathrm{B e(OH)}_{2} $?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-06a1d491-pb-ii",
+      "label" : "b-ii",
+      "text" : "What is the total number of atoms in the formula $ \\mathrm{B e(OH)}_{2} $?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-06a1d491",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The halogens are elements in Group 7 of the Periodic Table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-06a1d491-pa",
+      "label" : "a",
+      "text" : "Put a cross $ \\times $ in the box to indicate your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pa-i",
+      "label" : "a-i",
+      "text" : "Chlorine gas is",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "At room temperature, the physical state of bromine is A solid B liquid C gas D aqueous solution",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pb",
+      "label" : "b",
+      "text" : "Which is the most reactive element in Group 7?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pc",
+      "label" : "c",
+      "text" : "Chlorine reacts with hydrogen to form a colourless gas that dissolves in water to form an acid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pc-i",
+      "label" : "c-i",
+      "text" : "What is the name of the colourless gas?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pc-ii",
+      "label" : "c-ii",
+      "text" : "What is the name of the acid?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-06a1d491-pc-iii",
+      "label" : "c-iii",
+      "text" : "What is the formula that is used to represent both the colourless gas and the acid?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 6,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-06a1d491",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student found this information about hydrogen.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-06a1d491-pa",
+      "label" : "a",
+      "text" : "The student repeated Boyle's experiment using iron and dilute sulfuric acid. State two observations that he could have made.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "Complete the word equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pb",
+      "label" : "b",
+      "text" : "Balance the equation for the complete combustion of hydrogen. $\\mathrm {H} _ {2} + \\mathrm {O} _ {2} \\rightarrow \\mathrm {H} _ {2} \\mathrm {O}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pc",
+      "label" : "c",
+      "text" : "To show that the liquid produced by burning hydrogen was pure water, a student carried out a chemical test and a physical test.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pc-i",
+      "label" : "c-i",
+      "text" : "The chemical test involved adding a few drops of the liquid to a sample of anhydrous copper(II) sulfate. State the colour change observed. Initial colour Final colour",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pc-ii",
+      "label" : "c-ii",
+      "text" : "Place a cross in one box to show the formula of the compound formed in this chemical test. A $ \\mathrm{C u ( O H )}_{2} $ B $ \\mathrm{C u S O}_{4} $ $\\mathrm {C u S O} _ {4} \\cdot \\mathrm {H} _ {2} \\mathrm {O}$ $\\mathrm {C u S O} _ {4}. 5 \\mathrm {H} _ {2} \\mathrm {O}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pc-iii",
+      "label" : "c-iii",
+      "text" : "The physical test involved measuring a property of the liquid. State a suitable physical property and give the value for pure water. Physical property Value",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pd",
+      "label" : "d",
+      "text" : "Suggest what property of hydrogen makes it suitable for filling balloons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pd-ii",
+      "label" : "d-ii",
+      "text" : "Helium is now used instead of hydrogen to fill balloons. State the property of helium that makes it more suitable than hydrogen for filling balloons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-06a1d491-pe",
+      "label" : "e",
+      "text" : "Write an equation, including state symbols, to show the process that occurs when hydrogen is liquefied.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000047",
+      "sourceName" : "assets/crop_1_1789042059174.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789042059174.png",
+      "availability" : "available",
+      "assetId" : "img:088a22c1ffd78bf4a3d7d94df0c9eaced5b6711fe042f3a1881df9a5365e01b8",
+      "sha256" : "088a22c1ffd78bf4a3d7d94df0c9eaced5b6711fe042f3a1881df9a5365e01b8",
+      "mimeType" : "image/jpeg",
+      "width" : 1695,
+      "height" : 491,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 12,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-06a1d491",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Water is needed for iron to rust.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-06a1d491-pa",
+      "label" : "a",
+      "text" : "State one other substance needed for iron to rust.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "When iron rusts, a brown compound forms that can be represented by the formula $ \\mathrm{F e_{2} O_{3}} $ State the name of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pb",
+      "label" : "b",
+      "text" : "Three students decided to investigate the rusting of some iron nails. They measured the mass of each nail before placing it in some water. After rusting had occurred, the nails were removed and their masses were measured. The table shows their results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pb-i",
+      "label" : "b-i",
+      "text" : "Suggest one problem in measuring the mass of a nail after rusting.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pb-ii",
+      "label" : "b-ii",
+      "text" : "Student A thought that the results showed that his nail had rusted most. Suggest why he thought this.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pb-iii",
+      "label" : "b-iii",
+      "text" : "Student B thought that the results showed that her nail had rusted most. Suggest why she thought this.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pb-iv",
+      "label" : "b-iv",
+      "text" : "How do the results of Student C show that he must have made an error in his experiment?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pc",
+      "label" : "c",
+      "text" : "Most methods used to prevent iron objects from rusting use a physical barrier. This involves covering the iron object with another substance to keep out the water. Complete the table by choosing words from the box to suggest the substance that should be used to prevent each named iron object from rusting.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-06a1d491-pd",
+      "label" : "d",
+      "text" : "Some iron objects are coated with zinc to prevent rusting. The zinc initially acts as a physical barrier, but an extra advantage of using zinc is that it continues to prevent rusting even if the layer of zinc is damaged. State the name of this type of rust prevention and explain how it works.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000077", "e000084", "e000085" ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-06a1d491",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The table shows the displayed formulae of three unsaturated hydrocarbons.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-06a1d491-pa",
+      "label" : "a",
+      "text" : "Explain the meaning of the term hydrocarbon.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pb",
+      "label" : "b",
+      "text" : "Explain the meaning of the term unsaturated.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pc",
+      "label" : "c",
+      "text" : "Compounds A, B and C belong to the same homologous series. One characteristic of the compounds in a homologous series is that they have the same general formula.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pc-i",
+      "label" : "c-i",
+      "text" : "State the name of this homologous series.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pc-ii",
+      "label" : "c-ii",
+      "text" : "State the general formula of this homologous series.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pc-iii",
+      "label" : "c-iii",
+      "text" : "State two other characteristics of the compounds in a homologous series.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pd",
+      "label" : "d",
+      "text" : "Compound C has several isomers.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pd-i",
+      "label" : "d-i",
+      "text" : "What is the name of compound C?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pd-ii",
+      "label" : "d-ii",
+      "text" : "What is the molecular formula of compound C?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pd-iii",
+      "label" : "d-iii",
+      "text" : "Explain the meaning of the term isomers.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pd-iv",
+      "label" : "d-iv",
+      "text" : "Draw the displayed formula of an isomer of compound C.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pe",
+      "label" : "e",
+      "text" : "Bromine water can be used to distinguish compound A from ethane.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pe-i",
+      "label" : "e-i",
+      "text" : "Complete the sentence to show the colour change when compound A is bubbled through bromine water. Bromine water changes from orange to",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-06a1d491-pe-ii",
+      "label" : "e-ii",
+      "text" : "Complete the chemical equation for the reaction between compound A and bromine water. $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + \\mathrm {B r} _ {2} \\rightarrow$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000090" ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q06-06a1d491",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The reactivity of metals can be studied using displacement reactions. In these reactions, one metal is added to a solution of a salt of a different metal. If a displacement reaction occurs, there is a temperature rise. Pour some metal salt solution into a polystyrene cup supported in a glass beaker and record the temperature of the solution. Add a known mass of a metal and stir. Record the maximum temperature of the mixture. A student used the following method in a series of experiments.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-06a1d491-pa",
+      "label" : "a",
+      "text" : "Suggest three variables that should be kept the same for the student's experiments to be a fair test.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pb",
+      "label" : "b",
+      "text" : "The student used a thermometer to measure the temperature rise. The diagrams show the thermometer readings before and after adding the metal. Use the diagrams to complete the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000117",
+        "sourceName" : "assets/crop_1_1789042059238.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789042059238.png",
+        "availability" : "available",
+        "assetId" : "img:8f7039ef6200b9fc3eb464fefff8300a46e5b0b6a69233fe45d70192aa752dd6",
+        "sha256" : "8f7039ef6200b9fc3eb464fefff8300a46e5b0b6a69233fe45d70192aa752dd6",
+        "mimeType" : "image/jpeg",
+        "width" : 258,
+        "height" : 630,
+        "formatMismatch" : true
+      }, {
+        "elementId" : "e000118",
+        "sourceName" : "assets/crop_2_1789042059243.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789042059243.png",
+        "availability" : "available",
+        "assetId" : "img:5e8aa6177cee6b1f41604ae48f5ca711c43b3295aac955429afc62b004ee211c",
+        "sha256" : "5e8aa6177cee6b1f41604ae48f5ca711c43b3295aac955429afc62b004ee211c",
+        "mimeType" : "image/jpeg",
+        "width" : 259,
+        "height" : 560,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pc",
+      "label" : "c",
+      "text" : "The student used copper(II) sulfate solution in all her experiments. She used five different metals. She did not know the identity of the metal labelled X. The student did each experiment twice. The table shows her results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pc-i",
+      "label" : "c-i",
+      "text" : "Which of the metals gave the least reliable temperature rise? Explain your choice.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pc-ii",
+      "label" : "c-ii",
+      "text" : "Identify the most reactive of the metals used. Explain how the results show that it is the most reactive. Metal ... Explanation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pc-iii",
+      "label" : "c-iii",
+      "text" : "Why is there no temperature rise when silver is added to copper(II) sulfate solution? (1)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pc-iv",
+      "label" : "c-iv",
+      "text" : "Why do the results make it impossible to decide which of the metals is the least reactive?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-06a1d491-pd",
+      "label" : "d",
+      "text" : "A word equation for one of the reactions is zinc + copper(II) sulfate $ \\rightarrow $ copper + zinc sulfate Write a chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000117",
+      "sourceName" : "assets/crop_1_1789042059238.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789042059238.png",
+      "availability" : "available",
+      "assetId" : "img:8f7039ef6200b9fc3eb464fefff8300a46e5b0b6a69233fe45d70192aa752dd6",
+      "sha256" : "8f7039ef6200b9fc3eb464fefff8300a46e5b0b6a69233fe45d70192aa752dd6",
+      "mimeType" : "image/jpeg",
+      "width" : 258,
+      "height" : 630,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000118",
+      "sourceName" : "assets/crop_2_1789042059243.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789042059243.png",
+      "availability" : "available",
+      "assetId" : "img:5e8aa6177cee6b1f41604ae48f5ca711c43b3295aac955429afc62b004ee211c",
+      "sha256" : "5e8aa6177cee6b1f41604ae48f5ca711c43b3295aac955429afc62b004ee211c",
+      "mimeType" : "image/jpeg",
+      "width" : 259,
+      "height" : 560,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000120", "e000123" ],
+    "marks" : 13,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-06a1d491",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Most metals are extracted in a blast furnace or by electrolysis.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-06a1d491-pa",
+      "label" : "a",
+      "text" : "The chemical equations for two reactions that occur during the extraction of aluminium are A $ \\mathrm{A l}^{3+}+3 \\mathrm{e}^{-}\\rightarrow \\mathrm{A l} $ For each of these reactions, complete the table to show whether the underlined species is being oxidised or reduced. In each case, explain your choice.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "Reaction A takes place at the negative electrode during the extraction of aluminium. Write an ionic half-equation for the reaction at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pa-iii",
+      "label" : "a-iii",
+      "text" : "Reaction B gives a waste product during the extraction of aluminium. What effect does this reaction have on the positive electrodes?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pa-iv",
+      "label" : "a-iv",
+      "text" : "Reaction B is also important in the extraction of iron in a blast furnace. Name the raw material that reacts with oxygen and state why the reaction is important. Importance of reaction",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pb",
+      "label" : "b",
+      "text" : "Galena (PbS) and cerussite $ \\mathrm{(P b C O_{3})} $ are two ores of lead. A mining company is considering which of these two ores to use for the extraction of lead. The equations for the reactions occurring are Process using galena: $2 \\mathrm {P b S} + 3 \\mathrm {O} _ {2} \\rightarrow 2 \\mathrm {P b O} + 2 \\mathrm {S O} _ {2}$ $2 \\mathrm {P b O} + \\mathrm {C} \\rightarrow 2 \\mathrm {P b} + \\mathrm {C O} _ {2}$ Process using cerussite: $\\mathrm {P b C O} _ {3} \\rightarrow \\mathrm {P b O} + \\mathrm {C O} _ {2}$ $2 \\mathrm {P b O} + \\mathrm {C} \\rightarrow 2 \\mathrm {P b} + \\mathrm {C O} _ {2}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pb-i",
+      "label" : "b-i",
+      "text" : "Both processes form carbon dioxide, which the mining company hopes to sell. Complete the table to show two uses of carbon dioxide and a property on which each use depends.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pb-ii",
+      "label" : "b-ii",
+      "text" : "One disadvantage of using galena is that the sulfur dioxide produced can cause acid rain. Write a chemical equation to show the formation of an acidic solution from sulfur dioxide and state one effect of acid rain. Equation Effect",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-06a1d491-pc",
+      "label" : "c",
+      "text" : "The company uses a sample of cerussite containing 500 g of PbCO$_3$ Calculate the maximum mass of lead that can be obtained from this sample of cerussite. Mass of lead = ... g",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000139", "e000156" ],
+    "marks" : 17,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q08-06a1d491",
+    "number" : 8,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The equation for a reaction that occurs in the manufacture of nitric acid is $4 \\mathrm {N H} _ {3} (\\mathrm {g}) + 5 \\mathrm {O} _ {2} (\\mathrm {g}) \\rightleftharpoons 4 \\mathrm {N O} (\\mathrm {g}) + 6 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {g}) \\quad \\Delta H = - 9 0 0 \\mathrm {k J / m o l}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q08-06a1d491-pa",
+      "label" : "a",
+      "text" : "State the meanings of the symbols $ \\rightleftharpoons $ and $ \\Delta H. $ $ \\Delta H $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "What does the negative sign of $ \\Delta H $ indicate about the reaction?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pb",
+      "label" : "b",
+      "text" : "Complete the energy level diagram for this reaction. Energy",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pc",
+      "label" : "c",
+      "text" : "Typical conditions used for this reaction are a temperature of 900 $ ^{\\circ} \\mathrm{C} $ and a pressure of 10 atmospheres. Deduce the effects of changing the conditions as shown in the table. Choose from the words increased, decreased or unchanged to complete the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pd",
+      "label" : "d",
+      "text" : "A manufacturer considers using a pressure of 5 atm instead of 10 atm.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pd-i",
+      "label" : "d-i",
+      "text" : "Predict and explain the effect on the rate of reaction of changing the pressure to 5 atm. Effect on rate of reaction Explanation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pd-ii",
+      "label" : "d-ii",
+      "text" : "Predict and explain the effect on the position of equilibrium of changing the pressure to 5 atm. Effect on position of equilibrium Explanation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-06a1d491-pe",
+      "label" : "e",
+      "text" : "Balance the equation that represents the last stage in the manufacture of nitric acid. $\\dots \\dots \\mathrm {N O} _ {2} + \\dots \\dots \\mathrm {O} _ {2} + \\dots \\dots \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\dots \\dots \\mathrm {H N O} _ {3}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000174" ],
+    "marks" : 15,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q09-06a1d491",
+    "number" : 9,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about bromine and some of its compounds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q09-06a1d491-pa",
+      "label" : "a",
+      "text" : "Atoms of bromine can be represented as $ ^{79} \\mathrm{B r} $ and $ ^{81} \\mathrm{B r} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pa-i",
+      "label" : "a-i",
+      "text" : "State the number of protons, neutrons and electrons in an atom of $ ^{79} \\mathrm{B r} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pa-ii",
+      "label" : "a-ii",
+      "text" : "What name is used for atoms of bromine that have different numbers of neutrons? (1)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pa-iii",
+      "label" : "a-iii",
+      "text" : "Why do all atoms of bromine have the same chemical properties?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pa-iv",
+      "label" : "a-iv",
+      "text" : "The relative atomic mass of bromine is given in the Periodic Table as 80,but a more accurate value is 79.9 Suggest,with a reason,which of the atoms $ ^{79} \\mathrm{B r} $ and $ ^{81} \\mathrm{B r} $ exists in greater numbers in a sample of bromine.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pb",
+      "label" : "b",
+      "text" : "Hydrogen bromide (HBr) and sodium bromide (NaBr) are compounds of bromine.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pb-i",
+      "label" : "b-i",
+      "text" : "Draw a dot and cross diagram to represent a hydrogen bromide molecule. Show only the outer electrons in each atom.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pb-ii",
+      "label" : "b-ii",
+      "text" : "Explain how the atoms are held together in a hydrogen bromide molecule.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pb-iii",
+      "label" : "b-iii",
+      "text" : "Explain why sodium bromide has a higher melting point than hydrogen bromide.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-06a1d491-pc",
+      "label" : "c",
+      "text" : "A compound has the percentage composition 13.8% sodium, 47.9% bromine and 38.3% oxygen by mass. Calculate its empirical formula.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "Empirical formula" ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 16,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q10-06a1d491",
+    "number" : 10,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A teacher discussed with her students whether the boiling points of organic compounds are related to the size of their molecules. The students suggested measuring the boiling points of some organic compounds using this apparatus.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q10-06a1d491-pa",
+      "label" : "a",
+      "text" : "The teacher said that their suggested method was too dangerous. She recommended using the apparatus shown below instead. Suggest one reason why this apparatus is better than the students' suggestion.",
+      "marks" : 1,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000204",
+        "sourceName" : "assets/crop_2_1789042059324.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789042059324.png",
+        "availability" : "available",
+        "assetId" : "img:1d888b361baa61a6e5a43e0aead7f8c2d1024d26c96dd85d1ad1d6e1bf35235e",
+        "sha256" : "1d888b361baa61a6e5a43e0aead7f8c2d1024d26c96dd85d1ad1d6e1bf35235e",
+        "mimeType" : "image/jpeg",
+        "width" : 627,
+        "height" : 527,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q10-06a1d491-pb",
+      "label" : "b",
+      "text" : "The students used the apparatus recommended by the teacher to measure the boiling points of five alcohols. Their results are shown in the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-06a1d491-pb-i",
+      "label" : "b-i",
+      "text" : "Plot a graph of the data in the table on the grid. Draw a straight line of best fit through the points. Boiling point in $ ^{\\circ} \\mathrm{C} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000213",
+        "sourceName" : "assets/crop_1_1789042059337.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789042059337.png",
+        "availability" : "available",
+        "assetId" : "img:0ba91070f1f9fcfd2758321cb87a74cacf7a9176b1bf978275099acede5508e5",
+        "sha256" : "0ba91070f1f9fcfd2758321cb87a74cacf7a9176b1bf978275099acede5508e5",
+        "mimeType" : "image/jpeg",
+        "width" : 910,
+        "height" : 1293,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-06a1d491-pb-ii",
+      "label" : "b-ii",
+      "text" : "Describe the relationship shown by your graph.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-06a1d491-pb-iii",
+      "label" : "b-iii",
+      "text" : "Use your graph to predict the boiling point of the alcohol that has a relative formula mass of 74.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-06a1d491-pb-iv",
+      "label" : "b-iv",
+      "text" : "Which of the alcohols A, B, C, D or E is the least volatile?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000202",
+      "sourceName" : "assets/crop_1_1789042059319.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789042059319.png",
+      "availability" : "available",
+      "assetId" : "img:5cb22d3b99e6f164918429636d1b7702a6584d5211d251f6163f09d80779029e",
+      "sha256" : "5cb22d3b99e6f164918429636d1b7702a6584d5211d251f6163f09d80779029e",
+      "mimeType" : "image/jpeg",
+      "width" : 547,
+      "height" : 663,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000204",
+      "sourceName" : "assets/crop_2_1789042059324.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789042059324.png",
+      "availability" : "available",
+      "assetId" : "img:1d888b361baa61a6e5a43e0aead7f8c2d1024d26c96dd85d1ad1d6e1bf35235e",
+      "sha256" : "1d888b361baa61a6e5a43e0aead7f8c2d1024d26c96dd85d1ad1d6e1bf35235e",
+      "mimeType" : "image/jpeg",
+      "width" : 627,
+      "height" : 527,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000213",
+      "sourceName" : "assets/crop_1_1789042059337.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789042059337.png",
+      "availability" : "available",
+      "assetId" : "img:0ba91070f1f9fcfd2758321cb87a74cacf7a9176b1bf978275099acede5508e5",
+      "sha256" : "0ba91070f1f9fcfd2758321cb87a74cacf7a9176b1bf978275099acede5508e5",
+      "mimeType" : "image/jpeg",
+      "width" : 910,
+      "height" : 1293,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000209" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 9,
+    "2" : 6,
+    "3" : 12,
+    "4" : 11,
+    "5" : 14,
+    "6" : 13,
+    "7" : 17,
+    "8" : 15,
+    "9" : 16,
+    "10" : 7
+  },
+  "paperTotal" : 120,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: THE PERIODIC TABLE", "Q6: incomplete MCQ option set folded into stem" ]
+}
