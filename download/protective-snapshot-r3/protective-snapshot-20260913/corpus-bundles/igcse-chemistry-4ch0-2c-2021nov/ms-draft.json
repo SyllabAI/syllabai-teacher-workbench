@@ -1,0 +1,578 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_2111_MS",
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "f1637b57-8109-5729-b485-d073402c9f78"
+  },
+  "entries" : [ {
+    "entryId" : "ms-f1637b57-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "nitrogen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW N/N2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "silicon/Si or phosphorus/P or sulfur/S"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "bromine"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is D as francium is the most reactive element in Group 1 and fluorine is the most reactive element in Group 7A is not correct because lithium is not the most reactive element in Group 1B is not correct because astatine is not the most reactive element in Group 7C is not correct because lithium is not the most reactive element in Group 1 and astatine is not the most reactive element in Group 7"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Explanation containing following ideas"
+    }, {
+      "kind" : "note",
+      "text" : "(A saturated solution is one which contains)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 as much solute as possible in(a certain volume of)the solvent OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 at a particular/given/constant temperature OWTTE"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(b)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(volumetric)pipette/burette"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(water/solution)would be heated too quickly OR"
+    }, {
+      "kind" : "note",
+      "text" : "(water/solution)might spit out or be lost OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(water/solution)might boil or evaporate"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "repeat(and find the mean temperature)"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M14.5(g solid in10g water)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so solubility=4.5x10)=45(g per100g of water)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWM1x10"
+    }, {
+      "kind" : "note",
+      "text" : "45with no working scores2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "71(℃)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 70-72(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(from curve)124g of solidB dissolves in100g waterM2(so124x2.5)=310(g dissolves in250g water)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW123-125gALLOWecf fromM1307.5-312.5with no working scores2marksALLOWM1x2.5If solidAused1markforcorrectanswerof262-268g"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "some water may have been lost/evaporatedOWTTE"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)(ii)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "$2H_{2}S(g)+SO_{2}(g)\\rightarrow 3S(s)+2H_{2}O(l)$"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all state symbols correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW upper case"
+    }, {
+      "kind" : "note",
+      "text" : "M2 balancing correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples/fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(sulfur dioxide is reduced because it) loses oxygen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to electrons"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(b)(i)(ii)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Explanation linking following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 sulfur/(pale yellow) solid forms nearer to sulfur dioxide side/closer to left OWTTE ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so hydrogen sulfide particles moved / diffused further (in same time) OWTTE ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M1 M_{r of H2S=(1+1+32)=34M2 M_{r of SO2= (32+16+16)=64M3 statement of relationship eg the higher the Mr the slower the gas diffuses"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse argument"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(cation)Mg2+",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW1markifformulae correct but in wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "M2(anion)SO42-"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1potassium ion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWany combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "M2oxide ion"
+    }, {
+      "kind" : "note",
+      "text" : "M3(K)+and(O)2-"
+    }, {
+      "kind" : "note",
+      "text" : "If onlyouter shellsshows-max2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "hydroxide/OH-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW HO-"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "K2O+H2O→2KOH"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(when molten or in aqueous solution)ions can move"
+    }, {
+      "kind" : "note",
+      "text" : "M2(in solid)ions cannot move"
+    }, {
+      "kind" : "note",
+      "text" : "M1Xis chlorine/Cl2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxygen/O2"
+    }, {
+      "kind" : "note",
+      "text" : "M2Yis hydrogen/H2"
+    }, {
+      "kind" : "note",
+      "text" : "If both given but wrong way round or unclear which is which allow 1 mark from M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M32Cl-→Cl2+2e-"
+    }, {
+      "kind" : "note",
+      "text" : "2H2O→O2+4H++4e- or 4OH-→O2+2H2O+4e-"
+    }, {
+      "kind" : "note",
+      "text" : "M42H++2e-→H2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ore(s)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE minerals"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "gold/platinum"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW silver/copper ALLOW symbols"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(b)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(calcium from calcium chloride)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electrolysis"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because) calcium is more reactive than carbon OR carbon cannot displace calcium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(lead from lead oxide)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon extraction"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because) carbon is more reactive than lead OR carbon can displace lead"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument M2 dep on M1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M12-D diagram showing at least two layers of particles",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 particles labelled atoms or (positive) ions(malleable because)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 layers can slide over each other"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calculation of $ M_{r} $ of $ \\mathrm{A l_{2} O_{3}} $"
+    }, {
+      "kind" : "note",
+      "text" : "M2 moles of $ \\mathrm{A l_{2} O_{3}} $"
+    }, {
+      "kind" : "note",
+      "text" : "M3 calculation of mass of aluminiumexemplar"
+    }, {
+      "kind" : "note",
+      "text" : "M1 102"
+    }, {
+      "kind" : "note",
+      "text" : "M2 1275÷102 OR 12.5(moles)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW $ M_{1}\\times2 $ALLOW ecf from M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3(12.5$\\times2\\times27$)=675g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M2675g without working scores 30.675 without working scores 2337.5 without working scores 21350 without working scores 2"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C is the only correct answer as temperature used is300℃and pressure is65 atm(60-70 atm)A is incorrect because35℃and300 atm are not the correct conditionsB is incorrect because65℃and300 atm are not the correct conditionsD is incorrect because300℃and35 atm are not the correct conditions",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Chemical structure ofbutan-2-ol"
+    }, {
+      "kind" : "note",
+      "text" : "formula must be fully displayedALLOW fully displayed formula for butan-2-ol"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1mol(KOH)=45.00×0.40/1000=0.018"
+    }, {
+      "kind" : "note",
+      "text" : "M2conc(CH3COOH)=0.018×1000/25=0.72(mol/dm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M10.72(mol/dm3) without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1mol(CO2)=(0.0030÷2)=0.0015"
+    }, {
+      "kind" : "note",
+      "text" : "M2vol(CO2)=0.0015×24000=36(cm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M136(cm3) without working scores272(cm3) without working scores1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "B C2H5OH is the only correct answerA is not correct becauseCH3OH could not form the ester ethyl propanoateC is not correct becauseC3H7OH could not form the ester ethyl propanoateD is not correct becauseC4H9OH could not form the ester ethyl propanoate"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f1637b57-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 no effect on yield",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE comments about rate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because same number of moles (of gas) on both sides of equation"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 no effect on yield"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because catalyst increases rate of both forward and backward reactions by same amount"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bonds broken = (436+158) OR 594 (ignore sign)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 bonds made = (2x562) OR 1124 (ignore sign)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 ΔH=-530(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "-530 with no working scores3+530 or 530 with no working scores2+32 or 32 with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 right hand line below left hand line"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct names/formulae of reactants and products"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reactants and products"
+    }, {
+      "kind" : "note",
+      "text" : "M3 enthalpy change, ΔH correctly shown and labelled with arrow pointing down"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT line with no arrow head / double arrow head if-ΔH or -530 is labelled REJECT arrow pointing upwards"
+    }, {
+      "kind" : "note",
+      "text" : "If the answer to(b) is positive"
+    }, {
+      "kind" : "note",
+      "text" : "M1 right hand line above left hand line"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct names/formulae of reactants and products"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reactants and products"
+    }, {
+      "kind" : "note",
+      "text" : "M3 enthalpy change, ΔH correctly shown and labelled with arrow pointing up"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT line with no arrow head / double arrow head if(+)ΔH or +530 is labelledREJECT arrow pointing downwards"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"73\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (e)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: M2", "orphan row before first entry: (iii)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)" ]
+}

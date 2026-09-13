@@ -1,0 +1,599 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "f85e53f2-b63a-57a5-958f-54fae7da0b40"
+  },
+  "questions" : [ {
+    "questionId" : "q01-f85e53f2",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Use the Periodic Table to help you answer this question.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Name the element with atomic number 14.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-f85e53f2-pa-ii",
+      "label" : "a-ii",
+      "text" : "Name the element in Group 2 and Period 3.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-f85e53f2-pa-iii",
+      "label" : "a-iii",
+      "text" : "Name an element that is a liquid at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-f85e53f2-pa-iv",
+      "label" : "a-iv",
+      "text" : "Give the electronic configuration of an atom of phosphorus.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-f85e53f2-pa-v",
+      "label" : "a-v",
+      "text" : "Give the formula of sodium sulfide.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-f85e53f2-pb",
+      "label" : "b",
+      "text" : "Explain, in terms of electron configuration, why neon is unreactive.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q02-f85e53f2",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about gases in the atmosphere.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Which of these gases has the lowest percentage by volume in the atmosphere? A argon B carbon dioxide C nitrogen D oxygen",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-f85e53f2-pb",
+      "label" : "b",
+      "text" : "When copper(II) carbonate is heated, copper(II) oxide and carbon dioxide form.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-f85e53f2-pb-i",
+      "label" : "b-i",
+      "text" : "What is the name of this type of reaction? A addition B decomposition oxidation D substitution",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-f85e53f2-pb-ii",
+      "label" : "b-ii",
+      "text" : "Which colour change occurs when copper(II) carbonate is heated? A blue to black B blue to orange C green to black D green to orange",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-f85e53f2-pb-iii",
+      "label" : "b-iii",
+      "text" : "Give the chemical equation for this reaction.",
+      "marks" : 1,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q02-f85e53f2-pc",
+      "label" : "c",
+      "text" : "A student uses this apparatus to find the percentage of oxygen in a sample of air. The student leaves the apparatus until there is no further change in volume of gas in the syringe. These are the student's results. Calculate the percentage of oxygen in the sample of air. Give your answer to two significant figures.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000050",
+        "sourceName" : "assets/crop_1_1789069786314.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069786314.png",
+        "availability" : "available",
+        "assetId" : "img:f9426e088c3a6c2998af38d04b3b3002386098542d50e585b935e19b81599929",
+        "sha256" : "f9426e088c3a6c2998af38d04b3b3002386098542d50e585b935e19b81599929",
+        "mimeType" : "image/jpeg",
+        "width" : 1561,
+        "height" : 550,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-f85e53f2-pd",
+      "label" : "d",
+      "text" : "Explain why an increasing amount of carbon dioxide in the atmosphere is likely to cause a problem for the environment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000050",
+      "sourceName" : "assets/crop_1_1789069786314.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069786314.png",
+      "availability" : "available",
+      "assetId" : "img:f9426e088c3a6c2998af38d04b3b3002386098542d50e585b935e19b81599929",
+      "sha256" : "f9426e088c3a6c2998af38d04b3b3002386098542d50e585b935e19b81599929",
+      "mimeType" : "image/jpeg",
+      "width" : 1561,
+      "height" : 550,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000053" ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-f85e53f2",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about alcohols. Ethanol can be manufactured using two different methods. hydration of ethene fermentation of glucose This is the equation for hydration. $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C} _ {2} \\mathrm {H} _ {5} \\mathrm {O H}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Complete the equation for fermentation. $\\mathrm {C} _ {6} \\mathrm {H} _ {1 2} \\mathrm {O} _ {6} \\rightarrow$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pb",
+      "label" : "b",
+      "text" : "The table gives some information about the two methods.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pb-i",
+      "label" : "b-i",
+      "text" : "Complete the table by giving the missing information.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pb-ii",
+      "label" : "b-ii",
+      "text" : "Explain one advantage and one disadvantage of using fermentation rather than hydration to produce ethanol. You should use information from the table to help your answer. advantage disadvantage",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pc",
+      "label" : "c",
+      "text" : "Explain why fermentation needs to occur in the absence of air.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pd",
+      "label" : "d",
+      "text" : "Propanol has this percentage composition by mass. $C = 60.0 \\% \\quad H = 13.3 \\% \\quad O = 26.7 \\%$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pd-i",
+      "label" : "d-i",
+      "text" : "Show by calculation that the empirical formula of propanol is $ \\mathrm{C_{3} H_{8}O}。 $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-f85e53f2-pd-ii",
+      "label" : "d-ii",
+      "text" : "Draw the displayed formula of propanol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000068" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-f85e53f2",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student does a titration to find the concentration of potassium hydroxide solution. This is the student's method. add $ 2 5. 0 \\mathrm{c m}^{3} $ of the potassium hydroxide solution to a conical flask add a few drops of methyl orange indicator to the conical flask fill a burette with dilute sulfuric acid and record the initial burette reading place the conical flask on a white tile add the acid from the burette to the mixture in the conical flask, swirling the flask continuously when the indicator changes colour at the end point, record the final burette reading Repeat the titration to obtain concordant results.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Give the name of the most suitable piece of apparatus to measure out $ 2 5. 0 \\mathrm{c m}^{3} $ of potassium hydroxide solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pb",
+      "label" : "b",
+      "text" : "Give the colour of methyl orange in potassium hydroxide solution and in dilute sulfuric acid. colour in potassium hydroxide solution colour in dilute sulfuric acid",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pc",
+      "label" : "c",
+      "text" : "State why the student places the conical flask on a white tile.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pd",
+      "label" : "d",
+      "text" : "State why the student swirls the flask continuously.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pe",
+      "label" : "e",
+      "text" : "State what is meant by the term concordant results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pf",
+      "label" : "f",
+      "text" : "The student finds that $ 1 5. 0 0 \\mathrm{c m}^{3} $ of sulfuric acid of concentration $ 0. 1 8 0 \\mathrm{m o l} / \\mathrm{d m}^{3} $ neutralises $ 2 5. 0 \\mathrm{c m}^{3} $ of potassium hydroxide solution. This is the equation for the reaction. $2 \\mathrm {K O H} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} \\rightarrow \\mathrm {K} _ {2} \\mathrm {S O} _ {4} + 2 \\mathrm {H} _ {2} \\mathrm {O}$ Calculate the concentration of the potassium hydroxide solution. $\\mathrm {c o n c e n t r a t i o n} =$ $\\mathrm {m o l} / \\mathrm {d m} ^ {3}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-f85e53f2-pg",
+      "label" : "g",
+      "text" : "This is the ionic equation for the reaction between an acid and an alkali. $\\mathrm {H} ^ {+} (\\mathrm {a q}) + \\mathrm {O H} ^ {-} (\\mathrm {a q}) \\rightarrow \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {I})$ Explain why the $ \\mathrm{O H}^{-} $ ion is a proton acceptor in this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q05-f85e53f2",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "When copper(II) sulfate solution is electrolysed, copper forms at the negative electrode. A student uses this apparatus to investigate the electrolysis of copper(II) sulfate solution.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Describe how the student could test a sample of copper(II) sulfate solution to show that it contains copper(II) ions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pb",
+      "label" : "b",
+      "text" : "Describe how copper metal forms at the negative electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pc",
+      "label" : "c",
+      "text" : "State the appearance of the copper that forms on the negative electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pd",
+      "label" : "d",
+      "text" : "Oxygen forms at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pd-i",
+      "label" : "d-i",
+      "text" : "Give a test for oxygen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pd-ii",
+      "label" : "d-ii",
+      "text" : "Complete the half-equation for the formation of oxygen at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-f85e53f2-pd-iii",
+      "label" : "d-iii",
+      "text" : "State why the formation of oxygen at the positive electrode is an oxidation reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000106",
+      "sourceName" : "assets/crop_1_1789069786380.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069786380.png",
+      "availability" : "available",
+      "assetId" : "img:c558a41331f8c39eeea2520eda7e24c3fa3b5c237a33800e178855d0c07901f7",
+      "sha256" : "c558a41331f8c39eeea2520eda7e24c3fa3b5c237a33800e178855d0c07901f7",
+      "mimeType" : "image/jpeg",
+      "width" : 1206,
+      "height" : 578,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q06-f85e53f2",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Ethanoic acid reacts with methanol to form an ester. The equation shows the displayed formulae for the reactants and products. $\\begin{array}{l} \\mathrm {H} \\mathrm {C} \\mathrm {C} \\mathrm {O} \\mathrm {H} + \\mathrm {H} \\mathrm {C} \\mathrm {O} \\mathrm {H} \\rightarrow \\mathrm {H} \\mathrm {C} \\mathrm {C} \\mathrm {O} \\mathrm {C} \\mathrm {H} + \\mathrm {H} \\mathrm {O} \\mathrm {H} \\\\ \\mathrm {H} \\\\ \\end{array}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-f85e53f2-pa",
+      "label" : "a",
+      "text" : "Give the name of a suitable catalyst to increase the rate of this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-f85e53f2-pa-ii",
+      "label" : "a-ii",
+      "text" : "State how you would know that an ester has formed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-f85e53f2-pa-iii",
+      "label" : "a-iii",
+      "text" : "Give the name of this ester.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-f85e53f2-pb",
+      "label" : "b",
+      "text" : "The table shows the number of bonds in the reactants and the number of bonds in the products.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-f85e53f2-pb-ii",
+      "label" : "b-ii",
+      "text" : "Explain why the enthalpy change in this reaction is approximately 0 kJ/mol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-f85e53f2-pb-i",
+      "label" : "b-i",
+      "text" : "State which two bonds need to be broken in the reactants.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000122" ],
+    "marks" : 6,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-f85e53f2",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Methane reacts with steam to form carbon monoxide and hydrogen. This is the equation for the reaction. $\\mathrm {C H} _ {4} (\\mathrm {g}) + \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {g}) \\rightleftharpoons \\mathrm {C O} (\\mathrm {g}) + 3 \\mathrm {H} _ {2} (\\mathrm {g}) \\quad \\Delta H = + 2 0 6 \\mathrm {k J / m o l}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-f85e53f2-pa",
+      "label" : "a",
+      "text" : "State why carbon monoxide is poisonous to humans.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-f85e53f2-pb",
+      "label" : "b",
+      "text" : "Explain the effect, if any, on the yield of hydrogen at equilibrium when a nickel catalyst is used.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-f85e53f2-pc",
+      "label" : "c",
+      "text" : "The reaction conditions for this reaction are a temperature of $ 7 0 0^{\\circ} \\mathrm{C} $ and a pressure of 5 atmospheres.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-f85e53f2-pc-i",
+      "label" : "c-i",
+      "text" : "The temperature of the reaction mixture is reduced to $ 6 0 0^{\\circ} \\mathrm{C} $ , but the pressure is kept at 5 atmospheres. Explain the effect on the yield of hydrogen at equilibrium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-f85e53f2-pc-ii",
+      "label" : "c-ii",
+      "text" : "The pressure of the reaction mixture is reduced to 4 atmospheres, but the temperature is kept at $ 7 0 0^{\\circ} \\mathrm{C} $ Explain the effect on the yield of hydrogen at equilibrium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-f85e53f2-pd",
+      "label" : "d",
+      "text" : "Calculate the volume, in $ \\mathrm{d m}^{3} $ of methane gas at rtp needed to produce 6.6 tonnes of hydrogen gas. [at rtp,molar volume=24 dm $ ^{3} $ 1 tonne= $ 1 0^{6} \\mathrm{~ g} $ ] Give your answer in standard form. $\\mathrm {d m} ^ {3}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "2" : 10,
+    "5" : 10,
+    "6" : 6,
+    "7" : 11
+  },
+  "paperTotal" : 70,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "Q5: incomplete MCQ option set folded into stem" ]
+}

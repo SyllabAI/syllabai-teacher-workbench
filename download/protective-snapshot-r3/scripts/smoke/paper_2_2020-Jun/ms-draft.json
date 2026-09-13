@@ -1,0 +1,541 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_2011_MS",
+    "session" : "November 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "adefadcd-7738-5c43-b105-66f1ced11aa1"
+  },
+  "entries" : [ {
+    "entryId" : "ms-adefadcd-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B filtration is the correct answer because it will enable sand to be separated from salt solution"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because crystallisation will not enable sand to be separated from salt solution"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because fractional distillation will not enable sand to be separated from salt solution"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because simple distillation will not enable sand to be separated from salt solution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "X is a thermometer"
+    }, {
+      "kind" : "note",
+      "text" : "3 cler"
+    }, {
+      "kind" : "note",
+      "text" : "Y is a (Liebig) condenser"
+    }, {
+      "kind" : "note",
+      "text" : "Z is a beaker"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "salt"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A substance S is the correct answer because S only contains one dye as it produces only one spot",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B is not correct because T does not only contain one dye as it produces two spots"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because U does not only contain one dye as it produces three spots"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because V does not only contain one dye as it produces two spots"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation containing following points"
+    }, {
+      "kind" : "note",
+      "text" : "2grad"
+    }, {
+      "kind" : "note",
+      "text" : "M1(V contains) blue/B and red/R(dyes)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because V has spots at same height as those from blue/B and red/R OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct measurement of distance moved by spot Y"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 5.7-6.1"
+    }, {
+      "kind" : "note",
+      "text" : "3exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct measurement of distance moved by solvent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 8.7-9.1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 use and evaluation of"
+    }, {
+      "kind" : "note",
+      "text" : "$R_{f}=\\underline{\\underline{distance moved by spot Y}}$ distance moved by solvent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 1-4 sig fig ALLOW ECF from M1 M2 only if $R_{f}<1$"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "spot from yellow food dye/Y does not move as far as spot from red food dye/R OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ORA"
+    }, {
+      "kind" : "note",
+      "text" : "1exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "magnesium",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW Mg"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including the following pointsM1 silverM2 because it is the least reactive(of the metals)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW it is very unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "2 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including the following pointsM1 Method 1/ heating the metal oxide/lead(II) oxide with carbonM2 (because) lead is less reactive than iron(and iron is obtained from iron oxide by carbon extraction)M3 2PbO+C→2Pb+CO2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon is more reactive than leadACCEPT reverse argumentsALLOW PbO+CO→Pb+CO2ALLOW PbO+C→Pb+CO"
+    }, {
+      "kind" : "note",
+      "text" : "3 exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Explanation containing the following points\nPure metal:\nM1(particles/ions/atoms are same size in a regular arrangement so) layers can easily slide over each other\nAlloy:\nM2 diagram of alloy structure showing minimum of three layers with at least one different sized circle\nM3(having different sized particles/ions/atoms) disrupts/breaks up regular arrangement OWTTE\nM4so hard(er) for layers to slide over each other",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT molecules once only"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW disrupts the lattice / layers / rows(of particles/ions/atoms)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW layers cannot slide over each other"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to strength/breaking of forces/(metallic) bonds"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "CH3OH",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE displayed formula"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "fermentation"
+    }, {
+      "kind" : "note",
+      "text" : "1cler"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Explanation including four fromM1 fermentation/reaction/respiration needs to be anaerobicM2 because in air/aerobic conditions ethanol not producedM3 because in air/aerobic conditions CO2and H2Oare producedM4(if temperature above40℃/too high)enzymes(in yeast)become denatured/lose their structureOWTTEM5 causing fermentation/reaction to slow down/stop"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWM1 in air ethanol would react with oxygen/be oxidisedM2 in air ethanol would form ethanoic acid/carboxylic acid/vinegarALLOW reference to optimum temperature(between30℃and40℃)"
+    }, {
+      "kind" : "note",
+      "text" : "4exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q4ci",
+    "label" : "4(c)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1M2C3H6O2M3 butanoic acidcarboxylic(acids)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(acid acts as) a catalyst/to speed up reaction(ii)M1 ester linkageM2 rest of molecule fully correct"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "1grad2exp"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Property:) distinctive/sweet/fruity smellM2 used in perfumes/flavourings"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW volatileALLOW any correct use eg in making soaps/in solvents(for paints/varnishes)"
+    }, {
+      "kind" : "note",
+      "text" : "2exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Explanation including following points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(unsaturated because) contains(carbon to carbon)double bond(s)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW containsC=C"
+    }, {
+      "kind" : "note",
+      "text" : "M2(hydrocarbon because) contains(the elements/atoms)carbon and hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M3only"
+    }, {
+      "kind" : "note",
+      "text" : "M3DEP on carbon and hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "from orange to colourless"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW yellow for orange or any combination of orange/yellowIGNORE clear"
+    }, {
+      "kind" : "note",
+      "text" : "1grad"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "calculation including following steps"
+    }, {
+      "kind" : "note",
+      "text" : "4Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1calculation of energy involved in bond breaking in reactants"
+    }, {
+      "kind" : "note",
+      "text" : "M2calculation of energy involved in bond making in products"
+    }, {
+      "kind" : "note",
+      "text" : "M3evaluation of difference"
+    }, {
+      "kind" : "ecf",
+      "text" : "ECF fromM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "M4correct answer and sign"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M12(612)+1(348)+6(412)+2(193)OR4430"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE signs inM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "M23(348)+6(412)+4(276)OR4620"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT2(612)+2(193)OR1610forM1and2(348)+4(276)OR1800forM2"
+    }, {
+      "kind" : "note",
+      "text" : "M3(4620-4430=)190"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE signACCEPT(1800-1610=)190"
+    }, {
+      "kind" : "note",
+      "text" : "M4-190"
+    }, {
+      "kind" : "note",
+      "text" : "M3M4ECF fromM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "IfM1>M2answer forM4must be positiveIfM1<M2answer forM4must be negative-190withorwithoutworkingscores4(+)190withorwithoutworkingscores3"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "zinc would react with sulfuric acid/solution X"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE zinc is too reactive"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "bubbles"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fizzing / effervescence"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas evolved"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE incorrectly named gas"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "B a burning splint gives a squeaky pop is correct because this is the test for hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect because a glowing splint relights is not the test for hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect because a burning splint goes out is not the test for hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect because limewater turns cloudy is not the test for hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "1 comp"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "description including"
+    }, {
+      "kind" : "note",
+      "text" : "M1 add barium chloride/BaCl2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT barium nitrate/Ba(NO3)2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to adding (dilute)"
+    }, {
+      "kind" : "note",
+      "text" : "HCl/HNO3"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT add H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "2 Grad"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(graduated) pipette"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW burette"
+    }, {
+      "kind" : "note",
+      "text" : "1 Cler"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-adefadcd-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calculation with following steps\nM1 calculation of n(K2CO3)\nM2 deduction of n(CO2)和\nvol(CO2) by multiplying by 24(dm3)\nM3 correct evaluation of volume in cm3\nExample calculation\nM1 n(K2CO3)=6.9÷138OR0.05\nM2 vol(CO2)=0.05x24(dm3)\nM3 1200(cm3)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Mark ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "1.2 scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 higher yield of CO"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because (equilibrium shifts to the right as the forward) reaction is endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT more CO is produced"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to Le Chatelier's Principle eg increasing temperature favours the forward reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "Exp"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 no effect (on yield) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because equal numbers of moles/molecules (of gas) on both sides"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "Exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: Question number", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)" ]
+}

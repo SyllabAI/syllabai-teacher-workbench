@@ -1,0 +1,497 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG037094",
+    "session" : "Summer 2013",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "78d61e9f-767a-5e86-b1a0-e92f53f3f814"
+  },
+  "entries" : [ {
+    "entryId" : "ms-78d61e9f-q1c",
+    "label" : "1(c)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "cross in box D(2.8.3)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q2b",
+    "label" : "2(b)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "burns with a pop/squeak\nOR\nuse burning/lit splint/flame to see if pop/squeak",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Must be reference to test and result"
+    }, {
+      "kind" : "note",
+      "text" : "Reference to splint/match with no indication of flame is not enough"
+    }, {
+      "kind" : "note",
+      "text" : "Reject reference to glowing splint"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore flame extinguished"
+    }, {
+      "kind" : "note",
+      "text" : "‘Squeaky pop test’ on its own is not sufficient"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q2c",
+    "label" : "2(c)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2(1)2",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "2",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "2"
+    }, {
+      "ordinal" : 2,
+      "text" : "2",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "2"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "2(d)i"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box 3"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "reversible/ can go in both directions"
+    }, {
+      "kind" : "note",
+      "text" : "/ can go backwards and forwards"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to equilibrium"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to other reaction types(e.g. hydration/oxidation/exothermic)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept either equation with ⇌"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "iv",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "oxygen/O2production of heat/maintaining temperature of furnaceORformation of reducing agent/carbon monoxide"
+    }, {
+      "kind" : "note",
+      "text" : "Accept OIgnore airDEP on mention of oxygen/O2/O/airIgnore combustion/oxidation/reaction of carbon/cokeIgnore references to increasing temperature of furnace"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept formula of C"
+    }, {
+      "kind" : "note",
+      "text" : "6(b)i"
+    }, {
+      "kind" : "note",
+      "text" : "(compound/molecule/substance containing) carbon and hydrogen (atoms/elements)"
+    }, {
+      "kind" : "note",
+      "text" : "Reject atom/element in place of compound/molecule"
+    }, {
+      "kind" : "note",
+      "text" : "Reject compound/molecule in place of atoms/elements"
+    }, {
+      "kind" : "note",
+      "text" : "Reject mixture"
+    }, {
+      "kind" : "note",
+      "text" : "Only"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dependent on mention of carbon and hydrogen even if M1 not awarded"
+    }, {
+      "kind" : "note",
+      "text" : "Accept other terms with same meaning, e.g. solely / exclusively / just"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "M3 independent"
+    }, {
+      "kind" : "note",
+      "text" : "Accept name/formula of A"
+    }, {
+      "kind" : "note",
+      "text" : "ii contains a(C=C) double bond"
+    }, {
+      "kind" : "note",
+      "text" : "Accept multiple bond"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to type of compound, eg hydrocarbon"
+    }, {
+      "kind" : "note",
+      "text" : "Reject double bond between C and H"
+    }, {
+      "kind" : "note",
+      "text" : "Do not penalise incorrect terms such as atom or element"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore not all bonds are single"
+    }, {
+      "kind" : "note",
+      "text" : "Accept can undergo addition reactions"
+    }, {
+      "kind" : "note",
+      "text" : "Accept does not contain the maximum number of hydrogens/hydrogen atoms"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "M2 independent"
+    }, {
+      "kind" : "note",
+      "text" : "Accept name/formula of B"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "mass surface area/size/volume",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept weight"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore length/width/height/thickness/shape/type"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore temperature/purity/density"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-78d61e9f-q8b",
+    "label" : "8(b)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(2)time/how long(to collect gas)\n(3)number of/how many(marble) chips\n(4)volume of gas/how much gas collected\n(5)percentage/concentration(of acid)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "time/how long(to collect gas)",
+      "marks" : 3,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "time/how long(to collect gas)"
+    }, {
+      "ordinal" : 2,
+      "text" : "number of/how many(marble) chips",
+      "marks" : 4,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "number of/how many(marble) chips"
+    }, {
+      "ordinal" : 3,
+      "text" : "volume of gas/how much gas collected",
+      "marks" : 5,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "volume of gas/how much gas collected"
+    }, {
+      "ordinal" : 4,
+      "text" : "percentage/concentration(of acid)",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "percentage/concentration(of acid)"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept length of reaction/experiment"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore amount of marble"
+    }, {
+      "kind" : "note",
+      "text" : "Accept amount of(marble) chips"
+    }, {
+      "kind" : "note",
+      "text" : "Accept carbon dioxide/CO2in place of gas"
+    }, {
+      "kind" : "note",
+      "text" : "Accept amount of gas"
+    }, {
+      "kind" : "note",
+      "text" : "Accept strength(of acid)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore volume of acid"
+    }, {
+      "kind" : "note",
+      "text" : "Reject amount(of acid)"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-78d61e9f-q9b",
+    "label" : "9(b)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(after)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "22.60"
+    }, {
+      "kind" : "note",
+      "text" : "(before)"
+    }, {
+      "kind" : "note",
+      "text" : "2.75"
+    }, {
+      "kind" : "note",
+      "text" : "(added)"
+    }, {
+      "kind" : "note",
+      "text" : "19.85"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on before and after readings"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 for before and after values both correct but in wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "All values must be to 2 dp"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise answers to other than 2 dp once only"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "air/atmosphere",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "10(b)i"
+    }, {
+      "kind" : "note",
+      "text" : "(equilibrium/it) shifts to left/reactants"
+    }, {
+      "kind" : "note",
+      "text" : "fewer(gas)"
+    }, {
+      "kind" : "note",
+      "text" : "moles/molecules on left"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "favours side with fewer moles/molecules"
+    }, {
+      "kind" : "note",
+      "text" : "Accept favours reverse reaction"
+    }, {
+      "kind" : "note",
+      "text" : "Accept less product/CO+(3)H2/lower yield"
+    }, {
+      "kind" : "note",
+      "text" : "Accept more reactant/CH4+H2O"
+    }, {
+      "kind" : "note",
+      "text" : "Accept opposite arguments,eg more moles on right"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to volume and pressure"
+    }, {
+      "kind" : "note",
+      "text" : "Accept references to particles in place of molecules"
+    }, {
+      "kind" : "note",
+      "text" : "Reject atoms in place of molecules"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to rate/collisions"
+    }, {
+      "kind" : "note",
+      "text" : "If wrong shift,M2 cannot be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "If no shift,M2 can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "Marks can be awarded for both points in either prediction or reason"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "(equilibrium/it) shifts to left/reactants"
+    }, {
+      "kind" : "note",
+      "text" : "(forward) reaction exothermic"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "reverse reaction endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "Accept favours reverse reaction/less product"
+    }, {
+      "kind" : "note",
+      "text" : "Accept less product/CO2+H2/lower yield"
+    }, {
+      "kind" : "note",
+      "text" : "Accept more reactant/CO+H2O"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to rate"
+    }, {
+      "kind" : "note",
+      "text" : "If wrong shift,M2 cannot be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "If no shift,M2 can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "Marks can be awarded for both points in either prediction or reason"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-78d61e9f-q10c",
+    "label" : "10(c)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Increased (rate)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept alternatives such as faster reactions"
+    }, {
+      "kind" : "note",
+      "text" : "Increased (rate)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept alternatives such as faster reactions"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to equilibrium/yield"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to forward and reverse reactions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: iv", "orphan row before first entry: v", "orphan row before first entry: 1(b)i", "orphan row before first entry: ii", "orphan row before first entry: iii", "1(c): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)i", "orphan row before first entry: ii", "2(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(c): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3(a)i", "orphan row before first entry: ii", "orphan row before first entry: 3(b)i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: iv", "orphan row before first entry: v", "orphan row before first entry: Total", "orphan row before first entry: 4 a", "orphan row before first entry: 4 electron pairs between 2C and 4H atoms", "orphan row before first entry: 4 b i", "orphan row before first entry: $CH_{3}O$", "orphan row before first entry: Accept use of 62 from ii, i.e. $62\\times0.387=24$ etc scores M1 ratio scores M2, answer scores M3", "orphan row before first entry: ii", "orphan row before first entry: Total", "orphan row before first entry: 5 a iii", "orphan row before first entry: Al2O3/Al3+2O2-3", "orphan row before first entry: carbon/C", "orphan row before first entry: (positive/negative) electrode", "orphan row before first entry: 5(b)i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: 5 c i", "orphan row before first entry: ii", "orphan row before first entry: 5 d i", "orphan row before first entry: M2 for balancing M2 dep on M1", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Total", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Answer", "orphan row before first entry: 6 b iii", "orphan row before first entry: different structures /different structural/displayed formulae OR atoms arranged differently", "orphan row before first entry: C and F", "orphan row before first entry: 6 c i", "orphan row before first entry: gradation / gradual change / trend / increase / decrease of physical properties", "orphan row before first entry: same functional group", "orphan row before first entry: same general formula", "orphan row before first entry: Any two for 1 each\nAccept two answers on one answer line\nIgnore any reference to properties not specified as physical or chemical", "orphan row before first entry: ii", "orphan row before first entry: 6 d i", "orphan row before first entry: ii", "orphan row before first entry: Total", "orphan row before first entry: 7 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: ii", "orphan row before first entry: 7 d i", "orphan row before first entry: ii", "orphan row before first entry: 7(e)i", "orphan row before first entry: ii", "orphan row before first entry: Total", "orphan row before first entry: 8(c)i", "orphan row before first entry: straight line of best fit", "orphan row before first entry: anomalous point circled", "orphan row before first entry: timer started late/stopped early", "orphan row before first entry: concentration/% too high/more than 20%\nmarble chips bigger/more marble chips\nair in measuring cylinder before experiment started\n(room) temperature higher", "orphan row before first entry: iv", "orphan row before first entry: vertical line from 50% to drawn graph line", "orphan row before first entry: 2.4(cm3/s)", "orphan row before first entry: Total", "orphan row before first entry: 9(a)i", "orphan row before first entry: Pipette", "orphan row before first entry: colour change is gradual/not sharp/not definedORend point not sharp/defined/accurate", "orphan row before first entry: methyl orange/phenolphthalein/litmus", "orphan row before first entry: (measures) only one volume/fixed volume/25cm3has only one graduation markORcannot deliver(measured) variable volumeORvolume required is not knownORcannot be controlled/hard to control", "9(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 9(c)i", "orphan row before first entry: ii", "orphan row before first entry: 9(d)i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Total", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10 d iii", "orphan row before first entry: Answer to di/500(mol)", "orphan row before first entry: $M_{r}(\\mathrm{NH}_{3})=17$m=$\\frac{500\\times17}{1000}=8.5$(kg)1000", "orphan row before first entry: 10 e", "orphan row before first entry: Total", "orphan row before first entry: 11 a i", "orphan row before first entry: ii", "orphan row before first entry: slide (over each other)", "orphan row before first entry: 11 b", "orphan row before first entry: intermolecular forces(of attraction)/forces between molecules", "orphan row before first entry: weak/easily overcome/need little energy to overcome", "orphan row before first entry: SILICA giant(structure)", "orphan row before first entry: covalent(bonds)", "orphan row before first entry: bonds strong/hard to break/need a lot of energy to break", "orphan row before first entry: Total", "orphan row before first entry: Total for paper" ]
+}

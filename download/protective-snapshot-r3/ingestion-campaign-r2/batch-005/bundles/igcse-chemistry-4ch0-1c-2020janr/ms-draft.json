@@ -1,0 +1,855 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1CR_msc_20200305",
+    "session" : "January 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "2969c0ec-34a1-58ab-aaa0-e9bbe16da6f2"
+  },
+  "entries" : [ {
+    "entryId" : "ms-2969c0ec-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : true,
+    "correctOption" : "C",
+    "answerText" : "C Neutron\nThe only correct answer is C because the nucleus contains protons and neutrons. Protons are identified as the white dots\nA is not correct because electrons occur in the shells\nB is not correct because a molecule is not a particle found in the nucleus\nD is not correct because the nucleus contains protons and neutrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A Electron"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is A because electrons have a relative mass of 1/1836 compared to a proton or a neutron"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because a neutron has a relative mass of 1"
+    }, {
+      "kind" : "note",
+      "text" : "C in not correct because the nucleus contains 4 protons and 5 neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because a proton has a relative mass of 1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "C 9"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is C because the mass number is the sum of the protons and neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because the atomic number is 4"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because 5 is the number of neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because 13 is the total number of protons, neutrons and electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "A 4"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is A because the atomic number is equal to the number of protons which is 4"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because 5 is the number of neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because 9 is the total number of particles in the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because 13 is the total number of protons, neutrons and electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "beryllium/Be"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(positive) ion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from the element given in(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any positive beryllium ion(or other ecf ion)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any negative ion"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.85
+  }, {
+    "entryId" : "ms-2969c0ec-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Particles should be close together and should fill from the bottom of the box, some particles should touch",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW particles filling the whole box"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE the size of the particles"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT a regular arrangement"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Gas"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gaseous"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(water evaporates)I to g"
+    }, {
+      "kind" : "note",
+      "text" : "M2(crystals of iodine sublime)s to g"
+    }, {
+      "kind" : "note",
+      "text" : "M3(ice melts)s to I"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW words for M1,M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(particles/molecules have)more energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2to overcome/break the forces(between water molecules)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water has more energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(particles/molecules have)move faster"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE vibrate more"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to overcome/break the bonds(between water molecules)ORto break away from one another OR so escape more easily"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to collisions or activation energy"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Most Z2Y2Least X2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW ZYXALLOW lower case lettersIGNORE size of numberIGNORE any names given"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "bromine"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW bromine waterOR bromine solution/Br/Br2REJECT bromide"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(Fluorine) gas/vapour(chlorine) range between-150℃ to10℃ inclusive(Astatine) dark grey/black"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT blue-black"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C-the halogens have the same number of outer shell electrons.The only correct answer is C because the halogens are in group 7 and have similar reactions because they have the same number of electrons in their outer shells.A is not correct because the fact halogens are non-metals does not make them react in a similar way.B is not correct because the fact halogens are molecules does not make them react in a similar way.D is not correct because elements in the same period have different numbers of outer shell electrons and react differently."
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Chlorine is toxic/poisonous"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE harmful/dangerous/irritantIGNORE any reference to products"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1FeCl3M22Fe+3Cl2→2FeCl3M2 rest of the equation balanced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct charges on the ionsREJECT incorrect capitalsREJECT large or super-script 3ALLOW multiples or fractions for M2M2 dep on M1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "NH4+",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW NH4+1and NH41+"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1add sodium hydroxide solution(and warm)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(test the gas with damp)red litmus"
+    }, {
+      "kind" : "note",
+      "text" : "M3turns blue"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M2expose the gas to concentrated hydrochloric acid"
+    }, {
+      "kind" : "note",
+      "text" : "M3white smoke produced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(test the gas with damp)universal indicator"
+    }, {
+      "kind" : "note",
+      "text" : "If universal indicator is used allow blue purple for M3"
+    }, {
+      "kind" : "note",
+      "text" : "M3dep on litmus or universal indicator in M2"
+    }, {
+      "kind" : "note",
+      "text" : "If sodium hydroxide solution is not added max=1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(the reaction is) reversible"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reaction that goes both ways/both forwards and backwards reactions occur"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to equilibrium"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(molecules/particles of)ammonia move/diffuse faster"
+    }, {
+      "kind" : "note",
+      "text" : "M2because the ammonium chloride forms near(er)to the HCl OR because the ammonia has travelled further(in the same time)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to the masses/sizes of the particles"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1(gas particles)move in random directions/don’t travel in straight lines OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2(gas particles)collide with air/other particles"
+    }, {
+      "kind" : "note",
+      "text" : "M3(gas particles)collide with the walls/sides(of the tube) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW air/other particles slow them down"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any references to rate of reaction/collisions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Results are the same at the end",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW there is a constant volume in the tube"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the volume of gas stops decreasing"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW no change after4/5 minutes"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to time"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT the volume of gas stops increasing"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(use a glass tube/ scale with) smaller divisions."
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW use a glass tube/ scale with0.1cm3divisions"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW use a smaller scale"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to repeating the experiment"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to temperature"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Volume of oxygen=11.5(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(11.5÷48.5)x100"
+    }, {
+      "kind" : "note",
+      "text" : "M323.7%"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer to1 dp with or without working scores3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf fromM1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 must be to1dp"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "magnesium is more reactive than copper",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW magnesium can displace copper"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW magnesium is higher than copper in the reactivity series"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT magnesium is more reactive than copper(II) or Cu2+ or copper sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium sulfate + copper"
+    }, {
+      "kind" : "note",
+      "text" : "Both are required for the mark. Either order."
+    }, {
+      "kind" : "note",
+      "text" : "REJECT copper(II)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any chemical formulae given"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Temperature rise = 36.1(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer with or without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 15162J"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2 or more significant figures"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE negative sign"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links any two of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 polystyrene is an insulator"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polystyrene is not a(good) conductor of heat"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polystyrene is a poor conductor of heat"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so) reduces heat loss(to the surroundings)"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW prevents heat loss"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW keeps heat in"
+    }, {
+      "kind" : "note",
+      "text" : "M3 temperature rise/change/reading will be closer to true value OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW temperature rise/change/reading will be more accurate/valid"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Measuring cylinder / burette / (volumetric) pipette"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Neutralisation"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT exothermic"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE base or alkali"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "12.4"
+    }, {
+      "kind" : "note",
+      "text" : "15cm3-red/orange"
+    }, {
+      "kind" : "note",
+      "text" : "30cm3-blue/purple"
+    }, {
+      "kind" : "note",
+      "text" : "OH-/hydroxide(ion)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT OH"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the reaction is exothermic(therefore the temperature rises)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the reaction gives out heat(energy) or thermal energy"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE energy alone"
+    }, {
+      "kind" : "note",
+      "text" : "M2(after25cm3of sodium hydroxide)the reaction is complete OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(after25cm3of sodium hydroxide)neutralisation happens"
+    }, {
+      "kind" : "note",
+      "text" : "M3so adding more sodium hydroxide/liquid/solution cools the mixture down"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so no more heat(energy) or thermal energy is given out OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE energy alone"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 calcium loses electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE references to redox"
+    }, {
+      "kind" : "note",
+      "text" : "M2 chlorine gains electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow 1 mark from M1 and M2 for electron transfer from chlorine to calcium"
+    }, {
+      "kind" : "note",
+      "text" : "M3 two atoms of chlorine each gain one electron OR"
+    }, {
+      "kind" : "note",
+      "text" : "If chlorine molecules are gaining electrons do not award M3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 calcium loses 2 electrons and chlorine gains 1 electron"
+    }, {
+      "kind" : "note",
+      "text" : "Any reference to sharing electrons or covalent or metallic bonding scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(test for Ca2+ ions)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame test(allow description of a flame test)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 orange-red flame colour"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW brick-red IGNORE orange / red alone M2 dep on M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 add sodium hydroxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M2 (slight) white precipitate (reject precipitate dissolves in excess sodium hydroxide)"
+    }, {
+      "kind" : "note",
+      "text" : "(test for Cl- ions)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to nitric acid REJECT hydrochloric acid or sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "M4 white precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "M4 dep on silver nitrate in M3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(Empirical formula)CH2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sub and super script numbers for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M2(General formula)CnH2n"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW letters other than n"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW capital letters"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 each member differs from the next by a CH2 group OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2(each member has) same functional group"
+    }, {
+      "kind" : "note",
+      "text" : "M3(each member has) similar/same chemical properties / similar/same (chemical) reactions"
+    }, {
+      "kind" : "note",
+      "text" : "M4 trend in physical properties (between successive members)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT react in similar/same way"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT named physical property, e.g. boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT similar/same physical properties"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "addition"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW additional"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT condensation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Single bond between the two carbons, 4 hydrogens joined by single bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M2 trailing bonds through the brackets and the n to the right"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW n in any position outside the bracket to the right of the structure."
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW capital N"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any 5 points from:"
+    }, {
+      "kind" : "note",
+      "text" : "If only advantages or disadvantages given, max 3 marks"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Poly(ethene) is cheaper than polymers from corn starch"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE durable"
+    }, {
+      "kind" : "note",
+      "text" : "M2 Poly(ethene) is stronger than polymers from corn starch"
+    }, {
+      "kind" : "note",
+      "text" : "M3 Poly(ethene) frees up land to grow food crops"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 four electrons between the carbon and each oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 rest of molecule correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 shared pair(s) of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 attracted to (two) nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT nucleus. Must be plural for M2.M2 dep on mention of electrons in M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Graphite has delocalised electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sea of electronsIGNORE free electronsIGNORE number of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (delocalised electron(s)) can move or flow (throughout the structure)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to carrying a charge or currentIGNORE references to layersM2 dep on mentioning electrons in M1Any mention of ions scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (diamond) giant covalent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW macromolecularALLOW giant structure if M2 is scoredIGNORE tetrahedral structureREJECT molecules of diamond"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (in melting diamond) covalent bonds are broken"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW description of covalent bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M3(C60)(simple) molecular structure"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW molecules of C60"
+    }, {
+      "kind" : "note",
+      "text" : "M4(in melting C60) intermolecular forces (of attraction) are overcome"
+    }, {
+      "kind" : "note",
+      "text" : "M5 more energy is needed to break covalent bonds(in diamond) than intermolecular forces(in C60)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW strong covalent bonds and weak intermolecular forces(or attraction)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-2969c0ec-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "4 CuO(s)+CH4(g)→4 Cu(s)+CO2(g)+2H2O(l/g)M1 correct balancingM2 correct state symbols",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Mass copper 3.18g and mass oxygen 0.40gM2 Moles copper=3.18/63.5OR0.0500molesM3 Moles oxygen=0.40/16OR0.025molesM4 Ratio of moles Cu:O is2:1"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and M3 allow ecf from M1M4 is dep on M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:M1 Use a safety screenM2 Position the class some distance from the apparatusM3 Do the experiment in a fume cupboardM4 Set fire to the (excess) methane gas straight away"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW tie hair backALLOW wear heat-proof gloves"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(Iron(III)oxide)loses oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW iron loses oxygenIGNORE any reference to electrons."
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Carbon monoxide is poisonous/toxic OR carbon monoxide reduces the ability of the blood to carry oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon monoxide binds to haemoglobin in the blood"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (c)(ii)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (c)(ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (d)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M4 Poly(ethene) comes from (cracking of certain fractions from) crude oil\nM5 Poly(ethene) is non-renewable OR ethene is a finite source\nM6 Poly(ethene) is inert\nM7 poly(ethene) is non-biodegradable\nM8 poly(ethene) takes longer to decompose\nM9 Disposal of poly(ethene) is a problem (in landfill)\nM10 Poly(ethene) causes problems with litter\nM11 Burning poly(ethene) (could) create toxic fumes/greenhouse gases", "orphan row before first entry: (c)", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: ACCEPT breaking bonds in C60 if intermolecular forces clearly mentioned\nMention of intermolecular forces in diamond no M2 or M5\nMention of breaking covalent bonds in C60 no M4 or M5", "11(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)" ]
+}

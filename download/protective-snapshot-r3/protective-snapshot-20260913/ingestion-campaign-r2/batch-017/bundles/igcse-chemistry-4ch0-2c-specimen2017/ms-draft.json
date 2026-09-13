@@ -1,0 +1,1209 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "30157e99-1a53-5173-a833-5d25f9762f16"
+  },
+  "entries" : [ {
+    "entryId" : "ms-30157e99-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q1b",
+    "label" : "1(b)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q1c",
+    "label" : "1(c)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q1d",
+    "label" : "1(d)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·(mass of solid)5.3(g)(1)\n·(mass of water)20.9(g)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "·(mass of solid)5.3(g)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(mass of solid)5.3(g)"
+    }, {
+      "ordinal" : 2,
+      "text" : "·(mass of water)20.9(g)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(mass of water)20.9(g)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q2b",
+    "label" : "2(b)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·(10.5÷16.8)×100(1)\n·62.5(grams of solid per100g of water)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "·(10.5÷16.8)×100",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·(10.5÷16.8)×100"
+    }, {
+      "ordinal" : 2,
+      "text" : "·62.5(grams of solid per100g of water)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·62.5(grams of solid per100g of water)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q2c",
+    "label" : "2(c)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links together the following three points:\n·the gas will escape(1)\n·the mass of solid remaining will be less(than it should be)(1)\n·the value of the calculated solubility will be lower(than it should be)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that links together the following three points:\n·the gas will escape",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that links together the following three points:\n·the gas will escape"
+    }, {
+      "ordinal" : 2,
+      "text" : "·the mass of solid remaining will be less(than it should be)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·the mass of solid remaining will be less(than it should be)"
+    }, {
+      "ordinal" : 3,
+      "text" : "·the value of the calculated solubility will be lower(than it should be)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "·the value of the calculated solubility will be lower(than it should be)"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Fluorine",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3b",
+    "label" : "3(b)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Iodine OR astatine",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3ci",
+    "label" : "3(c)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Cl2+2Br-→2Cl-+2Br",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3cii",
+    "label" : "3(c)(ii)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(they are) Losing electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept oxidation number(of bromine) increasesaccept oxidation number(of bromine) changes from-1to0"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3ciii",
+    "label" : "3(c)(iii)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2Br→Br2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "acceptBr+Br=Br2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q3d",
+    "label" : "3(d)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A diagram that shows:all three bonding pairs correct(1)all non-bonding pairs(1)Example",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "A diagram that shows:all three bonding pairs correct",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "A diagram that shows:all three bonding pairs correct"
+    }, {
+      "ordinal" : 2,
+      "text" : "all non-bonding pairs",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "all non-bonding pairs"
+    }, {
+      "ordinal" : 3,
+      "text" : "Example",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Example"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that makes reference to the following six points:\nTest for cation:\n• do a flame test(1)\n• if flame is yellow then cation is sodium(1)\n• if flame is lilac then cation is potassium(1)\nTest for anion:\n• dissolve solid in water(1)\nEITHER\n• add(dilute nitric acid and)aqueous silver nitrate(1)\n• if(white) precipitate forms the anion is chloride/if no precipitate forms then anion is sulfate(1)\nOR\n• add(dilute hydrochloric acid and)aqueous barium chloride(1)\n• if(white) precipitate forms the anion is sulfate/if no precipitate forms then anion is chloride(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "A description that makes reference to the following six points:\nTest for cation:\n• do a flame test",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "A description that makes reference to the following six points:\nTest for cation:\n• do a flame test"
+    }, {
+      "ordinal" : 2,
+      "text" : "• if flame is yellow then cation is sodium",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• if flame is yellow then cation is sodium"
+    }, {
+      "ordinal" : 3,
+      "text" : "• if flame is lilac then cation is potassium",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• if flame is lilac then cation is potassium"
+    }, {
+      "ordinal" : 4,
+      "text" : "Test for anion:\n• dissolve solid in water",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Test for anion:\n• dissolve solid in water"
+    }, {
+      "ordinal" : 5,
+      "text" : "EITHER\n• add(dilute nitric acid and)aqueous silver nitrate",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "EITHER\n• add(dilute nitric acid and)aqueous silver nitrate"
+    }, {
+      "ordinal" : 6,
+      "text" : "• if(white) precipitate forms the anion is chloride/if no precipitate forms then anion is sulfate",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• if(white) precipitate forms the anion is chloride/if no precipitate forms then anion is sulfate"
+    }, {
+      "ordinal" : 7,
+      "text" : "",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ "• add(dilute hydrochloric acid and)aqueous barium chloride" ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "OR\n• add(dilute hydrochloric acid and)aqueous barium chloride"
+    }, {
+      "ordinal" : 8,
+      "text" : "• if(white) precipitate forms the anion is sulfate/if no precipitate forms then anion is chloride",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• if(white) precipitate forms the anion is sulfate/if no precipitate forms then anion is chloride"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept any combination of hydrochloric acid/nitric acid and barium chloride/barium nitrate"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Zinc has displaced cadmium",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q5bi",
+    "label" : "5(b)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$Zn^{2+}+2e^{-}\\rightarrow Zn(1)$",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "$Zn^{2+}+2e^{-}\\rightarrow Zn",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "$Zn^{2+}+2e^{-}\\rightarrow Zn"
+    }, {
+      "ordinal" : 2,
+      "text" : "$",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "$"
+    } ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q5bii",
+    "label" : "5(b)(ii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$2H_{2}O\\rightarrow 4H^{+}+O_{2}+4e^{-}$",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q5biii",
+    "label" : "5(b)(iii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points:\n•pH decreases\n•hydrogen ion/H$^{+}$ (ion) concentration increases",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept hydrogen ions are formed"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links three of the following points:\n•the ions of (pure) copper are the same size(1)\n•the layers(of ions) can easily slide over one another(1)\n•the ions of zinc and copper have different sizes(1)\n•this disrupts the layers/structure/arrangement of the copper ions(1)\n•hence it is more difficult for the layers(of ions) to slide over one another(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that links three of the following points:\n•the ions of (pure) copper are the same size",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that links three of the following points:\n•the ions of (pure) copper are the same size"
+    }, {
+      "ordinal" : 2,
+      "text" : "•the layers(of ions) can easily slide over one another",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•the layers(of ions) can easily slide over one another"
+    }, {
+      "ordinal" : 3,
+      "text" : "•the ions of zinc and copper have different sizes",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•the ions of zinc and copper have different sizes"
+    }, {
+      "ordinal" : 4,
+      "text" : "•this disrupts the layers/structure/arrangement of the copper ions",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•this disrupts the layers/structure/arrangement of the copper ions"
+    }, {
+      "ordinal" : 5,
+      "text" : "•hence it is more difficult for the layers(of ions) to slide over one another",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•hence it is more difficult for the layers(of ions) to slide over one another"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept atoms/particles for ions"
+    }, {
+      "kind" : "note",
+      "text" : "reject molecules once only"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "All points plotted correctly(1)Best fit line drawn(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "All points plotted correctly",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "All points plotted correctly"
+    }, {
+      "ordinal" : 2,
+      "text" : "Best fit line drawn",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Best fit line drawn"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "must be drawn with the aid of a ruler"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q6b",
+    "label" : "6(b)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Answer read correctly from graph drawn/4.1(g)(1)Appropriate horizontal or vertical line drawn(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Answer read correctly from graph drawn/4.1(g)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Answer read correctly from graph drawn/4.1(g)"
+    }, {
+      "ordinal" : 2,
+      "text" : "Appropriate horizontal",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ "vertical line drawn" ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Appropriate horizontal or vertical line drawn"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "All of the water has been removed/there is no more water left",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q6d",
+    "label" : "6(d)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Calculate the amount of magnesium carbonateCalculate the amount of waterEvaluationExample calculation:n(MgCO3)=(1.68÷84)=0.02(0)(mol)(1)n(H2O)=(1.08÷18)=0.06(0)(mol)(1)x=3(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Calculate the amount of magnesium carbonateCalculate the amount of waterEvaluationExample calculation:n(MgCO3)=(1.68÷84)=0.02",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Calculate the amount of magnesium carbonateCalculate the amount of waterEvaluationExample calculation:n(MgCO3)=(1.68÷84)=0.02"
+    }, {
+      "ordinal" : 2,
+      "text" : "(mol)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(mol)"
+    }, {
+      "ordinal" : 3,
+      "text" : "n(H2O)=(1.08÷18)=0.06",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "n(H2O)=(1.08÷18)=0.06"
+    }, {
+      "ordinal" : 4,
+      "text" : "(mol)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(mol)"
+    }, {
+      "ordinal" : 5,
+      "text" : "x=3",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "x=3"
+    } ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "All points plotted correctly(1)\nBest fit line drawn(1)\nmass of sample after heating/g\nlength of time heated/min",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "All points plotted correctly",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "All points plotted correctly"
+    }, {
+      "ordinal" : 2,
+      "text" : "Best fit line drawn",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Best fit line drawn"
+    }, {
+      "ordinal" : 3,
+      "text" : "mass of sample after heating/g\nlength of time heated/min",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "mass of sample after heating/g\nlength of time heated/min"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "must be drawn with the aid of a ruler"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Graph A\nAn explanation that links the following two points:\n• the backward/reverse reaction is endothermic(1)\n• so an increase in temperature shifts the equilibrium to the left(hence the percentage of NO decreases)(1)\nGraph B\nAn explanation that links the following two points:\n• there are fewer molecules/moles of gas on the left(1)\n• so an increase in pressure shifts the equilibrium to the left(hence the percentage of NO decreases)(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Graph A\nAn explanation that links the following two points:\n• the backward/reverse reaction is endothermic",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Graph A\nAn explanation that links the following two points:\n• the backward/reverse reaction is endothermic"
+    }, {
+      "ordinal" : 2,
+      "text" : "• so an increase in temperature shifts the equilibrium to the left(hence the percentage of NO decreases)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• so an increase in temperature shifts the equilibrium to the left(hence the percentage of NO decreases)"
+    }, {
+      "ordinal" : 3,
+      "text" : "Graph B\nAn explanation that links the following two points:\n• there are fewer molecules/moles of gas on the left",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Graph B\nAn explanation that links the following two points:\n• there are fewer molecules/moles of gas on the left"
+    }, {
+      "ordinal" : 4,
+      "text" : "• so an increase in pressure shifts the equilibrium to the left(hence the percentage of NO decreases)",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• so an increase in pressure shifts the equilibrium to the left(hence the percentage of NO decreases)"
+    } ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "ignore any references to or arguments based on Le Chatelier's principle"
+    }, {
+      "kind" : "note",
+      "text" : "accept the (forward) reaction is exothermic"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q7aii",
+    "label" : "7(a)(ii)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "•(The catalyst/it) increases the rate of both the forward and reverse reactions(1)\n•To the same extent(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "•(The catalyst/it) increases the rate of both the forward and reverse reactions",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•(The catalyst/it) increases the rate of both the forward and reverse reactions"
+    }, {
+      "ordinal" : 2,
+      "text" : "•To the same extent",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•To the same extent"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "second mark is dependent on the first"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q7bi",
+    "label" : "7(b)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Because a proton is transferred from HNO3to NH3",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q7bii",
+    "label" : "7(b)(ii)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "•Calculate the amount of nitric acid\n•Calculate the volume of aqueous ammonia\nExample calculation:\n$n(\\mathrm{HNO}_{3})=15.8\\times150\\text{mol}(=2370\\text{mol})(1)$\n$\\mathrm{vol(NH_{3})}$ required $=(2370\\div14.8)=160(\\mathrm{dm}^{3})(1)$",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "•Calculate the amount of nitric acid\n•Calculate the volume of aqueous ammonia\nExample calculation:\n$n(\\mathrm{HNO}_{3})=15.8\\times150\\text{mol}(=2370\\text{mol})",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "•Calculate the amount of nitric acid\n•Calculate the volume of aqueous ammonia\nExample calculation:\n$n(\\mathrm{HNO}_{3})=15.8\\times150\\text{mol}(=2370\\text{mol})"
+    }, {
+      "ordinal" : 2,
+      "text" : "$\n$\\mathrm{vol(NH_{3})}$ required $=(2370\\div14.8)=160(\\mathrm{dm}^{3})",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "$\n$\\mathrm{vol(NH_{3})}$ required $=(2370\\div14.8)=160(\\mathrm{dm}^{3})"
+    }, {
+      "ordinal" : 3,
+      "text" : "$",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "$"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Chloroethene",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept vinyl chloride"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q8aii",
+    "label" : "8(a)(ii)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Poly(chloroethene)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept polyvinyl chloride ignore PVC"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q8b",
+    "label" : "8(b)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C=C\nF\nF\nF",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "ignore bond angles"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q8ci",
+    "label" : "8(c)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Correct ester link(1)\nRest of unit correct(1)\nExample:\nC=C-CH2CH2-C-O-CH2CH2-O-",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Correct ester link",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Correct ester link"
+    }, {
+      "ordinal" : 2,
+      "text" : "Rest of unit correct",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Rest of unit correct"
+    }, {
+      "ordinal" : 3,
+      "text" : "Example:\nC=C-CH2CH2-C-O-CH2CH2-O-",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "Example:\nC=C-CH2CH2-C-O-CH2CH2-O-"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept:"
+    }, {
+      "kind" : "note",
+      "text" : "C=C-CH2CH2-C-O-CH2CH2-"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q8cii",
+    "label" : "8(c)(ii)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Water/H2O",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "if both name and formula given, both must be correct"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• To provide an enzyme/zymase(1)\n• To increase the rate of the reaction(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "• To provide an enzyme/zymase",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• To provide an enzyme/zymase"
+    }, {
+      "ordinal" : 2,
+      "text" : "• To increase the rate of the reaction",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• To increase the rate of the reaction"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9aii",
+    "label" : "9(a)(ii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points:\n• Oxygen(from the air) reacts with ethanol(1)\n• To form ethanoic acid(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that links the following two points:\n• Oxygen(from the air) reacts with ethanol",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that links the following two points:\n• Oxygen(from the air) reacts with ethanol"
+    }, {
+      "ordinal" : 2,
+      "text" : "• To form ethanoic acid",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• To form ethanoic acid"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9aiii",
+    "label" : "9(a)(iii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points:\n• Reaction is too slow at lower temperatures(1)\n• Zymase/the enzyme is denatured at higher temperatures(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "An explanation that links the following two points:\n• Reaction is too slow at lower temperatures",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "An explanation that links the following two points:\n• Reaction is too slow at lower temperatures"
+    }, {
+      "ordinal" : 2,
+      "text" : "• Zymase/the enzyme is denatured at higher temperatures",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• Zymase/the enzyme is denatured at higher temperatures"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9bi",
+    "label" : "9(b)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C2H4+H2O→C2H5OH",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9bii",
+    "label" : "9(b)(ii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Addition",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept hydration"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9biii",
+    "label" : "9(b)(iii)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from the following:\n• phosphoric acid catalyst(1)\n• 300℃(1)\n• 60-70 atm(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "Any two from the following:\n• phosphoric acid catalyst",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : true,
+      "reject" : false,
+      "rawText" : "Any two from the following:\n• phosphoric acid catalyst"
+    }, {
+      "ordinal" : 2,
+      "text" : "• 300℃",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• 300℃"
+    }, {
+      "ordinal" : 3,
+      "text" : "• 60-70 atm",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "• 60-70 atm"
+    } ],
+    "guidance" : [ ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-30157e99-q9c",
+    "label" : "9(c)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(Carboxylic acid) propanoic acid(1)(Alcohol) butanol-1-ol/butanol(1)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "(Carboxylic acid) propanoic acid",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(Carboxylic acid) propanoic acid"
+    }, {
+      "ordinal" : 2,
+      "text" : "(Alcohol) butanol-1-ol/butanol",
+      "marks" : 1,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(Alcohol) butanol-1-ol/butanol"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept propionic acidaccept(n-)butyl alcohol"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 4,
+    "2" : 7,
+    "3" : 7,
+    "4" : 6,
+    "5" : 8,
+    "6" : 11,
+    "7" : 9,
+    "8" : 6,
+    "9" : 12
+  },
+  "paperTotal" : 70,
+  "icTable" : null,
+  "warnings" : [ ]
+}

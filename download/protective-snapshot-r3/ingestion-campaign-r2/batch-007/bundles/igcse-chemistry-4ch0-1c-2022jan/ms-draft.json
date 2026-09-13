@@ -1,0 +1,736 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70701A",
+    "publicationCode" : "4CH1_1C_2201_MS",
+    "session" : "January 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "90bb5058-1b53-50c8-a31a-49544c721177"
+  },
+  "entries" : [ {
+    "entryId" : "ms-90bb5058-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nM2 (chemically) joined / bonded together",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "chromatography"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "simple distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 two / different elements"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (two) different atoms"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a description of bonding"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q20",
+    "label" : "20",
+    "number" : 20,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Total for question = 7 marks",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 oxygen/air\nTotal for question=9 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 water"
+    }, {
+      "kind" : "note",
+      "text" : "(hydrated) iron(III) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT(hydrated) iron(II) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "C is the correct answer because rusting involves the oxidation of iron."
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because the rusting of iron is not combustion.B is not the correct answer because the rusting of iron is not neutralisation.D is not the correct answer because the rusting of iron is not thermal decomposition."
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "galvanising"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW galvanisationIGNORE sacrificial protection"
+    }, {
+      "kind" : "note",
+      "text" : "M1 zinc is more reactive(than iron)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW zinc is higher in the reactivity series(than iron)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 zinc reacts/oxidises/corrodes before/ instead of iron"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to zinc rusting"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "painting"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW powder coating"
+    }, {
+      "kind" : "note",
+      "text" : "plastic coating"
+    }, {
+      "kind" : "note",
+      "text" : "oiling/greasing"
+    }, {
+      "kind" : "note",
+      "text" : "chromium plating"
+    }, {
+      "kind" : "note",
+      "text" : "sacrificial protection"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "solid to liquidmeltingsolid to gassublimationliquid to solidfreezing\nTotal for question=7 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "diffusion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW diffusing"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:ammonia travels further(in the same time)the ammonium chloride/(white) ring/solid forms further away from the ammoniathe ammonium chloride/(white) ring/solid forms closer to the hydrochloric acid"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:gas particles move in random directionsgas particles collide with air particles/each othergas particles collide with the wall of the tubeAny one from:eye protection/wear safety glasses/goggleswear glovesapron/lab coat"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW put a bung/cork in both ends"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any one from:\nto increase the rate of reaction\nto give the particles enough energy to react\nTotal for question = 8 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW because copper does not react with oxygen when copper is cold"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so that copper will react with oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) because Ar does not (readily) gain / lose / share electrons"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT argon has a full outer shell / valence shell of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(iii) copper(II) oxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW copper oxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT copper(I) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "results are the same (at the end)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW results stop decreasing"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 volume oxygen = 20 cm3"
+    }, {
+      "kind" : "note",
+      "text" : "M2 total volume = 253 cm3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 (20÷253)×100 = 7.9%"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct evaluation from M1 and M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT incorrect rounding"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer of 7.9% with or without working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)Any one from:"
+    }, {
+      "kind" : "note",
+      "text" : "there is a leak in the apparatus"
+    }, {
+      "kind" : "note",
+      "text" : "temperature was not the same for all readings"
+    }, {
+      "kind" : "note",
+      "text" : "the apparatus was not left to cool (to room temperature)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE not all oxygen reacted"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "relative mass proton 1\nrelative mass neutron 1\nrelative charge proton +1 relative charge neutron 0\nM2 but different numbers of neutrons\nM2 number of neutrons = 14\nscores 2 marks\nM1 multiplies each mass number by the percentages\nM2 adds multiples together and divides by 100\nM2 4.039×10-23\nTotal for question = 11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "All 4 correct scores 22 or 3 correct scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 atoms(of the same element) with the same number of protons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW atoms with the same atomic number ALLOW atoms with the same number of electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW but different mass numbers"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 number of protons and electrons = 12"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(24×79)+(25×10)+(26×11)/100"
+    }, {
+      "kind" : "note",
+      "text" : "(24×0.79)+(25×0.10)+(26×0.11) scores both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 24.32÷(6.022×1023)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1 as long as answer is given to 4 sig figs Correct answer of 4.039×10-23g to 4 sig sigs scores 2 with or without working"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(moles of MgO) = 0.40"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any three from:\nM1 sodium (atom) loses electron(s)\nM2 oxygen (atom) gains electron(s)\nM3 sodium loses 1 electron AND oxygen gains 2 electrons\nOR\nM3 (both atoms become ions with configuration) 2.8\nTotal for question = 9 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "any mention of sharing of electrons scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (sodium oxide has) ions / (giant) ionic structure"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ions / electrons cannot flow / move"
+    }, {
+      "kind" : "note",
+      "text" : "M3 no delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame test"
+    }, {
+      "kind" : "note",
+      "text" : "M2 yellow colour"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any description of a flame test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW orange or yellow-orange"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 or mention of flame"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "$2\\text{Na}_{2}\\text{O}\\rightarrow2\\text{Na}+ \\text{Na}_{2}\\text{O}_{2}$"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C\nC is the correct answer because a precipitate of calcium sulfate will form in tube 1, no precipitate will form in tube 2 as both products are soluble in water and a precipitate of copper(II) carbonate will form in tube 3.\nA, B and D are not the correct answers as no precipitate will form in tube 2.",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "white"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any five from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 filter"
+    }, {
+      "kind" : "note",
+      "text" : "M2 heat/boil (the solution)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 to evaporate some of the water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW until crystals form on the end of a glass rod"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW until crystals first start to form"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW until the solution is saturated"
+    }, {
+      "kind" : "note",
+      "text" : "M4 leave / cool (to crystallise)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 dep on M2"
+    }, {
+      "kind" : "note",
+      "text" : "M5 pour off excess liquid OR filter (to obtain crystals)"
+    }, {
+      "kind" : "note",
+      "text" : "M5 dep on crystals having been formed"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to washing"
+    }, {
+      "kind" : "note",
+      "text" : "M6 suitable method of drying the crystals"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. place in (warm) oven / leave to dry (in warm place) / use filter paper / kitchen towel / desiccator"
+    }, {
+      "kind" : "note",
+      "text" : "If solution heated to dryness or left to evaporate all of the water only M1 and M2 can be awarded."
+    }, {
+      "kind" : "note",
+      "text" : "If method produces silver chloride only M1 and M6 can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "any one from:"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nM2 3.15, 6.3, 1.57\nM3 divide by smallest to get 2:4:1\nOR\nM2 24/63.5 x 100 and 4/63.5 x 100 and 35.5/63.5 x100\nM3 37.8% and 6.3% and 55.9%\nM2 Molecular formula = C4H8Cl2\nM1 two carbon atoms both with 2 H atoms\nM2 two carbon atoms both with 1 H atom and 1 CH3 group and nothing attached to the joining bonds",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "propene"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 same molecular formula"
+    }, {
+      "kind" : "note",
+      "text" : "M2 different structural / displayed formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "CH3Br + HBr"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW balanced equations for multiple substitutions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 37.8÷12, 6.3÷1, 55.9÷35.5"
+    }, {
+      "kind" : "note",
+      "text" : "M2 subsumes M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Mr of C2H4Cl = 63.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3 must be calculated"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 127÷63.5=2"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of C4H8Cl2 without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "Marks are independent"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 to prevent acid splashing out OR so only (carbon dioxide) gas leaves the flaskM2 so the decrease in mass is close to the actual value OR so that the decrease in mass is only due to the gas",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE solid leaving the flaskREJECT prevents gas escaping"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 CaCO3(s)+2HCl(aq)M2 H2O(l)+CO2(g)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "the hydrochloric acid has all reacted"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "mass stays the same/stops decreasing"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW effervescence/fizzing stopsALLOW the curve levels off"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 0.98M2(0.98÷44)=0.022"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of significant figuresREJECT incorrect roundingALLOW M1÷44Correct answer of 0.022 moles with or without working scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 tangent shown on graphM2 method of calculating gradient(change in y÷change in x)M3 rate of reaction in g/s"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M2Answer of 0.005-0.006 with a tangent shown on the graph scores 3 with or without other working."
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "N NM16 bonding electronsM22 non-bonding electrons on each atom(ii)M1 shared pair(s) of electronsM2 attracted to (two) nuclei",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW dots, crosses or any combination.M2 dep on M1REJECT nucleus. Must be plural for M2.M2 dep on mention of electrons in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "diamond(ii)Any four from:M1 graphite is giant covalentM2(in melting graphite) covalent bonds are brokenM3(C60)(simple) molecular structureM4(in melting C60) intermolecular forces(of attraction) are overcomeM5 more energy is needed to break covalent bonds(in graphite) than intermolecular forces(in C60)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW giant structure if M2 is scoredREJECT molecules of graphiteALLOW description of covalent bondsALLOW molecules of C60ALLOW breaking bonds in C60 if intermolecular forces clearly mentionedM4 subsumes M3Mention of intermolecular forces in graphite no M2 or M5"
+    } ],
+    "marks" : 22,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90bb5058-q11ai",
+    "label" : "11(a)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 add anhydrous copper sulfate\nALLOW\nM1 add anhydrous/blue cobalt chloride\nM2 turns(from blue) to pink\nM2 dep on cobalt chloride in M1\nALLOW M4 to 1dp",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW add white copper sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 turns(from white) to blue"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on copper sulfate in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 measure the boiling point/freezing point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW boil it or freeze it"
+    }, {
+      "kind" : "note",
+      "text" : "M2 100℃/0℃"
+    }, {
+      "kind" : "note",
+      "text" : "Value must match property"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass of hydrated zinc sulfate=54.46-41.64OR12.82g"
+    }, {
+      "kind" : "note",
+      "text" : "M2 Moles of hydrated zinc sulfate=12.82÷287OR0.0447"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1÷287"
+    }, {
+      "kind" : "note",
+      "text" : "M3 Moles H2O=0.0447×7OR0.313"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M2×7"
+    }, {
+      "kind" : "note",
+      "text" : "M4 Mass H2O=5.63g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M3×18"
+    }, {
+      "kind" : "note",
+      "text" : "M5 Volume H2O5.6cm3"
+    }, {
+      "kind" : "note",
+      "text" : "Must be 1dp"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "1.7"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2 or more significant figuresREJECT incorrect rounding"
+    }, {
+      "kind" : "note",
+      "text" : "M1 stand the measuring cylinder in a beaker of iceOR"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any way of cooling the measuring"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"62\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: to make sure the silver nitrate and sodium chloride fully reacted\nto make sure the products only contained silver chloride and sodium nitrate\nto ensure the highest possible yield", "orphan row before first entry: Total for question = 8 marks", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: landfill sites are getting full\ntoxic/greenhouse gases are produced when burned", "orphan row before first entry: Total for question=15 marks", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Answer of 0.015g/s (the average rate of reaction for the first 60s scores 1)", "orphan row before first entry: (d)(i)", "orphan row before first entry: M2 the rate of reaction is (directly) proportional to the percentage concentration", "orphan row before first entry: (ii)", "orphan row before first entry: M2 change in collisions per unit time", "orphan row before first entry: Total for question = 15 marks", "10(a)(i): bare integer cell \"14\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Mention of breaking covalent bonds in C60 no M4 or M5", "orphan row before first entry: Total for question = 9 marks", "11(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11(a)(i): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "11(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M1 replace the delivery tube with a (Liebig) condenserM2 less water/water vapour/steam lost", "orphan row before first entry: Total for question=12" ]
+}

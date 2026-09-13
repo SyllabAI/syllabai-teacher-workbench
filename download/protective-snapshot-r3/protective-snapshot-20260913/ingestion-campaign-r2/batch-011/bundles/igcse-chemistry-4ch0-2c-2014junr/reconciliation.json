@@ -1,0 +1,37 @@
+{
+  "findings" : [ {
+    "questionNumber" : "1",
+    "qpMarks" : 10,
+    "msMarks" : 10,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "2",
+    "qpMarks" : 7,
+    "msMarks" : 7,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "3",
+    "qpMarks" : 5,
+    "msMarks" : 5,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "4",
+    "qpMarks" : 14,
+    "msMarks" : 14,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "5",
+    "qpMarks" : 9,
+    "msMarks" : 9,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "6",
+    "qpMarks" : 15,
+    "msMarks" : 15,
+    "severity" : "match"
+  } ],
+  "qpPaperTotal" : 60,
+  "msPaperTotal" : null,
+  "paperTotalConflict" : false,
+  "mismatchCount" : 0
+}

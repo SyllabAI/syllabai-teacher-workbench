@@ -1,0 +1,748 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_1C_1901_MS",
+    "session" : "January 2019",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "e95774df-fe5d-5bf3-8be6-3b14888a7c31"
+  },
+  "entries" : [ {
+    "entryId" : "ms-e95774df-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 melting",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 evaporation"
+    }, {
+      "kind" : "note",
+      "text" : "M3 sublimation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any three from"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Arrangement of particles) irregular"
+    }, {
+      "kind" : "note",
+      "text" : "M2 large gaps between them/far apart/widely spaced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW spread out"
+    }, {
+      "kind" : "note",
+      "text" : "M3 random movement/move freely"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to kinetic energy"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 tripod\nM2 Y (filter) funnel\nM3 Z evaporating basin/dish\nM2 (more) quickly\nD a solvent\nM2 because they are insoluble / do not dissolve",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT correct labelling on diagram if answers not on answer lines"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW evaporating bowl"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 so the sodium chloride/salt dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT so the rock salt dissolves"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to increased rate of reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on mention of dissolving in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 impurities remain in filter paper/funnel"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW impurities are filtered out/off/are the residue"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT because the particles are too large to pass through (filter paper)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C a solution"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nM1 bonding/shared pair of electronsM2 attracted to(both) nuclei of atoms(in the bond)\nM2 dep on M1\nM2 little(heat/thermal)energy required to overcome these forces\nALLOW bonds for forces if intermolecular mentioned or implied in M1\nALLOW bonds for forces if intermolecular mentioned in(i)\nALLOW molecules of B are larger than those of A",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(electrostatic) attraction between bonding/shared pair of electrons andM2(both) nuclei of atoms(in the bond)OR"
+    }, {
+      "kind" : "note",
+      "text" : "No M2 if reference to just one nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "No M2 if reference to just one nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 two shared pairs of electrons between two carbon atomsM2 rest of molecule correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any combination of dots and crosses."
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)Clip together"
+    }, {
+      "kind" : "note",
+      "text" : "(i)Clip together"
+    }, {
+      "kind" : "note",
+      "text" : "M1 intermolecular forces(of attraction)/(attractive) forces between molecules are weak"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weak intermolecular bonds/weak bonds between molecules"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE less energy"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)Clip together"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)Clip together"
+    }, {
+      "kind" : "note",
+      "text" : "(in B) stronger forces(of attraction)(between molecules than in A)"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if implied that covalent bonds break"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(burns with a) blue flame",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "2HCl+Na2SO3→2NaCl+SO2+H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "M2 balancing correct"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples or fractions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "to dry the gas"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to remove/absorb water"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "downward delivery"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT upward displacement of air"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW downwards collection"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "denser than air"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE heavier than air/ denser than oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "sulfurous(acid)/H2SO3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sulfuric acid/H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "if name and formula given both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "red/pink"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Mg(s)+2HCl(aq)→MgCl2(aq)+H2(g)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT upper case letters"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "to make the reaction faster OWTTEOR"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT so magnesium can react(with the acid straight away)"
+    }, {
+      "kind" : "note",
+      "text" : "oxide layer slows down/affects rate of reaction OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT oxide layer stops magnesium from reacting(with the acid straight away)"
+    }, {
+      "kind" : "note",
+      "text" : "so little gas/hydrogen escapes OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to stopping substances entering the flask"
+    }, {
+      "kind" : "note",
+      "text" : "at same time/as soon as bung put into flask OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT as soon as gas syringe is connected"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)(iii)(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 22(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 vertical line drawn to touch curve at t=1 minuteOr horizontal line drawn to touch curve at t=1 minute"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW cross drawn at correct point on graph"
+    }, {
+      "kind" : "note",
+      "text" : "5.3(min)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept values in range 5.2 to 5.4"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all magnesium reacted/used up"
+    }, {
+      "kind" : "note",
+      "text" : "M2 all(hydrochloric) acid reacted/used up"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW both/all reactants used up for 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "M1 at start(of reaction)/during the first minuteM2 as graph/curve steepest/gradient greatest"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT initiallyALLOW references to acid most concentrated/most"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "the greater the relative atomic mass the higher the boiling point ORA",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW positive correlation"
+    }, {
+      "kind" : "note",
+      "text" : "do not (easily) gain/lose/share electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW full outer shell/energy level (of electrons)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "all have seven/same number of electrons in outer/valence shell/outer energy level"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW all need to gain one electron to have a full outer shell"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW all their electron configurations end with 7"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Cl2+2NaBr→2NaCl+Br2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fractions/multiples"
+    }, {
+      "kind" : "note",
+      "text" : "orange"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "M1 no reaction as bromine less reactive than chlorine ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so bromine cannot displace chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise incorrect use of chloride once only"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 iodide(ions)/I-lose electrons so oxidised"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to iodine instead of iodide"
+    }, {
+      "kind" : "note",
+      "text" : "M2 chlorine/Cl2 gains electrons so reduced"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q7di",
+    "label" : "7(d)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "H2+Cl2→2HCl",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW fractions/multiples"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(beaker A) litmus stays blue/no change to litmus"
+    }, {
+      "kind" : "note",
+      "text" : "M2 hydrogen chloride does not ionise/does not formH+ions/remains as molecules/does not form hydrochloric acid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW litmus turns blue"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW does not dissociate"
+    }, {
+      "kind" : "note",
+      "text" : "No M1 if references to methylbenzene/solution being alkaline or methylbenzene reacting"
+    }, {
+      "kind" : "note",
+      "text" : "M3(beaker B) litmus turns red"
+    }, {
+      "kind" : "note",
+      "text" : "M4(hydrogen chloride forms) hydrogen ions/H+ions/hydrochloric acid(forms)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT litmus paper turns red and then bleaches"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE acidic solution/acid forms"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 not making a valid conclusion because could also be zinc or aluminium ions/could be any of the three ions",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT zinc and aluminium also/all three ions form white precipitates"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because not seen effect of adding excess sodium hydroxide OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame (test)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW description of flame test"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE burn it/heat it"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE red or orange alone"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 or mention of flame in M2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 reheat/heat again (and reweigh)"
+    }, {
+      "kind" : "note",
+      "text" : "Heat to constant mass scores M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 until constant mass (achieved)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass(H2O)=(6.1-5.2)=0.9(g)"
+    }, {
+      "kind" : "note",
+      "text" : "M2n(AB2)=5.2÷208"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "n(H2O)=0.9÷18"
+    }, {
+      "kind" : "note",
+      "text" : "M3 ratio of AB2to H2O is0.025:0.05:1:2"
+    }, {
+      "kind" : "note",
+      "text" : "M4x=2"
+    }, {
+      "kind" : "note",
+      "text" : "M3 subsumes M2"
+    }, {
+      "kind" : "note",
+      "text" : "accept AB2.2H2O"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q8c",
+    "label" : "8(c)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 add nitric acid/HNO3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "If incorrect acid or an alkali added then M2 and M3 can be scored"
+    }, {
+      "kind" : "note",
+      "text" : "M2 add silver nitrate(solution)/AgNO3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 white precipitate forms"
+    }, {
+      "kind" : "note",
+      "text" : "M3 dep on addition of silver nitrate"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "haematite\nALLOW to form CO/CO2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any correct ore of iron e.g. magnetite"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 to provide oxygen/O2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE name of/formula of iron oxide in any oxidation state"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)2Fe2O3+3C→4Fe+3CO2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fractions/multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)M1 limestone/calcium carbonate decomposes to form CaO"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT CaCO3→CaO+CO2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 calcium oxide/CaO reacts with silica/SiO2/sandM3 to form (molten) slag/calcium silicate"
+    }, {
+      "kind" : "note",
+      "text" : "CaO+SiO2→CaSiO3scores M2 and M3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)Aluminium is more reactive than carbon/higher in the reactivity series than carbon ORA"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)Any 4 fromM1(aluminium extracted by) electrolysisM2(aluminium oxide) mixed with/added to cryoliteM3(electrolyte) moltenM4 carbon/graphite electrodes(used)M5 aluminium ions discharged/aluminium formed at negative electrode/cathode"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Al3++3e-→Al"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nIGNORE stir\nIf no results ticked in(ii),then only use of two or three concordant titres can score in(iii)\nIf only one result ticked,M2 can be scored for correctly averaging2 or more titre values.",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "swirl flask"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW shake/swish"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Ticks under 23.15 22.95 and 23.10"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(23.15+22.95+23.10)÷3M223.07"
+    }, {
+      "kind" : "note",
+      "text" : "correct final answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 CQ on results tickedM2 CQ on correct calculation fromM1Answer toM2 must be correct to2dp"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q10bi",
+    "label" : "10(b)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 0.02270 x 0.080",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "do not penalise missing trailing zeros"
+    }, {
+      "kind" : "note",
+      "text" : "OR 22.70x0.0801000"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.001816/1.816x10-3(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "0.002 scores 1 mark onlyACCEPT 1.816 for 1 markCorrect answer without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M2 from(i)x2/0.003632/3.632x10-3(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)M1 answer from(ii)÷0.025/0.003632÷0.025"
+    }, {
+      "kind" : "note",
+      "text" : "ORM1 answer from(ii)x100025"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.14528/1.4528x10-1(mol/dm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF only if division by 25 aloneACCEPT any number of sig fig except oneCorrect answer without working scores 2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-e95774df-q10c",
+    "label" : "10(c)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 heat/boil until crystals form in a sample of solution that has been removed or cooled OWTTE\nM2 cool/leave (the solution) until crystals form\nM3 filter (to obtain the crystals)\nM4 suitable method of drying the crystals",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT heat/boil to produce a (hot) saturated/concentrated solution"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT heat/boil until crystals start to form"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW heat/boil to crystallisation point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (heat/boil to) evaporate some of the water"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to filtering before heating"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 DEP on crystals having been formed"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT decant/pour off the liquid/(excess) solution"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to washing crystals"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. place in (warm) oven / leave to dry (in warm place) / use filter paper / kitchen towel"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any reference to heating directly with a flame eg Bunsen"
+    }, {
+      "kind" : "note",
+      "text" : "If solution heated to dryness or left to evaporate all of the water only 1 mark can be awarded."
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 6,
+    "2" : 9,
+    "3" : 15,
+    "4" : 11,
+    "5" : 10,
+    "6" : 15,
+    "7" : 14,
+    "8" : 15,
+    "10" : 13
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3(a)(i)(ii)", "orphan row before first entry: kerosene - fuel for aircraft/heaters/lampsbitumen - roads/roofing", "orphan row before first entry: 3(b)(i)(ii)(iii)", "orphan row before first entry: silica or alumina", "orphan row before first entry: C20H42→3C4H8+C8H18", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 only", "orphan row before first entry: Contains only (carbon-carbon) single bonds", "orphan row before first entry: (ii)", "orphan row before first entry: M2 with unsaturated goes colourless/decolourises", "orphan row before first entry: M3 with saturated no change/stays orange", "orphan row before first entry: (d)(i)", "orphan row before first entry: OR", "orphan row before first entry: OR", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: (c)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: reactants present/most particles present/most gas is produced", "orphan row before first entry: (d)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: OR\nM1 iodide(ions)/I-oxidised and chlorine/Cl2reduced\nM2 iodide(ions)/I-lose electrons and chlorine/Cl2gains electrons\nIf incorrect reference to iodine in either or both M1 and M2 MAX 1 mark\nIGNORE both oxidation and reduction occur(in the same reaction)", "7(d)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: If any other incorrect reagent added e.g. barium chloride then only M1 can be scored", "orphan row before first entry: (d) clip(ii)", "orphan row before first entry: A is barium/Ba", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

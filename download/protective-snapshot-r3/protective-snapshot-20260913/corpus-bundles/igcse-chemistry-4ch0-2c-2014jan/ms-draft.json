@@ -1,0 +1,781 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2014",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "b3f9d301-2bfa-56c5-944d-1336dfab5cf5"
+  },
+  "entries" : [ {
+    "entryId" : "ms-b3f9d301-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "cross in box C (neutrons and protons)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box B (the numbers of electrons and protons are equal)"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "same number of protons /(they both have)6 protons"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "different numbers of neutrons /more neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "If number of extra neutrons specified, it must be2 Reject different numbers of electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to atomic number and mass number"
+    }, {
+      "kind" : "note",
+      "text" : "e"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box B(2.4)"
+    }, {
+      "kind" : "note",
+      "text" : "TOTAL"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "bromine AND iodine"
+    }, {
+      "kind" : "note",
+      "text" : "Accept symbols and formulaeDo not accept names or formulae of ions"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen chloride"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore gas"
+    }, {
+      "kind" : "note",
+      "text" : "hydrochloric acid"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore aqueous/solution/dilute/concentrated"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 for both correct names in wrong places"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "white smoke/solid/cloud"
+    }, {
+      "kind" : "note",
+      "text" : "Accept ringReject precipitateIgnore powder/fumes"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "NH3+HCl→NH4Cl"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "white precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "aq s aq"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 for s and 1 for both aq"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen/H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IgnoreH"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "becomes smaller/disappears"
+    }, {
+      "kind" : "note",
+      "text" : "Accept dissolvesIgnore references to bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "acidic/contains(hydrochloric)acid/hydrogenions/H+ions)"
+    }, {
+      "kind" : "note",
+      "text" : "AcceptpHbelow7oranyvaluebelow7"
+    }, {
+      "kind" : "note",
+      "text" : "iv"
+    }, {
+      "kind" : "note",
+      "text" : "notacidic/no(hydrochloric)acid(formed)/nohydrogenions/noH+ions)ORHCl/hydrogenchloridedoesnotionise/dissociate"
+    }, {
+      "kind" : "note",
+      "text" : "Rejectreferencestoalkali(ne)orpHabove7Ignore neutralDo notacceptit/hydrochloricacidinplaceofHCl"
+    }, {
+      "kind" : "note",
+      "text" : "TOTAL"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "tungsten(VI) oxide / tungsten trioxide"
+    }, {
+      "kind" : "note",
+      "text" : "Accept tungsten oxide"
+    }, {
+      "kind" : "note",
+      "text" : "Reject tungsten oxide with other oxidation numbers or prefixes such as mono- and di-"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "(1) 3 (1) 3"
+    }, {
+      "kind" : "note",
+      "text" : "Accept multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "loss of oxygen (by it / tungsten / tungsten oxide)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept decrease in oxidation number of tungsten"
+    }, {
+      "kind" : "note",
+      "text" : "Accept tungsten ions gain electrons"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "Ca"
+    }, {
+      "kind" : "note",
+      "text" : "13.9"
+    }, {
+      "kind" : "note",
+      "text" : "40"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "0.348"
+    }, {
+      "kind" : "note",
+      "text" : "W"
+    }, {
+      "kind" : "note",
+      "text" : "63.9"
+    }, {
+      "kind" : "note",
+      "text" : "184"
+    }, {
+      "kind" : "note",
+      "text" : "O"
+    }, {
+      "kind" : "note",
+      "text" : "22.2"
+    }, {
+      "kind" : "note",
+      "text" : "16"
+    }, {
+      "kind" : "note",
+      "text" : "Apply ECF"
+    }, {
+      "kind" : "note",
+      "text" : "0/3 for use of any atomic numbers / division wrong way round / multiplication"
+    }, {
+      "kind" : "note",
+      "text" : "If division by 32 instead of 16 for O, then no M1, but M2 and M3 can score by ECF(CaWO2)"
+    }, {
+      "kind" : "note",
+      "text" : "If any transcription error (eg 69.3 in place of 63.9), then no M1, but M2 and M3 can score by ECF"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "0.348"
+    }, {
+      "kind" : "note",
+      "text" : "0.347"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "1:1:4"
+    }, {
+      "kind" : "note",
+      "text" : "0.347"
+    }, {
+      "kind" : "note",
+      "text" : "0.347"
+    }, {
+      "kind" : "note",
+      "text" : "1.39"
+    }, {
+      "kind" : "note",
+      "text" : "0.347"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "CaWO4"
+    }, {
+      "kind" : "note",
+      "text" : "Accept elements in any order"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer scores 3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "59.6×184/298"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 for n(WF6)=0.2mol and any sight of0.2"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "36.8(g)"
+    }, {
+      "kind" : "note",
+      "text" : "No ECF from incorrect expression except for transcription error-eg using289 instead of298ECF from incorrect number of moles"
+    }, {
+      "kind" : "note",
+      "text" : "Award 2 for correct final answer"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "47.5×100/52.0"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "91.3(%)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept any answer in range91-91.4Do not penalise excessive numbers of dp"
+    }, {
+      "kind" : "note",
+      "text" : "Award 2 for correct final answer"
+    }, {
+      "kind" : "note",
+      "text" : "TOTAL"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "concentration"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore from the same bottle"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "temperature/same temperature as acid"
+    }, {
+      "kind" : "note",
+      "text" : "Accept in either order"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to volume"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "19.4"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 for both temperatures"
+    }, {
+      "kind" : "note",
+      "text" : "correct but in wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "16.9"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "(+)2.5"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on temperatures recorded"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise negative sign"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box D(The volume of acid used was50.0cm3instead of25.0cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box D(The alkali was added in10.0cm3 portions but were recorded as5.0cm3 portions)"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "Deduct1for each error"
+    }, {
+      "kind" : "note",
+      "text" : "If points not visible beneath line,assume them to be on the line"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "all points plotted correctly to nearest gridline"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "straightline of best fit through first4 points"
+    }, {
+      "kind" : "note",
+      "text" : "Lines must be drawn with a ruler"
+    }, {
+      "kind" : "note",
+      "text" : "M4"
+    }, {
+      "kind" : "note",
+      "text" : "straightline of best fit through last3 points"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise freehand once onlyECF on incorrectly plotted points"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "e",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "volume of alkali CQ on where lines cross"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer to nearest gridline to min 1 dp"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "maximum temperature CQ on where lines cross"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer to nearest gridline to min 1 dp"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise missing dp once only If both values correct but in wrong order, award 1/2 0/2 if lines do not cross"
+    }, {
+      "kind" : "note",
+      "text" : "f"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "0.650×0.025"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "0.01625/0.0163"
+    }, {
+      "kind" : "note",
+      "text" : "16.25 scores 1/2 Accept 0.016 and 0.0162"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "0.0325"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on fi"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "0.0325×1000/0.500"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on fii"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "65(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "If M1 wrong because×1000 missing then award M2 by ECF"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise failure to use 1000 once only in i and iii Do not penalise rounding of intermediate answers and consequent final answer eg 65.2"
+    }, {
+      "kind" : "note",
+      "text" : "If final answer obtained by use of $ \\frac{V_{1}M_{1}}{n_{1}}=\\frac{V_{2}M_{2}}{n_{2}} $ both marks may be awarded in iii"
+    }, {
+      "kind" : "note",
+      "text" : "TOTAL"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "cross in box C (fractional distillation)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "larger molecules in crude oil"
+    }, {
+      "kind" : "note",
+      "text" : "Accept longer (chains)/bigger Mr in place of largerAccept molecules in crude oil have wide range of sizes AND molecules in kerosene have similar sizes"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "more covalent bonds in crude oil (molecules)/bonds have different strengths"
+    }, {
+      "kind" : "note",
+      "text" : "Accept no difference/same type of covalent bondingReject references to double bonds in kerosene"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "crude oil has higher viscosity"
+    }, {
+      "kind" : "note",
+      "text" : "Accept less runny/less thick"
+    }, {
+      "kind" : "note",
+      "text" : "M4"
+    }, {
+      "kind" : "note",
+      "text" : "correct reference to other difference-eg crude oil darker colourcrude oil harder to ignitecrude oil burns with a smokier flamecrude oil has a higher boiling point/wider range of boiling points"
+    }, {
+      "kind" : "note",
+      "text" : "Any three points from fourAccept converse statements for (molecules in) kerosene"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "C9H20"
+    }, {
+      "kind" : "note",
+      "text" : "Accept H20C9"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "pentane"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "C=CHCH"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore bond anglesIgnore dot and cross diagramIgnore non-displayed formulae"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b3f9d301-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "d",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1M2"
+    }, {
+      "kind" : "note",
+      "text" : "C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for 4 correct atoms joined to 2 C atoms(ignore C=C and extra atoms joined to C)Accept Cl in any position of fourM2 for all 7 bonds correct provided that continuation bonds are shown but have no atoms attachedCl2in place of Cl but otherwise correct scoresM2 but not M1Ignore brackets and any subscript"
+    }, {
+      "kind" : "note",
+      "text" : "e"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "(in condensation polymerisation)a small molecule/H2O/HCl is (also) formed/lost/releasedORtwo(different) monomers/more than one product"
+    }, {
+      "kind" : "note",
+      "text" : "Accept converse statement for addition polymerisationeg(only) one product formed/ no atoms are lost/gained"
+    }, {
+      "kind" : "note",
+      "text" : "If no reference to type of polymerisation, assume that condensation is referred to"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "breakdown/decomposition"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore wear away/rot"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "by bacteria/microbes/micro-organisms"
+    }, {
+      "kind" : "note",
+      "text" : "Accept biologically/naturallyM2 dep on M1 or near miss"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "inert(ness)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept unreactive/non-polarIgnore strong bonds/long chains"
+    }, {
+      "kind" : "note",
+      "text" : "TOTAL"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"14\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"14\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"18\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"13\" skipped (rubric/rowspan ambiguity)" ]
+}

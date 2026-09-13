@@ -1,0 +1,466 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70947A",
+    "publicationCode" : "4CH1_2C_2206_MS",
+    "session" : "Summer 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "5ff5aef7-21db-5ed9-bfc3-c48add89d7db"
+  },
+  "entries" : [ {
+    "entryId" : "ms-5ff5aef7-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "argon"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Ar"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW N2/N"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW H2/H"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "climate change/global warming/oceans becoming more acidic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW greenhouse effectALLOW effects of global warming e.g. melting of polar ice caps/flooding/wild firesIGNORE acid rainREJECT references to ozone layer"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bubble/pass/add the gas/carbon dioxide into limewaterM2(limewater) turns cloudy/milky"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW white precipitateM2 dep on mention of limewaterREJECT addition of extra reagents for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5ff5aef7-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C fluorineA is incorrect as astatine is blackB is incorrect as bromine is brownD is incorrect as iodine is dark grey",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A astatineB is incorrect as bromine is a liquidC is incorrect as chlorine is a gasD is incorrect as fluorine is a gas"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following four pointsM1 fluorine is more reactive than chlorine ORA M2 the outer shell is closer to the nucleus in fluorine/fluorine has fewer shells/fluorine has a smaller atomic radius ORA M3 there is a stronger attraction to the nucleus for an electron in fluorine ORA M4 so fluorine accepts an electron more readily ORA"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reactivity decreases down the group ORAALLOW a fluorine atom is smaller than a chlorine atom ORAALLOW there is less shielding in fluorine ORA"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "2Li+Cl2→2LiCl"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractionsIGNORE state symbols even if incorrectACCEPT2Li+Cl-REJECT any charges on Li or Cl2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5ff5aef7-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 bright/white light OR bright/white flame",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 white powder/solid/ash"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW white smoke"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW grey powder/solid/ash"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT white precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 magnesium/Mg loses two electrons/becomes 2.8"
+    }, {
+      "kind" : "note",
+      "text" : "M2 oxygen/O gains two electrons/becomes 2.8"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT magnesium gives two electrons to oxygen for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "Both marks can be scored from diagrams showing correct electronic configurations of the ions."
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium is more reactive/higher in the reactivity series (than carbon)/magnesium is a better reducing agent (than carbon) ORA"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon cannot displace magnesium"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following four points"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (magnesium) has delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to ions or atoms moving for M2"
+    }, {
+      "kind" : "note",
+      "text" : "ions are free to move when (magnesium chloride) is molten/in solution OR (magnesium chloride) cannot conduct when solid"
+    }, {
+      "kind" : "note",
+      "text" : "M2 electrons can move"
+    }, {
+      "kind" : "note",
+      "text" : "M3 (magnesium chloride) can only conduct when molten/in solution OR (magnesium chloride) cannot conduct when solid"
+    }, {
+      "kind" : "note",
+      "text" : "M4 ions are free to move"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to electrons moving for M4"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium ions/Mg2+ gains electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW electrons are gained"
+    }, {
+      "kind" : "note",
+      "text" : "2Cl-→Cl2+2e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT magnesium/Mg gains electrons"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to loss or gain of oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2Cl-→2e(-)→Cl2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5ff5aef7-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "40.0/12"
+    }, {
+      "kind" : "note",
+      "text" : "6.7/1"
+    }, {
+      "kind" : "note",
+      "text" : "53.3/16"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks for division by atomic numbers or upside-down calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "3.33"
+    }, {
+      "kind" : "note",
+      "text" : "6.7"
+    }, {
+      "kind" : "note",
+      "text" : "3.33"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig figs except 1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "AND1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT alternative methods"
+    }, {
+      "kind" : "note",
+      "text" : "CH3COOHORH-C-C"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT HCOOCH3ORH-C-C"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "2HCOOH+Na2CO3→2HCOONa+CO2+H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M1 CO2+H2O"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE numbers in front of CO2 and/or H2O if only M1 scored"
+    }, {
+      "kind" : "note",
+      "text" : "M2 HCOONa and equation correctly balanced"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT NaCOOHALLOW NaHCOO"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "bubbles/ fizzing/ effervescence"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas given offALLOW sodium carbonate disappears/dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "propyl methanoate"
+    }, {
+      "kind" : "note",
+      "text" : "spelling must be correctALLOW propyl formate"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "reversible reaction"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reaction which goes both waysIGNORE equilibrium"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5ff5aef7-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(moles ofTiO2=) $ \\frac{20\\times10^{6}}{80} $ OR $ 2.5\\times10^{5} $ (mol)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores 4"
+    }, {
+      "kind" : "note",
+      "text" : "M2(moles ofCl2=) $ 2.5\\times10^{5}\\times2 $ OR $ 5.0\\times10^{5} $ (mol)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT250000(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3(vol ofCl2=) $ 5.0\\times10^{5}\\times24 $ OR $ 12000000 $ (dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT500000(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 $ 1.2\\times10^{7} $ (dm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWecf onM2andM36x10^{6} scores33x10^{6} scores36000000 scores23000000 scores22.083x10^{4} scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)An explanation that links the following two pointsM1argon is unreactive/inertM2(so argon) will not react with/oxidise the magnesiumOR oxygen(in air) will react with/oxidise the magnesium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWargon will not react with/oxidise titaniumOR oxygen(in air) will react with/oxidise the titanium"
+    }, {
+      "kind" : "note",
+      "text" : "(c)An explanation that links the following three pointsM1in pure titanium all atoms are the same sizeOR layers/atoms can slide over each other(making it soft/malleable)M2the alloy has atoms of different sizesM3(which disrupts the structure so that) atoms/layers do not/harder to slide over each other(making it stronger)OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "all marks can be awarded from labelled diagramsALLOWcations/ions/particles in place of atoms throughoutREJECTmention of molecules once only"
+    }, {
+      "kind" : "note",
+      "text" : "Total9"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5ff5aef7-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "carbon",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW soot"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW copper(II) oxide/copper oxide/CuO"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT copper(I) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(amount of ethanol)=0.92÷46OR0.02(0)(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(-)18.2÷0.02(0)=(-)910(kJ/mol)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW alternative methods"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any 2 from"
+    }, {
+      "kind" : "note",
+      "text" : "M1heat(energy)/thermal energy was lost(to the surroundings/apparatus)"
+    }, {
+      "kind" : "note",
+      "text" : "M2incomplete combustion(of ethanol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3the ethanol was impure/ethanol evaporates"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1∑bonds broken=4xC-H+2x498"
+    }, {
+      "kind" : "note",
+      "text" : "M2∑bonds formed=2x805+4x463OR3462"
+    }, {
+      "kind" : "note",
+      "text" : "M34xC-H+996-3462=-890"
+    }, {
+      "kind" : "note",
+      "text" : "M4C-H=1576÷4=394(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores4"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2x498OR996seen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWecf throughout"
+    }, {
+      "kind" : "note",
+      "text" : "839 without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "616.5/617 without working scores3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)", "orphan row before first entry: M2(Y) pipette", "orphan row before first entry: (volume measurement with Y is) more precise ORA", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: there is no clear end point/colour change is gradual(at the end point)/no sharp colour change OWTTE", "orphan row before first entry: (c)", "orphan row before first entry: M2moles ofBa(OH)2=0.0129÷2OR0.00645", "orphan row before first entry: M3conc.ofBa(OH)2=0.00645×1000=0.258(mol/dm3)25", "orphan row before first entry: barium sulfate is insoluble/does not dissolve/forms a precipitate", "orphan row before first entry: Total9", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: Total 12", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: ALLOW\namounts/moles/ratios of reactants and products remain constant\nREJECT concentrations of reactants and products are equal/the same", "orphan row before first entry: (d)(i)(ii)", "orphan row before first entry: M1\nHO-C-CH2CH2-C-OH", "orphan row before first entry: Total 12", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: Total 11" ]
+}

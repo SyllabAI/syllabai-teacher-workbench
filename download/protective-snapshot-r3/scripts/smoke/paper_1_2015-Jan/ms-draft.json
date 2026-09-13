@@ -1,0 +1,80 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG040479",
+    "session" : "January 2015",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "0da20706-9e8b-5fa3-82d0-dbed1ed9aaf1"
+  },
+  "entries" : [ {
+    "entryId" : "ms-0da20706-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "图1"
+    }, {
+      "kind" : "note",
+      "text" : "图2"
+    }, {
+      "kind" : "note",
+      "text" : "图3"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "A(an electron)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "B(a neutron)"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "B(electrons and protons)"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "isotopes"
+    }, {
+      "kind" : "note",
+      "text" : "atomic numbers"
+    }, {
+      "kind" : "note",
+      "text" : "mass numbers"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7 marks"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2 a i", "orphan row before first entry: Separation", "orphan row before first entry: Chromatography", "orphan row before first entry: P", "orphan row before first entry: Q", "orphan row before first entry: R", "orphan row before first entry: S", "orphan row before first entry: ii", "orphan row before first entry: b", "orphan row before first entry: Total 7 marks", "orphan row before first entry: 3 a", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: 100(℃)/0(℃)", "orphan row before first entry: Answers such as boils/distils at 100℃/freezes at 0℃ score M2 only", "orphan row before first entry: 3 b iii", "orphan row before first entry: Total 7 marks", "orphan row before first entry: 4 a i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: 4 d", "orphan row before first entry: e", "orphan row before first entry: curve starting from hydrogen peroxide line and ending at water+oxygen lineANDpeak below peak of original curve", "orphan row before first entry: Total 9 marks", "orphan row before first entry: 5 a iii", "orphan row before first entry: B(hydrated)", "orphan row before first entry: b iii", "orphan row before first entry: smothers/blankets the fuel/fire/sinks onto to fuel/fire", "orphan row before first entry: (therefore) prevents oxygen/air from reaching the fuel/fire", "orphan row before first entry: c iii", "orphan row before first entry: H2SO4has(aq)/is a solution\nAND(H+)ions are released", "orphan row before first entry: B(5.5)", "orphan row before first entry: Total 8 marks", "orphan row before first entry: 6 a", "orphan row before first entry: b", "orphan row before first entry: c i", "orphan row before first entry: to remove carbonate(ions)/sulfite(ions)", "orphan row before first entry: silver nitrate/AgNO3silver chloride/AgCl", "orphan row before first entry: Total 8 marks", "orphan row before first entry: 7 a", "orphan row before first entry: 7 b i", "orphan row before first entry: ii", "orphan row before first entry: same functional group\n(neighbouring) members differ by CH2", "orphan row before first entry: c", "orphan row before first entry: d i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: 7 e", "orphan row before first entry: Penalise missing H atoms once only provided all bonds are correctly shown Penalise missing bonds in both structures", "orphan row before first entry: 7 f i", "orphan row before first entry: ii", "orphan row before first entry: Total 17 marks", "orphan row before first entry: 8a", "orphan row before first entry: b", "orphan row before first entry: c iii", "orphan row before first entry: d", "orphan row before first entry: e", "orphan row before first entry: 8 f i", "orphan row before first entry: ii", "orphan row before first entry: Total 10 marks", "orphan row before first entry: 9a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d", "orphan row before first entry: e", "orphan row before first entry: f", "orphan row before first entry: Total 9 marks", "orphan row before first entry: 10 a", "orphan row before first entry: stir", "orphan row before first entry: filter", "orphan row before first entry: wash (with water)", "orphan row before first entry: suitable method of drying", "orphan row before first entry: identifying two suitable pieces of apparatus", "orphan row before first entry: If M3 not scored then M4 and M5 cannot be awarded", "orphan row before first entry: If description of evaporation of solution, then M4 and M5 cannot be awarded", "orphan row before first entry: identifying two suitable pieces of apparatus", "orphan row before first entry: beaker / flask / test tube (for mixing)", "orphan row before first entry: (glass) rod (for stirring)", "orphan row before first entry: identifying two suitable pieces of apparatus", "orphan row before first entry: Reference to filter paper or filter funnel scores M3 and counts as one of M6", "orphan row before first entry: If any other substance added, then MAX 4", "orphan row before first entry: 10 b i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Total 9 marks", "orphan row before first entry: 11 a iii", "orphan row before first entry: pink", "orphan row before first entry: colourless", "orphan row before first entry: (after)23.15(before)1.40(added)21.75", "orphan row before first entry: c iii", "orphan row before first entry: 21.10+21.202", "orphan row before first entry: 21.15", "orphan row before first entry: 11 d i", "orphan row before first entry: clipiiclipiii", "orphan row before first entry: Total 14 marks", "orphan row before first entry: 12 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d i", "orphan row before first entry: e", "orphan row before first entry: 12 f", "orphan row before first entry: 12 g", "orphan row before first entry: more collisions(between particles)/OWTTE", "orphan row before first entry: per unit time/OWTTE", "orphan row before first entry: Total 15 marks" ]
+}

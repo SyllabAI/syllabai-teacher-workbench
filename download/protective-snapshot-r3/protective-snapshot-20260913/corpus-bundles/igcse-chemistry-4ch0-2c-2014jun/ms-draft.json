@@ -1,0 +1,835 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG038305",
+    "session" : "June 2014",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "5a8de597-f5a7-5203-b519-7bfd53b0a41a"
+  },
+  "entries" : [ {
+    "entryId" : "ms-5a8de597-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "B(2)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "FR AND FG"
+    }, {
+      "kind" : "note",
+      "text" : "FR and FG/they/colourings/dyes/spots/OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "line up/match/correspond with/travel same distance(s) as/ have sameRfvalues as"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "SR and SG/safe colourings/red and green colourings"
+    }, {
+      "kind" : "note",
+      "text" : "Choice can be indicated by ticks or other marks or Yes"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1 correct or missing"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to FB unless incorrect"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to FR and FG containing/being the same as SR and SG"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "fractional distillation / fractionation"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore just distillation"
+    }, {
+      "kind" : "note",
+      "text" : "Reject simple distillation"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "(they have) different boiling points/boiling temperatures / boil at different temperatures"
+    }, {
+      "kind" : "note",
+      "text" : "OR ethanol has a lower boiling point (than water)"
+    }, {
+      "kind" : "note",
+      "text" : "/water has a higher boiling point (than ethanol))"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to melting point"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to condensing"
+    }, {
+      "kind" : "note",
+      "text" : "Accept one boils at 78(℃), the other at 100(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept ethanol boils/evaporates first"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore boils/evaporates faster"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "to keep the jacket full of water"
+    }, {
+      "kind" : "note",
+      "text" : "/to make sure there is no air in the jacket"
+    }, {
+      "kind" : "note",
+      "text" : "/to surround the whole tube"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "(for B) not enough water in the condenser"
+    }, {
+      "kind" : "note",
+      "text" : "/water not in contact with tube for long enough"
+    }, {
+      "kind" : "note",
+      "text" : "/water runs straight out"
+    }, {
+      "kind" : "note",
+      "text" : "Accept tube/condenser in place of jacket"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse arguments relating to B"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to rate of cooling or condensing"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore so that more ethanol/vapour/gas condenses / to make sure all the ethanol/vapour/gas condenses"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to glass breaking"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "d",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ethanol/it) has a lower boiling point/is more volatile (than water)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "boils/evaporates first/before water"
+    }, {
+      "kind" : "note",
+      "text" : "Accept weaker forces of attraction between ethanol molecules"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse arguments for water"
+    }, {
+      "kind" : "note",
+      "text" : "Accept boiling point (of ethanol) reached first"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore incorrect difference eg 12℃ lower"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore boils/evaporates faster"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to rate of evaporation/boiling/condensation"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore ethanol condenses first"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "period"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore number of period"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "Any two of sodium/magnesium/aluminium"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore symbols Na,Mg,Al"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "Ar/argon(it does) not easily gain/lose electronsORhas 8 electrons in outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "If name and symbol both given,then both must be correctAccept(it has)a full outer shellIgnore 2.8.8Ignore inert/noble gasIgnore references to Group numberIgnore stableM2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "one electron/same number of electronsANDreference to outer/valence(shell/energylevel/orbit)"
+    }, {
+      "kind" : "note",
+      "text" : "Reject incorrect number of electronsIgnore similar electronic configurationsIgnore actual electronic configurations"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "C/ carbon"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "S/ sulfur"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "8 for both protons AND electrons10 neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept wordsAccept words"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sulfur/precipitate forms"
+    }, {
+      "kind" : "note",
+      "text" : "Accept usual precipitate alternatives"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore precipitate colour"
+    }, {
+      "kind" : "note",
+      "text" : "Accept cloudy/ opaque"
+    }, {
+      "kind" : "note",
+      "text" : "Reject wrongly identified precipitate (eg sodium chloride)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "to keep the depth/height/shallowness of liquid(in the conical flask) the same/OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "the same mass of sulfur(needed to obscure the cross)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "Reject to keep the concentration the same"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "reaction would start before the correct depth/concentration of liquid was obtained"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "the reaction starts when the acid is added/straight away/before the water is added"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to keeping the total volume constant"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to fair test/accuracy/safety"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "d",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "fume cupboard / well-ventilated room /open windows / extractor fan OR wear eye protection / safety goggles / OWTTE OR (gas) mask / respirator (SO2/it is) poisonous/toxic OR reference to specific harmful effect on humans (eg affects breathing/respiratory irritant /eye irritant/triggers asthma attack/makes bronchitis or emphysema worse) OR to prevent gas reaching eyes/lungs/OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to pollution / acid rain / greenhouse effect Ignore just harmful Mark independently To score M1 and M2, explanation must match precaution: fume cupboard etc can link with all explanations eye protection etc. can link with all explanations except those involving breathing etc. mask etc. can link with all explanations except those involving eyes etc."
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "e",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "all points correctly plotted to nearest gridline"
+    }, {
+      "kind" : "note",
+      "text" : "suitable curve of best fit based on plotted points"
+    }, {
+      "kind" : "note",
+      "text" : "curve completely below original curve"
+    }, {
+      "kind" : "note",
+      "text" : "starts at vol=10cm3, finishes at vol=50cm3"
+    }, {
+      "kind" : "note",
+      "text" : "Deduct 1 mark for each incorrect plot"
+    }, {
+      "kind" : "note",
+      "text" : "Do not penalise continuation of line above 255s unless incorrect(eg straight line to 300s)"
+    }, {
+      "kind" : "note",
+      "text" : "Do not award mark if curve starts from(10,255)"
+    }, {
+      "kind" : "note",
+      "text" : "DEP on point plotted for experiment1"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-5a8de597-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "decomposition / breakdown / breakup / splitting / chemical changeby electricity / (electric) current/ (flow of) electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore specific examples that do notinclude key words (eg obtainingaluminium from its ore)Ignore separation / movement of ionsMark independently"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "A=chlorine/Cl2B=hydrogen/H2C=sodium hydroxide/NaOH"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore ClIgnore HIgnore references to sodium chlorideIf both name and formula given,bothmust be correct,but ignore Cl and HAward 1 mark for chlorine and hydrogenthe wrong way round"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "so that ions are mobile/can flow/free to move(in liquid)ORions not mobile/cannot flow/not free to move in solid"
+    }, {
+      "kind" : "note",
+      "text" : "Accept Na+/Cl- in place of ionsIgnore references to charged species and particlesReject references to moving electronsReject no ions in solidReference to solid can be implied(eg if not molten...)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "2Cl-→Cl2+2e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for Cl- on left and Cl2 on rightM2 for balancing, DEP on M1 correctAccept-2e(-)on LHSIf neither M1 nor M2 awarded, then award1 mark for Cl-→Cl+e(-)or 2Cl-→2Cl+2e(-)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "brown precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "Accept usual alternatives for precipitate"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore qualifiers such as dark/light"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore red(dish)/orange/rust(y)"
+    }, {
+      "kind" : "note",
+      "text" : "Reject other colours"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore all names and formulae"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "ammonium/NH4+gas given off is ammonia/NH3"
+    }, {
+      "kind" : "note",
+      "text" : "If name and formula given, both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "Accept gas given off is alkaline"
+    }, {
+      "kind" : "note",
+      "text" : "If name and formula given, both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1 or near miss"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "sulfate/SO42-"
+    }, {
+      "kind" : "note",
+      "text" : "If name and formula given, both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "Zn/zinc(atom)"
+    }, {
+      "kind" : "note",
+      "text" : "(it) loses(2) electrons/gives electron(s) to Fe3+/zinc is oxidised/zinc increases its oxidation number"
+    }, {
+      "kind" : "note",
+      "text" : "Accept Fe3+gains electron(s)/is reduced/oxidation number decreases"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore Fe3+converted to Fe2+/Zn converted to Zn2+Reject iron/Fe gains electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "Any two of"
+    }, {
+      "kind" : "note",
+      "text" : "·(same) general formula"
+    }, {
+      "kind" : "note",
+      "text" : "·same/similar chemical properties /behaviour/characteristics"
+    }, {
+      "kind" : "note",
+      "text" : "OR same/similar reactions"
+    }, {
+      "kind" : "note",
+      "text" : "·gradation/gradual change/trend/increase/decrease in physical properties"
+    }, {
+      "kind" : "note",
+      "text" : "·same functional group"
+    }, {
+      "kind" : "note",
+      "text" : "·(successive) members differ by CH2"
+    }, {
+      "kind" : "note",
+      "text" : "H H"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "H H"
+    }, {
+      "kind" : "note",
+      "text" : "Apply list principle"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore specific general formula"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore specific chemical properties, eg combustion"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore trend etc. in chemical properties"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reference to specific physical property, eg boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "Reject same/similar physical properties"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore differ by Mr=14"
+    }, {
+      "kind" : "note",
+      "text" : "All atoms and bonds must be shown"
+    }, {
+      "kind" : "note",
+      "text" : "OH group can be in any position"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore bond angles"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "b",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "batch process slower"
+    }, {
+      "kind" : "note",
+      "text" : "/continuous process faster"
+    }, {
+      "kind" : "note",
+      "text" : "batch process less pure"
+    }, {
+      "kind" : "note",
+      "text" : "/continuous process purer"
+    }, {
+      "kind" : "note",
+      "text" : "batch process uses"
+    }, {
+      "kind" : "note",
+      "text" : "renewable/sustainable/non-finite resources"
+    }, {
+      "kind" : "note",
+      "text" : "resources that do not run out"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "continuous process uses finite resources"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "unambiguous reference to one process"
+    }, {
+      "kind" : "note",
+      "text" : "(eg only the batch process uses renewable resources)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept batch process slow"
+    }, {
+      "kind" : "note",
+      "text" : "AND continuous process fast"
+    }, {
+      "kind" : "note",
+      "text" : "Accept batch process gives impure product"
+    }, {
+      "kind" : "note",
+      "text" : "AND continuous process gives pure product"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to yield"
+    }, {
+      "kind" : "note",
+      "text" : "Accept OWTTE, eg sugar used in batch process can be grown again, crude oil is not being replaced"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore uses plant material for renewable and uses crude oil for finite"
+    }, {
+      "kind" : "note",
+      "text" : "Accept references to fermentation/sugars in place of batch, and hydration/ethene in place of continuous"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-5a8de597-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "3600×1000180=20000(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on M120000 with or without working scores2 marks20 mol scores1/2"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)×2/40000(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(ii)×24=960000dm3"
+    }, {
+      "kind" : "note",
+      "text" : "Correct or consequential answer with or without working scores2 marks"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "high / higher (temperature) because (forward) reaction is endothermic / absorbs heat"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse reaction is exothermicAccept reaction shifts in endothermic direction/favours the endothermic reaction (more)Ignore references to Le Chatelier's principle"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "low / lower (pressure) because more moles/molecules (of gas) on RHS/products side/hydrogen side"
+    }, {
+      "kind" : "note",
+      "text" : "Accept fewer moles/molecules on LHSAccept 2 mol on LHS and 4 mol on RHSAccept particles in place of moleculesAccept shift to side with more molesIgnore references to Le Chatelier's principle"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "provides an alternative route/pathway/mechanism with lower activation energyOR(gas) molecules adsorb/stick to surface of catalyst(covalent) bonds in molecules weakened"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore just a route/pathIf no reference to activation energy, then accept references to energy if qualified by idea of being needed to start the reactionMAX 1 if any reference to particles gaining energy or moving more quickly"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-5a8de597-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "CO+H2O=CO2+H2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for all formulae correctM2 for balancing AND reversible arrowIgnore state symbolsM2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "(carbon/it) gains/reacts with oxygen/oxygen is added"
+    }, {
+      "kind" : "note",
+      "text" : "Accept oxygen atom/moleculeAccept increase in oxidation numberAccept actual oxidation numbers if correct(+2 to+4)Reject oxide ionIgnore references to gain or loss of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "K2CO3+CO2+H2O→2KHCO3"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for all formulae correct and on the correct sidesM2 for balancingM2 DEP on M1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 3,
+    "2" : 4,
+    "3" : 9,
+    "4" : 10,
+    "5" : 8,
+    "6" : 6,
+    "7" : 11,
+    "8" : 9
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,630 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG038368",
+    "session" : "June 2014",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "df1271c5-ed9d-5621-93cf-98e32954df7f"
+  },
+  "entries" : [ {
+    "entryId" : "ms-df1271c5-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B-(filter) funnel",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "teat pipette/dropping pipette"
+    }, {
+      "kind" : "note",
+      "text" : "D-test tube/boiling tube"
+    }, {
+      "kind" : "note",
+      "text" : "E-pipette"
+    }, {
+      "kind" : "note",
+      "text" : "F-beaker"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-A"
+    }, {
+      "kind" : "note",
+      "text" : "M2-E"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D-hydrocarbons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "SURVT"
+    }, {
+      "kind" : "note",
+      "text" : "First mark for S in box1 AND R in box3"
+    }, {
+      "kind" : "note",
+      "text" : "Second mark for V in box4 AND T in box5"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to increase the rate/speed(of the reaction)IGNORE to start the reaction/to provide energy/references to the copper(II) oxide will not react without heat/to make it dissolve faster/to give particles more energy",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "to overcome the activation energy/to provide activation energy(for the reaction)"
+    }, {
+      "kind" : "note",
+      "text" : "Answers referring to copper instead of copper(II) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "it stops disappearingORthere is a(black) suspension/solid/copper(II) oxideORthe mixture/it turns cloudy/blackIGNORE crystals"
+    }, {
+      "kind" : "note",
+      "text" : "stops dissolvingprecipitate/ppt"
+    }, {
+      "kind" : "note",
+      "text" : "any colour other than black"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "to remove(unreacted/excess) copper(II) oxideIGNORE references to impurities/crystals"
+    }, {
+      "kind" : "note",
+      "text" : "to remove(unreacted/excess)solidto obtain a solution(of copper(II)sulfate)"
+    }, {
+      "kind" : "note",
+      "text" : "to separate copper(II) oxide from sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "copper(II)sulfate/the crystals are less soluble in cold water(than in hot water)OR solubility decreases with temperatureIGNORE reference to water evaporating"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argumentions join together(to form a lattice)ionic lattice forms"
+    }, {
+      "kind" : "note",
+      "text" : "references to freezing"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "lower case letters"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(a substance) containing(two or more)elements"
+    }, {
+      "kind" : "note",
+      "text" : "chemically joined"
+    }, {
+      "kind" : "note",
+      "text" : "mixture for M1 only"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE atoms for M1 only"
+    }, {
+      "kind" : "note",
+      "text" : "molecules/particlesbonded,etc forM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "M2-bonded(together)/chemicallycombined(inafixedratio)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-Na loses electron(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2-Cl gains electron(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M3-Na becomes2.8ANDchlorinebecomes2.8.8"
+    }, {
+      "kind" : "note",
+      "text" : "Ifincorrectnumberofelectronstransferred,max2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREreferences tofullshells"
+    }, {
+      "kind" : "note",
+      "text" : "max1formentionofcovalentbonding"
+    }, {
+      "kind" : "note",
+      "text" : "All3markscanbe scoredfromcorrectdotandcrossdiagramsshowingelectrontransfer"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "magnesium chloride/MgCl2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "carbon dioxide/CO2"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen/O2"
+    }, {
+      "kind" : "note",
+      "text" : "sulfuric(acid)/H2SO4"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE hydrogen sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "If name and formula given, both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Mg+H2O→MgO+H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise incorrect symbols and failure to use subscripts"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- for both electron diagrams correct\nIGNORE inner electrons of N even if incorrect\nM2- for both charges correct\nM3- for correct ratio of ions",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "6Li+N2→2Li3N"
+    }, {
+      "kind" : "note",
+      "text" : "M1- all formulae correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2- balanced"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Iaqg"
+    }, {
+      "kind" : "note",
+      "text" : "M1- any number from 8 to 14"
+    }, {
+      "kind" : "note",
+      "text" : "M2- LiOH/lithium hydroxide is a base/alkali OR hydroxide ions/OH- formed/present"
+    }, {
+      "kind" : "note",
+      "text" : "ammonia/metal hydroxides/Group 1 hydroxides are bases/alkalis"
+    }, {
+      "kind" : "note",
+      "text" : "11"
+    }, {
+      "kind" : "note",
+      "text" : "11"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\n● good conductor of heat\n● high melting point\n● malleable\nApply list principle",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1-ductile"
+    }, {
+      "kind" : "note",
+      "text" : "M2-good conductor of electricity"
+    }, {
+      "kind" : "note",
+      "text" : "Apply list principle"
+    }, {
+      "kind" : "note",
+      "text" : "Answers can be given in any order"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "strong(er)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to density and rusting"
+    }, {
+      "kind" : "note",
+      "text" : "other correct descriptions"
+    }, {
+      "kind" : "note",
+      "text" : "lower density/resists corrosion"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE lighter"
+    }, {
+      "kind" : "note",
+      "text" : "does not rust"
+    }, {
+      "kind" : "note",
+      "text" : "greater strength to weight ratio"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "heat/thermal energy/heat energy is given out"
+    }, {
+      "kind" : "note",
+      "text" : "OR transferred/lost to the surroundings"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to bond formation and breaking"
+    }, {
+      "kind" : "note",
+      "text" : "produced"
+    }, {
+      "kind" : "note",
+      "text" : "produces an increase in temperature"
+    }, {
+      "kind" : "note",
+      "text" : "it gets hot"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(aluminium/it is) more reactive"
+    }, {
+      "kind" : "note",
+      "text" : "iron is less reactive"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(aluminium/it) displaces iron(from its oxide)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "replaces it/aluminium takes oxygen away from iron(oxide)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "large hydrocarbons/alkanes/molecules become small ones\nIGNORE references to forming alkenes/ethene/more useful molecules",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(large) hydrocarbons or alkanes or molecules become small ones"
+    }, {
+      "kind" : "note",
+      "text" : "long chains become short chains"
+    }, {
+      "kind" : "note",
+      "text" : "references to polymers"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(add to) bromine(water)/Br2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE Br"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(bromine) decolourised/turns colourless"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE starting colour and clear"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1,but can be scored for a near miss in M1,eg Br or bromide(water)"
+    }, {
+      "kind" : "note",
+      "text" : "(acidified) potassium manganate(VII)"
+    }, {
+      "kind" : "note",
+      "text" : "decolourised/turns colourless"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(catalyst) silica/silicon dioxide/alumina/aluminium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "N.B.if both name and formula given,mark the name only"
+    }, {
+      "kind" : "note",
+      "text" : "M2-600-700℃"
+    }, {
+      "kind" : "note",
+      "text" : "correct formula"
+    }, {
+      "kind" : "note",
+      "text" : "aluminosilicate/zeolite"
+    }, {
+      "kind" : "note",
+      "text" : "any value or range within this range"
+    }, {
+      "kind" : "note",
+      "text" : "equivalent temperatures in Kelvin"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q12ai",
+    "label" : "12(a)(i)",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1-divide all the masses by respective $A_r$",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "division by atomic number/division upside down for all marks"
+    }, {
+      "kind" : "note",
+      "text" : "M2-to give 0.02:0.02:0.04"
+    }, {
+      "kind" : "note",
+      "text" : "M3-(mole) ratio is 1:1:2 Correct ratio or empirical formula with no working scores 0/3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1-204÷102=2 OR 102×2=204M2-C$_{2}$F$_{2}$Cl$_{4}$Correct answer with no working scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "(2×12)+(2×19)+(4×35.5)=204symbols in any order"
+    }, {
+      "kind" : "note",
+      "text" : "Fl for F"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q13a",
+    "label" : "13(a)",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "covalent\nM2- strong(covalent) bonds/many(covalent) bonds\nM3- lot of(thermal/heat) energy required\nM4- to break bonds\nM2- are weak/little(thermal/heat) energy required(to overcome the forces)\nM2 DEP on M1\nWeak bonds on its own=0",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1- giant covalent/giant structure/lattice/network"
+    }, {
+      "kind" : "note",
+      "text" : "macromolecular giant molecular"
+    }, {
+      "kind" : "note",
+      "text" : "Max1 if bonding stated to be intermolecular/ionic/metallic"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1- intermolecular forces(of attraction)/forces(of attraction) between molecules"
+    }, {
+      "kind" : "note",
+      "text" : "intermolecular bonds in place of intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "any indication that covalent/ionic/metallic bonds are broken scores0"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "theory B AND since there are no/fewer gas molecules in spaceORthere is no/less gas in spaceORspace is a vacuum"
+    }, {
+      "kind" : "note",
+      "text" : "fewer gas molecules at high altitude/less gas at high altitudeair/specified gas in place of gasORA"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-df1271c5-q14a",
+    "label" : "14(a)",
+    "number" : 14,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1-",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "continuation bonds not going through brackets"
+    }, {
+      "kind" : "note",
+      "text" : "M2-any suitable use, eg:"
+    }, {
+      "kind" : "note",
+      "text" : "just plastic"
+    }, {
+      "kind" : "note",
+      "text" : "· plastic bags"
+    }, {
+      "kind" : "note",
+      "text" : "· buckets/bowls"
+    }, {
+      "kind" : "note",
+      "text" : "· storage bottles(for food, drinks, chemicals)"
+    }, {
+      "kind" : "note",
+      "text" : "· garden furniture"
+    }, {
+      "kind" : "note",
+      "text" : "· gas pipes"
+    }, {
+      "kind" : "note",
+      "text" : "· rubbish bins"
+    }, {
+      "kind" : "note",
+      "text" : "· storage tanks for fuel"
+    }, {
+      "kind" : "note",
+      "text" : "· cling film"
+    }, {
+      "kind" : "note",
+      "text" : "Please research any unfamiliar use"
+    }, {
+      "kind" : "note",
+      "text" : "polypropene polypropylene"
+    }, {
+      "kind" : "note",
+      "text" : "M3- poly(propene)"
+    }, {
+      "kind" : "note",
+      "text" : "methyl group attached to any carbon methyl group displayed"
+    }, {
+      "kind" : "note",
+      "text" : "M4- IGNORE bond angles"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (a)(i)(ii)(iii)", "orphan row before first entry: M1-2", "orphan row before first entry: M2-two electrons inouter/valence shellAward M2 if M1 missing but not if incorrectIgnore references to magnesium and 2.8.2", "orphan row before first entry: X2+", "orphan row before first entry: (b)", "orphan row before first entry: M2-divide by100", "orphan row before first entry: M3-24.3", "orphan row before first entry: Mark M2 and M3 csq on M1 if one minor slip in numbers in M1(eg97 instead of79or25 instead of24)", "orphan row before first entry: M3 dep on M2", "orphan row before first entry: Correct answer with no working scores3", "orphan row before first entry: IGNORE units", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (e)", "orphan row before first entry: (f)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: M2-58.5", "orphan row before first entry: M2 dep on M1", "orphan row before first entry: IGNORE units", "orphan row before first entry: Correct answer with no working scores 2", "orphan row before first entry: 6(a)(i)(ii)(iii)", "orphan row before first entry: 1.4", "orphan row before first entry: 25(.0)", "orphan row before first entry: (b)", "orphan row before first entry: red", "orphan row before first entry: (c)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: 9(a)(i)(ii)(iii)", "orphan row before first entry: C", "orphan row before first entry: C", "orphan row before first entry: (b)", "orphan row before first entry: M2-(empirical)C2H5", "orphan row before first entry: ECF from molecular formula", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: M2-(general formula)CnH2n+2", "orphan row before first entry: IGNORE bond angles", "orphan row before first entry: (d)", "orphan row before first entry: M2-toxic/poisonous/causes death", "orphan row before first entry: IGNORE dangerous/harmful", "orphan row before first entry: M3-reduces the capacity of the blood to carry oxygen", "orphan row before first entry: IGNORE references to suffocation/cannot breathe", "orphan row before first entry: IGNORE blood carries no oxygen", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M2-gains oxygen", "orphan row before first entry: M2 DEP on M1", "orphan row before first entry: IGNORE references to magnesium", "orphan row before first entry: (d)", "12(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: IGNORE inner shell electrons even if incorrect\nAward 1 mark for similar molecules,\neg CCl4 and CF4", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "14(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "14(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "14(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: 15(a)(i)(ii)", "orphan row before first entry: M2-10(.0)÷M1", "orphan row before first entry: M3-0.25(mol)Correct answer with no working scores3", "orphan row before first entry: M1-0.25x1000÷250", "orphan row before first entry: M2-1(.0)(mol/dm3)Correct answer with no working scores2", "orphan row before first entry: Mark csq throughout", "orphan row before first entry: (b)(i)", "orphan row before first entry: M2-(reading at start)1.65", "orphan row before first entry: M3-(volume added)23.55", "orphan row before first entry: Award 1 mark for correct end and start readings in reverse order", "orphan row before first entry: Mark M3 csq on M1 and M2\nPenalise lack of two decimal places once only in a correct answer", "orphan row before first entry: (ii)", "orphan row before first entry: M2-orange/pink", "orphan row before first entry: (iii)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2-0.4(0)(mol)\nCorrect final answer with no working scores 2 marks", "orphan row before first entry: M1-n(CO2)=0.2(0)/1/2of M2from(c)(i)(mol)", "orphan row before first entry: M2-mass(CO2)=8.8(0)(g)/M1x44\nCorrect final answer with no working scores 2 marks" ]
+}

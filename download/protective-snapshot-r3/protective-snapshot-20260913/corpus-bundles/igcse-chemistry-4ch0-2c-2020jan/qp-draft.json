@@ -1,0 +1,659 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "b483aa3e-2505-5aa7-adbd-75dce15ee3d6"
+  },
+  "questions" : [ {
+    "questionId" : "q01-b483aa3e",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about elements, compounds and mixtures.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Name the element that burns with a lilac flame.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Name the technique used to separate the mixture of colours in black ink.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-b483aa3e-pc",
+      "label" : "c",
+      "text" : "The box gives the names of some substances. Choose substances from the box to answer these questions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-b483aa3e-pc-i",
+      "label" : "c-i",
+      "text" : "Identify the compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-b483aa3e-pc-ii",
+      "label" : "c-ii",
+      "text" : "Identify the mixture.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-b483aa3e-pc-iii",
+      "label" : "c-iii",
+      "text" : "Identify the non-metal element that is a solid at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-b483aa3e",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Crude oil is a mixture of hydrocarbons.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Name the process used to separate crude oil into fractions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Give one use of the kerosene fraction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pc",
+      "label" : "c",
+      "text" : "One of the hydrocarbons in the refinery gas fraction is an alkane with the structural formula $ \\mathrm{C H_{3} C H_{2} C H_{2} C H_{3}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pc-i",
+      "label" : "c-i",
+      "text" : "Give the name of this alkane.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pc-ii",
+      "label" : "c-ii",
+      "text" : "Calculate the relative molecular mass $ ( M_{\\mathrm{r}}) $ of this alkane.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pd",
+      "label" : "d",
+      "text" : "One of the alkanes in the gasoline fraction has the displayed formula",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000039",
+        "sourceName" : "assets/crop_1_1789064136615.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064136615.png",
+        "availability" : "available",
+        "assetId" : "img:a98d85b04820ef9d75dcd67e77bab5dcc4d566a681364e75c4bdbd6e1a04fc72",
+        "sha256" : "a98d85b04820ef9d75dcd67e77bab5dcc4d566a681364e75c4bdbd6e1a04fc72",
+        "mimeType" : "image/jpeg",
+        "width" : 553,
+        "height" : 229,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pd-i",
+      "label" : "d-i",
+      "text" : "Determine the molecular formula of this alkane.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pd-ii",
+      "label" : "d-ii",
+      "text" : "Give the general formula for the alkanes.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pe",
+      "label" : "e",
+      "text" : "Catalytic cracking is used to convert long-chain alkanes into shorter-chain alkanes.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pe-i",
+      "label" : "e-i",
+      "text" : "Name the catalyst used in catalytic cracking.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pe-ii",
+      "label" : "e-ii",
+      "text" : "Explain why it is necessary to convert long-chain alkanes into shorter-chain alkanes.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-b483aa3e-pf",
+      "label" : "f",
+      "text" : "Catalytic cracking also produces alkenes. $ \\mathrm{C}_{1 1} \\mathrm{H}_{2 4} $ can undergo cracking to give pentane $ \\left( \\mathrm{C}_{5} \\mathrm{H}_{1 2} \\right) $ and two different alkenes. Complete the equation for this cracking reaction. $\\mathrm {C} _ {1 1} \\mathrm {H} _ {2 4} \\rightarrow \\mathrm {C} _ {5} \\mathrm {H} _ {1 2} +$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000039",
+      "sourceName" : "assets/crop_1_1789064136615.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064136615.png",
+      "availability" : "available",
+      "assetId" : "img:a98d85b04820ef9d75dcd67e77bab5dcc4d566a681364e75c4bdbd6e1a04fc72",
+      "sha256" : "a98d85b04820ef9d75dcd67e77bab5dcc4d566a681364e75c4bdbd6e1a04fc72",
+      "mimeType" : "image/jpeg",
+      "width" : 553,
+      "height" : 229,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-b483aa3e",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about copper and its compounds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Copper is a metal used for electrical wiring. Explain why copper is a good conductor of electricity.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-b483aa3e-pb",
+      "label" : "b",
+      "text" : "This apparatus is used to investigate the electrolysis of copper(II) sulfate solution with graphite electrodes. Copper forms at the negative electrode and oxygen forms at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000054",
+        "sourceName" : "assets/crop_1_1789064136643.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064136643.png",
+        "availability" : "available",
+        "assetId" : "img:cb647935c190ebabd8b62e186a62fdd006feb2834ec3cf219270b454bd7e3714",
+        "sha256" : "cb647935c190ebabd8b62e186a62fdd006feb2834ec3cf219270b454bd7e3714",
+        "mimeType" : "image/jpeg",
+        "width" : 1504,
+        "height" : 570,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-b483aa3e-pb-i",
+      "label" : "b-i",
+      "text" : "State what would be observed at each electrode. negative electrode positive electrode ..",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-b483aa3e-pb-ii",
+      "label" : "b-ii",
+      "text" : "The ionic half-equation for the reaction at the negative electrode is $\\mathrm {C u} ^ {2 +} + 2 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {C u}$ State why this is a reduction reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-b483aa3e-pb-iii",
+      "label" : "b-iii",
+      "text" : "Explain why the copper(II) sulfate solution becomes paler blue during the electrolysis. (2)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-b483aa3e-pc",
+      "label" : "c",
+      "text" : "When hydrated copper(II) sulfate crystals are heated, anhydrous copper(II) sulfate forms. A mass of 12.5 g of hydrated copper(II) sulfate crystals is heated in a crucible until all the water of crystallisation is removed. A mass of 8.0 g of anhydrous copper(II) sulfate forms. Show by calculation that the formula of hydrated copper(II) sulfate is $ \\mathrm{C u S O_{4}. 5 H_{2}O} $ $[ M _ {\\mathrm {r}} \\mathrm {o f C u S O} _ {4} = 1 5 9. 5 \\quad M _ {\\mathrm {r}} \\mathrm {o f H} _ {2} \\mathrm {O} = 1 8 ]$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000054",
+      "sourceName" : "assets/crop_1_1789064136643.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064136643.png",
+      "availability" : "available",
+      "assetId" : "img:cb647935c190ebabd8b62e186a62fdd006feb2834ec3cf219270b454bd7e3714",
+      "sha256" : "cb647935c190ebabd8b62e186a62fdd006feb2834ec3cf219270b454bd7e3714",
+      "mimeType" : "image/jpeg",
+      "width" : 1504,
+      "height" : 570,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-b483aa3e",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student investigates the reaction between sodium hydroxide solution and dilute sulfuric acid. He does a titration to find the concentration of the sulfuric acid. This is his plan for the titration. There are some mistakes and omissions in his plan. rinse a conical flask with the sodium hydroxide solution use a measuring cylinder to measure out $ 2 5 \\mathrm{c m}^{3} $ of the sodium hydroxide solution and add it to the conical flask add a few drops of methyl orange indicator to the conical flask rinse a burette with water and then fill it with the sulfuric acid add the acid from the burette to the conical flask until the indicator changes colour at the end-point of the titration record the final burette reading",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Give the colour change of the methyl orange indicator at the end-point.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Describe four changes that the student could make to improve his plan. He finds that $ 1 6. 7 0 \\mathrm{c m}^{3} $ of the dilute sulfuric acid neutralises $ 2 5. 0 \\mathrm{c m}^{3} $ of sodium hydroxide solution of concentration $ 0. 2 0 0 \\mathrm{m o l} / \\mathrm{d m}^{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-b483aa3e-pc",
+      "label" : "c",
+      "text" : "The student then does the titration correctly. The equation for the reaction is $2 \\mathrm {N a O H} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} \\rightarrow \\mathrm {N a} _ {2} \\mathrm {S O} _ {4} + 2 \\mathrm {H} _ {2} \\mathrm {O}$ Calculate the concentration, in mol/dm $ ^{3} $ , of the sulfuric acid. $\\mathrm {m o l / d m ^ {3}}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "concentration of sulfuric acid" ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-b483aa3e",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Oxygen can be prepared from hydrogen peroxide using a catalyst.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Which is a correct statement about oxygen? A it burns with a squeaky pop B it relights a glowing splint C it turns blue litmus red D it turns limewater milky",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Explain how a catalyst increases the rate of a reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-b483aa3e-pc",
+      "label" : "c",
+      "text" : "The equation for the preparation of oxygen from hydrogen peroxide is $2 \\mathrm {H} _ {2} \\mathrm {O} _ {2} \\rightarrow 2 \\mathrm {H} _ {2} \\mathrm {O} + \\mathrm {O} _ {2}$ This equation can also be written using displayed formulae to show all the covalent bonds in the molecules. $2 H - O - O - H \\rightarrow 2 H - O - H + O = O$ The table gives the bond energies for these bonds.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-b483aa3e-pc-i",
+      "label" : "c-i",
+      "text" : "Use the values in the table to calculate the enthalpy change, $ \\Delta H $ , for the reaction. Include a sign in your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-b483aa3e-pc-ii",
+      "label" : "c-ii",
+      "text" : "Complete the energy level diagram to show the position of the products and the enthalpy change, $ \\Delta H $ , for the reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000100",
+        "sourceName" : "assets/crop_1_1789064136708.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064136708.png",
+        "availability" : "available",
+        "assetId" : "img:08c234997e6d817e4e4ac6b9a50012adda8294e14ed7da99bdb82423089ba24e",
+        "sha256" : "08c234997e6d817e4e4ac6b9a50012adda8294e14ed7da99bdb82423089ba24e",
+        "mimeType" : "image/jpeg",
+        "width" : 429,
+        "height" : 880,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000100",
+      "sourceName" : "assets/crop_1_1789064136708.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064136708.png",
+      "availability" : "available",
+      "assetId" : "img:08c234997e6d817e4e4ac6b9a50012adda8294e14ed7da99bdb82423089ba24e",
+      "sha256" : "08c234997e6d817e4e4ac6b9a50012adda8294e14ed7da99bdb82423089ba24e",
+      "mimeType" : "image/jpeg",
+      "width" : 429,
+      "height" : 880,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000097" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-b483aa3e",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Ethanol, $ \\mathrm{C_{2} H_{5} O H} $ , can be manufactured from ethene and steam using a phosphoric acid catalyst. (a) (i) State the temperature and pressure used in this manufacturing process. temperature pressure ... (ii) Draw the displayed formula of ethanol.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Ethanol burns in a plentiful supply of air to form carbon dioxide and water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pb-i",
+      "label" : "b-i",
+      "text" : "Give the chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pb-ii",
+      "label" : "b-ii",
+      "text" : "When the air supply is limited, incomplete combustion occurs and carbon monoxide forms. State why carbon monoxide is poisonous to humans.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pc",
+      "label" : "c",
+      "text" : "When ethanol reacts with ethanoic acid, an ester forms. Give the name of this ester.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pd",
+      "label" : "d",
+      "text" : "Butanedioic acid and ethanediol react together to form a polyester and water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pd-i",
+      "label" : "d-i",
+      "text" : "Give the name of this type of polymerisation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-b483aa3e-pd-ii",
+      "label" : "d-ii",
+      "text" : "Complete the equation. Show only one repeat unit of the polyester.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000112",
+        "sourceName" : "assets/crop_1_1789064136728.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064136728.png",
+        "availability" : "available",
+        "assetId" : "img:ef6bb14460c3db0f47b36fe8b0f64119d141463e0c49c3c47fa7817debfb0f62",
+        "sha256" : "ef6bb14460c3db0f47b36fe8b0f64119d141463e0c49c3c47fa7817debfb0f62",
+        "mimeType" : "image/jpeg",
+        "width" : 1630,
+        "height" : 428,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000112",
+      "sourceName" : "assets/crop_1_1789064136728.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064136728.png",
+      "availability" : "available",
+      "assetId" : "img:ef6bb14460c3db0f47b36fe8b0f64119d141463e0c49c3c47fa7817debfb0f62",
+      "sha256" : "ef6bb14460c3db0f47b36fe8b0f64119d141463e0c49c3c47fa7817debfb0f62",
+      "mimeType" : "image/jpeg",
+      "width" : 1630,
+      "height" : 428,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-b483aa3e",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about some Group 2 elements and their compounds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-b483aa3e-pa",
+      "label" : "a",
+      "text" : "Calcium reacts with water to produce calcium hydroxide and hydrogen gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pa-i",
+      "label" : "a-i",
+      "text" : "Give the word equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pa-ii",
+      "label" : "a-ii",
+      "text" : "State two observations that would be made during this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pb",
+      "label" : "b",
+      "text" : "Describe how a pure, dry sample of the insoluble salt, barium sulfate, could be made from the two solids sodium sulfate and barium chloride.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pb-ii",
+      "label" : "b-ii",
+      "text" : "Give an ionic equation for the reaction that occurs. Include state symbols in your equation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pc",
+      "label" : "c",
+      "text" : "When magnesium nitrate is heated, magnesium oxide, nitrogen dioxide and oxygen form. The equation for the reaction is $2 \\mathrm {M g} \\left(\\mathrm {N O} _ {3}\\right) _ {2} (\\mathrm {s}) \\rightarrow 2 \\mathrm {M g O} (\\mathrm {s}) + 4 \\mathrm {N O} _ {2} (\\mathrm {g}) + \\mathrm {O} _ {2} (\\mathrm {g})$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pc-i",
+      "label" : "c-i",
+      "text" : "What is the name for this type of reaction? A addition B combustion decomposition D neutralisation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-b483aa3e-pc-ii",
+      "label" : "c-ii",
+      "text" : "Calculate the total volume, in $ \\mathrm{d m}^{3} $ of gas produced at rtp when 7.7 g of magnesium nitrate completely reacts. [Assume that the molar volume of a gas at rtp is $ 2 4 \\mathrm{d m}^{3} $] [ $ M_{\\mathrm{r}} $ of $ \\mathrm{M g(N O_{3})_{2}}=1 4 8 $] Give your answer to two significant figures.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000132" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 11,
+    "4" : 9,
+    "6" : 11
+  },
+  "paperTotal" : 70,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: TOTAL FOR PAPER = 70 MARKS" ]
+}

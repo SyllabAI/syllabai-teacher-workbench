@@ -1,0 +1,29 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG038303",
+    "session" : "June 2014",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "cc8ff6b3-3c5f-58d2-b12e-511f75e81250"
+  },
+  "entries" : [ ],
+  "questionTotals" : {
+    "1" : 10,
+    "2" : 7,
+    "3" : 5,
+    "4" : 14,
+    "5" : 9,
+    "6" : 15
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d i", "orphan row before first entry: ii", "orphan row before first entry: e i", "orphan row before first entry: ii", "orphan row before first entry: 2 a i", "orphan row before first entry: state of(sub)division/(total) surface area/ particle size", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: b", "orphan row before first entry: white precipitate", "orphan row before first entry: c", "orphan row before first entry: 3 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d", "orphan row before first entry: 4 a i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: iv", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: c", "orphan row before first entry: 300(℃)", "orphan row before first entry: 4d i", "orphan row before first entry: ii", "orphan row before first entry: M2", "orphan row before first entry: M3", "orphan row before first entry: 4e i", "orphan row before first entry: ii", "orphan row before first entry: 5 a i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: iv", "orphan row before first entry: v", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: 0.3(00)dm3/300cm3", "orphan row before first entry: 6 a", "orphan row before first entry: 27.2", "orphan row before first entry: M2-M1/(+)8.5", "orphan row before first entry: b i", "orphan row before first entry: 0.0604(16)", "orphan row before first entry: 29.2÷M2 from(b)(i)/29.2÷0.0604(16)\n(-)483(.315678)", "orphan row before first entry: iii", "orphan row before first entry: (-)34608", "orphan row before first entry: cross in box B(not all of the heat energy is transferred to the water)", "orphan row before first entry: 6 c i", "orphan row before first entry: 2640", "orphan row before first entry: (2×C=O)+(4×H-O)", "orphan row before first entry: ii", "orphan row before first entry: -698(kJ/mol)", "orphan row before first entry: iii" ]
+}

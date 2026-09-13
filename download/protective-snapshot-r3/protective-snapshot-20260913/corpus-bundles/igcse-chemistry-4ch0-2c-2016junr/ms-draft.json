@@ -1,0 +1,75 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_2CR_1606_MS",
+    "session" : "Summer 2016",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "1e385e23-132c-5f84-bd50-4cd8e11b371e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-1e385e23-q21",
+    "label" : "21",
+    "number" : 21,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1e385e23-q19",
+    "label" : "19",
+    "number" : 19,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "41\nM1(6×0.074)+(7×0.926)M2=6.9",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "any two from"
+    }, {
+      "kind" : "note",
+      "text" : "• effervescence/fizzing/bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "• potassium moves/darts/floats"
+    }, {
+      "kind" : "note",
+      "text" : "• potassium leaves white trail"
+    }, {
+      "kind" : "note",
+      "text" : "• potassium forms into a ball"
+    }, {
+      "kind" : "note",
+      "text" : "• potassium becomes smaller/disappears"
+    }, {
+      "kind" : "note",
+      "text" : "• (lilac) flame"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(hydrogen) gas given off/evolved/formed/producedIGNOREname of gasACCEPTmeltsACCEPTdissolvesIGNOREcolour of flame/explodes"
+    } ],
+    "marks" : 41,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1 a\nb", "orphan row before first entry: A", "orphan row before first entry: c i\nii", "orphan row before first entry: 2 a", "orphan row before first entry: M2 water(vapour)/moisture", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: M2 (oiling)", "orphan row before first entry: M3 (painting)", "orphan row before first entry: d", "orphan row before first entry: M2 (because) zinc is more reactive than iron/zinc (atoms) lose electrons more readily (than do iron atoms)", "orphan row before first entry: 3 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d i\nii\niii", "orphan row before first entry: e i", "orphan row before first entry: e ii", "orphan row before first entry: 4 a", "orphan row before first entry: b", "orphan row before first entry: -(ve)", "orphan row before first entry: +(ve)", "orphan row before first entry: c", "orphan row before first entry: 5 a iii", "orphan row before first entry: 19", "19: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5 c iii", "orphan row before first entry: OH-/HO-", "orphan row before first entry: d", "orphan row before first entry: M2 because it is further from (the attraction of) nucleus (and therefore less strongly attracted to the nucleus)", "orphan row before first entry: ACCEPT reverse arguments as long as it is clear that lithium is being considered", "orphan row before first entry: 6 a", "orphan row before first entry: M2 produces oxygen(for breathing)", "orphan row before first entry: b i", "orphan row before first entry: M2n(LiOH)=answer toM1x2OR4.54(54...)(mol)", "orphan row before first entry: M3m(LiOH)=(answer toM3x24)=110(g)", "orphan row before first entry: OR", "orphan row before first entry: M148(g)reactswith44(g)", "orphan row before first entry: M2x(g)reactswith100(g)", "orphan row before first entry: M3x=110(g)", "orphan row before first entry: 6 b ii", "orphan row before first entry: M2 volume of $\\mathrm{CO}_{2}$ answer to M1 $\\times$ 24000", "orphan row before first entry: M3 $= 52000(\\mathrm{cm}^{3})$", "orphan row before first entry: 7 a", "orphan row before first entry: M2(step 2)magnesium carbonate is insoluble/magnesium carbonate does not form a solution", "orphan row before first entry: M3(step 3)boiling off all the water(will not produce a hydrated salt)", "orphan row before first entry: 7 b i", "orphan row before first entry: M2(before)", "orphan row before first entry: M3(volume added)", "orphan row before first entry: b ii", "orphan row before first entry: M2because it includes the air(contained in the tip of the burette)", "orphan row before first entry: c i", "orphan row before first entry: ii", "orphan row before first entry: If no results are ticked then M1 can only be awarded if the values from columns 2 and 4 are averaged", "orphan row before first entry: If only one column ticked then no marks can be awarded in(c)(ii)", "orphan row before first entry: M2 26.35(cm3)", "orphan row before first entry: Correct final answer without working scores 2", "orphan row before first entry: 7 d", "orphan row before first entry: M2", "orphan row before first entry: M3" ]
+}

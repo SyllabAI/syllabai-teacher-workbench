@@ -1,0 +1,612 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1CR_msc_20190822",
+    "session" : "Summer 2019",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8eeb7c31-657a-584d-9e4a-93f68cb67c79"
+  },
+  "entries" : [ {
+    "entryId" : "ms-8eeb7c31-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c(i)\nM1 V\nM2 as it stayed on the start line/did not move\nM2 as they both have a dye/spot that travelled the furthest (up the paper)\nM2 as they both only form one spot (on the paper)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "For all parts of 3c an explanation which links each of the two points"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW blob/dot/mark OWTTE for spot"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT did not produce spots/did not separate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW has Rf value of 0"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 X and Z"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW both have spot closest to solvent front"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW have highest Rf value(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 V and W"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT as W only has one spot and cannot tell about V (as it does not move/is insoluble)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reference to the other inks/X, Y, Z form more than one spot"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a (i)\nA is incorrect as particles moving does not result in mass lossC is incorrect as heat energy being produced does not result in mass lossD is incorrect as marble chips dissolving does not result in mass loss\nAll 5 correct scores24,3 correct scores1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "An explanation linking the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 to stop acid (spray) leaving the flask OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so that only gas can escape (from flask) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so the only cause of mass loss is gas (escaping)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT stops gas escaping"
+    }, {
+      "kind" : "note",
+      "text" : "M2 as (without cotton wool) mass loss would be too large OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to substances/impurities/gases entering flask"
+    }, {
+      "kind" : "note",
+      "text" : "a (ii)"
+    }, {
+      "kind" : "note",
+      "text" : "B gas is given off"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "CaCO3(s)+2HCl(aq)→CaCl2(aq)+H2O(l)+CO2(g)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW upper case"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 curve steeper than the original curve"
+    }, {
+      "kind" : "note",
+      "text" : "M2 levels off at the same mass loss/place as original curve"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation linking the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (rate) increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 more particles in the same volume"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles closer together"
+    }, {
+      "kind" : "note",
+      "text" : "M3 more (successful) collisions per unit time/more frequent (successful) collisions"
+    }, {
+      "kind" : "note",
+      "text" : "If reference to particles move faster/have more energy MAX1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to increased chance/probability of collisions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation linking the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (rate) increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (mean kinetic) energy of particles increases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles move faster"
+    }, {
+      "kind" : "note",
+      "text" : "M3 more successful collisions per unit time/more frequent successful collisions OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to more frequent collisions between particles having ≥ activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "Total 13"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Dividing percentages by atomic masses\nCorrect results of divisions\nObtaining ratio by dividing results by smallest value",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "0 marks if division by atomic numbers or calculation upside down"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "38.4"
+    }, {
+      "kind" : "note",
+      "text" : "12"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "4.8"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Cl"
+    }, {
+      "kind" : "note",
+      "text" : "56.8"
+    }, {
+      "kind" : "note",
+      "text" : "35.5"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "3.2"
+    }, {
+      "kind" : "note",
+      "text" : "4.8"
+    }, {
+      "kind" : "note",
+      "text" : "1.6"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "3.2"
+    }, {
+      "kind" : "note",
+      "text" : "1.6"
+    }, {
+      "kind" : "note",
+      "text" : "4.8"
+    }, {
+      "kind" : "note",
+      "text" : "1.6"
+    }, {
+      "kind" : "note",
+      "text" : "1.6"
+    }, {
+      "kind" : "note",
+      "text" : "1.6"
+    }, {
+      "kind" : "note",
+      "text" : "(=2"
+    }, {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "1)"
+    }, {
+      "kind" : "note",
+      "text" : "Alternative method"
+    }, {
+      "kind" : "note",
+      "text" : "Calculating Mr of C2H3Cl"
+    }, {
+      "kind" : "note",
+      "text" : "Working for finding ratio of each element"
+    }, {
+      "kind" : "note",
+      "text" : "Evaluation of correct percentages"
+    }, {
+      "kind" : "note",
+      "text" : "M1 C2H3Cl(=24+3+35.5)=62.5"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "24"
+    }, {
+      "kind" : "note",
+      "text" : "62.5"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "62.5"
+    }, {
+      "kind" : "note",
+      "text" : "Cl"
+    }, {
+      "kind" : "note",
+      "text" : "35.5"
+    }, {
+      "kind" : "note",
+      "text" : "62.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3 all x 100"
+    }, {
+      "kind" : "note",
+      "text" : "=38.4(%)4.8(%)56.8(%)"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 displayed formula of chloroethene\nC=CCl\nH\nH\nH",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE bond angles"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE brackets/n"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct displayed formula with single bond between C atoms"
+    }, {
+      "kind" : "note",
+      "text" : "C=CCl"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "If double bond in repeat unit no M2 or M3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 extension bonds shown on C atoms"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE brackets/n"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 2 shared pairs between C atoms"
+    }, {
+      "kind" : "note",
+      "text" : "M2 rest of structure fully correct"
+    }, {
+      "kind" : "note",
+      "text" : "C=CCl"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crosses."
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE inner shells even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Total 13"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a (i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 Mg2+"
+    }, {
+      "kind" : "note",
+      "text" : "M2 NO3-"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a (ii)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Part 1 making magnesium nitrate solution-a description linking any three of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 warm/heat the acid(in a beaker/flask)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT boil"
+    }, {
+      "kind" : "note",
+      "text" : "M2 add magnesium oxide(to acid a little at a time) until in excess/no more dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M3 stir"
+    }, {
+      "kind" : "note",
+      "text" : "M3 DEP on use of acid and oxide"
+    }, {
+      "kind" : "note",
+      "text" : "M4 filter to remove excess magnesium oxide/excess solid"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q7bi",
+    "label" : "7(b)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "24+(2x14)+(6x16)+(12x1)+(6x16)or equivalent working",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Some working must be seenALLOW24+124+108"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Calculate moles of magnesium nitrateSetting out of calculation of massFinal answerM1moles=(0.05/2)OR0.025M2mass=0.025x256M36.4(g)"
+    }, {
+      "kind" : "note",
+      "text" : "6.4(g)with no working scores3onlyALLOWECFM2fromM1"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Setting out of calculationFinal answerM14.8x1006.4M275(%)ORM14.8x1006M280(%)"
+    }, {
+      "kind" : "note",
+      "text" : "75(%)with or without working scores2marks"
+    }, {
+      "kind" : "note",
+      "text" : "80(%)with or without working scores2marksALLOWECFfromb(ii)6.4x1004.8AND6x1004.8both score0"
+    }, {
+      "kind" : "note",
+      "text" : "Answers of25%和20%score1"
+    }, {
+      "kind" : "note",
+      "text" : "Total14"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "sodium hydroxide+nitric acid→sodium nitrate+water",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTcorrectchemicalequationIGNOREionicequation"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation which links the following two pointsM1 polystyrene is an insulatorM2 less heat is lost(to the surroundings)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWpoor/non-conductor of heatALLOWno heat lostALLOW(polystyrene)retains more heatALLOWreversearguments for glass beaker"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from(she should)wear eye protection(she should)wear gloves"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(safety)gogglesALLOWsafetyglasses"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation linking the following three points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 covalent bonds are strong"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT strong (electrostatic) forces of attraction between the nuclei of atoms and the bonding electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 many (covalent) bonds (need to be broken)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 a large amount of (thermal/heat) energy is needed to break the bonds"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE more energyNOT just heatAny mention of intermolecular forces/forces between molecules or ions/ionic bonding /metallic bonding scores 0 out of 3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8eeb7c31-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(because) the zinc (powder) is in excess"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (because) not all zinc is used up/reacts ALLOW (because) some zinc is left over ALLOW because copper sulfate is limiting reagent/all reacted/all used up"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 blue"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW qualifiers such as dark/light but no other colours"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Calculation of temperature increase Substitution into Q=mcΔT Evaluation Example calculationM1(31.5-19.0)OR12.5M2Q=25x4.18x12.5M3Q=1310(J)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear ALLOW no colour ALLOW decolourised REJECT discoloured"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1 a (i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: b", "orphan row before first entry: 2 a l", "orphan row before first entry: potassium sinks to the bottom of the water", "orphan row before first entry: bubbles of oxygen gas are produced", "orphan row before first entry: a lilac flame is seen", "orphan row before first entry: potassium moves around", "orphan row before first entry: potassium oxide solution is formed", "orphan row before first entry: b (i)", "orphan row before first entry: (ii)", "orphan row before first entry: c", "orphan row before first entry: Total 6", "orphan row before first entry: 3 a", "orphan row before first entry: M1 put (separate) spots of each of the inks on the (pencil) line. OWTTE", "orphan row before first entry: M2 pour some solvent into the bottom of the beaker OWTTE", "orphan row before first entry: M3 place the paper in the beaker so that the spots are (just) above the level of the solvent OWTTE", "orphan row before first entry: M4 leave until the solvent has risen up the paper (to the top/near the top and then take paper out) OWTTE", "orphan row before first entry: ALLOW leave until spots/dyes stopped moving OWTTE", "orphan row before first entry: IGNORE references to leaving for a specified length of time", "orphan row before first entry: 3b", "orphan row before first entry: M1 ink would/might dissolve in the solvent OR pencil would not dissolve in the solvent", "orphan row before first entry: M2 ink would interfere with/contaminate the results OWTTE", "orphan row before first entry: OR", "orphan row before first entry: pencil would not interfere with/contaminate the results OWTTE", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3 d", "orphan row before first entry: M1 4.36.5", "orphan row before first entry: M2 0.6615", "orphan row before first entry: M3 0.66", "orphan row before first entry: 0.66 with no working scores 3correct answer given to 3 or more sig fig with no working scores 2M3 subsumes M2can score M2 and M3ECF provided use 4.3 and 6.5 and do a division", "orphan row before first entry: Total15", "orphan row before first entry: 4 a", "orphan row before first entry: REJECT element/atom/mixture for compound", "orphan row before first entry: M2 only", "orphan row before first entry: b(i)", "orphan row before first entry: M1 all formulae correct", "orphan row before first entry: M2 balancing of correct formulae", "orphan row before first entry: (ii)", "orphan row before first entry: M1 carbon monoxide", "orphan row before first entry: M2 carbon", "orphan row before first entry: (iii)", "orphan row before first entry: ACCEPT correct references to haemoglobin eg prevents haemoglobin from carrying oxygen", "orphan row before first entry: M1", "orphan row before first entry: b(iv)", "orphan row before first entry: M2\nChemical structure of M2", "orphan row before first entry: c(i)(ii)(iii)", "orphan row before first entry: A description linking the following two points", "orphan row before first entry: M1 add bromine water/solutionM2 (bromine water/solution) is decolourised/turns (from orange to) colourless", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)", "orphan row before first entry: (v)", "6(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Part 2 using (magnesium nitrate) solution/filtrate - a description linking any three of the following points\nM5 heat/boil (magnesium nitrate solution/filtrate)\nM6 until crystals form in a cooled sample/on glass rod\nM7 leave the solution to cool/crystallise\nM8 filter (to remove crystals)\nM9 suitable method to dry the crystals eg using filter paper/using paper towel/in warm oven/in a desiccator", "7(b)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "orphan row before first entry: clip", "orphan row before first entry: (ii)", "orphan row before first entry: Total 9", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (c)", "orphan row before first entry: If reference to weak intermolecular forces or layers of molecules/ions no M2\nALLOW air/water (molecules) trapped between the layers\nALLOW layers can easily flake off\nM2/M3 can subsume M1\nALLOW one unbonded/free/spare electron per carbon atom\nALLOW (only) three (of the carbon) electrons involved in (covalent) bonding\nALLOW not all (of the carbon) electrons involved in (covalent) bonding\nALLOW are mobile\nIGNORE free electrons\nIGNORE sea of electrons\nIGNORE references to carrying charge/current\nTo score M6 the term delocalised electrons must be seen somewhere\nIf reference to ions for conduction of electricity no M4 M5 M6", "10: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)" ]
+}

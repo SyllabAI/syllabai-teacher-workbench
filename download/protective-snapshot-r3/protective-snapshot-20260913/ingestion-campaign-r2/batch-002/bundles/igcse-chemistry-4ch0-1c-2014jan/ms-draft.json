@@ -1,0 +1,1009 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2014",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "f8db3ca9-e5f0-5ee4-a269-0d2adc4f7d78"
+  },
+  "entries" : [ {
+    "entryId" : "ms-f8db3ca9-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 dissolve",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 solution"
+    }, {
+      "kind" : "note",
+      "text" : "M3 evaporate"
+    }, {
+      "kind" : "note",
+      "text" : "M4 crystals"
+    }, {
+      "kind" : "note",
+      "text" : "M5 filter"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "X boiling",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Y condensing"
+    }, {
+      "kind" : "note",
+      "text" : "Z freezing"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C The particles move freely."
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "thermometer"
+    }, {
+      "kind" : "note",
+      "text" : "it/water boils at 100℃OR"
+    }, {
+      "kind" : "note",
+      "text" : "water does not get hotter than 100℃"
+    }, {
+      "kind" : "note",
+      "text" : "it/water boils below the melting point of(solid)Q/140℃/boils beforeQmeltsIGNORE evaporates"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "to keep the liquid at an even/equal temperature(throughout)ORto avoid the bottomof the liquid from overheating/the bottomgetting hotter than the rest of the liquid/to evenly distribute the heat/to avoid hot spotsIGNORE references to increasing movement,etc of particles"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "words that imply constant temperature,eg steady"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "nitrogen and oxygen\nIGNORE formulae whether right or wrong",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "argon"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE formulae whether right or wrong"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:"
+    }, {
+      "kind" : "note",
+      "text" : "• manufacture of ammonia/in the Haber process"
+    }, {
+      "kind" : "note",
+      "text" : "• food packaging/preservative"
+    }, {
+      "kind" : "note",
+      "text" : "• aircraft tyres"
+    }, {
+      "kind" : "note",
+      "text" : "• (in) light bulbs"
+    }, {
+      "kind" : "note",
+      "text" : "• coolant/refrigerant/freezing agent"
+    }, {
+      "kind" : "note",
+      "text" : "• treatment of warts"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:"
+    }, {
+      "kind" : "note",
+      "text" : "• sulfur dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "• nitrogen monoxide"
+    }, {
+      "kind" : "note",
+      "text" : "• nitrogen dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "• dinitrogen tetr(a)oxide"
+    }, {
+      "kind" : "note",
+      "text" : "• oxide(s) of nitrogen"
+    }, {
+      "kind" : "note",
+      "text" : "If both a name and a formula are given,IGNORE the formula"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen oxide"
+    }, {
+      "kind" : "note",
+      "text" : "a correct formula"
+    }, {
+      "kind" : "note",
+      "text" : "any other gas"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "the(orange)colouringdissolvesinethanol/doesnotdissolveinwaterORthe(orange)colouringismoresolubleinethanol(thanwater)ORethanolisabettersolvent(thanwater)IGNOREpetalsdissolve",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "waterbath/electricheater/isomantle"
+    }, {
+      "kind" : "note",
+      "text" : "description ofwaterbathhotwater/steamuseasieve"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "filter/decant/pourofftheliquid"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M12spots/dots/circlesdrawnatdifferentheightsabovetheoriginalorangespotandbelowthesolventfrontM2onespotlabelledredANDonespotlabelledyellowi.e."
+    }, {
+      "kind" : "note",
+      "text" : "onespotlevelwiththeorangespot"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A-（tap）funnel",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "burette"
+    }, {
+      "kind" : "note",
+      "text" : "B-（conical）flask"
+    }, {
+      "kind" : "note",
+      "text" : "C-（gas）jar"
+    }, {
+      "kind" : "note",
+      "text" : "measuring cylinder"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1（limewater）goes milky/chalky/cloudy OR（white）precipitate/solid/suspension（formed）"
+    }, {
+      "kind" : "note",
+      "text" : "ppt"
+    }, {
+      "kind" : "note",
+      "text" : "colours other than white"
+    }, {
+      "kind" : "note",
+      "text" : "M2（mixture）goes clear OWTTE（eg cloudiness disappears）"
+    }, {
+      "kind" : "note",
+      "text" : "solid dissolves OWTTE colourless solution（formed）"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "more dense than air/oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "poor conductor of electricity"
+    }, {
+      "kind" : "note",
+      "text" : "just heavier than air"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "C weakly acidic"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 C6H14",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 58"
+    }, {
+      "kind" : "note",
+      "text" : "M3 any value in the range 25 to 45"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "boiling point/it increases as Mr increases"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument positive correlation as one increases the other increases"
+    }, {
+      "kind" : "note",
+      "text" : "directly proportional"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "different general formulae OR (general) formula of ethene is not CnH2n+2/(general) formula of ethane is not CnH2n OR use of/mention of displayed formulae to show/indicate double(C to C)bond in ethene and single(C to C)bond in ethane"
+    }, {
+      "kind" : "note",
+      "text" : "same number of carbon atoms but different number of hydrogen atoms"
+    }, {
+      "kind" : "note",
+      "text" : "just different number of hydrogen atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2 penailse one missng H or one missing bond once only accept answers in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(structural) isomer(s)"
+    }, {
+      "kind" : "note",
+      "text" : "isomerism"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q6ei",
+    "label" : "6(e)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C2H6+Br2→C2H5Br+HBr\nM1-C2H5Br\nM2- rest of equation correct\nM2 dep on M1\nIGNORE state symbols",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "further substituted formula"
+    }, {
+      "kind" : "note",
+      "text" : "structural or displayed formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution"
+    }, {
+      "kind" : "note",
+      "text" : "bromination/halogenation"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "ultraviolet/uv(radiation)"
+    }, {
+      "kind" : "note",
+      "text" : "uv light"
+    }, {
+      "kind" : "note",
+      "text" : "sunlight"
+    }, {
+      "kind" : "note",
+      "text" : "Total12"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "releases thermal energy",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "releases heat(energy) produces an increase in temperature"
+    }, {
+      "kind" : "note",
+      "text" : "just releases energy"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(consists of) positive AND negative/oppositely charged ions/Mg2+ AND O2- (ions)IGNORE references to loss and gain of electronsM2(strong) attraction between(positive AND negative/oppositely charged) ions/Mg2+ AND O2- (ions)M3many ions(present in lattice)/giant structure/giant latticeM4large amount of energy required(to separate the ions/overcome the attraction between the ions)If mention of covalent bonds/metallic bonds/intermolecular forces only M4 can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "(strong) ionic bonding/(strong) ionic bondsbreak the ionic bonding/bonds"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q7e",
+    "label" : "7(e)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(name) magnesium chlorideM2(formula)MgCl2Penalise inappropriate use of upper or lower case letters or numbers in the wrong place",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept a correct formula as a productin an equation whether the equation correct or not"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 electronic configuration/2.1,2.8.1,2.8.8.1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "electronic structure/arrangement of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 same number of electrons in outer shell/one electron in outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "ORthe number of electrons in the outer shell determines the chemical properties"
+    }, {
+      "kind" : "note",
+      "text" : "(b)melting point/melting temperature"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "burns with a pop/squeak(when mixed with air and ignited)"
+    }, {
+      "kind" : "note",
+      "text" : "use burning/lit spill/flame to see ifpop/squeak splint for spill"
+    }, {
+      "kind" : "note",
+      "text" : "glowing spilljust‘squeaky pop test’"
+    }, {
+      "kind" : "note",
+      "text" : "sl aq g"
+    }, {
+      "kind" : "note",
+      "text" : "capital letters"
+    }, {
+      "kind" : "note",
+      "text" : "M1 turns blueIGNORE purple"
+    }, {
+      "kind" : "note",
+      "text" : "M2 alkaline solution formed/alkali formed/hydroxide ionsformed/LiOH is an alkali/LiOH forms hydroxide ions"
+    }, {
+      "kind" : "note",
+      "text" : "OH- for hydroxide ionspH is greater than7"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to lithium hydroxide is a metal hydroxideM2 dep on M1 correct or missing"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q8ei",
+    "label" : "8(e)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "4Li+O2→2Li2O\nIGNORE state symbols\nM1 formulae\nM2 balancing\nM2 dep on M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "multiples and halves"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2(1)(1)"
+    }, {
+      "kind" : "note",
+      "text" : "multiples and halves"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1&M2- all points correctly plotted to nearest gridline deduct 1 mark for each incorrectly plotted point",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M3 smooth curve of best fit drawn"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "value from candidate's graph to nearest gridline"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise incorrect units"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "as temperature increases, time (taken) decreases"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to rate and inverse proportionality"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument negative correlation"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q9b",
+    "label" : "9(b)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(average kinetic) energy of particles/ions increases",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "particles move faster"
+    }, {
+      "kind" : "note",
+      "text" : "molecules/atoms(but once only)"
+    }, {
+      "kind" : "note",
+      "text" : "M2more collisions/particles/ions have energy≥activationenergy"
+    }, {
+      "kind" : "note",
+      "text" : "sufficient energy to react"
+    }, {
+      "kind" : "note",
+      "text" : "M3more(successful) collisionsper second/morefrequent(successful)collisions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to chance of collisions"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise reference to molecules once only"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(same) concentration(of each solution)"
+    }, {
+      "kind" : "note",
+      "text" : "(same) volume(of each solution)(same) amount of(each)solutionrate of mixing"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "initial"
+    }, {
+      "kind" : "note",
+      "text" : "final"
+    }, {
+      "kind" : "note",
+      "text" : "changes"
+    } ],
+    "marks" : 21,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q16",
+    "label" : "16",
+    "number" : 16,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "17",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(+)1"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-f8db3ca9-q16",
+    "label" : "16",
+    "number" : 16,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "19",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(+)3"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-f8db3ca9-q16",
+    "label" : "16",
+    "number" : 16,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "21",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(+)5"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1&M2 all 6 temperature readings correct deduct one mark for each incorrect valueM3 all 3 temperature changes correctMark M3 csq on temperature readings"
+    }, {
+      "kind" : "note",
+      "text" : "M1(the smaller the chips the) larger the(total) surface areaM2more(thermal) energy(is transferred to the water)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(it would be) lowerM2larger volume of liquid/more liquid to heatup(with same amount of thermal energy transferred)M2dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "oxidised AND gain of oxygen\nIGNORE reference to loss of electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "increase in oxidation number"
+    }, {
+      "kind" : "note",
+      "text" : "gain of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 it/magnesium is more reactive than titanium"
+    }, {
+      "kind" : "note",
+      "text" : "M2 it/magnesium has displaced titanium"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "replaced"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "it/magnesium chloride has a different/lower boiling point"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to melting point"
+    }, {
+      "kind" : "note",
+      "text" : "more volatile"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(aircraft engines)-high strength-to-weight ratio"
+    }, {
+      "kind" : "note",
+      "text" : "M2(hip replacements)-non-toxic"
+    }, {
+      "kind" : "note",
+      "text" : "M3(propellers)-corrosion resistant"
+    }, {
+      "kind" : "note",
+      "text" : "NO USE CAN BE GIVEN TWICE"
+    }, {
+      "kind" : "note",
+      "text" : "high m.pt/corrosion resistant"
+    }, {
+      "kind" : "note",
+      "text" : "high strength-to-weight ratio/corrosion resistant"
+    }, {
+      "kind" : "note",
+      "text" : "not corrosive"
+    }, {
+      "kind" : "note",
+      "text" : "not corrosive"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q12",
+    "label" : "12",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)(ii)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M10.09824"
+    }, {
+      "kind" : "note",
+      "text" : "M20.004(0)"
+    }, {
+      "kind" : "note",
+      "text" : "M126(0)x0.4(00)1000"
+    }, {
+      "kind" : "note",
+      "text" : "an answer of 10(.0) for 1 mark (i.e. failing to divide by 1000)"
+    }, {
+      "kind" : "note",
+      "text" : "M20.01(00)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M10.004 mol of Mg react with 0.008 mol of HCl"
+    }, {
+      "kind" : "note",
+      "text" : "Mg and HCl react in a 1:2 ratio (by moles)"
+    }, {
+      "kind" : "note",
+      "text" : "OR0.01 is greater than 0.008/M2 from(a)(ii) is greater than2xM2 from(a)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2HCl is in excess"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Mark csq on answers in(a)(i)和(a)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q13a",
+    "label" : "13(a)",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 air",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "atmosphere"
+    }, {
+      "kind" : "note",
+      "text" : "M2 natural gas/water/hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "steam methane"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(temperature)400 to 500℃"
+    }, {
+      "kind" : "note",
+      "text" : "623 to 823K"
+    }, {
+      "kind" : "note",
+      "text" : "M2(pressure)150 to 250 atmospheres"
+    }, {
+      "kind" : "note",
+      "text" : "atm/bar"
+    }, {
+      "kind" : "note",
+      "text" : "Units required, but allow one mark for both numbers correct with units missing"
+    }, {
+      "kind" : "note",
+      "text" : "M3(catalyst)iron/Fe"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to promoters such as iron oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "nitric acid/ nitric(V) acid"
+    }, {
+      "kind" : "note",
+      "text" : "all other oxidation states"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1n(NH3)=28(0)×0.3(00)/1000/7.5×10-3(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "other suitable methods,e.g. use ofV1M1=V2M2"
+    }, {
+      "kind" : "note",
+      "text" : "M2n(HNO3)=25(0)×0.3(00)/1000/7.5×10-3(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3conc.(HNO3)=0.5(00)(mol/dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "OR18correctly evaluated"
+    }, {
+      "kind" : "note",
+      "text" : "Mark csq throughout correct answer with no working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-f8db3ca9-q14a",
+    "label" : "14(a)",
+    "number" : 14,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nM1 both forward and backwards reactions are occurring\nM2 amounts/concentrations of reactants and products stay the same/pressure(of gas mixture) stays the same\nM3 rate of forward reaction=rate of backwards reaction",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "masses for amounts"
+    }, {
+      "kind" : "note",
+      "text" : "are the same"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 increase"
+    }, {
+      "kind" : "note",
+      "text" : "M2(forward) reaction is exothermic/gives out heat"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to le Chatelier's principle and to reaction tries to decrease the temperature/equilibrium shifts to right"
+    }, {
+      "kind" : "note",
+      "text" : "reverse reaction is endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "equilibrium shifts to left"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 increase"
+    }, {
+      "kind" : "note",
+      "text" : "M2 fewer moles/molecules(of gas) on right(hand side)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to le Chatelier's principle and to reaction tries to decrease the pressure/equilibrium shifts to right"
+    }, {
+      "kind" : "note",
+      "text" : "more molecules on left(hand side)"
+    }, {
+      "kind" : "note",
+      "text" : "equilibrium shifts to left"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: M1volume of oxygen=80-63/17(cm3)\nM2percentage=(17/80×100)/21\nOR(M1/80×100correctly evaluated\n21withnoworkingscores1\n78.75/78.8/78.7withnoworkingscores1\n43/80×100=79scores1\n79withnoworkingscores0", "orphan row before first entry: (e)", "orphan row before first entry: Total9", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(e): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "8(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(e)(i): bare integer cell \"14\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(b): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "16: bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "12: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12: bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (d)", "orphan row before first entry: Total" ]
+}

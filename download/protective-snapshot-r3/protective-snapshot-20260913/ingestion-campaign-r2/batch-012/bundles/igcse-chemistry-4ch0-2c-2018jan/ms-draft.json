@@ -1,0 +1,459 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2018",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8bc45e9f-9a99-57e0-bd8e-0fbe78e3cb1d"
+  },
+  "entries" : [ {
+    "entryId" : "ms-8bc45e9f-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "P beaker\nQ (filter) funnel\nR conical flask\nS pipette",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D red"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "A blue"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "electron(s)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 proton(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 neutron(s)"
+    }, {
+      "kind" : "note",
+      "text" : "in either order"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "isotope(s)"
+    }, {
+      "kind" : "note",
+      "text" : "图示"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW other symbols for electrons"
+    }, {
+      "kind" : "note",
+      "text" : "do not need to show nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any diagram showing a lithium ion"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1[(92.5×7)+(7.5×6)]/100"
+    }, {
+      "kind" : "note",
+      "text" : "M2=6.9"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 6.925 and 6.93"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT 7"
+    }, {
+      "kind" : "note",
+      "text" : "Incorrect rounding e.g. 6.92 scores 1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE units"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B neutralisation\nbefore adding acid\nvolume added\nM1 26.30M2 1.75M3 24.55",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "after adding acid"
+    }, {
+      "kind" : "note",
+      "text" : "26.30"
+    }, {
+      "kind" : "note",
+      "text" : "If readings are correct but in wrong order, award 1 mark for M1 and M2M3 ECF from (M1-M2)Penalise an answer not to 2dp once only"
+    }, {
+      "kind" : "note",
+      "text" : "1.75"
+    }, {
+      "kind" : "note",
+      "text" : "24.55"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1 to obtain (two) concordant results/titresM2 to identify anomalous results/first result may be anomalousM3 to obtain a mean (of concordant results/titres)"
+    }, {
+      "kind" : "note",
+      "text" : "Or equivalent e.g. titres within up to 0.2 cm3ALLOW to obtain (very) similar results OWTTEALLOW reference to overshooting the end point on the first titrationALLOW average"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C3H8O",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Penalise incorrect use of lowercase letters and subscriptsALLOW symbols in any order e.g. C3OH8REJECT C3H7OH"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(correct as X) only contains single bondsM2(not correct as X) contains oxygen/OM3 hydrocarbon contains hydrogen/H and carbon/C only"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW no double bondsREJECT if they say it is unsaturatedIGNORE O2ALLOW(not correct as X) is an alcoholREJECT if they say it is a hydrocarbonREJECT hydrogen and carbon molecules"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:·have a general formula·successive members differ by CH2·trends in physical properties·same functional group"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to chemical properties"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q4ci",
+    "label" : "4(c)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "catalyst",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW description of effect of catalyst e.g. to speed up the reaction/ to lower the activation energy"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to dehydrate compound X"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "insoluble (in water)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to density"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (only) slightly soluble in water"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "contains air"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW contains oxygen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE contains other gases"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE bond angles"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW H-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 H2O"
+    }, {
+      "kind" : "note",
+      "text" : "propene"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "All three names must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "Fe"
+    }, {
+      "kind" : "note",
+      "text" : "iron"
+    }, {
+      "kind" : "note",
+      "text" : "Cr"
+    }, {
+      "kind" : "note",
+      "text" : "chromium"
+    }, {
+      "kind" : "note",
+      "text" : "O"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Cr2O3+2Al→Al2O3+2CrM1Al2O3M2 completely correct equation"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 aluminium more reactive(than chromium)M2 as aluminium displaces chromium"
+    }, {
+      "kind" : "note",
+      "text" : "ORAALLOW aluminium higher in the reactivity series(than chromium)ALLOW aluminium removes the oxygen from chromium"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1(redox means both) reduction and oxidation taking place(at same time)M2 chromium reduced and aluminium oxidisedM3 chromium(reduced as) loses oxygen and aluminium(oxidised as) gains oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT chromium oxideACCEPT chromium oxideACCEPT chromium ions gain electrons(so reduced) and aluminium loses electrons(so oxidised)ALLOW answer in terms of oxidation number changes"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 mol(Cr)=0.13/52=0.0025M2 vol H2=answer to M1x24=M3 0.06(0)dm3",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "M1 mol(Cr)=0.13/52=0.0025M2 vol H2=answer to M1x24=M3 0.06",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "M1 mol(Cr)=0.13/52=0.0025M2 vol H2=answer to M1x24=M3 0.06"
+    }, {
+      "ordinal" : 2,
+      "text" : "dm3",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "dm3"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept 60cm3If incorrect moles ofH2e.g.0.0025has been multiplied or divided by2,ECF toM3,i.e.0.03or0.12would score2marks"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1(sample of) chromium impureM2 gas leakage(from apparatus)/some gas escaped(before the bung was inserted)M3 not enough/less than0.13g chromium used/did not use excess acidM4 reaction not allowed to go to completion/the volume was measured before reaction endedM5 some gas dissolved in the acid/solution"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(24+16)=40",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Li+andF-"
+    }, {
+      "kind" : "note",
+      "text" : "both needed"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any four fromM1 strong(electrostatic)forces/attractionM2 between oppositely charged ionsM3 a large amount of energy needed to overcome attraction/break down lattice/break bondsM4(MgO higher melting point as) greater charge onMg2+(thanLi+)/greater charge onO2-(thanF-)M5EITHERso stronger attraction/forces/bonds(inMgO)ORmore(thermal/heat)energy required to overcome attraction/break down lattice/break the bonds(inMgO)/ORAMAX2if any reference to intermolecular forces/covalent bonding/electron sharing/molecules/metallic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT strong(ionic)bondsMust be a comparison to gain M5MAX2if any reference to intermolecular forces/covalent bonding/electron sharing/molecules/metallic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(when)solid ions in fixed positions/don't move/only vibrateM2(when)molten or in solution ions can move/mobile"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE electronsALLOW atomsREJECT electrons/atomsMAX1if mention of sharing of electrons/covalent bonding"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bc45e9f-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 oxidation is loss of electronsM2 chloride ions/Cl- lose electrons (so oxidised)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT chlorine/Cl/Cl2 loses electronsALLOW chloride loses electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2H2O+2e-→2OH-+H2M1 all correct speciesM2 correctly balancingM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Cl2+2NaOH→NaCl+NaOCl+H2O"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 monomers join together/ double bonds broken(in monomers)M2 to form a long chain(molecule)/large molecule"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW link/add in place of join"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "[H]C[H]C[nH2]M1 correct repeat structureM2 brackets and continuation bonds and n"
+    }, {
+      "kind" : "note",
+      "text" : "No M1 if more than 1 repeat unit shownACCEPT n anywhere after the brackets but not beforeREJECT any structure with a double bond for both marks"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

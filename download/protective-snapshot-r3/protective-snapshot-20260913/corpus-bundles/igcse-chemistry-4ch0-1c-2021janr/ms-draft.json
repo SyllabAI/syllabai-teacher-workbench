@@ -1,0 +1,931 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1CR_2101_MS",
+    "session" : "January 2021",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "6844fd66-06dd-5a01-9906-6a8f093c91e0"
+  },
+  "entries" : [ {
+    "entryId" : "ms-6844fd66-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "copper"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "glucose/water"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "air"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen/oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "copper"
+    }, {
+      "kind" : "note",
+      "text" : "(f)"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen and sulfur"
+    }, {
+      "kind" : "note",
+      "text" : "in either order"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from the following:\nM1 contains 3 dyes\nM2 contains (dye) A\nM3 contains (dye) B\nM4 does not contain (dye) C / contains an unknown\ndye OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(Ink 2) is insoluble (in solvent/water)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW does not contain (dye) A/B/C"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(repeat) using different solvent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW named alternative solvent eg alcohol/ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct measurement of distance moved by spot"
+    }, {
+      "kind" : "note",
+      "text" : "AND correct measurement of distance moved by solvent"
+    }, {
+      "kind" : "note",
+      "text" : "M2 use and evaluation of"
+    }, {
+      "kind" : "note",
+      "text" : "Rf=distance moved by spot"
+    }, {
+      "kind" : "note",
+      "text" : "distance moved by solvent front"
+    }, {
+      "kind" : "note",
+      "text" : "M3 answer to 2 sig fig"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 5.4-5.6"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 7.9-8.1"
+    }, {
+      "kind" : "note",
+      "text" : "Expected:"
+    }, {
+      "kind" : "note",
+      "text" : "5.5=0.6875"
+    }, {
+      "kind" : "note",
+      "text" : "8.0=0.69"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores 3"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "alkanes",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A boiling point is the correct answer because fractional distillation depends on differences in boiling pointB is not correct because fractional distillation does not depend on differences in densityC is not correct because fractional distillation does not depend on differences in melting pointD is not correct because fractional distillation does not depend on differences in solubility"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "bitumenfuel for aeroplanes dieselfuel for ships fuel oilsurfacing roadsgasolinekerosene1 mark for each correct line from boxes on left"
+    }, {
+      "kind" : "note",
+      "text" : "If more than one line from a box on left do not award mark for that box"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including the following points:M1(common impurity in fuels is) sulfurM2 sulfur burns/combusts/reacts(in air/oxygen) to form sulfur dioxide/SO2M3 sulfur dioxide/SO2 dissolves in/reacts with rain/water to form acid rain"
+    }, {
+      "kind" : "note",
+      "text" : "If M2 M3 not scoredALLOW 1 mark for reference to sulphur dioxide/SO2 and acid rain"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q3di",
+    "label" : "3(d)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "cracking",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(catalyst) silica/alumina"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW silicon dioxide/aluminium oxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW zeolite"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "C13H28→C8H18+"
+    }, {
+      "kind" : "note",
+      "text" : "M1C3H6+"
+    }, {
+      "kind" : "note",
+      "text" : "in either order"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW structural formulae"
+    }, {
+      "kind" : "note",
+      "text" : "M2C2H4"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 1 mark for single productC5H10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(hydrated) iron(III) oxide\nM2 correct expression for percentage of oxygen\nM3 correct evaluation\nExample calculation:\nM1(35.5-20.0=)15.5\nM2(15.5÷80.0)x100",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT incorrect oxidation states"
+    }, {
+      "kind" : "note",
+      "text" : "M1(barrier method involves) coating iron in paint/oil/grease/plastic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW coating in named metal below iron in reactivity series eg tin"
+    }, {
+      "kind" : "note",
+      "text" : "M2 stops oxygen/air/water getting to the iron"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW stops iron reacting with oxygen/air/water"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "reading at start"
+    }, {
+      "kind" : "note",
+      "text" : "20.5"
+    }, {
+      "kind" : "note",
+      "text" : "CSQ on reading"
+    }, {
+      "kind" : "note",
+      "text" : "reading at end"
+    }, {
+      "kind" : "note",
+      "text" : "33.5(1)"
+    }, {
+      "kind" : "note",
+      "text" : "volume of oxygen used in cm3"
+    }, {
+      "kind" : "note",
+      "text" : "13.0(1)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "not all oxygen had reacted / not enough iron (wool)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW not left for long enough/ OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calculation of volume oxygen used"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 19.375/19.38"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "(M3 19.4%)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)\nM1(use the same) amount of metal carbonate\nM2(use the same) sized pieces/surface area\nM2 showing metal carbonate has reacted/decomposed\n(ii)CuCO3→CuO+CO2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(thermal) decomposition(1)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "any two of the following:"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW mass"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M3(use the same) volume of limewater"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "bubbles are air(from tube)/caused by air(expanding on heating)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gas in tube expands(on heating)"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(when limewater turns milky/cloudy it)shows carbon dioxide produced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon dioxide comes from carbonate(reacting/decomposing)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE qualifiers eg light"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW products in either order"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q5fi",
+    "label" : "5(f)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 the lower the metal is(in the reactivity series)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW the less reactive a metal is"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the more easily the(metal) carbonate reacts/decomposes"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the more easily the(metal) carbonate produces carbon dioxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to the less time the(metal) carbonate takes to react/decompose"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to the faster the(metal) carbonate reacts/decomposes"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse arguments"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "repeat (the investigation) using different/other/more(metal) carbonates"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Zn+2HCl→ZnCl2+H2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 all symbols and formulae correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correctly balanced"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "lighted splint (produces squeaky) pop"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "52(cm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 51.5-52.5"
+    }, {
+      "kind" : "note",
+      "text" : "M1 vertical line from 15cm3 acid to graph line"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW extra point drawn at 15cm3"
+    }, {
+      "kind" : "note",
+      "text" : "M2 volume hydrogen from graph multiplied by 2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 68-70"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 vertical line from 30cm3 acid to graph line"
+    }, {
+      "kind" : "note",
+      "text" : "M2 volume hydrogen from graph"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW extra point drawn at 30cm3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 68-70"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation linking"
+    }, {
+      "kind" : "note",
+      "text" : "M1 more (acid) particles/(hydrogen) ions/H+ in same volume"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT molecules once only"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles are closer together"
+    }, {
+      "kind" : "note",
+      "text" : "M2 more (successful) collisions per second/unit time"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT more frequent collisions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE more chance/probability of collision"
+    }, {
+      "kind" : "note",
+      "text" : "M3 rate increases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reaction is faster/speeds up"
+    }, {
+      "kind" : "note",
+      "text" : "MAX 1 if refer to particles moving faster/having more energy"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q6d",
+    "label" : "6(d)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation including\nM1(increase/decrease) surface area\nM2 increase surface area by using smaller pieces of zinc\nM3 more (successful) collisions per second/unit time(so rate increases)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT more frequent collisions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE more chance/probability of collision"
+    }, {
+      "kind" : "note",
+      "text" : "M2 M3 ACCEPT reverse arguments"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "description including\n(formation of ions in lithium chloride involves)\nM1 lithium (atom) losing electron\nM2 chlorine (atom) gaining an electron\n(formation of covalent bonds in hydrogen chloride involves)\nM3 sharing a pair of electrons (one electron from each atom)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW correct dot-and-cross diagrams for ions for M1 and M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct dot-and-cross diagram showing shared pair in hydrogen chloride for M3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q7b",
+    "label" : "7(b)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation including five of the following points:(lithium chloride)M1 giant(ionic) structureM2 strong(electrostatic) forces of attractionM3 between oppositely charged ions(hydrogen chloride)M4 simple molecular structureM5 weak intermolecular forces of attractionM6 more(heat/thermal)energy needed to overcome forces/break bonds in lithium chloride(than intermolecular forces in hydrogen chloride)OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW giant latticeALLOW strong bondsACCEPT positive and negative ionsIf any reference to molecules/atoms/covalent bonds/intermolecular forces/metallic bonds cannot score M2 M3 M6ALLOW weak bonds between moleculesACCEPT reverse argumentIf description/implication of breaking covalent bonds in hydrogen chloride cannot score M5 M6"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation linking",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(molecules/compounds) having same molecular formulaeM2but different structural/displayed formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW different structuresALLOW different arrangement of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1displayed formula of but-1-ene"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE bond angles"
+    }, {
+      "kind" : "note",
+      "text" : "M2displayed formula of but-2-ene"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW displayed formula of methylpropene"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q8bi",
+    "label" : "8(b)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation linking\nM1 molecule is unsaturated as contains (carbon to carbon) double bond\nM2 molecule not a hydrocarbon as contains oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT does not contain hydrogen and carbon only"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "addition"
+    }, {
+      "kind" : "note",
+      "text" : "n can be anywhere after bracket extension bonds do not have to go through bracketsM2 DEP M1 or near miss"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct repeat unit structureM2 extension bonds, brackets and n"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q8ci",
+    "label" : "8(c)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 calculation of mass of octaneM2 calculation of Mr of C8H18 and CO2M3 link between mass/mol C8H18 and mass/mol CO2M4 calculation of mass CO2 in gM5 calculation of mass CO2 in kgExample calculation:M1 50x700=35000(g)M2 Mr of C8H18=114 and Mr CO2=44M3 114g C8H18 produces(8x44=)352(g)CO2M4 35000g C8H18 produces35000x352114=108070.2(g)CO2M5=108(kg)Alternative method using mol:M1 50x700=35000(g)M2 Mr of C8H18=114 and Mr CO2=44M3 n(C8H18)=35000=307.0175mol114so n(CO2)=8x307.0175=2456.14molM4 mass CO2=2456.14x44=108070.2(g)M5=108(kg)MARK CSQ in both methodscorrect answer without working scores5",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "5"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to keep out of contact/prevent reaction with air/oxygen/water/moisture",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW they react with air/oxygen/water/moisture"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "similarity: both fizz/move on surface/produce flame difference caesium: faster/more violent reaction"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW both melt/form a ball/produce a gas/produce hydrogen/form an alkaline solutionACCEPT reverse argument for potassiumALLOW caesium explodes"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2Cs+2H2O→2CsOH+H2M1 all symbols/formulae correctM2 correctly balanced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT fractions and multiplesM2 DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "a lid/cover"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation linking eitherM1 stir solutionM2 to obtain more accurate(maximum) temperatureORM1 measure temperature of sodium hydroxideM2 to check if different to/same as temperature of(hydrochloric) acid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to even temperature throughout/heat evenly distributed OWTTE"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q9di",
+    "label" : "9(d)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 correct temperature change/△T",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 correct substitution into Q=mxcx△T"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct evaluation"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation:"
+    }, {
+      "kind" : "note",
+      "text" : "M1△T=(26.5-19.9)OR6.6"
+    }, {
+      "kind" : "note",
+      "text" : "M2Q=100x4.2x6.6"
+    }, {
+      "kind" : "note",
+      "text" : "M2ECF M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3=2800(J)"
+    }, {
+      "kind" : "note",
+      "text" : "M3ECF M2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any sign"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2770,2772"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1answer toM3from(i)÷0.05"
+    }, {
+      "kind" : "note",
+      "text" : "M2correct evaluation inkJ/mol with negative sign"
+    }, {
+      "kind" : "note",
+      "text" : "expected answer"
+    }, {
+      "kind" : "note",
+      "text" : "M12800÷0.05OR56000(J)"
+    }, {
+      "kind" : "note",
+      "text" : "2770gives55400"
+    }, {
+      "kind" : "note",
+      "text" : "2772gives55440"
+    }, {
+      "kind" : "note",
+      "text" : "M2-56(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "negative sign required"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT-55.4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT-55.44"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT-55"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores2"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "neutralisation"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW acid - base"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "acid donates proton(s)/base accepts proton(s)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW metal oxide for base"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "description including"
+    }, {
+      "kind" : "note",
+      "text" : "M1 appropriate use of at least three named pieces of apparatus"
+    }, {
+      "kind" : "note",
+      "text" : "AND any four of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M2 add copper(II) carbonate to (dilute sulfuric) acid (a spatula/little at a time and stir after each addition)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 until no more effervescence"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW until no more reacts/dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M4 filter (to remove excess copper(II) carbonate/to obtain (copper(II) sulfate) solution)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW until in excess"
+    }, {
+      "kind" : "note",
+      "text" : "M5 heat/warm filtrate/(copper(II) sulfate) solution until crystals start to appear (solution saturated) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M6 filter to obtain (the saturated) solution"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE if continue and prepare crystals instead of saturated solution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calculation of actual mass of crystals obtained"
+    }, {
+      "kind" : "note",
+      "text" : "M2 division by expected mass of crystals (6.4) and multiplication by 100 to convert to percentage"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct to 1 dp"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (6.40-1.80=) 4.6(0)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (% yield=) 4.6 x100 OR 71.875 (%) 6.4"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ECF M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 = 71.9 (%)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 DEP M2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-6844fd66-q10ci",
+    "label" : "10(c)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 find percentage of water",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 divide each percentage by Mr to find number of moles"
+    }, {
+      "kind" : "note",
+      "text" : "M3 divide each answer by smallest to find ratio and value of x"
+    }, {
+      "kind" : "note",
+      "text" : "Expected calculation:"
+    }, {
+      "kind" : "note",
+      "text" : "M1(79%)CaSO421%H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M279(=0.58)13621(=1.17)18"
+    }, {
+      "kind" : "note",
+      "text" : "M30.580.581.17=1:2"
+    }, {
+      "kind" : "note",
+      "text" : "so x=2"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) description including"
+    }, {
+      "kind" : "note",
+      "text" : "M1 do a flame test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW description of flame test"
+    }, {
+      "kind" : "note",
+      "text" : "M2 orange-red flame"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : 110,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(d)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(d)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Question number", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(f)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(d)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "10(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,1271 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "KCH0/1C",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2013",
+    "examDate" : "Monday 20 May 2013 – Afternoon",
+    "duration" : null,
+    "canonicalDocumentId" : "e210e656-06bc-5ece-ba3b-2875b5d1ee9f"
+  },
+  "questions" : [ {
+    "questionId" : "q01-e210e656",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Boron is an element in Group 3 of the Periodic Table. An atom of boron can be represented as $ ^{1 1} _ {5} \\mathrm{B} $",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-e210e656-pa",
+      "label" : "a",
+      "text" : "Use numbers from the box to complete the sentences about this atom of boron. Each number may be used once, more than once or not at all.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pa-i",
+      "label" : "a-i",
+      "text" : "The atomic number of boron is ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "The mass number of boron is ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pa-iii",
+      "label" : "a-iii",
+      "text" : "This atom of boron contains ... protons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pa-iv",
+      "label" : "a-iv",
+      "text" : "This atom of boron contains neutrons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pa-v",
+      "label" : "a-v",
+      "text" : "This atom of boron contains ... electrons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pb",
+      "label" : "b",
+      "text" : "Aluminium is another element in Group 3 of the Periodic Table. Select a word or phrase from the box to complete each sentence about an atom of aluminium. Each word or phrase may be used once, more than once or not at all.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pb-i",
+      "label" : "b-i",
+      "text" : "Compared to an atom of boron, an atom of aluminium has protons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "Compared to an atom of boron, an atom of aluminium has ... neutrons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pb-iii",
+      "label" : "b-iii",
+      "text" : "Compared to an atom of boron, an atom of aluminium has electrons in its outer shell.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-e210e656-pc",
+      "label" : "c",
+      "text" : "The electronic configuration of aluminium is",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000026", "e000035" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q02-e210e656",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student used this apparatus to make and collect a sample of hydrogen gas.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-e210e656-pa",
+      "label" : "a",
+      "text" : "The reaction in the flask can be shown by this word equation. metal + acid $ \\rightarrow $ salt + hydrogen",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pa-i",
+      "label" : "a-i",
+      "text" : "The name of the salt formed in the student's experiment is A zinc sulfate B zinc sulfide zinc sulfite D zinc sulfur",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "The student could have used other metals in this experiment. Place crosses ( $ \\times $ ) in two boxes to show the names of two other metals that could be safely used to make hydrogen. A copper B iron C magnesium D potassium E silver",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pb",
+      "label" : "b",
+      "text" : "Describe a test to show that the gas collected is hydrogen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pc",
+      "label" : "c",
+      "text" : "Water is formed when hydrogen combines with oxygen. Balance the equation for this reaction. $\\mathrm {H} _ {2} + \\mathrm {O} _ {2} \\rightarrow \\mathrm {H} _ {2} \\mathrm {O}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pd",
+      "label" : "d",
+      "text" : "Equation 1 represents a reaction using cobalt(II) chloride that can be used to show a liquid contains water. Equation 1 $\\mathrm {C o C l} _ {2}. 2 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {s}) + 4 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {l}) \\rightarrow \\mathrm {C o C l} _ {2}. 6 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {s})$ In this reaction there is a colour change from blue to pink.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pd-i",
+      "label" : "d-i",
+      "text" : "Which word describes both cobalt compounds in equation 1? A anhydrous B aqueous C hydrated D saturated",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "When the product in equation 1 is gently heated, another reaction occurs. Equation 2 represents this reaction. Equation 2 $\\mathrm {C o C l} _ {2}. 6 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {s}) \\rightarrow \\mathrm {C o C l} _ {2}. 2 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {s}) + 4 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {g})$ What do equations 1 and 2 suggest about the reactions?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000042",
+      "sourceName" : "assets/crop_1_1789047427334.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427334.png",
+      "availability" : "available",
+      "assetId" : "img:2fa1fcab030408c6fb6ff74099cb7d4dc90859939d7340169399e8869426c71c",
+      "sha256" : "2fa1fcab030408c6fb6ff74099cb7d4dc90859939d7340169399e8869426c71c",
+      "mimeType" : "image/jpeg",
+      "width" : 1529,
+      "height" : 623,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q03-e210e656",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The halogens are elements in Group 7 of the Periodic Table. The halogens react with metals to form compounds called halides. Table 1 shows information about some halogens and their halides. Table 1",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-e210e656-pa",
+      "label" : "a",
+      "text" : "Predict the physical state of fluorine at room temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "Predict how the colour of astatine at room temperature compares with the colour of iodine.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb",
+      "label" : "b",
+      "text" : "Each of the halides in table 1 was dissolved in water to form a solution. A sample of each of the halogens was then added to some of the halide solutions. Table 2 shows the results. Table 2",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb-i",
+      "label" : "b-i",
+      "text" : "Suggest why there is no reason to add chlorine to lithium chloride solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "Why was there no reaction when iodine was added to sodium bromide solution?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb-iii",
+      "label" : "b-iii",
+      "text" : "Name the substance with the brown colour that formed when chlorine was added to potassium iodide solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb-iv",
+      "label" : "b-iv",
+      "text" : "The reaction between bromine and potassium iodide solution is a displacement reaction. What is the correct description of this reaction? A bromide displaces iodide B bromine displaces iodide C bromide displaces iodine D bromine displaces iodine",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-e210e656-pb-v",
+      "label" : "b-v",
+      "text" : "Complete the chemical equation for the reaction between chlorine and potassium bromide solution. $\\mathrm {C l} _ {2} + 2 \\mathrm {K B r} \\rightarrow \\dots \\dots$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000074", "e000079" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-e210e656",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Ethene can be converted into many useful substances.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-e210e656-pa",
+      "label" : "a",
+      "text" : "Draw a dot and cross diagram to show the covalent bonding in a molecule of ethene. Only the outer electrons in each atom need to be shown.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-e210e656-pb",
+      "label" : "b",
+      "text" : "Compound X is made from ethene and is used in cars to prevent the engine coolant from freezing in cold weather.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-e210e656-pb-i",
+      "label" : "b-i",
+      "text" : "Compound X contains 38.7% carbon, 9.7% hydrogen and 51.6% oxygen by mass. Calculate the empirical formula of X. Empirical formula",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "The relative formula mass $ ( M_{r} ) $ of X is 62 What is the molecular formula of X?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 6,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-e210e656",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student was asked to compare the industrial processes used to extract aluminium and iron from their ores.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-e210e656-pa",
+      "label" : "a",
+      "text" : "Name the main ore used as the source of iron.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "Aluminium is extracted from purified aluminium oxide. What is the formula of aluminium oxide?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pa-iii",
+      "label" : "a-iii",
+      "text" : "One solid element is used in the extraction of both metals. Identify this element and state its purpose in the extraction of aluminium. Element",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pa-iv",
+      "label" : "a-iv",
+      "text" : "One gaseous element takes part in a reaction needed in the extraction of iron. Identify this element and state its purpose in the extraction of iron. Element Purpose",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pb",
+      "label" : "b",
+      "text" : "The student wrote this statement: The extractions of aluminium and iron both involve reduction and oxidation reactions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pb-i",
+      "label" : "b-i",
+      "text" : "What name is given to a reaction that involves both reduction and oxidation?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "Why does this equation represent a reduction reaction? $\\mathrm {A l} ^ {3 +} + 3 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {A l}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pb-iii",
+      "label" : "b-iii",
+      "text" : "The equation for a reaction that occurs in some extractions of iron is $\\mathrm {C} + \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C O} + \\mathrm {H} _ {2}$ Identify the substance oxidised in this reaction, giving a reason for your choice. Substance oxidised Reason",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pc",
+      "label" : "c",
+      "text" : "Both extractions occur at a high temperature. Neither extraction uses a catalyst.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pc-i",
+      "label" : "c-i",
+      "text" : "What is meant by the term catalyst?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pc-ii",
+      "label" : "c-ii",
+      "text" : "State one reason why cryolite is used in the extraction of aluminium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pd",
+      "label" : "d",
+      "text" : "Several equations can be written for the reactions occurring in the extractions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pd-i",
+      "label" : "d-i",
+      "text" : "Write the chemical equation for the reaction between iron(III) oxide $ \\mathrm{(F e_{2} O_{3})} $ and carbon monoxide (CO).",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "This equation represents a reaction used to remove impurities in the extraction of iron. $\\mathrm {C a O} + \\mathrm {S i O} _ {2} \\rightarrow \\mathrm {C a S i O} _ {3}$ State the type of reaction occurring in this equation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-e210e656-pd-iii",
+      "label" : "d-iii",
+      "text" : "Complete the table by giving the common name for calcium silicate.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000126" ],
+    "marks" : 17,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q06-e210e656",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The table shows the structures of six organic compounds, A to F. A H\nH-C-Br\nH H\nC=C\nH\nH C\nCH3\nCH3-C-CH3\nCH3 D H H\nH-C-C-H\nH H H H H\nH-C-C-C-H\nH H H F\nH H H H H\nH-C-C-C-C-C-H\nH H H H H",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-e210e656-pa",
+      "label" : "a",
+      "text" : "The letter of the compound in the table that is not shown as a displayed formula is.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pb",
+      "label" : "b",
+      "text" : "State what is meant by the term hydrocarbon, and give the letter of one compound in the table that is not a hydrocarbon. Hydrocarbon Letter",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "State what is meant by the term unsaturated, and give the letter of one compound in the table that is unsaturated. Unsaturated Letter",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pb-iii",
+      "label" : "b-iii",
+      "text" : "State what is meant by the term isomers, and give the letters of two compounds in the table that are isomers of each other. Isomers Letters",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pc",
+      "label" : "c",
+      "text" : "Some of the compounds in the table are members of the same homologous series.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pc-i",
+      "label" : "c-i",
+      "text" : "One feature of a homologous series is that adjacent members have formulae that differ by $ \\mathrm{C H_{2}} $ State two other features of members of the same homologous series.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pc-ii",
+      "label" : "c-ii",
+      "text" : "Give the letters of two adjacent members of the same homologous series shown in the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pd",
+      "label" : "d",
+      "text" : "Compound G has the molecular formula $ \\mathrm{C_{2} H_{4} Br_{2}} $ It can be made from a compound in the table by a reaction that does not need UV light. Draw the displayed formula of compound G.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "Compound H reacts with bromine to form one of the compounds in the table. The reaction needs UV light. Draw the displayed formula of compound H.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000129" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q07-e210e656",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A teacher asked her students to suggest some experiments that could be done using chemicals found in the home. One student planned an experiment to measure the temperature change when baking soda is added to vinegar. She wrote this plan. pour 100 $ cm^{3} $ of vinegar into a polystyrene cup weigh out five separate 1 g portions of baking soda measure the temperature of the vinegar add 1 g of baking soda to the vinegar and stir record the new temperature add the other portions of baking soda, stirring and recording the temperature after each portion is added The graph shows her results. Mass of baking soda added in grams",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-e210e656-pa",
+      "label" : "a",
+      "text" : "The student said that the reaction in her experiment was not complete. How does the graph support her statement?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pb",
+      "label" : "b",
+      "text" : "The student used a polystyrene cup rather than a glass beaker. Why is it better to use a polystyrene cup?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pc",
+      "label" : "c",
+      "text" : "Vinegar contains ethanoic acid. Baking soda contains sodium hydrogencarbonate. The student found this equation for the reaction: $\\mathrm {C H} _ {3} \\mathrm {C O O H} + \\mathrm {N a H C O} _ {3} \\rightarrow \\mathrm {C H} _ {3} \\mathrm {C O O N a} + \\mathrm {H} _ {2} \\mathrm {O} + \\mathrm {C O} _ {2}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pc-i",
+      "label" : "c-i",
+      "text" : "There is no colour change during this reaction. Suggest one observation, other than the change in temperature, that could be made during the reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pc-ii",
+      "label" : "c-ii",
+      "text" : "The compound $ \\mathrm{C H_{3} C O O H} $ is an acid and the compound $ \\mathrm{C H_{3} C O O N a} $ is a salt. The graph shows that the temperature goes down during the reaction. Use this information to state the two types of reaction occurring.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pd",
+      "label" : "d",
+      "text" : "Complete the energy level diagram by showing the products of the reaction. $\\text{Energy} \\xrightarrow {\\mathrm {C H} _ {3} \\mathrm {C O O H} + \\mathrm {N a H C O} _ {3}}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "Label the diagram to show the energy change, $ \\Delta H $ , for the reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pe",
+      "label" : "e",
+      "text" : "The student repeated the experiment using the same method with a different sample of vinegar. She recorded these results. $\\text{Volume of vinegar} = 1 0 0 \\mathrm {c m} ^ {3}$ $\\mathrm {M a s s o f b a k i n g s o d a} = 5. 0 \\mathrm {g}$ $\\text{Temperature at start} = 1 8. 7 ^ {\\circ} \\mathrm {C}$ $\\text{Temperature at end} = 1 3. 2 ^ {\\circ} \\mathrm {C}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pe-i",
+      "label" : "e-i",
+      "text" : "Calculate the heat energy change in this experiment using the expression heat energy change = volume of vinegar $ \\times4.2\\times $ temperature change",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "Heat energy change" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-e210e656-pe-ii",
+      "label" : "e-ii",
+      "text" : "The student wanted to calculate the amount, in moles, of ethanoic acid in the vinegar. Apart from the volume of vinegar, what other information would she need to be able to calculate the amount of ethanoic acid?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000159",
+      "sourceName" : "assets/crop_1_1789047427396.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427396.png",
+      "availability" : "available",
+      "assetId" : "img:70492b184e7c6f7ac8212b17b7abdc9d589da680b6b7cff5ee8346042f5aef44",
+      "sha256" : "70492b184e7c6f7ac8212b17b7abdc9d589da680b6b7cff5ee8346042f5aef44",
+      "mimeType" : "image/jpeg",
+      "width" : 1299,
+      "height" : 1056,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q08-e210e656",
+    "number" : 8,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A group of students investigated the reaction between marble chips (calcium carbonate) and dilute hydrochloric acid. The equation for this reaction is $\\mathrm {C a C O} _ {3} (\\mathrm {s}) + 2 \\mathrm {H C l} (\\mathrm {a q}) \\rightarrow \\mathrm {C a C l} _ {2} (\\mathrm {a q}) + \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {l}) + \\mathrm {C O} _ {2} (\\mathrm {g})$ They wanted to find the effect of changing the concentration of hydrochloric acid on the rate of reaction. The teacher provided a solution that she had labelled 100% hydrochloric acid. The teacher told them to do all their experiments using different concentrations of hydrochloric acid made by diluting the 100% hydrochloric acid by timing how long it took to collect carbon dioxide at room temperature The students used this apparatus.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q08-e210e656-pa",
+      "label" : "a",
+      "text" : "The students tried to keep the amount of calcium carbonate constant by using the same number of marble chips in each experiment. State two other properties of the marble chips that should be the same in each experiment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pb",
+      "label" : "b",
+      "text" : "The table shows how some of the students wrote down their results. The teacher said that she could only use the results from student 1 because the other students had not recorded enough information. Identify the piece of information that each student failed to record. Student 2 Student 3 Student 4 Student 5",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pc",
+      "label" : "c",
+      "text" : "The students repeated the experiment to make sure that it was a fair test. They used a different supply of hydrochloric acid. They all measured the time to collect $ 1 0 0 \\mathrm{c m}^{3} $ of carbon dioxide and calculated the rate of each reaction. Their results are shown in the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pc-i",
+      "label" : "c-i",
+      "text" : "Plot these results on the grid and draw a straight line of best fit. Rate of reaction in $ \\mathrm{c m^{3}/s} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000207",
+        "sourceName" : "assets/crop_1_1789047427441.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789047427441.png",
+        "availability" : "available",
+        "assetId" : "img:c5aa0c881496a8dede0f0d8cac00be3fcd3fa9351509e7a337d7c54292c32189",
+        "sha256" : "c5aa0c881496a8dede0f0d8cac00be3fcd3fa9351509e7a337d7c54292c32189",
+        "mimeType" : "image/jpeg",
+        "width" : 1050,
+        "height" : 1091,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pc-ii",
+      "label" : "c-ii",
+      "text" : "One of the points is anomalous. Circle this point on the graph.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pc-iii",
+      "label" : "c-iii",
+      "text" : "Suggest two errors in the experiment that could have caused this anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q08-e210e656-pc-iv",
+      "label" : "c-iv",
+      "text" : "Use your graph to estimate the rate of reaction using an acid concentration of 50%. Show on your graph how you obtained your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000191",
+      "sourceName" : "assets/crop_1_1789047427424.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427424.png",
+      "availability" : "available",
+      "assetId" : "img:9e7480bf3bc61d6241a57cf311d1a43e0ba81175d7b35cbb71c9ce77775b84cd",
+      "sha256" : "9e7480bf3bc61d6241a57cf311d1a43e0ba81175d7b35cbb71c9ce77775b84cd",
+      "mimeType" : "image/jpeg",
+      "width" : 1507,
+      "height" : 612,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000207",
+      "sourceName" : "assets/crop_1_1789047427441.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427441.png",
+      "availability" : "available",
+      "assetId" : "img:c5aa0c881496a8dede0f0d8cac00be3fcd3fa9351509e7a337d7c54292c32189",
+      "sha256" : "c5aa0c881496a8dede0f0d8cac00be3fcd3fa9351509e7a337d7c54292c32189",
+      "mimeType" : "image/jpeg",
+      "width" : 1050,
+      "height" : 1091,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000195", "e000204" ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q09-e210e656",
+    "number" : 9,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows some pieces of apparatus used to measure volumes. He was allowed to use normal laboratory apparatus, including the pieces of apparatus shown in the diagram. He was told to plan an experiment to find the concentration of the sodium hydroxide solution. This is his plan. Step1 Obtain about 150 $ cm^{3} $ of each solution. Step 2 Use a measuring cylinder to add exactly 25.0 $ cm^{3} $ of sodium hydroxide solution to a conical flask. Step 3 Add a few drops of universal indicator to the conical flask. Step 4 Use a burette to add the sulfuric acid to the conical flask until the indicator changes colour. A student was given a large bottle containing sodium hydroxide solution and a supply of dilute sulfuric acid of known concentration.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q09-e210e656-pa",
+      "label" : "a",
+      "text" : "Give the name of the most suitable piece of apparatus in the diagram that should be used in Step 1.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give the name of the piece of apparatus in the diagram that should be used instead of a measuring cylinder in Step 2.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pa-iii",
+      "label" : "a-iii",
+      "text" : "State why universal indicator is not a good choice for this experiment and suggest an indicator that would be more suitable.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pa-iv",
+      "label" : "a-iv",
+      "text" : "Why is a pipette not suitable for adding the acid in Step 4?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pb",
+      "label" : "b",
+      "text" : "The diagram shows the burette readings in one experiment before and after adding the acid. Use the readings to complete the table, entering all values to the nearest 0.05 $ cm^{3}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000226",
+        "sourceName" : "assets/crop_1_1789047427467.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789047427467.png",
+        "availability" : "available",
+        "assetId" : "img:43428522d648ae0d6ddc6e1bde6aefc18d3d61bac274064aca9485bed3d31be4",
+        "sha256" : "43428522d648ae0d6ddc6e1bde6aefc18d3d61bac274064aca9485bed3d31be4",
+        "mimeType" : "image/jpeg",
+        "width" : 155,
+        "height" : 595,
+        "formatMismatch" : true
+      }, {
+        "elementId" : "e000227",
+        "sourceName" : "assets/crop_2_1789047427471.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789047427471.png",
+        "availability" : "available",
+        "assetId" : "img:52b8943f445aa12cbc900f1ef2b37558148844e8e4be7e0914de4534aa32ed49",
+        "sha256" : "52b8943f445aa12cbc900f1ef2b37558148844e8e4be7e0914de4534aa32ed49",
+        "mimeType" : "image/jpeg",
+        "width" : 171,
+        "height" : 598,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pc",
+      "label" : "c",
+      "text" : "The student repeated the experiment using a different concentration of sodium hydroxide solution and recorded these results. The volumes of acid added during these titrations are not all the same. The average (mean) volume of acid should be calculated using only concordant results. Concordant results are those volumes that differ from each other by 0.20 $ cm^{3} $ or less.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pc-i",
+      "label" : "c-i",
+      "text" : "Identify the concordant results by placing ticks ( $ \\checkmark $ ) in the table where appropriate.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pc-ii",
+      "label" : "c-ii",
+      "text" : "Use your ticked results to calculate the average (mean) volume of acid added.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "Average (mean) volume of acid" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pd",
+      "label" : "d",
+      "text" : "The student used the same method to find the concentration of a solution of potassium hydroxide. The equation for the reaction is $2 \\mathrm {K O H} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} \\rightarrow \\mathrm {K} _ {2} \\mathrm {S O} _ {4} + 2 \\mathrm {H} _ {2} \\mathrm {O}$ These are his results. He used these results to calculate the concentration of the potassium hydroxide solution. $\\text{Step 1} \\quad \\text{amount of } \\mathrm{H}_{2} \\mathrm{SO}_{4} = \\frac{0.0500 \\times 23.60}{100} = 0.0118 \\mathrm{~mol}$ $\\text{Step 2} \\quad \\mathrm{amount of KOH} = \\frac {0 . 0 1 1 8}{2} = 0. 0 0 5 9 0 \\mathrm{~ mol}$ $\\mathrm {S t e p 3} \\quad \\mathrm {c o n c e n t r a t i o n o f K O H} = \\frac {0 . 0 0 5 9 0}{2 3 . 6 0} \\times 1 0 0 0 = 0. 2 5 0 \\mathrm {m o l} / \\mathrm {d m} ^ {3}$ There is one mistake in each step of the calculation. What correction should the student make in each step?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pd-i",
+      "label" : "d-i",
+      "text" : "Step 1",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q09-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "Step 2",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000213",
+      "sourceName" : "assets/crop_1_1789047427458.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427458.png",
+      "availability" : "available",
+      "assetId" : "img:6180747e4446de11747448d80021ff5b3086646f399edbf311e291ac7e1319dd",
+      "sha256" : "6180747e4446de11747448d80021ff5b3086646f399edbf311e291ac7e1319dd",
+      "mimeType" : "image/jpeg",
+      "width" : 943,
+      "height" : 851,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000226",
+      "sourceName" : "assets/crop_1_1789047427467.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427467.png",
+      "availability" : "available",
+      "assetId" : "img:43428522d648ae0d6ddc6e1bde6aefc18d3d61bac274064aca9485bed3d31be4",
+      "sha256" : "43428522d648ae0d6ddc6e1bde6aefc18d3d61bac274064aca9485bed3d31be4",
+      "mimeType" : "image/jpeg",
+      "width" : 155,
+      "height" : 595,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000227",
+      "sourceName" : "assets/crop_2_1789047427471.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789047427471.png",
+      "availability" : "available",
+      "assetId" : "img:52b8943f445aa12cbc900f1ef2b37558148844e8e4be7e0914de4534aa32ed49",
+      "sha256" : "52b8943f445aa12cbc900f1ef2b37558148844e8e4be7e0914de4534aa32ed49",
+      "mimeType" : "image/jpeg",
+      "width" : 171,
+      "height" : 598,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000229", "e000231", "e000240" ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q10-e210e656",
+    "number" : 10,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The Haber process is used to convert nitrogen and hydrogen into ammonia.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q10-e210e656-pa",
+      "label" : "a",
+      "text" : "Which raw material is the source of the nitrogen?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pb",
+      "label" : "b",
+      "text" : "The hydrogen for this process is obtained using reactions 1 and 2 Reaction 1 Reaction 2 $\\begin{array}{l} \\mathrm {C H} _ {4} (\\mathrm {g}) + \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {g}) \\rightleftharpoons \\mathrm {C O} (\\mathrm {g}) + 3 \\mathrm {H} _ {2} (\\mathrm {g}) \\quad \\Delta H = + 2 1 0 \\mathrm {k J} \\mathrm {m o l} ^ {- 1} \\\\ \\mathrm {C O} (\\mathrm {g}) + \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {g}) \\rightleftharpoons \\mathrm {C O} _ {2} (\\mathrm {g}) + \\mathrm {H} _ {2} (\\mathrm {g}) \\quad \\Delta H = - 4 2 \\mathrm {k J} \\mathrm {m o l} ^ {- 1} \\\\ \\end{array}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pb-i",
+      "label" : "b-i",
+      "text" : "Predict what will happen to the equilibrium position in reaction 1 when the pressure is increased. Give a reason for your prediction. Prediction Reason",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pb-ii",
+      "label" : "b-ii",
+      "text" : "Predict what will happen to the equilibrium position in reaction 2 when the temperature is increased. Give a reason for your prediction. Prediction Reason",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pc",
+      "label" : "c",
+      "text" : "Predict what will happen to the rate of reaction 1 when the pressure and temperature are increased. Effect of increased pressure Effect of increased temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pd",
+      "label" : "d",
+      "text" : "Some of the ammonia from the Haber process is made into fertilisers such as ammonium nitrate. The equation for the formation of ammonium nitrate is $\\mathrm {N H} _ {3} + \\mathrm {H N O} _ {3} \\rightarrow \\mathrm {N H} _ {4} \\mathrm {N O} _ {3}$ A manufacturer makes a batch of 40 kg of ammonium nitrate.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pd-i",
+      "label" : "d-i",
+      "text" : "Calculate the amount, in moles, of $ \\mathrm{N H_{4} N O_{3}} $ in 40 kg of ammonium nitrate. $f N H _ {4} N O _ {3}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pd-ii",
+      "label" : "d-ii",
+      "text" : "Deduce the amount, in moles, of ammonia needed to make this amount of ammonium nitrate.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pd-iii",
+      "label" : "d-iii",
+      "text" : "Calculate the mass, in kg, of ammonia needed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q10-e210e656-pe",
+      "label" : "e",
+      "text" : "The manufacturer also produces fertilisers that are labelled NPK. Suggest the names of two elements, other than nitrogen, that are likely to be present in NPK fertilisers.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q11-e210e656",
+    "number" : 11,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The properties of substances can be explained in terms of their bonding and structure. Electricity can be transmitted by overhead power lines. This method of transmission requires electrical conductors and insulators.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q11-e210e656-pa",
+      "label" : "a",
+      "text" : "Aluminium is used for the overhead lines because it is a good conductor of electricity and is ductile (can be pulled into a wire). This diagram can be used to represent the structure of aluminium. aluminium atom",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000278",
+        "sourceName" : "assets/crop_1_1789047427556.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789047427556.png",
+        "availability" : "available",
+        "assetId" : "img:84d3c5154d1b0bbfdade74b10a09269f3c081a5e6f7beb62652fddea121e5075",
+        "sha256" : "84d3c5154d1b0bbfdade74b10a09269f3c081a5e6f7beb62652fddea121e5075",
+        "mimeType" : "image/jpeg",
+        "width" : 468,
+        "height" : 274,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q11-e210e656-pa-i",
+      "label" : "a-i",
+      "text" : "Explain why aluminium is a good conductor of electricity.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q11-e210e656-pa-ii",
+      "label" : "a-ii",
+      "text" : "Suggest why aluminium is ductile.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q11-e210e656-pb",
+      "label" : "b",
+      "text" : "The main substance that acts as an insulator in this method of transmission of electricity is air, which is mostly nitrogen. The power lines are supported by solid insulators. Most solid insulators are manufactured using silica. The diagram shows the structures of nitrogen and silica. Nitrogen Silica Explain, in terms of bonding and structure, why nitrogen is a gas at room temperature but silica is a solid with a high melting point. Nitrogen Silica",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000285",
+        "sourceName" : "assets/crop_1_1789047427564.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789047427564.png",
+        "availability" : "available",
+        "assetId" : "img:daf0a6e04c81519ceb416d65d269b1d6a80be275dd84b28cf94f129aeef02b11",
+        "sha256" : "daf0a6e04c81519ceb416d65d269b1d6a80be275dd84b28cf94f129aeef02b11",
+        "mimeType" : "image/jpeg",
+        "width" : 530,
+        "height" : 451,
+        "formatMismatch" : true
+      }, {
+        "elementId" : "e000287",
+        "sourceName" : "assets/crop_2_1789047427569.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789047427569.png",
+        "availability" : "available",
+        "assetId" : "img:e083f22a838c22e3d665e46846a749c8a646335dc7ca3c4bb31c5cba7a528e59",
+        "sha256" : "e083f22a838c22e3d665e46846a749c8a646335dc7ca3c4bb31c5cba7a528e59",
+        "mimeType" : "image/jpeg",
+        "width" : 521,
+        "height" : 446,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000278",
+      "sourceName" : "assets/crop_1_1789047427556.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427556.png",
+      "availability" : "available",
+      "assetId" : "img:84d3c5154d1b0bbfdade74b10a09269f3c081a5e6f7beb62652fddea121e5075",
+      "sha256" : "84d3c5154d1b0bbfdade74b10a09269f3c081a5e6f7beb62652fddea121e5075",
+      "mimeType" : "image/jpeg",
+      "width" : 468,
+      "height" : 274,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000285",
+      "sourceName" : "assets/crop_1_1789047427564.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789047427564.png",
+      "availability" : "available",
+      "assetId" : "img:daf0a6e04c81519ceb416d65d269b1d6a80be275dd84b28cf94f129aeef02b11",
+      "sha256" : "daf0a6e04c81519ceb416d65d269b1d6a80be275dd84b28cf94f129aeef02b11",
+      "mimeType" : "image/jpeg",
+      "width" : 530,
+      "height" : 451,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000287",
+      "sourceName" : "assets/crop_2_1789047427569.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789047427569.png",
+      "availability" : "available",
+      "assetId" : "img:e083f22a838c22e3d665e46846a749c8a646335dc7ca3c4bb31c5cba7a528e59",
+      "sha256" : "e083f22a838c22e3d665e46846a749c8a646335dc7ca3c4bb31c5cba7a528e59",
+      "mimeType" : "image/jpeg",
+      "width" : 521,
+      "height" : 446,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "4" : 6,
+    "5" : 17,
+    "7" : 10,
+    "8" : 14,
+    "9" : 14,
+    "11" : 9
+  },
+  "paperTotal" : 120,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: THE PERIODIC TABLE", "unclassified heading: Letters", "unclassified heading: Amount of ammonia.", "Q6: incomplete MCQ option set folded into stem", "Q9: incomplete MCQ option set folded into stem" ]
+}

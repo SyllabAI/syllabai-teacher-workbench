@@ -1,0 +1,671 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70945A",
+    "publicationCode" : "4CH1_1C_2206_MS",
+    "session" : "Summer 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d2ca8f12-24a7-5ae7-ab05-6fca00053cee"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d2ca8f12-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "nucleus",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "11/eleven"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "1/one/group1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "3/three/period3"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "+1/1+"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT+/Na+/positive1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREpositivealone"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total5"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Change\nwater to ice\nsteam to water\nsolid wax to liquid wax\niodine crystals to iodine vapour",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Change of state"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW condensingALLOW subliming"
+    }, {
+      "kind" : "note",
+      "text" : "freezing"
+    }, {
+      "kind" : "note",
+      "text" : "condensation"
+    }, {
+      "kind" : "note",
+      "text" : "melting"
+    }, {
+      "kind" : "note",
+      "text" : "sublimation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 heatM2 stir/mixfilter"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW use hot waterIGNORE add more waterALLOW grind/crush the solid/mixtureALLOW a description of filtration"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(crude oil/it is) heated / vapourised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW evaporated / boiled REJECT melted"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "gasoline"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW petrol"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "road (surfacing) / roofs / tarmac"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 silica / alumina (catalyst)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 600 to 700℃"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT SiO2/Al2O3/silicon dioxide/aluminium oxide/aluminosilicates/zeolites"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 shorter-chain alkanes are in high(er) demand / more useful / used for petrol / more flammable"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW C8H18 is in high(er) demand (than C13H28)/more useful / used for petrol / more flammable"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE shorter-chain alkanes are used as fuels"
+    }, {
+      "kind" : "note",
+      "text" : "M2 alkenes are needed / used to make polymers"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW C2H4/C3H6 are needed / used to make polymers / plastics"
+    }, {
+      "kind" : "note",
+      "text" : "shorter chain hydrocarbons / the products are in high(er) demand / more useful / more flammable scores 1 if no other mark awarded"
+    }, {
+      "kind" : "note",
+      "text" : "to create shorter alkanes and alkenes scores 1 if no other mark awarded"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "water is needed for iron to rust / react\nsyringe reading at end\nchange in volume in cm3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW reaction needs water (and oxygen)"
+    }, {
+      "kind" : "note",
+      "text" : "brown (coating on iron)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW increases rate of reaction"
+    }, {
+      "kind" : "note",
+      "text" : "Fe2O3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW red-brown / orange-brown / orange / orange-red"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE red alone"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (the powder has) a larger surface area"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so the iron will rust quicker / the reaction will be faster / the results are (obtained) more quickly"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (the powder has) higher surface area:volume"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to the collision theory"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "syringe reading at start"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf on syringe reading at start if syringe reading at end read incorrectly"
+    }, {
+      "kind" : "note",
+      "text" : "correct volumes the wrong way round scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (volume of oxygen =) 90-22 OR 68 (cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (total volume at start =) 260+90 OR 350 (cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 $\\frac{68\\times100}{350}$ =19.4(%)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores 3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf on M1 and M2 in M3 as long as the answer is less than 100%"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig figs except 1"
+    }, {
+      "kind" : "note",
+      "text" : "26.2(%) scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "25.7(%) scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "75.6(%) scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "34.6(%) scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(compounds with) same molecular formula",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW same number of carbons and hydrogens/ atoms of each element"
+    }, {
+      "kind" : "note",
+      "text" : "M2 different structural/ displayed formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW different structures/ arrangement of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(5x12+12x1=)72"
+    }, {
+      "kind" : "note",
+      "text" : "pentane"
+    }, {
+      "kind" : "note",
+      "text" : "spelling must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "either order"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Mg+2HCl→MgCl2+H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(squeaky) pop with lighted splint"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of magnesium=0.090÷24OR0.00375(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 amount of HCl needed=2×0.00375=0.0075(mol)(which is less than0.025)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of magnesium needed=0.025÷2OR0.0125(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 mass of magnesium needed=0.0125×24=0.3(g)(there is less magnesium than needed)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "all points plotted correctly to the nearest grid line"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "best fit curve starting at0 and levelling off at88cm3"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 vertical line on grid from10 seconds to curve"
+    }, {
+      "kind" : "note",
+      "text" : "M2 volume correctly read from their graph to the nearest grid line"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any mark at correct position on curve/either axis"
+    }, {
+      "kind" : "note",
+      "text" : "expected value25 to30cm3"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 concentration(ofHCl)is greatest(at the start)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 more collisions per unit time/more frequent collisions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT incorrect references to energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW more particles(ofHCl/moreH+ions)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW more HCl molecules/greater surface area ofMg"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE greater mass/moreMg"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to the graph"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 atoms of the same element/ atoms with the same number of protons/ atoms with the same atomic number"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT different number of electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE same number of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (with a) different number of neutrons/ different mass number"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (63x69.5)+(65x30.5) OR 6361"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 their M1÷100 OR 63.61"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 63.6"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW answer to M2 to 3 sig figs"
+    }, {
+      "kind" : "note",
+      "text" : "63.61 without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A decomposition"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as it is not a neutralisation reaction"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as it is not an oxidation reaction"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as it is not a reduction reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C green to black"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as copper(II) carbonate is not blue"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as copper(II) carbonate is not blue and copper(II) oxide is not white"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as copper(II) oxide is not orange"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(28.20-20.52=) 7.68"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(31.77-28.20=) 3.57"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 diamond has a tetrahedral (structure) OR in diamond each (carbon) atom is (covalently) bonded to 4 other (carbon) atoms",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT ions / metallic once in M1 or M2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 graphite has a hexagonal (structure) / has layers OR in graphite each (carbon) atom is (covalently) bonded to 3 other (carbon) atoms"
+    }, {
+      "kind" : "note",
+      "text" : "M3 diamond does not conduct electricity OR graphite conducts electricity"
+    }, {
+      "kind" : "note",
+      "text" : "M4 diamond has no delocalised electrons OR graphite has delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M5 diamond is hard OR graphite is soft"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT diamond is soft / graphite is hard"
+    }, {
+      "kind" : "note",
+      "text" : "M6 in diamond the strong (C-C) bonds need to be broken OR in graphite the layers can slide over each other OR graphite has weak forces between layers"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to intermolecular"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following four points:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 C60 fullerene has weak forces between the molecules / weak intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "no M1 or M2 if reference to breaking bonds in fullerene"
+    }, {
+      "kind" : "note",
+      "text" : "M2 little / less energy needed to break / overcome the forces / separate the molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M3 diamond and graphite have many / strong (covalent) bonds (between atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "no M3 or M4 if reference to intermolecular forces in diamond and graphite"
+    }, {
+      "kind" : "note",
+      "text" : "M4 large amount of / more energy needed to break / overcome the (covalent) bonds"
+    }, {
+      "kind" : "note",
+      "text" : "If M1 and M3 are not scored allow 1 mark for covalent bonds (in diamond and graphite) need to be broken / overcome AND intermolecular forces need to be broken / overcome in fullerene"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "PbO(s)+H2(g)→Pb(s)+H2O(IORg)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW upper case letters for state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D2+A is incorrect as the charge on the lead ion is not1-B is incorrect as the charge on the lead ion is not1+C is incorrect as the charge on the lead ion is not2-"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links either pair of the two pointsM1 lead oxide is reduced and hydrogen is oxidisedM2 lead oxide loses oxygen and hydrogen gains oxygenORM1 lead oxide loses oxygen so is reducedM2 hydrogen gains oxygen so is oxidised"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT lead oxide is the oxidising agent and hydrogen is the reducing agentACCEPT lead ions gain electrons and hydrogen loses electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following two pointsM1 measure the boiling point(of the water)M2(boiling point is)100℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxidation number of lead/Pb2+ decreases from+2to0so is reduced forM1Oxidation number of hydrogen increases from0to+1so is oxidised forM2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d2ca8f12-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M13 bonding pairsM2 rest of molecule fully correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 dep on M1ALLOW any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 ammonium chloride ammonium carbonateNH4ClM2(NH4)2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2NH3+H2SO4→(NH4)2SO4"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiplesIGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 add sodium hydroxide(solution)M2 test(gas/ammonia)with(damp)red litmus paper/(damp)universal indicator paperM3(red litmus)turns blue/universal indicator)turns blue/purple"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if solution/ammonium(sulfate)testedwith litmus/universal indicator paper"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"214\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: Total 11", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: Total 10", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"81\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"16\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"65\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "orphan row before first entry: M1 ethane needs UV(radiation) to react", "orphan row before first entry: M2 ethane produces bromoethane", "orphan row before first entry: M3 ethane produces hydrogen bromide/HBr", "orphan row before first entry: M4 reaction with ethane involves breakingC-H bond/ reaction with ethene involves breakingC=C bond", "orphan row before first entry: M5 ethane reaction is substitution", "orphan row before first entry: M6 ethene produces dibromoethane", "orphan row before first entry: M7 ethene reaction is addition", "orphan row before first entry: M1,M2,M3 and M6 can be scored from word or chemical equations", "orphan row before first entry: Total 11", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 curve levelling off at same volume as original curve", "orphan row before first entry: An explanation that links the following three points", "orphan row before first entry: M1 particles gain more (kinetic) energy", "orphan row before first entry: M2 more collisions have energy greater than the activation energy", "orphan row before first entry: M3 collision frequency increases OR rate of reaction increases", "orphan row before first entry: Total 15", "7: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M2 3.57÷18 OR 0.1983", "orphan row before first entry: M3 0.1983÷0.04815 OR 4.12", "orphan row before first entry: not all the water was removed(from the hydrated copper(II)sulfate)", "orphan row before first entry: Total13", "8(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Total11", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2(0.35x100=)35(%)", "orphan row before first entry: (ii)", "orphan row before first entry: M1(NH3)higher%ofNOR((NH4)2SO4)lower%ofN", "orphan row before first entry: M2(NH4)2SO4easytouse(tosoil)/easyfortheplantstoabsorb/lesswastageOR(NH3)difficulttouse(tosoil)/difficultfortheplantstoabsorb/morewastage/hastobe dissolved(inwater)first", "orphan row before first entry: M3(NH4)2SO4pHclosetothatof(rain)water/willnotalterthepH(ofthesoil/water)", "orphan row before first entry: M4NH3willcause(thesoil/water)tobecomealkaline/willraisethepH(ofthesoil/water)/neutralise(thewater/soil)maystuntgrowthofplants/maydamage/killplants", "orphan row before first entry: M5NH3andor(NH4)2SO4solublesorunoff/wastageoffertiliser/waterpollution/eutrophication/leaching", "orphan row before first entry: Total14" ]
+}

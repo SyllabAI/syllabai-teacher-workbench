@@ -1,0 +1,447 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_2C_1606_MS",
+    "session" : "Summer 2016",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "1380736a-fa25-53d4-8229-64d20aed9ede"
+  },
+  "entries" : [ {
+    "entryId" : "ms-1380736a-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(X)-(stirring/glass/plastic)rodM2(Y)-Bunsen(burner)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept stirrerReject metal"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(solvent)B(solution)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "evaporated/went into the air"
+    }, {
+      "kind" : "note",
+      "text" : "accept boilsaccept turns into vapour"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 iron reacted with oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept iron combined/bonded with oxygenAccept iron oxide formedAccept iron is oxidisedIgnore iron uses oxygenIgnore iron rustsIgnore references to reacting with water"
+    }, {
+      "kind" : "note",
+      "text" : "M2 all oxygen is reacted/(all oxygen used up/no oxygen left"
+    }, {
+      "kind" : "note",
+      "text" : "Accept references to 20% or 20cm3of the air which is oxygen used up/reactedReject all iron used upIgnore reaction has finished"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 iron(II) sulfate/iron sulfateM2 hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "reject any other oxidation state"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore name and formula of compound"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Na/Sodium/Mg/Magnesium"
+    }, {
+      "kind" : "note",
+      "text" : "Accept aluminium"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Si/Silicon/P/Phosphorus/S/Sulfur/Cl/Chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "If both name and formula given both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "[Mg]2+ [:Clx]- [x:Cl]"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow electrons on brackets"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct electronic configuration for magnesium ion and correct charge on ion"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct electronic configuration for both chloride ions"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow 0 or 8 electrons in outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct charges on both chloride ions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electrostatic attraction/forces between ions"
+    }, {
+      "kind" : "note",
+      "text" : "M3 indep"
+    }, {
+      "kind" : "note",
+      "text" : "M2 of opposite charge"
+    }, {
+      "kind" : "note",
+      "text" : "accept positive"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "CuO+2HNO3→Cu(NO3)2+H2O",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "to increase the rate of reaction"
+    }, {
+      "kind" : "ignore",
+      "text" : "ignore references to dissolving/solubility"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(copper(II) oxide/it) stops disappearing/stays as a solid/forms as a solid(at the bottom of the beaker)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept stops dissolving/forms a suspension/forms a residueAccept when copper oxide remains/settles in the beakerAllow liquid goes cloudy/blackIgnore references to stops reacting ignore references to bubbling"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "a drop of solution forms crystals when removed(and cooled)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept when crystals start to form/start to be seenReject if all water evaporated"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "(stage)3"
+    }, {
+      "kind" : "note",
+      "text" : "accept any reference to first filtration stage"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(compounds/molecules with the) same molecular formula/same number of each type of atom",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore references to chemical/general/empirical formulaIf use elements/atoms instead of compounds/molecules can score M2 onlyAllow reference to isomers in question ie have same number of carbon and hydrogen (atoms as each other)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2but different displayed formula/structural formula/structures/arrangement of atoms"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore atoms in different orderIgnore references to stereoisomerism"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one for 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "Accept structure of trans but-2-eneIgnore bond angles"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Reagent)-bromine(water)"
+    }, {
+      "kind" : "note",
+      "text" : "accept decolourisedIgnore clear/discolours"
+    }, {
+      "kind" : "note",
+      "text" : "M2(But-1-ene)-goes(from orange)to colourless"
+    }, {
+      "kind" : "note",
+      "text" : "accept stays orangeignore no reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M3(cyclobutane)-no change(unless UV light present)"
+    }, {
+      "kind" : "note",
+      "text" : "If start with bromine(water)in presence of UV light then scores0/3"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "titration / volumetric analysis\nbefore adding acid\nvolume added\nM12.75M320.85\nM1(22.60+22.45+22.55)÷3M222.53(cm3)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C(25cm3pipette)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(before)-yellowM2(after)-orange"
+    }, {
+      "kind" : "note",
+      "text" : "accept pink/red and combinations with orangeAllow 1 mark if correct colours reversed"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "after adding acid"
+    }, {
+      "kind" : "note",
+      "text" : "23.60"
+    }, {
+      "kind" : "note",
+      "text" : "If readings are correct but in the wrong order, award 1 mark for M1 and M2M3 CQ on(M1-M2)"
+    }, {
+      "kind" : "note",
+      "text" : "2.75"
+    }, {
+      "kind" : "note",
+      "text" : "20.85"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "22.90"
+    }, {
+      "kind" : "note",
+      "text" : "22.60"
+    }, {
+      "kind" : "note",
+      "text" : "22.45"
+    }, {
+      "kind" : "note",
+      "text" : "22.55"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer with no working scores(2)Accept 22.53 with 3 recurringIf no results ticked in(i),then only use of two or three concordant titres can score in(ii)If only one result ticked,then no marks can be scored in(ii)Otherwise,both marks CQ on ticked results in(e)(i)Answer with zero as2nd dp does not need trailing zero"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(refinery) gases",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "bitumen"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C18H38→C8H18+C10H20"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "C18H38→C8H18+2C5H10"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "C18H38→C8H18+5C2H4"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 over/greater supply of long chain hydrocarbons/molecules/heavy/heavier fractions/OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 high(er) demand/more use for short-chain/small hydrocarbons/light/lighter fractions/OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3 reference to a use eg the alkenes produced can be used to make polymers/plastics/eg the short-chain(saturated) hydrocarbons used as fuels"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse argument eg not enough short chain hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept specific alkene and product eg ethene to make poly(ethene)/ethanol/alcohol"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answers in terms of gasoline/petrol/fuel(for cars)"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "C8H18+81/2O2→8CO+9H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct formula for CO"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct balanced equation"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow multiples"
+    }, {
+      "kind" : "note",
+      "text" : "Accept balanced equations containing CO as well as C and/or CO2 eg C8H18+6.5O2→4CO+4C+9H2O"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1380736a-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(mol NaHCO3=)10.5/84 or0.125M2(so mass CO2=0.0625x44=)2.8(g)ORM1168g NaHCO3give44g CO2M210.5g NaHCO3give2.75g CO2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "correct final answer with no working scores2accept2.75M2CQ on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(mol CO2=)2.75÷44or0.0625M2(0.0625x24000)=1500(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "correct final answer with no working scores2if answer is incorrect mark CQ to(a)CQ answer to M1accept1.5(00)dm3"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"23\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: M2(Fe3+) - brown precipitate/solid", "orphan row before first entry: reject red on its own", "orphan row before first entry: Allow 1 mark if both answers correct but reversed", "orphan row before first entry: Ignore references to colours of solutions", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: (c)", "orphan row before first entry: M1 mol Al=20/3(=6.67)\nM2 mass Al=(answer to M1x27)=180(g)\nOR\nM1 3 faradays give 1 mol OR 27g/30 faradays give 10 mol OR 270g\nM2 20 faradays gives 180(g)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Answers obtained by averaging other titre values do require answers to 2 dp", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

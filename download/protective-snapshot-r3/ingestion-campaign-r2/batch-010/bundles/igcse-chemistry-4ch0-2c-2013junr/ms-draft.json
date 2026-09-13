@@ -1,0 +1,523 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG035550",
+    "session" : "Summer 2013",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "0dd281f1-f7f1-59a3-8c37-52e7cd43da5b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-0dd281f1-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "gallium/Ga",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "sodium/magnesium/aluminium/Na/Mg/Al"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "fluorine/F/F2"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen/N/N2"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "neon/argon/krypton/xenon/radon/Ne/Ar/Kr/Xe/Rn"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Mixture"
+    }, {
+      "kind" : "note",
+      "text" : "Compound"
+    }, {
+      "kind" : "note",
+      "text" : "Mixture"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "hydrogen/H2burns with a pop/squeakORuse burning/lit splint/flame to see ifpop/squeak",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IgnoreHMust be reference to test and resultReference to splint/match with no indication of flame is not enoughReject reference to glowing splintIgnore flame extinguished‘Squeaky pop test’on its own is not sufficient"
+    }, {
+      "kind" : "note",
+      "text" : "(b)i"
+    }, {
+      "kind" : "note",
+      "text" : "AgCl(dilute) nitric acid/HNO3"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore names even if wrongAccept sulfuric acid/H2SO4Reject hydrochloric acid/HClIgnore conc(entrated) acidIgnore acid(ified) without a named acidReject other named acids"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "iron nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "Accept ferrous nitrate and ferric nitrateIgnore oxidation states(II)and(III)Reject other oxidation states"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(add) sodium hydroxide(solution)/NaOH",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Any groupⅠhydroxide/ammonium hydroxide/barium or calcium hydroxide/ammonia solution(names or formulae)"
+    }, {
+      "kind" : "note",
+      "text" : "If reagent incorrect,then0/3"
+    }, {
+      "kind" : "note",
+      "text" : "If reagent missing,then thenM2andM3can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "If near miss(eg ammonia hydroxide)thenM2andM3can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "green precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "Ⅰignore qualifiers such as light/pale/dark"
+    }, {
+      "kind" : "note",
+      "text" : "Accept solid/suspension/ppt(e)in place of precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "Reject all other colours"
+    }, {
+      "kind" : "note",
+      "text" : "Ⅰignore names and formulae even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "brown precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "Ⅰignore qualifiers such as light/pale/dark/rusty/foxy/orange"
+    }, {
+      "kind" : "note",
+      "text" : "Accept red-brown"
+    }, {
+      "kind" : "note",
+      "text" : "Accept solid/suspension/ppt(e)in place of precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "Reject all other colours"
+    }, {
+      "kind" : "note",
+      "text" : "Ⅰignore names and formulae even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "If both colours correct,penalise missing precipitate once only"
+    }, {
+      "kind" : "note",
+      "text" : "Do not awardM2orM3for two correct observations in the wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "Ⅰignore references to bubbles etc"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "bubbles/fizzing/effervescence",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept gas given off/evolved/formed/producedAccept hydrogen gasIgnore identity of gas"
+    }, {
+      "kind" : "note",
+      "text" : "sodium moves/darts/floats"
+    }, {
+      "kind" : "note",
+      "text" : "Accept equivalents such as shoots/skimsAccept dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "sodium gets smaller/disappears"
+    }, {
+      "kind" : "note",
+      "text" : "Do not apply list principleAssume that it=sodiumIgnore flames/sparksAny two for1each"
+    }, {
+      "kind" : "note",
+      "text" : "(b)Do not apply list principle"
+    }, {
+      "kind" : "note",
+      "text" : "Assume that it=sodium"
+    }, {
+      "kind" : "note",
+      "text" : "(c)i"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen/H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IgnoreH"
+    }, {
+      "kind" : "note",
+      "text" : "K+"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q4d",
+    "label" : "4(d)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Na is 2.8.1\nK is 2.8.8.1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept other punctuation and no punctuation and diagrams in place of full stops"
+    }, {
+      "kind" : "note",
+      "text" : "If neither of M1 and M2 scored, allow potassium has more(electron) shells(or numbers of shells stated)/energy levels for1mark?"
+    }, {
+      "kind" : "note",
+      "text" : "outer/valence electron/outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "/electron lost inK further from nucleus/protons"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore potassium further from nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "less attracted by nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "Accept(electron)more easily removed/lost/less energy needed to remove(electron)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept potassium more willing to lose electron"
+    }, {
+      "kind" : "note",
+      "text" : "If no reference to nucleus or protons,then neitherM3norM4can be awarded"
+    }, {
+      "kind" : "note",
+      "text" : "A correct reference to nucleus/protons is needed beforeM3andM4can be awarded"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to shielding"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse arguments for sodium inM3andM4"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Statement",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "Cracking"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for each line correct"
+    }, {
+      "kind" : "note",
+      "text" : "Crude oil is heated"
+    }, {
+      "kind" : "note",
+      "text" : "(√)"
+    }, {
+      "kind" : "note",
+      "text" : "A catalyst may be used"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Alkenes are formed"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Decomposition reactions occur"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Fuels are obtained"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Separation is the main purpose"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "(b)i"
+    }, {
+      "kind" : "note",
+      "text" : "C5H12"
+    }, {
+      "kind" : "note",
+      "text" : "Accept H12C5"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "H H H H H"
+    }, {
+      "kind" : "note",
+      "text" : "| | | | |"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C-C-C-C-C-H"
+    }, {
+      "kind" : "note",
+      "text" : "| | | | |"
+    }, {
+      "kind" : "note",
+      "text" : "H H H H H"
+    }, {
+      "kind" : "note",
+      "text" : "Accept H12C5"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "C5H12"
+    }, {
+      "kind" : "note",
+      "text" : "iv"
+    }, {
+      "kind" : "note",
+      "text" : "pentane"
+    }, {
+      "kind" : "note",
+      "text" : "Accept x and other letters in place of n"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answers like CnH2n+2"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore 2(n+1)"
+    }, {
+      "kind" : "note",
+      "text" : "v"
+    }, {
+      "kind" : "note",
+      "text" : "CnH2n+2"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)i",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(products)"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "(oxygen)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 and M2 independent"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "4 electrons shared between 2 (carbon) atoms"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore inner electrons even if wrong"
+    }, {
+      "kind" : "note",
+      "text" : "4 electron pairs between 2C and 4H atoms"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore number of hydrogen atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(d)i"
+    }, {
+      "kind" : "note",
+      "text" : "phosphoric acid/H3PO4any value in range 250-350℃"
+    }, {
+      "kind" : "note",
+      "text" : "Accept all permutations of dots and crossesIgnore intersecting circlesAccept H atoms at all anglesAt least one C or one H atom must be labelled-max1 if notMax1 if more than2C atomsMax1 if wrong number of electrons in outer shell of any atom"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "20(mol)M1×24480(dm3)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore concentrated/diluteAccept value without unitAccept 523-623KMarks independent"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 480000cm3If M1 incorrect but 480 is final answer, then only M3 can be awardedIf no answer to amount of ethene, then20×24=480 scores M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0dd281f1-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "ethanol/it is more volatile/evaporates more quickly/more easily/evaporates in a shorter time",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept has a lower boiling point(than water)Ignore reference to melting point(s)Accept reverse arguments for water"
+    }, {
+      "kind" : "note",
+      "text" : "(b)i"
+    }, {
+      "kind" : "note",
+      "text" : "0.3(0)(g)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "some copper did not stick to(negative)electrode/cathode some copper removed during washing/dryingpositive electrode/anode impureORformed(anode)sludge"
+    }, {
+      "kind" : "note",
+      "text" : "Accept some copper dropped off"
+    }, {
+      "kind" : "note",
+      "text" : "Any two for 1 each"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(c): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(d): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"19\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 6(c)i", "orphan row before first entry: straight line of best fit", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: iv", "orphan row before first entry: v", "orphan row before first entry: Total", "orphan row before first entry: Total for paper" ]
+}

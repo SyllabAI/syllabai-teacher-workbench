@@ -1,0 +1,635 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "7e06a79f-e6e1-5799-bfd1-c967cc4163e9"
+  },
+  "questions" : [ {
+    "questionId" : "q01-7e06a79f",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The box shows some methods that can be used in separating mixtures. From the box, select the best method for each of the separations. You may use each method once, more than once or not at all.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-7e06a79f-pa",
+      "label" : "a",
+      "text" : "Removing sand from a mixture of sand and water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-7e06a79f-pb",
+      "label" : "b",
+      "text" : "Obtaining pure water from a salt solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-7e06a79f-pc",
+      "label" : "c",
+      "text" : "Extracting the red dye from a sample of rose petals.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-7e06a79f-pd",
+      "label" : "d",
+      "text" : "Separating the coloured dyes in a sample of green ink.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-7e06a79f-pe",
+      "label" : "e",
+      "text" : "Obtaining ethanol (alcohol) from a mixture of ethanol and water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000021" ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-7e06a79f",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Part of the pH scale is shown. Some of these experiments involve a pH change. E ammonia gas is dissolved in pure water The table shows the pH at the start and at the end of the five experiments. Complete the table by inserting the appropriate letter in each box. You may use each letter only once. The first one has been done for you.",
+    "mcq" : true,
+    "options" : [ {
+      "letter" : "A",
+      "text" : "sodium chloride (common salt) is dissolved in pure water"
+    }, {
+      "letter" : "B",
+      "text" : "carbon dioxide gas is dissolved in pure water"
+    }, {
+      "letter" : "C",
+      "text" : "sodium hydroxide solution is neutralised by adding dilute hydrochloric acid"
+    }, {
+      "letter" : "D",
+      "text" : "excess sodium hydroxide solution is added to a weakly acidic solution"
+    } ],
+    "parts" : [ ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000031", "e000040" ],
+    "marks" : 4,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.8
+  }, {
+    "questionId" : "q03-7e06a79f",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student measured the temperature change when 0.5 g of magnesium powder was added to $ 5 0 \\mathrm{c m}^{3} $ of copper(II) sulfate solution. She repeated the experiment using 1.0 g, 1.5 g and 2.0 g of magnesium powder. The diagrams of the thermometer show the highest temperature, in $ ^{\\circ} \\mathrm{C} $ , reached in each of the experiments.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-7e06a79f-pa",
+      "label" : "a",
+      "text" : "Use the thermometer readings to complete the table of results.",
+      "marks" : 2,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q03-7e06a79f-pb",
+      "label" : "b",
+      "text" : "A second student carried out the experiment. The table shows his results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7e06a79f-pb-i",
+      "label" : "b-i",
+      "text" : "Plot the points on the grid. Draw a straight line through the first three points and another straight line through the last two points. Make sure that the two lines cross.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000057",
+        "sourceName" : "assets/crop_1_1789069351804.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069351804.png",
+        "availability" : "available",
+        "assetId" : "img:b3a9e3681257896bb2f89d0f4437d8341fbd5cbd8125de2da43466217daf8cb5",
+        "sha256" : "b3a9e3681257896bb2f89d0f4437d8341fbd5cbd8125de2da43466217daf8cb5",
+        "mimeType" : "image/jpeg",
+        "width" : 1287,
+        "height" : 910,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7e06a79f-pb-ii",
+      "label" : "b-ii",
+      "text" : "Use your graph to find the mass of magnesium required to produce a temperature rise of $ 3^{\\circ} \\mathrm{C}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7e06a79f-pc",
+      "label" : "c",
+      "text" : "Suggest why the last three temperature rises were the same.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-7e06a79f-pd",
+      "label" : "d",
+      "text" : "State and explain the effect on the temperature rises if the student were to repeat the experiment using the same masses of zinc powder instead of magnesium powder. Do not refer to the difference in reactivity of the two metals. [relative atomic masses: Mg=24; Zn=65]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000044",
+      "sourceName" : "assets/crop_1_1789069351777.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069351777.png",
+      "availability" : "available",
+      "assetId" : "img:e4d6bed74950db3d1ffeb34c269c7c901ed958b08e29f95333fa03ababc386b9",
+      "sha256" : "e4d6bed74950db3d1ffeb34c269c7c901ed958b08e29f95333fa03ababc386b9",
+      "mimeType" : "image/jpeg",
+      "width" : 1224,
+      "height" : 666,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000046",
+      "sourceName" : "assets/crop_2_1789069351782.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069351782.png",
+      "availability" : "available",
+      "assetId" : "img:bbc3a5b929256bcc8b4862d7bbaf2174d5322ad20f8f820f62e3f4a224124e14",
+      "sha256" : "bbc3a5b929256bcc8b4862d7bbaf2174d5322ad20f8f820f62e3f4a224124e14",
+      "mimeType" : "image/jpeg",
+      "width" : 200,
+      "height" : 520,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000047",
+      "sourceName" : "assets/crop_3_1789069351786.png",
+      "format" : "png",
+      "url" : "assets/crop_3_1789069351786.png",
+      "availability" : "available",
+      "assetId" : "img:9f582246b8848e90ee16b29a475381136e5c0b27ec84bbe000985057d1b4146b",
+      "sha256" : "9f582246b8848e90ee16b29a475381136e5c0b27ec84bbe000985057d1b4146b",
+      "mimeType" : "image/jpeg",
+      "width" : 206,
+      "height" : 522,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000048",
+      "sourceName" : "assets/crop_4_1789069351790.png",
+      "format" : "png",
+      "url" : "assets/crop_4_1789069351790.png",
+      "availability" : "available",
+      "assetId" : "img:d3c2d0dfa6b27ea9e7e8c2b7441414203937730112db57baacb2ab90d839548f",
+      "sha256" : "d3c2d0dfa6b27ea9e7e8c2b7441414203937730112db57baacb2ab90d839548f",
+      "mimeType" : "image/jpeg",
+      "width" : 204,
+      "height" : 522,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000049",
+      "sourceName" : "assets/crop_5_1789069351794.png",
+      "format" : "png",
+      "url" : "assets/crop_5_1789069351794.png",
+      "availability" : "available",
+      "assetId" : "img:45d41b925c449910d4a146f82ef911b8f1a17f9b5247f379f46759cd3e7dd51f",
+      "sha256" : "45d41b925c449910d4a146f82ef911b8f1a17f9b5247f379f46759cd3e7dd51f",
+      "mimeType" : "image/jpeg",
+      "width" : 196,
+      "height" : 517,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000057",
+      "sourceName" : "assets/crop_1_1789069351804.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069351804.png",
+      "availability" : "available",
+      "assetId" : "img:b3a9e3681257896bb2f89d0f4437d8341fbd5cbd8125de2da43466217daf8cb5",
+      "sha256" : "b3a9e3681257896bb2f89d0f4437d8341fbd5cbd8125de2da43466217daf8cb5",
+      "mimeType" : "image/jpeg",
+      "width" : 1287,
+      "height" : 910,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000052", "e000054" ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-7e06a79f",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) Plastic bags used to store food are made from a polymer. Ethene is the monomer used to make the polymer for some plastic bags. (i) Name the polymer that is made from ethene. (ii) Use a word from the box to complete the sentence about ethene. Ethene is made by breaking down large hydrocarbon molecules into smaller hydrocarbon molecules, using a process called ...",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-7e06a79f-pb",
+      "label" : "b",
+      "text" : "The hydrocarbons used to make ethene are called alkanes. They are obtained from crude oil. The boiling point of an alkane is related to the number of carbon atoms in the molecule.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7e06a79f-pb-i",
+      "label" : "b-i",
+      "text" : "Use the data in the table to complete the bar chart. Boiling point in $ ^{\\circ} \\mathrm{C} $ Number of carbon atoms",
+      "marks" : 2,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000079",
+        "sourceName" : "assets/crop_1_1789069351822.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069351822.png",
+        "availability" : "available",
+        "assetId" : "img:ab1a22ba37b8150c046aebfa325711cac380304592151d02a6378c62e0ef8028",
+        "sha256" : "ab1a22ba37b8150c046aebfa325711cac380304592151d02a6378c62e0ef8028",
+        "mimeType" : "image/jpeg",
+        "width" : 768,
+        "height" : 643,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q04-7e06a79f-pb-ii",
+      "label" : "b-ii",
+      "text" : "What is the relationship between the boiling point of an alkane and the number of carbon atoms in its molecule?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-7e06a79f-pc",
+      "label" : "c",
+      "text" : "Many plastic bags are not biodegradable. Used plastic bags can be A buried underground, which is called landfill or B burned to release energy, which also produces large amounts of gases. Suggest which of these methods of disposal is better for the environment, giving two reasons for your choice. Choice Reason 1 Reason 2",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000079",
+      "sourceName" : "assets/crop_1_1789069351822.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069351822.png",
+      "availability" : "available",
+      "assetId" : "img:ab1a22ba37b8150c046aebfa325711cac380304592151d02a6378c62e0ef8028",
+      "sha256" : "ab1a22ba37b8150c046aebfa325711cac380304592151d02a6378c62e0ef8028",
+      "mimeType" : "image/jpeg",
+      "width" : 768,
+      "height" : 643,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000068", "e000075" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ "(1)" ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-7e06a79f",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This information was taken from a label on a packet containing a pizza.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-7e06a79f-pa",
+      "label" : "a",
+      "text" : "Which type of fat contains a double carbon to carbon (C=C) bond?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pa-ii",
+      "label" : "a-ii",
+      "text" : "The colour of bromine water is orange. State the final colour of the mixture after bromine water is shaken with",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pa-iii",
+      "label" : "a-iii",
+      "text" : "What type of reaction takes place when bromine reacts with a compound containing a C=C bond?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pb",
+      "label" : "b",
+      "text" : "In February 2005, some companies had to remove their pizzas from sale because the food colourings in them were found to contain the artificial dye called Sudan 1, which is known to cause cancer. The chromatogram shows how the dyes in the colourings were detected and identified.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000100",
+        "sourceName" : "assets/crop_1_1789069351843.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069351843.png",
+        "availability" : "available",
+        "assetId" : "img:2bae17c042ac9499d58dd03dfc0f27c129034fcc9d05fd222c865afe442f735b",
+        "sha256" : "2bae17c042ac9499d58dd03dfc0f27c129034fcc9d05fd222c865afe442f735b",
+        "mimeType" : "image/jpeg",
+        "width" : 1209,
+        "height" : 533,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pb-i",
+      "label" : "b-i",
+      "text" : "Which one of the food colourings, A, B, C or D, is made up of only one dye?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pb-ii",
+      "label" : "b-ii",
+      "text" : "Identify the food colourings that may have contained Sudan 1.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-7e06a79f-pb-iii",
+      "label" : "b-iii",
+      "text" : "Explain how the chromatogram shows that the five food colourings are different from each other.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000100",
+      "sourceName" : "assets/crop_1_1789069351843.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069351843.png",
+      "availability" : "available",
+      "assetId" : "img:2bae17c042ac9499d58dd03dfc0f27c129034fcc9d05fd222c865afe442f735b",
+      "sha256" : "2bae17c042ac9499d58dd03dfc0f27c129034fcc9d05fd222c865afe442f735b",
+      "mimeType" : "image/jpeg",
+      "width" : 1209,
+      "height" : 533,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000093" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q06-7e06a79f",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Sodium (Na) and sodium chloride (NaCl) both have lattice structures. Their melting points are shown in the table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-7e06a79f-pa",
+      "label" : "a",
+      "text" : "Complete the table by stating the type of lattice structure in sodium chloride.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pb",
+      "label" : "b",
+      "text" : "Explain why sodium and sodium chloride have different melting points. In your answer you should refer to the types of particle the types of forces between the particles in each substance",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pc",
+      "label" : "c",
+      "text" : "The equation shows the reaction of sodium with water. $2 \\mathrm {N a} (\\mathrm {s}) + 2 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {l}) \\rightarrow 2 \\mathrm {N a O H} (\\mathrm {a q}) + \\mathrm {H} _ {2} (\\mathrm {g})$ A sample of sodium of mass 0.138 g reacts with excess water. Calculate the volume of hydrogen, in $ cm^{3} $ , produced at room temperature and pressure (rtp). [The volume of one mole of a gas at rtp is $ 2 4 0 0 0 \\mathrm{c m}^{3} $]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "Volume of gas produced" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pd",
+      "label" : "d",
+      "text" : "Sodium chloride can be made by many different reactions. A student prepared a sample of sodium chloride using the following method. Step1 She added an excess of a solid sodium compound, X, to dilute hydrochloric acid. The mixture fizzed as the solid reacted. Step 2 She filtered the mixture produced to remove the excess solid X. The filtrate was a colourless liquid. Step 3 She evaporated the colourless liquid. A white solid remained.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pd-i",
+      "label" : "d-i",
+      "text" : "Describe a chemical test that the student could do to show that the colourless liquid in Step 2 contained chloride ions, $ \\mathrm{C l}^{-} $ . Test",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pd-ii",
+      "label" : "d-ii",
+      "text" : "The student concluded that solid X was sodium hydroxide. State one reason why this conclusion was not correct. Suggest a possible identity of solid X. Solid X could be",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pe",
+      "label" : "e",
+      "text" : "Sodium chloride can also be made by reacting sodium with chlorine gas. Draw a dot and cross diagram to show the arrangement of the electrons in each of the ions in sodium chloride. Show the charge on each ion. Show only the outer electrons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-7e06a79f-pf",
+      "label" : "f",
+      "text" : "Potassium bromide can be made by reacting potassium with bromine gas. Explain why it is difficult to be sure whether the reaction between potassium and bromine gas would be more vigorous than the reaction between sodium and chlorine gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000106" ],
+    "marks" : 19,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-7e06a79f",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) The table shows some results of the electrolysis of aqueous solutions using inert electrodes. The solutions were electrolysed under the same conditions. Use the information given to complete the table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-7e06a79f-pb",
+      "label" : "b",
+      "text" : "Water can be decomposed by electrolysis using this apparatus.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000140",
+        "sourceName" : "assets/crop_1_1789069351872.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069351872.png",
+        "availability" : "available",
+        "assetId" : "img:afa66dc0468c3932a94b8890f1b7d1d65a931aaa4fb0d31125fc4df9f53925a6",
+        "sha256" : "afa66dc0468c3932a94b8890f1b7d1d65a931aaa4fb0d31125fc4df9f53925a6",
+        "mimeType" : "image/jpeg",
+        "width" : 1226,
+        "height" : 544,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7e06a79f-pb-i",
+      "label" : "b-i",
+      "text" : "Suggest a suitable element for the inert electrodes.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7e06a79f-pb-ii",
+      "label" : "b-ii",
+      "text" : "Suggest why a small amount of dilute acid is added to the water before it is electrolysed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7e06a79f-pc",
+      "label" : "c",
+      "text" : "The overall equation for the decomposition of water is $2 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {I}) \\rightarrow 2 \\mathrm {H} _ {2} (\\mathrm {g}) + \\mathrm {O} _ {2} (\\mathrm {g})$ Use this equation to explain why the volume of hydrogen collected should be twice that of the volume of oxygen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7e06a79f-pc-ii",
+      "label" : "c-ii",
+      "text" : "The volume of oxygen collected is always slightly less than expected, even though there are no leaks in the apparatus. Suggest a reason for this.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-7e06a79f-pd",
+      "label" : "d",
+      "text" : "The equation represents the formation of hydrogen gas at the negative electrode. $2 \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {I}) + 2 \\mathrm {e} ^ {-} \\rightarrow 2 \\mathrm {O H} ^ {-} (\\mathrm {a q}) + \\mathrm {H} _ {2} (\\mathrm {g})$ During electrolysis, 482 500 coulombs were passed through the solution. Calculate the amount, in moles, of hydrogen gas formed. [One faraday=96500coulombs] Amount of hydrogen gas formed = mol",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000140",
+      "sourceName" : "assets/crop_1_1789069351872.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069351872.png",
+      "availability" : "available",
+      "assetId" : "img:afa66dc0468c3932a94b8890f1b7d1d65a931aaa4fb0d31125fc4df9f53925a6",
+      "sha256" : "afa66dc0468c3932a94b8890f1b7d1d65a931aaa4fb0d31125fc4df9f53925a6",
+      "mimeType" : "image/jpeg",
+      "width" : 1226,
+      "height" : 544,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000138" ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ "(3)" ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 4,
+    "3" : 9,
+    "4" : 7,
+    "5" : 7,
+    "6" : 19,
+    "7" : 9
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: Result", "unclassified heading: Reason" ]
+}

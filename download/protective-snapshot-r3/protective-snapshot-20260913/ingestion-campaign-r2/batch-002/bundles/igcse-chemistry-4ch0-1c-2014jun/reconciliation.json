@@ -1,0 +1,67 @@
+{
+  "findings" : [ {
+    "questionNumber" : "10",
+    "qpMarks" : 12,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "11",
+    "qpMarks" : 5,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "13",
+    "qpMarks" : 9,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "14",
+    "qpMarks" : 9,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "2",
+    "qpMarks" : 3,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "3",
+    "qpMarks" : 7,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "4",
+    "qpMarks" : 6,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "5",
+    "qpMarks" : 11,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "8",
+    "qpMarks" : 9,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "9",
+    "qpMarks" : 11,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "6",
+    "qpMarks" : null,
+    "msMarks" : null,
+    "severity" : "gap"
+  }, {
+    "questionNumber" : "15",
+    "qpMarks" : null,
+    "msMarks" : null,
+    "severity" : "gap"
+  } ],
+  "qpPaperTotal" : 120,
+  "msPaperTotal" : null,
+  "paperTotalConflict" : false,
+  "mismatchCount" : 0
+}

@@ -1,0 +1,693 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8f10a09a-1c66-53c6-94b6-4f9a0a155d81"
+  },
+  "questions" : [ {
+    "questionId" : "q01-8f10a09a",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows an atom of an element.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-8f10a09a-pa",
+      "label" : "a",
+      "text" : "What is the name of the particle labelled Y? A electron B ion C neutron D proton",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-8f10a09a-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give the mass number of this atom.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-8f10a09a-pa-iii",
+      "label" : "a-iii",
+      "text" : "Name this element. Use the Periodic Table on page 2 to help you.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-8f10a09a-pb",
+      "label" : "b",
+      "text" : "There are two isotopes of this element. Give one way, in terms of sub-atomic particles, that these isotopes are the same and one way that they are different.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000023",
+      "sourceName" : "assets/crop_1_1789064212759.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212759.png",
+      "availability" : "available",
+      "assetId" : "img:52ac40b4d05d415ef85663fbe78ede3ad0701587a5feb328df372a59a98fcf12",
+      "sha256" : "52ac40b4d05d415ef85663fbe78ede3ad0701587a5feb328df372a59a98fcf12",
+      "mimeType" : "image/jpeg",
+      "width" : 560,
+      "height" : 452,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-8f10a09a",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about gases.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-8f10a09a-pa",
+      "label" : "a",
+      "text" : "The box gives the names of some gases. Use gases from the box to answer these questions. Each gas may be used once, more than once or not at all.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8f10a09a-pa-i",
+      "label" : "a-i",
+      "text" : "Name the most abundant gas in the Earth's atmosphere.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8f10a09a-pa-ii",
+      "label" : "a-ii",
+      "text" : "Name the gas that is a compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8f10a09a-pa-iii",
+      "label" : "a-iii",
+      "text" : "Name the least reactive of the gases.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8f10a09a-pa-iv",
+      "label" : "a-iv",
+      "text" : "Name the gas formed by the complete combustion of hydrocarbons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8f10a09a-pb",
+      "label" : "b",
+      "text" : "Describe the test for hydrogen gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000037" ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-8f10a09a",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about carboxylic acids. Solutions of carboxylic acids react with magnesium metal to form hydrogen gas. This is the student's method. pour some carboxylic acid solution into a conical flask add some magnesium powder quickly connect the gas syringe and start a timer record the time taken to collect $ 1 0 \\mathrm{c m}^{3} $ of hydrogen gas The student repeats the method with three other carboxylic acids. A student uses this apparatus to investigate the time taken to produce $ 1 0 \\mathrm{c m}^{3} $ of hydrogen gas from different carboxylic acids.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-8f10a09a-pa",
+      "label" : "a",
+      "text" : "All the carboxylic acids are of the same concentration. Give two other variables the student should control in his investigation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8f10a09a-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give a reason why it is important to connect the gas syringe quickly.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8f10a09a-pb",
+      "label" : "b",
+      "text" : "The table shows the student's results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8f10a09a-pb-i",
+      "label" : "b-i",
+      "text" : "Calculate the mean (average) time for propanoic acid to produce $ 1 0 \\mathrm{c m}^{3} $ of hydrogen gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8f10a09a-pb-ii",
+      "label" : "b-ii",
+      "text" : "Deduce the relationship between the number of carbon atoms in the molecule and the time taken to produce $ 1 0 \\mathrm{c m}^{3} $ of hydrogen gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8f10a09a-pc",
+      "label" : "c",
+      "text" : "An ester is formed by adding ethanoic acid to ethanol in the presence of sulfuric acid. Give the displayed formula of the ester produced when ethanoic acid reacts with ethanol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000049",
+      "sourceName" : "assets/crop_1_1789064212775.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212775.png",
+      "availability" : "available",
+      "assetId" : "img:62e149cd7aa7ed1279c930be3af31634fe79b283a44e03d750b565f803b615c5",
+      "sha256" : "62e149cd7aa7ed1279c930be3af31634fe79b283a44e03d750b565f803b615c5",
+      "mimeType" : "image/jpeg",
+      "width" : 1341,
+      "height" : 448,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000060" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-8f10a09a",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about sodium and potassium. A trough is filled with water and a few drops of phenolphthalein indicator are added.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-8f10a09a-pa",
+      "label" : "a",
+      "text" : "A small piece of sodium is dropped into the water. One of the products of the reaction is an alkali.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8f10a09a-pa-i",
+      "label" : "a-i",
+      "text" : "Complete the chemical equation for the reaction of sodium with water. $\\mathrm {N a} (\\dots \\dots \\dots \\dots \\dots) + \\mathrm {H} _ {2} \\mathrm {O} (\\mathrm {I}) \\rightarrow \\mathrm {N a O H} (\\dots \\dots \\dots \\dots) + \\mathrm {H} _ {2} (\\mathrm {g})$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8f10a09a-pa-ii",
+      "label" : "a-ii",
+      "text" : "Identify the ion that causes the solution to become alkaline.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8f10a09a-pa-iii",
+      "label" : "a-iii",
+      "text" : "Give three observations that would be made when sodium reacts with water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8f10a09a-pb",
+      "label" : "b",
+      "text" : "Explain why potassium is more reactive than sodium. Refer to the electronic configurations of the atoms in your answer.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-8f10a09a",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about the metal aluminium.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-8f10a09a-pa",
+      "label" : "a",
+      "text" : "Aluminium is malleable and conducts electricity. The diagram shows the arrangement of the ions in aluminium metal. aluminium ion",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000079",
+        "sourceName" : "assets/crop_1_1789064212864.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064212864.png",
+        "availability" : "available",
+        "assetId" : "img:5e3f00bb555f0a1a052fe4f6e50ab01cb86a5904f3d5edd4ea58eb67bc8c3108",
+        "sha256" : "5e3f00bb555f0a1a052fe4f6e50ab01cb86a5904f3d5edd4ea58eb67bc8c3108",
+        "mimeType" : "image/jpeg",
+        "width" : 714,
+        "height" : 416,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pa-i",
+      "label" : "a-i",
+      "text" : "Explain why aluminium is malleable.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pa-ii",
+      "label" : "a-ii",
+      "text" : "Explain why aluminium conducts electricity.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pb",
+      "label" : "b",
+      "text" : "Aluminium cannot be extracted by heating a mixture of carbon and aluminium oxide. Give a reason why heating a mixture of aluminium oxide and carbon does not produce aluminium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pc",
+      "label" : "c",
+      "text" : "Aluminium is extracted industrially by the electrolysis of molten aluminium oxide $ \\mathrm{A l_{2} O_{3}} $ at a temperature of about $ 9 5 0^{\\circ} \\mathrm{C}。 $ Aluminium metal forms at the negative electrode and oxygen gas forms at the positive electrode. The positive and negative electrodes are made of graphite. The diagram shows the apparatus used.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000088",
+        "sourceName" : "assets/crop_1_1789064212876.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064212876.png",
+        "availability" : "available",
+        "assetId" : "img:aa5a921771636953835f2e6e6097856c21a429cf0308fb7bff8c0f8906d80811",
+        "sha256" : "aa5a921771636953835f2e6e6097856c21a429cf0308fb7bff8c0f8906d80811",
+        "mimeType" : "image/jpeg",
+        "width" : 1147,
+        "height" : 649,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pc-i",
+      "label" : "c-i",
+      "text" : "Explain how aluminium metal forms at the negative electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pc-ii",
+      "label" : "c-ii",
+      "text" : "Write an ionic half-equation for the formation of oxygen gas at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pc-iii",
+      "label" : "c-iii",
+      "text" : "Suggest why carbon dioxide gas is also produced at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pd",
+      "label" : "d",
+      "text" : "Aluminium reacts with iron(III) oxide. The reaction is exothermic. $2 \\mathrm {A l} + \\mathrm {F e} _ {2} \\mathrm {O} _ {3} \\rightarrow \\mathrm {A l} _ {2} \\mathrm {O} _ {3} + 2 \\mathrm {F e}$ The equation for the reaction is",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pd-i",
+      "label" : "d-i",
+      "text" : "State how the equation shows that iron(III) oxide is reduced.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8f10a09a-pd-ii",
+      "label" : "d-ii",
+      "text" : "Draw an energy level diagram for the reaction between aluminium and iron(III) oxide.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000079",
+      "sourceName" : "assets/crop_1_1789064212864.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212864.png",
+      "availability" : "available",
+      "assetId" : "img:5e3f00bb555f0a1a052fe4f6e50ab01cb86a5904f3d5edd4ea58eb67bc8c3108",
+      "sha256" : "5e3f00bb555f0a1a052fe4f6e50ab01cb86a5904f3d5edd4ea58eb67bc8c3108",
+      "mimeType" : "image/jpeg",
+      "width" : 714,
+      "height" : 416,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000088",
+      "sourceName" : "assets/crop_1_1789064212876.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212876.png",
+      "availability" : "available",
+      "assetId" : "img:aa5a921771636953835f2e6e6097856c21a429cf0308fb7bff8c0f8906d80811",
+      "sha256" : "aa5a921771636953835f2e6e6097856c21a429cf0308fb7bff8c0f8906d80811",
+      "mimeType" : "image/jpeg",
+      "width" : 1147,
+      "height" : 649,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-8f10a09a",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about the insoluble salt silver chloride (AgCl). Silver chloride can be made by the reaction between copper(II) chloride and silver nitrate.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-8f10a09a-pa",
+      "label" : "a",
+      "text" : "Describe how a student could prepare a pure, dry sample of silver chloride starting with copper(II) chloride solution and silver nitrate solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pb",
+      "label" : "b",
+      "text" : "A student investigates the quantity of silver chloride produced when different volumes of silver nitrate solution are added to copper(II) chloride solution. This is the student's method. pour $ 5. 0 \\mathrm{c m}^{3} $ of copper(II) chloride solution into a test tube add 1.0 $ cm^{3} $ of silver nitrate solution to the test tube allow the silver chloride precipitate to settle measure the height of the precipitate The student repeats the method using different volumes of silver nitrate solution. The table shows the student's results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pb-i",
+      "label" : "b-i",
+      "text" : "Plot the student's results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pb-ii",
+      "label" : "b-ii",
+      "text" : "Draw two straight lines of best fit, ignoring the anomalous result. Volume of silver nitrate added in $ \\mathrm{c m}^{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000111",
+        "sourceName" : "assets/crop_1_1789064212921.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064212921.png",
+        "availability" : "available",
+        "assetId" : "img:c232dde90b3cf5e142d10b0eb1d46d5e35529045c12000f9a51979c73d133c00",
+        "sha256" : "c232dde90b3cf5e142d10b0eb1d46d5e35529045c12000f9a51979c73d133c00",
+        "mimeType" : "image/jpeg",
+        "width" : 834,
+        "height" : 855,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pb-iii",
+      "label" : "b-iii",
+      "text" : "Suggest a mistake the student made to cause the anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pb-iv",
+      "label" : "b-iv",
+      "text" : "Give a reason why the last three heights are the same.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pc",
+      "label" : "c",
+      "text" : "The equation for the reaction between copper(II) chloride and silver nitrate is $\\mathrm {C u C l} _ {2} (\\mathrm {a q}) + 2 \\mathrm {A g N O} _ {3} (\\mathrm {a q}) \\rightarrow 2 \\mathrm {A g C l} (\\mathrm {s}) + \\mathrm {C u} \\left(\\mathrm {N O} _ {3}\\right) _ {2} (\\mathrm {a q})$ A student measures $ 2 5. 0 \\mathrm{c m}^{3} $ of $ 0. 5 0 0 \\mathrm{m o l} / \\mathrm{d m}^{3} $ copper(II) chloride solution and reacts it with silver nitrate solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pc-i",
+      "label" : "c-i",
+      "text" : "Name a piece of apparatus suitable for measuring $ 2 5. 0 \\mathrm{c m}^{3} $ of copper(II) chloride solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pc-ii",
+      "label" : "c-ii",
+      "text" : "Calculate the maximum mass, in grams, of silver chloride that could be produced. $ [ M_{r} $ of $ \\mathrm{A g C l}=1 4 3. 5] $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-8f10a09a-pc-iii",
+      "label" : "c-iii",
+      "text" : "In an experiment using different solutions, the mass of silver chloride produced is 0.744 g. The maximum mass of silver chloride that could be produced is 0.850 g. Calculate the percentage yield.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000111",
+      "sourceName" : "assets/crop_1_1789064212921.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212921.png",
+      "availability" : "available",
+      "assetId" : "img:c232dde90b3cf5e142d10b0eb1d46d5e35529045c12000f9a51979c73d133c00",
+      "sha256" : "c232dde90b3cf5e142d10b0eb1d46d5e35529045c12000f9a51979c73d133c00",
+      "mimeType" : "image/jpeg",
+      "width" : 834,
+      "height" : 855,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000108" ],
+    "marks" : 15,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-8f10a09a",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about octane $ \\left( \\mathrm{C}_{8} \\mathrm{H}_{1 8} \\right) $ which is produced in the gasoline fraction during fractional distillation of crude oil.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-8f10a09a-pa",
+      "label" : "a",
+      "text" : "The diagram shows a fractionating column. Describe how crude oil is separated into fractions in the fractionating column.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000127",
+        "sourceName" : "assets/crop_1_1789064212939.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064212939.png",
+        "availability" : "available",
+        "assetId" : "img:1aa2acd2022bc247c214343602976f3426ef1c0eb2aa7f7bceb4d9e901513839",
+        "sha256" : "1aa2acd2022bc247c214343602976f3426ef1c0eb2aa7f7bceb4d9e901513839",
+        "mimeType" : "image/jpeg",
+        "width" : 1016,
+        "height" : 578,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-8f10a09a-pb",
+      "label" : "b",
+      "text" : "Octane can also be produced by the process of cracking. Give the conditions for cracking.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-8f10a09a-pc",
+      "label" : "c",
+      "text" : "A car is driven at constant speed for 4.00 km. The exhaust gases are collected and their volume at room temperature and pressure (rtp) is $ 5.02\\times10^{5}\\mathrm{cm}^{3}. $ The exhaust gases include carbon dioxide and oxides of nitrogen. The carbon dioxide is removed from the exhaust gases. The volume of the remaining gases at rtp is $ 2.96\\times10^{5}\\mathrm{cm}^{3}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-8f10a09a-pc-i",
+      "label" : "c-i",
+      "text" : "Explain how oxides of nitrogen form in a car engine.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-8f10a09a-pc-ii",
+      "label" : "c-ii",
+      "text" : "Give a reason why oxides of nitrogen should not be released into the atmosphere.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-8f10a09a-pc-iii",
+      "label" : "c-iii",
+      "text" : "Show that the car produces less than 100g of carbon dioxide per km. [molar volume of carbon dioxide at rtp=24000 $ cm^{3} $]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000127",
+      "sourceName" : "assets/crop_1_1789064212939.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064212939.png",
+      "availability" : "available",
+      "assetId" : "img:1aa2acd2022bc247c214343602976f3426ef1c0eb2aa7f7bceb4d9e901513839",
+      "sha256" : "1aa2acd2022bc247c214343602976f3426ef1c0eb2aa7f7bceb4d9e901513839",
+      "mimeType" : "image/jpeg",
+      "width" : 1016,
+      "height" : 578,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 5,
+    "4" : 9,
+    "6" : 15,
+    "7" : 14
+  },
+  "paperTotal" : 70,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: maximum mass=", "Q3: incomplete MCQ option set folded into stem", "Q4: incomplete MCQ option set folded into stem" ]
+}

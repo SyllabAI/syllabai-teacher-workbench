@@ -1,0 +1,844 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1C_msc_2020305",
+    "session" : "January 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "eb45174b-0c73-59f0-9012-c11384739a5e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-eb45174b-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "argon/helium",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT Ar/He"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT N2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT CO2"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT CO2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "S+O2→SO2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "acid rain"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT an adverse effect of acid rain e.g. kills fish, damages plants, corrodes limestone/marble buildings/statues etc.IGNORE toxic/pollutant"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "name of the part of the atom labelled Z\nnumber of protons in this atom\nnumber of the group that contains this element\nnumber of the period that contains this element\ncharge on the ion formed from this atom",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT +2 / Mg2+"
+    }, {
+      "kind" : "note",
+      "text" : "2+"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "·calculate sum of mass numbers multiplied by percentage abundances"
+    }, {
+      "kind" : "note",
+      "text" : "·divide answer by 100"
+    }, {
+      "kind" : "note",
+      "text" : "·give answer to one decimal place"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1(24×79.2)+(25×10.0)+(26×10.8)OR2431.6"
+    }, {
+      "kind" : "note",
+      "text" : "M22431.6÷100OR24.316"
+    }, {
+      "kind" : "note",
+      "text" : "M324.3"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if correct working given but incorrectly evaluated"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1(24×0.792)+(25×0.100)+(26×0.108)OR24.316 with or without working scores M1 and M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M2 if calculated answer is to 1dp"
+    }, {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "Total 8"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "galvanising"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT galvanisation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "rust"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 oxygen/air"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT O2IGNORE O"
+    }, {
+      "kind" : "note",
+      "text" : "M2 water"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2O/moistureACCEPT in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(a reaction which) gives out/produces/releases heat(energy)/thermal energy"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE energy without mention of heat or thermal"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 aluminium/Al is more reactive than iron/Fe"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT aluminium/Al is higher in reactivity series than iron/FeACCEPT reverse argument"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (because) aluminium/Al displaces iron/Fe(from its oxide)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW replaces/takes place of"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three pointsM1 aluminium is oxidised and iron/iron oxide is reducedM2 aluminium gains oxygenM3 iron oxide/iron loses oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW both oxidation and reduction occurALLOW aluminium/Al loses electronsALLOW iron ions/Fe3+ gains electronsALLOW correct references to changes in oxidation number for M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Mg2+"
+    }, {
+      "kind" : "note",
+      "text" : "Al3+"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for each correct formula"
+    }, {
+      "kind" : "note",
+      "text" : "S2-"
+    }, {
+      "kind" : "note",
+      "text" : "MgS"
+    }, {
+      "kind" : "note",
+      "text" : "Al2S3"
+    }, {
+      "kind" : "note",
+      "text" : "NO3-"
+    }, {
+      "kind" : "note",
+      "text" : "Mg(NO3)2"
+    }, {
+      "kind" : "note",
+      "text" : "Al(NO3)3"
+    }, {
+      "kind" : "note",
+      "text" : "NH4NO3"
+    }, {
+      "kind" : "note",
+      "text" : "CO32-"
+    }, {
+      "kind" : "note",
+      "text" : "MgCO3"
+    }, {
+      "kind" : "note",
+      "text" : "Al2(CO3)3"
+    }, {
+      "kind" : "note",
+      "text" : "(NH4)2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "ammonium nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electrostatic (force of) attraction"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW electrostatic force"
+    }, {
+      "kind" : "note",
+      "text" : "M2 between oppositely charged ions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT between positive and negative ions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT between cations and anions"
+    }, {
+      "kind" : "note",
+      "text" : "[ ]+ [ ]2- [ ]+"
+    }, {
+      "kind" : "note",
+      "text" : "If only outer shells shown correctly scores 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct electron arrangement of both sodium ions"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct electron arrangement of the oxide ion"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct charges on all ions (with or without brackets)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT dots in place of crosses or any combination of dots and crosses for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nREJECT discoloured",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "S"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "T and U"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "U"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that makes reference to the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1(add) bromine water"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Br2(aq)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 no change / stays orange"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW no reaction"
+    }, {
+      "kind" : "note",
+      "text" : "If initial colour of bromine water is given in M2 or M3 it must be correct-ALLOW any combination of orange/yellow/brown-but penalise once only"
+    }, {
+      "kind" : "note",
+      "text" : "If bromine given for M1 then in M2 and M3 allow any combination of red/orange/brown/yellow"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and M3 dep on bromine water/bromine in M1"
+    }, {
+      "kind" : "note",
+      "text" : "If no reagent and correct M2 and M3-score 1"
+    }, {
+      "kind" : "note",
+      "text" : "if incorrect reagent and correct M2 and M3 score 0"
+    }, {
+      "kind" : "note",
+      "text" : "M3(bromine water) decolourised / changes(from orange) to colourless"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 acidified potassium manganate(VII)M2 no change/stays purpleM3 decolourised / goes colourless"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two of the following points\nM1(can be represented by a) general formula\nM2 each member differs from the next by aCH2group OWTTE\nM3(each member has) same functional group\nM4(each member has) similar/same chemical properties/similar/same(chemical) reactions\nM5 trend in physical properties(between successive members)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT react in similar/same way"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT named physical property,e.g. boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT similar/same physical properties"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "but-1-ene"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 1-butene"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Either"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C=C-C-H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT cis or trans isomer"
+    }, {
+      "kind" : "note",
+      "text" : "Or"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C=C-H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT displayed formulae of cyclic alkanes"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q5ei",
+    "label" : "5(e)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "·Divide percentages by relative atomic masses\n·Divide results by smallest value to obtain ratio\nExample calculation\nExample calculation",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "0 marks if division by atomic numbers or upside down calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "C36.3612"
+    }, {
+      "kind" : "note",
+      "text" : "H6.061"
+    }, {
+      "kind" : "note",
+      "text" : "F57.5819"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "3.033.03"
+    }, {
+      "kind" : "note",
+      "text" : "6.063.03"
+    }, {
+      "kind" : "note",
+      "text" : "3.033.03"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "·divide relative molecular mass by empirical formula mass"
+    }, {
+      "kind" : "note",
+      "text" : "·correct molecular formula"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT symbols in any order"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores 2 marks."
+    }, {
+      "kind" : "note",
+      "text" : "2CH2F scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "6612+2+19"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "6633"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "C2H4F2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 14"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q6di",
+    "label" : "6(d)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "no reaction(occurred between copper and hydrochloric acid)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE copper is unreactive ALLOW copper is less reactive than hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any value between1.5and5.0℃inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "most reactive magnesium zinc iron tin copper"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT symbols"
+    }, {
+      "kind" : "note",
+      "text" : "Total12"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B bromine\nC is incorrect as chlorine is a gas\nC chlorine (as it is pale green)\nA is incorrect as astatine is black\nB is incorrect as bromine is brown\nC is incorrect as iodine is dark grey\nA astatine\nB is incorrect as bromine is more reactive than astatine\nC is incorrect as chlorine is more reactive than astatine",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as astatine is a solid"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as iodine is a solid"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as iodine is more reactive than astatine"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q7c",
+    "label" : "7(c)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that makes reference to the following6 points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Test for cation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 add sodium hydroxide(solution)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ammonia solution"
+    }, {
+      "kind" : "note",
+      "text" : "M2 if blue precipitate forms solution containscopper(II) ion(s)/containsCu2+/is a coppercompound"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE qualifiersREJECT other colours"
+    }, {
+      "kind" : "note",
+      "text" : "M3 if green precipitate forms solution containsiron(II) ion(s)/containsFe2+/is an iron compound"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE qualifiersREJECT other colours"
+    }, {
+      "kind" : "note",
+      "text" : "If no reagent orincorrect reagent butcorrectM2 and M3score1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWM1 flame test ordescription of flame test"
+    }, {
+      "kind" : "note",
+      "text" : "M2 if blue-green(flame)solution containscopper(II) ion(s)/containsCu2+/is a coppercompound"
+    }, {
+      "kind" : "note",
+      "text" : "No M3 for this test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWM1 addition of suitablemetal aboveCu inreactivity series"
+    }, {
+      "kind" : "note",
+      "text" : "M2 brown/pink/pink-brown solid forms"
+    }, {
+      "kind" : "note",
+      "text" : "No M3 for this test"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eb45174b-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sublimation / subliming"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (add to/bubble into) limewater"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (limewater) turns cloudy/milky"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT forms white precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 weak forces (of attraction) between molecules / weak intermolecular forces (of attraction)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weak intermolecular bonds"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weak intermolecular attractions"
+    }, {
+      "kind" : "note",
+      "text" : "M2 little energy needed to overcome the (intermolecular) forces"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE less energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW little energy needed to separate the molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 correct or missing"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to minimise/prevent (mass loss by) evaporation of the (liquid) fuel OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW to find mass of fuel used/burned"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "soot/carbon"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT copper oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points.M1 incomplete combustion (occurs)M2 (because) the air/oxygen supply is limited OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW mark for soot/carbon if not seen in(i), unless copper oxide is mentioned in(i)If copper oxide in(i)ALLOW 1 mark for(because) copper reacts with oxygen(in air)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution intoQ=mcΔT calculation of heat energy in Joules conversion to kJExample calculationM1Q=100x4.2x30M2=12600(J)M3=12.6kJ"
+    }, {
+      "kind" : "note",
+      "text" : "12600(J) with no working scores M1 and M2M2 ECF M1ALLOW approximately=13kJ12.6kJ with no working scores3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q9di",
+    "label" : "9(d)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 all points plotted correctlyM2 line of best fit drawn with a ruler",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "does not need to start at(0,0)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 straight line extrapolated up to 6 carbon atomsM2 value of ΔH read from their graph"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW extra point shown at 6 carbon atomsnegative sign needed"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)The greater the number of carbon atoms(per molecule) the greater(the magnitude/value of) ΔH"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ΔH is(directly) proportional to the number of carbon atoms per moleculeALLOW The greater the number of carbon atoms(per molecule) the more exothermic the ΔH value"
+    }, {
+      "kind" : "note",
+      "text" : "Total 15"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$4\\text{NH}_{3}+5\\text{O}_{2}\\rightleftharpoons 4\\text{NO}+6\\text{H}_{2}\\text{O}$",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "reversible (reaction)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reaction that goes both ways / both forwards and backwards reactions occur"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "to increase the rate of the reaction / to speed up the reaction OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to equilibrium"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "$2\\text{NO}+\\text{O}_{2}\\rightarrow 2\\text{NO}_{2}$"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to lowering the activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "calculate $M_{\\mathrm{r}}$ of $\\text{NO}_{2}$ and $\\text{HNO}_{3}$calculate the amount, in moles, of $\\text{NO}_{2}$calculate the amount, in moles, of $\\text{HNO}_{3}$calculate the mass in tonnes of $\\text{HNO}_{3}$Example calculationM1 $M_{\\mathrm{r}}$ of $\\text{NO}_{2}=46$ $M_{\\mathrm{r}}$ of $\\text{HNO}_{3}=63$M2 $n(\\text{NO}_{2})=11.5\\times 10^{6}\\div 46$ OR 250 000 (mol)M3 $n(\\text{HNO}_{3})=\\frac{2\\times 250000}{3}$ OR 167 000 / 170 000ALLOW working in megamoles i.e. 11.5÷46 OR 0.25ALLOW ECF from incorrect Mr of $\\text{NO}_{2}$calculator answer 166666.66ALLOW working in megamoles i.e. $\\frac{2\\times 0.25}{3}$ OR 0.167 / 0.17ALLOW ECF from M2M4 (167 000 x 63 g)=10.5 (tonnes)10.5 (tonnes) with no working scores 4ACCEPT 10.7 (if 170 000 used)ALLOW ECF from M3ALLOW ECF from incorrect $M_{\\mathrm{r}}$ of $\\text{HNO}_{3}$can be (re)used in stage 2 / to make more nitrogen dioxide (in stage 2) / can be used to make more nitric acidIGNORE can be recycled/reused unless qualified"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-eb45174b-q10d",
+    "label" : "10(d)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calculate the amount, in moles, of copper(II) nitratecalculate the theoretical yield, in moles, of copper(II) nitratecalculate the percentage yieldExample calculationM1nCu(NO3)2formed=15.3÷187.5OR0.0816M2theoreticalnCu(NO3)2=0.200÷2OR0.100M3(% yield)=(0.0816x100)/(0.100)81.6(%)40.8 scores2Alternative methodcalculate the theoretical yield, in moles, of copper(II) nitratecalculate the theoretical mass of copper nitrate that should be formedcalculate the percentage yieldExample calculationM1theoreticalnCu(NO3)2=0.200÷2OR0.100M2theoretical mass of copper nitrate=0.1x187.5=18.75M3(% yield)=(15.3/18.75)x100=81.6(%)81.6(%) with no working scores3 marksTotal12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW0.0823ACCEPT82(%)Mark M3 CSQ on M1and M240.8 scores2ALLOW18.8ACCEPT82(%)Mark M3 CSQ on M1and M240.8 scores281.6(%) with no working scores3 marks"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(e)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(e)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 6(a)(b)", "orphan row before first entry: temperature in $ ^{\\circ} \\mathrm{C} $ after adding zinc", "orphan row before first entry: temperature in $ ^{\\circ} \\mathrm{C} $ before adding zinc", "orphan row before first entry: temperature change in $ ^{\\circ} \\mathrm{C} $", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 17.7", "orphan row before first entry: M3 (+)4.7", "orphan row before first entry: (ii)", "orphan row before first entry: M1 polystyrene is an insulator", "orphan row before first entry: M2 (so) reduces heat loss", "orphan row before first entry: Any three from", "orphan row before first entry: (ii)", "orphan row before first entry: M2 concentration of acid", "orphan row before first entry: M3 volume of acid", "orphan row before first entry: M4 (speed/time of) stirring", "orphan row before first entry: M5 external / room temperature", "6(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: Test for anion\nM4 add silver nitrate (solution)\nM5 if white precipitate forms solution contains chloride ion(s) contains Cl- is a chloride\nM6 if cream precipitate forms solution contains bromide ion(s) contains Br- is a bromide", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: Total 11", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "9(d)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(d)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)" ]
+}

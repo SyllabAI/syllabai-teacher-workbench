@@ -1,0 +1,685 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH0/2C",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2012",
+    "examDate" : "Tuesday 29 May 2012 – Morning",
+    "duration" : null,
+    "canonicalDocumentId" : "29fe818b-80ac-54d9-a3b4-2354ce830582"
+  },
+  "questions" : [ {
+    "questionId" : "q01-29fe818b",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Many chemical reactions occur in the atmosphere.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-29fe818b-pa",
+      "label" : "a",
+      "text" : "The pie chart shows the relative amounts of some gases in air.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000022",
+        "sourceName" : "assets/crop_1_1789064332763.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064332763.png",
+        "availability" : "available",
+        "assetId" : "img:2d60bca350840850f8b716fdee5519240fc863be467450b3f2a62214f63d15ff",
+        "sha256" : "2d60bca350840850f8b716fdee5519240fc863be467450b3f2a62214f63d15ff",
+        "mimeType" : "image/jpeg",
+        "width" : 1140,
+        "height" : 573,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pa-i",
+      "label" : "a-i",
+      "text" : "Label the pie chart with the name of the gas that makes up most of the air.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pa-ii",
+      "label" : "a-ii",
+      "text" : "What is the approximate percentage of oxygen in air? Place a cross ( $ \\bigcirc $ ) in one box. 1 20 25 78",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pa-iii",
+      "label" : "a-iii",
+      "text" : "Use words from the box to complete the sentences about some of the other gases in air. Each word may be used once, more than once or not at all. One of the gases in air is argon. It is called a noble gas because it is very ... . The percentage of ... vapour in air varies with the weather.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pb",
+      "label" : "b",
+      "text" : "Rain water is naturally slightly acidic because carbon dioxide dissolves in it. The word equation for the reaction that occurs is: $\\mathrm {c a r b o n d i o x i d e} + \\mathrm {w a t e r} \\rightarrow \\mathrm {c a r b o n i c a c i d}$ Acid rain is more acidic because pollutant gases in the atmosphere also dissolve in water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pb-i",
+      "label" : "b-i",
+      "text" : "Identify the acid formed when sulfur dioxide reacts with water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pb-ii",
+      "label" : "b-ii",
+      "text" : "Identify another pollutant gas that forms acid rain.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-29fe818b-pb-iii",
+      "label" : "b-iii",
+      "text" : "State two problems caused by acid rain.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000022",
+      "sourceName" : "assets/crop_1_1789064332763.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064332763.png",
+      "availability" : "available",
+      "assetId" : "img:2d60bca350840850f8b716fdee5519240fc863be467450b3f2a62214f63d15ff",
+      "sha256" : "2d60bca350840850f8b716fdee5519240fc863be467450b3f2a62214f63d15ff",
+      "mimeType" : "image/jpeg",
+      "width" : 1140,
+      "height" : 573,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000031" ],
+    "marks" : 8,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-29fe818b",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Iron and aluminium are two important metals extracted from their ores on a large scale.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-29fe818b-pa",
+      "label" : "a",
+      "text" : "In the extraction of iron, three different raw materials are put into the top of a blast furnace. Name the main compound present in the following raw materials.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pa-i",
+      "label" : "a-i",
+      "text" : "Haematite",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pa-ii",
+      "label" : "a-ii",
+      "text" : "Limestone",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pb",
+      "label" : "b",
+      "text" : "The following equations represent reactions in the blast furnace. A $ \\mathrm{C+O_{2}\\rightarrow CO_{2}} $ B $ \\mathrm{CaCO_{3}\\rightarrow CaO+CO_{2}} $ C $ \\mathrm{C+CO_{2}\\rightarrow 2CO} $ D $ \\mathrm{Fe_{2}O_{3}+3CO\\rightarrow 2Fe+3CO_{2}} $ E $ \\mathrm{CaO+SiO_{2}\\rightarrow CaSiO_{3}} $ Choose from the letters A,B,C,D or E to answer parts (i) - (iv). Each letter may be used once, more than once or not at all.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pb-i",
+      "label" : "b-i",
+      "text" : "A reaction that is used to produce heat ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pb-ii",
+      "label" : "b-ii",
+      "text" : "A neutralisation reaction",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pb-iii",
+      "label" : "b-iii",
+      "text" : "A decomposition reaction",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pb-iv",
+      "label" : "b-iv",
+      "text" : "A reaction that forms a reducing agent",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pc",
+      "label" : "c",
+      "text" : "Molten iron and another molten substance collect at the bottom of the blast furnace. What is the common name of this other molten substance?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pd",
+      "label" : "d",
+      "text" : "Aluminium is extracted from its ore by electrolysis. This is a more expensive process than using a blast furnace.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pd-i",
+      "label" : "d-i",
+      "text" : "Why is a different method used for aluminium?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pd-ii",
+      "label" : "d-ii",
+      "text" : "State the major reason for the high cost of extracting aluminium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pe",
+      "label" : "e",
+      "text" : "Coke used in the blast furnace contains carbon. Carbon is also used in the extraction of aluminium, but for a different purpose. What is this purpose?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-29fe818b-pf",
+      "label" : "f",
+      "text" : "The extraction of aluminium can be represented by the chemical equation: $2 \\mathrm {A l} _ {2} \\mathrm {O} _ {3} \\rightarrow 4 \\mathrm {A l} + 3 \\mathrm {O} _ {2}$ Write the two ionic half-equations that can also be used to represent this extraction. Half-equation 1. Half-equation 2.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 13,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-29fe818b",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A group of students planned an experiment to find the temperature rise in a neutralisation reaction. This is their method. Use a measuring cylinder to add $ 2 5 \\mathrm{c m}^{3} $ of an alkali to a $ 1 0 0 \\mathrm{c m}^{3} $ beaker Record the temperature of the alkali Use a burette to add an acid to the alkali in 5.0 $ cm^{3} $ portions Record the temperature of the mixture after adding each portion of acid Stop the experiment when the neutralisation is complete",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-29fe818b-pa",
+      "label" : "a",
+      "text" : "The teacher asked the students about their method. Suggest an answer to each of her questions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pa-i",
+      "label" : "a-i",
+      "text" : "Why would it be better to use a pipette instead of a measuring cylinder?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pa-ii",
+      "label" : "a-ii",
+      "text" : "It would be better if a polystyrene cup were used instead of a beaker. What property of polystyrene makes this an improvement?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pa-iii",
+      "label" : "a-iii",
+      "text" : "What extra step should there be between adding each portion of acid and measuring the temperature?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pa-iv",
+      "label" : "a-iv",
+      "text" : "How would you know when the neutralisation was complete?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pb",
+      "label" : "b",
+      "text" : "The diagrams show the readings on the thermometer before and after one of the students added a portion of acid. before adding acid after adding acid Write down the thermometer readings and calculate the temperature change. Temperature before adding acid ... $ ^{\\circ} \\mathrm{C} $ Temperature after adding acid ... $ ^{\\circ} \\mathrm{C} $ Temperature change ... $ ^{\\circ} \\mathrm{C} $",
+      "marks" : 3,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000082",
+        "sourceName" : "assets/crop_1_1789064332796.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064332796.png",
+        "availability" : "available",
+        "assetId" : "img:26510a111c89389b8cc4132349338ff2d32e6afa07704062a3c73f324c57f1b7",
+        "sha256" : "26510a111c89389b8cc4132349338ff2d32e6afa07704062a3c73f324c57f1b7",
+        "mimeType" : "image/jpeg",
+        "width" : 271,
+        "height" : 745,
+        "formatMismatch" : true
+      }, {
+        "elementId" : "e000084",
+        "sourceName" : "assets/crop_2_1789064332801.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789064332801.png",
+        "availability" : "available",
+        "assetId" : "img:6294610ca191141cfe97999d18b53e0a2f783fa9822b14844d20a98e8180408b",
+        "sha256" : "6294610ca191141cfe97999d18b53e0a2f783fa9822b14844d20a98e8180408b",
+        "mimeType" : "image/jpeg",
+        "width" : 258,
+        "height" : 648,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q03-29fe818b-pc",
+      "label" : "c",
+      "text" : "One student obtained these results from an experiment in which she added a total of $ 4 0. 0 \\mathrm{c m}^{3} $ of hydrochloric acid to $ 2 5 \\mathrm{c m}^{3} $ of sodium hydroxide solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pc-i",
+      "label" : "c-i",
+      "text" : "Plot a graph of these results on the grid below. Draw a straight line of best fit through the first five points and another straight line of best fit through the last four points. Make sure that the two lines cross. Temperature in $ ^{\\circ} \\mathrm{C} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000096",
+        "sourceName" : "assets/crop_1_1789064332809.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789064332809.png",
+        "availability" : "available",
+        "assetId" : "img:8f7cdf56a9a2c58f03502287c6097a58589a26a550657e8aa3208bbd1ffb418d",
+        "sha256" : "8f7cdf56a9a2c58f03502287c6097a58589a26a550657e8aa3208bbd1ffb418d",
+        "mimeType" : "image/jpeg",
+        "width" : 907,
+        "height" : 1119,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pc-ii",
+      "label" : "c-ii",
+      "text" : "The point where the lines cross indicates the volume of acid needed to exactly neutralise the alkali, and also the maximum temperature reached. Use your graph to record these values. Volume of acid Maximum temperature ... $ ^{\\circ} \\mathrm{C} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pd",
+      "label" : "d",
+      "text" : "A second student used the same method and found that $ 3 0. 0 \\mathrm{c m}^{3} $ of acid were needed to neutralise $ 2 5 \\mathrm{c m}^{3} $ of alkali. He obtained a temperature rise of 5.5 $ ^{\\circ} \\mathrm{C} $ in his experiment. Calculate the heat energy change in this experiment using the expression: heat energy change = total volume of mixture $ \\times $4.2 $ \\times $temperature change",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pe",
+      "label" : "e",
+      "text" : "A third student calculated that the heat energy change in her experiment was 1800 J. This heat energy was released by the neutralisation of $ 2 5 \\mathrm{c m}^{3} $ of 1.50 mol/dm $ ^{3} $ sodium hydroxide solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pe-i",
+      "label" : "e-i",
+      "text" : "Calculate the amount, in moles, of sodium hydroxide neutralised. $\\mathrm {A m o u n t} =$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-29fe818b-pe-ii",
+      "label" : "e-ii",
+      "text" : "Calculate the molar enthalpy change, in kJ/mol, for the neutralisation of sodium hydroxide.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "Molar enthalpy change" ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000082",
+      "sourceName" : "assets/crop_1_1789064332796.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064332796.png",
+      "availability" : "available",
+      "assetId" : "img:26510a111c89389b8cc4132349338ff2d32e6afa07704062a3c73f324c57f1b7",
+      "sha256" : "26510a111c89389b8cc4132349338ff2d32e6afa07704062a3c73f324c57f1b7",
+      "mimeType" : "image/jpeg",
+      "width" : 271,
+      "height" : 745,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000084",
+      "sourceName" : "assets/crop_2_1789064332801.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789064332801.png",
+      "availability" : "available",
+      "assetId" : "img:6294610ca191141cfe97999d18b53e0a2f783fa9822b14844d20a98e8180408b",
+      "sha256" : "6294610ca191141cfe97999d18b53e0a2f783fa9822b14844d20a98e8180408b",
+      "mimeType" : "image/jpeg",
+      "width" : 258,
+      "height" : 648,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000096",
+      "sourceName" : "assets/crop_1_1789064332809.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064332809.png",
+      "availability" : "available",
+      "assetId" : "img:8f7cdf56a9a2c58f03502287c6097a58589a26a550657e8aa3208bbd1ffb418d",
+      "sha256" : "8f7cdf56a9a2c58f03502287c6097a58589a26a550657e8aa3208bbd1ffb418d",
+      "mimeType" : "image/jpeg",
+      "width" : 907,
+      "height" : 1119,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000092" ],
+    "marks" : 19,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-29fe818b",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "There are two important ways to manufacture ethanol. Reaction 1 $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C} _ {2} \\mathrm {H} _ {5} \\mathrm {O H}$ Reaction 2 $C _ {6} H _ {1 2} O _ {6} \\rightarrow 2 C _ {2} H _ {5} O H + 2 C O _ {2}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-29fe818b-pa",
+      "label" : "a",
+      "text" : "Identify one raw material that could be used as the source of $ C_{6} H_{1 2} O_{6} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-29fe818b-pa-ii",
+      "label" : "a-ii",
+      "text" : "Reaction 2 uses a catalyst called zymase, which is present in yeast. Identify the catalyst used in reaction 1.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-29fe818b-pa-iii",
+      "label" : "a-iii",
+      "text" : "In both reactions it is important to control the temperature State why the temperature in reaction 2 is kept below $ 3 5 \\, \\mathrm{^ \\circ C} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-29fe818b-pb",
+      "label" : "b",
+      "text" : "A manufacturing company plans to build a factory to produce ethanol on a large scale. The factory will be near an oilfield. The ethanol will be used as a solvent for perfume. Suggest why the company should use reaction 1 rather than reaction 2.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-29fe818b-pc",
+      "label" : "c",
+      "text" : "In the future, it may be necessary to convert the ethanol (produced by reaction 2) into ethene. Write the equation for this reaction and state the type of reaction that occurs. Equation Type of reaction",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 8,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-29fe818b",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows how sodium chloride solution can be electrolysed and the products of electrolysis collected. power supply",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-29fe818b-pa",
+      "label" : "a",
+      "text" : "Draw an arrow on the diagram to show the direction of electron flow at point X.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pa-ii",
+      "label" : "a-ii",
+      "text" : "The diagram shows one of the gases being collected in test tube Q. Identify this gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pa-iii",
+      "label" : "a-iii",
+      "text" : "When the concentration of the sodium chloride solution is low, the gas collected in test tube P is mostly oxygen. The formation of this gas can be represented by an ionic half-equation. Balance the equation. $\\mathrm {O H} ^ {-} \\rightarrow \\mathrm {H} _ {2} \\mathrm {O} + \\mathrm {O} _ {2} + \\mathrm {e} ^ {-}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pb",
+      "label" : "b",
+      "text" : "When the concentration of sodium chloride solution is high, the gas that collects in test tube P is mostly chlorine. The equation for its formation is: $2 \\mathrm {C l} ^ {-} \\rightarrow \\mathrm {C l} _ {2} + 2 \\mathrm {e} ^ {-}$ In one experiment, the volume of chlorine gas collected was $ 1 8 \\mathrm{c m}^{3}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pb-i",
+      "label" : "b-i",
+      "text" : "Calculate the amount, in moles, of chlorine gas in $ 1 8 \\mathrm{c m}^{3}. $ (The volume of 1 mol of a gas at room temperature and pressure is $ 2 4 0 0 0 \\mathrm{c m}^{3} $)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pb-ii",
+      "label" : "b-ii",
+      "text" : "Calculate the quantity of electricity, in coulombs, needed to produce this volume of chlorine gas. (1 faraday=96500 coulombs)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pc",
+      "label" : "c",
+      "text" : "Chlorine reacts with potassium bromide solution. The equation for this reaction is: $\\mathrm {C l} _ {2} (\\mathrm {g}) + 2 \\mathrm {B r} ^ {-} (\\mathrm {a q}) \\rightarrow 2 \\mathrm {C l} ^ {-} (\\mathrm {a q}) + \\mathrm {B r} _ {2} (\\mathrm {a q})$ This reaction can be described as both a displacement reaction and a redox reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pc-i",
+      "label" : "c-i",
+      "text" : "Identify the element that is displaced in this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pc-ii",
+      "label" : "c-ii",
+      "text" : "State the meaning of the term redox. QUESTION 5 CONTINUES ON THE NEXT PAGE",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pd",
+      "label" : "d",
+      "text" : "Chlorine is used in the manufacture of phosphorus pentachloride, $ \\mathrm{P C I}_{5} $ The equation for the reaction is: $\\mathrm {P C l} _ {3} (\\mathrm {g}) + \\mathrm {C l} _ {2} (\\mathrm {g}) \\rightleftharpoons \\mathrm {P C l} _ {5} (\\mathrm {g}) \\quad \\Delta H = - 1 2 4 \\mathrm {k J / m o l}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pd-i",
+      "label" : "d-i",
+      "text" : "What does the $ \\rightleftharpoons $ symbol indicate about this reaction?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-29fe818b-pd-ii",
+      "label" : "d-ii",
+      "text" : "Predict and explain the effect of increasing the pressure on the equilibrium position of this reaction. Prediction Explanation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000128",
+      "sourceName" : "assets/crop_1_1789064332836.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789064332836.png",
+      "availability" : "available",
+      "assetId" : "img:a85e9b524e5cce0be6063745da7badb242dfd5cc1bf40446866cacb89517ff99",
+      "sha256" : "a85e9b524e5cce0be6063745da7badb242dfd5cc1bf40446866cacb89517ff99",
+      "mimeType" : "image/jpeg",
+      "width" : 933,
+      "height" : 767,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 12,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 8,
+    "2" : 13,
+    "3" : 19,
+    "4" : 8,
+    "5" : 12
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: Heat energy change =" ]
+}

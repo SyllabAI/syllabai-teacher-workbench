@@ -1,0 +1,668 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1C_2101_MS",
+    "session" : "January 2021",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "b4066a6d-c625-5c5a-90e6-d18a4236997e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-b4066a6d-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Start\nsolid\nsolid\ngas\nliquid\n6 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Award 1 mark for each correct rowALLOW gas to solid for sublimation"
+    }, {
+      "kind" : "note",
+      "text" : "End"
+    }, {
+      "kind" : "note",
+      "text" : "liquid"
+    }, {
+      "kind" : "note",
+      "text" : "gas"
+    }, {
+      "kind" : "note",
+      "text" : "liquid"
+    }, {
+      "kind" : "note",
+      "text" : "gas"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to any three of the following pointsM1 irregular/random arrangement(of particles)M2 large gaps between them/far apart/widely spacedM3 random movement/move freelyM4 move(very) quickly"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW spread outIGNORE references to kinetic energy"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A\n5 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "A is the correct answer because 100℃ is above the boiling point of W"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer because X is a solid at 100℃"
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer because Y is a solid at 100℃"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because Z is a solid at 100℃"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "B is the correct answer because X is a liquid for 1840℃"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because W is a liquid for 67℃"
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer because Y is a liquid for 1150℃"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because Z is a liquid for 330℃"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "C is the correct answer because Y is a liquid at 1000℃ and a gas at 2000℃"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because W is a gas at 1000℃ and at 2000℃"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer because X is a liquid at 1000℃ and 2000℃"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because Z is a gas at 1000℃ and at 2000℃"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "ionic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW electrovalent"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "the (impure) substance will melt over a range of temperatures"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the (impure) substance will have a lower melting point"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 dissolvingM2 diffusion\n7 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Answers can be in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links any two of the following pointsM1 crystals dissolve fasterM2(potassium iodide/lead nitrate/water) particles move faster/(lead/iodide) ions move faster/rate of diffusion increasesM3 therefore(lead and iodide) ions/particles meet/collide after a shorter period of time/sooner"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(potassium iodide/lead nitrate/water) particles have more energyALLOWmolecules in place of particles if referring to waterIGNOREreferences to more collisions or more energetic collisions"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "3/three2+/+2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWPb2+"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "Pb(NO3)2(aq)+2KI(aq)→PbI2(s)+2KNO3(aq)"
+    }, {
+      "kind" : "note",
+      "text" : "ALOWmultiples and fractions"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Example calculation\n7 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Correct answer of 20.5% with or without working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "M1(volume of oxygen=)100-25OR75(cm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWecf from M1"
+    }, {
+      "kind" : "note",
+      "text" : "M275÷365×100"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWecf from M2"
+    }, {
+      "kind" : "note",
+      "text" : "M320.5(%)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW2or more significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTincorrect roundingUse of265 instead of365gives an answer of28.3and scores2"
+    }, {
+      "kind" : "note",
+      "text" : "Alternative method"
+    }, {
+      "kind" : "note",
+      "text" : "M1(volume of air left=)265+25OR290(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2290÷365×100OR79.5(%)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 paint provides a barrier"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWpaint forms a coating(on the iron)/paint is non-permeable"
+    }, {
+      "kind" : "note",
+      "text" : "M2which prevents oxygen/water getting to/reacting with the iron"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWair"
+    }, {
+      "kind" : "note",
+      "text" : "M1zinc is more reactive/higher in the reactivity series(than iron)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWzinc is a sacrificial metal"
+    }, {
+      "kind" : "note",
+      "text" : "M2zinc will oxidise/react/corrode instead of/before iron"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREreferences to zinc rusting"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Method\nfiltration\nsimple distillationor fractional distillation\nfractional distillation\ncrystallisation\nM2 because they are the same height/moved the same distance up the paper/have the sameRfvalues as the spots in the purple ink\nM1D\n10 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW filteringALLOW distillationREJECT simple distillation or distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1A and B"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the spot is closest to the start line/travelled the least distance(from the start line)/has the lowestRfvalue"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 correct or missing"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer of86 or86.4(mm) with or without working scores2"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "precipitate of barium carbonate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "precipitate of barium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "if barium sulfate and calcium carbonate correct but without including‘precipitate of’ scores 1 out of 2"
+    }, {
+      "kind" : "note",
+      "text" : "no precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "no precipitate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "precipitate of calcium carbonate"
+    }, {
+      "kind" : "note",
+      "text" : "precipitate of calcium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to any six of the following pointsM1 do a flame testM2 sodium chloride produces a yellow flameM3 add acidM4 potassium carbonate effervesces / bubblesM5 add dilute nitric acidM6 add silver nitrate (solution)M7 potassium chloride gives a white precipitateM8 potassium iodide gives a yellow precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any description of a flame testACCEPT yellow-orange or orangeIGNORE any flame colour given for the potassium compoundsALLOW any named acidACCEPT carbon dioxide/gas given off which turns limewater cloudy for M4M4 is dep on M3M7 and M8 are dep on M6ALLOW addition of chlorine/bromine solution as an alternative to M6M7 no colour change with potassium chloride"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 two lithium atoms each lose one electron/give one electron to oxygen\n13 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW lithium loses one electron/gives one electron to oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "M2 oxygen gains two electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxygen becomes 2,8"
+    }, {
+      "kind" : "note",
+      "text" : "M3 lithium(ion) has an electron configuration of 2 and oxide(ion) is 2,8"
+    }, {
+      "kind" : "note",
+      "text" : "All 3 marks can be scored from diagrams showing the electron configurations of the ions"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if reference to sharing electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(temperature after)=27.7℃"
+    }, {
+      "kind" : "note",
+      "text" : "M2temperature rise=10.4℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer of 4400J with or without working scores 4"
+    }, {
+      "kind" : "note",
+      "text" : "M1Use of 100 inQ=mxc(xΔT)"
+    }, {
+      "kind" : "note",
+      "text" : "M2Use of 10.4 inQ=(mxc)cxΔT"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "100x4.2x10.4 scores M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M34368J"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M44400J"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M3"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE+or-sign in front of answer"
+    }, {
+      "kind" : "note",
+      "text" : "M15210÷1000or5.21"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer of-89.8(kJ/mol) scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "M25.21÷0.0580"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M3-89.8(kJ/mol)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW-90(kJ/mol) or any number of sig figs as long as correctly rounded."
+    }, {
+      "kind" : "note",
+      "text" : "polystyrene is a good insulator/poor conductor(of heat)OR to minimise/reduce heat loss"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW prevent heat loss"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 solidM2 dark grey/black",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculationM1(51×79)+(49×81)OR7998M27998÷100M380.0"
+    }, {
+      "kind" : "note",
+      "text" : "80.0 with no working scores379.9 with no working scores179.98 or 80 with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "same electron configuration"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same(total)number of electronsIGNORE same number of electrons in the outer shellIGNORE references to same number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three pointsM1 the order of reactivity is chlorine(most), bromine and iodine(least)M2 chlorine(is most reactive because it) displaces bromine and iodine/oxidises bromide and iodide(ions)/reacts with sodium bromide and sodium iodideM3 bromine(is less reactive than chlorine since it) only displaces iodine/only oxidises iodide(ions)/only reacts with sodium iodide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT bromine is only displaced by chlorine and iodine is displaced by chlorine and bromine scoresM2 and M3ALLOW chlorine has two reactions,bromine has one reaction and iodine no reactions for1 mark out of M2 and M3Deduct1 mark forincorrect use of ine"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(propane/it) contains hydrogen and carbon(atoms)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT carbon and hydrogen molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M2 only"
+    }, {
+      "kind" : "note",
+      "text" : "M2 is dependent on mention of just carbon and hydrogen in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon monoxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW CO"
+    }, {
+      "kind" : "note",
+      "text" : "it decreases the capacity of the blood to transport oxygen OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon monoxide binds to haemoglobin"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(strong electrostatic) attraction between(bonding) pair of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2(and) nuclei(of both atoms)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1(bonding) pair of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "M2 attracted to nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if reference to intermolecular forces between atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1(crude oil) produces more long chain hydrocarbons than can be used directly OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW less demand for long chain hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 shorter chain alkanes are more flammable/more useful as fuels"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW shorter chain alkanes/hydrocarbons are more useful"
+    }, {
+      "kind" : "note",
+      "text" : "M3 alkenes are used to make polymers/plastics"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1C3H7Br"
+    }, {
+      "kind" : "note",
+      "text" : "M2HBr"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polysubstituted product if correct balancing number in front of Br2and HBr"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b4066a6d-q11",
+    "label" : "11",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "glowing splint relights"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT burning splint"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 filter out manganese(IV) oxide/solid"
+    }, {
+      "kind" : "note",
+      "text" : "M2 leave to dry"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 280÷120"
+    }, {
+      "kind" : "note",
+      "text" : "M2 2.33"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of significant figures except 1"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the concentration of hydrochloric acid is greatest"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the surface area of zinc is greatest"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW greatest number of/more particles(of hydrochloric acid/zinc)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 therefore there are more collisions"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 per unit time"
+    }, {
+      "kind" : "note",
+      "text" : "More frequent collisions scores M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "Max 1 if incorrect reference to energy"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve above original and starts at 0"
+    }, {
+      "kind" : "note",
+      "text" : "M2 curve goes flat at same volume(410cm3)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M8 solution turns brown with potassium iodide\nIf this alternative given no M5", "orphan row before first entry: 9 marks", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)(iii)", "orphan row before first entry: bromine cannot displace itself / bromine does not react with sodium bromide OWTTE", "orphan row before first entry: M1 bromine is reduced and iodide (ions)/I- is oxidised", "orphan row before first entry: M2 bromine gains electrons and iodide (ions)/I- loses electrons", "orphan row before first entry: ORM1 bromine gains electrons so is reducedM2 iodide (ions)/I- loses electrons so is oxidised", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10(a)(i)(ii)(iii)", "orphan row before first entry: M1 lines shown on graph", "orphan row before first entry: M2 value correctly read from graph (expected value between 97 and 103℃)", "orphan row before first entry: An explanation that links the following three points", "orphan row before first entry: M1 the boiling point increases as the number of carbons/the chain length increases", "orphan row before first entry: M2 because the intermolecular forces (of attraction) get strongerM3 and therefore take more energy to overcome / break", "orphan row before first entry: (b)", "orphan row before first entry: M2 different displayed / structural formulae", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: M2 (divide by smallest to give) 1:2.5 which is 2:5", "orphan row before first entry: $C_{4}H_{10}$", "orphan row before first entry: (d)", "orphan row before first entry: M2 moles of H2O=8 or Y=8", "orphan row before first entry: M3 balancing number=11 or Z=11", "11: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iv)", "orphan row before first entry: (c)", "orphan row before first entry: 15 marks" ]
+}

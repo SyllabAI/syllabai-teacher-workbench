@@ -1,0 +1,405 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "Summer 2017",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "8bd7ed2c-7a9d-5837-8fa5-6a06f45cb061"
+  },
+  "entries" : [ {
+    "entryId" : "ms-8bd7ed2c-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : true,
+    "correctOption" : "C",
+    "answerText" : "C(4)\nThe only correct answer is C\nA is not correct because there are 4 elements shown not 2\nB is not correct because there are 4 elements shown not 3\nD is not correct because there are 4 elements shown not 5\nthe temperature used in the contact process is greater than 1000℃\nan equation for the contact process isSO2+H2O→H2SO4\nthe reactions in the diaphragm cell are displacement reactions\nthe catalyst used in the contact process is vanadium(V) oxide",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "C",
+      "marks" : 4,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "C"
+    }, {
+      "ordinal" : 2,
+      "text" : "The only correct answer is C\nA is not correct because there are 4 elements shown not 2\nB is not correct because there are 4 elements shown not 3\nD is not correct because there are 4 elements shown not 5",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "The only correct answer is C\nA is not correct because there are 4 elements shown not 2\nB is not correct because there are 4 elements shown not 3\nD is not correct because there are 4 elements shown not 5"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "2NaOH+(1)H2SO4→(1)Na2SO4+2H2O"
+    }, {
+      "kind" : "note",
+      "text" : "Accept fractions and multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "brine is a solution of sodium chloride in water"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "3 ticks with 2 correct scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "3 ticks with 1 correct scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "4 or 5 ticks scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.85
+  }, {
+    "entryId" : "ms-8bd7ed2c-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : true,
+    "correctOption" : "D",
+    "answerText" : "D(3 periods and 8 groups)\nThe only correct answer is D\nA is not correct because there are 3 periods and 8 groups shown not 2 periods and 4 groups\nB is not correct because there are 3 periods and 8 groups shown not 3 periods and 4 groups\nC is not correct because there are 3 periods and 8 groups shown not 2 periods and 8 groups",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "B(2)"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is B"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because there are 2 noble gases shown not 1"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because there are 2 noble gases shown not 3"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because there are 2 noble gases shown not 4"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.85
+  }, {
+    "entryId" : "ms-8bd7ed2c-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT e- or e"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "not (chemically) reactive / does not react (with the electrolytes/with the products of electrolysis)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW unreactive"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW non-reactive"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to full outer shell of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 PbBr2 needs to be molten/liquid/melted"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so that the ions can flow/move/are mobile"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT solid PbBr2 does not conduct"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT the ions cannot flow/move/are not mobile in the solid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to carry charge"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to electrons moving"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(positive) chlorine AND oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(negative) hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Cl2 for chlorine and O2 for oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT names in any order"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2"
+    }, {
+      "kind" : "note",
+      "text" : "If both name and formula given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 2Cl-→Cl2+2e-"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 2Cl-→2e-→Cl2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 2H2O→4H+O2+4e-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 4OH-→2H2O+O2+4e-"
+    }, {
+      "kind" : "note",
+      "text" : "M3 2H2O+2e-→H2+2OH-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2H++2e-→H2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples/fractions in half-equations"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 n[Cu]=0.04(0)÷2OR0.02(0)(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 mass[Cu]=1.3(g)"
+    }, {
+      "kind" : "note",
+      "text" : "OR M1x63.5 correctly evaluated"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 1.27(g)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 1.28(g) using 64 instead of 63.5"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer with no working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 A and B and C\nM2 (they/all) contain only carbon and hydrogen (atoms)\nACCEPT words with same meaning as only, eg solely, exclusively, just etc\nACCEPT particles/elements in place of atoms\nREJECT ions/molecules/compounds in place of atoms\nREJECT element/mixture in place of they/all\nREJECT H2\nM2 (because) it shows all the bonds (in the molecule)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT formulae copied from table"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT C and H"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 B"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT converse argument about (all) the others"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q4b",
+    "label" : "4(b)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(reaction 1):Any two from:M1(it produces) pure(r) ethanol/alcohol/productM2(it is a) fast(er)(reaction)M3(it has a) greater atom economyM4no carbon dioxide produced(so less pollution)(reaction 2):Any two from:M5(it) uses renewable/sustainable resources/does not use finite resourcesM6(it) uses atmospheric pressure/(it) does not need high pressure/(it) works at low pressuresM7(it) works at low/just above room temperature/(it) does not need much heat(energy)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE more concentratedALLOW does not need further processingIGNORE no waste productsALLOW no greenhouse gas producedACCEPT can be used in countrieswith no oil reserves/with available land/with suitable climate to grow sugar caneALLOW 30 to 40℃ACCEPT thermal energyIGNORE references to batch and continuous processesIGNORE references to lower cost"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "CH3OH+O2→CO+2H2O",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all formulae correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correctly balanced"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "thermal energy/heat(energy) lost to the surroundings/environment"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT lost to atmosphere/beaker/thermometer"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT evaporation of water/methanol"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q5bii",
+    "label" : "5(b)(ii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 mass[CH3OH]=84.7-83.2 OR 1.5(g)\nM2 18900÷1.5 OR 12600 OR 18900÷M1\nM3 ΔH=12600×32 OR 403200(J)\nM4 ΔH=-400(kJ/mol)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig fig except1,eg0.047"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT M2 from(b)(i)÷M2 from(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig fig"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig fig,eg403,403.2"
+    }, {
+      "kind" : "note",
+      "text" : "Negative sign must be included"
+    }, {
+      "kind" : "note",
+      "text" : "(+)400/403/403.2etc scores3"
+    }, {
+      "kind" : "note",
+      "text" : "Mark CSQ throughout"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer with no working scores4"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q5biii",
+    "label" : "5(b)(iii)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 oxygen/other reactant missing from methanolM2 product level/ carbon dioxide and water above reactant level",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT product level should be below reactant levelACCEPT answers shown on diagramIGNORE references to activation energyIGNORE references to missing x-axis"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-8bd7ed2c-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Route 1:\nM1 Σ(bonds broken)=(412×3)+360+463+(496×1.5)\nOR 2803(kJ/mol)\nM2 Σ(bonds made)=(743×2)+463×4)\nOR 3338(kJ/mol)\nRoute 2:\nM1 Σ(bonds broken)=(412×3)+360+(496×1.5)\nOR 2340(kJ/mol)\nM2 Σ(bonds made)=(743×2)+463×3)\nOR 2875(kJ/mol)\nM3 Correct calculation of difference between M1 and M2\nM4 If M2>M1 final answer must be negative\nIf M2<M1 final answer must be positive",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE negative sign"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign"
+    }, {
+      "kind" : "note",
+      "text" : "Expected final answer is-535"
+    }, {
+      "kind" : "note",
+      "text" : "Positive sign not required"
+    }, {
+      "kind" : "note",
+      "text" : "If a clear statement is made that the reaction is exothermic, then sign can be negative"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer with no working scores 4"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: (d)", "orphan row before first entry: (e)", "orphan row before first entry: (ii)", "orphan row before first entry: M2 stronger in SiCl4/weaker in SiF4", "orphan row before first entry: M2 DEP on M1", "orphan row before first entry: ACCEPT attraction between SiCl4 molecules is greater(than that between SiF4 molecules)or reverse argument for2 marks", "orphan row before first entry: Award0/2if any reference to breaking covalent bonds", "orphan row before first entry: M1 SiO2has strong covalent bonds(that must be broken)", "orphan row before first entry: M2(whereas)SiCl4has weak intermolecular forces(of attraction must be overcome)", "orphan row before first entry: Total", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(c)(i)(ii)", "orphan row before first entry: colourless", "orphan row before first entry: (d)(i)(ii)", "orphan row before first entry: M2(but have) different structural formulae", "orphan row before first entry: (ii)", "orphan row before first entry: dehydration", "orphan row before first entry: hydration", "orphan row before first entry: oxidation", "orphan row before first entry: reduction", "orphan row before first entry: 4 (e)(i)(ii)", "orphan row before first entry: Total", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(b)(i)(ii)", "orphan row before first entry: M2=18900(J)/19000(J)", "orphan row before first entry: M1mass[CH3OH]=84.7-83.2OR1.5(g)", "orphan row before first entry: M2n[CH3OH]=1.5÷32OR0.046875(mol)ORM1÷32", "orphan row before first entry: M3ΔH=18900÷M2OR403200(J/mol)", "orphan row before first entry: M4ΔH=-400(kJ/mol)", "5(c): bare integer cell \"15\" skipped (rubric/rowspan ambiguity)" ]
+}

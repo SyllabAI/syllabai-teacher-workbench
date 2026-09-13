@@ -1,0 +1,491 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG043140",
+    "session" : "January 2016",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "b6b7bc12-6b59-5056-a50c-ff11e83132a5"
+  },
+  "entries" : [ {
+    "entryId" : "ms-b6b7bc12-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(The atom has) electrons in three shells/three shells are occupied(with electrons)"
+    }, {
+      "kind" : "note",
+      "text" : "‘energy levels’ for‘shells’accept‘it has three shells’"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium/Al"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "原子结构图"
+    }, {
+      "kind" : "note",
+      "text" : "accept any symbol for electrons,eg dots,the letter‘e’"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C(halogens)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 atoms of the same element"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘atoms with the same atomic number’/‘atoms with the same number of protons’"
+    }, {
+      "kind" : "note",
+      "text" : "M2 with different masses"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘different mass numbers’/‘different numbers of neutrons’"
+    }, {
+      "kind" : "note",
+      "text" : "$^{79}_{35}\\text{Br}$"
+    }, {
+      "kind" : "note",
+      "text" : "$^{81}_{35}\\text{Br}$"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "nitrogen/N2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "acceptN"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen AND water"
+    }, {
+      "kind" : "note",
+      "text" : "acceptsteam"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "incomplete combustion(of the octane/fuel)"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘(burns in a) limited supply/shortage of oxygen/airreject‘no oxygen’"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "N2+2O2→2NO2"
+    }, {
+      "kind" : "note",
+      "text" : "accepthalves and multiplesacceptas two correct equations via NO"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(It produces) acid rainOR(it causes) breathing problems/asthma"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘photochemical smog’ignore refs to greenhouse gas/global warming/climate changeignore refs to pollution"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "water",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "acceptH2Oaccept water vapourif both name and formula given mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "acceptCO2if both name and formula given mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(the copper/it) reacts with oxygen/oxidisesM2to form copper(II) oxide(which is black)"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘combines with/joins with/burns in oxygen’ignore‘air’accept‘copper oxide’reject‘copper(I) oxide’"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Volume in cm3 of carbon dioxide\nVolume in cm3 of sulfuric acid\nM1&M2 all points correctly plotted to nearest gridline\nM3 suitable curve of best fit, from the origin",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "deduct one mark for each incorrectly plotted point do not penalise missing(0,0)"
+    }, {
+      "kind" : "note",
+      "text" : "if points are not visible, but graph goes through that point, then do not penalise"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(Curve)A\nM2faster reaction(at higher temperature)\nM3therefore curve is steeper/curve levels off sooner",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2andM3dep on correct or missingM1accept‘reaction takes less time’"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Curve)C"
+    }, {
+      "kind" : "note",
+      "text" : "M2only half the mass/amount of zinc used"
+    }, {
+      "kind" : "note",
+      "text" : "M3therefore only half the volume/20cm3of hydrogen produced"
+    }, {
+      "kind" : "note",
+      "text" : "M2andM3dep on correct or missingM1accept‘less zinc used,so less hydrogen produced’for1mark,ifM2andM3not scored"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(because) a precipitate was formed/a reaction took place each time Y was usedORno precipitate was formed/no reaction took place when X and Z were added together",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept‘it reacts with X and Z(to form a precipitate)’allow use of correct names for X, Y and Z"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1X is(sodium)iodide and Z is(sodium)chlorideM2becauseXgivesyellowprecipitateorZgiveswhiteprecipitateORM1Xis(sodium)iodidebecauseitformsayellowprecipitateM2thereforeZis(sodium)chlorideORM1Zis(sodium)chloridebecauseitformsayellowprecipitateM2thereforeXis(sodium)iodide"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 coke\nM2 limestone\naccept answers in either order\nM1 all formulae correct\nM2 balanced\nM2（it has）lost oxygen\nC（neutralisation）",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "ignore‘carbon’/‘charcoal’"
+    }, {
+      "kind" : "ignore",
+      "text" : "ignore‘calcium carbonate’"
+    }, {
+      "kind" : "ignore",
+      "text" : "ignore formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "$Fe_{2}O_{3}+3CO\\rightarrow 2Fe+3CO_{2}$"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 iron/Fe"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1or near miss eg $Fe_{2}O_{3}$ accept‘iron（III）ions/ $Fe^{3+}$ has gained electrons accept‘oxidation number of iron decreases/oxidation number of iron changes from+3to0’"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "$C+O_{2}\\rightarrow CO_{2}$"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(the molecule) contains a (carbon to carbon) double bond",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept‘multiple bond’ignore refs to single bonds"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C8H18andC2H4"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore names of compounds"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1600-700℃M2silica/alumina(catalyst)"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘aluminium oxide/silicon dioxide/aluminosilicate/zeolite’accept correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(they have) the same molecular formula"
+    }, {
+      "kind" : "allow",
+      "text" : "allow‘both have same number of carbon and hydrogen(atoms as each other)’accept‘the atoms are arranged differently’"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(but have) different structural formulae/displayed formulae/structures"
+    }, {
+      "kind" : "note",
+      "text" : "acceptCH3C=CH3ignore bond anglesaccept fully displayed formula"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 chromate(ions) are negativeM2so they are attracted/move towards positive electrode/electrode B",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "accept‘anions’accept‘anode’"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "22(1)(1)B(HCl(aq))"
+    }, {
+      "kind" : "note",
+      "text" : "accept halves and multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "aqaqaqsM1filter(off the precipitate)M2wash(with distilled/deionised/pure water)M3dry in a warm oven/leave to dry/dry with filter paper"
+    }, {
+      "kind" : "note",
+      "text" : "Do not accept words eg aqueousallow‘decant’reject refs to crystallisation for M2 and M3allow‘heat it’"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q13a",
+    "label" : "13(a)",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "potassium/sodium/magnesium/zinc",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "acceptK/Na/Mg/Znif both name and symbol given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bubbles of gas producedrapidly/quicklyM2 solid disappears quickly"
+    }, {
+      "kind" : "note",
+      "text" : "accept any indication that the rate of evolution of bubbles and the disappearance of the solid is in between that of magnesium and zinc"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "potassium hydroxide"
+    }, {
+      "kind" : "note",
+      "text" : "acceptKOHif both name and formula given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "MgO"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon/Cand it displaces/replaceszinc/Zn"
+    }, {
+      "kind" : "note",
+      "text" : "reject‘displaces zinc oxide/ displaces oxygen’accept‘it gains oxygen(from the zinc oxide)/it reduces zinc(oxide)’"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon/CM2it removes oxygen from the zinc(oxide)/causes zinc ions to gain electrons/gainsoxygen/is oxidised"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1reject‘displaces oxygen’"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q14a",
+    "label" : "14(a)",
+    "number" : 14,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(goes darker because) more NO2 is formedM2as equilibrium/reaction shifts to leftM3because there are more moles/molecules(of gas) on the left hand side",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "allow‘moves backwards/in reverse direction’accept‘fewer moles/molecules on the right hand side’ignore references to Le Chatelier's principle"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1the equilibrium/reaction has shifted to the right/moreN2O4has been formedM2a decrease in temperature shifts the equilibrium in the exothermic direction"
+    }, {
+      "kind" : "note",
+      "text" : "accept‘therefore the(forward) reaction is exothermic'for M2if M1has been awarded"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(yes:because) bond making is exothermic/releases(thermal/heat)energy"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b6b7bc12-q15a",
+    "label" : "15(a)",
+    "number" : 15,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "3Mg+N2→Mg3N2M1 formula for magnesium nitride correctM2 rest of equation correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(damp) red litmus(paper)M2 turns blueORM1 mix with hydrogen chloride/HClM2 white solid/smoke forms"
+    }, {
+      "kind" : "note",
+      "text" : "reject‘blue litmus’for both M1 and M2accept any suitable indicator with correct colour change, eg phenolphthalein turns red/pinkreject‘hydrochloric acid’/‘HCl(aq)’but accept‘fumes from conc. hydrochloric acid’ignore‘fumes’"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(i)(ii)", "orphan row before first entry: D(Zr)", "orphan row before first entry: (b)(i)(ii)(iii)(iv)(v)", "orphan row before first entry: (The atom has) three electrons in its outer/valence shell", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"35\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"44\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"35\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"35\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"46\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"35\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M1 first column correct\nM2 second column correct\nM3 third column correct", "orphan row before first entry: (c)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Question number", "orphan row before first entry: (b)", "orphan row before first entry: (ii)", "orphan row before first entry: M2 therefore the reaction has finished/all of the solid/MgCO3has reacted/the solid/MgCO3has been used up", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)", "orphan row before first entry: 6(a)(i)(ii)", "orphan row before first entry: redox", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: (the gas/it) contains air(from the conical flask)", "orphan row before first entry: (c)", "orphan row before first entry: M2 keep remaining variables(eg concentration or volume of hydrogen peroxide/temperature) the same", "orphan row before first entry: M3 measure time(to fill the gas jar with oxygen)", "orphan row before first entry: M4 oxygen produced more quickly/at a faster rate/in a shorter time(in experiment) with catalyst", "orphan row before first entry: OR", "orphan row before first entry: M1 weigh a sample of manganese(IV) oxide", "orphan row before first entry: (before putting it into the conical flask)\nM2 filter (to remove the solid)\nM3 dry the solid (and re-weigh it)\nM4 the mass should be the same as before", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: M2 water", "orphan row before first entry: (ii)", "orphan row before first entry: (e)", "orphan row before first entry: (ii)", "orphan row before first entry: (f)", "orphan row before first entry: (ii)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10(d)(i)(ii)", "orphan row before first entry: M1 correct structureM2 extension bonds", "orphan row before first entry: (e)", "11(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"13\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 12(a)(i)(ii)", "orphan row before first entry: M2 0.005(0)(mol)", "orphan row before first entry: M1 n(CO2)=0.005mol/answer to(a)(i)", "orphan row before first entry: M2 vol(CO2)=(110÷0.005)=22000(cm3)OR 110÷M1 correctly evaluated", "orphan row before first entry: (b)", "orphan row before first entry: M1 the bung was not replaced quickly after the acid was added(so some carbon dioxide/gas escaped)", "orphan row before first entry: M2 (some) carbon dioxide/gas dissolved in the water(in the trough or in the acid)", "orphan row before first entry: M3 sodium carbonate is not pure", "13(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "13(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "14(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "14(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "15(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)" ]
+}

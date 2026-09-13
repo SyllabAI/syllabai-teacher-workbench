@@ -1,0 +1,542 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_2106_MS",
+    "session" : "Summer 2021",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "52710504-b7a4-52bb-ae2a-ccf96bcf022f"
+  },
+  "entries" : [ {
+    "entryId" : "ms-52710504-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "silicon"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Si"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "boron"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW B"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Mg"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "16/六十八"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2.8.3/2,8,3"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT diagram showing correct electron configurationALLOW correct electron configuration using s and p notation"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "does not(easily) gain/lose/share electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW full outer shell/energy levelALLOW 8 electrons in outer shell/energy level"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "red-brown(coating on nail)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT orange-brown/brown"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW orange"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE rust colour"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE red alone"
+    }, {
+      "kind" : "note",
+      "text" : "(hydrated)iron(III)oxide/ferricoxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(hydrated)ironoxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTironoxidewithincorrectoxidationstate"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links4of thefollowing5points"
+    }, {
+      "kind" : "note",
+      "text" : "tube1"
+    }, {
+      "kind" : "note",
+      "text" : "M1air/oxygenisneededforrusting"
+    }, {
+      "kind" : "note",
+      "text" : "M2boiledwaterdoesnotcontainair/oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "M3oilkeepsair/oxygenout"
+    }, {
+      "kind" : "note",
+      "text" : "tube2"
+    }, {
+      "kind" : "note",
+      "text" : "M4water/moistureisneededforrusting"
+    }, {
+      "kind" : "note",
+      "text" : "M5dryingagentkeepswater/moistureout"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW1markfornoair/oxygenpresentasanalternativetoM1andM2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW1markfornowater/moisturepresentasanalternativetoM4andM5"
+    }, {
+      "kind" : "note",
+      "text" : "Total6"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "fractionating column/ fractionating tower",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW fraction(al) column / fraction(al) tower"
+    }, {
+      "kind" : "note",
+      "text" : "fuel for ships/fuel for power stations"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fraction A refinery gases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 fraction F bitumen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "CnH2n+2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW x or N in place of n"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following 3 points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 C12H26 has larger molecules/longer chain/ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 C12H26 has stronger intermolecular forces/ORA"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT forces between molecules for intermolecular forces"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW intermolecular bonds/bonds between molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M3 more energy is needed to separate the molecules/ overcome the forces in C12H26/ORA"
+    }, {
+      "kind" : "note",
+      "text" : "no M2 or M3 if implied that covalent bonds break"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "silica/alumina"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT silicon dioxide /aluminium oxide /SiO2/Al2O3 /aluminosilicates/zeolite"
+    }, {
+      "kind" : "note",
+      "text" : "C12H26→C9H20+C3H6"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "all points plotted correctly to the nearest grid line"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "point at 50℃ and 17.5g circled on grid/in table"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from incorrect plotting"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "smooth curve of best fit"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1 less than 25cm3of water was usedM2 the temperature was less than 50℃M3 not enough potassium nitrate was addedM4 the solution was not stirred"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from incorrect plotting and incorrect point circled for M1 and M2 only"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)\nM2 correct mass read from graph to the nearest grid line\nM2 mass from graph multiplied by 4",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 curve extended to 75℃"
+    }, {
+      "kind" : "note",
+      "text" : "expected answer around 39 to 40g"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if curve not extended"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass at 25℃ read from graph to nearest grid line"
+    }, {
+      "kind" : "note",
+      "text" : "expected answer around 44g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from incorrect plotting"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nM1 same general formula\nM2 each member differs from the next by CH2\nM3 same functional group\nM4 similar chemical properties/reactions\nM5 trend/steady increase in physical properties",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW same chemical properties/reactions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT named physical properties e.g. trend in boiling points"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "If name and formula given, name must be correct."
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 from orange"
+    }, {
+      "kind" : "note",
+      "text" : "M2 to green"
+    }, {
+      "kind" : "note",
+      "text" : "colours must be in the correct order"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "H"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C-O-H"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise no bond between O and H once only"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A discussion which refers to any six of the following points:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Advantages of fermentation/disadvantages of hydration"
+    }, {
+      "kind" : "note",
+      "text" : "M1 sugar cane can be re-grown/is renewable"
+    }, {
+      "kind" : "note",
+      "text" : "M2 crude oil is finite/cannot be replaced/is non-renewable"
+    }, {
+      "kind" : "note",
+      "text" : "M3 fermentation uses lower temperatures so energy costs are lower/hydration uses higher temperatures, so energy costs are higher"
+    }, {
+      "kind" : "note",
+      "text" : "M4 fermentation uses lower pressure so energy costs are lower/hydration uses higher pressure, so energy costs are higher"
+    }, {
+      "kind" : "note",
+      "text" : "M5 yeast is a natural substance and not harmful/phosphoric acid is corrosive"
+    }, {
+      "kind" : "note",
+      "text" : "Advantages of hydration/disadvantages of fermentation"
+    }, {
+      "kind" : "note",
+      "text" : "M6 hydration is a faster process/fermentation is a slower process"
+    }, {
+      "kind" : "note",
+      "text" : "M7 hydration gives pure ethanol/fermentation gives impure ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "M8 growing sugar cane takes up land which could be used for growing food/rearing livestock"
+    }, {
+      "kind" : "note",
+      "text" : "M9 hydration is a continuous process/fermentation is a batch process"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C6H12O6→2C2H5OH+2CO2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2C2H6O for ethanol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "Total 14"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(squeaky) pop with lighted splint",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(damp) litmus paper/universal indicatorM2 bleached"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT turns white OR decolourisedACCEPT(damp) blue litmus turns red and is bleached scores M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "chloride ions/Cl-lose electrons/electrons are lost"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxidation state of chlorine increases/changes from-1 to0REJECT chlorine loses electronsREJECT reference to gain of oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2H++2e(-)→H2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine is toxic/poisonous"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "(some) chlorine dissolves(in the solution)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW chlorine dissolves in water"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links two of the following pointsM1 in solid sodium chloride the ions are not free to move/are in fixed positionsM2 in molten sodium chloride the ions are mobileM3 ions/charged particles need to move for current(to flow)/to conduct electricity",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "No marks if reference to mobile electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "calculate the amount, in moles, of NaCl determine the amount, in moles, of Cl2calculate the volume of Cl2give the final answer in standard formExample calculationM1 234000058.5M2 4000002OR 200000M3 200000x24OR 480000(dm3)M4 4.8x106(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "OR answer to M12OR answer to M2x24OR answer to M3 in standard formcorrect answer in standard form without working scores4480000 without working scores39.6x106and1.92x107score3960000and1920000score2M4 can be awarded for an answer in standard form as long as some working is shown"
+    }, {
+      "kind" : "note",
+      "text" : "Total 13"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-52710504-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1Xconical flask",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2Ypipette"
+    }, {
+      "kind" : "note",
+      "text" : "M3Zburette"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "B colourlessA is not correct as the colour of phenolphthalein in phosphoric acid is not blueC is not correct as phenolphthalein is pink in alkali not in acidD is not correct as the colour of phenolphthalein in phosphoric acid is not red"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 7(c)(i)(ii)", "orphan row before first entry: M1 30.35+30.25+30.30/3", "orphan row before first entry: M2 30.30", "orphan row before first entry: 30.3 without working scores 1", "orphan row before first entry: If no results ticked then only use of 2 or 3 concordant titres can score both marks in(ii)", "orphan row before first entry: If only one result ticked then M2 can be scored for averaging two or more titre values correctly", "orphan row before first entry: M1 CQ on results ticked", "orphan row before first entry: M2 CQ on correct calculation from M1", "orphan row before first entry: (d)(i)", "orphan row before first entry: M2 0.01596(mol)", "orphan row before first entry: (0.01596÷3)=0.00532(mol)", "orphan row before first entry: (iii)", "orphan row before first entry: M2 0.2128(mol/dm3)", "orphan row before first entry: ACCEPT answers to any number of sig figs except1 throughout(d)", "orphan row before first entry: If no division by 1000 in(i) and no multiplication by 1000 in(iii) do not penalise twice" ]
+}

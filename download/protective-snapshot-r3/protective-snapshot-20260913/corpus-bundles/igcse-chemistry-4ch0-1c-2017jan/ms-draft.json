@@ -1,0 +1,452 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_1C_1701_MS",
+    "session" : "January 2017",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "90c278ba-a315-5211-b627-087dbb9a0dc8"
+  },
+  "entries" : [ {
+    "entryId" : "ms-90c278ba-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "diagram showing solid state\n(Total for Question 2=6 marks)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept minimum of two complete rows"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C(regular vibrating)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "C(freezing)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "sublimation"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "M1water vapour"
+    }, {
+      "kind" : "note",
+      "text" : "Accept in either order"
+    }, {
+      "kind" : "note",
+      "text" : "M2steam"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q5bi",
+    "label" : "5(b)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two of: effervescence",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark for each"
+    }, {
+      "kind" : "note",
+      "text" : "(element/metal/lithium/potassium) moves"
+    }, {
+      "kind" : "note",
+      "text" : "Accept equivalents including bubbles/fizzing Allow gas evolved/gas given off/gas formed/gas produced Ignore hydrogen/H2Ignore incorrect name/formula of gas"
+    }, {
+      "kind" : "note",
+      "text" : "(element/metal/lithium/potassium) floats"
+    }, {
+      "kind" : "note",
+      "text" : "Accept equivalents including darts"
+    }, {
+      "kind" : "note",
+      "text" : "(element/metal/lithium/potassium) disappears/becomes smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow dissolves Reject melts Ignore white trail/vigorous reaction/heat produced/temperature rises"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) flame/(element/metal/potassium) burns"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore colour of flame Accept melts/forms a ball Ignore explodes"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)(2Li+2H2O\\rightarrow)2LiOH+H2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 formulae LiOH and H2M2 correct balancing M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(iv) pink/red"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore qualifiers such as light and dark Reject all other colours"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$Cl_{2}+2KBr\\rightarrow Br_{2}+2KCl$\n(Total for Question 6=6 marks)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore state symbolsAccept multiples or fractions"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all formulae correctM2 correct balancing"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 solution becomes yellow/orange"
+    }, {
+      "kind" : "note",
+      "text" : "Reject redIgnore brown"
+    }, {
+      "kind" : "note",
+      "text" : "M2 reaction type is redox/displacement"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow reduction/oxidationIgnore substitution"
+    }, {
+      "kind" : "note",
+      "text" : "M3 bromine/Br_{2}(causes final colour)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore BrReject bromide"
+    }, {
+      "kind" : "note",
+      "text" : "M4 chlorine more reactive(than bromine)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reverse argumentReject chloride/bromide in place of chlorine/bromine"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "wait until all the air has been flushed through"
+    }, {
+      "kind" : "note",
+      "text" : "Accept wait for a short timeAllow check for leaks"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "(because) prevents(possible) explosion/otherwise might be an explosion"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore hydrogen burns/is flammableIf no marks awarded allow1mark for(hydrogen can be) explosive/tie back hair(to stop catching fire)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 effervescence"
+    }, {
+      "kind" : "note",
+      "text" : "Accept equivalents including bubbles/fizzingAllow gas evolved/given off/formed/producedIgnore hydrogen/H2Ignore incorrect name/formula of gas"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(element/metal/magnesium) disappears/becomes smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow dissolvesIgnore heat produced/temperature rises/flask gets warm"
+    }, {
+      "kind" : "note",
+      "text" : "Solid/copper(II) oxide/it goes(from black to) orange/brown/pink"
+    }, {
+      "kind" : "note",
+      "text" : "Accept(drops of)liquid/water(on glass)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 sodium hydroxide/NaOH(solution)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept sodium carbonate/Na2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "M2 pipette used to transfer(25cm3of) sodium hydroxide/alkali to a conical flask"
+    }, {
+      "kind" : "note",
+      "text" : "Accept sodium carbonate/Na2CO3M2 subsumesM1if sodium hydroxide/sodium carbonate mentioned"
+    }, {
+      "kind" : "note",
+      "text" : "M3 place(sulfuric) acid in burette"
+    }, {
+      "kind" : "note",
+      "text" : "M4 add indicator(to conical flask)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept suitable named indicatorReject Universal Indicator"
+    }, {
+      "kind" : "note",
+      "text" : "M5 add acid(from burette to conical flask) until indicator changes colour"
+    }, {
+      "kind" : "note",
+      "text" : "M5 subsumesM3if burette mentionedIf named indicator is given any final colour given must be correctAlkali in burette and acid in pipette/conical flask can score max3"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q8b",
+    "label" : "8(b)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1\n(Total for Question 8=13 marks)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "name of soluble barium compound"
+    }, {
+      "kind" : "note",
+      "text" : "eg barium chloride/barium nitrate/barium hydroxideaccept correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "mix/react/add(solutions/reactants)together OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "filter"
+    }, {
+      "kind" : "note",
+      "text" : "Accept decant/pour off liquid"
+    }, {
+      "kind" : "note",
+      "text" : "M4"
+    }, {
+      "kind" : "note",
+      "text" : "wash solid/residue/barium sulfate(withdistilled/deionised water)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 and M5 DEP on M3If method refers to,or infers use of,filtrate/solution/crystallisationthen cannot score M4,M5"
+    }, {
+      "kind" : "note",
+      "text" : "M5"
+    }, {
+      "kind" : "note",
+      "text" : "appropriate method of drying solideg leave it(to dry)/leave in a warm place/place in an oven/place in desiccator/heat it/dry with absorbent paper(eg kitchen/filter/blotting)"
+    }, {
+      "kind" : "note",
+      "text" : "Not just dry itAccept leave on a window ledgeM3 M4 M5 can be scored even ifpreceding method invalid eg barium+ sodium sulfate"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "$M_{r}(\\mathrm{CuO})=79.5$"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 80"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "n(CuO)=(6.3÷79.5)=0.079(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "6.3÷79.5Calculator gives0.0792452830185Accept any number of SF soAllow 0.08Reject 0.076.3÷80calculator gives0.07875ECF on incorrect MrCorrect answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1n($\\mathrm{H_{2}SO_{4}}$)=$\\frac{52\\times1.1}{1000}$"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2=0.057(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 0.0572Allow 0.06Reject 0.05Allow 1 mark for 57.2Correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "to(completely) neutralise the(sulfuric)acid"
+    }, {
+      "kind" : "note",
+      "text" : "Accept so thatallacid used up/reactedIgnore to obtain a pure product"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q10c",
+    "label" : "10(c)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 correct substitution of values including temperature change\nM2 CQ on incorrect $\\Delta T$\nIf m=65 allow 1 mark for 5200,5190 or 5187\nAccept answer in kJ\nIgnore sign\nCorrect final answer with no working scores 2 marks\n(Total for Question 10=10 marks)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Q=50×4.2×19"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct final answer(in J)"
+    }, {
+      "kind" : "note",
+      "text" : "=4000/3990"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any four from:\nM1 heat/vaporise(the crude oil)\nM2 vapour/gas rises up the column\nM3 column cooler at top/hotter at bottom\nM4 fractions condense when temperature lower than their boiling point\nM5 fuel oil has high boiling point so condenses/is collected near bottom",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept boil"
+    }, {
+      "kind" : "note",
+      "text" : "Accept hydrocarbons/molecules/fuel oil/crude oil in place of vapour"
+    }, {
+      "kind" : "note",
+      "text" : "Accept temperature gradient in column"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow fuel oil condenses at its boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "Accept reference to fractions/hydrocarbons separate according to boiling points"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "alumina/silica"
+    }, {
+      "kind" : "note",
+      "text" : "Accept aluminosilicate/zeolite aluminium oxide/silicon dioxideAccept correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C17H36→2C3H6+C11H24"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-90c278ba-q11ei",
+    "label" : "11(e)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Chemical structure of compound (i)\n(Total for Question 11 = 16 marks)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore bond angles"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Chemical structure of compound (ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 chain of two carbon atoms joined by single bond AND both continuation bondsM2 one CH3 group in any position AND three H atomsM2 DEP on M1Do not penalise bond to H of CH3Any structure with double bond scores 0/2Three or more CH2 groups linked together scores 0/2Allow two or more repeat units if correctIgnore brackets and subscripted n"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(b)(c)(d)(i)(ii)(iii)", "orphan row before first entry: D(water)", "orphan row before first entry: C(simple distillation)", "orphan row before first entry: to prevent the inks/spots dissolving/mixing(in the solvent)", "orphan row before first entry: M1identification of inks as(only)B", "orphan row before first entry: M2(P and B)have a spot at the same height/OWTTE", "orphan row before first entry: insoluble in the solvent", "orphan row before first entry: (iv)", "orphan row before first entry: accept any number of significant figures\nIgnore units", "orphan row before first entry: M2 CQ M1\nCorrect answer with no working scores 2", "orphan row before first entry: (e)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Total for Question 1 = 11 marks", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3(a)(b)(c)(d)(i)(ii)(e)(i)(ii)(iii)", "orphan row before first entry: U AND X", "orphan row before first entry: V", "orphan row before first entry: M1CH4+2O2→CO2+2H2O", "orphan row before first entry: M2C2H4+2O2→2CO+2H2O", "orphan row before first entry: it decreases the capacity of blood to transport oxygen OWTTE", "orphan row before first entry: nitrogen AND oxygen", "orphan row before first entry: (ii)(iii)", "orphan row before first entry: iron/steel/limestone/marble", "orphan row before first entry: (Total for Question 3=9 marks)", "orphan row before first entry: (ii)", "orphan row before first entry: M2", "orphan row before first entry: M3", "orphan row before first entry: M1", "orphan row before first entry: M2", "orphan row before first entry: M3", "orphan row before first entry: (iii)", "orphan row before first entry: M2 it has the fewest (total number of) protons and neutrons", "orphan row before first entry: (iv)", "orphan row before first entry: (b)", "orphan row before first entry: M2 evaluation", "orphan row before first entry: M3 answer to 1 dp", "orphan row before first entry: Correct final answer with no working scores 3 marks\n(Total for Question 4=12 marks)", "orphan row before first entry: 5(a)(i)(ii)(iii)(iv)", "orphan row before first entry: M1 Ar/argon", "orphan row before first entry: M2 (because) it does not(easily)share/lose/gain electrons", "orphan row before first entry: (they both have the) same number of/three(electron)shells", "orphan row before first entry: (iv)", "orphan row before first entry: (v)", "5(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (v)", "orphan row before first entry: 5(c)(i)(ii)", "orphan row before first entry: M1amount of silver(=32.4/108=0.3(mol)", "orphan row before first entry: M2amount of oxygen(=2.4/16=0.15(mol)", "orphan row before first entry: M3formula=Ag2O", "orphan row before first entry: (Total for Question 5=17 marks)", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iv)", "orphan row before first entry: (v)", "orphan row before first entry: Ignore formulae even if incorrect\nAccept hydrated copper sulfate\nReject incorrect oxidation number\nIgnore hydrous", "orphan row before first entry: 7(b)(c)", "orphan row before first entry: M2(oxide of sulfur is) acidic", "orphan row before first entry: MgSO3", "orphan row before first entry: (Total for Question 7=12 marks)", "orphan row before first entry: (a)(ii)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iv)", "orphan row before first entry: (b)", "orphan row before first entry: Total for Question 9=8 marks", "orphan row before first entry: 10(a)(b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: (7)", "orphan row before first entry: M2 DEP on correct or missing M1", "orphan row before first entry: horizontal line above original line AND labelled potassium nitrate solution", "orphan row before first entry: CQ on M2 in(iii)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M2only", "orphan row before first entry: M1C17H36andC11H24", "orphan row before first entry: (iv)", "orphan row before first entry: M1(EF is CH3S)and EF mass=47", "orphan row before first entry: M2C2H6S2", "orphan row before first entry: (d)", "11(e)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

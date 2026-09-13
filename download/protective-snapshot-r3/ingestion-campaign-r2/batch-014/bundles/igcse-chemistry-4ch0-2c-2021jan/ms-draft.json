@@ -1,0 +1,453 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_2101_MS",
+    "session" : "January 2021",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "097880a5-978f-55ab-82db-0f375f430b4d"
+  },
+  "entries" : [ {
+    "entryId" : "ms-097880a5-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\n5 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "D is the correct answer because protons occur in the nucleus and have a positive charge."
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer since electrons occur in the energy levels."
+    }, {
+      "kind" : "note",
+      "text" : "B is not the answer since ions do not occur in the nucleus."
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer since neutrons have no charge."
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "lithium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Li"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 same number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 different number of neutrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same number of electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to mass number and atomic number."
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "nitrogen\n5 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOWN2/N"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWCO2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "argon"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWAr"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon dioxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWCO2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "lighted splint (produces squeaky) pop"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nM1 volume of acid\nM2 temperature\nM3 mass/moles of magnesium\nM4 surface area/size of pieces of magnesium\n(ii)so as little gas as possible escapes\n8marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW so no gas escapes"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to accuracy"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to gas getting in"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(69+70+71)÷3"
+    }, {
+      "kind" : "note",
+      "text" : "M270s"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)as the(number of)carbonsincreases the time(to produce10cm3ofhydrogen)increasesORA"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of70withorwithoutworkingscores2"
+    }, {
+      "kind" : "note",
+      "text" : "Answerof76or75.8or75.75withorwithoutworkingscores1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1ester linkage as a displayed structure"
+    }, {
+      "kind" : "note",
+      "text" : "M2rest ofmoleculecorrectasafullydisplayedstructure"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$2\\text{Na}(\\mathbf{s})+2\\text{H}_{2}\\text{O}(\\mathrm{l})\\rightarrow 2\\text{NaOH}(\\mathbf{aq})+\\text{H}_{2}(\\mathrm{g})$\n9 marks",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 correct balancing numbers"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractions."
+    }, {
+      "kind" : "note",
+      "text" : "M2(s)和(aq) for state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "hydroxide or OH^{-}$"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT OH"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any three from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the sodium moves(on the surface)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sodium floats"
+    }, {
+      "kind" : "note",
+      "text" : "M2 effervescence or bubbles(of gas)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas or hydrogen produced"
+    }, {
+      "kind" : "note",
+      "text" : "M3(indicator or phenolphthalein or water) turns pink"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE initial colour of indicator"
+    }, {
+      "kind" : "note",
+      "text" : "M4 the sodium gets smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the sodium disappears/(appears to) dissolve"
+    }, {
+      "kind" : "note",
+      "text" : "M5 the sodium melts or turns into a ball"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electron configuration of sodium is2,8,1and electron configuration of potassium is2,8,8,1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the outer shell is further from the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "M2 outer electron less attracted(to the nucleus of potassium)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium has more shells"
+    }, {
+      "kind" : "note",
+      "text" : "M3 therefore(outer shell electron)is more easily lost"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument for sodium"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 layers/rows(of atoms/ions)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 can slide over one another"
+    }, {
+      "kind" : "note",
+      "text" : "M2 is dependent on mention of layers/rows in M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 delocalised electronsM2 can move/can flow/are free to move(throughout the structure)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to charge or currentIGNORE free electronsM2 dependent on mention of electrons in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium is more reactive than carbon"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to position in reactivity series e.g. aluminium is higher in reactivity series than carbon.ALLOW carbon is less reactive than aluminium"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 aluminium/Al3+ions are attracted to the negative electrode/cathode(because they are positively charged)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 where they gain electrons(forming aluminium)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Al3+ + 3e-→AlIGNORE references to reduction"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2O2-→O2+4e-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2O2- - 4e-→O2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electrodes are made of carbon"
+    }, {
+      "kind" : "note",
+      "text" : "M2 which reacts with/burns in oxygen"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 mix/stir/add(silver nitrate and copper(II) chloride)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to heating"
+    }, {
+      "kind" : "note",
+      "text" : "M2 filter(the silver chloride)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 wash with(deionised/distilled)water"
+    }, {
+      "kind" : "note",
+      "text" : "M4 dry in a warm ovenor dry with filter paperor leave/allow to dry(on a windowsill)or dry in a desiccator"
+    }, {
+      "kind" : "note",
+      "text" : "If evaporation is mentioned to form crystals max=1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 and M2 all points correctly plotted to±half a square"
+    }, {
+      "kind" : "note",
+      "text" : "Deduct1mark for every incorrect point."
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 two straight lines of best fit which must meet at3cmand6cm3"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Anyone from:the precipitate wasn't left to settle(for long enough)the tube was on a slantnot enough/less than3.0cm3of silver nitrate added"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW measured the height too earlyIGNORE references to human error unqualified"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "all the copper[(II)]chloride has reacted"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWthe silver nitrate is in excess/not all the silver nitrate has reacted"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-097880a5-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 crude oil is heated/vapourised",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW boiled"
+    }, {
+      "kind" : "note",
+      "text" : "M2 vapours/gases/compounds/hydrocarbons rise up the column"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW temperature gradient of the column"
+    }, {
+      "kind" : "note",
+      "text" : "M3 the column is hotter at the bottom than the top"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW vapours/compounds/hydrocarbons/condense at different heights"
+    }, {
+      "kind" : "note",
+      "text" : "M4 vapours/compounds/hydrocarbons condense at their boiling point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the vapours/compounds/hydrocarbons/fractions have different boiling points."
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 temperature of 600℃-700℃"
+    }, {
+      "kind" : "note",
+      "text" : "M2 catalyst of silica/alumina"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW aluminosilicates/zeolites/silicon dioxide/aluminium oxide"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to pressure"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: M1 right hand line below left hand line", "orphan row before first entry: M2 correct name/formula of both reactants", "orphan row before first entry: M3 correct name/formula of both products", "orphan row before first entry: M2 and M3 can be scored from an endothermic diagram", "orphan row before first entry: 14 marks", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (volumetric) pipette", "orphan row before first entry: (ii)", "orphan row before first entry: M1 moles of coper chloride=(25x0.50)÷1000 OR0.0125 moles", "orphan row before first entry: M2 moles of silver chloride=0.0250", "orphan row before first entry: M3 mass of silver chloride=3.59g", "orphan row before first entry: (iii)", "orphan row before first entry: M287.5(%)", "orphan row before first entry: 15 marks", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 at high temperatures(in the car engine)", "orphan row before first entry: (ii)", "orphan row before first entry: 14 marks" ]
+}

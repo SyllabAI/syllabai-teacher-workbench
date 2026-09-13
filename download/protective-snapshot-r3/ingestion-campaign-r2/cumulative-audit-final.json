@@ -1,0 +1,114 @@
+{
+ "generated_at_utc": "2026-09-13 06:30:45 UTC",
+ "campaign": "r2 (final) \u2014 17 batches, deterministic re-ingestion after identity/corpus repairs",
+ "corpus": {
+  "sessions_in_scope": 82,
+  "ingested": 81,
+  "quarantined": 1,
+  "quarantine": [
+   {
+    "session": "igcse-chemistry-4ch0-1c-2016jan (paper 1, 2016-Jan)",
+    "defect": "QP.md duplicates the January-2015 paper (printed cover date 'Monday 12 January 2015'; identical totals skeleton 7,7,7,8,8,17,10,9,9,14,15; identical questions) while MS.md is a genuine January-2016 MS for a DIFFERENT paper (different totals structure, copper/oxidation answers). The true 4CH0/1C Jan-2016 QP is absent from the repository.",
+    "evidence": "printed date line + totals fingerprint + Q1 stem comparison between paper 1/2015-Jan/QP.md and paper 1/2016-Jan/QP.md; 2016-Jan/MS.md 'January 2016' cover",
+    "actionable_automatically": false,
+    "recommended_next_action": "operator: supply the original 4CH0/1C January 2016 question-paper PDF for OCR, or mark the session absent-by-design; r1 had silently ingested the duplicate under the 2016 label (label-based dedupe could not see it)"
+   }
+  ],
+  "remaining_unprocessed": 0,
+  "note": "the four sessions quarantined in r1 (duplicate part labels) were all diagnosed as mechanical OCR artifacts, corrected in commit 88507eb with mark-scheme evidence, and are now ingested."
+ },
+ "database": {
+  "papers": 81,
+  "docs": 162,
+  "questions": 766,
+  "versions": 766,
+  "validated": 8,
+  "suggested": 758,
+  "schemes": 641,
+  "points": 1105,
+  "parts": 4822,
+  "nodes": 96,
+  "edges": 21,
+  "bridge": 81,
+  "chunks": 2210,
+  "embedded": 0,
+  "seed_baseline": {
+   "validated_versions": 8,
+   "untouched": true
+  },
+  "validation_states": {
+   "SUGGESTED": 758,
+   "VALIDATED": 8,
+   "REJECTED": 0,
+   "other": 0
+  },
+  "knowledge_nodes": {
+   "total": 96,
+   "seed": 15,
+   "ingestion_anchors": 81,
+   "anchors_per_paper": "one per ingested paper (code+session identity)"
+  },
+  "ms_coverage": "641/758 versions (84.6%) \u2014 uncovered questions stay review-visible (no fabricated schemes)"
+ },
+ "assets": {
+  "figure_refs_in_imported_drafts": 1507,
+  "resolved": 1507,
+  "unresolved": 0,
+  "removed_as_page_furniture_r1_round2": 9,
+  "removed_as_page_furniture_r1_round1_operator_pass": 1362,
+  "removed_classification": "7 blank-page frames / DO-NOT-WRITE borders + 2 answer-line strips \u2014 all 9 re-verified visually this session against preserved renders (deleted-review/); 0 genuine, 0 uncertain, nothing restored",
+  "stale_md_refs": 0
+ },
+ "integrity": {
+  "duplicate_identity": "0 duplicate (paper_code, session_label) rows; the r2 identity gate also caught and quarantined the 2016-Jan content duplicate that r1's label dedupe missed",
+  "duplicate_part_labels": "0 within any version",
+  "orphaned_assessment_records": 0,
+  "orphaned_documents": 0,
+  "idempotency": "every batch: run1 all-INGESTED + 5 invariants PASS; run2 cross-transaction all-DUPLICATE + row-delta gate; final explicit full-batch rerun: 81/766/2210/81 rows before == after",
+  "learner_serving_boundary": "ServableQuestionSpec: STRUCTURED serves only at validation_state=VALIDATED; all imported=STRUCTURED+SUGGESTED \u2192 0 servable; MCQ branch unreachable for imports; 0 embeddings \u2192 vector path empty",
+  "validation_boundary": "0 imported rows VALIDATED; seed 8 VALIDATED untouched; ingestion and teacher validation remain separate stages",
+  "parser_core_contract": "GlmOcrPaperDraft/DTO field-for-field match (FigureRef 11 fields, PaperMeta, QuestionDraft, PartDraft); unresolved assets explicitly 'unavailable-signed-url', never dropped",
+  "campaign_gates": "non-empty pair gates, completion-marker-after-commit, invariant content gates, run1\u2192run2 row-delta gate (added this session), identity gate (session+ref) at Stage 1 and Stage 2"
+ },
+ "code_changes": {
+  "Past-Papers": [
+   "88507eb fix(corpus): restore printed part numbering in 4 sessions \u2014 OCR artifacts, MS-witnessed",
+   "c42b6a1 chore: refresh QP sha256 in manifests for the 4 corrected sessions"
+  ],
+  "syllabai-parser": [
+   "0d8b72c fix: recover paper identity from table-cell covers (IGCSE templates)",
+   "180b2b2 fix: extract identity from TableElement rows; accept regional R codes",
+   "577eca6 fix: <br> in table cells is a printed line break (engine 1.1.0)",
+   "d095510 fix: prefer the printed International GCSE code among multiple paper references"
+  ],
+  "syllabai-core": [
+   "4baf3ba fix: fail-closed paper identity gate + QP-side session/paper-reference mapping",
+   "da42b9e fix: ingestion anchor identity is per paper (code + session)"
+  ],
+  "tests": {
+   "parser": "88/88 green",
+   "core": "309/309 green"
+  }
+ },
+ "governance": {
+  "direct_pushes": "all 8 commits landed directly on main without PR review (established repo convention for this corpus work); list above",
+  "force_push_incident": "one amend collided with the already-pushed 0d8b72c; resolved by publishing the delta as a NEW commit (180b2b2) instead of force-pushing",
+  "concurrent_agent_activity": "r1 recorded a parallel NBA commit (101054a) rebased over; none this session",
+  "unresolved_observation": "the 78 r1-era glm_ocr_bridge_records vanished from the DB between session-start verification and the r2 repair (root cause undetermined \u2014 log_statement=off; the only DB-touching actors were parser-side smoke tests and core UNIT tests, which use mocks; ITs are failsafe-only and Testcontainers/Docker is absent). Zero final-state impact (r2 recreated all bridge records); RECOMMENDATION: enable statement logging + take a pg_dump before future repairs.",
+  "identity_overrides": "4 sessions (2021-Jun/Nov \u00d7 paper 1/2) carry operator-supplied paper codes --paper-code=4CH1/1C|2C (QP covers lost in OCR; session lines come from the printed MS covers); recorded in run logs and per-bundle stage1 evidence"
+ },
+ "verdict": {
+  "status": "YELLOW \u2014 continue with recorded issues",
+  "green_claims": [
+   "maximum safe throughput achieved: every session that CAN be safely ingested IS ingested (81/81)",
+   "zero educational content loss; zero learner-servable imports; zero embeddings; zero fabrication",
+   "idempotent end-to-end; deterministic identity; fail-closed gates all exercised for real"
+  ],
+  "yellow_items": [
+   "1 quarantine (2016-Jan corpus defect \u2014 needs operator/PDF, blocks only itself)",
+   "r1-era bridge-record disappearance undetermined (no final-state impact; logging recommended)",
+   "direct pushes without PR review (governance hygiene, not correctness)"
+  ],
+  "red_items": []
+ }
+}

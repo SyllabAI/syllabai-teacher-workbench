@@ -1,0 +1,399 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG034327",
+    "session" : "January 2013",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "1561cbc6-a276-559d-b623-d41898df8475"
+  },
+  "entries" : [ {
+    "entryId" : "ms-1561cbc6-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "bar drawn at height of 32\nbar drawn at height of 8\nbar drawn at height of 62-64",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "2 marks for all 3"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for any 2"
+    }, {
+      "kind" : "note",
+      "text" : "horizontal lines at correct heights"
+    }, {
+      "kind" : "note",
+      "text" : "vertical lines ending at correct heights"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1- capric AND palmitic solid"
+    }, {
+      "kind" : "note",
+      "text" : "M2- formic liquid"
+    }, {
+      "kind" : "note",
+      "text" : "S"
+    }, {
+      "kind" : "note",
+      "text" : "I"
+    }, {
+      "kind" : "note",
+      "text" : "any other state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- bubbles(of gas)/fizzing/effervescence",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "gas/carbon dioxide given off"
+    }, {
+      "kind" : "note",
+      "text" : "M2- lump/calcium carbonate/solid disappears/getts smaller"
+    }, {
+      "kind" : "note",
+      "text" : "dissolves forms a colourless solution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(bubble through) limewater/calcium hydroxide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(goes) milky/cloudy/chalky"
+    }, {
+      "kind" : "note",
+      "text" : "white precipitate/suspension/solid(formed)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dependent on M1 or near miss,e.g. Ca(OH)2(s)IGNORE references to lighted spill goes out"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "time increases,mass decreases"
+    }, {
+      "kind" : "note",
+      "text" : "reverse statement mass decreases with time(they have a) negative correlation"
+    }, {
+      "kind" : "note",
+      "text" : "mass goes down with no reference to time"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to mass eventually stops decreasing"
+    }, {
+      "kind" : "note",
+      "text" : "3min18s to3min30s"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "3.3 to3.5"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "lump/calcium carbonate/solid completely reacted"
+    }, {
+      "kind" : "note",
+      "text" : "used up/has gone"
+    }, {
+      "kind" : "note",
+      "text" : "has dissolved(both) reactants used up"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q4ei",
+    "label" : "4(e)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calcium chloride AND hydrochloric acid\nIGNORE carbon dioxide / carbonic acid / calcium carbonate\ncalcium chloride AND hydrochloric acid\nIGNORE carbon dioxide / carbonic acid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "hydrogen chloride for hydrochloric acid correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen chloride for hydrochloric acid correct formula"
+    }, {
+      "kind" : "note",
+      "text" : "(f)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 - steeper curve to left of original starting at, or close to(100,0)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 - levels at98.4g"
+    }, {
+      "kind" : "note",
+      "text" : "curves that'dip'below98.4bymore than1/2small square"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Salt made\nName",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Acid used"
+    }, {
+      "kind" : "note",
+      "text" : "Metal compound"
+    }, {
+      "kind" : "note",
+      "text" : "correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "silver ethanoate"
+    }, {
+      "kind" : "note",
+      "text" : "Solid or aqueous solution"
+    }, {
+      "kind" : "note",
+      "text" : "sulfuric(acid)"
+    }, {
+      "kind" : "note",
+      "text" : "solid"
+    }, {
+      "kind" : "note",
+      "text" : "silver nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "nitric(acid)"
+    }, {
+      "kind" : "note",
+      "text" : "solid/aqueous/solution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "H2SO4→H++HSO4-/H2SO4→2H++SO42- M1- formula of both ions correct M2-balanced equation"
+    }, {
+      "kind" : "note",
+      "text" : "H3O+in place ofH+"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- dissolve both(lead(II)nitrate and sodium chloride)in water",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "dissolve one in water"
+    }, {
+      "kind" : "note",
+      "text" : "penalise M1 is any other reagents added"
+    }, {
+      "kind" : "note",
+      "text" : "M2- mix/add(the two solutions)"
+    }, {
+      "kind" : "note",
+      "text" : "react"
+    }, {
+      "kind" : "note",
+      "text" : "M3- filter"
+    }, {
+      "kind" : "note",
+      "text" : "decant"
+    }, {
+      "kind" : "note",
+      "text" : "M4- wash residue/solid/lead((II))chloride(with deionised/distilled water)"
+    }, {
+      "kind" : "note",
+      "text" : "M5- dry on filter paper/in a(warm)oven/leave to dry/heat"
+    }, {
+      "kind" : "note",
+      "text" : "other sensible methods of drying"
+    }, {
+      "kind" : "note",
+      "text" : "strong heating"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C12H22O11+H2O→2C6H12O6Ignore yeast",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "lower case symbols and numbers not given as subscripts"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "no more bubbles/fizzing/effervescenceIGNORE when no more ethanol is formed/all the glucose has reacted/all the yeast has reacted/references to mass/references to temperaturefiltration/filteringIGNORE sieving"
+    }, {
+      "kind" : "note",
+      "text" : "no more gas/carbon dioxide given offdecant"
+    }, {
+      "kind" : "note",
+      "text" : "evaporation/distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(the elements of) water removed(ii)aluminium oxide/Al2O3"
+    }, {
+      "kind" : "note",
+      "text" : "H2O removed2 hydrogen (atoms)and 1 oxygen (atom)are removed(concentrated) sulfuric acid(concentrated) phosphoric acid"
+    }, {
+      "kind" : "note",
+      "text" : "dilute acidphosphorus/phosphorous"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine (gas)/Cl2If both name and formula given, both must be correct(iv)CH2ClCH2Cl→CH2(=)CHCl+HCl"
+    }, {
+      "kind" : "note",
+      "text" : "correct name or formula as part of an equationC2H4Cl2for CH2ClCH2ClandC2H3Clfor CH2=CHCl"
+    }, {
+      "kind" : "note",
+      "text" : "chloride/Cl-"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- $\\frac{144}{24000}$",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "One mark for(144÷24)=6"
+    }, {
+      "kind" : "note",
+      "text" : "M2-0.006"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "0.006"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-$\\frac{0.888}{0.006}$"
+    }, {
+      "kind" : "note",
+      "text" : "M2-148(MUST be a whole number)"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-(CO3)=60"
+    }, {
+      "kind" : "note",
+      "text" : "M2-88"
+    }, {
+      "kind" : "note",
+      "text" : "M3-Sr/strontium"
+    }, {
+      "kind" : "note",
+      "text" : "answer csq on correctly calculated value of M2(i.e. metal closest to calculated $A_r$),but must be a Group 2 metal"
+    }, {
+      "kind" : "note",
+      "text" : "Mark csq throughout part(a)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-1561cbc6-q7b",
+    "label" : "7(b)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nM1- gas was lost between adding acid and replacing bung\nM2- bung does not fit/there are leaks in the apparatus\nM3- some gas dissolved/reacted in the water\nM4- the carbonate was impure\nM5- the temperature(of the gas) was lower than room temperature/25℃",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)", "orphan row before first entry: A", "orphan row before first entry: (b)", "orphan row before first entry: M2- the spots do not line up(with any of the blue, red or yellow spots)", "orphan row before first entry: Total", "orphan row before first entry: 3(a)(i)(ii)", "orphan row before first entry: M2- no regular pattern overall(particles/they are)more closely packed or(particles they are)closer together ormore(particles of them)in a given volume/in the tank", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: M2- white powder/ solid/ smoke/ ashMgO", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: OH-/ hydroxide", "orphan row before first entry: Total", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(e)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(e)(i): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Total", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(b): bare integer cell \"10\" skipped (rubric/rowspan ambiguity)" ]
+}

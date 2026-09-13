@@ -1,0 +1,50 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG041123",
+    "session" : "Summer 2015",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "312e4787-8bfb-5426-b847-041f7beec8d2"
+  },
+  "entries" : [ {
+    "entryId" : "ms-312e4787-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "6\nM2 subsumes M1\nAccept elements in any order\nAward 3 marks for correct final answer with no working\nDo not accept C2H4Fl2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "If molecular masses used for H and/or F, lose M1 but M2 and M3 can be awarded: using 2 and 38 gives C2H2F using 2 and 19 gives CHF Using 1 and 38 gives C2H4F Working required for these answers"
+    }, {
+      "kind" : "note",
+      "text" : "C2H4F2"
+    }, {
+      "kind" : "note",
+      "text" : "Accept elements in any order"
+    }, {
+      "kind" : "note",
+      "text" : "Total 15 marks"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1 a i", "orphan row before first entry: ii B(They move randomly in the liquid state)", "orphan row before first entry: ii D(melting)", "orphan row before first entry: b i", "orphan row before first entry: D(N2(I))", "orphan row before first entry: Total 5 marks", "orphan row before first entry: 2 a", "orphan row before first entry: M2 D(Bromine vapour diffuses upwards)", "orphan row before first entry: b ii", "orphan row before first entry: M1 ammonia (particles/molecules) travels/diffuses faster / further in same time(than hydrogen chloride)", "orphan row before first entry: M2(because of) lowerMr", "orphan row before first entry: Total 5 marks", "orphan row before first entry: 3 a", "orphan row before first entry: M2 white solid", "orphan row before first entry: C(a basic oxide formed from a metal)", "orphan row before first entry: c iii", "orphan row before first entry: hydroxide(ion)/OH-/HO-", "orphan row before first entry: Total 5 marks", "orphan row before first entry: 4 a", "orphan row before first entry: b", "orphan row before first entry: c iii", "orphan row before first entry: 4 di", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: e", "orphan row before first entry: Total 10 marks", "orphan row before first entry: 5 a i", "orphan row before first entry: CH2Br", "orphan row before first entry: b i", "orphan row before first entry: D(CnH2n)", "orphan row before first entry: c", "orphan row before first entry: 5 d", "orphan row before first entry: e i", "orphan row before first entry: bromomethane", "orphan row before first entry: UV or ultraviolet (light/radiation)", "orphan row before first entry: D (substitution)", "orphan row before first entry: 5 f i", "orphan row before first entry: 36.412", "orphan row before first entry: Do not penalise use of Fl in (i)", "orphan row before first entry: 6 a", "orphan row before first entry: (F) bitumen", "orphan row before first entry: b", "orphan row before first entry: M2only", "orphan row before first entry: 6 c", "orphan row before first entry: M1 have higher boiling points", "orphan row before first entry: M2 are darker(in colour)", "orphan row before first entry: M3 have higher viscosities/are more viscous", "orphan row before first entry: Must be a comparison,eg not enough to say fuel oil has a high boiling point unless also a statement that gasoline has a low boiling point\nMAX 2 if no comparison", "orphan row before first entry: Accept reference to fractions near the top/up the column in place of gasoline\nAccept reference to fractions near the bottom/down the column in place of fuel oil", "orphan row before first entry: d iii", "orphan row before first entry: M1 C2H4", "orphan row before first entry: M2 C3H6", "orphan row before first entry: 6 e i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Mark all parts independently", "orphan row before first entry: 6 f iii", "orphan row before first entry: M2 sulfuric acid", "orphan row before first entry: M1 acid rain", "orphan row before first entry: M2 specific adverse effect on specific object", "orphan row before first entry: Total 17 marks", "orphan row before first entry: 7 a", "orphan row before first entry: b", "orphan row before first entry: c iii", "orphan row before first entry: d", "orphan row before first entry: 7 e i", "orphan row before first entry: M2 by bacteria / microbes / microorganisms / decomposers / enzymes", "orphan row before first entry: inert(ness) / unreactive / OWTTE", "orphan row before first entry: Total 9 marks", "orphan row before first entry: 8a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d", "orphan row before first entry: M2(before) answer", "orphan row before first entry: M3(added)", "orphan row before first entry: 8 e iii", "orphan row before first entry: M1 26.30+26.402", "orphan row before first entry: M2 26.35", "orphan row before first entry: f", "orphan row before first entry: i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Total 14 marks", "orphan row before first entry: 9 a", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: Do not penalise empty third shell in Mg2+ If only 2.8 etc notations without diagram, only M3 can be awarded", "orphan row before first entry: 9 c", "orphan row before first entry: d i", "orphan row before first entry: 9 d ii", "orphan row before first entry: M2 slide(over each other)", "orphan row before first entry: M2 DEP on mention of EITHER layers or equivalentOR mention of ions or equivalent", "orphan row before first entry: Do not award M2 if protons/electrons/nuclei/molecules in place of ions,etc", "orphan row before first entry: If reference to ionic bonding/covalent bonding/molecules/intermolecular forces,no marks", "orphan row before first entry: Total 17 marks", "orphan row before first entry: 10 a", "orphan row before first entry: M2 concentration", "orphan row before first entry: Allow mass of solution", "orphan row before first entry: Ignore strength\nIgnore temperature/ pressure\nAccept in either order", "orphan row before first entry: b i\nii", "orphan row before first entry: D", "orphan row before first entry: c", "orphan row before first entry: Accept separate/remove solid/A/it from reaction mixture and weigh it", "orphan row before first entry: Accept reverse argument, eg if it was a reactant, the mass would decrease", "orphan row before first entry: 10 d i", "orphan row before first entry: ii", "orphan row before first entry: M2 volume CQ on candidate curve", "orphan row before first entry: iii", "orphan row before first entry: Accept answers that do not depend on graph but can be obtained from the table of results, eg bigger volume in a shorter time, reaction stopped earlier", "orphan row before first entry: Total 12 marks", "orphan row before first entry: 11 a iii", "orphan row before first entry: b iii", "orphan row before first entry: c", "orphan row before first entry: 11 d\ni\nii", "orphan row before first entry: Mark M1 and M2 independently", "orphan row before first entry: M1 particles closer together", "orphan row before first entry: M2 particles collide more frequently", "orphan row before first entry: 0/2 if references to particles moving faster/having greater energy\nIf answer to(i) is decreases,no ECF in(ii)\nIf no answer or ignored answer to(i),marks can be awarded", "orphan row before first entry: 11 e", "orphan row before first entry: M1 Mr(CH3OH)=32 AND Mr(CH3COOH)=60", "orphan row before first entry: M2 m(CH3COOH)=64×60/32", "orphan row before first entry: M3 120(kg)", "orphan row before first entry: OR\nMoles:", "orphan row before first entry: M1 n(CH3OH)=64000÷32=2000(mol)", "orphan row before first entry: M2 n(CH3COOH)=2000(mol)", "orphan row before first entry: M3 m(CH3COOH)=2000×60=120000g/120(kg)", "orphan row before first entry: Correct final answer with or without working scores 3 marks\nAccept 120000g if unit shown", "orphan row before first entry: Total 11 marks" ]
+}

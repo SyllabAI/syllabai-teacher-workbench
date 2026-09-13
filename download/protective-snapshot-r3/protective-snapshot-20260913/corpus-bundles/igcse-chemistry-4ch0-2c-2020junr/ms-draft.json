@@ -1,0 +1,667 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2CR_2011_MS",
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "eedd5b84-54b4-5a43-8dc9-32f6ec98f31b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-eedd5b84-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A test tube/boiling tube\nB evaporating basin\nC measuring cylinder\nD(top-pan)balance",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW evaporating dish/crystallising dish"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(weighing)scale(s)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weighing machine"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as a test tube cannot measure a volume of liquid"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as an evaporating basin cannot measure a volume of liquid"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as a balance measures mass not volume"
+    }, {
+      "kind" : "note",
+      "text" : "1Comp"
+    }, {
+      "kind" : "note",
+      "text" : "Total 5"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A3B is incorrect as there are not 6 electrons in the outer shell of a thallium atomC is incorrect as there are not 13 electrons in the outer shell of a thallium atomD is incorrect as 81 is the total number of electrons in a thallium atom not the number in the outer shell",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "B78A is incorrect as there are not 3 electrons in a thallium ionC is incorrect as 81 is the number of electrons in a thallium atom not a thallium ionD is incorrect as there are not 84 electrons in a thallium ion"
+    }, {
+      "kind" : "note",
+      "text" : "1Comp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q2ci",
+    "label" : "2(c)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(number of protons)81",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT eighty-one"
+    }, {
+      "kind" : "note",
+      "text" : "M2(number of neutrons)124"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT one hundred and twenty-four"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "calculate sum of mass numbers multiplied by percentage abundances"
+    }, {
+      "kind" : "note",
+      "text" : "3Exp"
+    }, {
+      "kind" : "note",
+      "text" : "divide answer by 100"
+    }, {
+      "kind" : "note",
+      "text" : "give answer to one decimal place"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1(203x30.8)+(205x69.2)OR20438.4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT4,5or6sigfig"
+    }, {
+      "kind" : "note",
+      "text" : "M220438.4÷100OR204.384"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT5or6sigfig(203x0.308)+(205x0.692)OR204.384withorwithoutworkingscoresM1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "M3204.4"
+    }, {
+      "kind" : "note",
+      "text" : "Correctanswerto1d.p.withorwithoutworkingscores3marks"
+    }, {
+      "kind" : "note",
+      "text" : "Total7"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(bitumen)(surfacing) roads/(surfacing) roofs",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW other suitable uses"
+    }, {
+      "kind" : "note",
+      "text" : "M2(gasoline) petrol/fuel for cars/vehicles"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW other suitable uses e.g. fuel for cooking"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1 column is cooler near the top than at the bottom ORA"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT column cool near the top and hot at the bottom"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT temperature decreases up the column ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 gasoline has a lower boiling point than bitumen(so is collected nearer the top) ORA"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT gasoline has a low boiling point(so is collected near the top) and bitumen has a high boiling point(so is collected near the bottom)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 alumina/silica(catalyst)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Al2O3/SiO2/aluminium oxide/silicon dioxide/aluminosilicate(s)/zeolite(s)"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2600-700(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT range or any value within the range"
+    }, {
+      "kind" : "note",
+      "text" : "C12H26-->C7H16+C2H4+C3H6"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT correct temperatures in other units"
+    }, {
+      "kind" : "note",
+      "text" : "M1C2H4M2C3H6"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT answers in either order"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "Total8"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two of the following observations.",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(sodium) floats/moves on surface(of water)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(sodium) melts/forms a ball"
+    }, {
+      "kind" : "note",
+      "text" : "M3(sodium) gets smaller/disappears"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M4(sodium forms) white trail"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to flame/heat released/temperature increasesIGNORE fizzing/effervescence"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "2Li+F2→2LiF"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractionsIGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "1Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame testM2 red(flame)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW description of flame testALLOW crimson/scarletREJECT orange-red/brick red"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct electron arrangement of lithium ion"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crossesIGNORE empty second shell"
+    }, {
+      "kind" : "note",
+      "text" : "3Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 correct electron arrangement of fluoride ion"
+    }, {
+      "kind" : "note",
+      "text" : "Inner electron shell required to score M2"
+    }, {
+      "kind" : "note",
+      "text" : "M3 correct charges on both ions(with or without brackets)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 not dep on M1 and M2 correct"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links three of the following four points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 the outer electron is further from the nucleus in potassium / potassium has more shells/ potassium has larger atomic radius ORA"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium atom is bigger than a sodium atom"
+    }, {
+      "kind" : "note",
+      "text" : "M2 there is more shielding (by the inner shells) in potassium ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M3 there is less attraction between the outer electron and the nucleus in potassium ORA"
+    }, {
+      "kind" : "note",
+      "text" : "outer electron needs to be mentioned at least once in the answer for full marks"
+    }, {
+      "kind" : "note",
+      "text" : "M4 (so outer) electron (in potassium) more easily lost ORA"
+    }, {
+      "kind" : "note",
+      "text" : "Max 2 if no mention of outer electron in the answer"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A labelled diagram showingM1 at least three rows of at least three cations/atoms in a regular arrangementM2 surrounded by (delocalised) electronsExample of diagram",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Max 1 if no labelsMinimum requirement for 2 marks is + signs on atoms and electrons labelled or shown as e-"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 delocalised electronsM2 flow/are mobile/move/are free to move"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE free electrons/sea of electronsM2 dep on mention of electronsAny mention of ions/atoms moving scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "Any two of the following propertiesM1 low densityM2 does not react with drinkM3 malleable"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW lightweightIGNORE lightIGNORE less denseALLOW does not corrode/non-toxicIGNORE does not rustALLOW easy to bend/easy to shapeIGNORE references to costIGNORE can be recycledIGNORE any irrelevant properties e.g. high melting/boiling point/good conductor/ductile"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "aluminium/it is more reactive/higher in the reactivity series than carbon ORA",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW aluminium is too reactive/too high in the reactivity series"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "electrons are gained (by aluminium ion/Al3+)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT oxidation state of aluminium/Al is decreased/changes from+3to0REJECT aluminium/Al gains electronsIGNORE references to loss of oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "1Exp"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "2O2-→O2+4e(-)M1 correct formulae of productsM2 balancing of correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and fractionsM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "pipette"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(colour in NaOH) pink"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT magenta"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW red"
+    }, {
+      "kind" : "note",
+      "text" : "2Grad"
+    }, {
+      "kind" : "note",
+      "text" : "M2(colour in HCl) colourless/no colour"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE clear"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for two correct colours in the wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "There is no clear (colour change at the) end point/difficult to determine which shade of green is pH 7 OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW it has a range of colours"
+    }, {
+      "kind" : "note",
+      "text" : "1Exp"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that makes reference to the following two pointsM1 add 21.5cm3of hydrochloric acidM2 to 25cm3of sodium hydroxide solution",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "0 marks if mention of adding indicatorALLOW repeat the titration without indicator for1markALLOW the following alternative methodM1 add activated charcoal(to absorb the indicator)M2 filter(to remove the activated charcoal and indicator)M2 dep onM1"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q6d",
+    "label" : "6(d)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calculate the amount, in moles, of NaOH\ndivide amount in moles by volume in dm3\nevaluation to obtain correct answer",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "correct answer without working scores 3 marks"
+    }, {
+      "kind" : "example-calculation",
+      "text" : "Example calculation"
+    }, {
+      "kind" : "note",
+      "text" : "M1 n(NaOH) = 0.0250 x 0.800 or 0.02(00)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 conc = (0.02 ÷ 0.0215)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 0.930"
+    }, {
+      "kind" : "note",
+      "text" : "answer to M1 ÷ 0.0215"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig fig except 1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf on M2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 13"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-eedd5b84-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sulfuric acid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to concentration"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT sulfurous acid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D orange to green"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as the solution is not colourless at the start of the reaction"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as the solution is not green at the start or orange at the end of the reaction"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as the solution is not colourless at the end of the reaction"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Comp"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "·show the expression for the sum of the bond energies for the breaking of bonds"
+    }, {
+      "kind" : "note",
+      "text" : "·evaluation to give answer in kJ"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1∑C-C+5C-H+C-O+O-H+3O=O"
+    }, {
+      "kind" : "note",
+      "text" : "OR∑346+(5x412)+358+463+(3x496)"
+    }, {
+      "kind" : "note",
+      "text" : "M24715(kJ)"
+    }, {
+      "kind" : "note",
+      "text" : "-1 mark for each error"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "·show the expression for the sum of the bond energies for the forming of bonds"
+    }, {
+      "kind" : "note",
+      "text" : "·evaluation to give answer in kJ"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "note",
+      "text" : "Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1∑4C=O+6O-H"
+    }, {
+      "kind" : "note",
+      "text" : "OR∑(4x743)+(6x463)"
+    }, {
+      "kind" : "note",
+      "text" : "M25750(kJ)"
+    }, {
+      "kind" : "note",
+      "text" : "-1 mark for each error"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any signs in(i)and(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(4715-5750=)-1035(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "minus sign must be included"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT-1040(kJ/mol)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf on answers to(i)and(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "If answers to(i)and(ii)are reversed allow max3and ecf on(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: (ii)", "orphan row before first entry: M1 heat the solution to evaporate some of the water/ to form a saturated solution/ to crystallisation point", "orphan row before first entry: M2 leave the solution to cool /leave the solution for (more) crystals to form", "orphan row before first entry: M3 filter off the crystals", "orphan row before first entry: M4 suitable method of drying the crystals", "orphan row before first entry: REJECT hot oven or direct heating with Bunsen burner", "orphan row before first entry: No M4 if crystals are washed after drying", "orphan row before first entry: 7(c)(i)(ii)(iii)", "orphan row before first entry: M1 ester linkageO-|-C-O-", "orphan row before first entry: M2 rest of molecule correctStructural formula of ethyl formate or ethyl methanoate", "orphan row before first entry: M1 forward and reverse reactions occur at the same rate OWTTEM2 concentrations of reactants and products remain constant", "orphan row before first entry: (d)", "orphan row before first entry: Total\n16" ]
+}

@@ -1,0 +1,542 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG041072",
+    "session" : "Summer 2015",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "b1ddd1a4-f136-5f7f-a161-813a928b095e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-b1ddd1a4-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "C(neutrons and protons)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "A(6)"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "D(11)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "P AND T"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "S"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "(one) more electron than protonsOR(one) fewer proton than electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept more electrons than protonsAccept fewer protons than electronsAccept 2 electrons and 1 protonIgnore references to electron gained"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7 marks"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "gas escapes/gas is lost(from the crucible)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept gas is given off/gas is evolved/gas is released/gas is given offAllow carbon dioxide/CO2 for gasIgnore copper(II) carbonate decomposesReject incorrect name of gas"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "(CuCO3(s)) green"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore qualifiers such as pale/darkReject any other colours"
+    }, {
+      "kind" : "note",
+      "text" : "(CuO(s)) black"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore qualifiers such as pale/darkReject any other coloursAllow 1/2 for two correct colours in wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "the last two masses are not the sameORno two masses are the same"
+    }, {
+      "kind" : "note",
+      "text" : "Part(ii)DEP on correct or missing answer to part(i)Accept mass still changing/mass not constant/mass is still decreasingAccept results/readings in place of massAccept reverse argumenteg the others are to constant mass"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "D(...spirit burner instead of Bunsen burner)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B(red-brown liquid)"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "2(1)2"
+    }, {
+      "kind" : "note",
+      "text" : "Accept multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "a halogen/an element cannot displace itselfORno reaction/no displacement(would occur)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept a halogen does not react withits own(halide)ionsAccept correct reference to a specific halogen/halide ionAccept nothing happensReject any references to a halogen having the same reactivity as a halide(ion)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "a halogen cannot displace a more reactive halogenORa halogen cannot react with the(halide)ions of a more reactive halogen"
+    }, {
+      "kind" : "note",
+      "text" : "Reject any references to a halogen having a different reactivity to a halide(ion)Accept correct reference to a specific halogen/halide ion"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "potassium bromide"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore any formulaReject any other species with corrected name"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "iv"
+    }, {
+      "kind" : "note",
+      "text" : "M1M2"
+    }, {
+      "kind" : "note",
+      "text" : "(correct products) KCl AND I22 22"
+    }, {
+      "kind" : "note",
+      "text" : "Accept in either orderM2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "v"
+    }, {
+      "kind" : "note",
+      "text" : "(both) reduction AND oxidation occur(in the same reaction)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept (both) gain AND loss of electrons occurs(in the same reaction)Accept (both) gain AND loss of oxygen occurs(in the same reaction)Accept (both) increase AND decrease of oxidation states/oxidation numbers(in the same reaction)Ignore incorrect species being oxidised and reduced / losing and gaining electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "zymase"
+    }, {
+      "kind" : "note",
+      "text" : "Accept yeast"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "2CO2"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "any value in range 250-350(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "If range given, it must lie inside 250-350Accept equivalent answers in other units, if the unit is given"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "(reaction 1) fermentation"
+    }, {
+      "kind" : "note",
+      "text" : "Accept decompositionIgnore anaerobic respiration"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "(reaction 3) hydration"
+    }, {
+      "kind" : "note",
+      "text" : "Accept additionIgnore references to continuous process"
+    }, {
+      "kind" : "note",
+      "text" : "d"
+    }, {
+      "kind" : "note",
+      "text" : "Any two of: product is pure(r)/product is (more) concentrated reaction is fast(er) continuous process is more efficient greater atom economy"
+    }, {
+      "kind" : "note",
+      "text" : "Accept does not need separating from impurities"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "e",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sugar cane (is readily availableORno crude oil (to obtain ethene from)ORsugar cane is renewable/sugar cane is sustainable/crude oil is finite"
+    }, {
+      "kind" : "note",
+      "text" : "Accept (large area of) land on which to grow sugar caneIgnore references to glucoseAccept have a suitable climate for growing sugar caneAccept crude oil is (too) expensiveAccept maize in place of sugar cane"
+    }, {
+      "kind" : "note",
+      "text" : "f"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "C2H5OH→C2H4+H2O"
+    }, {
+      "kind" : "note",
+      "text" : "Accept displayed/structural formulaeAccept word equationIf both word and chemical equation given both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "dehydration/elimination"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10 marks"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "(after)22.3"
+    }, {
+      "kind" : "note",
+      "text" : "All answers must be to0.1℃"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "(before)16.7"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise addition of trailing zero once only"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "(change)(+)5.6"
+    }, {
+      "kind" : "note",
+      "text" : "Award1mark for two correct readings in the wrong orderM3CQ on temperature readingsIgnore units"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "100×4.2×4.9"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer to2or3sfeg2060/2100"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "2058"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer inkJ if unit givenIgnore signsAllow1mark for correct calculation based on incorrect temperature change"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "6.3134"
+    }, {
+      "kind" : "note",
+      "text" : "Accept1ormore sig figs,eg0.05Correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "0.047"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "too reactive / very reactiveORhigh in the reactivity series"
+    }, {
+      "kind" : "note",
+      "text" : "Accept words with equivalent meaningeg highly"
+    }, {
+      "kind" : "note",
+      "text" : "b"
+    }, {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "B (stage 2)"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "calcium chloride / CaCl2"
+    }, {
+      "kind" : "note",
+      "text" : "If both name and formula given, markname only"
+    }, {
+      "kind" : "note",
+      "text" : "iii"
+    }, {
+      "kind" : "note",
+      "text" : "(they / the ions) are mobile"
+    }, {
+      "kind" : "note",
+      "text" : "Accept free to moveAccept move to electrodes(allow even ifincorrect electrodes)Accept ions break free from lattice/crystalNot just freeAllow they/ions are delocalisedIgnore references to conduction"
+    }, {
+      "kind" : "note",
+      "text" : "iv"
+    }, {
+      "kind" : "note",
+      "text" : "2Cl-→Cl2+2e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 2Cl-→2e(-)→Cl2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "c",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "i"
+    }, {
+      "kind" : "note",
+      "text" : "M1M2"
+    }, {
+      "kind" : "note",
+      "text" : "Correct calculation of $ M_{r} $ ($ MgCl_{2} $ )M1 x 2"
+    }, {
+      "kind" : "note",
+      "text" : "Sample calculation:M1=95M2=190(kg)Accept 190000gM2 CQ on M1 when M1 is a genuine attempt to calculate $ M_{r} $ ($ MgCl_{2} $ )Correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "Award 2 marks for 4000Award 1 mark if one error"
+    }, {
+      "kind" : "note",
+      "text" : "2000 (wrong ratio for Mg and electrons)4 (working in grams instead of kilograms)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-b1ddd1a4-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "d\nM2\nM3\nM4\nM5",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "Mix magnesium oxide and sulfuric acid(and heat)"
+    }, {
+      "kind" : "note",
+      "text" : "If heated to dryness,no M4 or M5Allow place in a warm oven(to evaporate the excess water) to form crystals"
+    }, {
+      "kind" : "note",
+      "text" : "Use excess MgO"
+    }, {
+      "kind" : "note",
+      "text" : "Filter(before heating to remove some water)"
+    }, {
+      "kind" : "note",
+      "text" : "Heat(the solution) to remove some water/for a short period of time"
+    }, {
+      "kind" : "note",
+      "text" : "Leave to crystallise"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: d", "orphan row before first entry: 92%", "orphan row before first entry: Total8marks", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: vi", "orphan row before first entry: M2", "orphan row before first entry: Total 10 marks", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: c", "orphan row before first entry: c", "orphan row before first entry: Total 11 marks", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

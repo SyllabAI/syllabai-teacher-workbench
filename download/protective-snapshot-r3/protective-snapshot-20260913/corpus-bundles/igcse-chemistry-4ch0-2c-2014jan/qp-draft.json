@@ -1,0 +1,609 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "dda78b7f-b2c9-598d-a78a-e34654c51570"
+  },
+  "questions" : [ {
+    "questionId" : "q01-dda78b7f",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The table shows the numbers of particles in two atoms, L and M.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-dda78b7f-pa",
+      "label" : "a",
+      "text" : "Which particles are present in the nuclei of both atoms? A electrons and neutrons B electrons and protons C neutrons and protons D neutrons, protons and electrons",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-dda78b7f-pb",
+      "label" : "b",
+      "text" : "The atomic number of atom L is ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-dda78b7f-pb-ii",
+      "label" : "b-ii",
+      "text" : "The mass number of atom L is ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-dda78b7f-pc",
+      "label" : "c",
+      "text" : "Atoms L and M are neutral because A the numbers of electrons and neutrons are equal B the numbers of electrons and protons are equal C the numbers of neutrons and protons are equal D the numbers of electrons, neutrons and protons are equal",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-dda78b7f-pd",
+      "label" : "d",
+      "text" : "Use information from the table to explain why atoms L and M are isotopes of the same element.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-dda78b7f-pe",
+      "label" : "e",
+      "text" : "The electronic configuration of atom M is A 2.2.2 B 2.4 C 2.4.6 D 4.2",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000022" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-dda78b7f",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Bromine, chlorine, fluorine and iodine are elements in Group 7 of the Periodic Table.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-dda78b7f-pa",
+      "label" : "a",
+      "text" : "Which two of these elements have the darkest colours?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pb",
+      "label" : "b",
+      "text" : "The equation for the reaction between hydrogen and chlorine is $\\mathrm {H} _ {2} + \\mathrm {C l} _ {2} \\rightarrow 2 \\mathrm {H C l}$ Different names are used for the product, depending on its state symbol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pb-i",
+      "label" : "b-i",
+      "text" : "What are the names used for HCl(g) and HCl(aq)?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pb-ii",
+      "label" : "b-ii",
+      "text" : "The presence of HCl(g) can be confirmed by adding ammonia $ \\mathrm{(N H_{3})} $ gas. State the observation in the reaction between HCl(g) and ammonia gas and write a chemical equation for the reaction. observation chemical equation",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pb-iii",
+      "label" : "b-iii",
+      "text" : "The presence of chloride ions in HCl(aq) can be shown by mixing it with silver nitrate solution and dilute nitric acid. State the result of this test and complete the chemical equation for the reaction by adding the state symbols. result $\\mathrm {A g N O} _ {3} (\\dots \\dots \\dots \\dots) + \\mathrm {H C l} (\\mathrm {a q}) \\rightarrow \\mathrm {A g C l} (\\dots \\dots \\dots \\dots) + \\mathrm {H N O} _ {3} (\\dots \\dots \\dots \\dots)$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pc",
+      "label" : "c",
+      "text" : "Solution X is made by dissolving HCl(g) in water. Solution Y is made by dissolving HCl(g) in methylbenzene. A student added magnesium ribbon and blue litmus paper to separate samples of each solution. The table shows her results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pc-i",
+      "label" : "c-i",
+      "text" : "What substance is responsible for the bubbles?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pc-ii",
+      "label" : "c-ii",
+      "text" : "State one change to the magnesium ribbon that could be seen after adding it to solution X.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pc-iii",
+      "label" : "c-iii",
+      "text" : "What does the colour change of the litmus paper show about solution X?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-dda78b7f-pc-iv",
+      "label" : "c-iv",
+      "text" : "Why does the litmus paper stay blue in solution Y?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000060" ],
+    "marks" : 12,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-dda78b7f",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Tungsten is a useful metal. It has the chemical symbol W.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-dda78b7f-pa",
+      "label" : "a",
+      "text" : "One method of extracting tungsten involves heating a tungsten compound $ \\mathrm{(W O_{3})} $ with hydrogen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pa-i",
+      "label" : "a-i",
+      "text" : "Suggest the chemical name of $ \\mathrm{W O}_{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pa-ii",
+      "label" : "a-ii",
+      "text" : "Balance the equation for the reaction between $ \\mathrm{W O}_{3} $ and hydrogen. $\\mathrm {W O} _ {3} + \\dots \\dots$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pa-iii",
+      "label" : "a-iii",
+      "text" : "Why is this reaction described as reduction?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pb",
+      "label" : "b",
+      "text" : "Scheelite is an ore of tungsten. The main compound in scheelite has the percentage composition by mass $ \\mathrm{C a}=1 3. 9 \\% $ $ \\mathrm{W}=6 3. 9 \\% $ $ \\mathrm{O}=2 2. 2 \\% $ Calculate the empirical formula of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pc",
+      "label" : "c",
+      "text" : "Tungsten can also be obtained by reacting tungsten fluoride with hydrogen. The equation for this reaction is $\\mathrm {W F} _ {6} + 3 \\mathrm {H} _ {2} \\rightarrow \\mathrm {W} + 6 \\mathrm {H F}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pc-i",
+      "label" : "c-i",
+      "text" : "In an experiment, a chemist used 59.6 g of tungsten fluoride. What is the maximum mass of tungsten he could obtain from 59.6 g of tungsten fluoride? Relative formula mass of tungsten fluoride = 298",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-dda78b7f-pc-ii",
+      "label" : "c-ii",
+      "text" : "Starting with a different mass of tungsten fluoride, he calculates that the mass of tungsten formed should be 52.0 g. In his experiment he actually obtains 47.5 g of tungsten. What is the percentage yield of tungsten in this experiment?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-dda78b7f",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student investigated the neutralisation of acids by measuring the temperature changes when alkalis were added to acids of known concentrations. He used this apparatus to add different volumes of sodium hydroxide solution to a fixed volume of dilute nitric acid. He used this method. measure the temperature of 25.0 $ cm^{3} $ of the acid in the polystyrene cup add the sodium hydroxide solution in 5.0 $ cm^{3} $ portions until a total of 30.0 $ cm^{3} $ has been added",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-dda78b7f-pa",
+      "label" : "a",
+      "text" : "State two properties of the sodium hydroxide solution that should be kept constant for each 5.0 $ cm^{3} $ portion.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pb",
+      "label" : "b",
+      "text" : "The diagram shows the thermometer readings in one experiment. Write down the thermometer readings and calculate the temperature change. temperature after adding alkali ... $ ^{\\circ} \\mathrm{C} $ temperature before adding alkali ... $ ^{\\circ} \\mathrm{C} $ temperature change ... $ ^{\\circ} \\mathrm{C} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000091",
+        "sourceName" : "assets/crop_1_1789063951969.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789063951969.png",
+        "availability" : "available",
+        "assetId" : "img:e7768e6b207f6e5ebee74119b98c55bfc042da1fef7b86b99d5a4225284c06d4",
+        "sha256" : "e7768e6b207f6e5ebee74119b98c55bfc042da1fef7b86b99d5a4225284c06d4",
+        "mimeType" : "image/jpeg",
+        "width" : 266,
+        "height" : 642,
+        "formatMismatch" : true
+      }, {
+        "elementId" : "e000092",
+        "sourceName" : "assets/crop_2_1789063951974.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789063951974.png",
+        "availability" : "available",
+        "assetId" : "img:bca84dc71d2b331eca9ab457f8fcb839bfb20e280ae1362a187912f57799afbf",
+        "sha256" : "bca84dc71d2b331eca9ab457f8fcb839bfb20e280ae1362a187912f57799afbf",
+        "mimeType" : "image/jpeg",
+        "width" : 281,
+        "height" : 639,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pc",
+      "label" : "c",
+      "text" : "The student carried out the experiment three times. The table shows his results. The teacher said that only the results for experiment 3 showed the expected increase and decrease in temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pc-i",
+      "label" : "c-i",
+      "text" : "Why was there no temperature decrease in experiment 1? A The alkali was added too quickly B The starting temperature of the acid was too high C The acid concentration was half what it should have been D The volume of acid used was $ 5 0. 0 \\mathrm{c m}^{3} $ instead of $ 2 5. 0 \\mathrm{c m}^{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pc-ii",
+      "label" : "c-ii",
+      "text" : "Why were the temperature increases in experiment 2 much greater than expected? A The starting temperature of the acid was too high B The acid concentration was double what it should have been C The volume of acid used was $ 5 0. 0 \\mathrm{c m}^{3} $ instead of $ 2 5. 0 \\mathrm{c m}^{3} $ D The alkali was added in 10.0 $ cm^{3} $ portions but were recorded as 5.0 $ cm^{3} $ portions",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pd",
+      "label" : "d",
+      "text" : "Plot the results of experiment 3 on the grid. Draw a straight line of best fit through the first four points, and another straight line of best fit through the last three points. Make sure that the two lines cross. Volume of alkali in $ \\mathrm{c m}^{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000113",
+        "sourceName" : "assets/crop_1_1789063951994.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789063951994.png",
+        "availability" : "available",
+        "assetId" : "img:2d8f33272594a2e3249063b864c5527d523a872e00a8337914792a8b737f795a",
+        "sha256" : "2d8f33272594a2e3249063b864c5527d523a872e00a8337914792a8b737f795a",
+        "mimeType" : "image/jpeg",
+        "width" : 1477,
+        "height" : 1048,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pe",
+      "label" : "e",
+      "text" : "The point where the lines cross indicates the volume of alkali added to exactly neutralise the acid and also the maximum temperature reached. Record these values. volume volume of alkali... cm $ ^{3} $ maximum temperature... °C",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pf",
+      "label" : "f",
+      "text" : "Another student used sulfuric acid instead of nitric acid in her experiments. She started with $ 2 5. 0 \\mathrm{c m}^{3} $ of sulfuric acid of concentration $ 0. 6 5 0 \\mathrm{m o l} / \\mathrm{d m}^{3}. $ She added 0.500 mol/dm $ ^{3} $ sodium hydroxide solution until the acid was completely neutralised. The equation for this reaction is $$ $ 2 \\mathrm { N a O H} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} \\rightarrow \\mathrm {N a} _ {2} \\mathrm {S O} _ {4} + 2 \\mathrm {H} _ {2} \\mathrm {O} $ (i of sulfuric acid used. (i) Calculate the amount, in moles, of sulfuric acid used. amount = ... mol",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pf-ii",
+      "label" : "f-ii",
+      "text" : "Calculate the amount, in moles, of sodium hydroxide needed to neutralise this amount of sulfuric acid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-dda78b7f-pf-iii",
+      "label" : "f-iii",
+      "text" : "Calculate the volume, in $ \\mathrm{c m^{3}} $ , of sodium hydroxide solution needed to neutralise this amount of sulfuric acid.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000085",
+      "sourceName" : "assets/crop_1_1789063951960.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789063951960.png",
+      "availability" : "available",
+      "assetId" : "img:a98847288626e567acfb4f999a9f974a0f366b4187c5ba239708347325535478",
+      "sha256" : "a98847288626e567acfb4f999a9f974a0f366b4187c5ba239708347325535478",
+      "mimeType" : "image/jpeg",
+      "width" : 575,
+      "height" : 651,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000091",
+      "sourceName" : "assets/crop_1_1789063951969.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789063951969.png",
+      "availability" : "available",
+      "assetId" : "img:e7768e6b207f6e5ebee74119b98c55bfc042da1fef7b86b99d5a4225284c06d4",
+      "sha256" : "e7768e6b207f6e5ebee74119b98c55bfc042da1fef7b86b99d5a4225284c06d4",
+      "mimeType" : "image/jpeg",
+      "width" : 266,
+      "height" : 642,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000092",
+      "sourceName" : "assets/crop_2_1789063951974.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789063951974.png",
+      "availability" : "available",
+      "assetId" : "img:bca84dc71d2b331eca9ab457f8fcb839bfb20e280ae1362a187912f57799afbf",
+      "sha256" : "bca84dc71d2b331eca9ab457f8fcb839bfb20e280ae1362a187912f57799afbf",
+      "mimeType" : "image/jpeg",
+      "width" : 281,
+      "height" : 639,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000113",
+      "sourceName" : "assets/crop_1_1789063951994.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789063951994.png",
+      "availability" : "available",
+      "assetId" : "img:2d8f33272594a2e3249063b864c5527d523a872e00a8337914792a8b737f795a",
+      "sha256" : "2d8f33272594a2e3249063b864c5527d523a872e00a8337914792a8b737f795a",
+      "mimeType" : "image/jpeg",
+      "width" : 1477,
+      "height" : 1048,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000099" ],
+    "marks" : 18,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-dda78b7f",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows some important conversion processes used in the oil industry.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-dda78b7f-pa",
+      "label" : "a",
+      "text" : "Process 1 is called A catalytic cracking B condensation polymerisation C fractional distillation D thermal decomposition",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pb",
+      "label" : "b",
+      "text" : "Describe the differences between crude oil and kerosene. In your answer you should refer to the average size of the molecules in the two liquids the covalent bonding in the molecules the viscosities of the two liquids",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pc",
+      "label" : "c",
+      "text" : "The equation for one reaction that could occur in process 2 is $C _ {x} H _ {y} \\rightarrow C _ {5} H _ {1 2} + 2 C _ {2} H _ {4}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pc-i",
+      "label" : "c-i",
+      "text" : "Deduce the formula of $ C_{x} H_{y} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pc-ii",
+      "label" : "c-ii",
+      "text" : "Give the name of the compound $ C_{5} H_{1 2} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pc-iii",
+      "label" : "c-iii",
+      "text" : "Draw the displayed formula of $ C_{2} H_{4} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pd",
+      "label" : "d",
+      "text" : "The structural formula of chloroethene formed in process 3 is $ \\mathrm{C H_{2}=C H C I} $ The polymer formed in process 4 is poly(chloroethene). Draw the displayed formula for the repeat unit of poly(chloroethene).",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pe",
+      "label" : "e",
+      "text" : "Poly(chloroethene) is formed by addition polymerisation. Nylon is formed by condensation polymerisation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pe-i",
+      "label" : "e-i",
+      "text" : "How does condensation polymerisation differ from addition polymerisation?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pe-ii",
+      "label" : "e-ii",
+      "text" : "Poly(chloroethene) and nylon do not biodegrade easily. What is meant by the term biodegrade?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-dda78b7f-pe-iii",
+      "label" : "e-iii",
+      "text" : "What feature of addition polymers makes it difficult for them to biodegrade?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000130",
+      "sourceName" : "assets/crop_1_1789063952025.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789063952025.png",
+      "availability" : "available",
+      "assetId" : "img:b639eb9ad8039568e09bfce7248d6891e5ff0f2c485be8a04f7883f27fd59da6",
+      "sha256" : "b639eb9ad8039568e09bfce7248d6891e5ff0f2c485be8a04f7883f27fd59da6",
+      "mimeType" : "image/jpeg",
+      "width" : 1455,
+      "height" : 539,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 13,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 7,
+    "2" : 12,
+    "4" : 18,
+    "5" : 13
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ ]
+}

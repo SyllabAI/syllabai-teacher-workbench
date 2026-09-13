@@ -1,0 +1,2345 @@
+{
+ "done": {
+  "batch-001": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2011jun": {
+     "title": "  null June 2011",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 92,
+     "points": 14,
+     "reconciliation": "OK",
+     "findings": 94
+    },
+    "igcse-chemistry-4ch0-1c-2012jan": {
+     "title": "  null January 2012",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 85,
+     "points": 25,
+     "reconciliation": "OK",
+     "findings": 97
+    },
+    "igcse-chemistry-4ch0-1c-2012jun": {
+     "title": "  null Summer 2012",
+     "status": "INGESTED",
+     "questions": 13,
+     "parts": 77,
+     "points": 18,
+     "reconciliation": "OK",
+     "findings": 114
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2011jun": {
+     "questions": 11,
+     "parts": 92,
+     "points": 14,
+     "figures": 26,
+     "figuresResolved": 26,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2012jan": {
+     "questions": 11,
+     "parts": 85,
+     "points": 25,
+     "figures": 18,
+     "figuresResolved": 18,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2012jun": {
+     "questions": 13,
+     "parts": 77,
+     "points": 18,
+     "figures": 13,
+     "figuresResolved": 13,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2011jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2012jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2012jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2011jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2012jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2012jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 3,
+    "versions": 43,
+    "validated": 8,
+    "suggested": 35,
+    "schemes": 35,
+    "points": 57,
+    "chunks": 99,
+    "embedded": 0,
+    "documents": 6,
+    "bridge": 3
+   }
+  },
+  "batch-002": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2013jan": {
+     "title": "  null January 2013",
+     "status": "DUPLICATE",
+     "questions": 10,
+     "parts": 85,
+     "points": 24,
+     "reconciliation": "OK",
+     "findings": 119
+    },
+    "igcse-chemistry-4ch0-1c-2013jun": {
+     "title": "  null Summer 2013",
+     "status": "DUPLICATE",
+     "questions": 11,
+     "parts": 97,
+     "points": 14,
+     "reconciliation": "OK",
+     "findings": 123
+    },
+    "igcse-chemistry-4ch0-1c-2014jan": {
+     "title": "  null January 2014",
+     "status": "DUPLICATE",
+     "questions": 14,
+     "parts": 73,
+     "points": 18,
+     "reconciliation": "OK",
+     "findings": 92
+    },
+    "igcse-chemistry-4ch0-1c-2014jun": {
+     "title": "  null June 2014",
+     "status": "DUPLICATE",
+     "questions": 15,
+     "parts": 75,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 123
+    },
+    "igcse-chemistry-4ch0-1c-2014junr": {
+     "title": "  null June 2014",
+     "status": "DUPLICATE",
+     "questions": 10,
+     "parts": 97,
+     "points": 21,
+     "reconciliation": "OK",
+     "findings": 69
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2013jan": {
+     "questions": 10,
+     "parts": 85,
+     "points": 24,
+     "figures": 10,
+     "figuresResolved": 10,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2013jun": {
+     "questions": 11,
+     "parts": 97,
+     "points": 10,
+     "figures": 16,
+     "figuresResolved": 16,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2014jan": {
+     "questions": 14,
+     "parts": 73,
+     "points": 21,
+     "figures": 33,
+     "figuresResolved": 33,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2014jun": {
+     "questions": 15,
+     "parts": 75,
+     "points": 11,
+     "figures": 38,
+     "figuresResolved": 38,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2014junr": {
+     "questions": 10,
+     "parts": 97,
+     "points": 21,
+     "figures": 29,
+     "figuresResolved": 29,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2013jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2013jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014junr": "DUPLICATE"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2013jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2013jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2014junr": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 8,
+    "versions": 103,
+    "validated": 8,
+    "suggested": 95,
+    "schemes": 87,
+    "points": 145,
+    "chunks": 281,
+    "embedded": 0,
+    "documents": 16,
+    "bridge": 8
+   }
+  },
+  "batch-003": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2015jan": {
+     "title": "  null January 2015",
+     "status": "INGESTED",
+     "questions": 12,
+     "parts": 90,
+     "points": 1,
+     "reconciliation": "OK",
+     "findings": 123
+    },
+    "igcse-chemistry-4ch0-1c-2015jun": {
+     "title": "  null Summer 2015",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 98,
+     "points": 1,
+     "reconciliation": "OK",
+     "findings": 142
+    },
+    "igcse-chemistry-4ch0-1c-2016jan": {
+     "title": "  null January 2016",
+     "status": "INGESTED",
+     "questions": 12,
+     "parts": 89,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 94
+    },
+    "igcse-chemistry-4ch0-1c-2016jun": {
+     "title": "  null Summer 2016",
+     "status": "INGESTED",
+     "questions": 16,
+     "parts": 84,
+     "points": 16,
+     "reconciliation": "OK",
+     "findings": 90
+    },
+    "igcse-chemistry-4ch0-1c-2016junr": {
+     "title": "  null Summer 2016",
+     "status": "INGESTED",
+     "questions": 12,
+     "parts": 81,
+     "points": 0,
+     "reconciliation": "OK",
+     "findings": 156
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2015jan": {
+     "questions": 12,
+     "parts": 90,
+     "points": 1,
+     "figures": 43,
+     "figuresResolved": 43,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2015jun": {
+     "questions": 11,
+     "parts": 98,
+     "points": 1,
+     "figures": 33,
+     "figuresResolved": 33,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2016jan": {
+     "questions": 12,
+     "parts": 89,
+     "points": 13,
+     "figures": 43,
+     "figuresResolved": 43,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2016jun": {
+     "questions": 16,
+     "parts": 84,
+     "points": 16,
+     "figures": 40,
+     "figuresResolved": 40,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2016junr": {
+     "questions": 12,
+     "parts": 81,
+     "points": 0,
+     "figures": 29,
+     "figuresResolved": 29,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2015jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2015jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2016jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2016jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2016junr": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2015jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2015jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2016jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2016jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2016junr": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 13,
+    "versions": 166,
+    "validated": 8,
+    "suggested": 158,
+    "schemes": 113,
+    "points": 173,
+    "chunks": 468,
+    "embedded": 0,
+    "documents": 26,
+    "bridge": 13
+   }
+  },
+  "batch-004": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2017jan": {
+     "title": "  null January 2017",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 72,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 95
+    },
+    "igcse-chemistry-4ch0-1c-2017jun": {
+     "title": "  null Summer 2017",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 75,
+     "points": 12,
+     "reconciliation": "OK",
+     "findings": 91
+    },
+    "igcse-chemistry-4ch0-1c-2017junr": {
+     "title": "  null Summer 2017",
+     "status": "INGESTED",
+     "questions": 15,
+     "parts": 86,
+     "points": 26,
+     "reconciliation": "OK",
+     "findings": 85
+    },
+    "igcse-chemistry-4ch0-1c-2018jan": {
+     "title": "  null January 2018",
+     "status": "INGESTED",
+     "questions": 16,
+     "parts": 86,
+     "points": 21,
+     "reconciliation": "OK",
+     "findings": 80
+    },
+    "igcse-chemistry-4ch0-1c-2018jun": {
+     "title": "  null Summer 2018",
+     "status": "INGESTED",
+     "questions": 15,
+     "parts": 80,
+     "points": 30,
+     "reconciliation": "OK",
+     "findings": 64
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2017jan": {
+     "questions": 11,
+     "parts": 72,
+     "points": 10,
+     "figures": 27,
+     "figuresResolved": 27,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2017jun": {
+     "questions": 11,
+     "parts": 75,
+     "points": 12,
+     "figures": 34,
+     "figuresResolved": 34,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2017junr": {
+     "questions": 15,
+     "parts": 86,
+     "points": 23,
+     "figures": 25,
+     "figuresResolved": 25,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2018jan": {
+     "questions": 16,
+     "parts": 86,
+     "points": 21,
+     "figures": 21,
+     "figuresResolved": 21,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2018jun": {
+     "questions": 15,
+     "parts": 80,
+     "points": 29,
+     "figures": 19,
+     "figuresResolved": 19,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2017jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2017jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2017junr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2018jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2018jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2017jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2017jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2017junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2018jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2018jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 18,
+    "versions": 234,
+    "validated": 8,
+    "suggested": 226,
+    "schemes": 175,
+    "points": 272,
+    "chunks": 664,
+    "embedded": 0,
+    "documents": 36,
+    "bridge": 18
+   }
+  },
+  "batch-005": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2019jan": {
+     "title": "  null January 2019",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 85,
+     "points": 14,
+     "reconciliation": "OK",
+     "findings": 74
+    },
+    "igcse-chemistry-4ch0-1c-2019jun": {
+     "title": "  null Summer 2019",
+     "status": "INGESTED",
+     "questions": 15,
+     "parts": 71,
+     "points": 2,
+     "reconciliation": "OK",
+     "findings": 132
+    },
+    "igcse-chemistry-4ch0-1c-2019junr": {
+     "title": "  null Summer 2019",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 66,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 87
+    },
+    "igcse-chemistry-4ch0-1c-2020jan": {
+     "title": "  null January 2020",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 72,
+     "points": 15,
+     "reconciliation": "OK",
+     "findings": 70
+    },
+    "igcse-chemistry-4ch0-1c-2020janr": {
+     "title": "  null January 2020",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 68,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 57
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2019jan": {
+     "questions": 10,
+     "parts": 85,
+     "points": 14,
+     "figures": 19,
+     "figuresResolved": 19,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 120,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2019jun": {
+     "questions": 15,
+     "parts": 71,
+     "points": 2,
+     "figures": 30,
+     "figuresResolved": 30,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2019junr": {
+     "questions": 10,
+     "parts": 66,
+     "points": 11,
+     "figures": 17,
+     "figuresResolved": 17,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2020jan": {
+     "questions": 10,
+     "parts": 72,
+     "points": 15,
+     "figures": 19,
+     "figuresResolved": 19,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2020janr": {
+     "questions": 11,
+     "parts": 68,
+     "points": 11,
+     "figures": 35,
+     "figuresResolved": 35,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2019jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2019jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2019junr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2020jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2020janr": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2019jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2019jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2019junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2020jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2020janr": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 23,
+    "versions": 290,
+    "validated": 8,
+    "suggested": 282,
+    "schemes": 214,
+    "points": 325,
+    "chunks": 835,
+    "embedded": 0,
+    "documents": 46,
+    "bridge": 23
+   }
+  },
+  "batch-006": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2020jun": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 72,
+     "points": 18,
+     "reconciliation": "OK",
+     "findings": 27
+    },
+    "igcse-chemistry-4ch0-1c-2020junr": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 71,
+     "points": 15,
+     "reconciliation": "OK",
+     "findings": 61
+    },
+    "igcse-chemistry-4ch0-1c-2021jan": {
+     "title": "  null January 2021",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 60,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 64
+    },
+    "igcse-chemistry-4ch0-1c-2021janr": {
+     "title": "  null January 2021",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 66,
+     "points": 18,
+     "reconciliation": "OK",
+     "findings": 49
+    },
+    "igcse-chemistry-4ch0-1c-2021jun": {
+     "title": "  null Summer 2021",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 59,
+     "points": 15,
+     "reconciliation": "OK",
+     "findings": 50
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2020jun": {
+     "questions": 10,
+     "parts": 72,
+     "points": 18,
+     "figures": 22,
+     "figuresResolved": 22,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2020junr": {
+     "questions": 10,
+     "parts": 71,
+     "points": 15,
+     "figures": 12,
+     "figuresResolved": 12,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2021jan": {
+     "questions": 11,
+     "parts": 60,
+     "points": 10,
+     "figures": 28,
+     "figuresResolved": 28,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2021janr": {
+     "questions": 10,
+     "parts": 66,
+     "points": 18,
+     "figures": 18,
+     "figuresResolved": 18,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": 110
+    },
+    "igcse-chemistry-4ch0-1c-2021jun": {
+     "questions": 10,
+     "parts": 59,
+     "points": 15,
+     "figures": 11,
+     "figuresResolved": 11,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2020jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2020junr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2021jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2021janr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2021jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2020jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2020junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2021jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2021janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2021jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 28,
+    "versions": 341,
+    "validated": 8,
+    "suggested": 333,
+    "schemes": 264,
+    "points": 401,
+    "chunks": 990,
+    "embedded": 0,
+    "documents": 56,
+    "bridge": 28
+   }
+  },
+  "batch-007": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2021nov": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 77,
+     "points": 14,
+     "reconciliation": "OK",
+     "findings": 83
+    },
+    "igcse-chemistry-4ch0-1c-2022jan": {
+     "title": "  null January 2022",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 78,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 75
+    },
+    "igcse-chemistry-4ch0-1c-2022janr": {
+     "title": "  null January 2022",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 63,
+     "points": 40,
+     "reconciliation": "OK",
+     "findings": 31
+    },
+    "igcse-chemistry-4ch0-1c-2022jun": {
+     "title": "  null Summer 2022",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 70,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 82
+    },
+    "igcse-chemistry-4ch0-1c-2022junr": {
+     "title": "  null Summer 2022",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 63,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 70
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2021nov": {
+     "questions": 11,
+     "parts": 77,
+     "points": 14,
+     "figures": 35,
+     "figuresResolved": 35,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2022jan": {
+     "questions": 11,
+     "parts": 78,
+     "points": 12,
+     "figures": 25,
+     "figuresResolved": 25,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2022janr": {
+     "questions": 11,
+     "parts": 63,
+     "points": 40,
+     "figures": 13,
+     "figuresResolved": 13,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": 110
+    },
+    "igcse-chemistry-4ch0-1c-2022jun": {
+     "questions": 10,
+     "parts": 70,
+     "points": 10,
+     "figures": 17,
+     "figuresResolved": 17,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2022junr": {
+     "questions": 11,
+     "parts": 63,
+     "points": 10,
+     "figures": 28,
+     "figuresResolved": 28,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2021nov": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2022jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2022janr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2022jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2022junr": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2021nov": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2022jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2022janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2022jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2022junr": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 33,
+    "versions": 395,
+    "validated": 8,
+    "suggested": 387,
+    "schemes": 317,
+    "points": 486,
+    "chunks": 1138,
+    "embedded": 0,
+    "documents": 66,
+    "bridge": 33
+   }
+  },
+  "batch-008": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2023jan": {
+     "title": "  null January 2023",
+     "status": "INGESTED",
+     "questions": 12,
+     "parts": 71,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 85
+    },
+    "igcse-chemistry-4ch0-1c-2023janr": {
+     "title": "  null January 2023",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 68,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 65
+    },
+    "igcse-chemistry-4ch0-1c-2023jun": {
+     "title": "  null Summer 2023",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 67,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 86
+    },
+    "igcse-chemistry-4ch0-1c-2023junr": {
+     "title": "  null Summer 2023",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 67,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 89
+    },
+    "igcse-chemistry-4ch0-1c-2024jun": {
+     "title": "  null Summer 2024",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 70,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 65
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2023jan": {
+     "questions": 12,
+     "parts": 71,
+     "points": 9,
+     "figures": 36,
+     "figuresResolved": 36,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2023janr": {
+     "questions": 10,
+     "parts": 68,
+     "points": 9,
+     "figures": 20,
+     "figuresResolved": 20,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2023jun": {
+     "questions": 10,
+     "parts": 67,
+     "points": 8,
+     "figures": 16,
+     "figuresResolved": 16,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2023junr": {
+     "questions": 11,
+     "parts": 67,
+     "points": 8,
+     "figures": 28,
+     "figuresResolved": 28,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-2024jun": {
+     "questions": 10,
+     "parts": 70,
+     "points": 10,
+     "figures": 18,
+     "figuresResolved": 18,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2023jan": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2023janr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2023jun": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2023junr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-2024jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2023jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2023janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2023jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2023junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-2024jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 38,
+    "versions": 448,
+    "validated": 8,
+    "suggested": 440,
+    "schemes": 361,
+    "points": 530,
+    "chunks": 1275,
+    "embedded": 0,
+    "documents": 76,
+    "bridge": 38
+   }
+  },
+  "batch-009": {
+   "pairs": {
+    "igcse-chemistry-4ch0-1c-2024junr": {
+     "title": "  null Summer 2024",
+     "status": "INGESTED",
+     "questions": 12,
+     "parts": 65,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 76
+    },
+    "igcse-chemistry-4ch0-1c-specimen2017": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 11,
+     "parts": 74,
+     "points": 117,
+     "reconciliation": "OK",
+     "findings": 15
+    },
+    "igcse-chemistry-4ch0-2c-2011jun": {
+     "title": "  null June 2011",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 40,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 43
+    },
+    "igcse-chemistry-4ch0-2c-2012jan": {
+     "title": "  null January 2012",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 46,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 53
+    },
+    "igcse-chemistry-4ch0-2c-2012jun": {
+     "title": "  null Summer 2012",
+     "status": "INGESTED",
+     "questions": 5,
+     "parts": 52,
+     "points": 12,
+     "reconciliation": "OK",
+     "findings": 48
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-1c-2024junr": {
+     "questions": 12,
+     "parts": 65,
+     "points": 11,
+     "figures": 35,
+     "figuresResolved": 35,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-1c-specimen2017": {
+     "questions": 11,
+     "parts": 74,
+     "points": 63,
+     "figures": 42,
+     "figuresResolved": 42,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 110,
+     "msTotal": 110
+    },
+    "igcse-chemistry-4ch0-2c-2011jun": {
+     "questions": 8,
+     "parts": 40,
+     "points": 10,
+     "figures": 7,
+     "figuresResolved": 7,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2012jan": {
+     "questions": 8,
+     "parts": 46,
+     "points": 8,
+     "figures": 6,
+     "figuresResolved": 6,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2012jun": {
+     "questions": 5,
+     "parts": 52,
+     "points": 12,
+     "figures": 9,
+     "figuresResolved": 9,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2024junr": "INGESTED",
+      "igcse-chemistry-4ch0-1c-specimen2017": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2011jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2012jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2012jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-1c-2024junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-1c-specimen2017": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2011jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2012jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2012jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 43,
+    "versions": 492,
+    "validated": 8,
+    "suggested": 484,
+    "schemes": 400,
+    "points": 690,
+    "chunks": 1399,
+    "embedded": 0,
+    "documents": 86,
+    "bridge": 43
+   }
+  },
+  "batch-010": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2013jan": {
+     "title": "  null January 2013",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 43,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 52
+    },
+    "igcse-chemistry-4ch0-2c-2013jun": {
+     "title": "  null Summer 2013",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 36,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 52
+    },
+    "igcse-chemistry-4ch0-2c-2013junr": {
+     "title": "  null Summer 2013",
+     "status": "INGESTED",
+     "questions": 6,
+     "parts": 38,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 50
+    },
+    "igcse-chemistry-4ch0-2c-2014jan": {
+     "title": "  null January 2014",
+     "status": "INGESTED",
+     "questions": 5,
+     "parts": 45,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 58
+    },
+    "igcse-chemistry-4ch0-2c-2014jun": {
+     "title": "  null June 2014",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 40,
+     "points": 15,
+     "reconciliation": "OK",
+     "findings": 30
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2013jan": {
+     "questions": 7,
+     "parts": 43,
+     "points": 8,
+     "figures": 14,
+     "figuresResolved": 14,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2013jun": {
+     "questions": 7,
+     "parts": 36,
+     "points": 16,
+     "figures": 13,
+     "figuresResolved": 13,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2013junr": {
+     "questions": 6,
+     "parts": 38,
+     "points": 9,
+     "figures": 3,
+     "figuresResolved": 3,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2014jan": {
+     "questions": 5,
+     "parts": 45,
+     "points": 9,
+     "figures": 8,
+     "figuresResolved": 8,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2014jun": {
+     "questions": 8,
+     "parts": 40,
+     "points": 15,
+     "figures": 8,
+     "figuresResolved": 8,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2013jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2013jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2013junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2014jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2014jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2013jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2013jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2013junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2014jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2014jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 48,
+    "versions": 525,
+    "validated": 8,
+    "suggested": 517,
+    "schemes": 430,
+    "points": 742,
+    "chunks": 1504,
+    "embedded": 0,
+    "documents": 96,
+    "bridge": 48
+   }
+  },
+  "batch-011": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2014junr": {
+     "title": "  null June 2014",
+     "status": "INGESTED",
+     "questions": 6,
+     "parts": 48,
+     "points": 0,
+     "reconciliation": "OK",
+     "findings": 62
+    },
+    "igcse-chemistry-4ch0-2c-2015jan": {
+     "title": "  null January 2015",
+     "status": "INGESTED",
+     "questions": 9,
+     "parts": 28,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 25
+    },
+    "igcse-chemistry-4ch0-2c-2015jun": {
+     "title": "  null Summer 2015",
+     "status": "INGESTED",
+     "questions": 6,
+     "parts": 48,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 45
+    },
+    "igcse-chemistry-4ch0-2c-2016jan": {
+     "title": "  null January 2016",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 38,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 24
+    },
+    "igcse-chemistry-4ch0-2c-2016junr": {
+     "title": "  null Summer 2016",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 40,
+     "points": 0,
+     "reconciliation": "OK",
+     "findings": 66
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2014junr": {
+     "questions": 6,
+     "parts": 48,
+     "points": 0,
+     "figures": 6,
+     "figuresResolved": 6,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2015jan": {
+     "questions": 9,
+     "parts": 28,
+     "points": 9,
+     "figures": 10,
+     "figuresResolved": 10,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2015jun": {
+     "questions": 6,
+     "parts": 48,
+     "points": 10,
+     "figures": 10,
+     "figuresResolved": 10,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2016jan": {
+     "questions": 7,
+     "parts": 38,
+     "points": 11,
+     "figures": 9,
+     "figuresResolved": 9,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2016junr": {
+     "questions": 7,
+     "parts": 40,
+     "points": 2,
+     "figures": 11,
+     "figuresResolved": 11,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2014junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2015jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2015jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2016jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2016junr": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2014junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2015jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2015jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2016jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2016junr": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 53,
+    "versions": 560,
+    "validated": 8,
+    "suggested": 552,
+    "schemes": 451,
+    "points": 772,
+    "chunks": 1606,
+    "embedded": 0,
+    "documents": 106,
+    "bridge": 53
+   }
+  },
+  "batch-012": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2017jan": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 44,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 41
+    },
+    "igcse-chemistry-4ch0-2c-2017jun": {
+     "title": "  null Summer 2017",
+     "status": "INGESTED",
+     "questions": 5,
+     "parts": 38,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 44
+    },
+    "igcse-chemistry-4ch0-2c-2017junr": {
+     "title": "  null Summer 2017",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 42,
+     "points": 7,
+     "reconciliation": "OK",
+     "findings": 62
+    },
+    "igcse-chemistry-4ch0-2c-2018jan": {
+     "title": "  null January 2018",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 39,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 28
+    },
+    "igcse-chemistry-4ch0-2c-2018jun": {
+     "title": "  null Summer 2018",
+     "status": "INGESTED",
+     "questions": 9,
+     "parts": 48,
+     "points": 13,
+     "reconciliation": "OK",
+     "findings": 48
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2017jan": {
+     "questions": 8,
+     "parts": 44,
+     "points": 11,
+     "figures": 19,
+     "figuresResolved": 19,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2017jun": {
+     "questions": 5,
+     "parts": 38,
+     "points": 9,
+     "figures": 5,
+     "figuresResolved": 5,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2017junr": {
+     "questions": 8,
+     "parts": 42,
+     "points": 7,
+     "figures": 10,
+     "figuresResolved": 10,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2018jan": {
+     "questions": 7,
+     "parts": 39,
+     "points": 9,
+     "figures": 21,
+     "figuresResolved": 21,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2018jun": {
+     "questions": 9,
+     "parts": 48,
+     "points": 13,
+     "figures": 12,
+     "figuresResolved": 12,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2017jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2017jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2017junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2018jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2018jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2017jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2017jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2017junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2018jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2018jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 58,
+    "versions": 597,
+    "validated": 8,
+    "suggested": 589,
+    "schemes": 487,
+    "points": 823,
+    "chunks": 1710,
+    "embedded": 0,
+    "documents": 116,
+    "bridge": 58
+   }
+  },
+  "batch-013": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2019jan": {
+     "title": "  null January 2019",
+     "status": "INGESTED",
+     "questions": 10,
+     "parts": 37,
+     "points": 7,
+     "reconciliation": "OK",
+     "findings": 74
+    },
+    "igcse-chemistry-4ch0-2c-2019jun": {
+     "title": "  null Summer 2019",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 45,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 52
+    },
+    "igcse-chemistry-4ch0-2c-2020jan": {
+     "title": "  null January 2020",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 47,
+     "points": 12,
+     "reconciliation": "OK",
+     "findings": 41
+    },
+    "igcse-chemistry-4ch0-2c-2020janr": {
+     "title": "  null January 2020",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 43,
+     "points": 18,
+     "reconciliation": "OK",
+     "findings": 26
+    },
+    "igcse-chemistry-4ch0-2c-2020jun": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 41,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 12
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2019jan": {
+     "questions": 10,
+     "parts": 37,
+     "points": 7,
+     "figures": 38,
+     "figuresResolved": 38,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 60,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2019jun": {
+     "questions": 8,
+     "parts": 45,
+     "points": 11,
+     "figures": 17,
+     "figuresResolved": 17,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2020jan": {
+     "questions": 7,
+     "parts": 47,
+     "points": 10,
+     "figures": 8,
+     "figuresResolved": 8,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2020janr": {
+     "questions": 7,
+     "parts": 43,
+     "points": 17,
+     "figures": 23,
+     "figuresResolved": 23,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2020jun": {
+     "questions": 7,
+     "parts": 41,
+     "points": 9,
+     "figures": 12,
+     "figuresResolved": 12,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2019jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2019jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2020jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2020janr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2020jun": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2019jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2019jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2020jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2020janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2020jun": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 63,
+    "versions": 636,
+    "validated": 8,
+    "suggested": 628,
+    "schemes": 521,
+    "points": 880,
+    "chunks": 1826,
+    "embedded": 0,
+    "documents": 126,
+    "bridge": 63
+   }
+  },
+  "batch-014": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2020junr": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 29,
+     "points": 12,
+     "reconciliation": "OK",
+     "findings": 24
+    },
+    "igcse-chemistry-4ch0-2c-2021jan": {
+     "title": "  null January 2021",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 48,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 49
+    },
+    "igcse-chemistry-4ch0-2c-2021janr": {
+     "title": "  null January 2021",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 53,
+     "points": 11,
+     "reconciliation": "OK",
+     "findings": 47
+    },
+    "igcse-chemistry-4ch0-2c-2021jun": {
+     "title": "  null Summer 2021",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 52,
+     "points": 10,
+     "reconciliation": "OK",
+     "findings": 50
+    },
+    "igcse-chemistry-4ch0-2c-2021nov": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 47,
+     "points": 13,
+     "reconciliation": "OK",
+     "findings": 36
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2020junr": {
+     "questions": 7,
+     "parts": 29,
+     "points": 12,
+     "figures": 9,
+     "figuresResolved": 9,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2021jan": {
+     "questions": 7,
+     "parts": 48,
+     "points": 8,
+     "figures": 10,
+     "figuresResolved": 10,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2021janr": {
+     "questions": 8,
+     "parts": 53,
+     "points": 11,
+     "figures": 12,
+     "figuresResolved": 12,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": 70
+    },
+    "igcse-chemistry-4ch0-2c-2021jun": {
+     "questions": 7,
+     "parts": 52,
+     "points": 10,
+     "figures": 13,
+     "figuresResolved": 13,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2021nov": {
+     "questions": 7,
+     "parts": 47,
+     "points": 13,
+     "figures": 12,
+     "figuresResolved": 12,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2020junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2021jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2021janr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2021jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2021nov": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2020junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2021jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2021janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2021jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2021nov": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 68,
+    "versions": 672,
+    "validated": 8,
+    "suggested": 664,
+    "schemes": 556,
+    "points": 934,
+    "chunks": 1937,
+    "embedded": 0,
+    "documents": 136,
+    "bridge": 68
+   }
+  },
+  "batch-015": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2022jan": {
+     "title": "  null January 2022",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 53,
+     "points": 6,
+     "reconciliation": "OK",
+     "findings": 46
+    },
+    "igcse-chemistry-4ch0-2c-2022janr": {
+     "title": "  null January 2022",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 42,
+     "points": 12,
+     "reconciliation": "OK",
+     "findings": 29
+    },
+    "igcse-chemistry-4ch0-2c-2022jun": {
+     "title": "  null Summer 2022",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 44,
+     "points": 6,
+     "reconciliation": "OK",
+     "findings": 47
+    },
+    "igcse-chemistry-4ch0-2c-2022junr": {
+     "title": "  null Summer 2022",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 47,
+     "points": 9,
+     "reconciliation": "OK",
+     "findings": 54
+    },
+    "igcse-chemistry-4ch0-2c-2023jan": {
+     "title": "  null January 2023",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 44,
+     "points": 6,
+     "reconciliation": "OK",
+     "findings": 53
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2022jan": {
+     "questions": 7,
+     "parts": 53,
+     "points": 6,
+     "figures": 29,
+     "figuresResolved": 29,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2022janr": {
+     "questions": 7,
+     "parts": 42,
+     "points": 12,
+     "figures": 7,
+     "figuresResolved": 7,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2022jun": {
+     "questions": 7,
+     "parts": 44,
+     "points": 6,
+     "figures": 15,
+     "figuresResolved": 15,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2022junr": {
+     "questions": 7,
+     "parts": 47,
+     "points": 8,
+     "figures": 9,
+     "figuresResolved": 9,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2023jan": {
+     "questions": 7,
+     "parts": 44,
+     "points": 6,
+     "figures": 19,
+     "figuresResolved": 19,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2022jan": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2022janr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2022jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2022junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2023jan": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2022jan": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2022janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2022jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2022junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2023jan": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 73,
+    "versions": 707,
+    "validated": 8,
+    "suggested": 699,
+    "schemes": 586,
+    "points": 973,
+    "chunks": 2040,
+    "embedded": 0,
+    "documents": 146,
+    "bridge": 73
+   }
+  },
+  "batch-016": {
+   "pairs": {
+    "igcse-chemistry-4ch0-2c-2023janr": {
+     "title": "  null January 2023",
+     "status": "INGESTED",
+     "questions": 8,
+     "parts": 42,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 54
+    },
+    "igcse-chemistry-4ch0-2c-2023jun": {
+     "title": "  null Summer 2023",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 47,
+     "points": 7,
+     "reconciliation": "OK",
+     "findings": 48
+    },
+    "igcse-chemistry-4ch0-2c-2023junr": {
+     "title": "  null Summer 2023",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 38,
+     "points": 8,
+     "reconciliation": "OK",
+     "findings": 48
+    },
+    "igcse-chemistry-4ch0-2c-2024jun": {
+     "title": "  null Summer 2024",
+     "status": "INGESTED",
+     "questions": 7,
+     "parts": 45,
+     "points": 5,
+     "reconciliation": "OK",
+     "findings": 53
+    },
+    "igcse-chemistry-4ch0-2c-specimen2017": {
+     "title": "  null ",
+     "status": "INGESTED",
+     "questions": 9,
+     "parts": 46,
+     "points": 80,
+     "reconciliation": "OK",
+     "findings": 9
+    }
+   },
+   "stage1": {
+    "igcse-chemistry-4ch0-2c-2023janr": {
+     "questions": 8,
+     "parts": 42,
+     "points": 8,
+     "figures": 6,
+     "figuresResolved": 6,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": 70
+    },
+    "igcse-chemistry-4ch0-2c-2023jun": {
+     "questions": 7,
+     "parts": 47,
+     "points": 7,
+     "figures": 3,
+     "figuresResolved": 3,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2023junr": {
+     "questions": 7,
+     "parts": 38,
+     "points": 8,
+     "figures": 11,
+     "figuresResolved": 11,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-2024jun": {
+     "questions": 7,
+     "parts": 45,
+     "points": 5,
+     "figures": 5,
+     "figuresResolved": 5,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": null
+    },
+    "igcse-chemistry-4ch0-2c-specimen2017": {
+     "questions": 9,
+     "parts": 46,
+     "points": 40,
+     "figures": 13,
+     "figuresResolved": 13,
+     "mismatchCount": 0,
+     "paperTotalConflict": false,
+     "qpTotal": 70,
+     "msTotal": 70
+    }
+   },
+   "runs": [
+    {
+     "pass": 1,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2023janr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2023jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2023junr": "INGESTED",
+      "igcse-chemistry-4ch0-2c-2024jun": "INGESTED",
+      "igcse-chemistry-4ch0-2c-specimen2017": "INGESTED"
+     },
+     "invariants": {
+      "all-content-suggested": true,
+      "no-implicit-embedding": true,
+      "not-learner-servable": true,
+      "conflict-preservation": true,
+      "deterministic-rerun": true
+     },
+     "complete": "ALL invariants passed"
+    },
+    {
+     "pass": 2,
+     "statuses": {
+      "igcse-chemistry-4ch0-2c-2023janr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2023jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2023junr": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-2024jun": "DUPLICATE",
+      "igcse-chemistry-4ch0-2c-specimen2017": "DUPLICATE"
+     },
+     "complete": "ALL invariants passed"
+    }
+   ],
+   "db": {
+    "papers": 78,
+    "versions": 745,
+    "validated": 8,
+    "suggested": 737,
+    "schemes": 621,
+    "points": 1081,
+    "chunks": 2144,
+    "embedded": 0,
+    "documents": 156,
+    "bridge": 78
+   }
+  }
+ },
+ "evidence": {}
+}

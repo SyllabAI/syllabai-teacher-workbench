@@ -1,0 +1,672 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH1/2CR",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "35fdc8b0-ffff-5f0d-a81b-100139963e77"
+  },
+  "questions" : [ {
+    "questionId" : "q01-35fdc8b0",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows the sub-atomic particles in an atom of an element.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "Give the name of each of the sub-atomic particles labelled P, Q and R.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-35fdc8b0-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give the name of the part of the atom labelled S.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "Give the name of this element.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000024",
+      "sourceName" : "assets/crop_1_1789069705326.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069705326.png",
+      "availability" : "available",
+      "assetId" : "img:6e4514b366231b35c98264dbdef1cae7871c7c24b80bae11fa7290c4dd98a5fe",
+      "sha256" : "6e4514b366231b35c98264dbdef1cae7871c7c24b80bae11fa7290c4dd98a5fe",
+      "mimeType" : "image/jpeg",
+      "width" : 879,
+      "height" : 683,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-35fdc8b0",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A potassium permanganate crystal is placed in a beaker of water. After several days a coloured solution forms.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "Give the names of the two processes that cause the coloured solution to form.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "The formula of potassium permanganate is $ \\mathrm{KMnO_{4}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-35fdc8b0-pb-i",
+      "label" : "b-i",
+      "text" : "How many different types of atom are in $ \\mathrm{KMnO_{4}} $? A 3 B 4 C 6 D 7",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-35fdc8b0-pb-ii",
+      "label" : "b-ii",
+      "text" : "Calculate the relative formula mass $ ( M_{r} ) $ of $ KMnO_{4} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-35fdc8b0-pc",
+      "label" : "c",
+      "text" : "Potassium permanganate can be used as an oxidising agent. State what is meant by the term oxidising agent.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000030",
+      "sourceName" : "assets/crop_1_1789069705335.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069705335.png",
+      "availability" : "available",
+      "assetId" : "img:def49c70164ba40bbcbba4cbc0e483d4f6e2a3338f993ab956fe7a810ac1e66a",
+      "sha256" : "def49c70164ba40bbcbba4cbc0e483d4f6e2a3338f993ab956fe7a810ac1e66a",
+      "mimeType" : "image/jpeg",
+      "width" : 598,
+      "height" : 274,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-35fdc8b0",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about alkanes.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "Which of these is the molecular formula of an alkane? A $ C_{2} H_{5} $ B $ C_{4} H_{10} $ C $ C H_{2} C H_{2} $ D $ C H_{3} C H_{2} C H_{3} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pa-ii",
+      "label" : "a-ii",
+      "text" : "Which of these has the same empirical formula and molecular formula? A $ \\mathrm{C H_{2}} $ B $ \\mathrm{C_{2} H_{6}} $ C $ \\mathrm{C_{3} H_{8}} $ D $ \\mathrm{C_{4} H_{10}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "In the presence of ultraviolet radiation, methane reacts with bromine to form bromomethane and hydrogen bromide.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pb-i",
+      "label" : "b-i",
+      "text" : "State the name of this type of reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pb-ii",
+      "label" : "b-ii",
+      "text" : "Give a chemical equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pc",
+      "label" : "c",
+      "text" : "One mole of an alkane burns completely in oxygen. The equation represents the reaction. $\\mathrm {a l k a n e} + x \\mathrm {O} _ {2} \\rightarrow y \\mathrm {C O} _ {2} + z \\mathrm {H} _ {2} \\mathrm {O}$ The numbers x,y and z are used to balance the equation.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pc-i",
+      "label" : "c-i",
+      "text" : "The complete combustion of one mole of the alkane produces 220g of carbon dioxide and 108g of water. Calculate the values of y and z. $[ M _ {\\mathrm {r}} \\mathrm {o f C O} _ {2} = 4 4 \\quad M _ {\\mathrm {r}} \\mathrm {o f H} _ {2} \\mathrm {O} = 1 8 ]$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pc-ii",
+      "label" : "c-ii",
+      "text" : "Determine the molecular formula of the alkane and the value of x. $x =$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "molecular formula" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-35fdc8b0-pd",
+      "label" : "d",
+      "text" : "When an alkane burns in a limited supply of air, incomplete combustion occurs. Explain why incomplete combustion of an alkane could be harmful to humans.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q04-35fdc8b0",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) The diagram represents the structure of copper metal. Explain three properties of copper that make it a suitable metal to use in electrical wiring.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "The diagram shows the electrolysis of copper(II) sulfate solution, using graphite electrodes. Copper forms at the negative electrode and oxygen forms at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000073",
+        "sourceName" : "assets/crop_1_1789069705381.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069705381.png",
+        "availability" : "available",
+        "assetId" : "img:dae552b84532838cdd7b4ef8b93ae448aea227f5ab59d1ef51f3adb76a839094",
+        "sha256" : "dae552b84532838cdd7b4ef8b93ae448aea227f5ab59d1ef51f3adb76a839094",
+        "mimeType" : "image/jpeg",
+        "width" : 1268,
+        "height" : 523,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-35fdc8b0-pb-i",
+      "label" : "b-i",
+      "text" : "Give the formula of the copper ion and the formula of the sulfate ion in copper(II) sulfate. copper ion sulfate ion",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-35fdc8b0-pb-ii",
+      "label" : "b-ii",
+      "text" : "State what would be seen at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-35fdc8b0-pb-iii",
+      "label" : "b-iii",
+      "text" : "Give a test for oxygen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-35fdc8b0-pb-iv",
+      "label" : "b-iv",
+      "text" : "Give an ionic half-equation for the formation of oxygen at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-35fdc8b0-pb-v",
+      "label" : "b-v",
+      "text" : "Suggest why the copper(II) sulfate solution contains some $ \\mathrm{O H}^{-} $ ions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000070",
+      "sourceName" : "assets/crop_1_1789069705365.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069705365.png",
+      "availability" : "available",
+      "assetId" : "img:c91d662f2499df6168d591f480b33ca7aa29b5ec385e0017b6e2c6dd670bb270",
+      "sha256" : "c91d662f2499df6168d591f480b33ca7aa29b5ec385e0017b6e2c6dd670bb270",
+      "mimeType" : "image/jpeg",
+      "width" : 890,
+      "height" : 206,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000073",
+      "sourceName" : "assets/crop_1_1789069705381.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069705381.png",
+      "availability" : "available",
+      "assetId" : "img:dae552b84532838cdd7b4ef8b93ae448aea227f5ab59d1ef51f3adb76a839094",
+      "sha256" : "dae552b84532838cdd7b4ef8b93ae448aea227f5ab59d1ef51f3adb76a839094",
+      "mimeType" : "image/jpeg",
+      "width" : 1268,
+      "height" : 523,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-35fdc8b0",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about alcohols, carboxylic acids and esters.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "Ethanol can be manufactured by the fermentation of a solution of glucose.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pa-i",
+      "label" : "a-i",
+      "text" : "Write a word equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pa-ii",
+      "label" : "a-ii",
+      "text" : "State the substance that needs to be added for the reaction to occur.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pa-iii",
+      "label" : "a-iii",
+      "text" : "State two conditions needed for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "In the presence of an acid catalyst, ethanoic acid is heated with butanol to form an ester.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pb-i",
+      "label" : "b-i",
+      "text" : "Which of these is the formula of the ester? $\\mathrm {C H} _ {3} \\mathrm {C O O C} _ {3} \\mathrm {H} _ {7}$ B $ \\mathrm{C H_{3} C O O C_{4} H_{9}} $ C $ \\mathrm{C_{2} H_{5} C O O C_{4} H_{9}} $ D $ \\mathrm{C_{3}H_{7}COOC_{2}H_{5}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pb-ii",
+      "label" : "b-ii",
+      "text" : "State how you would know that an ester has formed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pb-iii",
+      "label" : "b-iii",
+      "text" : "Give one use of an ester.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pc",
+      "label" : "c",
+      "text" : "Aspirin is a compound used to reduce pain. Aspirin contains a carboxylic acid functional group and an ester functional group.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pc-i",
+      "label" : "c-i",
+      "text" : "State what is meant by the term functional group.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pc-ii",
+      "label" : "c-ii",
+      "text" : "This is the structural formula of aspirin. Draw a circle around the carboxylic acid functional group.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000100",
+        "sourceName" : "assets/crop_1_1789069705438.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069705438.png",
+        "availability" : "available",
+        "assetId" : "img:5daf58390ac8f888935bc7cf87da4bf222ab18d0e15da4f0d2019ce160936c82",
+        "sha256" : "5daf58390ac8f888935bc7cf87da4bf222ab18d0e15da4f0d2019ce160936c82",
+        "mimeType" : "image/jpeg",
+        "width" : 551,
+        "height" : 137,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-35fdc8b0-pc-iii",
+      "label" : "c-iii",
+      "text" : "Aspirin has this percentage composition by mass. $C = 60.00 \\% \\quad H = 4.44 \\% \\quad O = 35.56 \\%$ Show by calculation that the empirical formula of aspirin is $ \\mathrm{C_{9} H_{8}O_{4}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000100",
+      "sourceName" : "assets/crop_1_1789069705438.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069705438.png",
+      "availability" : "available",
+      "assetId" : "img:5daf58390ac8f888935bc7cf87da4bf222ab18d0e15da4f0d2019ce160936c82",
+      "sha256" : "5daf58390ac8f888935bc7cf87da4bf222ab18d0e15da4f0d2019ce160936c82",
+      "mimeType" : "image/jpeg",
+      "width" : 551,
+      "height" : 137,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-35fdc8b0",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student uses this method to do a titration. use a measuring cylinder to obtain $ 2 5 \\mathrm{c m}^{3} $ of sodium hydroxide solution transfer the solution to a conical flask add a few drops of universal indicator to the flask fill a burette with dilute sulfuric acid and record the initial burette reading add the acid to the flask, swirling the flask continuously add the acid slowly near the end-point record the final burette reading at the end-point The student repeats the titration until at least two concordant results are obtained.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "State what is meant by concordant results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "Explain two improvements to the student's method so that more accurate results are obtained.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-35fdc8b0-pc",
+      "label" : "c",
+      "text" : "The student makes the improvements and repeats the titration. The sulfuric acid has a concentration of $ 0. 6 0 0 \\mathrm{m o l} / \\mathrm{d m}^{3}. $ The sodium hydroxide solution has a concentration of $ 1. 5 0 \\mathrm{m o l} / \\mathrm{d m}^{3}. $ This is the equation for the reaction. $2 \\mathrm {N a O H} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} \\rightarrow \\mathrm {N a} _ {2} \\mathrm {S O} _ {4} + 2 \\mathrm {H} _ {2} \\mathrm {O}$ Calculate the volume, in $ cm^{3} $ , of sulfuric acid that the student needs to completely react with $ 2 5. 0 \\, \\mathrm{c m}^{3} $ of the sodium hydroxide solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "volume of sulfuric acid" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-35fdc8b0-pd",
+      "label" : "d",
+      "text" : "The student plans to obtain pure dry crystals of hydrated sodium sulfate. They add the calculated volume of sulfuric acid to $ 2 5. 0 \\mathrm{c m}^{3} $ of the sodium hydroxide solution to form sodium sulfate solution. Describe what the student should do to obtain pure dry crystals of hydrated sodium sulfate from the solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 12,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q07-35fdc8b0",
+    "number" : 7,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "In the presence of an iron catalyst, nitrogen reacts with hydrogen to form ammonia. The reaction conditions used are a temperature of $ 4 5 0^{\\circ} \\mathrm{C} $ and a pressure of 200 atmospheres. This is the equation for the reaction. $\\mathrm {N} _ {2} + 3 \\mathrm {H} _ {2} \\rightleftharpoons 2 \\mathrm {N H} _ {3} \\quad \\Delta H = - 9 2 \\mathrm {k J / m o l}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q07-35fdc8b0-pa",
+      "label" : "a",
+      "text" : "State what the symbol $ \\rightleftharpoons $ represents.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pa-ii",
+      "label" : "a-ii",
+      "text" : "Give the reason for using a catalyst.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pb",
+      "label" : "b",
+      "text" : "The reaction mixture is kept at a pressure of 200 atmospheres, but the temperature is increased to $ 5 5 0^{\\circ} \\mathrm{C} $ Explain the effect of this change on the yield of ammonia at equilibrium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pb-ii",
+      "label" : "b-ii",
+      "text" : "The reaction mixture is kept at a temperature of $ 4 5 0^{\\circ} \\mathrm{C} $ , but the pressure is increased to 300 atmospheres. Explain the effect of this change on the yield of ammonia at equilibrium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pc",
+      "label" : "c",
+      "text" : "Draw an energy level diagram for the reaction between nitrogen and hydrogen Include the reactants, products and $ \\Delta H $ in your diagram.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pd",
+      "label" : "d",
+      "text" : "At the start of the reaction, $ 4 8 \\mathrm{d m}^{3} $ of nitrogen is added to $ 1 2 0 \\mathrm{d m}^{3} $ of hydrogen at rtp. $\\mathrm {N} _ {2} + 3 \\mathrm {H} _ {2} \\rightleftharpoons 2 \\mathrm {N H} _ {3}$ [molar volume of any gas at rtp=24 dm $ ^{3} $]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pd-i",
+      "label" : "d-i",
+      "text" : "Show by calculation that the nitrogen is in excess.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q07-35fdc8b0-pd-ii",
+      "label" : "d-ii",
+      "text" : "The yield of ammonia at equilibrium is 20%. Calculate the volume, in $ \\mathrm{d m}^{3} $ of ammonia formed from $ 1 2 0 \\mathrm{d m}^{3} $ of hydrogen.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000148",
+        "sourceName" : "assets/crop_2_1789069705507.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789069705507.png",
+        "availability" : "available",
+        "assetId" : "img:761e41f5b31b70deb672d14d29ef987b40b8bbf6cfadcf7d343e7d95ecfee835",
+        "sha256" : "761e41f5b31b70deb672d14d29ef987b40b8bbf6cfadcf7d343e7d95ecfee835",
+        "mimeType" : "image/jpeg",
+        "width" : 126,
+        "height" : 37,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ "volume of ammonia" ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000148",
+      "sourceName" : "assets/crop_2_1789069705507.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069705507.png",
+      "availability" : "available",
+      "assetId" : "img:761e41f5b31b70deb672d14d29ef987b40b8bbf6cfadcf7d343e7d95ecfee835",
+      "sha256" : "761e41f5b31b70deb672d14d29ef987b40b8bbf6cfadcf7d343e7d95ecfee835",
+      "mimeType" : "image/jpeg",
+      "width" : 126,
+      "height" : 37,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 15,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 5,
+    "4" : 11,
+    "6" : 12,
+    "7" : 15
+  },
+  "paperTotal" : 70,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ ]
+}

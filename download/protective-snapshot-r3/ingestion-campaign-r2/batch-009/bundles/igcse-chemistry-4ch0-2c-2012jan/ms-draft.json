@@ -1,0 +1,365 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "January 2012",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "60b14f60-96c3-5718-8982-5161a4b9496a"
+  },
+  "entries" : [ {
+    "entryId" : "ms-60b14f60-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Proton"
+    }, {
+      "kind" : "note",
+      "text" : "Neutron"
+    }, {
+      "kind" : "note",
+      "text" : "Electron"
+    }, {
+      "kind" : "note",
+      "text" : "+1"
+    }, {
+      "kind" : "note",
+      "text" : "-1/oneZerominus one/negative"
+    }, {
+      "kind" : "note",
+      "text" : "relative mass"
+    }, {
+      "kind" : "note",
+      "text" : "relative charge"
+    }, {
+      "kind" : "note",
+      "text" : "-1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Protons AND electrons=1neutrons=2"
+    }, {
+      "kind" : "note",
+      "text" : "onetwo"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "atoms of the same elementwith different massesIgnore references to electrons"
+    }, {
+      "kind" : "note",
+      "text" : "atoms with sameatomic number/number of protons/proton numberwith different massnumbers/differentnumbers of neutrons/different neutron numbers"
+    }, {
+      "kind" : "note",
+      "text" : "molecules/compounds for firstmark only11"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q1c",
+    "label" : "1(c)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "((79x50.7)+(81x49.3))/100OR(79x0.50.7)+(81x0.493)=79.99Allow 1 mark for a single transcription error(e.g.43.9 instead of49.3)Ignore units such as grams",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Correct answer on its own scores2"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "any named soluble metal sulfate/ammonium sulfate/(dilute)sulfuric acid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "correct formula"
+    }, {
+      "kind" : "note",
+      "text" : "concentrated sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "correct formulae for all compounds(mark consequentially on the sulfate given in(a)(i),even if insoluble,except lead(II)sulfate)balanced"
+    }, {
+      "kind" : "note",
+      "text" : "Pb2++SO42-→PbSO4for2marks"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "filterwash/rinse(with distilled/deionised water)If no reference to what is being washed,assume that the residue is being washedfilter paper/kitchen roll/blotting paper/absorbent paper/leave(to dry)/(pace in)desiccator/(place in warm)oven/heatIf no filtrationMAX1.If implication that filtrate is washed or evaporated,neitherM2norM3can be awardedDo not penalise careless use of solution or liquidfor reaction mixture"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q3b",
+    "label" : "3(b)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from bubbles(of gas)/fizzing/effervescenceIgnore carbon dioxidesolid/lead(II) carbonate disappearssolution formed/colourless liquidIgnore incorrect starting coloursIgnore heat produced and temperature change",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "gas given offdissolves/less solid"
+    }, {
+      "kind" : "note",
+      "text" : "any specific colour"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Cu(OH)2penalise incorrect use of cases and subscriptignore names",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Formula showingcorrect charges onthe ions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "to remove carbonate(ions)/to avoid precipitatingany other(named)insoluble(barium)compounds/to remove ions that would form(white)precipitates"
+    }, {
+      "kind" : "note",
+      "text" : "to removecompounds thatwould form(white)precipitates"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "CuSO4.5H2O/CuSO4.5H2O(i.e.no dot)"
+    }, {
+      "kind" : "note",
+      "text" : "formula showingcorrect charges onthe ions"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(use a clean)wire/glass rod/silica rodignore references to hydrochloric acid(to put)solid innon-luminous/BunsenflameNo marks if solid is in container eg test tube/tray/crucible"
+    }, {
+      "kind" : "note",
+      "text" : "any method ofintroducing the solid/solution into theflame.e.g.(wet)wooden spill/tip orsprinkle inBunsen/non-luminous anywherein answerBurner in place offlameBlue for non-luminous"
+    }, {
+      "kind" : "note",
+      "text" : "copper rod/any metalthat will burn or melt ina flame(eg magnesium,aluminium)"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "it/gasoline is used(as a fuel) for cars\nignore references to uses of fuel oil and gasoline burning better",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "there are more cars than ships"
+    }, {
+      "kind" : "note",
+      "text" : "Any other wrong use, eg domestic heating, aeroplanes, ships, etc"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C4H8"
+    }, {
+      "kind" : "note",
+      "text" : "2C2H4"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Catalyst - silica/silicon dioxide/silicon(IV) oxide/alumina/aluminium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "zeolite(s)/aluminosilicates"
+    }, {
+      "kind" : "note",
+      "text" : "Temperature-600-700(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "If more than catalyst given, all must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "Any temperature or any range within 600-700(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "Equivalent temperatures in Kelvin"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q7ci",
+    "label" : "7(c)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Cracking-any two from:\n•continuous process\n•pure(r) product\n•fast(er) process\n•takes place on large(r) scale\n•high(er) percentage yield\n•100% atom economy\nignore references to cost",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Fermentation-any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "•sugar is a renewable resource/uses a renewable resource"
+    }, {
+      "kind" : "note",
+      "text" : "•country has suitable climate/enough land to grow sugar cane/plentiful supply of sugar(cane)"
+    }, {
+      "kind" : "note",
+      "text" : "•country has no/little crude oil"
+    }, {
+      "kind" : "note",
+      "text" : "•(ethanol produced) suitable for making alcoholic drinks/vinegar"
+    }, {
+      "kind" : "note",
+      "text" : "•takes place at lower temperature/uses less energy"
+    }, {
+      "kind" : "ignore",
+      "text" : "ignore references to cost"
+    }, {
+      "kind" : "note",
+      "text" : "reusable resource"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-60b14f60-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(15.0÷1000)x0.0010=1.5(0)x10-5",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "(15.0÷1000)x0.0010=1.5",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(15.0÷1000)x0.0010=1.5"
+    }, {
+      "ordinal" : 2,
+      "text" : "x10-5",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "x10-5"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1.5x10-2for1mark"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "answer to(a)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "answer to(b)x100025.0correct evaluation(=0.0006(0))"
+    }, {
+      "kind" : "note",
+      "text" : "answer to(b)÷25for1mark"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "Mr ofSO2=64answer to(c)xMr ofSO2(=0.038(4))Final answer must be to2or more sig fig"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "The wine is drinkableIgnore any explanations"
+    }, {
+      "kind" : "note",
+      "text" : "consequential on(d)"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 11,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"0\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "1(c): bare integer cell \"10\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)(iii)(iv)", "orphan row before first entry: A", "orphan row before first entry: E", "orphan row before first entry: C", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: Electrons in the outer shell", "orphan row before first entry: Total", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "3(b): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(a)(i)(ii)", "orphan row before first entry: (b)", "orphan row before first entry: (c)(i)(ii)(iii)", "orphan row before first entry: Total", "orphan row before first entry: (ii)", "orphan row before first entry: bleaches / turns white", "orphan row before first entry: OR", "orphan row before first entry: (damp / moist) starch-iodide paper", "orphan row before first entry: turns blue / black\n(allow observation mark only for starch-iodine paper)", "orphan row before first entry: OR", "orphan row before first entry: (bubble through) (potassium) iodide solution\n(solution ) turns brown\n(ignore the starting colour)\nhydrogen", "orphan row before first entry: (b)", "orphan row before first entry: ignore references to sodium ions", "orphan row before first entry: 5(c)(i)(ii)", "orphan row before first entry: Total", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(c)(i): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,435 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_2C_1701_MS",
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "3225cbae-c9a2-569f-8acc-9c1e84a10e55"
+  },
+  "entries" : [ {
+    "entryId" : "ms-3225cbae-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "air",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2IGNORE H"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Cl2IGNORE Cl"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Cl2IGNORE Cl"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "iron"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Fe"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(both are) solids\nAND\n(both) form alkaline solutions(in water)\n(both are) gases\nAND\n(both) form acidic solutions(in water)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW(both are)slightly soluble"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "the oxide is solid"
+    }, {
+      "kind" : "note",
+      "text" : "the oxide forms an acidic solution(in water)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the lamp does not light up"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so this shows that) phosphorus/it does not conduct electricity"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT"
+    }, {
+      "kind" : "note",
+      "text" : "reverse arguments"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 calcium is the most reactive; titanium is the second most reactive; tin is the least reactiveOR calcium most reactiveAND tin least reactiveM2(because) titanium displaces tinM3(and because) titanium does not displace calcium",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTCa>Ti>SnACCEPT replacesACCEPT replaces"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "2Al+Fe2O3→Al2O3+2FeM1aluminiumM2because it has gained oxygenORbecause it has lost electronsORbecause its oxidation number has increasedORbecause its oxidation number has changed from0to+3M2DEP onM1M1(powders have) larger surface areaM2(therefore) faster reaction"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiples and halves2M2DEP onM1ACCEPT reverse argumentsIGNOREreferences to collisions between particles"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D(NH4+)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D(I-)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "A(carbonate)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "C(blue,green,brown)"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "A(carbonate)"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "LiF",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark for each correct ion"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE charges on ion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "Diagram showing sharing of electrons scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "F2C2F2F2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all four bonding pairs correct, and only 8 electrons shown in outer shell of carbon"
+    }, {
+      "kind" : "note",
+      "text" : "M2 all non-bonding pairs correct"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE inner shells even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "If rings are drawn then both bonding electrons must be in the overlapping area"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(to provide the)zymase/enzyme (that acts as a catalyst)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW(to act as a) catalystALLOWto increase the rate of reactionIGNOREto lower the activation energyIGNOREto start the reactionREJECTto provide(activation) energy"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(turns) milky/cloudy/turbid(then clear)ORwhite precipitate/white suspension/white solid(forms then disappears)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "30℃"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTany temperature,or range of temperatures,between25and40℃"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M132",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2(32×15.6)=500(kJ)ORM1×15.6 correctly evaluated"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT499/499.2Correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1&M2Any two from:·mass of water/volume of water/amount of water·distance of flame from the can·length of wick"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREtemperature of water(at start)ALLOWdistance of burner from can"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:M1heat(energy)/thermal energy is lost(to/surroundings)M2incomplete combustion(of the fuel)M3evaporation of water/fuel"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREjust energy lostIGNOREnot all of the ethanol is burned"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M10.080 mol of HCl react with 0.040 mol of MgCO3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any method involving correct ratios of moles, egHCl to MgCO3 is 2:10.08 to 0.05 is 2:1.25"
+    }, {
+      "kind" : "note",
+      "text" : "M20.050>0.040"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT correct calculations involving masses"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1n(CO2)=1/2x0.08(0)OR0.04(0)M2vol(CO2)=(0.04(0)x24000)=960(cm3)ORM1×24000 correctly evaluated"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer with no working scores21920(cm3) scores1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1Mr(MgCl2.6H2O)=203M2% yield=((5.5÷(203×0.050))×100=54"
+    }, {
+      "kind" : "note",
+      "text" : "M2CSQ onM1ACCEPT any number of significant figures except one(eg reject50)Calculator value is54.1871921182REJECT answers>100"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one of:some of the crystals remained in the filtrate(after cooling and filtration)the solution was not allowed to cool for long enough(for complete crystallisation)magnesium carbonate is impure"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to side reactionsREJECT not all of the magnesium carbonate reacted"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1rate of forward reaction=rate of backward reaction",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNOREforward reaction=backward reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2concentrations of reactants/products remain/stay constant"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTamounts/masses for concentrationsACCEPTdo not change for remain constantALLOWcolour remains constantALLOWpressure remains constantIGNOREconcentrations/amounts of reactants and products are the same/are equal"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q8bi",
+    "label" : "8(b)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Number of moles\nOR\nTime\ncross drawn on either curve just where it becomes horizontal",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve starts at 0,0 and has the general shape shown"
+    }, {
+      "kind" : "note",
+      "text" : "M2 curve becomes horizontal at approximately the same time as the original curve"
+    }, {
+      "kind" : "note",
+      "text" : "M3 curve finishes below original curve"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and M3 DEP on M1 or near miss (eg curve does not start at exactly 0,0)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3225cbae-q8c",
+    "label" : "8(c)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 equilibrium has shifted to the left/equilibrium has shifted to the NO2 side/equilibrium has shifted to the reactants side",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE references to Le Chatelier's principle eg an increase in temperature favours the reaction that reduces the temperature"
+    }, {
+      "kind" : "note",
+      "text" : "OR more NO2 has been produced/more reactants have been produced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT (forward) reaction is exothermic"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (therefore) backward reaction is endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: M2(good conductivity of LiF) ions are mobile", "orphan row before first entry: M3(low melting point of CF4) weak forces(of attraction) between molecules/weak intermolecular forces(of attraction)", "orphan row before first entry: M4(poor conductivity of CF4) molecules are not charged/molecules are neutral/no charged particles", "orphan row before first entry: Total", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "6(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"13\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "8(b)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(c): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)" ]
+}

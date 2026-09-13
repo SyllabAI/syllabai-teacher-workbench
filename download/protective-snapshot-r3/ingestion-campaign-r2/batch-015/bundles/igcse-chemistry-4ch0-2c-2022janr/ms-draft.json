@@ -1,0 +1,631 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2CR_2201_MS",
+    "session" : "January 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d299302d-d0b8-5cd7-8f69-a6f48fa70a73"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d299302d-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW air"
+    }, {
+      "kind" : "note",
+      "text" : "M2 water/water vapour"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW moisture"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW answers in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "iodine"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "methane"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "gold"
+    }, {
+      "kind" : "note",
+      "text" : "Total 5"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 heated",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW boiled"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE"
+    }, {
+      "kind" : "note",
+      "text" : "vapourised/evaporated"
+    }, {
+      "kind" : "note",
+      "text" : "M2 fractionating"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "M3 boiling point(s)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT boiling temperature(s)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE melting point(s)/low density"
+    }, {
+      "kind" : "note",
+      "text" : "(b) road surfacing/roofing"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW roads"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "pentane"
+    }, {
+      "kind" : "note",
+      "text" : "(Mr=5x12+12x1=)72"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q2d",
+    "label" : "2(d)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1alumina/silica",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTaluminiumoxide/silicon dioxide/Al2O3/SiO2/zeolite(s)/aluminosilicate(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2any temperature in the range600-700℃inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "(C10H22→C4H10)+C2H4+C4H8"
+    }, {
+      "kind" : "note",
+      "text" : "alkenes can be in eitherorder"
+    }, {
+      "kind" : "note",
+      "text" : "M1C2H4"
+    }, {
+      "kind" : "note",
+      "text" : "M2C4H8"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW1mark forC6H12/2C3H6/C3H6+C3H6"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWcorrectdisplayedformulae"
+    }, {
+      "kind" : "note",
+      "text" : "Total10"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that includes six of the following points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1use the pipette to add(25cm3of) potassium hydroxide(solution)to the(conical)flask"
+    }, {
+      "kind" : "note",
+      "text" : "M2add a few drops of methyl orange(to the flask)"
+    }, {
+      "kind" : "note",
+      "text" : "M3add sulfuric acid to the burette and record the initial burette reading"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWfill burette with sulfuric acid to“0”mark"
+    }, {
+      "kind" : "note",
+      "text" : "M4add sulfuric acid(from the burette)to the flask,swirling(continuously)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWshaking(gently)/stirring"
+    }, {
+      "kind" : "note",
+      "text" : "M5until the(methyl orange)indicator turns red/orange"
+    }, {
+      "kind" : "note",
+      "text" : "M6take the final burette reading and find volume of acid added(by finding difference between initial and final burette readings)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWtake final burette reading only if previously filled burette to“0”mark"
+    }, {
+      "kind" : "note",
+      "text" : "M7repeat(the titration)adding the acid dropwise near the end-point/repeat(the titration)to obtain concordant results"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTrepeat(the titration)to obtain results within0.2cm3of each other"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M10.0250x0.240OR25.0x0.2401000"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "M20.006(00)"
+    }, {
+      "kind" : "note",
+      "text" : "If no division by1000giving an answer of6award1mark"
+    }, {
+      "kind" : "note",
+      "text" : "(0.006÷2=)0.003"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWECFfrom(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M10.003(00)x100015.00"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M20.2(00)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWECFfrom(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "answer to(ii)÷15.00scores1"
+    }, {
+      "kind" : "note",
+      "text" : "do not penalise not multiplying by1000in(iii)if they have not divided by1000in(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Total11"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "structural formula\nname\nempirical formula\ndisplayed formula",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "CH3COOH"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for each correct answerALLOW acetic acidMust show O-H bond"
+    }, {
+      "kind" : "note",
+      "text" : "ethanoic acid"
+    }, {
+      "kind" : "note",
+      "text" : "CH2O"
+    }, {
+      "kind" : "note",
+      "text" : "H-C-C"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 potassium dichromate(VI)M2(dilute)sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "VI not essential for the markACCEPT sodium dichromate(VI)ALLOW K2Cr2O7ALLOW concentrated sulfuric acidALLOW H2SO4ACCEPT reagents in either order"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "B orange to greenA is incorrect as the colour does not change from green to orangeC is incorrect as the colour does not change from red to yellowD is incorrect as the colour does not change from yellow to red"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q4ci",
+    "label" : "4(c)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "alcohols are flammable/might catch fire/might ignite",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT esters/mixture are/is flammable/might catch fire/might ignite"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW alcohol/ester/carboxylic acid might evaporate"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C methyl propanoate"
+    }, {
+      "kind" : "note",
+      "text" : "A ethyl methanoate is not the correct name of the compound"
+    }, {
+      "kind" : "note",
+      "text" : "B methyl ethanoate is not the correct name of the compound"
+    }, {
+      "kind" : "note",
+      "text" : "D propyl methanoate is not the correct name of the compound"
+    }, {
+      "kind" : "note",
+      "text" : "Total 8"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(produces) acid rain",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW any detrimental effect of acid rain e.g. kills fish, damages limestone buildings"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 find moles of sulfurM2 multiply moles by 24M3 answer in standard formExample calculationM1 6.4x106÷32OR2.0x105/200000M2 2.0x105x24/200000x24/4800000M3 4.8x106"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF as long as an attempt has been made to calculate molesCorrect answer without working scores34800000(dm3) without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 provides an alternative (reaction) pathway/routeM2 with a lower activation energy OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT so more particles/collisions have energy greater than the activation energyALLOW lowers the energy needed to start the reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "fewer moles (of gas) on RHS (than on (LHS))"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 3 moles (of gas) on LHS and 2 moles (of) gas on RHSALLOW fewer moles of product/SO3(gas)(than of reactants/SO2andO2(gas))ALLOW molecules in place of molesIGNORE references to rate"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "as yield is approximately 98%/very high(it is not necessary to increase the pressure) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reference to reaction rate(already high enough) as catalyst used OWTTE"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1SO3+H2SO4→H2S2O7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "note",
+      "text" : "M2H2S2O7+H2O→2H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(2x14÷132)x100"
+    }, {
+      "kind" : "note",
+      "text" : "M221.21(%)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig figs except1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF fromM1as long as132used correctlyCorrect answer without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "Total12"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that refers to the following three points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 filter"
+    }, {
+      "kind" : "note",
+      "text" : "M2 wash the precipitate/solid/lead(II) bromide/residue (with distilled water)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 dry with filter paper/in a (warm) oven"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW leave to dry or any other suitable method"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT direct heating e.g. with a Bunsen burner"
+    }, {
+      "kind" : "note",
+      "text" : "If description relates to preparation of a soluble salt allow 1 mark only for M3 for a suitable method of drying the solid"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 solid lead(II) bromide does not conduct electricity"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW lead(II) bromide only conducts when molten"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW when lead(II) bromide is solid no electricity/current flow(s) through the circuit/lamp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because ions cannot move/are in fixed positions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT reference to (delocalised) electrons/atoms cannot move in solid"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "brown vapour/gas/fumes(of bromine)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW orange/orange-brown"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following four points"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise incorrect use of ide/ine once only"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bromide ions are negatively charged/Br-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW bromide ions are anions"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so bromide ions/they) are attracted to the positive electrode"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW anode"
+    }, {
+      "kind" : "note",
+      "text" : "M3(at the positive electrode) bromide ions/they lose/give up electron(s)(to form bromine atoms)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW bromide ions are oxidisedALLOW Br-→Br+e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "M4(bromine atoms) join in pairs to form bromine molecules/Br2OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Br+Br→Br22Br-→Br2+2e(-)scores M1 M3 and M4"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "Pb2+(l)+2e(-)→Pb(s)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Pb(l)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 formulae and balancing correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "M2 both state symbols correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M2 ECF if charge on lead ion and/or balancing are incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "Total 12"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "gives out thermal energy/heat(energy)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 expression for Σ bond energies of reactants/bonds brokenM2 expression for Σ bond energies of products/bonds made or evaluationM3 correct equation linking M1,M2 and value of ΔHM4 evaluation of Cl-Cl bond energyExample calculationCorrect answer without working scores4M1(Σ bond energies of reactants=)436+XACCEPTE(Cl-Cl)or any suitable symbol or expression forXM2(Σ bond energies of products=)2x431OR862(kJ)M3-184=436+X-862ORX=-184+862-436ALLOWM3ECFif431forM2If not used(-)184inM3can only scoreM1M2M3subsumesM1M2M4X=242(kJ/mol)ALLOWM4ECFonM3as long asM3involves436,X,862(or431)and(-)184"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d299302d-q7c",
+    "label" : "7(c)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following three points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1energy needed to break bonds / bond-breaking is endothermic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWenergy is absorbed/taken in"
+    }, {
+      "kind" : "note",
+      "text" : "M2energy given out when bonds are formed / bond-forming is exothermic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWenergy is released"
+    }, {
+      "kind" : "note",
+      "text" : "M3energy given out is greater than energy needed (so exothermic) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3DEP M1M2more energy released when new bonds are formed(in products) than is needed to break the bonds(in reactants)OWTTE scoresM1M2M3If any contradictory statements max1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1horizontal line to show products below reactants and to the right of reactants and labelled2HCl"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWproducts for2HCl"
+    }, {
+      "kind" : "note",
+      "text" : "M2vertical line fromH2+Cl2level to2HCl/products level and labelledenthalpy change/ΔH/-184"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTdouble headed arrow or arrow pointing fromH2+Cl2level to2HCl/products level"
+    }, {
+      "kind" : "note",
+      "text" : "M3curve with hump/peak shown on diagram going up fromH2+Cl2line and ending at2HCl/products line"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTarrow pointing from2HCl/products level toH2+Cl2level"
+    }, {
+      "kind" : "note",
+      "text" : "M4vertical line fromH2+Cl2level to top of hump level and labelledactivation energy/Ea"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTdouble headed arrow or arrow pointing fromH2+Cl2level to top of humpREJECTarrow pointing from top of hump toH2+Cl2levelIf endothermic diagram shown,can scoreM2M3(peak/hump must be above products line)andM4"
+    }, {
+      "kind" : "note",
+      "text" : "Total12"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(d): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(c): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "7(c): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)" ]
+}

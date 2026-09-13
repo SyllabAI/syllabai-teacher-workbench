@@ -1,0 +1,6 @@
+eba06f8a42101fb5d4b15aa161098077cefa952a3b2fe85cee2d57d672adec3c  VERIFICATION-VERDICT.txt
+fb37739dcf2825c76403e5ddb334eecce5c619057cb82a3ec5f0cc10317e3c5b  ../read-model/INFERRED_READ_MODEL.json
+55f481ab02206290a0b5eec4577c0266b069a16a4dff83900f82459fc536a1cd  ../read-model/tables/exam_papers.jsonl
+224ee5def03f3523373274fe4ad2bcf5fe8dff40761c2792554caf90a386640e  ../protective-snapshot-r3/SHA256SUMS
+c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2  ../protective-snapshot-r3/isolation-proof/after.dump.uncompressed
+7c4374d96491b57207ca8b2978a36e1490dafa6d1ad123f604ff83f0a0e82ef8  /home/z/my-project/worklog.md

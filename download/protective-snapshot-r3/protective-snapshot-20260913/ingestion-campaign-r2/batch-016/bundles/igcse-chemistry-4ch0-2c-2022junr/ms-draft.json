@@ -1,0 +1,587 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2CR_2206_MS",
+    "session" : "Summer 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "dd78b694-8b04-536f-ab00-c2ad60c723dc"
+  },
+  "entries" : [ {
+    "entryId" : "ms-dd78b694-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 dissolving\nM2 diffusion\nB is incorrect as there are not 4 different types of atoms in KMnO4\nC is incorrect as there are not 6 different types of atoms in KMnO4",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Answers can be in either order"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE dilution"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A3"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(Mr=39+55+16x4=)158"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(something that) gives oxygen (to another substance)/takes/gains electrons (from another substance) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW oxygen donor"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW electron acceptor"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (something that) causes another substance to be oxidised/to lose electrons OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (something that) is reduced (in a reaction)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW increases the oxidation number (of another species)"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B $ C_{4}H_{10}$\nA is incorrect as $ C_{2}H_{5} $ is not the molecular formula of an alkane\nC is incorrect as $ CH_{2}CH_{2} $ is the structural formula of an alkene\nD is incorrect as $ CH_{3}CH_{2}CH_{3} $ is the structural formula of an alkane",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "C $ C_{3}H_{8}$"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as $ CH_{2} $ is not a molecular formula but is an empirical formula of an alkene"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as the empirical formula of $ C_{2}H_{6} $ is $ CH_{3} $ D is incorrect as the empirical formula of $ C_{4}H_{10} $ is $ C_{2}H_{5} $"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution"
+    }, {
+      "kind" : "note",
+      "text" : "$ CH_{4}+Br_{2}\\rightarrow CH_{3}Br+HBr $"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 y(=220÷44)=5"
+    }, {
+      "kind" : "note",
+      "text" : "M2 z(=108÷18)=6"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF in(ii) from incorrect values of y and z in(i) to score M1 the answer must be the formula of an alkane"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 $ C_{5}H_{12} $"
+    }, {
+      "kind" : "note",
+      "text" : "M2 x=8"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF in(ii) from incorrect values of y and z in(i) to score M1 the answer must be the formula of an alkane"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation including one of the following pairs"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon monoxide/CO is produced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT prevents blood from carrying oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (carbon monoxide) is toxic/poisonous/reduces the capacity of the blood to carry oxygen OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct explanation in terms of haemoglobin e.g. prevents haemoglobin from carrying oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon/soot"
+    }, {
+      "kind" : "note",
+      "text" : "M2 causes asthma/bronchitis/respiratory problems OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation of properties that includes five of the following points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "reason must be linked to correct property"
+    }, {
+      "kind" : "note",
+      "text" : "M1 conducts electricity"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to cost/reactivity/hardness/strength/shiny"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because the) delocalised electrons can move/flow (through structure)"
+    }, {
+      "kind" : "note",
+      "text" : "If any mention of ions/atoms moving cannot score M2"
+    }, {
+      "kind" : "note",
+      "text" : "M3 malleable/ductile"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW explanations of malleable/ductile"
+    }, {
+      "kind" : "note",
+      "text" : "M4(because) layers of cations/atoms"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sheets/rows"
+    }, {
+      "kind" : "note",
+      "text" : "M5 layers/cations/atoms can slide/slip/move over each other"
+    }, {
+      "kind" : "note",
+      "text" : "M6 high melting point"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE high boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "M7(because) strong (electrostatic) attraction between cations and delocalised electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW giant metallic lattice/strong bonds between cations and delocalised electrons/strong metallic bonds"
+    }, {
+      "kind" : "note",
+      "text" : "Max 4 if any mention of intermolecular forces/covalent/ionic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "copper ion Cu2+ sulfate ion SO42-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Cu2+ SO42-"
+    }, {
+      "kind" : "note",
+      "text" : "effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE oxygen/gas"
+    }, {
+      "kind" : "note",
+      "text" : "relights a glowing splint"
+    }, {
+      "kind" : "note",
+      "text" : "2H2O→O2+4H++4e(-)OR4OH-→O2+2H2O+4e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "M1all formulae correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2balancing of correct formulae"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "glucose $\\rightarrow$ ethanol + carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT fully correct chemical equation"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE yeast"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "yeast"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE zymase/enzymes"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 30℃"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any value between 20 and 40 inclusive"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE yeast"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE room temperature"
+    }, {
+      "kind" : "note",
+      "text" : "M2 anaerobic conditions / absence of air/oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "B CH3COOC4H9"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as this is propyl ethanoate"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as this is butyl propanoate"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as this is ethyl butanoate"
+    }, {
+      "kind" : "note",
+      "text" : "sweet/fruity/distinctive smell OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "perfumes/(food) flavourings/solvents"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE (food) colourings"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any other appropriate use eg emulsifiers"
+    }, {
+      "kind" : "note",
+      "text" : "(atom/group of atoms in a compound that) determines its chemical properties/reactions OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (atom/group of atoms that) determines which homologous series a compound is in OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) circle around O"
+    }, {
+      "kind" : "note",
+      "text" : "II"
+    }, {
+      "kind" : "note",
+      "text" : "-C-O-H"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(results that are) within 0.2(0)(cm3) of each other",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "(results that are) within 0.2",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(results that are) within 0.2"
+    }, {
+      "ordinal" : 2,
+      "text" : "(cm3) of each other",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(cm3) of each other"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT other values if less than 0.2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links two of the following pairs of points"
+    }, {
+      "kind" : "note",
+      "text" : "M1a pipette should have been used instead of measuring cylinder/to measure the sodium hydroxide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M2a pipette is more precise/a measuring cylinder is less precise"
+    }, {
+      "kind" : "note",
+      "text" : "M3methyl orange/phenolphthalein/litmus should have been used instead of universal indicator"
+    }, {
+      "kind" : "note",
+      "text" : "M4methyl orange/phenolphthalein/litmus would give a clear/sharp colour change/end-point/universal indicator would not give a clear/sharp colour change/end-point"
+    }, {
+      "kind" : "note",
+      "text" : "M5use white tile(under conical flask)"
+    }, {
+      "kind" : "note",
+      "text" : "M6easier to see colour change(at end point)OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWa pipette is more accurate/a measuring cylinder is less accurate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW pipette would give exactly25cm3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW universal indicator would give a range of colours"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW methyl orange/phenolphthalein/litmus only have two colours/are one colour in acid and one in alkali(colours given for a named indicator do not need to be correct)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW easier to see colour change with methyl orange/phenolphthalein/litmus"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "reversible (reaction)/reaction that goes both ways OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to equilibrium"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "increases the rate of reaction/speeds up the reaction"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT to increase yield"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to reach equilibrium faster"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE provides an alternative pathway with lower activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 yield decreases"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to rate and Le Chatelier throughout"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (forward) reaction is exothermic/backward reaction is endothermic"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT (when temperature increased equilibrium shifts in) endothermic direction which is (from right) to left"
+    }, {
+      "kind" : "note",
+      "text" : "M1 yield increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 there are fewer moles (of gas) on the right-hand side/product side / there are more moles (of gas) on the left-hand side/there are 4 moles of reactants and 2 moles of product/ OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW molecules for moles"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 correct or missing"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q7c",
+    "label" : "7(c)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Energy N2+3H2ΔH2NH3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE any horizontal axis/labelsIGNORE any attempts at including activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "M1 horizontal line labelled with N2+3H2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW nitrogen and hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "M2 horizontal line showing 2NH3in correct position"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ammoniaIf not balanced or words reactants and products on horizontal lines in correct position scores1 out of2"
+    }, {
+      "kind" : "note",
+      "text" : "M3 vertical line in correct position and labelled ΔH/-92(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT double headed arrow or arrow pointing from reactants level to products levelREJECT arrow pointing from products level to reactants levelIf endothermic reaction can scoreM1 and M3"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dd78b694-q7di",
+    "label" : "7(d)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1amount of nitrogen=(48÷24=)2(mol)\nM2amount of hydrogen=(120÷24=)5(mol)\nM32.5mol of hydrogen to1mol of nitrogen(which is less than3so nitrogen is in excess)OR2mol of nitrogen needs6mol of hydrogen(so not enough hydrogen to react with the nitrogen)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT alternative methods"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from(i)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW3.3"
+    }, {
+      "kind" : "note",
+      "text" : "use of3.3gives79.2"
+    }, {
+      "kind" : "note",
+      "text" : "use of79.2gives15.84"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF fromM2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT120dm3of hydrogen gives2x120÷3OR80(dm3of ammonia)forM1andM2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWmax2for use of48dm3of nitrogen giving96dm3of ammonia and final answer of19.2(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M15mol of hydrogen gives3.33mol of ammonia"
+    }, {
+      "kind" : "note",
+      "text" : "M2volume of ammonia(if100%conversion)=3.33x24OR80(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M3(volume of ammoniaif20%conversion)=\\frac{(20\\times80)}{100}=16.0(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "Total15"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(i)(ii)", "orphan row before first entry: Q proton", "orphan row before first entry: R electron", "orphan row before first entry: nucleus", "orphan row before first entry: (b)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (v)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: ii)", "orphan row before first entry: M2", "orphan row before first entry: OR", "orphan row before first entry: M3", "orphan row before first entry: M1Mr(of aspirin)=180", "orphan row before first entry: M29x12or1088x1or84x16or64", "orphan row before first entry: ALL3neededforM2", "orphan row before first entry: M3108/180x100=60(%)\\n8/180x100=4.44(%)\\n108/180x100=35.56(%)", "orphan row before first entry: ALL3neededforM3", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: M2amount of $ \\mathrm{H_{2} S O_{4}}=\\frac{0.0375}{2} $ OR 0.01875(mol)", "orphan row before first entry: M3volume of $ \\mathrm{H_{2} S O_{4}}=\\frac{(0.01875\\times1000)}{(0.600)}=31.25(\\mathrm{c m}^{3}) $", "orphan row before first entry: (d)", "orphan row before first entry: M1 heat the solution", "orphan row before first entry: M2 to evaporate some of the water/ to form a saturated solution/ to crystallisation point", "orphan row before first entry: M3 leave the solution to cool / leave the solution for (more) crystals to form", "orphan row before first entry: M4 filter off the crystals", "orphan row before first entry: M5 suitable method of drying the crystals", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(d)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)" ]
+}

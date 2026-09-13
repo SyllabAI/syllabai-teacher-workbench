@@ -1,0 +1,509 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH0/2C",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2017",
+    "examDate" : "Wednesday 14 June 2017 – Morning",
+    "duration" : null,
+    "canonicalDocumentId" : "8d0a429e-bbff-5d24-aff9-17ce1f25d16f"
+  },
+  "questions" : [ {
+    "questionId" : "q01-8d0a429e",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Sodium sulfate is a compound with many uses.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-8d0a429e-pa",
+      "label" : "a",
+      "text" : "The formula of the main compound used as the source of sodium sulfate is $ \\mathrm{N a_{2} S O_{4}. 1 0 H_{2} O} $ How many different elements are shown in this formula? A 2 B 3 C 4 D 5",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-8d0a429e-pb",
+      "label" : "b",
+      "text" : "Sodium sulfate can be made from sodium hydroxide and sulfuric acid. Balance the equation for the reaction between sodium hydroxide and sulfuric acid. (1) $ \\mathrm{N a O H}+ \\mathrm{H_{2} S O_{4}} \\rightarrow \\mathrm{N a_{2} S O_{4}}+ \\mathrm{H_{2} O} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-8d0a429e-pc",
+      "label" : "c",
+      "text" : "Sodium hydroxide is manufactured by the electrolysis of brine in the diaphragm cell. Sulfuric acid is manufactured using the contact process. The table contains some statements about these two processes. Place ticks ( $ \\checkmark $ ) in the boxes to show the two correct statements.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000031" ],
+    "marks" : 4,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-8d0a429e",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The diagram shows the positions of some elements in part of the Periodic Table. He",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-8d0a429e-pa",
+      "label" : "a",
+      "text" : "How many periods and groups are shown in this diagram?",
+      "marks" : 1,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.8
+    }, {
+      "partId" : "q02-8d0a429e-pb",
+      "label" : "b",
+      "text" : "How many elements shown in the diagram are noble gases? A 1 B 2 C 3 D 4",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pc",
+      "label" : "c",
+      "text" : "What is the formula of the compound formed between magnesium and fluorine? (1) A MgF B $ \\mathrm{M g_{2} F} $ C $ \\mathrm{M g F_{2}} $ D $ \\mathrm{M g_{2} F_{2}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pd",
+      "label" : "d",
+      "text" : "The table shows the percentage composition by mass of a sample of silicon. Calculate the relative atomic mass of this sample of silicon. Give your answer to one decimal place.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "relative atomic mass" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pe",
+      "label" : "e",
+      "text" : "A molecule of silicon tetrafluoride $ \\mathrm{(S i F_{4})} $ contains covalent bonds. Draw a dot and cross diagram to show the outer electrons in this molecule.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pf",
+      "label" : "f",
+      "text" : "The table shows the boiling points of some compounds containing silicon. All of these compounds contain covalent bonds. $ \\mathrm{S i F}_{4} $ and $ \\mathrm{S i C l}_{4} $ have simple molecular structures. $ \\mathrm{S i O}_{2} $ has a giant covalent structure.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pf-i",
+      "label" : "f-i",
+      "text" : "Explain why the boiling point of $ \\mathrm{S i C l}_{4} $ is greater than the boiling point of $ \\mathrm{S i F}_{4} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-8d0a429e-pf-ii",
+      "label" : "f-ii",
+      "text" : "Explain why the boiling point of $ \\mathrm{S i O_{2}} $ is very much greater than the boiling point of $ \\mathrm{S i C l_{4}} $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000036", "e000039", "e000051", "e000056" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q03-8d0a429e",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This apparatus can be used to investigate electrolysis.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-8d0a429e-pa",
+      "label" : "a",
+      "text" : "Name the particles that move through the connecting wires to form an electric current.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pb",
+      "label" : "b",
+      "text" : "The electrodes are made of platinum, which is an inert metal. State what is meant by the term inert.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pc",
+      "label" : "c",
+      "text" : "Explain why the electrolytic cell containing $ \\mathrm{P b B r}_{2} $ needs to be heated before electrolysis can occur.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pd",
+      "label" : "d",
+      "text" : "When NaCl(aq) is electrolysed, two gases form at the positive electrode and one gas forms at the negative electrode. The formulae of the species in $ \\mathrm{N a C l} ( \\mathrm{a q} ) $ are $ \\mathrm{N a}^{+}, \\mathrm{C l}^{-}, \\mathrm{H}^{+}, \\mathrm{O H}^{-} $ and $ \\mathrm{H}_{2} \\mathrm{O}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pd-i",
+      "label" : "d-i",
+      "text" : "Name the gases formed at each electrode. positive electrode ... negative electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pd-ii",
+      "label" : "d-ii",
+      "text" : "Give ionic half-equations to show the formation of each gas.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-8d0a429e-pe",
+      "label" : "e",
+      "text" : "The ionic half-equation for one of the reactions in the cell containing copper(II) sulfate solution is $\\mathrm {C u} ^ {2 +} + 2 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {C u}$ During the electrolysis, a charge of 0.040 faradays passes through this cell. Calculate the mass of copper metal formed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000062",
+      "sourceName" : "assets/crop_1_1789069525090.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069525090.png",
+      "availability" : "available",
+      "assetId" : "img:c1fee978eed70089ac85bf19986df00a94c7babcb26d0878c7e33f6dea12867d",
+      "sha256" : "c1fee978eed70089ac85bf19986df00a94c7babcb26d0878c7e33f6dea12867d",
+      "mimeType" : "image/jpeg",
+      "width" : 1396,
+      "height" : 701,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 11,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-8d0a429e",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Compounds containing C=C double bonds are used to manufacture alcohols such as ethanol and addition polymers such as PVC. The table shows the formulae of some compounds containing C=C bonds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-8d0a429e-pa",
+      "label" : "a",
+      "text" : "Explain which three of these compounds are hydrocarbons.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pa-ii",
+      "label" : "a-ii",
+      "text" : "Explain which compound is shown as a displayed formula.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pb",
+      "label" : "b",
+      "text" : "Ethanol can be manufactured from compound A using reaction 1. Ethanol can also be manufactured from glucose using reaction 2. The equations for these reactions are reaction 1 $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C} _ {2} \\mathrm {H} _ {5} \\mathrm {O H}$ reaction 2 $C _ {6} H _ {1 2} O _ {6} \\rightarrow 2 C _ {2} H _ {5} O H + 2 C O _ {2}$ Give two advantages of using each reaction to manufacture ethanol. reaction 1. reaction 2.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pc",
+      "label" : "c",
+      "text" : "Compound C reacts with bromine to form a product with this formula.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000092",
+        "sourceName" : "assets/crop_1_1789069525111.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069525111.png",
+        "availability" : "available",
+        "assetId" : "img:f7e573efecdc39738b3f9646b49446c621ff17ceb89864da3f17bbe18946b955",
+        "sha256" : "f7e573efecdc39738b3f9646b49446c621ff17ceb89864da3f17bbe18946b955",
+        "mimeType" : "image/jpeg",
+        "width" : 366,
+        "height" : 147,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pc-i",
+      "label" : "c-i",
+      "text" : "Use this formula to determine the name of compound C.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pc-ii",
+      "label" : "c-ii",
+      "text" : "State the colour of the product formed when compound C reacts with bromine.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pd",
+      "label" : "d",
+      "text" : "Compound X is an isomer of compound C.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pd-i",
+      "label" : "d-i",
+      "text" : "Explain what is meant by the term isomers.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pd-ii",
+      "label" : "d-ii",
+      "text" : "The equation for the conversion of compound X to an alcohol is $\\mathrm {C H} _ {2} = \\mathrm {C H} - \\mathrm {C H} _ {2} - \\mathrm {C H} _ {3} + \\mathrm {H} _ {2} \\mathrm {O} \\rightarrow \\mathrm {C H} _ {3} - \\mathrm {C H} - \\mathrm {C H} _ {2} - \\mathrm {C H} _ {3}$ Place ticks ( $ \\checkmark $ ) in the boxes to show the two correct descriptions of this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pe",
+      "label" : "e",
+      "text" : "Compound D, chloroethene, can be used to manufacture the polymer PVC.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pe-i",
+      "label" : "e-i",
+      "text" : "State the full name of PVC.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-8d0a429e-pe-ii",
+      "label" : "e-ii",
+      "text" : "Write an equation, containing displayed formulae, to represent the reaction that occurs in the manufacture of PVC.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000092",
+      "sourceName" : "assets/crop_1_1789069525111.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069525111.png",
+      "availability" : "available",
+      "assetId" : "img:f7e573efecdc39738b3f9646b49446c621ff17ceb89864da3f17bbe18946b955",
+      "sha256" : "f7e573efecdc39738b3f9646b49446c621ff17ceb89864da3f17bbe18946b955",
+      "mimeType" : "image/jpeg",
+      "width" : 366,
+      "height" : 147,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000079", "e000100" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q05-8d0a429e",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student uses this apparatus to find the increase in temperature of water when methanol, $ \\mathrm{C H_{3} O H} $ , is burned.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-8d0a429e-pa",
+      "label" : "a",
+      "text" : "There are several reasons why the increase in temperature is less than expected.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pa-i",
+      "label" : "a-i",
+      "text" : "One reason is the incomplete combustion of methanol to form only carbon monoxide and water. Write the chemical equation for this incomplete combustion.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pa-ii",
+      "label" : "a-ii",
+      "text" : "State another reason why the increase in temperature is less than expected.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pb",
+      "label" : "b",
+      "text" : "The student records these results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pb-i",
+      "label" : "b-i",
+      "text" : "Calculate the heat energy change (Q), in joules, in this experiment using the expression $Q = m \\times 4. 2 \\times \\Delta T$ where m is the mass of water in grams and $ \\Delta T $ represents the increase in temperature.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pb-ii",
+      "label" : "b-ii",
+      "text" : "The relative molecular mass of methanol is 32 Use this information and your value for Q to calculate the molar enthalpy change, $ \\Delta H $ , for the combustion of methanol. Give your answer in kJ/mol. $\\Delta H =$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pb-iii",
+      "label" : "b-iii",
+      "text" : "The student draws an energy level diagram for the complete combustion of methanol. $\\begin{array}{c c} \\mathrm {e n e r g y} & \\mathrm {c a r b o n d i o x i d e} \\\\ \\hline \\mathrm {m e t h a n o l} & \\mathrm {c a r b o n d i o x i d e} \\\\ \\end{array}$ Identify the two mistakes in his diagram.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-8d0a429e-pc",
+      "label" : "c",
+      "text" : "The student is given this table of average (mean) bond energies. The equation for the complete combustion of methanol is $\\mathrm {H} - \\mathrm {C} - \\mathrm {O} - \\mathrm {H} + 1. 5 \\mathrm {O} = \\mathrm {O} \\rightarrow \\mathrm {O} = \\mathrm {C} = \\mathrm {O} + 2 \\mathrm {H} - \\mathrm {O} - \\mathrm {H}$ Use this equation and the information in the table to calculate another value for the molar enthalpy change, $ \\Delta H $ , for the combustion of methanol. $\\Delta H =$ Every effort has been made to contact copyright holders to obtain their permission for the use of copyright material. Pearson Education Ltd. will, if notified, be happy to rectify any errors or omissions and include any such rectifications in future editions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000106",
+      "sourceName" : "assets/crop_1_1789069525138.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069525138.png",
+      "availability" : "available",
+      "assetId" : "img:cb408f8f1e4521c2486e31b4114bb448b7eb4b9874656ced42b3e244b41ce1b1",
+      "sha256" : "cb408f8f1e4521c2486e31b4114bb448b7eb4b9874656ced42b3e244b41ce1b1",
+      "mimeType" : "image/jpeg",
+      "width" : 407,
+      "height" : 370,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000107",
+      "sourceName" : "assets/crop_2_1789069525144.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069525144.png",
+      "availability" : "available",
+      "assetId" : "img:fde660550c6ca32cd687ff7301afcd4f51109208f6a924f332a5502c66d8e55d",
+      "sha256" : "fde660550c6ca32cd687ff7301afcd4f51109208f6a924f332a5502c66d8e55d",
+      "mimeType" : "image/jpeg",
+      "width" : 445,
+      "height" : 262,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000113", "e000125" ],
+    "marks" : 15,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 4,
+    "3" : 11,
+    "5" : 15
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ ]
+}

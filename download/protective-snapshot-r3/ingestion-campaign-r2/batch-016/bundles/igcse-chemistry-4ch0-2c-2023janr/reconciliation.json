@@ -1,0 +1,52 @@
+{
+  "findings" : [ {
+    "questionNumber" : "1",
+    "qpMarks" : 4,
+    "msMarks" : 4,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "3",
+    "qpMarks" : 9,
+    "msMarks" : 9,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "5",
+    "qpMarks" : 11,
+    "msMarks" : 11,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "6",
+    "qpMarks" : 13,
+    "msMarks" : 13,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "8",
+    "qpMarks" : 8,
+    "msMarks" : 8,
+    "severity" : "match"
+  }, {
+    "questionNumber" : "2",
+    "qpMarks" : null,
+    "msMarks" : 5,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "4",
+    "qpMarks" : null,
+    "msMarks" : 9,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "7",
+    "qpMarks" : null,
+    "msMarks" : 11,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "4",
+    "qpMarks" : null,
+    "msMarks" : null,
+    "severity" : "gap"
+  } ],
+  "qpPaperTotal" : 70,
+  "msPaperTotal" : 70,
+  "paperTotalConflict" : false,
+  "mismatchCount" : 0
+}

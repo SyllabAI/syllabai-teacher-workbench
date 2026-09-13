@@ -1,0 +1,577 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG043119",
+    "session" : "January 2016",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "85af486d-e179-56ff-b401-7e9b8fa30715"
+  },
+  "entries" : [ {
+    "entryId" : "ms-85af486d-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)\nC(ruler)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Quantity"
+    }, {
+      "kind" : "note",
+      "text" : "Unit"
+    }, {
+      "kind" : "note",
+      "text" : "Accept other correct metric units, such asM1kg/mgIgnore imperial units such as lb/ozReject units impossible in a laboratory, such ast andm3M4dm3/ml/lM6mm/mDo not penalise use of capital letters, such asKG/CMAccept word equivalents, such asgram(s), second(s), centimetre(s)M5 alternatives-accept distance/height/width/depth/diameterDo not penalise references to specific examples, such asvolume of gas/length of line"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "balance"
+    }, {
+      "kind" : "note",
+      "text" : "mass"
+    }, {
+      "kind" : "note",
+      "text" : "M1g"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "clock"
+    }, {
+      "kind" : "note",
+      "text" : "M2time"
+    }, {
+      "kind" : "note",
+      "text" : "s"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "note",
+      "text" : "gas syringe"
+    }, {
+      "kind" : "note",
+      "text" : "M3volume"
+    }, {
+      "kind" : "note",
+      "text" : "M4cm3"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "ruler"
+    }, {
+      "kind" : "note",
+      "text" : "M5length"
+    }, {
+      "kind" : "note",
+      "text" : "M6cm"
+    } ],
+    "marks" : 61,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Substance"
+    }, {
+      "kind" : "note",
+      "text" : "Element or compound"
+    }, {
+      "kind" : "note",
+      "text" : "Type of bonding"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore qualifiers for covalent, eg polar/dativeAll 6 correct=3 marks5 or 4 correct=2 marks3 or 2 correct=1 mark1 or 0 correct=0 marks"
+    }, {
+      "kind" : "note",
+      "text" : "ammonia"
+    }, {
+      "kind" : "note",
+      "text" : "compound"
+    }, {
+      "kind" : "note",
+      "text" : "covalent"
+    }, {
+      "kind" : "note",
+      "text" : "hydrogen chloride"
+    }, {
+      "kind" : "note",
+      "text" : "(compound)"
+    }, {
+      "kind" : "note",
+      "text" : "covalent"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "element"
+    }, {
+      "kind" : "note",
+      "text" : "(covalent)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "compound"
+    }, {
+      "kind" : "note",
+      "text" : "ionic"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "B(MgO)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "B(g)"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "does not easily lose/gain electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept has a complete/full outer shell/octet(of electrons)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept has 8 electrons in outer shell"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to being stable/inert/a noble gas"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "B(2.8.18.8)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for idea of electron transfer/loss and gain of electron(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 for direction of transfer"
+    }, {
+      "kind" : "note",
+      "text" : "M3 for number of electrons transferred"
+    }, {
+      "kind" : "note",
+      "text" : "Ca2+"
+    }, {
+      "kind" : "note",
+      "text" : "0/3 for electron sharing"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore covalent"
+    }, {
+      "kind" : "note",
+      "text" : "eg calcium loses, chlorine gains electrons"
+    }, {
+      "kind" : "note",
+      "text" : "eg calcium loses 2,(each) chlorine gains 1"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise use of chloride in place of chlorine once only"
+    }, {
+      "kind" : "note",
+      "text" : "All marks may be scored from a correctly labelled diagram"
+    }, {
+      "kind" : "note",
+      "text" : "Accept Ca2+/Ca++Reject all other ions"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise incorrect use of lower and upper case letters and position of charge"
+    }, {
+      "kind" : "note",
+      "text" : "If equation written containing calcium ion formula,the ion must be identified in some way,such as circling or underlining"
+    }, {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "A calcium(and) calcium"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(d)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(step1) dip a platinum wire into some concentrated hydrochloric acid"
+    }, {
+      "kind" : "note",
+      "text" : "M2(step3) place the wire and sample into non-luminous Bunsen flame"
+    }, {
+      "kind" : "note",
+      "text" : "Accept complete statements or changes"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Do not penalise references to dilute instead of concentrated"
+    }, {
+      "kind" : "note",
+      "text" : "Accept hydrochloric acid/HCl"
+    }, {
+      "kind" : "note",
+      "text" : "M2 Accept blue flame/roaring flame"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to hot/hotter/hottest flame"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "B(lilac)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)\nethene\nethanol",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B (a pressure of 65 atm)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Displayed formula"
+    }, {
+      "kind" : "note",
+      "text" : "All atoms and bonds must be shown"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore bond angles"
+    }, {
+      "kind" : "note",
+      "text" : "C=CH2"
+    }, {
+      "kind" : "note",
+      "text" : "H-CH2-CO-H"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(saturated because) there are only single bonds/all the bonds are singleM2(not a hydrocarbon) because it contains oxygen/another element"
+    }, {
+      "kind" : "note",
+      "text" : "Accept no double bonds/no multiple bondsAccept contains an OH group/an alcohol groupAccept does not contain only hydrogen and carbon"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "Any three of the following:M1correct statement about connection between crude oil and ethene, eg:crude oil is converted/fractionally distilled/cracked to obtain etheneM2correct statement about connection between sugar cane or glucose and ethanol, eg:sugar/glucose is converted into ethanol/sugar/glucose fermented to make ethanolM3correct statement about effect of crude oil being less available, eg:less ethene available/ethene more expensive/ethene production(more) difficultORprocess 1 used less/less favoured/(more) expensive"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore references to time taken to obtain ethene or ethanolIgnore references to purity of ethene or ethanolIgnore references to global warming/finite and renewable resources"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Chemical structure of a cube"
+    }, {
+      "kind" : "note",
+      "text" : "M1 for front face all correctM2 for rear face all correctM2 DEP on M1Do not penalise X in place of +Ignore symbols such as K and ClDo not penalise use of Na+ in place of K+"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(damp blue/red) litmus(paper)M2bleached/goes colourless/goes white2H2O+2e-→H2+2OH-OR2H++2e-→H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore red as intermediate colourAccept use of universal indicator(paper)/pH paperM1 for H2O on lhs AND H2and OH- on rhs and no other formulaeM1 for H+ on lhs AND H2on rhs and no other formulaeM2 for e(-) and balancing of correct equationAcceptM1 H++e-→HM22H→H2M2 DEP on M1Ignore state symbols"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q5",
+    "label" : "5",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "0.0250÷2/0.0125(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 24×0.0125 OR 24000×0.0125M2 0.3(0)dm3/300cm3/0.0003(0)m3"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on(c)(i)Unit needed for M2Accept 1 or more significant figuresCorrect final answer with no working scores(2)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)\nM2 2.25\nM3 21.35\nM1 $\\underline{23.50+23.70}$2\nM2 23.6(0)(cm3)\nM2 0.00268(mol)\n(2\\times0.00268=)0.00535(mol)\nM1 $\\underline{0.00535}$0.02285",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 23.60"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for both M1 and M2 correct but in wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise missing zero in 2nd dp once only"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "ticks in columns 3 and 4"
+    }, {
+      "kind" : "note",
+      "text" : "If no results ticked in(i), then only use of concordant titres can score in(ii)If only one result ticked, then no marks can be scored in(ii)Otherwise, both marks CQ on ticked results"
+    }, {
+      "kind" : "note",
+      "text" : "Answers with zero as 2nd dp do not need trailing zeroAnswers obtained by averaging other titre values do require 2nd dpCorrect final answer with no working scores(2)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 $\\underline{0.107\\times25.0}$1000"
+    }, {
+      "kind" : "note",
+      "text" : "If no division by 1000, only M2 can be scored"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 2 or more significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "CQ on(c)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.234(mol/dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 2 or more significant figures"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(d)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "white precipitate"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore names and formulaeApply list principle for incorrect observations such as bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "barium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "Accept BaSO4If both name and formula given, mark name only"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-85af486d-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 decrease"
+    }, {
+      "kind" : "note",
+      "text" : "M2 no effect"
+    }, {
+      "kind" : "note",
+      "text" : "M3 increase"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of pentane=1.88÷72/0.026(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 molar enthalpy change=51900÷0.026/1996153J"
+    }, {
+      "kind" : "note",
+      "text" : "M3=(-)2000(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer in kJ"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer with correct units scores(3)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 2 or more significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "Accept answer in range1987-2000"
+    }, {
+      "kind" : "note",
+      "text" : "Total for Question 7"
+    }, {
+      "kind" : "note",
+      "text" : "3"
+    }, {
+      "kind" : "note",
+      "text" : "6"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 7,
+    "2" : 5,
+    "3" : 10,
+    "4" : 8,
+    "5" : 11,
+    "6" : 13
+  },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: M4 correct statement about effect of climate change, eg: more sugar can be fermented / more ethanol can be produced / ethanol cheaper / ethanol production easier/easy OR process 2 used more / more favoured / less expensive", "5: bare integer cell \"22\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "5: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"21\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)" ]
+}

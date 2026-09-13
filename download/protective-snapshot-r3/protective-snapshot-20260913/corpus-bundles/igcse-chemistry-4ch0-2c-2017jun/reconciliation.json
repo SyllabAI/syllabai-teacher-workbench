@@ -1,0 +1,22 @@
+{
+  "findings" : [ {
+    "questionNumber" : "1",
+    "qpMarks" : 4,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "3",
+    "qpMarks" : 11,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  }, {
+    "questionNumber" : "5",
+    "qpMarks" : 15,
+    "msMarks" : null,
+    "severity" : "ms-only"
+  } ],
+  "qpPaperTotal" : 60,
+  "msPaperTotal" : null,
+  "paperTotalConflict" : false,
+  "mismatchCount" : 0
+}

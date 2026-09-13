@@ -1,0 +1,132 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1C_msc_20190822",
+    "session" : "Summer 2019",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "fefec614-a4de-5a95-94de-7e207d211a41"
+  },
+  "entries" : [ {
+    "entryId" : "ms-fefec614-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B(the crystal dissolves in water)\nA is not correct as the crystal does not condense\nC is not correct as the crystal does not evaporate\nD is not correct as the crystal does not melt",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A(all of the liquid is purple)"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct as the crystal will remain dissolved"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct as the particles will have diffused throughout the whole of the liquid"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct as the particles will have diffused throughout the whole of the liquid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(diffusion)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct as condensation describes the process of a gas changing into a liquid"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct as crystallisation describes the process of a soluble solid forming from a solution"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct as evaporation describes the process of a liquid changing into a gas"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "A(3)"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct as there are only 3 elements present not 4"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct as there are only 3 elements present not 6"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct as there are only 3 elements present not 7"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-fefec614-q13",
+    "label" : "13",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "b i",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 curve Y starting at origin and below original curve"
+    }, {
+      "kind" : "note",
+      "text" : "M2 levelling off at $42\\mathrm{cm}^{3}$ to + or - half a square"
+    }, {
+      "kind" : "note",
+      "text" : "ii"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve Z starting at origin and above original curve"
+    }, {
+      "kind" : "note",
+      "text" : "c"
+    }, {
+      "kind" : "note",
+      "text" : "M2 levelling off at $84\\mathrm{cm}^{3}$ to + or - half a square"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT curves unlabelledIf curves labelled incorrectly then deduct 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 some gas escapes before the bung is replaced before the syringe is connected"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas escapes unqualified"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the magnesium is impure/the magnesium ribbon has an oxide coating"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE magnesium didn't fully react/reaction didn't go to completionALLOW some gas dissolves in the solution/acid/water"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: Total", "orphan row before first entry: 3 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: diii", "orphan row before first entry: good conductor of electricity", "orphan row before first entry: high density", "orphan row before first entry: high melting point", "orphan row before first entry: unreactive", "orphan row before first entry: Total", "orphan row before first entry: 4 a", "orphan row before first entry: M1 baseline has been drawn in ink", "orphan row before first entry: M2 and therefore it will interfere with/contaminate the results", "orphan row before first entry: ALLOW pencil will not interfere with the results/pencil will not dissolve", "orphan row before first entry: M3 the water level is above the ink spots", "orphan row before first entry: ACCEPT the spots are under water", "orphan row before first entry: M4 and therefore the inks will mix with the water", "orphan row before first entry: b (i)", "orphan row before first entry: A AND B", "orphan row before first entry: An explanation that links together the following two points:", "orphan row before first entry: M1 C", "orphan row before first entry: M2 because the spot/ink did not move (up)", "orphan row before first entry: M2 DEP on M1", "orphan row before first entry: Total", "orphan row before first entry: 5 a", "orphan row before first entry: b", "orphan row before first entry: c i", "orphan row before first entry: ii", "orphan row before first entry: Total", "orphan row before first entry: 6 a", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: c", "orphan row before first entry: IGNORE red or orange alone", "orphan row before first entry: ALLOW precipitate for solid", "orphan row before first entry: M2 solution turns colourless", "orphan row before first entry: IGNORE clear", "orphan row before first entry: IGNORE incorrect initial colour of solution", "orphan row before first entry: IGNORE references to magnesium disappearing", "orphan row before first entry: Total", "orphan row before first entry: 7 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: M2(graphite is soft because) the layers can slide over one another", "orphan row before first entry: IGNOREmention of intermolecular forces between layers in graphite", "orphan row before first entry: Total", "orphan row before first entry: 8 a", "orphan row before first entry: b", "orphan row before first entry: c iii", "orphan row before first entry: M1 add bromine water/solution", "orphan row before first entry: M2 (bromine water/solution) is decolourised/turns (from orange to) colourless", "orphan row before first entry: M2 dep on M1 or near miss", "orphan row before first entry: ALLOW\nM1 add acidified potassium manganate(VII)", "orphan row before first entry: M2 potassium manganate(VII) is decolourised/turns (from purple) to colourless", "orphan row before first entry: REJECT any other initial colour", "orphan row before first entry: d", "orphan row before first entry: Total", "orphan row before first entry: 9 a", "orphan row before first entry: b", "orphan row before first entry: 9 c", "orphan row before first entry: M1 the intermolecular forces (of attraction) are weak", "orphan row before first entry: M2 therefore little energy is required to overcome the forces", "orphan row before first entry: M2 therefore little energy is required to overcome the forces", "orphan row before first entry: IGNORE less energyAny mention of covalent bonds/ionic bonds/metallic bonds breaking scores 0 out of 2", "orphan row before first entry: Total", "orphan row before first entry: 10ai", "orphan row before first entry: ii", "orphan row before first entry: bi", "orphan row before first entry: ii", "orphan row before first entry: 11 a", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: Total", "orphan row before first entry: 12 a", "orphan row before first entry: b", "orphan row before first entry: 12 c", "orphan row before first entry: Total", "orphan row before first entry: 13 a (i)(ii)", "13: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "13: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 13 d", "orphan row before first entry: 13 e", "orphan row before first entry: Total", "orphan row before first entry: 14 a", "orphan row before first entry: b", "orphan row before first entry: c", "orphan row before first entry: d", "orphan row before first entry: 14 e", "orphan row before first entry: M2 until crystals form in a cooled sample/ on a glass rod", "orphan row before first entry: M3 leave the solution to cool/crystallise", "orphan row before first entry: M4 filter (to remove the crystals)", "orphan row before first entry: M5 dry the crystals on filter paper/on paper towel/in a warm oven/in a desiccator/leave to dry", "orphan row before first entry: No M5 if crystals washed after drying", "orphan row before first entry: 14 f i", "orphan row before first entry: ii", "orphan row before first entry: Total", "orphan row before first entry: 15 a", "orphan row before first entry: addition of acidified barium chloride solution", "orphan row before first entry: addition of sodium hydroxide solution", "orphan row before first entry: Addition of sodium hydroxide and gas tested with universal indicator paper", "orphan row before first entry: b i", "orphan row before first entry: ii", "orphan row before first entry: iii", "orphan row before first entry: M1 n[(NH4)2SO4.Fe2(SO4)3=6.65÷532 OR 0.0125(mol)M2 n[H2O]=5.4(0)÷18 OR 0.3(00)(mol)M3 x=0.3(00)÷0.0125M4 x=24ORM2÷M1 evaluated correctly and quoted to the nearest whole number", "orphan row before first entry: correct answer without working scores4", "orphan row before first entry: Total" ]
+}

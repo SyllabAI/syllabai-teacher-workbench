@@ -1,0 +1,676 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : "4CH0/2C",
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2015",
+    "examDate" : "Tuesday 9 June 2015 – Afternoon",
+    "duration" : null,
+    "canonicalDocumentId" : "ac266f2c-30fa-54b4-b673-daae0e7717ef"
+  },
+  "questions" : [ {
+    "questionId" : "q01-ac266f2c",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The table shows the numbers of protons, neutrons and electrons in some atoms and ions.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-ac266f2c-pa",
+      "label" : "a",
+      "text" : "Which particles have the same mass? A electrons and protons B electrons and neutrons C neutrons and protons D electrons, neutrons and protons",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pa-ii",
+      "label" : "a-ii",
+      "text" : "What is the atomic number of P? A 6 B 8 C 12 D 14",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pa-iii",
+      "label" : "a-iii",
+      "text" : "What is the mass number of Q? A 5 B 6 C 10 D 11",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pb",
+      "label" : "b",
+      "text" : "Which group of the Periodic Table contains element T?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pc",
+      "label" : "c",
+      "text" : "Which two letters represent isotopes of the same element?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pc-ii",
+      "label" : "c-ii",
+      "text" : "Which letter represents a positive ion?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-ac266f2c-pd",
+      "label" : "d",
+      "text" : "The diagram shows the arrangement of particles in another ion. How does the diagram show that this ion has a negative charge?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000042",
+        "sourceName" : "assets/crop_1_1789069430789.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069430789.png",
+        "availability" : "available",
+        "assetId" : "img:d0c5c21f34e5c232531ce5a62406096495aa53708dc90a65656087d1e08e2b40",
+        "sha256" : "d0c5c21f34e5c232531ce5a62406096495aa53708dc90a65656087d1e08e2b40",
+        "mimeType" : "image/jpeg",
+        "width" : 890,
+        "height" : 472,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000042",
+      "sourceName" : "assets/crop_1_1789069430789.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069430789.png",
+      "availability" : "available",
+      "assetId" : "img:d0c5c21f34e5c232531ce5a62406096495aa53708dc90a65656087d1e08e2b40",
+      "sha256" : "d0c5c21f34e5c232531ce5a62406096495aa53708dc90a65656087d1e08e2b40",
+      "mimeType" : "image/jpeg",
+      "width" : 890,
+      "height" : 472,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000022" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-ac266f2c",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The equation for the thermal decomposition of copper(II) carbonate is $\\mathrm {C u C O} _ {3} (\\mathrm {s}) \\rightarrow \\mathrm {C u O} (\\mathrm {s}) + \\mathrm {C O} _ {2} (\\mathrm {g})$ She uses this method. weigh the crucible, lid and copper(II) carbonate heat the crucible, lid and contents for 2 minutes allow to cool and then reweigh heat for a second period of 2 minutes allow to cool and then reweigh heat for a third period of 2 minutes allow to cool and then reweigh The table shows the student's results. A student investigates the decomposition of copper(II) carbonate using this apparatus.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-ac266f2c-pa",
+      "label" : "a",
+      "text" : "Why does the mass decrease during heating?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-ac266f2c-pb",
+      "label" : "b",
+      "text" : "State the colours of the solids in the reaction. $\\mathrm {C u C O} _ {3} (\\mathrm {s})$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-ac266f2c-pc",
+      "label" : "c",
+      "text" : "In which experiment might the decomposition not be complete?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-ac266f2c-pc-ii",
+      "label" : "c-ii",
+      "text" : "Give a reason for your choice.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-ac266f2c-pc-iii",
+      "label" : "c-iii",
+      "text" : "Which statement could explain why the decomposition might not be complete? A The student used a higher temperature than in the other experiments. B The student used less copper(II) carbonate than in the other experiments. C The student heated the crucible without a lid on. D The student used a spirit burner instead of a Bunsen burner.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-ac266f2c-pd",
+      "label" : "d",
+      "text" : "In another experiment, the student calculates that she should obtain a mass of 3.7 g of $ \\mathrm{C u O} ( \\mathrm{s} ) $ after completely decomposing a sample of $ \\mathrm{C u C O}_{3} ( \\mathrm{s} ) $ . She actually obtains a mass of 3.4 g of CuO(s). Calculate the percentage yield in her experiment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000048",
+      "sourceName" : "assets/crop_1_1789069430820.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069430820.png",
+      "availability" : "available",
+      "assetId" : "img:6ebe9b53037ad6bf4370bf3e649bd414c5f6073b84c1e94189b18da296e51719",
+      "sha256" : "6ebe9b53037ad6bf4370bf3e649bd414c5f6073b84c1e94189b18da296e51719",
+      "mimeType" : "image/jpeg",
+      "width" : 286,
+      "height" : 442,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000049",
+      "sourceName" : "assets/crop_2_1789069430825.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069430825.png",
+      "availability" : "available",
+      "assetId" : "img:e70d74ed152dc9cd244827467c66b842f866e836a5ad3179d55b3c749a5cef35",
+      "sha256" : "e70d74ed152dc9cd244827467c66b842f866e836a5ad3179d55b3c749a5cef35",
+      "mimeType" : "image/jpeg",
+      "width" : 348,
+      "height" : 111,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000059" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q03-ac266f2c",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about halogens and halides.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-ac266f2c-pa",
+      "label" : "a",
+      "text" : "At room temperature bromine is A a brown gas B a red-brown liquid C a colourless liquid D a grey solid",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pb",
+      "label" : "b",
+      "text" : "Sodium reacts with bromine to form sodium bromide. Balance the equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc",
+      "label" : "c",
+      "text" : "A student carries out some experiments to investigate displacement reactions. She adds some halogen solutions to halide solutions and observes whether a reaction occurs. The table shows her results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-i",
+      "label" : "c-i",
+      "text" : "The table shows that she did not do three experiments. Suggest why she did not do these experiments.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-ii",
+      "label" : "c-ii",
+      "text" : "The table shows that there was no reaction in three experiments. Why was there no reaction in these experiments?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-iii",
+      "label" : "c-iii",
+      "text" : "The student writes this word equation for one of the experiments in which a reaction occurs. $\\mathrm {b r o m i n e} + \\mathrm {p o t a s s i u m i o d i d e} \\rightarrow \\mathrm {p o t a s s i u m b r o m i n e} + \\mathrm {i o d i n e}$ The name of one of the substances is incorrect. Write the correct name of this substance.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-iv",
+      "label" : "c-iv",
+      "text" : "A reaction occurs when the student adds chlorine solution to potassium iodide solution. Complete the chemical equation for this reaction. $\\mathrm {C l} _ {2} +$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-v",
+      "label" : "c-v",
+      "text" : "All displacement reactions are examples of redox reactions. State the meaning of the term redox.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-ac266f2c-pc-vi",
+      "label" : "c-vi",
+      "text" : "The ionic equation for another reaction is $\\mathrm {B r} _ {2} + 2 \\mathrm {I} ^ {-} \\rightarrow 2 \\mathrm {B r} ^ {-} + \\mathrm {I} _ {2}$ Explain which species is oxidised in this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000084" ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-ac266f2c",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The scheme shows some reactions involving ethanol.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-ac266f2c-pa",
+      "label" : "a",
+      "text" : "Two conditions used in reaction 1 are a temperature of about 30 $ ^{\\circ} \\mathrm{C} $ the use of water as a solvent for the glucose State the name of the catalyst used in this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pa-ii",
+      "label" : "a-ii",
+      "text" : "Complete the equation for reaction 1. $\\mathrm {C} _ {6} \\mathrm {H} _ {1 2} \\mathrm {O} _ {6} \\rightarrow 2 \\mathrm {C} _ {2} \\mathrm {H} _ {5} \\mathrm {O H} + \\dots \\dots$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pb",
+      "label" : "b",
+      "text" : "Ethanol can also be manufactured by reaction 3, which uses steam, a catalyst of phosphoric acid and a pressure of about 65 atm. State the temperature used in reaction 3.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pc",
+      "label" : "c",
+      "text" : "State the type of reaction that occurs in reaction 1 reaction 3",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pd",
+      "label" : "d",
+      "text" : "State two advantages of using reaction 3 to manufacture ethanol rather than reaction 1.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pe",
+      "label" : "e",
+      "text" : "Give a reason why some countries use reaction 1 to manufacture ethanol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pf",
+      "label" : "f",
+      "text" : "Reaction 2 may be used in the future to manufacture ethene.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pf-i",
+      "label" : "f-i",
+      "text" : "Write an equation for this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-ac266f2c-pf-ii",
+      "label" : "f-ii",
+      "text" : "What type of reaction is this?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000101",
+      "sourceName" : "assets/crop_1_1789069430904.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069430904.png",
+      "availability" : "available",
+      "assetId" : "img:b42ab54bb5ce886a0bd725f7bcb0abb159bb335412a725b04bef18265519cf1b",
+      "sha256" : "b42ab54bb5ce886a0bd725f7bcb0abb159bb335412a725b04bef18265519cf1b",
+      "mimeType" : "image/jpeg",
+      "width" : 1431,
+      "height" : 236,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-ac266f2c",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student uses this apparatus to measure the temperature change when lithium iodide dissolves in water. He measures the steady temperature of the water before adding the lithium iodide. He then adds the lithium iodide, stirs the mixture until all the solid dissolves and records the maximum temperature reached. The diagram shows the thermometer readings before and after dissolving the lithium iodide.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-ac266f2c-pa",
+      "label" : "a",
+      "text" : "Use the readings to complete the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pb",
+      "label" : "b",
+      "text" : "In a second experiment, using the same mass of water, the student records a temperature increase of $ 4. 9 \\mathrm{~} ^ {\\circ} \\mathrm{C}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pb-i",
+      "label" : "b-i",
+      "text" : "Use this expression to calculate the heat energy change in this experiment. heat energy change = mass of water $ \\times $ 4.2 $ \\times $ temperature change (in joules) (in grams) (in $ ^{\\circ} C $)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "heat energy change" ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pb-ii",
+      "label" : "b-ii",
+      "text" : "In this experiment, 6.3 g of lithium iodide were used. Calculate the amount, in moles, of lithium iodide in 6.3 g. [ $ M_{\\mathrm{r}} $ of lithium iodide=134]",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pc",
+      "label" : "c",
+      "text" : "In a third experiment the student obtains these results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pc-i",
+      "label" : "c-i",
+      "text" : "Calculate the molar enthalpy change, in kJ/mol, in this experiment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-ac266f2c-pc-ii",
+      "label" : "c-ii",
+      "text" : "The temperature change in this experiment shows that dissolving lithium iodide in water to form lithium iodide solution is an exothermic process. Complete the energy level diagram to show the position of the lithium iodide solution. Label the diagram to show $ \\Delta H $ , the molar enthalpy change.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000141",
+        "sourceName" : "assets/crop_1_1789069430979.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069430979.png",
+        "availability" : "available",
+        "assetId" : "img:93fc086598867502f6cf1ffaba084d4e14c112577dca7c3d14a97352d2366c6b",
+        "sha256" : "93fc086598867502f6cf1ffaba084d4e14c112577dca7c3d14a97352d2366c6b",
+        "mimeType" : "image/jpeg",
+        "width" : 629,
+        "height" : 624,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000120",
+      "sourceName" : "assets/crop_1_1789069430925.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069430925.png",
+      "availability" : "available",
+      "assetId" : "img:dd50dbe1385ca2167c27f85303b8ddd10a48c17a9a33d8bfaa064b8838749cdc",
+      "sha256" : "dd50dbe1385ca2167c27f85303b8ddd10a48c17a9a33d8bfaa064b8838749cdc",
+      "mimeType" : "image/jpeg",
+      "width" : 604,
+      "height" : 424,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000124",
+      "sourceName" : "assets/crop_2_1789069430930.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069430930.png",
+      "availability" : "available",
+      "assetId" : "img:30ba39653593ba6fa4bac1192ea1c628d21d3289c0e3b8b6ed6b5b39dd48d2fd",
+      "sha256" : "30ba39653593ba6fa4bac1192ea1c628d21d3289c0e3b8b6ed6b5b39dd48d2fd",
+      "mimeType" : "image/jpeg",
+      "width" : 227,
+      "height" : 826,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000125",
+      "sourceName" : "assets/crop_3_1789069430934.png",
+      "format" : "png",
+      "url" : "assets/crop_3_1789069430934.png",
+      "availability" : "available",
+      "assetId" : "img:d6142698c7757a640178a2d7b59e2a9bb2f733318a41522fdfcc3abb0a18c071",
+      "sha256" : "d6142698c7757a640178a2d7b59e2a9bb2f733318a41522fdfcc3abb0a18c071",
+      "mimeType" : "image/jpeg",
+      "width" : 223,
+      "height" : 831,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000141",
+      "sourceName" : "assets/crop_1_1789069430979.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069430979.png",
+      "availability" : "available",
+      "assetId" : "img:93fc086598867502f6cf1ffaba084d4e14c112577dca7c3d14a97352d2366c6b",
+      "sha256" : "93fc086598867502f6cf1ffaba084d4e14c112577dca7c3d14a97352d2366c6b",
+      "mimeType" : "image/jpeg",
+      "width" : 629,
+      "height" : 624,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000127", "e000136" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-ac266f2c",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Magnesium and its compounds have many uses. Magnesium is never found as an element in the Earth's crust, but its compounds occur naturally in rocks and seawater.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-ac266f2c-pa",
+      "label" : "a",
+      "text" : "Suggest why magnesium is not found as an element in the Earth's crust.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pb",
+      "label" : "b",
+      "text" : "Magnesium can be extracted from seawater by a multi-stage process. stage1 calcium hydroxide reacts with magnesium chloride in seawater to form a precipitate of magnesium hydroxide stage 2 the magnesium hydroxide is filtered off and converted into magnesium chloride solution by reacting it with hydrochloric acid stage 3 the magnesium chloride solution is converted into solid magnesium chloride stage 4 the solid magnesium chloride is melted and electrolysed",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pb-i",
+      "label" : "b-i",
+      "text" : "Which stage involves a neutralisation reaction? A stage 1 B stage 2 C stage 3 D stage 4",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pb-ii",
+      "label" : "b-ii",
+      "text" : "Suggest the name of the other product formed in stage 1.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pb-iii",
+      "label" : "b-iii",
+      "text" : "What happens to the ions in magnesium chloride during melting?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pb-iv",
+      "label" : "b-iv",
+      "text" : "The ionic half-equation for the reaction at the negative electrode in stage 4 is $\\mathrm {M g} ^ {2 +} + 2 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {M g}$ Write the ionic half-equation for the reaction at the positive electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pc",
+      "label" : "c",
+      "text" : "A manufacturer makes a batch of magnesium by electrolysing magnesium chloride.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pc-i",
+      "label" : "c-i",
+      "text" : "Calculate the mass of magnesium chloride $ \\mathrm{(M g C l_{2})} $ needed to make 48 kg of magnesium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pc-ii",
+      "label" : "c-ii",
+      "text" : "Calculate the amount, in moles, of electrons needed to make 48 kg of magnesium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-ac266f2c-pd",
+      "label" : "d",
+      "text" : "Magnesium oxide can be used to make magnesium sulfate by this reaction. $\\mathrm {M g O (s)} + \\mathrm {H} _ {2} \\mathrm {S O} _ {4} (\\mathrm {a q}) \\rightarrow \\mathrm {M g S O} _ {4} (\\mathrm {a q}) + \\mathrm {H} _ {2} \\mathrm {O (I)}$ A student is provided with a beaker of dilute sulfuric acid. Outline the steps she should use to obtain a pure sample of hydrated magnesium sulfate crystals using this reaction. Every effort has been made to contact copyright holders to obtain their permission for the use of copyright material. Pearson Education Ltd. will, if notified, be happy to rectify any errors or omissions and include any such rectifications in future editions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 7,
+    "3" : 10,
+    "4" : 10,
+    "6" : 14
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: QUESTION 6 CONTINUES ON THE NEXT PAGE", "unclassified heading: TOTAL FOR PAPER = 60 MARKS", "Q2: incomplete MCQ option set folded into stem" ]
+}

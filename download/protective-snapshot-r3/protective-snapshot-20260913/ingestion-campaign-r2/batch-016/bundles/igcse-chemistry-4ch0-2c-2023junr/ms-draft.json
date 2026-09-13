@@ -1,0 +1,513 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P71953A",
+    "publicationCode" : "4CH1_2CR_2306_MS",
+    "session" : "Summer 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "0647b12b-43e7-5728-8be9-61999a85d2fb"
+  },
+  "entries" : [ {
+    "entryId" : "ms-0647b12b-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "All 4 correct=(2)2 or 3 correct=(1)0 or 1 correct=(0)"
+    }, {
+      "kind" : "note",
+      "text" : "Subatomic particle"
+    }, {
+      "kind" : "note",
+      "text" : "Relative mass"
+    }, {
+      "kind" : "note",
+      "text" : "Relative charge"
+    }, {
+      "kind" : "note",
+      "text" : "proton"
+    }, {
+      "kind" : "note",
+      "text" : "+1"
+    }, {
+      "kind" : "note",
+      "text" : "neutron"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A increasing atomic numberB is incorrect as elements are not arranged in order of increasing melting pointC is incorrect as elements are not arranged in order of increasing reactivityD is incorrect as elements are not arranged in order of increasing relative atomic mass"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D Group 5 Period 3A is incorrect as phosphorus is not in Group 2 and Period 5B is incorrect as phosphorus is not in Group 3 and Period 5C is incorrect as phosphorus is not in Group 5 and Period 2"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Xe/xenonM2 because it has a full outer shell(of electrons)/8 electrons in the outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1IGNORE refs to noble gas"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Physical state at room temperature\ngas\ngas\nliquid\nsolid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Colour"
+    }, {
+      "kind" : "note",
+      "text" : "pale green/yellow"
+    }, {
+      "kind" : "note",
+      "text" : "green"
+    }, {
+      "kind" : "note",
+      "text" : "red-brown"
+    }, {
+      "kind" : "note",
+      "text" : "grey"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bromine water/bromine solutionM2 turns colourless/decolourised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW aqueous bromineIGNORE any starting colourM2 is dep on mention of bromine in M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (mixture) turns (from colourless) to brownM2 iodine/ $I_{2}$ is displacedOR(chlorine reacts with iodide ions) to produce/form iodineM3 (because) chlorine is more reactive (than iodine)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW red-brown/orange-brownREJECT iodideIGNORE a displacement reaction occursM2 can be scored by $I_{2}$ as a product in a balanced equation or by a word equationALLOW reverse argumentREJECT iodide, except if already penalised in M2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "magnesium"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 gold"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE silver"
+    }, {
+      "kind" : "note",
+      "text" : "M2 is the least reactive"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW it is (the most) unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(an alloy is) a mixture of metals"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "(an alloy is) a mixture of a metal and another metal"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (an alloy is) a mixture of a metal and carbon"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to compounds / combining of metals"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(ii)\nM1 the regular arrangement of atoms is distorted / disrupted / disturbed OWTTE\nOR\ncarbon atoms are smaller than iron atoms / because iron atoms are larger than carbon atoms\nM2 (therefore) it is more difficult for the atoms/layers to slide over one another\nALLOW carbon and iron atoms are of different sizes\nALLOW the atoms are not the same size / the atoms are different sizes\nIGNORE references to the strength of metallic bonds",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW lattice / layers / rows of atoms are disrupted / distorted / are less regular / are irregular"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nIGNORE used as fuels",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "refinery gases:(fuel for) heating/cookingbitumen:tar/road surfacing/road building/roofing"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW bottled gasALLOW roads"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "any one from:refinery gases have the low(est) boiling pointORrefinery gases do not condense in the column"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW they are the most volatileREJECT refs to melting point"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "it is heated/vaporised"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any temperatures givenALLOW boiled"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 temperature 600-700℃M2 catalyst alumina/silica/zeolites/aluminium oxide/silicon dioxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any temperature in the rangeIGNORE pressures"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "an explanation containing any three of the following points:M1 alkenes/propene/C3H6can be used to make(addition) polymers/plastics"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW used to make poly(propene)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because) they have double bonds/areunsaturatedM3 shorter alkanes/octane/C8H18are used as fuels/petrolM4(because) they have lower boiling points/are more flammable"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to make alcohols/propanol"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 mix / react the two solutions (together)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE volumes"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE heating at this stage"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT an indication that solids are mixed for M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2 filter (the solid lead bromide)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 wash (using deionised water)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any washing before filtering"
+    }, {
+      "kind" : "note",
+      "text" : "M4 method of drying"
+    }, {
+      "kind" : "note",
+      "text" : "eg leave to dry / dry in an oven / leave in a warm place / dry with filter paper"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT direct heating of final product for M4"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if solid is washed again after drying for M4"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 0.150×367 OR 55.05g"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (49.6÷55.05)×100"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 0.135"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (49.6÷367) OR 0.1351"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (0.1351÷0.150)×100"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a final answer of 90% by either method"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT (49.6÷0.15)=330.67 (330.67÷367)×100 for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "all 6 points plotted ± half a square"
+    }, {
+      "kind" : "note",
+      "text" : "straight line of best fit ignoring the anomalous result at volume=20cm3"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(electrostatic attraction between positive ions",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT(electrostatic attraction between positive) nuclei of (metal) atoms"
+    }, {
+      "kind" : "note",
+      "text" : "M2(and) delocalised electrons"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any references to ionic bonding/sharing of electrons/intermolecular forces for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(squeaky) pop with lighted splint/lit with a(Bunsen) flame"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREjust‘burns with a squeaky pop’"
+    }, {
+      "kind" : "note",
+      "text" : "any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT use of glowing splint"
+    }, {
+      "kind" : "note",
+      "text" : "M1lilac/ purple flame"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW flame"
+    }, {
+      "kind" : "note",
+      "text" : "M2potassium melts/turns into a ball"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT other colours"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M3potassium moves on the surface"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW floats"
+    }, {
+      "kind" : "note",
+      "text" : "M4potassium gets smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium disappears/dissolves"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREfizzing/bubbles etc"
+    }, {
+      "kind" : "note",
+      "text" : "an explanation linking the following points:"
+    }, {
+      "kind" : "note",
+      "text" : "M1lithium has fewer shells than potassium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW lithium has smaller atoms than potassium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(outer shell) electron in lithium is closer to the nucleus"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct electron configurations"
+    }, {
+      "kind" : "note",
+      "text" : "M2outer shell/outer electron in lithium is more strongly attracted to the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT‘fewer outer shells’"
+    }, {
+      "kind" : "note",
+      "text" : "M3(so in lithium the outer shell) electron is less easily lost"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWouter shell/outer electron in lithium is less shielded(by inner shells)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT valence electron"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument throughout for potassium"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-0647b12b-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 the forward and reverse reactions occur at the same rate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so the concentrations of reactants and products remain constant"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW so the moles of reactants and products remain constant"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT so the concentrations of reactants and products are the same"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "a catalyst increases the rate of (both) the forwards and the reverse reaction equally"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW has the same effect on the rate of forward and reverse reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 yield increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the (forward) reaction is exothermic"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the reverse reaction is endothermic"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any references to Le Chatelier's Principle (moves/shifts)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 yield increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2 there are more moles of (gaseous) reactants than products/there are fewer (gaseous) moles on the right hand side/there are 3 moles (of gas) on the left and 1 mole (of gas) on the right ORA"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any references to Le Chatelier's Principle (moves/shifts)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 correct or missing"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"0\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: REJECT directly proportional", "orphan row before first entry: ACCEPT negative correlation between volume of lead(II) nitrate and electrical conductivity", "orphan row before first entry: ALLOW the conductivity increases when the volume of lead(II) nitrate decrease", "orphan row before first entry: M2 there are fewer ions in the mixture", "orphan row before first entry: (iv)", "orphan row before first entry: REJECT the student added less /too little lead(II) nitrate solution", "orphan row before first entry: (v)", "orphan row before first entry: (d)", "orphan row before first entry: Total 13", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: (e)", "orphan row before first entry: Total15", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Total 14" ]
+}

@@ -1,0 +1,470 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_msc_20200305",
+    "session" : "January 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "520f4405-753d-5882-876e-e0f577befa8b"
+  },
+  "entries" : [ {
+    "entryId" : "ms-520f4405-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 electrons are delocalised"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sea of electrons/free electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M2(electrons) can move/can flow/are mobile"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT cations/atoms move for both marksM2 dep on M1 or mention of electrons i.e.‘electrons move’ scores 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 brown/pink/pink-brown solid formed"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT brown/pink coating/deposit on the electrodeALLOW red-brownREJECT orangeREJECT precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "M2 bubbles/fizzing/effervescence"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 1 mark if both observations correct but at incorrect electrodesIGNORE gas produced/evolved/releasedIGNORE name of gas"
+    }, {
+      "kind" : "note",
+      "text" : "copper ion(s)/Cu2+ gains electrons"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT oxidation state of copper goes down/ goes from +2 to 0IGNORE references to loss of oxygenALLOW electrons are gainedREJECT copper/Cu gains electrons"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the (blue) colour is caused by copper ions/Cu2+M2 copper ions/Cu2+ are being discharged/removed from the solution"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT concentration of copper ions/Cu2+ decreasesALLOW copper ions/Cu2+ form copper"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calculate the mass of water removedcalculate the amount in moles ofCuSO4calculate the amount in moles of waterdivide amount ofH2O by amount ofCuSO4Example calculationM1(12.5-8.0)=4.5(g)M2n(CuSO4)=8.0÷159.5=0.05(0)(mol)M3n(H2O)=4.5÷18=0.25(mol)M40.25÷0.05(0)(=5)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "calculate the mass of water removedcalculate the amount in moles ofCuSO4calculate the amount in moles of waterdivide amount ofH2O by amount ofCuSO4Example calculationM1(12.5-8.0)=4.5(g)M2n(CuSO4)=8.0÷159.5=0.05",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "calculate the mass of water removedcalculate the amount in moles ofCuSO4calculate the amount in moles of waterdivide amount ofH2O by amount ofCuSO4Example calculationM1(12.5-8.0)=4.5(g)M2n(CuSO4)=8.0÷159.5=0.05"
+    }, {
+      "ordinal" : 2,
+      "text" : "(mol)M3n(H2O)=4.5÷18=0.25(mol)M40.25÷0.05",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(mol)M3n(H2O)=4.5÷18=0.25(mol)M40.25÷0.05"
+    }, {
+      "ordinal" : 3,
+      "text" : "(=5)",
+      "marks" : null,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "(=5)"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT alternative methods which show that the answer is 5"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(from) yellow",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2(to) orange"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT red"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW pink"
+    }, {
+      "kind" : "note",
+      "text" : "1 mark for two correct colours in the wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that makes reference to any four of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1he should not rinse flask with sodium hydroxide solution or he should rinse flask with water"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT he should use a pipette instead of a measuring cylinder"
+    }, {
+      "kind" : "note",
+      "text" : "M2he should use a pipette to measure out the sodium hydroxide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M3he should not rinse the burette with water or he should rinse the burette with sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "M4he should record the initial burette reading"
+    }, {
+      "kind" : "note",
+      "text" : "M5he should place a white tile under the flask"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW white paper"
+    }, {
+      "kind" : "note",
+      "text" : "M6he should swirl the flask whilst adding the acid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE stir"
+    }, {
+      "kind" : "note",
+      "text" : "M7he should add the acid dropwise near the end-point"
+    }, {
+      "kind" : "note",
+      "text" : "M8repeat the titration(to obtain an average/ concordant results)"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calculate the amount, in moles, of sodium hydroxidecalculate the amount, in moles, of sulfuric acidcalculate the concentration of sulfuric acidExample calculationM1n(NaOH)=0.0250×0.200or0.005(mol)M2n(H2SO4)=0.005÷2or0.0025(mol)M3concn=(0.0025÷0.0167)=0.150(mol/dm3)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "answer to M1÷2answer to M2÷0.0167ALLOW0.1497or any number of sig fig except oneCorrect answer without working scores3ACCEPT alternative methods"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B it relights a glowing splintA is incorrect as this is the test for hydrogenC is incorrect as oxygen is not an acidic gasD is incorrect as this is the test for carbon dioxide",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 provides an alternative pathway OWTTEM2 with a lower activation energy OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT more collisions with energy greater than the activation energyALLOW lowers the energy needed to start the reaction"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q5ci",
+    "label" : "5(c)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "find energy needed to break bonds\nfind energy released when bonds form\ncorrect subtraction to find ΔH\nExample calculation\nM1(4x463)+(2x143)OR2138(kJ)\nM2(4x463)+498OR2350(kJ)\nM3-212(kJ)ORM1-M2correctly evaluated\nEnergy\n2H2O2\nΔH\n2H2O+O2\nM1horizontal line to show products in correct position and correctly labelled\nM2vertical line in correct position and labelled ΔH",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT(2x143)/286 for M1and498 for M2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any signs in M1andM2"
+    }, {
+      "kind" : "note",
+      "text" : "-212withorwithoutworkingscores3"
+    }, {
+      "kind" : "note",
+      "text" : "(+)212withorwithoutworkingscores2"
+    }, {
+      "kind" : "note",
+      "text" : "MarkCQonsignin(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTdoubleheadedarroworarrowpointingfromreactantsleveltoproductslevel"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTarrowpointingfromproductsleveltoreactantslevel"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREanyattemptsatincludingactivationenergy"
+    }, {
+      "kind" : "note",
+      "text" : "Total8"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 300(℃)\nAll bonds including bond between O and H must be shown.",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any temperature or range 250 to 350 inclusive."
+    }, {
+      "kind" : "note",
+      "text" : "M2 60 to 70(atm)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any correct alternative unit and quantity"
+    }, {
+      "kind" : "note",
+      "text" : "C2H5OH+3O2→2CO2+3H2O"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any pressure or range 60 to 70 inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C2H5OH+3O2→2CO2+3H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M1 all formulae correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW C2H6O for ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "M2 balancing of correct formulae"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) prevents blood from carrying oxygen/ reduces the capacity of blood to carry oxygen OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to combining with haemoglobin in red blood cells or forming carboxyhaemoglobin"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "ethyl ethanoate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW ethyl acetate"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "condensation (polymerisation)"
+    }, {
+      "kind" : "note",
+      "text" : "C=C-CH2CH2-C-O-CH2CH2-O-+2H2O"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct ester link"
+    }, {
+      "kind" : "note",
+      "text" : "M2 rest of polymer structure correct with extension bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M3 2H2O"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT"
+    }, {
+      "kind" : "note",
+      "text" : "C=C-CH2CH2-C-O-CH2CH2-"
+    }, {
+      "kind" : "note",
+      "text" : "for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "If brackets and n present equation must be fully balanced with n in front of each reactant and 2nH2O for full marks, otherwise max 2"
+    }, {
+      "kind" : "note",
+      "text" : "If dimer is drawn with OH at one end and COOH at the other a mark can be awarded for H2O without the 2 as this equation is then balanced, so M1 and M3 can be awarded."
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "calcium+water→calcium hydroxide+hydrogen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT fully correct balanced chemical equationCa+2H2O→Ca(OH)2+H2IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1 effervescence/fizzing/bubbles"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas given off"
+    }, {
+      "kind" : "note",
+      "text" : "M2 calcium/metal/solid disappears/becomes smaller OWTTEM3 test tube/beaker feels warm/hot"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW calcium/metal/solid dissolvesALLOW heat produced/temperature increases"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that makes reference to the following five points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 dissolve each of the solids in water/make a solution of each of the solids"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 and M2 if just one of the solids is dissolved in water and then the other solid is added to it."
+    }, {
+      "kind" : "note",
+      "text" : "M2 mix/add (the two solutions together)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 or on reference to the solutions being mixed"
+    }, {
+      "kind" : "note",
+      "text" : "M3 filter (the mixture)"
+    }, {
+      "kind" : "note",
+      "text" : "If implication is that filtering is to obtain crystals from the solution no M3"
+    }, {
+      "kind" : "note",
+      "text" : "M4 wash the precipitate/solid/barium sulfate/salt/residue (with water)"
+    }, {
+      "kind" : "note",
+      "text" : "M5 suitable method of drying the solid"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. dry in a (warm) oven/dry between filter papers"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW leave to dry"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT hot oven or direct heating (with Bunsen burner)If evaporation of solution to form crystals do not award M4 but allow M5 for suitable drying method"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-520f4405-q7ci",
+    "label" : "7(c)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C decompositionA is incorrect as it is not an addition reactionB is incorrect as oxygen is not a reactantD is incorrect as nothing is neutralised here",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "calculate the amount, in moles, of magnesium nitrateuse the equation to find the total amount, in moles, of gas producedmultiply this amount by 24answer given to two significant figuresExample calculationM1 n(magnesium nitrate) = 7.7÷148 or 0.052(mol)M2 n(gas) = 5x0.052÷2or0.13(mol)M3 Total volume of gas = 0.13x24or3.12M4 3.1(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "5x answer toM1÷2answer toM2x24answer toM3to2 sig figAllow any number of sig fig forM1,M2andM33.1 without working scores43.12 without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "Total 15"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(b)", "orphan row before first entry: (paper) chromatography", "orphan row before first entry: 1", "orphan row before first entry: (c)(i)(ii)(iii)", "orphan row before first entry: air", "orphan row before first entry: sulfur", "orphan row before first entry: Total 5", "orphan row before first entry: 2(a)(b)", "orphan row before first entry: aircraft fuel/jet fuel/paraffin or fuel for lamps/heaters", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: (Mr=4x12+10x1=)58", "orphan row before first entry: (d)(i)(ii)", "orphan row before first entry: CnH2n+2", "orphan row before first entry: 2(e)(i)(ii)(f)", "orphan row before first entry: An explanation that links the following two points", "orphan row before first entry: M1 greater demand for short chain alkanes(than long chain alkanes)", "orphan row before first entry: M2 more long-chain alkanes than are needed/too great a supply of/surplus of long-chain alkanes", "orphan row before first entry: OR not enough short chain alkanes to meet demands", "orphan row before first entry: (f)", "orphan row before first entry: M1 C2H4", "orphan row before first entry: M2 C4H8", "orphan row before first entry: Total 11", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(c)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"13\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "7(c)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)" ]
+}

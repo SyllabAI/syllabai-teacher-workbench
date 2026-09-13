@@ -1,0 +1,869 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P75820A",
+    "publicationCode" : "4CH1_1C_2406_MS",
+    "session" : "Summer 2024",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "dea3eaf3-b1a7-5b42-a475-14d77e5e39bf"
+  },
+  "entries" : [ {
+    "entryId" : "ms-dea3eaf3-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a good conductor of electricity\nan element that is a liquid at room temperature\na substance that can be used to form a polymer\nan element that forms a basic oxide\na substance that has a giant covalent structure",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Description"
+    }, {
+      "kind" : "note",
+      "text" : "Substance"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Li"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Br/Br2"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT Br-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW C2H4"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Li"
+    }, {
+      "kind" : "note",
+      "text" : "lithium"
+    }, {
+      "kind" : "note",
+      "text" : "bromine"
+    }, {
+      "kind" : "note",
+      "text" : "ethene"
+    }, {
+      "kind" : "note",
+      "text" : "lithium"
+    }, {
+      "kind" : "note",
+      "text" : "diamond"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1(use damp blue) litmus paper"
+    }, {
+      "kind" : "note",
+      "text" : "M2(litmus paper) bleached/turns white"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore gas/solution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW universal indicator paper"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT blue litmus paper turns red and then bleached"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE gas/solution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW"
+    }, {
+      "kind" : "note",
+      "text" : "M1 bromide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M2 turns brown"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT iodide solution"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Red litmus paper turns blue then bleaches/turns white scores M1 only"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "most reactive Q"
+    }, {
+      "kind" : "note",
+      "text" : "S"
+    }, {
+      "kind" : "note",
+      "text" : "R"
+    }, {
+      "kind" : "note",
+      "text" : "least reactive P"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "R"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium+hydrochloric acid→aluminium chloride+hydrogen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW"
+    }, {
+      "kind" : "note",
+      "text" : "2Al+6HCl→2AlCl3+3H2or multiples or fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "copper/silver/gold"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW platinum or any other metal that does not react with hydrochloric acid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct symbol"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "explosive/dangerous/violent/unsafe"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE volatile/vigorous"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "heat/thermal energy is given out/released(to the surroundings)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE energy on its own"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium is more reactive/higher in the reactivity series(than iron)ORA"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT aluminium is a better/stronger reducing agent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Al"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 aluminium/Al gains oxygen and iron(III) oxide/Fe2O3 loses oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so) aluminium/Al is oxidised and iron(III) oxide/Fe2O3 is reduced"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Aluminium/Al gains oxygen so is oxidised"
+    }, {
+      "kind" : "note",
+      "text" : "M2 Iron(III) oxide/Fe2O3 loses oxygen so is reduced"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT aluminium/Al loses electrons and iron ions/Fe3+ gain electrons for M1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT correct changes in oxidation numbers"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT aluminium/Al loses electrons so is oxidised scores for M1 and iron ions/Fe3+ gain electrons so is reduced for M2"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT iron loses oxygen for M2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nM2 7.2×1024\nM2 79.0×24+10.0×25+11.0×26 OR 2432\nM3 79.0×24+10.0×25+11.0×26 OR 2432 OR 24.32100100\nM4 24.3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW two"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW three"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "ZF2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW MgF2ALLOW F2MgALLOW F2ZREJECT MgFI2Penalise incorrect case or superscripts"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 12×6.0×1023"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf if incorrect number of electrons x6.0×1023ALLOW ecf if /12 ONLY rather than x12 giving5(.0)×1022"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(isotopic masses)24,25 and 26"
+    }, {
+      "kind" : "note",
+      "text" : "M2 subsumes M1"
+    }, {
+      "kind" : "note",
+      "text" : "24.3 without working scores4"
+    }, {
+      "kind" : "note",
+      "text" : "24.32 without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "M4 scores only if numbers from the table are used."
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Mg"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q4",
+    "label" : "4",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "24"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer of 194 scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 12×8+1×10+14×4+16×2"
+    }, {
+      "kind" : "note",
+      "text" : "No ECF"
+    }, {
+      "kind" : "note",
+      "text" : "M2 194"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "C4H5N2O"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW atoms in any order"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(simple) distillation"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to two of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (the condenser/X) cools the (ethanol) vapourM2 so it condenses OR forms liquid (ethanol)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calcium bromide is a giant (ionic) lattice/structureM2 with many/strong electrostatic attractions between (oppositely charged) ions"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW many/strong ionic bondsNo M2 if covalent bonds or IMF given here"
+    }, {
+      "kind" : "note",
+      "text" : "M3 caffeine has a simple molecular structure"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW simple covalent structure"
+    }, {
+      "kind" : "note",
+      "text" : "M4 caffeine has weak intermolecular forces/weak forces between molecules"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT weak forces between bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M5 more energy is needed to break the electrostatic attractions (in calcium bromide) than to overcome the intermolecular forces (in caffeine) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "No M5 if reference to breaking covalent bondsNo M5 if reference to incorrect bonds"
+    }, {
+      "kind" : "note",
+      "text" : "Total 12"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW dye in place of spot throughout question 5"
+    }, {
+      "kind" : "note",
+      "text" : "M1 They will not dissolve/diffuse into the solvent (at the bottom of beaker) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so that the dyes can travel up the paper"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 E and H"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2 as the dye is/both have a spot at the same level/travelled the same distance/same Rf value"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 The student can only be certain about G containing one dye as only one spot"
+    }, {
+      "kind" : "note",
+      "text" : "M2 As F is insoluble/not moved (so you cannot tell how many dyes it has) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 distance from baseline to solvent level in mm=65"
+    }, {
+      "kind" : "note",
+      "text" : "M2 distance from baseline to spot/dye in mm=39"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any value between 38 and 41 inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "M3 ($R_{f}$ value=39÷65=)0.6"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any value between0.57 and0.64M3 not awarded if value is incorrectly rounded"
+    }, {
+      "kind" : "note",
+      "text" : "Total 9"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any 2 from",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "M2 moves"
+    }, {
+      "kind" : "note",
+      "text" : "moves on surface scores"
+    }, {
+      "kind" : "note",
+      "text" : "M3 floats"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "M4 disappears/get smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M5 melts/forms a ball/forms a sphere"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE heat produced"
+    }, {
+      "kind" : "note",
+      "text" : "M6 white trail"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE flame"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "Mark independently"
+    }, {
+      "kind" : "note",
+      "text" : "M1(the phenolphthalein) turns pink"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW an alkaline solution/an alkali is produced"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because)OH-ions/hydroxide ions are present"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT red or purple"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because)OH-ions/hydroxide ions are present"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE metal oxide forms"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1(to remove)any other ions/chemicals/impurities/substances/elements(that may be on the wire)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so that)they do not interfere with/mask the colour of the flame/change the flame colour"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(red)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as lithium ions do not give a lilac flame"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as lithium ions do not give an orange flame"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as lithium ions do not give a yellow flame"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1potassium ion K+"
+    }, {
+      "kind" : "note",
+      "text" : "M2aluminium ion Al3+"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Al3+"
+    }, {
+      "kind" : "note",
+      "text" : "M3sulfate ion SO42-"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW SO42-"
+    }, {
+      "kind" : "note",
+      "text" : "All three correct 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "Any two correct 1 mark"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "D(80%)A is incorrect as there is not approximately1% of nitrogen in the atmosphereB is incorrect as there is not approximately20% of nitrogen in the atmosphereC is incorrect as there is not approximately70% of nitrogen in the atmosphere"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M13 pairs of electrons between the two nitrogen atomsM2 rest of molecule fully correct"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any combination of dots and crossesM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "4NO2+2H2O+O2→4HNO3M1 all formulae correctM2 balancing of correct formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples and fractionsIGNORE state symbols even if incorrectM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "any one environmental effect of acid raine.g. acidifies lakes/kills fish/deforestation/damages plants/corrodes marble statues/corrodes buildings"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any other environmental effectREJECT ozone layerIGNORE climate change"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "D(NH4)2CO3A is incorrect asNH3CO3is not the formula of ammonium carbonateB is incorrect as(NH3)2CO3is not the formula of ammonium carbonateC is incorrect asNH4CO3is not the formula of ammonium carbonate"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links the following two points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(compounds with) the same molecular formula"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same number of carbons and hydrogens/atoms of each element"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT elements with the same molecular formula"
+    }, {
+      "kind" : "note",
+      "text" : "M2but different structural/displayed formulae"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW different structures/arrangements of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2independent of M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "Must show all bonds"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW cis and trans isomers for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A(addition)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as this is not a combustion reaction"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as this is not a decomposition reaction"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as this is not a substitution reaction"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE brackets and n"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal 11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "carbon dioxide/a gas is given off"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE marble dissolving"
+    }, {
+      "kind" : "note",
+      "text" : "to prevent acid spray from leaving the flask OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE to stop solid from escaping"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two linked pairs from the following:"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE comments linked to rate of reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the curve is steep(est) at the start/the loss in mass is fastest at the start"
+    }, {
+      "kind" : "note",
+      "text" : "Max 2 marks for M1,M3 and M5"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the acid concentration is highest/maximum number of reacting particles"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M3 curves becomes less steep/the loss in mass slows down"
+    }, {
+      "kind" : "note",
+      "text" : "M4 acid becomes more dilute/less concentrated"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M5 curve levels off/becomes flat/plateaus/the loss in mass stops"
+    }, {
+      "kind" : "note",
+      "text" : "M6 acid has been used up"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve drawn starting at the origin and below the original curve"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following three points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the rate of reaction would increase/be faster"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (because) the smaller marble chips have a greater surface area"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE less chance of collisions"
+    }, {
+      "kind" : "note",
+      "text" : "M3 (so) there will be more collisions per unit time"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT more frequent collisions"
+    }, {
+      "kind" : "note",
+      "text" : "MAX 1 mark if reference to particles having more energy or moving faster"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-dea3eaf3-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Mg+2HNO3→Mg(NO3)2+H2\nhighest temperature reached in℃\ntemperature rise in℃",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "temperature of the acid at the start in℃"
+    }, {
+      "kind" : "note",
+      "text" : "16.0"
+    }, {
+      "kind" : "note",
+      "text" : "Must be given to 1dpALLOW ECF from incorrect highest temperature reachedALLOW ECF from an incorrect starting temperature"
+    }, {
+      "kind" : "note",
+      "text" : "32.4"
+    }, {
+      "kind" : "note",
+      "text" : "16.4"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1Q=40×4.2×16.4M22755(J)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig figs except1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "·find the amount of magnesium in moles·divide Q by n·convert answer in J/mol to kJ/mol·answer including sign to 2sfM1n(Mg)=0.12÷24OR0.005M2Q÷nOR2755÷0.005OR551000(J/mol)M3551000÷1000OR551(kJ/mol)M4-550(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with minus sign and without working scores4ACCEPT use of 2760 or 2800ALLOW ECF on incorrect answer to(i)and/or M1ALLOW ECF on incorrect answer to M2ALLOW ECF on incorrect answer to M3M4-to score must be to 2sf and have correct signUse of 2800 gives an answer of-560(kJ/mol)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4: bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(ii)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: Test for ammonium ions", "orphan row before first entry: M1 add sodium hydroxide solution (and heat)", "orphan row before first entry: M2 test the gas/ammonia with (damp) red litmus paper", "orphan row before first entry: M3 (red litmus) turns blue", "orphan row before first entry: Test for carbonate ions", "orphan row before first entry: M4 add (hydrochloric) acid ONLY", "orphan row before first entry: M5 test the gas/carbon dioxide with limewater", "orphan row before first entry: M6 (limewater) turns cloudy/milky/white precipitate", "orphan row before first entry: No M5 and M6 if limewater added directly to the solution.", "orphan row before first entry: Total 13", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: (d)", "orphan row before first entry: (e)(i)", "orphan row before first entry: M1 correct balancingM2 correct state symbols", "orphan row before first entry: (ii)", "orphan row before first entry: Total 15", "9: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)" ]
+}

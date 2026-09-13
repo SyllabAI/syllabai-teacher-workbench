@@ -1,0 +1,865 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_1C_2011_MS",
+    "session" : "November 2020",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d1b85e6b-1de4-5d58-8a20-99909f028cb6"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d1b85e6b-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Boron/B"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Na/Mg/Al"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Silicon/Si"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "Nitrogen/N"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW N2"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "aluminium oxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Al2O3"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D Group 0 is correct because Group 0 contains elements that are all unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "1 comp"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because Group 2 does not contain elements that are all unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because Group 5 does not contain elements that are all unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because Group 6 does not contain elements that are all unreactive"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "B lithium is correct because lithium is the least reactive element in Group 1"
+    }, {
+      "kind" : "note",
+      "text" : "1 comp"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because caesium is not the least reactive element in Group 1"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because potassium is not the least reactive element in Group 1"
+    }, {
+      "kind" : "note",
+      "text" : "D is not correct because sodium is not the least reactive element in Group 1"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "ice turns into water solid carbon dioxide turns directly into a gas a solute is stirred into a solvent",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark for each correct line form boxes on left If more than one line from a box on left column do not award mark for that box"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "a description includingM1 measure the melting pointM2 if fixed/sharp melting point the substance is pureM3 if melts over range of temperatures the substance is a mixture"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW measure boiling point for M1 and substitute b.p.for m.p in M2 and boils for melts in M3ALLOW max 2 if reference to freezing point as opposed to melting point"
+    }, {
+      "kind" : "note",
+      "text" : "3 grad"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nIGNORE references to electrons",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Q"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "might be explosive/dangerous/unsafe"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "R S P Q"
+    }, {
+      "kind" : "note",
+      "text" : "1 cler"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "galvanising/galvanisation"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from paint/oil/grease/sacrificial protection OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE barrier methodIf answer to(i) missing or incorrect credit galvanising in(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "zinc displaces copper"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW zinc replaces copper/zinc takes oxygen from copper"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 copper(II) oxide/CuO"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW because copper(II) oxide/CuO/it gives oxygen to zinc/is reduced"
+    }, {
+      "kind" : "note",
+      "text" : "2 expert"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because copper(II) oxide/CuO/it loses oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1 or near misse.g. Cu as it gives oxygen to zinc scores 1 mark for M2"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "hydroxide/OH-",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW HO-REJECT OH"
+    }, {
+      "kind" : "note",
+      "text" : "C11is correct because11is a possiblepHforammonia solutionA is not correct because3is not a possiblepHforammonia solutionB is not correct because6is not a possiblepHforammonia solutionD is not correct because14is not a possiblepHforammonia solution"
+    }, {
+      "kind" : "note",
+      "text" : "1comp"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C a proton donor is correct becausean acid actsas a proton donorA is not correct becausean acid does not actas a neutron donorB is not correct becausean acid does not actas a neutron acceptorD is not correct becausean acid does not actas a proton acceptor"
+    }, {
+      "kind" : "note",
+      "text" : "1comp"
+    }, {
+      "kind" : "note",
+      "text" : "C is correct becausephenolphthalein is pink in alkaliand colourless in acidA is not correct becausephenolphthalein is not orange in alkali and red in acidB is not correct becausephenolphthalein is not yellow in alkali and red in acidD is not correct becausephenolphthalein is not colourless in alkali and pink in acid"
+    }, {
+      "kind" : "note",
+      "text" : "1comp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from\nM1 all in Group 7/same group\nM2 because all have 7/same number of electrons in outer shell\nM3 the number of shells determines the Period they are in\nM2 and nuclei of the two/both atoms(in the bond)ORM1 bonding/shared pair of electronsM2 attracted to (both) nuclei of atoms(in the bond)\nM2 rest of molecule correct including the three lone pairs of electrons around chlorine atom",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Ultraviolet radiation"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW UV radiationALLOW ultraviolet light/UV light/ultraviolet rays/UV rays"
+    }, {
+      "kind" : "note",
+      "text" : "1cler"
+    }, {
+      "kind" : "note",
+      "text" : "$\\mathrm{Cl_{2}+CH_{4}\\rightarrow CH_{3}Cl+HCl}$"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "note",
+      "text" : "1Grad"
+    }, {
+      "kind" : "note",
+      "text" : "M1 attraction between shared pair of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 attraction of(two) nucleiM2 for shared/bonded pair of electrons(between them)"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the four shared pairs of electrons between carbon and the other four atoms"
+    }, {
+      "kind" : "note",
+      "text" : "2Grad"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1ALLOW any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 weak forces of attraction between molecules/weak intermolecular forces"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weak bonds between molecules/weak intermolecular bonds"
+    }, {
+      "kind" : "note",
+      "text" : "2Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 little (heat) energy needed to overcome them"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE less energy0 marks if implication is that covalent bonds are weak/broken"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 alkanes",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 because fits general formulaCnH2n+2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 not dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWC3H8"
+    }, {
+      "kind" : "note",
+      "text" : "1cler"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(compounds ofFwith same molecular formula/C4H10)but different structural/displayed formulae"
+    }, {
+      "kind" : "note",
+      "text" : "3Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 structural/displayed formula ofbutane"
+    }, {
+      "kind" : "note",
+      "text" : "M3 structural/displayed formulae ofmethylpropane"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "a description including the following points"
+    }, {
+      "kind" : "note",
+      "text" : "4Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M1heat/vapourise crude oil"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWboil"
+    }, {
+      "kind" : "note",
+      "text" : "M2pass into(fractionating)column/tower"
+    }, {
+      "kind" : "note",
+      "text" : "M3fractions/compounds/molecules/hydrocarbons separate because of different boiling points"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWidea oftemperature gradient"
+    }, {
+      "kind" : "note",
+      "text" : "M4compoundDcollectedattopofcolumn/inrefinerygasfraction"
+    }, {
+      "kind" : "note",
+      "text" : "Allmarks could be scored froma suitablylabelleddiagram"
+    }, {
+      "kind" : "note",
+      "text" : "MAX3ifdescriptionoflabprocess"
+    }, {
+      "kind" : "note",
+      "text" : "IfconfusionwithcrackingonlyM1canbeawarded"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q6ci",
+    "label" : "6(c)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "addition (polymer)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT additional"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "poly(propene)/polypropene"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polypropylene"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 correct repeat unit"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore bond angles ALLOW use ofCH3"
+    }, {
+      "kind" : "note",
+      "text" : "2 Exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 brackets and n and extension bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q7ei",
+    "label" : "7(e)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(i)\nM2 candidate value of rate from graph at 45℃(expected value approx.0.016/7)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 line on graph from 45℃ to curve"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW mark on curve at 45℃"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT value to+/-0.0005"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 substitute answer from(i) into(time=1÷rate)M2 correct value"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT answers to2ormore sig figsrate=0.016time=62.5rate=0.0165time=60.6rate=0.017time=58.8"
+    }, {
+      "kind" : "note",
+      "text" : "2exp"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "as temperature increases rate of reaction increases"
+    }, {
+      "kind" : "note",
+      "text" : "ORAALLOW positive correlationREJECT linear/directlyproportional"
+    }, {
+      "kind" : "note",
+      "text" : "1grad"
+    }, {
+      "kind" : "note",
+      "text" : "(f)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including following points(when temperature increases)M1(mean)kinetic energy of particles increasesM2(so)more successful collisions per second/unit time/more frequent successful collisionsM3 rate(of reaction)increases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles move fasterIGNORE vibrate more/fasterALLOW reference to more frequent collisions between particles having energy≥activation energyALLOW reaction is faster/speeds up"
+    }, {
+      "kind" : "note",
+      "text" : "3exp"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q8b",
+    "label" : "8(b)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Maximum temperature in $ ^{\\circ} \\mathrm{C}$\nInitial temperature in $ ^{\\circ} \\mathrm{C}$\nIncrease in temperature in $ ^{\\circ} \\mathrm{C}$\nM1 27.3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "If readings are correct but in reverse order award 1 mark for M1 and M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF for M3 if M1 and/or M2 incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "27.3"
+    }, {
+      "kind" : "note",
+      "text" : "24.4"
+    }, {
+      "kind" : "note",
+      "text" : "2.9"
+    }, {
+      "kind" : "note",
+      "text" : "M2 24.4"
+    }, {
+      "kind" : "note",
+      "text" : "M3 2.9"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q8ci",
+    "label" : "8(c)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "substitution into $ Q=mc\\Delta T $ calculation of heat energy in Joules Example calculation M1 $ Q=50\\times4.2\\times3.3 $ M2 693 J calculate the amount, in moles, of $ \\mathrm{CuSO_{4}} $ divide $ Q $ by the amount in moles conversion to KJ give the correct sign Example calculation M1 1.70÷159.5 OR 0.0107 M2 693÷0.0107 OR 64766(J/mol) ALLOW any number of SF throughout except one Mark CQ from(i) ALLOW use of 700 M3 64.8(kJ/mol) use of 700 gives-65.02 693&0.011 gives-63 700&0.011 gives-63.64 correct answer with correct sign and without working scores4 correct answer without sign or incorrect sign and without working scores3",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q8d",
+    "label" : "8(d)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 temperature decreases/falls M2(so) endothermic\nTotal O8=14",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B decomposition"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because when sodium hydrogencarbonate is heated combustion does not take place"
+    }, {
+      "kind" : "note",
+      "text" : "C is not correct because when sodium hydrogencarbonate is heated oxidation does not take place"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(because) carbon dioxide/gas is produced/given off"
+    }, {
+      "kind" : "note",
+      "text" : "1grad"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(b)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "to obtain a constant mass OWTTE/to show the reaction is complete OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to ensure only Na2CO3is left(in crucible)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 advantage: to stop any solid/Na2CO3/NaHCO3spitting out/being lost"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to stopping gases escaping"
+    }, {
+      "kind" : "note",
+      "text" : "2exp"
+    }, {
+      "kind" : "note",
+      "text" : "M2 disadvantage: the gas(es)/CO2/H2O/steam could not easily escape OWTTE"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(c)(i)(ii)\nuse equation to determine moles of Na2CO3\nmultiply by Mr to find mass of Na2CO3\nExample calculation:\nM1 3.25÷84 OR 0.0387(mol)\nM2 0.0387÷2 OR 0.01935(mol)\nM3 0.01935x106=2.05(g)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "3.25(g)"
+    }, {
+      "kind" : "note",
+      "text" : "calculate moles of NaHCO3"
+    }, {
+      "kind" : "note",
+      "text" : "3 exp"
+    }, {
+      "kind" : "note",
+      "text" : "mark CQ on(i)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of sig figs except1"
+    }, {
+      "kind" : "note",
+      "text" : "2.05(g) without working scores3 marks"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "4.1(g) without working scores2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "use of equation to relate mass of NaHCO3 to mass of Na2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "shows how to find mass of Na2CO3 using 3.25g NaHCO3"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(d)(i)(ii)\nM2 3.25(g NaHCO3)→(106÷168)x3.25(g Na2CO3)\nM3 2.05(g Na2CO3)\nM2=(0.875x100)=87.5(%)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(2x84)/168(g) NaHCO3→106(g) Na2CO3"
+    }, {
+      "kind" : "note",
+      "text" : "mark CQ on(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 percentage yield=4.2÷4.8 OR 0.875"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 88(%)Correct answer without working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "2 grad"
+    }, {
+      "kind" : "note",
+      "text" : "any one fromM1 sodium hydrogencarbonate was impureM2 not all sodium hydrogencarbonate reacted/decomposed"
+    }, {
+      "kind" : "note",
+      "text" : "1 grad"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 red lead oxide $\\rightarrow$ lead(II) oxide + M2 oxygen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "must have(II) ACCEPT answers in either order If formulae given allow 1 mark for $O_{2}$ even if formula for lead(II) oxide is incorrect"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q10b",
+    "label" : "10(b)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "• dividing percentages by Ar\n• correct results of divisions\n• divide by smallest to obtain correct ratio/EF\nExample of calculation:\nPb O\nM1 86.6÷207 13.4÷16\nM2 0.42 0.84\nM3 (0.42÷0.42=)1 (0.84÷0.42=)2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "0 marks if division by atomic numbers or calculation upside down ACCEPT alternative methods"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 $Pb_{3}O_{4}(s)+4HNO_{3}(aq)$"
+    }, {
+      "kind" : "note",
+      "text" : "M2 2Pb($NO_{3}$)2(aq)+2H2O"
+    }, {
+      "kind" : "note",
+      "text" : "both state symbols required ALLOW upper case letters for state symbols both numbers required"
+    }, {
+      "kind" : "note",
+      "text" : "2 grad"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-d1b85e6b-q10cii",
+    "label" : "10(c)(ii)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "description that makes reference to the following three points:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 warm/heat (nitric) acid"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT boil"
+    }, {
+      "kind" : "note",
+      "text" : "M2 add/mix/react (red) lead oxide (and stir)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to adding excess(red) lead oxide"
+    }, {
+      "kind" : "note",
+      "text" : "M3 filter to obtain lead(II) nitrate solution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to remove lead(IV) oxide/PbO2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to remove (unreacted/excess) red lead oxide/Pb3O4"
+    }, {
+      "kind" : "note",
+      "text" : "AND three of the following points:"
+    }, {
+      "kind" : "note",
+      "text" : "M4 heat/boil (lead(II) nitrate) solution/filtrate"
+    }, {
+      "kind" : "note",
+      "text" : "If heat to dryness only M4 can be scored"
+    }, {
+      "kind" : "note",
+      "text" : "M5 until crystals form in a cooled sample/on a glass rod OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to crystallisation point/to form a saturated solution /until crystals start to form /to remove some of the water"
+    }, {
+      "kind" : "note",
+      "text" : "M5 DEP M4"
+    }, {
+      "kind" : "note",
+      "text" : "M6 leave solution to cool / leave solution for more crystals to form"
+    }, {
+      "kind" : "note",
+      "text" : "M7(and then) filter off crystals/lead nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT decant off the solution"
+    }, {
+      "kind" : "note",
+      "text" : "M7 DEP M6"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to washing"
+    }, {
+      "kind" : "note",
+      "text" : "M8 suitable method of drying the crystals eg using filter paper/using paper towel/in a warm oven"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT hot oven or any method of direct heating eg Bunsen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW leave to dry but not just dry the crystals"
+    }, {
+      "kind" : "note",
+      "text" : "No M8 if crystals are washed after drying"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: If 7.58 used in calculation answer is 212.24 If 14 used instead of 28 answer of 106.(06) scores 2 marks with or without working ALLOW any number of sig figs except 1", "orphan row before first entry: (c)", "orphan row before first entry: 7(a)(b)", "orphan row before first entry: any two from", "orphan row before first entry: M1 concentration of hydrochloric acid", "orphan row before first entry: M2 concentration of sodium thiosulfate", "orphan row before first entry: M3 height of eye above flask OWTTEM4 same size of flask", "orphan row before first entry: (c)", "orphan row before first entry: M1 the thiosulfate/solution would cool down/not remain at required temperatureM2 larger (percentage) errors in values of times (as they become smaller)", "orphan row before first entry: (d)", "orphan row before first entry: M2 curve of best fit drawn", "orphan row before first entry: Rate of reaction in s-1Temperature in℃", "orphan row before first entry: 8(a)(i)(ii)(iii)", "orphan row before first entry: to ensure temperature same throughout solution OWTTE", "orphan row before first entry: blue", "orphan row before first entry: Question number" ]
+}

@@ -1,0 +1,639 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "June 2011",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "631175fb-c5d7-5345-b513-77718ba81e05"
+  },
+  "entries" : [ {
+    "entryId" : "ms-631175fb-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "electron(s)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "electron(s)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "protons(and) electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Accept in either order both answers"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "protons"
+    }, {
+      "kind" : "note",
+      "text" : "neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "2.8.2"
+    }, {
+      "kind" : "note",
+      "text" : "Accept any other punctuation marks, such as / ) — and no punctuation marks"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "element(s)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "compound"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "mixture"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "element"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "solid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "gas"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "ammonia/NH3hydrogen chloride/HCl"
+    }, {
+      "kind" : "note",
+      "text" : "Do not accept ammoniumDo not accept hydrochloric acidAccept in either order.If name and formula given,both must be correct.Ignore state symbols,exceptHCl(aq)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "ammonium chloride/NH4Cl"
+    }, {
+      "kind" : "note",
+      "text" : "Do not accept ammonia chloride.If name and formula given,both must be correct."
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "cross in box2(decomposition)cross in box4(neutralisation)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to stop the dyes from{dissolving/running/going/mixing} into water/smudging OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore refs to correct statements eg“to allow water to rise up paper”.Do not penalise refs to inks.Accept reverse argument based on what happens if water level is above dyes.Reject ref to reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C and Dinsoluble"
+    }, {
+      "kind" : "note",
+      "text" : "Accept does not dissolve in waterReject ref to reactionReject ref to not enough dye"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "52-5567-680.76-0.82(1)"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise use of cm once only in M1+M2Do not penalise more than 2sf in M1-M3Accept 1sf in M3M3 CQ on M1+M2, even forRf>1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "iodine/astatine"
+    }, {
+      "kind" : "note",
+      "text" : "No penalty for giving bothAccept formulae or symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "fluorine/chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "No penalty for giving bothAccept formulae or symbolsthat clearly identify elementPenalise-ide endings once only"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ions fixed/cannot move/notmobile/not free(to move)ORions not fixed/canmove/mobile/free(to move)whenmolten"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore“electrons cannotmove(when solid)”Reject“electrons move(when molten)”Reject refs to atoms/moleculesIgnore particles/covalentbonding"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "because electron(s) lost(frombromide)"
+    }, {
+      "kind" : "note",
+      "text" : "Reject bromine in place ofbromide,but allow‘bromineions’Ignore refs to number ofelectronsAssume\"It\"refers to bromideions"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Pb2++2e(-)→Pbsilver/grey/shiny(liquid)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore state symbolsRejectPb2+→Pb-2e(-)Ignore solidIgnore metallicNo CQ from wrong product inM1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q6bi",
+    "label" : "6(b)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "barium sulfate/BaSO4",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(dilute) hydrochloric acid/HCl"
+    }, {
+      "kind" : "note",
+      "text" : "Accept other suitable acids(name or formula)such asHNO3/CH3COOHIgnore hydrogen chlorideReject sulfuric acidReject‘acid’aloneReject extra incorrect reagentsAllow gasIgnore carbon dioxideIgnore gas testsIgnore wrongly named gasReject wrong observation(eg precipitate)M2 dep on M1 givenAllow M2 if sulfuric acid orjust‘acid’given in M1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "add sodium hydroxide(solution)(and warm)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept any named Group 1 or Group 2 hydroxideAddition of any other incorrect reagent means 0/3If no reagent added,max 1for correct test and result"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "test(gas/ammonia)with(dampred)litmus(paper)ORtest with hydrogen chloride/conc.hydrochloric acid"
+    }, {
+      "kind" : "note",
+      "text" : "Accept use of universal indicator paperReject blue litmus for M2 andM3Ignore‘ammonium’"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "turns blueORwhite smoke/solid/powder"
+    }, {
+      "kind" : "note",
+      "text" : "Accept HClReject dilute hydrochloric acidDo not award M3 if clearstatement that litmus is dipped into solutionAccept white fumes"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)M1",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "76(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2"
+    }, {
+      "kind" : "note",
+      "text" : "35(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "Award 1 mark for M1 and M2 transposed"
+    }, {
+      "kind" : "note",
+      "text" : "M3"
+    }, {
+      "kind" : "note",
+      "text" : "41(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 CQ on M1 and M2No penalty for use of values to 1 dp"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "all points correctly plotted"
+    }, {
+      "kind" : "note",
+      "text" : "Award marks for points plotted to the nearest gridline (or better)Deduct 1 mark for each errorAward M1+M2 if points not visible but line correct"
+    }, {
+      "kind" : "note",
+      "text" : "straight line of best fit"
+    }, {
+      "kind" : "note",
+      "text" : "Line does not have to continue beyond pointsAllow straight line of best fitCQ on points plottedLine must not go to origin"
+    }, {
+      "kind" : "note",
+      "text" : "point circled at 165,25"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(blank 1) decreased"
+    }, {
+      "kind" : "note",
+      "text" : "(blank 2) decreased"
+    }, {
+      "kind" : "note",
+      "text" : "(blank 3) no change"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(140-111)×100=20.7(%)140"
+    }, {
+      "kind" : "note",
+      "text" : "Award M1 for(140-111)or29Award M2 for correct final answer to 1 dpCorrect final answer with no working scores 2 marks20%/21% with no working scores079.3% scores0 but could then be used to calculate20.7,in which case 2 marks can be awarded"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q8ai",
+    "label" : "8(a)(i)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "CH4\nH H H H\n| | | | |\nH-C-C-C-C-H\n| | | | |\nH H H H",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "AcceptH4C"
+    }, {
+      "kind" : "note",
+      "text" : "C2H6"
+    }, {
+      "kind" : "note",
+      "text" : "AcceptH6C2"
+    }, {
+      "kind" : "note",
+      "text" : "CH3CH2CH3"
+    }, {
+      "kind" : "note",
+      "text" : "AcceptCH3-CH2-CH3/H3C-CH2-CH3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "alkane(s)"
+    }, {
+      "kind" : "note",
+      "text" : "CnH2n+2"
+    }, {
+      "kind" : "note",
+      "text" : "AcceptxandotherlettersinplaceofnAcceptanswerslikeCnH2n+2Ignorebracketsthatstillgivesameanswer"
+    }, {
+      "kind" : "note",
+      "text" : "similarchemicalproperties/characteristics/reactions/behaviour"
+    }, {
+      "kind" : "note",
+      "text" : "Accept‘samechemicalproperties’butignoreaspecificexample,egallreactwithoxygen"
+    }, {
+      "kind" : "note",
+      "text" : "samefunctionalgroup(neighbouringmembers)differbyCH2gradation/gradualchange/trendinphysicalproperties"
+    }, {
+      "kind" : "note",
+      "text" : "Accept‘methylenegroup’Acceptgradation/gradualchange/increase/decreaseinspecifiedproperty,egboilingpointRejectsame/similarphysicalpropertiesAcceptanytwofor1markeachAccepttwoanswersinlines1or2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q8d",
+    "label" : "8(d)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Chemical structure of compound 8(d)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Accept in either orderAward 1 mark for two correct isomers as structural formulaeAward 1 mark for two correct isomers as skeletal formulaeIgnore names"
+    }, {
+      "kind" : "note",
+      "text" : "(e)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "UV(light)/ultraviolet(light)"
+    }, {
+      "kind" : "note",
+      "text" : "Accept sunlightIgnore ref to temperature"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "bromomethane"
+    }, {
+      "kind" : "note",
+      "text" : "Accept 1-bromomethane/methyl bromide/monobromomethaneIgnore hyphens/spaces"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "CH4+Br2→CH3Br+HBr"
+    }, {
+      "kind" : "note",
+      "text" : "Award M1 for CH3BrAward M2 for other formulae and correct balancingMax 1 for error in symbol e.g.BR, brIgnore state symbolsAccept further bromination in(ii)and(iii)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q9ci",
+    "label" : "9(c)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(positive) ions/cations/Al3+",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Do not accept atoms/negative ions/anions as alternative"
+    }, {
+      "kind" : "note",
+      "text" : "(delocalised) electrons"
+    }, {
+      "kind" : "note",
+      "text" : "layers of ions/particles"
+    }, {
+      "kind" : "note",
+      "text" : "Accept planes/sheets/rowsDo not penalise atoms instead of ions hereReject molecules/protons/electrons"
+    }, {
+      "kind" : "note",
+      "text" : "slide over each other"
+    }, {
+      "kind" : "note",
+      "text" : "Accept explanation in terms of non-directional bondingDo not award mark if wrong particles named, eg protons/electrons"
+    }, {
+      "kind" : "note",
+      "text" : "delocalised/sea of electronsmove (through structure)/mobile"
+    }, {
+      "kind" : "note",
+      "text" : "Accept free“ions free to move” scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "low density/high strength toweight ratio"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore lightAccept lightweight/not dense"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q10e",
+    "label" : "10(e)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "filter\nleave crystals to dry/dab\ncrystals with filter paper/kitchen\ntowel/warm(in oven)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "Allow decant/pour off water"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore washing"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow“leave to evaporate(rest"
+    }, {
+      "kind" : "note",
+      "text" : "of)water/leave to evaporate"
+    }, {
+      "kind" : "note",
+      "text" : "to dryness”for2marks"
+    }, {
+      "kind" : "note",
+      "text" : "If filter/decant/pour off"
+    }, {
+      "kind" : "note",
+      "text" : "water mark not scored,then"
+    }, {
+      "kind" : "note",
+      "text" : "marks can be awarded as"
+    }, {
+      "kind" : "note",
+      "text" : "follows:"
+    }, {
+      "kind" : "note",
+      "text" : "M1leave in warm"
+    }, {
+      "kind" : "note",
+      "text" : "place/sun/on window ledge/"
+    }, {
+      "kind" : "note",
+      "text" : "heat or warm(in oven)"
+    }, {
+      "kind" : "note",
+      "text" : "M2to evaporate/remove"
+    }, {
+      "kind" : "note",
+      "text" : "water/until dry"
+    }, {
+      "kind" : "note",
+      "text" : "No marks can be awarded if"
+    }, {
+      "kind" : "note",
+      "text" : "there is a statement about"
+    }, {
+      "kind" : "note",
+      "text" : "using strong heating or a"
+    }, {
+      "kind" : "note",
+      "text" : "bunsen burner"
+    } ],
+    "marks" : null,
+    "marksCellSource" : null,
+    "confidence" : 0.5
+  }, {
+    "entryId" : "ms-631175fb-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "breaking bonds absorbs energy/endothermic making bonds releases energy/exothermic more energy released than absorbed\nIgnore ref to numbers of bonds“more energy released in making bonds than absorbed in breaking bonds” scores 3 marks\nIgnore qualifiers such as pale/light/dark\nAward M3 for CuSO4andCuSO4.5H2O\nAward M4 for5H2ONo penalty for reversible arrowNo penalty for missing dotCorrect equation reversed=1markIgnore state symbolsIf neither M3 not M4 awarded,then award1mark for correctly balanced equation usingxorothernumber instead of5\nValue must match propertyAccept〇/Cin place of〇Cbutdo not awardM2if only value givenReject‘evaporates’by itself\nDo not accept just more than one colour",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(from) white(to) blueCuSO4+5H2O→CuSO4.5H2O"
+    }, {
+      "kind" : "note",
+      "text" : "Reject colourless"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)(measure)boiling/freezing/melting point100℃/0℃"
+    }, {
+      "kind" : "note",
+      "text" : "Accept just heat/distil/boil/freeze the water"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)red(ii)more than one colour in acid/indicatespH/shows strongly orweakly acidic/shows how acidicthe water is(iii)any value in range1-6.9"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow pink"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-631175fb-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"12\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"24\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(c)M1", "orphan row before first entry: M2", "orphan row before first entry: M3", "orphan row before first entry: 6(a)(i)(ii)", "orphan row before first entry: green precipitate", "6(b)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 8(c)(i)(ii)", "orphan row before first entry: carbon/C", "orphan row before first entry: carbon monoxide/CO", "8(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(d): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 9(a)(i)(ii)(iii)(iv)", "orphan row before first entry: carbon/graphite", "orphan row before first entry: negative", "orphan row before first entry: cryolite solvent(for alumina)ORto lower operating temperature/to lower melting point of mixture/electrolyte", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: decreases capacity of blood to carry oxygen", "orphan row before first entry: (pass through) limewater/calcium hydroxide solutionturns milky/cloudy/white", "9(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(c)(i): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "9(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 10(a)(i)(ii)", "orphan row before first entry: AgNO3+NaCl→AgCl+NaNO3", "orphan row before first entry: (b)", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: 22.303.6018.70", "orphan row before first entry: (d)(i)(ii)", "orphan row before first entry: (f)", "orphan row before first entry: n(NaNO_{3}/NaNO_{2})=0.02OR", "orphan row before first entry: $\\frac{1.70\\times 69}{85}/\\frac{1.70\\times 138}{170}$", "orphan row before first entry: 1.38(g)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)" ]
+}

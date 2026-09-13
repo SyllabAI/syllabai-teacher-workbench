@@ -1,0 +1,1307 @@
+{
+ "label": "INFERRED — derived read model, NOT canonical",
+ "source_dump_sha256": "c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2",
+ "expected_canonical_dump_sha256": "c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2",
+ "dump_sha_matches_canonical": true,
+ "generated_at_utc": "2026-09-13T14:45:00Z",
+ "tables": {
+  "campaign_db_identity": {
+   "rows": 1,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "campaign_label",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 3,
+     "name": "db_name",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "allowed_cidr",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "core_commit",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "claim_note",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "updated_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "curriculum_versions": {
+   "rows": 2,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "board",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 3,
+     "name": "qualification",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "code",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "description",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "status",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "document_chunks": {
+   "rows": 2210,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "document_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "chunk_index",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 4,
+     "name": "content",
+     "source": "inferred-named",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 5,
+     "name": "col_5",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "col_7",
+     "source": "inferred",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "col_8",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 9,
+     "name": "col_9",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "col_10",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 11,
+     "name": "col_11",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 12,
+     "name": "col_12",
+     "source": "inferred",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "documents": {
+   "rows": 162,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "document_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "doc_version",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "revision",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 5,
+     "name": "doc_role",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "source_uri",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "file_name",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 8,
+     "name": "mime_type",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "checksum",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "checksum_algorithm",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 11,
+     "name": "col_11",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 12,
+     "name": "col_12",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 13,
+     "name": "col_13",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 14,
+     "name": "chunk_count",
+     "source": "crossref",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 15,
+     "name": "engine",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 16,
+     "name": "engine_version",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 17,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    },
+    {
+     "pos": 18,
+     "name": "canonical_json",
+     "source": "inferred-named",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 19,
+     "name": "col_19",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 20,
+     "name": "col_20",
+     "source": "inferred",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "exam_papers": {
+   "rows": 81,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "subject_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "title",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "board",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "qualification",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "exam_date",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "session_label",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 8,
+     "name": "paper_code",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "question_paper_document_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 10,
+     "name": "mark_scheme_document_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 11,
+     "name": "validation_state",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 12,
+     "name": "provenance",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 13,
+     "name": "bridge",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 14,
+     "name": "operator",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 15,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "glm_ocr_bridge_records": {
+   "rows": 81,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "exam_paper_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "engine",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "qp_document_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 5,
+     "name": "ms_document_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "qp_draft",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "ms_draft",
+     "source": "inferred-named",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "col_8",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "col_9",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "bridge",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 11,
+     "name": "status",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 12,
+     "name": "findings_json",
+     "source": "inferred-named",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 13,
+     "name": "col_13",
+     "source": "inferred",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 14,
+     "name": "col_14",
+     "source": "inferred",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 15,
+     "name": "col_15",
+     "source": "inferred",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 16,
+     "name": "col_16",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 17,
+     "name": "col_17",
+     "source": "inferred",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "knowledge_edges": {
+   "rows": 21,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "source_node_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "target_node_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 4,
+     "name": "edge_type",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "col_5",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "validation_state",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 8,
+     "name": "col_8",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "col_9",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "col_10",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 11,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "knowledge_nodes": {
+   "rows": 96,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "code",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 3,
+     "name": "node_type",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "label",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "description",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "validation_state",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "provenance",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 8,
+     "name": "engine",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "ordinal",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 10,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "mark_points": {
+   "rows": 1105,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "mark_scheme_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "question_part_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 4,
+     "name": "part_label",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "col_5",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "text",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "marks",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "col_8",
+     "source": "inferred",
+     "inferred_types": [
+      "json"
+     ]
+    },
+    {
+     "pos": 9,
+     "name": "col_9",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "mark_schemes": {
+   "rows": 641,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "question_version_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "question_number",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "document_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 5,
+     "name": "validation_state",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "bridge",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 7,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "question_options": {
+   "rows": 32,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "question_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "label",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "text",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "is_correct",
+     "source": "inferred-named",
+     "inferred_types": [
+      "bool"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "position",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "question_parts": {
+   "rows": 4822,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "question_version_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "label",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "text",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "col_5",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "col_7",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "question_topics": {
+   "rows": 4,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "question_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "node_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 4,
+     "name": "col_4",
+     "source": "inferred",
+     "inferred_types": [
+      "bool"
+     ]
+    },
+    {
+     "pos": 5,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "question_versions": {
+   "rows": 766,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "question_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "version",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 4,
+     "name": "prompt_text",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "marks",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "col_7",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "command_word",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "validation_state",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 10,
+     "name": "source_document_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 11,
+     "name": "col_11",
+     "source": "inferred",
+     "inferred_types": []
+    },
+    {
+     "pos": 12,
+     "name": "origin",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 13,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  },
+  "questions": {
+   "rows": 766,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "external_ref",
+     "source": "tooling",
+     "inferred_types": []
+    },
+    {
+     "pos": 3,
+     "name": "question_type",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "prompt_text",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "marks",
+     "source": "inferred-named",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "col_6",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 7,
+     "name": "col_7",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 8,
+     "name": "command_word",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 9,
+     "name": "primary_topic_node_id",
+     "source": "tooling",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 10,
+     "name": "provenance",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 11,
+     "name": "col_11",
+     "source": "inferred",
+     "inferred_types": [
+      "bool"
+     ]
+    },
+    {
+     "pos": 12,
+     "name": "col_12",
+     "source": "inferred",
+     "inferred_types": [
+      "int"
+     ]
+    },
+    {
+     "pos": 13,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    },
+    {
+     "pos": 14,
+     "name": "exam_paper_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    }
+   ]
+  },
+  "subjects": {
+   "rows": 2,
+   "columns": [
+    {
+     "pos": 1,
+     "name": "id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 2,
+     "name": "curriculum_version_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 3,
+     "name": "code",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 4,
+     "name": "name",
+     "source": "inferred-named",
+     "inferred_types": []
+    },
+    {
+     "pos": 5,
+     "name": "default_node_id",
+     "source": "crossref",
+     "inferred_types": [
+      "uuid"
+     ]
+    },
+    {
+     "pos": 6,
+     "name": "created_at",
+     "source": "inferred-named",
+     "inferred_types": [
+      "timestamptz"
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "findings" : [ {
+    "questionNumber" : "1",
+    "qpMarks" : 7,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "10",
+    "qpMarks" : 12,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "2",
+    "qpMarks" : 8,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "3",
+    "qpMarks" : 6,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "4",
+    "qpMarks" : 14,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "6",
+    "qpMarks" : 12,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "7",
+    "qpMarks" : 14,
+    "msMarks" : null,
+    "severity" : "qp-only"
+  }, {
+    "questionNumber" : "8",
+    "qpMarks" : null,
+    "msMarks" : null,
+    "severity" : "gap"
+  }, {
+    "questionNumber" : "paper",
+    "qpMarks" : null,
+    "msMarks" : null,
+    "severity" : "identity-mismatch"
+  } ],
+  "qpPaperTotal" : 110,
+  "msPaperTotal" : null,
+  "paperTotalConflict" : false,
+  "mismatchCount" : 1
+}

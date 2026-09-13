@@ -1,0 +1,522 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P71951A",
+    "publicationCode" : "4CH1_1CR_2306_MS",
+    "session" : "Summer 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "77a33728-4588-5c21-b91d-648b6d7cafeb"
+  },
+  "entries" : [ {
+    "entryId" : "ms-77a33728-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "crystallisation\nsimple distillation\nfiltration\nTotal for question=8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(the box contains)(2) different substances"
+    }, {
+      "kind" : "note",
+      "text" : "/elements"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE type of particle"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT compounds"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 D contains 3 food dyes"
+    }, {
+      "kind" : "note",
+      "text" : "M2 food colouring D contains A and C"
+    }, {
+      "kind" : "note",
+      "text" : "M3 food colouring D does not contain B"
+    }, {
+      "kind" : "note",
+      "text" : "/food colouring D contains another dye(which is not A.B or C)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "4"
+    }, {
+      "kind" : "note",
+      "text" : "11"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nAnswer of 6.92 scores 3\nTotal for question=8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "A(electron)"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer because neutrons exist in the nucleus.C is not the correct answer because particle W is not a nucleus.D is not the correct answer because protons exist in the nucleus."
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(25)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer as the proton number is 12B is not the correct answer as the number of neutrons is 13D is not the correct answer as the number of protons, neutrons and electrons is not 49"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(atoms have the) same number of protons and electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "B(2+)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(both isotopes have) the same number of electrons / the same electron configuration"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE same number of protons / same number of electrons in the outer shell"
+    }, {
+      "kind" : "note",
+      "text" : "M1(7.60×6)+(92.4×7)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(6×0.076)+(7×0.924)"
+    }, {
+      "kind" : "note",
+      "text" : "M2692.4÷100OR6.924M36.92"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf if use of 6 and 7 in calculation"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Information\nthe most abundant gas in air\na toxic gas that is a product of incomplete combustion of hydrocarbons\nan unreactive gas that exists as atoms\na gas produced by the fractional distillation of crude oil",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Gas"
+    }, {
+      "kind" : "note",
+      "text" : "nitrogen"
+    }, {
+      "kind" : "note",
+      "text" : "carbon monoxide"
+    }, {
+      "kind" : "note",
+      "text" : "helium"
+    }, {
+      "kind" : "note",
+      "text" : "methane"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "copper(II) oxide/CuO/copper oxide forms"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT copper(I) oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "the volume of a gas changes with temperature/gas expands when hot/ heated/gas shrinks when cools OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 138-108 OR 30(cm3)M2((30÷138)×100=)21.7"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW minimum 2 significant figures21.7/21.74/22 scores278.3/78.26/78 scores1"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "the gas also contains air (displaced from the conical flask)\nTotal for question = 10",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 a catalyst provides an alternative (reaction) pathway / routeM2 of lower activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 add hydrogen peroxide solution (to the conical flask) and add one of the catalystsM2 record the time taken to collect a fixed volume of gas OR record the volume of gas collected in a fixed timeAND any 2 fromM3 repeat with the same volume / same concentration of hydrogen peroxide solutionM4 (repeat at) same temperatureM5 use same mass / same surface area of each catalystANDM6 the most effective catalyst produces the greatest volume of gas per unit time OR takes the least time to produce a fixed volume of oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW record the time when no more gas producedALLOW same amountALLOW same amountALLOW the least time taken to complete the reaction is the most effective catalyst"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 steeper curve starting at the originM2 same volume of oxygen produced"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 limewater turns cloudy/milkyAND any one from:M2 because carbon dioxide/CO2is/produced/one of the productsM3 which reacts with limewater forming calcium carbonate\nTotal for question=11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW chalky/white precipitateALLOW carbon dioxide/CO2is presentALLOW forming an insoluble product"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of water=2.16÷18OR0.12molM2 number of hydrogen atoms(0.12÷0.01)×2OR24M3 formula of alkene=C12H24"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW12H2OCorrect answer ofC12H24scores3C6H12scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "some steam/water vapour is lost(to the atmosphere)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW some steam/water vapour does not condenseIGNORE references to incomplete combustion"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 heat(the water)/measure the boiling pointM2(if it)boils at100℃(it is pure water)/boiling point is100℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW find the freezing point/melting pointREJECT evaporateALLOW freezes/melts at0℃"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(moles of heptane)=30÷100OR0.3(0)M2(moles of oxygen)=0.3(0)×11OR3.3M3(mass of oxygen)=(3.3×32)=106(g)ORM11×32OR352(g)of oxygenM2so mass of oxygen=352×30÷100M3106(g)"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of106gOR105.6g scores3ALLOWM1×11ALLOWecf fromM2ALLOW2or more significant figures forM3Answer of9.6(g) scores2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 graphite has delocalised electrons\nM2 that are able to flow throughout the structure\nIGNORE references to carrying charge/ current\nM2 dep on mention of electrons\nAny mention of ions in graphite scores 0 out of 2\nM2(graphite is soft because) the layers can slide over one another\nIGNORE mention of intermolecular forces between layers in graphite\n(the C60 molecule/it) will not react with the blood/medicine\n(the C60 molecule/it) is non-toxic\nthe medicine can fit inside (the C60 molecule)\nTotal for question = 5",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE sea of electrons /free electrons"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT are able to move /are mobile"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(diamond is hard because) it has a 3D lattice/rigid lattice/tetrahedral lattice/every carbon is bonded to four other carbons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 3D/ rigid/tetrahedral structure"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT mention of intermolecular forces in diamond"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Any one from:"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any acceptable answer"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW it is inert /unreactive"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q10ai",
+    "label" : "10(a)(i)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 four electrons between carbon2 and carbon3 and two electrons between carbon1 and carbon2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "M2 two electrons between each carbon and hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "Max1 if any extra non-bonding electrons added"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 shared pair(s) of electronsM2 attracted to(two) nucleiORM1(two) nucleiM2 attracted to shared pair(s) of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT nucleus.Must be plural forM2REJECT nucleus.Must be plural forM1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from:M1 crackingM2 heat to/at a temperature of600-700℃M3 with a catalyst ofsilica/alumina"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a correct cracking equation including propeneALLOW aluminosilicates/ aluminium oxide/ silicon oxide/Al2O3/SiO2/zeolites"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1H HI- C-C-IH CH3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW correct repeat unit with or without extension bonds"
+    }, {
+      "kind" : "note",
+      "text" : "M2 extension bonds, brackets and n to the right"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep onM1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(poly(propene)) remains for a long time(in landfill)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW takes up a lot of space"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because it is inert/unreactive/non-biodegradable"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW does not decompose"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-77a33728-q11",
+    "label" : "11",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nALLOW took the temperature reading too soon",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "all 9 points plotted ± half a square"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "circle around point at 3g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 18 or 3 circled in the table"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "points joined by curved line of best fit"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 polystyrene / it is a good insulator"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW poor conductor (of heat)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 polystyrene / it reduces heat (energy) / thermal energy gain / transfer from surroundings OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW polystyrene / it does not absorb heat / stops heat entering (the cup)"
+    }, {
+      "kind" : "note",
+      "text" : "the student forgot to stir the mixture"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT heat loss (to surroundings)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(the last three) results / temperatures are the same"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "because the temperature decreases"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW because heat / thermal energy is taken in"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 ($\\Delta T=$) 20.8-15.3 OR 5.5 ($^\\circ C$)"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of 2310 scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ($Q=$ 100x4.2x5.5=) 2310 (J)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf if incorrect temperature change"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any sign given"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 moles of NaHCO$_3$ = 7.0÷84 OR 0.0833"
+    }, {
+      "kind" : "note",
+      "text" : "M2 3200÷0.0833 OR 38400 (J)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 38400÷1000 OR 38.4 (kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 +38.4 (kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 moles of NaHCO$_3$ = 7.0÷84 OR 0.0833"
+    }, {
+      "kind" : "note",
+      "text" : "M2 3200÷1000 OR 3.20 (kJ)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 3.20÷0.0833 OR 38.4 (kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 +38.4 (kJ/mol)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(i)(ii)(iii)", "orphan row before first entry: particles are (much) closer together", "orphan row before first entry: Any one from:high pressurerisk of explosionoxidising agentrisk in contact with combustible materials", "orphan row before first entry: blue flame", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: M2 an acidic solution/an acid/sulfurous acid is formed", "orphan row before first entry: Total for question=6", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(a)(i)(ii)", "orphan row before first entry: M2 oxygen", "orphan row before first entry: oxidation", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: M2 which prevents air/oxygen/water getting to/reacting with the iron", "orphan row before first entry: galvanising", "orphan row before first entry: M1 zinc is more reactive than ironM2(therefore) is oxidised/reacts with oxygen/loses electrons more readily/in preference to/instead of iron", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: M2 because aluminium displaces iron(from iron(III) oxide)", "orphan row before first entry: M1 iron(III) oxide(is the oxidising agent)", "orphan row before first entry: M2 iron(III) oxide donates oxygen to aluminium", "orphan row before first entry: Total for question=12", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 9(a)(i)(ii)(iii)", "orphan row before first entry: M2 NO3-", "orphan row before first entry: M1 (calcium nitrate) has a giant ionic structure/lattice", "orphan row before first entry: M2 strong electrostatic forces/attraction", "orphan row before first entry: M3 between oppositely charged ions/negative and positive ions/anions and cations", "orphan row before first entry: (b)", "orphan row before first entry: 2Ca(NO3)2→2CaO+4NO2+O2", "orphan row before first entry: Any 2 from M1,M2 and M3", "orphan row before first entry: flame test", "orphan row before first entry: M1 do a flame test", "orphan row before first entry: M2 sodium chloride and sodium sulfate give a yellow flame", "orphan row before first entry: M3 calcium chloride and calcium bromide give an orange-red flame", "orphan row before first entry: Any 4 from M4 to M8", "orphan row before first entry: halide ion test", "orphan row before first entry: M4 add acidified silver nitrate/add nitric acid and silver nitrate", "orphan row before first entry: (b)", "orphan row before first entry: M6 calcium chloride/sodium chloride/chloride ions give a white precipitate", "orphan row before first entry: sulfate ion test", "orphan row before first entry: M7 add acidified barium chloride/barium nitrate", "orphan row before first entry: M8 sodium sulfate/sulfate ions gives a white precipitate", "orphan row before first entry: Total for question=13", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)(i)", "orphan row before first entry: 2", "orphan row before first entry: M2,M3,and M4 dep on M1", "orphan row before first entry: Total for question=15", "11: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Answer of+38.4 scores4\nAnswer of38.4 scores3\nUse of0.08 moles gives+40 which scores4\nUse of0.083 moles gives+38.6 which scores4\nALLOW any number of sig figs", "orphan row before first entry: Total for question=14" ]
+}

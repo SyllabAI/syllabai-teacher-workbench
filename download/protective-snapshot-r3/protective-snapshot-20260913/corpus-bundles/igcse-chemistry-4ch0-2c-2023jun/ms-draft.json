@@ -1,0 +1,533 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P71952A",
+    "publicationCode" : "4CH1_2C_2306_MS",
+    "session" : "Summer 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "be7d5daf-fd28-5e87-acfd-d74762fa1ba2"
+  },
+  "entries" : [ {
+    "entryId" : "ms-be7d5daf-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "silicon"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Si"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Mg"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "bromine"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW mercury/Hg"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Br/Br2"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT bromide/Br-"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "2,8,5/2.8.5"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT diagram showing electron configuration"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "Na2S"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Na+2S2-"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 full outer shell/8 electrons in outer shell/(electron configuration)2.8"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so) does not need to lose or gain(or share) electrons/e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "B(carbon dioxide)\nA is incorrect as there is more argon in the atmosphere than carbon dioxide\nC is incorrect as there is more nitrogen in the atmosphere than carbon dioxide\nD is incorrect as there is more oxygen in the atmosphere than carbon dioxide",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "B(decomposition)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as this is not an addition reaction"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as this is not an oxidation reaction"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as this is not a substitution reaction"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(green to black)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as copper(II) carbonate is not blue"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as copper(II) carbonate is not blue and copper(II) oxide is not orange"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as copper(II) oxide is not orange"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "CuCO3→CuO+CO2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(volume of oxygen=)100-27OR73(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(volume of air at start=)280+100OR380(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M373÷380×100OR19.2(%)M419(%)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores4"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF throughout"
+    }, {
+      "kind" : "note",
+      "text" : "Use of 280 gives an answer of 26 scores3"
+    }, {
+      "kind" : "note",
+      "text" : "Alternative method"
+    }, {
+      "kind" : "note",
+      "text" : "M1(volume of air left=)280+27OR307(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2307÷380×100OR80.8(%)M3100-80.8OR19.2M419(%)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C6H12O6→2C2H5OH+2CO2M1 both formulae correctM2 balancing of correct formulae",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT CH3CH2OHM2 dep on M1 but ifC2H6O given no M1 but allow M2 for correct balancingIGNORE state symbols even if incorrectALLOW multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Hydration"
+    }, {
+      "kind" : "note",
+      "text" : "Fermentation"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H3PO4If formula alone must be correct, but if name given and formula incorrect ignore formulaALLOW sulphuric acid/H2SO4ACCEPT any temperature between20and40inclusiveACCEPT any pressure between60and70inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "Reagents"
+    }, {
+      "kind" : "note",
+      "text" : "ethene and steam"
+    }, {
+      "kind" : "note",
+      "text" : "aqueous glucose"
+    }, {
+      "kind" : "note",
+      "text" : "Catalyst"
+    }, {
+      "kind" : "note",
+      "text" : "phosphoric acid"
+    }, {
+      "kind" : "note",
+      "text" : "enzymes in yeast"
+    }, {
+      "kind" : "note",
+      "text" : "Temperature in℃"
+    }, {
+      "kind" : "note",
+      "text" : "Pressure in atmospheres"
+    }, {
+      "kind" : "note",
+      "text" : "60-70"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "pipette",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(colour in potassium hydroxide) yellowM2(colour in sulfuric acid) red"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW pink"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "to see the colour(change more) clearly(at the end-point) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "to mix the solutions(more thoroughly) OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to speed up the reaction between the acid and alkali OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "titres/results within(+or-)0.2(cm3of each other)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW within0.1REJECT>0.2or<0.1"
+    }, {
+      "kind" : "note",
+      "text" : "(f)"
+    }, {
+      "kind" : "note",
+      "text" : "M1n(H2SO4)=0.0150×0.180or0.0027(0)(mol)M2n(KOH)=0.0027(0)×2or0.0054(0)(mol)M3concn=(0.0054(0)÷0.0250)=0.216(mol/dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores3answer toM1×2answer toM2÷0.0250ALLOW any number of sig figs except1common answers:0.108and0.054scores2"
+    }, {
+      "kind" : "note",
+      "text" : "(g)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1anH+ion is a protonM2the OH-ion) reacts / bonds with theH+ion)(to form water)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW donates a proton/H+ion)to theOH-IGNORE accepts a proton"
+    }, {
+      "kind" : "note",
+      "text" : "Total11"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 add sodium hydroxide(to the copper(II) sulfate solution)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW potassium hydroxide or aqueous ammonia"
+    }, {
+      "kind" : "note",
+      "text" : "M2 blue precipitate(forms)"
+    }, {
+      "kind" : "note",
+      "text" : "No M1 if any incorrect reagent added"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE qualifiers e.g. pale/dark etc."
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame test"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on addition of a correct alkali"
+    }, {
+      "kind" : "note",
+      "text" : "M2 blue-green(flame)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT description of flame test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW green"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on flame"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An description that refers to any three from"
+    }, {
+      "kind" : "note",
+      "text" : "M1 copper ions are positively charged/cations/Cu2+ions"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1 and M3 for a fully correct half equation"
+    }, {
+      "kind" : "note",
+      "text" : "M2 and are attracted to/travel to the negative electrode/cathode"
+    }, {
+      "kind" : "note",
+      "text" : "i.e. Cu2++2e→Cu"
+    }, {
+      "kind" : "note",
+      "text" : "M3 where they accept electrons"
+    }, {
+      "kind" : "note",
+      "text" : "M4 and become(copper)atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "pink solid/deposit/coating/metal"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT pink-brown/orange-brown/brown/orange/red-brown"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT red"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)(ii)(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "relights a glowing splint"
+    }, {
+      "kind" : "note",
+      "text" : "2H2O→4H++O2+4e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "4OH-→2H2O+O2+4e(-) scores 1"
+    }, {
+      "kind" : "note",
+      "text" : "M1O2+e(-)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE state symbols even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "M2 equation fully correct electrons are lost"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any numbers in front ofO2+e(-)and any other species"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW H2O/water loses electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Total 10"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sulfuric acid/H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT hydrochloric acid/HCl and nitric acid/HNO3/phosphoric acid/H3PO4"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "distinctive sweet fruity smell"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT an oily layer forms(on the surface)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "methyl ethanoate"
+    }, {
+      "kind" : "note",
+      "text" : "spelling must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "C-O and O-H"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 the same(two)bonds/C-O and O-H are broken and formedM2 energy needed to break bonds equals energy released when bonds form(so overall enthalpy change is0)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf if wrong bonds in(i)IGNORE the same number of bonds are broken and formed"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-be7d5daf-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "reduces the capacity of blood to transport oxygen round the body OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW carbon monoxide /it binds with haemoglobin"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 no effectM2 as increases rate of forward reaction and rate of backward reaction equally"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 yield decreasesM2 as (forward) reaction is endothermic (so equilibrium shifts to the LHS / reactants side)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW backward /reverse reaction is exothermicM2 dep on M1 or missingIGNORE references to Le Chatelier"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two pointsM1 yield increasesM2 as there are fewer moles / molecules (of gas) on the left-hand side / there are 2 mol on LHS and 4 mol on RHS (so equilibrium shifts to the RHS / products side) ORA"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 or missingIGNORE references to Le Chatelier"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 n(H2)=6.6×106÷2 OR 3.3×106(mol)M2 n(CH4)=3.3×106÷3 OR 1.1×106(mol)M3 vol(CH4)=1.1×106×24 OR 2640000(dm3)M4 2.6×107"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with or without working scores4ACCEPT 3300000ACCEPT 1100000M2×24ACCEPT 2.64×107ALLOW ECF throughoutcommon answers:7.9(2)×107scores 35.28×107scores 31.584×108scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: Total 10", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"300\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"30\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: (c)", "orphan row before first entry: (d)(i)", "orphan row before first entry: M2 5.0", "orphan row before first entry: M3 $\\frac{5.0}{1.67}$", "orphan row before first entry: OR 2.99", "orphan row before first entry: (ii)", "orphan row before first entry: ACCEPT structure of propan-2-ol", "orphan row before first entry: Total 15", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)" ]
+}

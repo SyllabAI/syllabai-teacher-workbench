@@ -1,0 +1,642 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "989e743c-4cf7-566c-903d-dc4c3ddff45d"
+  },
+  "questions" : [ {
+    "questionId" : "q01-989e743c",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Neon is an element with atomic number 10.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-989e743c-pa",
+      "label" : "a",
+      "text" : "Which sub-atomic particles are present in the nucleus of a neon atom? A electrons and neutrons B electrons and protons C electrons and neutrons and protons D neutrons and protons",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pb",
+      "label" : "b",
+      "text" : "Use words from the box to complete the sentences about the particles in a neon atom. Each word may be used once, more than once or not at all. The particles with the smallest mass are ... An atom of neon has no overall charge because it contains equal numbers of ... and ... The chemical properties of neon depend on the number of ... in the outer shell.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pc",
+      "label" : "c",
+      "text" : "What is the electronic configuration of a neon atom? A 2.8 B 2.2.6 C 2.8.8 D 2.8.8.2",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pd",
+      "label" : "d",
+      "text" : "Neon has two main isotopes that can be represented as $ ^{2 0} \\mathrm{N e} $ and $ ^{2 2} \\mathrm{N e}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pd-i",
+      "label" : "d-i",
+      "text" : "Explain, with reference to sub-atomic particles, what is meant by the term isotopes.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pd-ii",
+      "label" : "d-ii",
+      "text" : "The relative atomic mass of neon is 20.2 How does this information support the fact that a sample of neon contains more $ ^{20} $Ne than $ ^{22} $Ne?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pe",
+      "label" : "e",
+      "text" : "Neon belongs to the family of noble gases and is inert.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pe-i",
+      "label" : "e-i",
+      "text" : "What is meant by the term inert?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-989e743c-pe-ii",
+      "label" : "e-ii",
+      "text" : "Why are noble gases inert?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000029" ],
+    "marks" : 10,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-989e743c",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "This question is about the reactions of some metals and their compounds.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-989e743c-pa",
+      "label" : "a",
+      "text" : "A student adds a sample of four metals R, S, T and U separately to water and to dilute sulfuric acid. The table shows the observations in each experiment.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-989e743c-pa-i",
+      "label" : "a-i",
+      "text" : "State two properties of the metals that the student should keep the same in all of the experiments in order to compare their reactivity.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-989e743c-pa-ii",
+      "label" : "a-ii",
+      "text" : "Which is the least reactive metal? A metal R B metal S C metal T D metal U",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-989e743c-pa-iii",
+      "label" : "a-iii",
+      "text" : "Which gas forms during the reactions with dilute sulfuric acid? A carbon dioxide B hydrogen C oxygen D sulfur dioxide",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-989e743c-pb",
+      "label" : "b",
+      "text" : "The student carries out a test to show that the solution formed when metal U reacts with dilute sulfuric acid contains sulfate ions. Use words from the box to complete the sentence about this test. Each word may be used once, more than once or not at all. He adds a ... and observes the formation of a ...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q02-989e743c-pc",
+      "label" : "c",
+      "text" : "The student observes a lilac colour in a flame test on a small sample of a different metal compound. Which metal ions cause the formation of this colour? A copper B magnesium C potassium D zinc",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000049", "e000064" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-989e743c",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "The thermite reaction is used on railways to produce molten iron for joining rails together. The diagram shows how this is done. The equation for this thermite reaction is $2 \\mathrm {A l} + \\mathrm {F e} _ {2} \\mathrm {O} _ {3} \\rightarrow \\mathrm {A l} _ {2} \\mathrm {O} _ {3} + 2 \\mathrm {F e}$",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-989e743c-pa",
+      "label" : "a",
+      "text" : "What does this reaction show about the reactivity of iron compared to the reactivity of aluminium?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-989e743c-pb",
+      "label" : "b",
+      "text" : "Why is this reaction described as displacement?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-989e743c-pc",
+      "label" : "c",
+      "text" : "State two reasons why the term oxidation applies to aluminium in this reaction.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-989e743c-pd",
+      "label" : "d",
+      "text" : "Although the thermite reaction is exothermic, it only begins after a lot of heat energy is supplied. How is this heat energy supplied?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000084",
+        "sourceName" : "assets/crop_1_1789069376369.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069376369.png",
+        "availability" : "unavailable-signed-url"
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000075",
+      "sourceName" : "assets/crop_1_1789069376359.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069376359.png",
+      "availability" : "available",
+      "assetId" : "img:3d8eb118ab584f217b0258429ad12357bca972e85e7ce8c9a8c4db232acb4046",
+      "sha256" : "3d8eb118ab584f217b0258429ad12357bca972e85e7ce8c9a8c4db232acb4046",
+      "mimeType" : "image/jpeg",
+      "width" : 792,
+      "height" : 458,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000084",
+      "sourceName" : "assets/crop_1_1789069376369.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069376369.png",
+      "availability" : "unavailable-signed-url"
+    } ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-989e743c",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) Ethanol can be manufactured by two different processes. Process 1 sucrose $ \\xrightarrow[]{stage1} $ glucose $ \\xrightarrow[]{stage2} $ ethanol Process 2 ethene $ \\longrightarrow $ ethanol (i) What is the general name for compounds such as sucrose and glucose? (ii) What type of reaction occurs in stage 2? (iii) What is the catalyst used in stage 2? (iv) What type of reaction occurs in process 2?",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-989e743c-pb",
+      "label" : "b",
+      "text" : "The table shows the displayed formulae of four organic compounds. Ethanol and compound D are members of the homologous series of alcohols.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pb-i",
+      "label" : "b-i",
+      "text" : "The first member of this homologous series is methanol. Draw the displayed formula of methanol.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pb-ii",
+      "label" : "b-ii",
+      "text" : "Suggest the name of compound D.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pc",
+      "label" : "c",
+      "text" : "In industry, the conversion of propene to compound D uses the same conditions as those used in the conversion of ethene to ethanol. Identify a suitable catalyst and temperature for these conversions. catalyst temperature ... °C",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pd",
+      "label" : "d",
+      "text" : "Ethene and acetylene can both be used for welding metals. The equations for the reactions of these gases in welding are ethene acetylene $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + 3 \\mathrm {O} _ {2} \\rightarrow 2 \\mathrm {C O} _ {2} + 2 \\mathrm {H} _ {2} \\mathrm {O}$ $\\mathrm {C} _ {2} \\mathrm {H} _ {2} + 2. 5 \\mathrm {O} _ {2} \\rightarrow 2 \\mathrm {C O} _ {2} + \\mathrm {H} _ {2} \\mathrm {O}$ One problem with using hydrocarbons as fuels is incomplete combustion.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pd-i",
+      "label" : "d-i",
+      "text" : "Incomplete combustion is a bigger problem with ethene than with acetylene. Suggest why.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pd-ii",
+      "label" : "d-ii",
+      "text" : "One of the gases produced during incomplete combustion is dangerous to humans. Identify this gas and explain how it is dangerous.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pe",
+      "label" : "e",
+      "text" : "Ethene can be used to ripen bananas. Bananas are placed in a large container and ethene is added. The ethene can be added in two different ways.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000112",
+        "sourceName" : "assets/crop_1_1789069376401.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069376401.png",
+        "availability" : "available",
+        "assetId" : "img:ddb0194f7c52bc8c61fb9d11d1a06028ab65c57dfb7d4f3eeb42587abe9ebda2",
+        "sha256" : "ddb0194f7c52bc8c61fb9d11d1a06028ab65c57dfb7d4f3eeb42587abe9ebda2",
+        "mimeType" : "image/jpeg",
+        "width" : 1465,
+        "height" : 600,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pe-i",
+      "label" : "e-i",
+      "text" : "In method 1, ethene is stored under pressure and passed through a pipe into the container. Suggest one risk in using this method.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-989e743c-pe-ii",
+      "label" : "e-ii",
+      "text" : "In method 2, the generator contains a known quantity of ethanol that is slowly decomposed to ethene using a catalyst. Write a chemical equation for this decomposition.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000112",
+      "sourceName" : "assets/crop_1_1789069376401.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069376401.png",
+      "availability" : "available",
+      "assetId" : "img:ddb0194f7c52bc8c61fb9d11d1a06028ab65c57dfb7d4f3eeb42587abe9ebda2",
+      "sha256" : "ddb0194f7c52bc8c61fb9d11d1a06028ab65c57dfb7d4f3eeb42587abe9ebda2",
+      "mimeType" : "image/jpeg",
+      "width" : 1465,
+      "height" : 600,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000093" ],
+    "marks" : 14,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-989e743c",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Solutions of lead(II) nitrate and sodium sulfate react together to form the insoluble salt lead(II) sulfate.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-989e743c-pa",
+      "label" : "a",
+      "text" : "A student wrote this plan to prepare a pure dry sample of lead(II) sulfate. step1 pour some lead(II) nitrate solution into a beaker step 2 add sodium sulfate solution until the reaction is complete step3 filter the mixture step4 heat the filtrate to evaporate some of the water step 5 cool the filtrate and remove the crystals",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pa-i",
+      "label" : "a-i",
+      "text" : "How will the student know when the reaction in step 2 is complete?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pa-ii",
+      "label" : "a-ii",
+      "text" : "Which compound could the student use in this preparation instead of sodium sulfate? A lead(II) hydroxide B nitric acid C sodium hydroxide D sulfuric acid",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pa-iii",
+      "label" : "a-iii",
+      "text" : "State why the student should not have included steps 4 and 5 in his plan.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pa-iv",
+      "label" : "a-iv",
+      "text" : "Suggest replacement steps to obtain a pure dry sample of lead(II) sulfate. step 4 step 5",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pa-v",
+      "label" : "a-v",
+      "text" : "Lead(II) carbonate cannot be used instead of lead(II) nitrate in this preparation. This is because lead(II) carbonate A contains ionic bonding B has a high relative formula mass C is insoluble in water D is toxic",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pb",
+      "label" : "b",
+      "text" : "The equation for the reaction in the student's plan is $\\mathrm {P b} \\left(\\mathrm {N O} _ {3}\\right) _ {2} (\\mathrm {a q}) + \\mathrm {N a} _ {2} \\mathrm {S O} _ {4} (\\mathrm {a q}) \\rightarrow \\mathrm {P b S O} _ {4} (\\mathrm {s}) + 2 \\mathrm {N a N O} _ {3} (\\mathrm {a q})$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pb-i",
+      "label" : "b-i",
+      "text" : "Deduce the amount of each reactant needed to form 0.150 mol of lead(II) sulfate. $ \\mathrm{P b} \\left( \\mathrm{N O}_{3} \\right)_{2} $ mol $ \\mathrm{N a}_{2} \\mathrm{S O}_{4} $ mol",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-989e743c-pb-ii",
+      "label" : "b-ii",
+      "text" : "What volume of $ 0. 5 0 0 \\mathrm{m o l} / \\mathrm{d m}^{3} $ lead(II) nitrate solution is needed to form 0.150 mol of lead(II) sulfate?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ "volume" ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q06-989e743c",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student does some experiments to find the heat energy released when natural gas burns. She uses this apparatus.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-989e743c-pa",
+      "label" : "a",
+      "text" : "The diagram shows the thermometer readings in one of her experiments. Use these readings to complete the table, entering all values to the nearest 0.1 $ ^{\\circ} \\mathrm{C}. $",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000152",
+        "sourceName" : "assets/crop_2_1789069376425.png",
+        "format" : "png",
+        "url" : "assets/crop_2_1789069376425.png",
+        "availability" : "available",
+        "assetId" : "img:8d0ab034782e74b2440af953dc67af93e58ad6bf618c4802faf5534653b54a62",
+        "sha256" : "8d0ab034782e74b2440af953dc67af93e58ad6bf618c4802faf5534653b54a62",
+        "mimeType" : "image/jpeg",
+        "width" : 715,
+        "height" : 696,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pb",
+      "label" : "b",
+      "text" : "The student repeats the experiment three times. The table shows her results.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pb-i",
+      "label" : "b-i",
+      "text" : "Calculate the amount, in moles, at room temperature and pressure, of methane burned in experiment 1. Assume that natural gas contains only methane. (The volume of 1 mol of a gas at room temperature and pressure is $ 2 4 0 0 0 \\mathrm{c m}^{3} $)",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pb-ii",
+      "label" : "b-ii",
+      "text" : "The quantity of heat energy released in experiment 1 is 29200 J. Calculate the molar enthalpy change, in kJ/mol, for the combustion of methane. molar enthalpy change = ... kJ/mol",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pb-iii",
+      "label" : "b-iii",
+      "text" : "The temperature rise in experiment 2 is $ 4 1. 2 \\mathrm{~} ^ {\\circ} \\mathrm{C}. $ Calculate the heat energy change in experiment 2 using the expressio heat energy change = volume of water $ \\times $ 4.2 $ \\times $ temperature change (in J) (in $ cm^{3} $) (in $ ^{\\circ} C $) heat energy change = ... J",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pb-iv",
+      "label" : "b-iv",
+      "text" : "The student uses the results from experiment 3 to calculate the molar enthalpy change, in kJ/mol, for the combustion of methane. She compares her value with the value in a data book. Which is the best explanation for the large difference between these two values? B not all of the heat energy is transferred to the water A natural gas contains other gases that release heat energy when burned C some of the water evaporates during the experiment D the student measures the gas by volume instead of by mass",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pc",
+      "label" : "c",
+      "text" : "The student uses a table of average bond energies to calculate another value for the molar enthalpy of combustion of methane. The equation for the combustion can be shown using displayed formulae. $\\mathrm {H} - \\mathrm {C} - \\mathrm {H} + 2 \\mathrm {O} = \\mathrm {O} \\rightarrow \\mathrm {O} = \\mathrm {C} = \\mathrm {O} + 2 \\mathrm {H} - \\mathrm {O} - \\mathrm {H}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pc-i",
+      "label" : "c-i",
+      "text" : "Use values from the table to calculate the energy taken in when the bonds in the reactants are broken. energy taken in = ... kJ",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pc-ii",
+      "label" : "c-ii",
+      "text" : "Use values from the table to calculate the energy given out when the bonds in the products are formed. energy given out = ... kJ",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-989e743c-pc-iii",
+      "label" : "c-iii",
+      "text" : "Use your answers to (i) and (ii) to calculate the molar enthalpy change for the combustion of methane. molar enthalpy change = kJ/mol",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000150",
+      "sourceName" : "assets/crop_1_1789069376420.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069376420.png",
+      "availability" : "available",
+      "assetId" : "img:2e252e568c7dfa2d2751475df7476aab8ccbc3d57019e19519f0597e71a01046",
+      "sha256" : "2e252e568c7dfa2d2751475df7476aab8ccbc3d57019e19519f0597e71a01046",
+      "mimeType" : "image/jpeg",
+      "width" : 1369,
+      "height" : 715,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000152",
+      "sourceName" : "assets/crop_2_1789069376425.png",
+      "format" : "png",
+      "url" : "assets/crop_2_1789069376425.png",
+      "availability" : "available",
+      "assetId" : "img:8d0ab034782e74b2440af953dc67af93e58ad6bf618c4802faf5534653b54a62",
+      "sha256" : "8d0ab034782e74b2440af953dc67af93e58ad6bf618c4802faf5534653b54a62",
+      "mimeType" : "image/jpeg",
+      "width" : 715,
+      "height" : 696,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000154", "e000157", "e000169", "e000176" ],
+    "marks" : 15,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 10,
+    "2" : 7,
+    "3" : 5,
+    "4" : 14,
+    "5" : 9,
+    "6" : 15
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "unclassified heading: THE PERIODIC TABLE" ]
+}

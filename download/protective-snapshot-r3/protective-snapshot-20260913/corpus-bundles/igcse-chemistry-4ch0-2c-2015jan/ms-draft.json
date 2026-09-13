@@ -1,0 +1,448 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG040458",
+    "session" : "January 2015",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d9f980df-f789-549a-81cf-e4ba401c243d"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d9f980df-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D(a molecule)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "A(covalent)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "NH3"
+    }, {
+      "kind" : "note",
+      "text" : "H3N"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1P-iron ore/haematiteignore iron(III) oxide/Fe2O3M2Q-calcium silicate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "slag/CaSiO3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Type of reaction"
+    }, {
+      "kind" : "note",
+      "text" : "Letter"
+    }, {
+      "kind" : "note",
+      "text" : "one that gives out heat"
+    }, {
+      "kind" : "note",
+      "text" : "A"
+    }, {
+      "kind" : "note",
+      "text" : "one that is a thermal decomposition"
+    }, {
+      "kind" : "note",
+      "text" : "D"
+    }, {
+      "kind" : "note",
+      "text" : "one that is a neutralisation"
+    }, {
+      "kind" : "note",
+      "text" : "E"
+    }, {
+      "kind" : "note",
+      "text" : "one that forms a poisonous gas"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1-oxygenIGNOREO M2-water"
+    }, {
+      "kind" : "note",
+      "text" : "airO2moisture/H2O"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(pressure)-60-70 atmM2(catalyst)-phosphoric acid/H3PO4ignore references to concentration",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "any pressure or range within this rangephosphoric(V) acid"
+    }, {
+      "kind" : "note",
+      "text" : "any other oxidation state"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(Σ bonds broken)348+412+360(=1120)M2(Σ bonds made)612+463(=1075)M3M1-M2/Σ bonds broken-Σ bonds madeM4(+)45(kJ/mol)Correct answer with no working scores4-45(kJ/mol) scores3"
+    }, {
+      "kind" : "note",
+      "text" : "32313186"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1温度after\nM2温度before\nM3温度change\nRecorded temperatures correct but in wrong order scores1 forM1和M2M3csq onM1和M2",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "27.1"
+    }, {
+      "kind" : "note",
+      "text" : "one trailing zero"
+    }, {
+      "kind" : "note",
+      "text" : "more than one trailing zero"
+    }, {
+      "kind" : "note",
+      "text" : "18.8"
+    }, {
+      "kind" : "note",
+      "text" : "(+)8.3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1heat(energy)/thermal energy lost(to the atmosphere)ignore just energy lostM2potassium hydroxide dissolves(very/too)slowly"
+    }, {
+      "kind" : "note",
+      "text" : "water evaporates potassium hydroxide does not completely dissolve potassium hydroxide is impure less than3g of potassium hydroxide is used more than50cm3of water is used"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Element\nM1- both arrangements correctM2- charge on potassium ionM3- charge on sulfide ion",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Arrangement of electrons in atom"
+    }, {
+      "kind" : "note",
+      "text" : "Arrangement of electrons in ion"
+    }, {
+      "kind" : "note",
+      "text" : "Charge on ion"
+    }, {
+      "kind" : "note",
+      "text" : "K(1)+/K+1S2-/S-2positive for potassium and negative for sulfide for 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "2.8.8"
+    }, {
+      "kind" : "note",
+      "text" : "(1)+/+1"
+    }, {
+      "kind" : "note",
+      "text" : "2.8.8"
+    }, {
+      "kind" : "note",
+      "text" : "2-/-2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "ions move/travel (to the electrodes)M1(electrostatic) forces (of attraction) between (oppositely charged) ionsM2 are (relatively) strongM3 large amount of energy required to overcome the forces / separate the ions from the latticeM2 dep on mention of forces (of attraction) or bondsMention of covalent bonds or intermolecular forces no M1"
+    }, {
+      "kind" : "note",
+      "text" : "ions are free to move / ions are mobileionic bonding / ionic bondsbreak the bonds"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "H2S2O7+H2O→2H2SO4",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M132(of S)→80(of SO3)(tonnes or g)"
+    }, {
+      "kind" : "note",
+      "text" : "M2mass of SO3=80"
+    }, {
+      "kind" : "note",
+      "text" : "M3=200(tonnes)"
+    }, {
+      "kind" : "note",
+      "text" : "M2csq on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3csq on M2"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer with no working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "M1n(S)=(n(SO3))=80x106/32(mol)(=2500000(000(g))"
+    }, {
+      "kind" : "note",
+      "text" : "M2mass of SO3=M1x80(=2000000(000(g))"
+    }, {
+      "kind" : "note",
+      "text" : "M3=M2÷106/200(tonnes)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M164(g)(of SO2) reacts with 12(dm3)(ofO2)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(64 tonnes) reacts 12x106(dm3)OR1.2x107(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "M2csq on M1"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer with no working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "M1n(SO2)=64x106/64(mol)(=106mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2M1/2x24/1.2x107(dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1mass of oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "accept1.2x1010cm3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- add (aqueous) chlorine to (aqueous) KBr",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "yellow / brown"
+    }, {
+      "kind" : "note",
+      "text" : "red"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(solution) turns orange"
+    }, {
+      "kind" : "note",
+      "text" : "red-brown / orange"
+    }, {
+      "kind" : "note",
+      "text" : "yellow"
+    }, {
+      "kind" : "note",
+      "text" : "M3- add (aqueous) bromine to (aqueous) KI"
+    }, {
+      "kind" : "note",
+      "text" : "correct ionic equations"
+    }, {
+      "kind" : "note",
+      "text" : "M4-(solution) turns brown"
+    }, {
+      "kind" : "note",
+      "text" : "accept Cl2+2KI→I2+2KCl if chlorine is added to potassium iodide"
+    }, {
+      "kind" : "note",
+      "text" : "M5- Cl2+2KBr→Br2+2KCl OR Br2+2KI→I2+2KBr"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore state symbols"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q8",
+    "label" : "8",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1- add (aqueous) bromine to (aqueous) KCl",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2- no change"
+    }, {
+      "kind" : "note",
+      "text" : "orange/ yellow/brown solution/colour produced only if it is clear that no reaction has occurred"
+    }, {
+      "kind" : "note",
+      "text" : "red"
+    }, {
+      "kind" : "note",
+      "text" : "M3- add (aqueous) iodine to (aqueous) KBr"
+    }, {
+      "kind" : "note",
+      "text" : "yellow"
+    }, {
+      "kind" : "note",
+      "text" : "M4- no change/ no change"
+    }, {
+      "kind" : "note",
+      "text" : "brown/ red-brown/orange solution/colour produced only if it is clear that no reaction has occurred"
+    }, {
+      "kind" : "note",
+      "text" : "If this route is chosen then M5 cannot be scored"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d9f980df-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "shifts to left",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "moves in the endothermic direction"
+    }, {
+      "kind" : "note",
+      "text" : "shifts to the side of the reactants"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "shifts to the right"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "impossible to know which shift is greater / impossible to know which change has the greater effect"
+    }, {
+      "kind" : "note",
+      "text" : "moves in the exothermic direction"
+    }, {
+      "kind" : "note",
+      "text" : "shifts to the side of the products"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "shifts to the side with fewer (gas) moles/molecules"
+    }, {
+      "kind" : "note",
+      "text" : "OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "the (two) effects are opposing one another"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1- greater proportion of NO2"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(increase of) temperature has a greater effect than"
+    }, {
+      "kind" : "note",
+      "text" : "(increase of) pressure"
+    }, {
+      "kind" : "note",
+      "text" : "more NO2 present"
+    }, {
+      "kind" : "note",
+      "text" : "equilibrium shifts to left"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)", "orphan row before first entry: (b)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: 4(a)(i)(ii)", "orphan row before first entry: (b)(i)(ii)", "4(c): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"13\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

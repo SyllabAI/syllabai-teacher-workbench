@@ -1,0 +1,92 @@
+{
+ "figures": {
+  "resolved": 1549,
+  "total": 1566
+ },
+ "anomalies": [
+  {
+   "session": "igcse-chemistry-4ch0-1c-2013junr",
+   "type": "duplicate-part-labels",
+   "problems": [
+    {
+     "question": null,
+     "labels": [
+      "a",
+      "b",
+      "b-i",
+      "b-ii",
+      "c",
+      "c-i",
+      "c-ii",
+      "c-ii",
+      "c-iii"
+     ],
+     "dups": [
+      "c-ii"
+     ]
+    }
+   ]
+  },
+  {
+   "session": "igcse-chemistry-4ch0-2c-2016jun",
+   "type": "duplicate-part-labels",
+   "problems": [
+    {
+     "question": null,
+     "labels": [
+      "a",
+      "b",
+      "b-ii",
+      "b-ii",
+      "c",
+      "c-ii",
+      "d"
+     ],
+     "dups": [
+      "b-ii"
+     ]
+    }
+   ]
+  },
+  {
+   "session": "igcse-chemistry-4ch0-2c-2019junr",
+   "type": "duplicate-part-labels",
+   "problems": [
+    {
+     "question": null,
+     "labels": [
+      "a",
+      "b",
+      "a"
+     ],
+     "dups": [
+      "a"
+     ]
+    }
+   ]
+  },
+  {
+   "session": "igcse-chemistry-4ch0-2c-2024junr",
+   "type": "duplicate-part-labels",
+   "problems": [
+    {
+     "question": null,
+     "labels": [
+      "a",
+      "a-ii",
+      "b",
+      "b-i",
+      "b-ii",
+      "b-iii",
+      "b-i",
+      "c",
+      "c-ii"
+     ],
+     "dups": [
+      "b-i"
+     ]
+    }
+   ]
+  }
+ ]
+}

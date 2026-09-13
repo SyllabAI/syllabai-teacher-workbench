@@ -1,0 +1,503 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-qp-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : null,
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "aa006c8d-135e-5945-97e8-3cd4cf79ce43"
+  },
+  "questions" : [ {
+    "questionId" : "q01-aa006c8d",
+    "number" : 1,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Use the Periodic Table on page 2 to help you answer this question. Give the name or symbol of",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q01-aa006c8d-pa",
+      "label" : "a",
+      "text" : "the element in group 3 and period 4.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-aa006c8d-pb",
+      "label" : "b",
+      "text" : "an element in period 3 that is a good conductor of electricity.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-aa006c8d-pc",
+      "label" : "c",
+      "text" : "the element in group 7 that is the most reactive.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-aa006c8d-pd",
+      "label" : "d",
+      "text" : "the element in group 5 that is present in a molecule of ammonia.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q01-aa006c8d-pe",
+      "label" : "e",
+      "text" : "an element with an atom containing 8 electrons in its outer shell.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 5,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q02-aa006c8d",
+    "number" : 2,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "(a) The list shows some techniques used to separate mixtures. E simple distillation Complete the table to show the best method of obtaining each substance from the mixture. In each case, choose one of the letters A, B, C, D or E. Each letter may be used once more than once or not at all. A crystallisation B filtration C fractional distillation D paper chromatography",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q02-aa006c8d-pb",
+      "label" : "b",
+      "text" : "Gold occurs in ores, which are mixtures of gold and other substances. Several elements and compounds are used in the extraction of gold from its ores. Each box below represents the substances present in one part of the extraction process. Classify the contents of each box as a compound, an element or a mixture by writing your choice below each box.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000035", "e000039" ],
+    "marks" : 7,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q03-aa006c8d",
+    "number" : 3,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A student added some pieces of iron to a boiling tube containing dilute hydrochloric acid. She observed fizzing and the formation of a solution, X.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q03-aa006c8d-pa",
+      "label" : "a",
+      "text" : "Identify the gas that causes the fizzing and describe a test for it.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-aa006c8d-pb",
+      "label" : "b",
+      "text" : "Solution X contains chloride ions.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-aa006c8d-pb-i",
+      "label" : "b-i",
+      "text" : "The student confirmed this by adding some silver nitrate solution. She observed a white precipitate of silver chloride. Give the formula of the white precipitate, and name the other solution she should have added before the silver nitrate solution. Formula of white precipitate. Other solution.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-aa006c8d-pb-ii",
+      "label" : "b-ii",
+      "text" : "Complete the word equation for the reaction in this test. iron chloride + silver nitrate $ \\rightarrow $ silver chloride +",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q03-aa006c8d-pc",
+      "label" : "c",
+      "text" : "Solution X also contains ions of iron. The student thought that these ions had the formula $ \\mathrm{F e}^{2+} $ or $ \\mathrm{F e}^{3+} $ What reagent should she add to decide whether solution X contains $ \\mathrm{F e}^{2+} $ or $ \\mathrm{F e}^{3+} $ ions? State the result of the test in each case. Reagent... Result with $ \\mathrm{F e}^{2+} $ ions... Result with $ \\mathrm{F e}^{3+} $ ions...",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 8,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q04-aa006c8d",
+    "number" : 4,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "A teacher added some of the Group 1 elements to separate samples of water.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q04-aa006c8d-pa",
+      "label" : "a",
+      "text" : "State two observations that could be made when a small piece of sodium is added to a large trough containing water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-aa006c8d-pb",
+      "label" : "b",
+      "text" : "In another experiment she added a small piece of a different Group 1 element and noticed that the reaction was less vigorous. Which element did she add in this experiment?",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-aa006c8d-pc",
+      "label" : "c",
+      "text" : "In another experiment she added a small piece of potassium to a large trough containing water. This time she observed a lilac flame.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-aa006c8d-pc-i",
+      "label" : "c-i",
+      "text" : "Identify the gas that burned.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-aa006c8d-pc-ii",
+      "label" : "c-ii",
+      "text" : "Give the formula of the ion that caused the flame to be lilac.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q04-aa006c8d-pd",
+      "label" : "d",
+      "text" : "When the Group 1 elements react with water, each of their atoms loses an electron from its outer shell. For sodium and potassium, these processes can be represented by the equations $\\begin{array}{l} \\cdot \\mathrm {N a} \\rightarrow \\mathrm {N a} ^ {+} + \\mathrm {e} ^ {-} \\\\ \\cdot \\mathrm {K} \\rightarrow \\mathrm {K} ^ {+} + \\mathrm {e} ^ {-} \\\\ \\end{array}$ Explain, by referring to the electronic configurations of sodium and potassium, why potassium is more reactive than sodium.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ ],
+    "marks" : 9,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  }, {
+    "questionId" : "q05-aa006c8d",
+    "number" : 5,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Fractional distillation and cracking are important steps in processing crude oil.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q05-aa006c8d-pa",
+      "label" : "a",
+      "text" : "Place ticks ( $ \\surd $ ) in the columns to show which statements apply to each step. You may place a tick in one column, in both columns or in neither column. The first one has been done for you.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb",
+      "label" : "b",
+      "text" : "The formula $ \\mathrm{C H_{3} C H_{2} C H_{2} C H_{2} C H_{3}} $ represents one of the compounds in crude oil.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb-i",
+      "label" : "b-i",
+      "text" : "Give the molecular formula of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb-ii",
+      "label" : "b-ii",
+      "text" : "Give the displayed formula of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb-iii",
+      "label" : "b-iii",
+      "text" : "Give the empirical formula of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb-iv",
+      "label" : "b-iv",
+      "text" : "Give the name of this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pb-v",
+      "label" : "b-v",
+      "text" : "Give the general formula of the homologous series that contains this compound.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pc",
+      "label" : "c",
+      "text" : "The products of the complete combustion of hydrocarbons are carbon dioxide and water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pc-i",
+      "label" : "c-i",
+      "text" : "Balance the equation to show the complete combustion of ethene $ \\left( \\mathrm{C}_{2} \\mathrm{H}_{4} \\right) $ $\\mathrm {C} _ {2} \\mathrm {H} _ {4} + \\dots \\dots \\dots \\mathrm {O} _ {2} \\rightarrow \\dots \\dots \\dots \\mathrm {C O} _ {2} + \\dots \\dots \\dots \\mathrm {H} _ {2} \\mathrm {O}$",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pc-ii",
+      "label" : "c-ii",
+      "text" : "Draw a dot and cross diagram to show the bonding in an ethene molecule. Show only the outer electrons in each atom.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q05-aa006c8d-pd",
+      "label" : "d",
+      "text" : "Ethanol can be manufactured by the hydration of ethene. The equation for this reaction is",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ ],
+    "tableElementIds" : [ "e000069", "e000081" ],
+    "marks" : 0,
+    "marksKnown" : false,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.45
+  }, {
+    "questionId" : "q06-aa006c8d",
+    "number" : 6,
+    "numberingStyle" : "space",
+    "section" : null,
+    "stem" : "Most experiments involving electrolysis use inert electrodes, which do not take part in the reactions. However, in some experiments the electrodes do take part in the reactions. She uses this method. weigh two clean strips of copper use one strip as the positive electrode and the other as the negative electrode after electrolysis wash the strips of copper with ethanol (a liquid that boils at $ 7 8^{\\circ} \\mathrm{C} $) dry the strips of copper and reweigh them The ionic half-equations for the reactions at the electrodes are Positive electrode $\\mathrm {C u} (\\mathrm {s}) - 2 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {C u} ^ {2 +} (\\mathrm {a q})$ Negative electrode $\\mathrm {C u} ^ {2 +} (\\mathrm {a q}) + 2 \\mathrm {e} ^ {-} \\rightarrow \\mathrm {C u} (\\mathrm {s})$ A student investigates the electrolysis of copper(II) sulfate solution using copper electrodes which do take part in the reaction. She uses this apparatus.",
+    "mcq" : false,
+    "options" : [ ],
+    "parts" : [ {
+      "partId" : "q06-aa006c8d-pa",
+      "label" : "a",
+      "text" : "Suggest why the copper strips would dry more quickly when washed with ethanol rather than with water.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pb",
+      "label" : "b",
+      "text" : "The student's results are shown in the table. The table shows that the decrease in mass of the positive electrode was 0.32 g.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pb-i",
+      "label" : "b-i",
+      "text" : "Calculate the increase in mass, in grams, of the negative electrode.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pb-ii",
+      "label" : "b-ii",
+      "text" : "The ionic half-equations show that the increase in mass of the negative electrode should be the same as the decrease in mass of the positive electrode. Suggest two reasons why the increase in mass of the negative electrode in the student's experiment was less than expected.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc",
+      "label" : "c",
+      "text" : "Another student investigated the effect of changing the electrical charge, in faradays, passed during the electrolysis. He wanted to find how this affected the increase in mass of the negative electrode. One faraday is the electrical charge of one mole of electrons. His results are shown in the table.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc-i",
+      "label" : "c-i",
+      "text" : "On the grid, plot a graph of increase in mass against electrical charge Draw a straight line of best fit. Start your line at the origin (0,0). Increase in mass in g",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ {
+        "elementId" : "e000110",
+        "sourceName" : "assets/crop_1_1789069318813.png",
+        "format" : "png",
+        "url" : "assets/crop_1_1789069318813.png",
+        "availability" : "available",
+        "assetId" : "img:184c192c30190db20bec2f2b86ae3abf63a28e1ade7f0e2fea858b4451efd34d",
+        "sha256" : "184c192c30190db20bec2f2b86ae3abf63a28e1ade7f0e2fea858b4451efd34d",
+        "mimeType" : "image/jpeg",
+        "width" : 868,
+        "height" : 1249,
+        "formatMismatch" : true
+      } ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc-ii",
+      "label" : "c-ii",
+      "text" : "Draw a circle around the anomalous result.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc-iii",
+      "label" : "c-iii",
+      "text" : "Suggest why the straight line should go through the origin.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc-iv",
+      "label" : "c-iv",
+      "text" : "Explain why the graph shows that the increase in mass is directly proportional to the electrical charge passed.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    }, {
+      "partId" : "q06-aa006c8d-pc-v",
+      "label" : "c-v",
+      "text" : "Use your graph to estimate the increase in mass, in grams, of the copper electrode that would be produced by passing an electrical charge of 0.55 faradays.",
+      "marks" : null,
+      "qwc" : false,
+      "figures" : [ ],
+      "answerPrompts" : [ ],
+      "confidence" : 0.55
+    } ],
+    "figures" : [ {
+      "elementId" : "e000085",
+      "sourceName" : "assets/crop_1_1789069318792.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069318792.png",
+      "availability" : "available",
+      "assetId" : "img:69323ce998be16148de0cf4f59d4c71057a2e74502ed4d30bbd51a27ca970271",
+      "sha256" : "69323ce998be16148de0cf4f59d4c71057a2e74502ed4d30bbd51a27ca970271",
+      "mimeType" : "image/jpeg",
+      "width" : 1364,
+      "height" : 566,
+      "formatMismatch" : true
+    }, {
+      "elementId" : "e000110",
+      "sourceName" : "assets/crop_1_1789069318813.png",
+      "format" : "png",
+      "url" : "assets/crop_1_1789069318813.png",
+      "availability" : "available",
+      "assetId" : "img:184c192c30190db20bec2f2b86ae3abf63a28e1ade7f0e2fea858b4451efd34d",
+      "sha256" : "184c192c30190db20bec2f2b86ae3abf63a28e1ade7f0e2fea858b4451efd34d",
+      "mimeType" : "image/jpeg",
+      "width" : 868,
+      "height" : 1249,
+      "formatMismatch" : true
+    } ],
+    "tableElementIds" : [ "e000098", "e000107" ],
+    "marks" : 12,
+    "marksKnown" : true,
+    "qwc" : false,
+    "answerPrompts" : [ ],
+    "confidence" : 0.6
+  } ],
+  "questionTotals" : {
+    "1" : 5,
+    "2" : 7,
+    "3" : 8,
+    "4" : 9,
+    "6" : 12
+  },
+  "paperTotal" : 60,
+  "sectionTotals" : { },
+  "frontMatterFigures" : [ ],
+  "warnings" : [ "Q2: incomplete MCQ option set folded into stem", "Q6: incomplete MCQ option set folded into stem" ]
+}

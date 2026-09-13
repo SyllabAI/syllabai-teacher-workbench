@@ -1,0 +1,516 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH1_2C_msc_20190822",
+    "session" : "Summer 2019",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "54e59782-28f3-5534-8e53-1191c06d0450"
+  },
+  "entries" : [ {
+    "entryId" : "ms-54e59782-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "原子模型",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "1 mark for each correct answer"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 protons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 neutrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Name of halogen",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Physical state at room temperature"
+    }, {
+      "kind" : "note",
+      "text" : "Colour"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW black"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any combination of grey and black eg grey-black"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "gas"
+    }, {
+      "kind" : "note",
+      "text" : "pale green"
+    }, {
+      "kind" : "note",
+      "text" : "bromine"
+    }, {
+      "kind" : "note",
+      "text" : "liquid"
+    }, {
+      "kind" : "note",
+      "text" : "red-brown"
+    }, {
+      "kind" : "note",
+      "text" : "iodine"
+    }, {
+      "kind" : "note",
+      "text" : "solid"
+    }, {
+      "kind" : "note",
+      "text" : "(dark) grey"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (35×77.78)+(37×22.22)"
+    }, {
+      "kind" : "note",
+      "text" : "OR 3544.44"
+    }, {
+      "kind" : "note",
+      "text" : "M2 3544.44÷100 OR 35.4444 OR M1÷100"
+    }, {
+      "kind" : "note",
+      "text" : "M3 35.4"
+    }, {
+      "kind" : "note",
+      "text" : "(35×0.7778)+(37×0.2222)"
+    }, {
+      "kind" : "note",
+      "text" : "OR 35.4444/35.444/35.44 with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "35.4 with no working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "M3 can be ECF from an incorrect M2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)\nM2 the temperature of the water\nalcohols/the liquids are flammable/catch fire easily\nM2=62",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 the volume of liquid/alcohol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount of liquid/alcohol"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE mass"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE volume of water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW temperature of surroundings"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to temperature of the alcohol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW alcohols/the liquids can be easily ignited"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any named alcohol from the table"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(64+63+60)÷3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 62.3"
+    }, {
+      "kind" : "note",
+      "text" : "62/62.3 with no working scores 2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 69/69.25/69.3 for 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation including the following two points:"
+    }, {
+      "kind" : "note",
+      "text" : "M1 methanol/CH3OH (evaporates most easily)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because the time taken is the shortest"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT because has lowest (mean) time"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C(electrostatic attraction between positively charged particles and delocalised electrons) is correct as it describes metallic bondingA is incorrect since it describes ionic bonding not metallic bondingB is incorrect since it describes covalent bonding not metallic bondingD is incorrect since it describes interatomic or intermolecular forces not metallic bonding",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two from the following:M1 good conductor of heat/thermal energyM2 does not react with food/affect flavour of foodM3 resistant to corrosionM4 high melting pointM5 low density/lightweight/strong"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE non-toxicALLOW does not corrode/rustIGNORE unreactive/inertIGNORE references to recyclingIGNORE light"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q4ci",
+    "label" : "4(c)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a mixture of(two or more)elements,one ofwhich isa metal",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTa mixture of(two ormore)metalsALLOWcombination for mixtureREJECTcompound or references tochemical bonding"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links together the following threepoints:"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWlattice/layers/rows of atoms are disrupted/distortedALLOWlattice/layers/rows of atoms less regular"
+    }, {
+      "kind" : "note",
+      "text" : "M1the regular arrangement of atoms isdistorted/disruptedOWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWmagnesium and aluminium atoms are of different sizes"
+    }, {
+      "kind" : "note",
+      "text" : "M2because magnesium atoms are larger than aluminium atoms"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWlayers cannot(as easily)slide over one another"
+    }, {
+      "kind" : "note",
+      "text" : "M3and therefore it is more difficult for the layers toslide over one another"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREreferences to strength ofmetallic bonds"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q5c",
+    "label" : "5(c)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "energy\nhydrazine+hydrogen peroxide\nnitrogen+water\nM1 right hand line below left hand line\nM2 correct names/formulae of both reactants\nM3 correct names/formulae of both products",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE horizontal axis drawn"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE enthalpy change shown"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE activation energy shown"
+    }, {
+      "kind" : "note",
+      "text" : "If only use words reactants(on left) and products(on right) award 1 mark from M2 and M3"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "yeast",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE zymase"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(30℃) is correct as it is the most suitable temperature for fermentationA is incorrect as at 0℃ the enzymes would not be active so not the most suitable temperature for fermentationB is incorrect as at 10℃ the enzymes would not be very active so not the most suitable temperature for fermentationD is incorrect as at 80℃ the enzymes would be denatured so not the most suitable temperature for fermentation"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation using either of the following linked pairs:M1 oxygen in the air would react with ethanolM2 to form ethanoic acidORM1 the fermentation/reaction/respiration needs to be anaerobicM2 ethanol would not be formed/CO2andH2O would form"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT ethanol would be oxidisedALLOW to form carboxylic acidALLOW to form vinegar"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(temperature)300℃",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any value or range of values between250and350℃If no unit given assume it isCelsiusACCEPT equivalent temperatures in other units provided the unit is given"
+    }, {
+      "kind" : "note",
+      "text" : "M260-70atm"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any value or range of values between60and70atmIf no unit given assume it isatmACCEPT equivalent pressures in other units provided the unit is given"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(from) orange(to) green"
+    }, {
+      "kind" : "note",
+      "text" : "CH3COONa+1/2H2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE bond angles scores1mark"
+    }, {
+      "kind" : "note",
+      "text" : "M1for both products correctM2for correctly balanced"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW NaCH3COOACCEPT multiplesM2DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation that links together the following two points:\nM1 reaction is taking place in both directions (at same time)\nM2 at equal rate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT both forward and backward reactions are taking place (at same time)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE it is a reversible reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "rate of the forward reaction is equal to the rate of the backward reaction scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT both forward and backward reactions occur at constant rate for M2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the concentrations of the reactants and products remains constant scores 1 mark independently of M1 but"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT concentrations of the reactants and products are equal/the same"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q7ci",
+    "label" : "7(c)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "nitrogen/N2reacts with oxygen/O2(both from the air)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE nitrogen burns/combusts in oxygen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE nitrogen is oxidised"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(they form) acid rain"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT references to respiratory problems"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a specified harmful effect of acid rain"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to smog"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to greenhouse gases/global warming/climate change"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "2NO+2CO→N2+2CO2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-54e59782-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "An explanation using either of the following linked pairs:\nM1 use a fume cupboard\nM2 because chlorine is toxic/poisonous\nOR\nM1 wear goggles/safety glasses/gloves\nM2 because acid/bleach (may be) irritant/corrosive",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE chlorine is dangerous/harmful/irritant"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE laboratory coats"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 60÷24000"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.0025(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "0.0025 with no working scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT 0.003 for M2"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "0.0025 OR answer to M2 from(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(0.0025÷4.00)×1000"
+    }, {
+      "kind" : "note",
+      "text" : "Mark CSQ on(b)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.625(mol/dm3)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any number of sig fig except1(unless ECF answer is exactly1 sig fig correct answer with no working throughout(b) scores2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"13\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: M1 add chlorine (solution) to potassium bromide(solution)", "orphan row before first entry: M2 (solution) turns orange", "orphan row before first entry: M3 bromine/Br2is displaced", "orphan row before first entry: IGNORE state of bromineREJECT bromideIGNORE a displacement reaction occursM3 can be scored by Br2as a product in an equation", "orphan row before first entry: M4 (therefore) chlorine is more reactive(than bromine)", "orphan row before first entry: Total", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: Total", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(c)(i): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(a)(i)(ii)(iii)", "orphan row before first entry: (bonds made)4649(kJ)", "orphan row before first entry: M1 subtraction of Σ(bonds made) made and Σ(bonds broken)", "orphan row before first entry: M2 correct evaluation of the calculation shown inM1IGNORE signM3If Σ(bonds made)＞Σ(bonds broken)final answer must be negativeIf Σ(bonds made)＜Σ(bonds broken)final answer must be positive(and+sign given)", "orphan row before first entry: -788 with no working scores3(+)788 scores2", "orphan row before first entry: (b)", "5(c): bare integer cell \"10\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: (ii)", "6(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"14\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)(i)", "orphan row before first entry: M2 because there are fewer moles/molecules (of gas) on the left", "orphan row before first entry: (ii)", "7(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(c)(i): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"7\" skipped (rubric/rowspan ambiguity)" ]
+}

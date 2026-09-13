@@ -1,0 +1,498 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P71895A",
+    "publicationCode" : "4CH1_2CR_MS_2301",
+    "session" : "January 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "4f0f4ff7-054e-50a5-a9d9-a5cb0475161c"
+  },
+  "entries" : [ {
+    "entryId" : "ms-4f0f4ff7-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "any value ≥4 but<7"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW Group 8"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "temperature",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW volume/amount of solvent"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE concentration"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE stirring"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "F→G→B→D→H→C→A→E"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 G in correct place"
+    }, {
+      "kind" : "note",
+      "text" : "M2 H C A in correct places"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass of dry salt"
+    }, {
+      "kind" : "note",
+      "text" : "(=78.1-60.5=)17.6(g)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 solubility=(17.6×2)=35.2(g per 100g of water)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores 2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 calculating heat energy in kJ/g\n= (3.28×105÷10000)OR32.8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 calculating heat energy in kJ/mol"
+    }, {
+      "kind" : "note",
+      "text" : "= (M1×12)OR393.6"
+    }, {
+      "kind" : "note",
+      "text" : "M3=394OR3.94×102kJ/mol"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign"
+    }, {
+      "kind" : "note",
+      "text" : "M3 subsumes M2"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calculating amount of carbon"
+    }, {
+      "kind" : "note",
+      "text" : "=10000÷12OR833.3"
+    }, {
+      "kind" : "note",
+      "text" : "M2 calculating heat energy in kJ/mol"
+    }, {
+      "kind" : "note",
+      "text" : "= (3.28×105÷M1)OR393.6"
+    }, {
+      "kind" : "note",
+      "text" : "M3=394OR3.94×102kJ/mol"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sign"
+    }, {
+      "kind" : "note",
+      "text" : "M3 subsumes M2"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1600/2000×100"
+    }, {
+      "kind" : "note",
+      "text" : "OR0.6/20×100"
+    }, {
+      "kind" : "note",
+      "text" : "M2=3(%)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from incorrect conversion of units in M1"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores2"
+    }, {
+      "kind" : "note",
+      "text" : "M1mol of sulfur=600÷32OR18.75"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2volSO2=M1×24OR450(dm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from incorrectA_rinM1"
+    }, {
+      "kind" : "note",
+      "text" : "M3=450000OR4.5×105(cm3)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF M2(dm3)×1000M3 subsumes M2"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer with no working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "acid rain"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any effects"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2.8.5",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 formula of phosphide ion is $ P^{3-} $M2 charges on three calcium/ $ Ca^{2+} $ ions balance/cancel out charges on two phosphide/ $ P^{3-} $ ions OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW $ P^{-3} $ALLOW charge on phosphide ion is 3-/-3ALLOW reference to three calcium atoms each lost two electrons/(total of) six electrons which were gained by two phosphorus atoms(to attain full outer shells) OWTTEAny reference to sharing of electrons/covalent bonding scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "$ Ca_{3}(PO_{4})_{2}+8 C \\rightarrow Ca_{3}P_{2}+8 CO $"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation includingM1(carbon acts as a) reducing agentM2(because) calcium phosphate/ $ Ca_{3}(PO_{4})_{2} $ loses oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(because) carbon gains oxygen/is oxidisedALLOW carbon removes oxygen from calcium phosphate/ $ Ca_{3}(PO_{4})_{2} $IGNORE references to reactivity series/displacement reactionsM2 DEP M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "$ Ca_{3}P_{2}+6H_{2}O \\rightarrow 3Ca(OH)_{2}+2PH_{3} $M1all formulae correctM2correct balancing"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1ALLOW multiples and fractions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation including",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 carbon above iron in reactivity series"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon is more reactive than iron ACCEPT reverse arguments"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so carbon can remove oxygen from iron(III) oxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW carbon can reduce iron(III)oxide ALLOW carbon can displace iron(from iron(III)oxide)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) electricity not been discovered OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE electrolysis not discovered"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including"
+    }, {
+      "kind" : "note",
+      "text" : "M1 ions"
+    }, {
+      "kind" : "note",
+      "text" : "If refs to electrons moving then scores 0"
+    }, {
+      "kind" : "note",
+      "text" : "M2 can move"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) The correct answer is C Na+"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect because H+ ions not present in molten sodium chloride"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect because Cl- ion is not a cation"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect because OH- ion not present in molten sodium chloride"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "explanation including"
+    }, {
+      "kind" : "note",
+      "text" : "M1 water/moisture reacts with sodium"
+    }, {
+      "kind" : "note",
+      "text" : "M2 to produce hydrogen (which ignites/burns/reacts in oxygen/air causing the small explosions)"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(anode)2Cl-→Cl2+2e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 2Cl-→2e(-)→Cl2"
+    }, {
+      "kind" : "note",
+      "text" : "M2(cathode)(2)Na++(2)e(-)→(2)Na"
+    }, {
+      "kind" : "note",
+      "text" : "both half-equations correct but order reversed scores 1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "explanation including",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW reverse arguments"
+    }, {
+      "kind" : "note",
+      "text" : "M1outer electron in potassium (atom) is further away(from nucleus)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium (atom) has more(electron) shells than lithium (atom)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium (atom) larger than lithium (atom)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW potassium has greater atomic radius"
+    }, {
+      "kind" : "note",
+      "text" : "M2outer electron in potassium (atom) less strongly attracted by nucleus OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M3so(outer) electron more easily lost OWTTE"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "to (more) easily/clearly see the colour change (at end point) OWTTE",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 litmusM2 blueORM1 methyl orangeM2 yellowORM1 phenolphthaleinM2 pink"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP M1ALLOW purpleALLOW orangeALLOW any other suitable indicator and correct final colour"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "Description including any five from the followingM1 rinse/wash the conical flask (with distilled/deionised water)M2 (repeat titration/experiment) adding sodium hydroxide (from burette) slowly/dropwise (near end point)M3 swirling flaskM4 record initial and final volume burette reading (at end point)/record volume sodium hydroxide added (at end point)M5 repeat until obtain concordant resultsM6 find mean/average (of concordant results)"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if rinsed/washed using solutionIGNORE names of indicators and any colour changesALLOW shaking/stirringALLOW reference to subtraction of initial and final readingsALLOW results within 0.2cm3(or less)"
+    }, {
+      "kind" : "note",
+      "text" : "(d)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "moles of NaOH $ \\frac{(0.350\\times18.80)}{1000}=0.00658 $ (1000)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT $ 6.58\\times10^{-3} $"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "amount of HNO_{3}=0.00658$"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "conc. of HNO_{3}=\\frac{0.00658\\times1000}{25.0}=0.263(2)$"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from(ii)If not divided by 1000 in(i) do not penalise if not multiplied by 1000 in(iii)ALLOW 2,3 or 4 sig figs throughout Penalise use of 1 sig fig once only"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f0f4ff7-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "diagram including the following",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 horizontal lines showing energy levels labelled $ N_{2}+O_{2} $ and 2NO"
+    }, {
+      "kind" : "note",
+      "text" : "M2 level of 2NO /products above level of $ N_{2}+O_{2} $ /reactants"
+    }, {
+      "kind" : "note",
+      "text" : "M3 $\\Delta H$ correctly shown between reactants and products and labelled"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW vertical line with/without arrowheadsIf single arrowhead must point from level of reactants to level of products"
+    }, {
+      "kind" : "note",
+      "text" : "M4 activation energy correctly shown and labelled"
+    }, {
+      "kind" : "note",
+      "text" : "Must be from level of reactants to top of“hump”ALLOW vertical line with/without arrowheadsIf single arrowhead must point from level of reactants to top of“hump”IGNORE any label on a horizontal axisIf diagram for exothermic reaction drawn can score M1 M3 M4"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "{944+($3\\times436$)=}2252"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any sign"
+    }, {
+      "kind" : "note",
+      "text" : "{6×391}=}2346"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any sign"
+    }, {
+      "kind" : "note",
+      "text" : "M1 difference between(i)和(ii)expected value=94"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any sign"
+    }, {
+      "kind" : "note",
+      "text" : "M2-94"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from(i)和(ii)If(ii)>(i)sign should be-If(i)>(ii)sign should be+"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : {
+    "1" : 4,
+    "2" : 5,
+    "3" : 9,
+    "4" : 9,
+    "5" : 11,
+    "6" : 13,
+    "7" : 11,
+    "8" : 8
+  },
+  "paperTotal" : 70,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"0\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (a)(i)", "orphan row before first entry: A is incorrect becauseCH3CH2OH is not a displayed formula", "orphan row before first entry: B is incorrect becauseCH3CH2OH is not an empirical formula", "orphan row before first entry: C is incorrect becauseCH3CH2OH is not a molecular formula", "orphan row before first entry: Any two from the following:", "orphan row before first entry: M1 same general formula", "orphan row before first entry: M2 each member differs from the next byCH2", "orphan row before first entry: M3 same functional group", "orphan row before first entry: M4 similar chemical properties/reactions", "orphan row before first entry: M5 trend/gradation in physical properties OWTTE", "orphan row before first entry: (iii)", "orphan row before first entry: (iv)", "orphan row before first entry: (b)(i)", "orphan row before first entry: M1 condensation (polymerisation)", "orphan row before first entry: M2 because water also produced/eliminated/removed/lost", "orphan row before first entry: (ii)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (e)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

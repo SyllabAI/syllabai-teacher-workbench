@@ -1,0 +1,391 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P70702A",
+    "publicationCode" : "4CH1_2C_2201_MS",
+    "session" : "January 2022",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "cc141f41-b5e6-5ad9-85ff-13d037c8078e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-cc141f41-q2ai",
+    "label" : "2(a)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "D nitrogen\nD is the only correct answer as nitrogen is the most abundant gas in unpolluted air.A is not correct as there are only trace amounts of hydrogen in unpolluted air.B is not correct as there are only trace amounts of methane in unpolluted air.C is not correct as there are only trace amounts of neon in unpolluted air.\nC 21%C is the only correct answer as the percentage of oxygen in the air is 21%A is not the correct answer as the percentage of oxygen in the air is not 0.04%B is not the correct answer as the percentage of oxygen in the air is not 0.9%D is not the correct answer as the percentage of oxygen in the air is not 35%\nreaction between magnesium and hydrochloric acid\nrusting of iron\nthermal decomposition of copper(II) carbonate\nAny one from:M1 global warmingM2 climate changeargon\nTotal for question = 8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "cracking an alkane"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW greenhouse effectALLOW an effect of global warming/climate change e.g. wildfires/melting of polar ice caps/flooding"
+    }, {
+      "kind" : "note",
+      "text" : "complete combustion of an alkane"
+    }, {
+      "kind" : "note",
+      "text" : "✓"
+    }, {
+      "kind" : "note",
+      "text" : "✓"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "nitric acid"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW HNO3/ nitrous acid/HNO2"
+    }, {
+      "kind" : "note",
+      "text" : "sulfur dioxide"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW SO2ALLOW other oxides of nitrogen"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-cc141f41-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:\nTotal for question = 11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 sodium moves (on the surface)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 sodium turns into a sphere/ball"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sodium melts"
+    }, {
+      "kind" : "note",
+      "text" : "M3 effervescence"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fizzing / bubbles"
+    }, {
+      "kind" : "note",
+      "text" : "M4 sodium gets smaller"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sodium disappears / dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M5 white trail seen"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to a flame"
+    }, {
+      "kind" : "note",
+      "text" : "(ii) blue / purple"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE qualifiers"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "same number of electrons/one electron in the outer shell."
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same number of valence electrons/one valence electron"
+    }, {
+      "kind" : "note",
+      "text" : "M1 lithium (atom) has a smaller atomic radius"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW lithium is smaller (atom)/lithium (atom) has fewer shells /energy levels"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the outer shell electron is more strongly attracted to the nucleus OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW outer electron in lithium (atom) is closer to the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "M3 so is less easily lost"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW reverse argument for sodium"
+    }, {
+      "kind" : "note",
+      "text" : "(c)M1 amount lithium = 0.150÷7 OR 0.0214 molM2 amount hydrogen = 0.0107 molM3 254÷0.0107M4 23,738"
+    }, {
+      "kind" : "note",
+      "text" : "penalise 1 sig fig in M1ALLOW M1÷2ALLOW 2 or more sig figs in answers to M1 and M2ALLOW 2 or more sig figs if all working showncorrect answers in the range 23,707 to 24,910 cm3 to 3 or more significant figures, without working scores4 marks."
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-cc141f41-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A description that refers to any five of the following points",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 add hydrogen peroxide to the conical flask and add catalyst"
+    }, {
+      "kind" : "note",
+      "text" : "M2 start the timer"
+    }, {
+      "kind" : "note",
+      "text" : "M3 record volume of gas produced in a given time/record the time for certain volume of gas to be produced"
+    }, {
+      "kind" : "note",
+      "text" : "M4 repeat with same mass of a different catalyst"
+    }, {
+      "kind" : "note",
+      "text" : "M5 and with same volume of hydrogen peroxide"
+    }, {
+      "kind" : "note",
+      "text" : "M6 plot the results on a graph and calculate gradient (for each catalyst)"
+    }, {
+      "kind" : "note",
+      "text" : "M7 the most effective catalyst gives the fastest rate of reaction OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 a vertical line from the level of the hydrogen peroxide to the top of the curve labelled activation energy or $E_{\\mathrm{a}}$"
+    }, {
+      "kind" : "note",
+      "text" : "the line does not need an arrow head"
+    }, {
+      "kind" : "note",
+      "text" : "M2 a vertical line from the level of the hydrogen peroxide to the level of the water and oxygen labelled enthalpy change or $\\Delta H$"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW double headed arrow"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT arrow pointing down"
+    }, {
+      "kind" : "note",
+      "text" : "curve starting from hydrogen peroxide level, below the peak of the original curve, and ending at water and oxygen level"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW double headed arrow"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT arrow pointing up"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    } ],
+    "marks" : 5,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-cc141f41-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "all points plotted ± half a square\ncurved line of best fit\nAn explanation that links the following two points\nM1 curve shows increasing mass (of negative electrode) because (more) copper deposits/forms\nM2 line becomes horizontal because there are no more copper(II) ions left in the solution/all the copper has been deposited/formed OWTTE\nM1 fill a test tube/measuring cylinder with copper sulfate solution\nM2 place the tube over the positive electrode\nM3 collect gas/oxygen by displacement of solution/water\nM1 all formulae correct\nM2 correct balancing of correct formulae\nM1 delocalised electrons\nTotal for question = 12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW line becomes horizontal as there is no copper sulfate solution left"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to two of the following points"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW fill a test tube/measuring cylinder with water"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "2H2O→O2+4H++4e(-)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 layers (of atoms or ions)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sheets/rows"
+    }, {
+      "kind" : "note",
+      "text" : "M2 can slide over one another"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW atoms/ions slide over each other for M2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE sea of electrons/free electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 are free to move (throughout the structure)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on mention of electrons in M1"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if reference to ions moving"
+    }, {
+      "kind" : "note",
+      "text" : "0 marks if reference to ions moving"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-cc141f41-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Chemical structure of ethyl ethanoate\nALLOW ethyl acetate\nACCEPT test gas with lighted splint which pops\nM2 dep on reference to adding a metal\nORM1 add a carbonateM2 effervescence/bubbles/fizzing\nALLOW energy of bonds formed equals energy of bonds broken\nREJECT concentration of the reactants and products are the same",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT any other atoms in the ring."
+    }, {
+      "kind" : "note",
+      "text" : "(ii) ethyl ethanoate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ethylethanoate"
+    }, {
+      "kind" : "note",
+      "text" : "(iii) M1 add a metal such as magnesium, aluminium, zinc or ironM2 effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "must be a named metal REJECT Group 1 metals"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any named carbonateACCEPT test gas with limewater which goes cloudy/milkyM2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 C-O and one/two O-H bonds are broken and formedM2 so the same amount of energy is needed to break the bonds in the reactants as is given off when the bonds in the products are formed"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the same bonds are broken and formed"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the rate of the forward reaction equals the rate of the backward reactionM2 the concentrations of reactants and products remain constant"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 a catalyst increases the rate of forward and backward reactionsM2 equally"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-cc141f41-q7d",
+    "label" : "7(d)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "example calculation\nM1 moles barium hydroxide=(0.150×22.75)÷1000\nOR0.0034125\nM2 moles ethanoic acid=0.006825\nM3 moles ethanoic acid to 3 significant figures=0.00683\nTotal for question=15",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 needs to be given to at least 3 sig figs"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW M1×2"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW answer to M2 to 3 significant figures."
+    }, {
+      "kind" : "note",
+      "text" : "correct answer of0.00683 moles with or without working scores3 marks"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT answer in standard form"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 0.00682 if M1 given to 3 sig figs"
+    }, {
+      "kind" : "note",
+      "text" : "6.83 with or without working scores2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer scores2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "Chemical structure"
+    }, {
+      "kind" : "note",
+      "text" : "M1 three carbons from the dicarboxylic acid and two from the diol and the ester linkage"
+    }, {
+      "kind" : "note",
+      "text" : "M2 -OH lost from the dicarboxylic acid and -H lost from the diol"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW structure without extension bonds"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE brackets and n and +H2O"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW -OH lost from diol and -H lost from dicarboxylic acid"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "orphan row before first entry: 1(a)(i)(ii)", "orphan row before first entry: M2 only", "orphan row before first entry: ethene has a double bond", "orphan row before first entry: (b)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: Total for question=7", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3(a)(i)(ii)", "orphan row before first entry: M131-13M218(g)", "orphan row before first entry: 5.1(g)", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: M15.1÷15OR0.34(g)ORanswer to(i)÷answer to(ii)M234(g)ORanswer toM1×100", "orphan row before first entry: Any one fromM1(hydrated) copper(II)sulfate would become anhydrous copper sulfateM2(hydrated) copper(II)sulfate would lose water", "orphan row before first entry: Total for question=9", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(d): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,430 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P73426A",
+    "publicationCode" : "4CH1_2CR_2406_MS",
+    "session" : "Summer 2024",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "42d68e49-2818-5c3b-9237-89b9bb9bfbc1"
+  },
+  "entries" : [ {
+    "entryId" : "ms-42d68e49-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal marks for question1=4",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B(3)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because sulfur is not in period2"
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer because sulfur is not in period4"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because sulfur is not in period6"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D(2-)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because the charge on a sulfide ion is not1+"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer because the charge on a sulfide ion is not2+"
+    }, {
+      "kind" : "note",
+      "text" : "C is not the correct answer because the charge on a sulfide ion is not1-"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "the reaction has a high activation energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to give zinc and sulfur enough energy to react"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW speeds reaction up/increases rate of reaction/reacts quicker"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the reaction is very slow at room temperature"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE unreactive/does not react"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gains kinetic energy"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any units given"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-42d68e49-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal marks for question 2=6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "C(neutron)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because electrons are not in the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as ions are not in the nucleus"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer as protons have a positive charge"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(9)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because the proton number=4"
+    }, {
+      "kind" : "note",
+      "text" : "B is not the correct answer as there are 5 neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "D is not the correct answer because 13 is the number of protons+neutrons+electrons"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "similarity=number of protons/proton number"
+    }, {
+      "kind" : "note",
+      "text" : "difference=number of neutrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW number of electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW one has 3 neutrons and the other has 4 neutrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to atomic number and mass numbers"
+    }, {
+      "kind" : "note",
+      "text" : "M1((7.5×6)+(92.5×7))÷100"
+    }, {
+      "kind" : "note",
+      "text" : "M26.925/6.93/6.9"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 2 or more significant figures"
+    }, {
+      "kind" : "note",
+      "text" : "Answer 6.925/6.93/6.9 without working scores 2 marks"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of 7 with correct method scores M1"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of 7 without working scores 0"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-42d68e49-q3",
+    "label" : "3",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)\nTotal marks for question 3=12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1(positive) ion/cation"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW atom"
+    }, {
+      "kind" : "note",
+      "text" : "M2(delocalised) electron"
+    }, {
+      "kind" : "note",
+      "text" : "M1 layers(of atoms/ions)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(atoms/ions) can slide over one another"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "2Mg(s)+O2(g)→2MgO(s)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 balancingM2 state symbolsmagnesium gains oxygen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractions-O2must also be changed to score.ALLOW magnesium loses electronsIGNORE magnesium reacts with oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "to increase the rate of reaction OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "to ensure all the acid has reacted/neutralise the acid OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of HCl=(25×2)÷1000 OR 0.050(mol)M2 amount of magnesium=0.050÷2 OR 0.025(mol)M3 0.025×24=0.60g/0.6g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf M1÷2ALLOW ecf M2×24Answer of 0.60g without working scores3Answer of 1.20g with working scores2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-42d68e49-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 30℃\nM2(enzymes from)yeast\nM2 to form ethanoic acid\nOR\nM1 ethanol would not be formed\nM1(theoretical moles of ethanol from glucose)=500x2=1000\nM2(100% yield)=46000g\nM3(percentage yield)=(5750÷46000)×100=12.5%\nOR\nM1moles of ethanol from mass=5750/46=125\nM2theoretical moles of ethanol=500x2=1000\nTotal marks for question 4=8",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW values within the range of 30℃-40℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWzymaseIGNOREglucose/anaerobic/pressure"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 oxygen in the air would react with ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT ethanol would be oxidised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to form carboxylic acid ALLOW to form vinegar"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "CO2"
+    }, {
+      "kind" : "note",
+      "text" : "12.5%"
+    }, {
+      "kind" : "note",
+      "text" : "Answer of 12.5% without working scores 3 marks"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M1"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from M2"
+    }, {
+      "kind" : "note",
+      "text" : "M3(percentage yield)=125/1000×100=12.5%"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow ecf for M3"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-42d68e49-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "platinum\nTotal marks for question 6=11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW silver/gold/graphite"
+    }, {
+      "kind" : "note",
+      "text" : "glowing splint relights"
+    }, {
+      "kind" : "note",
+      "text" : "lit splint(with a squeaky)pop"
+    }, {
+      "kind" : "note",
+      "text" : "$2H^{+}+2e^{-}\\rightarrow H_{2}$"
+    }, {
+      "kind" : "note",
+      "text" : "0.0237g"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer(to 3 sig figs)without working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "M1(moles of oxygen)17.80÷24000OR0.000742M2Mrof oxygen=32M30.0237g"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf fromM1andM2answer must be to 3 sig figs forM3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "ions can move/are mobile OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "Hydrogen/it is less reactive than sodium ORA"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW H^{+}ions are more easily reduced/accept electrons more easily than Na^{+}ionsALLOW hydrogen is below sodium in the reactivity series"
+    }, {
+      "kind" : "note",
+      "text" : "M1the universal indicator turns blue/purpleM2OH^{-}/hydroxide ions are present in solution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW solution is sodium hydroxideALLOW the solution is alkaline"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-42d68e49-q7ai",
+    "label" : "7(a)(i)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 yield decreases AND reaction shifts towards the left hand side",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW backward reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 which is the side with more moles(of gas)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW molecules"
+    }, {
+      "kind" : "note",
+      "text" : "M1 The yield(of ethanol) does not changeM2 as(adding a catalyst)increases the rate of the forwards and backwards reactions equally"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(bonds broken)(4×414)+614+(2×463)OR3196"
+    }, {
+      "kind" : "note",
+      "text" : "answer of-41 with no working scores3"
+    }, {
+      "kind" : "note",
+      "text" : "M2(bonds formed)(5×414)+346+358+463OR3237"
+    }, {
+      "kind" : "note",
+      "text" : "answer of-40 with no working scores0"
+    }, {
+      "kind" : "note",
+      "text" : "M3sum of bonds broken-sum of bonds formedOR-41/molOR"
+    }, {
+      "kind" : "note",
+      "text" : "M1(bonds broken)614+(2×463)OR1540"
+    }, {
+      "kind" : "note",
+      "text" : "M2(bonds formed)414+346+358+463OR1581"
+    }, {
+      "kind" : "note",
+      "text" : "M3sum of bonds broken-sum of bonds formedOR-41kJ/mol"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links together the following two points:"
+    }, {
+      "kind" : "note",
+      "text" : "M1more energy is given out when the bonds are made"
+    }, {
+      "kind" : "note",
+      "text" : "If state/imply that energy required to make bonds scores0"
+    }, {
+      "kind" : "note",
+      "text" : "M2than is taken in when the bonds are broken"
+    }, {
+      "kind" : "note",
+      "text" : "If state/imply that energy released when bonds are broken scores0"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1Breaking bonds is endothermic/takes in energy and making bonds is exothermic/releases energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2More energy is released than taken in"
+    }, {
+      "kind" : "note",
+      "text" : "M2dep onM1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"97\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(a)(i)(ii)", "orphan row before first entry: M1 fill a burette (with sodium hydrogensulfate)", "orphan row before first entry: M2 add sodium hydrogensulfate until the indicator changes colour", "orphan row before first entry: M3 swirl (the conical flask)", "orphan row before first entry: M4 add sodium hydrogensulfate dropwise near to the endpoint/end", "orphan row before first entry: M5 repeat until concordant results", "orphan row before first entry: (b)", "orphan row before first entry: M2 cool and crystallise/leave to crystallise", "orphan row before first entry: M3 pour off any excess liquid", "orphan row before first entry: M4 leave in a warm place to dry", "orphan row before first entry: (c)", "orphan row before first entry: M2 mass of water = 3.6g", "orphan row before first entry: M3 moles of sodium sulfate = 0.02 AND moles of water = 0.20", "orphan row before first entry: M4 x = 10", "orphan row before first entry: OR", "orphan row before first entry: M1 mass of sodium sulfate = 2.84g", "orphan row before first entry: M2 mass of hydrated salt = 6.44g", "orphan row before first entry: M3 Mr of hydrated salt = 6.44/0.02 = 322", "orphan row before first entry: M4 xH2O = 322-142 = 180 so x = 10", "orphan row before first entry: Total marks for question 5 = 14", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: (c)(i)", "orphan row before first entry: M2 rest of molecule correct", "orphan row before first entry: (ii)" ]
+}

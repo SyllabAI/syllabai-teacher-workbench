@@ -1,0 +1,89 @@
+MILESTONE R3-3 VERIFICATION VERDICT
+Generated: 2026-09-13 (~15:00 local session time, Asia/Dhaka)
+Session: post-recovery production continuation (fresh sandbox booted 13:49:46Z)
+
+════════════════════════════════════════════════════════════════════
+SECTION 1 — EVIDENCE CHAIN RE-VERIFICATION (all VERIFIED-BY-ARTIFACT)
+════════════════════════════════════════════════════════════════════
+[PASS] Retained isolation dumps decompress to BYTE-IDENTICAL content.
+       sha256(after.dump) = sha256(before.dump)
+         = c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2
+       = value recorded in before.sha256 / after.sha256 / verdict.txt.
+       Note: the .gz artifacts hash differently ONLY due to gzip headers
+       (filename/mtime; 1-byte size delta) — discrepancy investigated and
+       resolved by decompression, not assumed.
+[PASS] Isolation suite log: Tests run 334, Failures 0, Errors 0 (13:07:23Z).
+[PASS] Counts file identical before/after (counts.diff empty).
+[VERIFIED] campaign-baseline.json survived intact (this file's SHA256SUMS).
+[VERIFIED] 17-batch replay packages + full campaign tooling survived.
+
+════════════════════════════════════════════════════════════════════
+SECTION 2 — DERIVED READ MODEL (label: INFERRED — not canonical)
+════════════════════════════════════════════════════════════════════
+Source: retained data-only dump (Section 1). Parser:
+/home/z/my-project/scripts/parse_dump_readmodel.py (persisted, re-runnable).
+[PASS x16] Table row counts exactly match verified after.counts:
+       exam_papers=81 questions=766 versions=766 parts=4822 schemes=641
+       points=1105 documents=162 chunks=2210 bridge=81 nodes=96 edges=21
+       topics=4 options=32 subjects=2 curricula=2 identity=1
+[PASS] Identity row present and correct: T-C04-CAMPAIGN @ syllabai
+       (core commit a54f310, claim rule intact).
+[PASS] Lifecycle split exact: 758 SUGGESTED + 8 seed-VALIDATED versions.
+[PASS] Zero embedded chunks (embedding boundary intact).
+[PASS] QUARANTINE: zero rows anywhere reference 1c-2016jan (hard-asserted
+       in the parser — build fails on violation).
+[PASS] Bridge records: 47 OK + 34 REVIEW_REQUIRED = 81 (conflicts preserved,
+       none auto-resolved).
+Column-name discipline: tooling-recovered / UUID-crossref-verified / col_N
+(INFERRED) tracked per column in INFERRED_READ_MODEL.json. Two seed-row-based
+guesses were caught and corrected by cross-reference (questions.exam_paper_id,
+question_versions.source_document_id).
+
+════════════════════════════════════════════════════════════════════
+SECTION 3 — SERVING INFRASTRUCTURE (ephemeral, NOT canonical store)
+════════════════════════════════════════════════════════════════════
+[READY] PostgreSQL 17.11 (Debian 17.11-0+deb13u1) cluster @ 127.0.0.1:5432,
+       role+db `syllabai` created, pgvector 0.8.0 deb staged.
+       Purpose: canonical apply (Flyway V1..V16) + idempotent replay the
+       moment repo access returns. Cluster holds NO campaign data yet —
+       deliberately: canonical provisioning is migrate+replay (dump lacks
+       flyway_schema_history; dump is the proof artifact, not the path).
+
+════════════════════════════════════════════════════════════════════
+SECTION 4 — TEACHER-VALIDATION REVIEW WORKBENCH (v1, browser-verified)
+════════════════════════════════════════════════════════════════════
+Next.js 16 app at / (single route + 4 API routes). Agent-browser verified:
+[PASS] Page renders with evidence ribbon, quarantine banner, exact stats.
+[PASS] Session list: search + review-required filter (34 sessions).
+[PASS] Dossier: questions w/ parts, options, mark-scheme points;
+       reconciliation findings (per-session, e.g. 115 for 4CH0/1C Jun 2012);
+       QP/MS source chunks as ingested.
+[PASS] Stage VALIDATE → hash-chained append (seq, prevHash→hash), toast,
+       staging-log sheet shows CHAIN VALID, per-session progress counters.
+[PASS] Lifecycle gates (server-enforced, all refused with 422):
+       - REJECT without note                    → refused
+       - duplicate VALIDATE on same target      → refused
+       - decision on seed-VALIDATED target      → refused (lifecycle lock)
+[PASS] REVERSE is append-only (new entry referencing prior seq).
+[PASS] Export bundle: downloads AND writes durable copy to
+       download/teacher-validation/decision-bundle-*.json.
+[PASS] Mobile viewport (390x844) layout holds; sticky footer correct.
+[PASS] No console errors; reviewer name persists (localStorage).
+Smoke-test entries were purged after verification; log ships empty.
+IMPORTANT: decisions are STAGED only — the canonical campaign DB is never
+written by this UI. Applying staged decisions = future gated importer.
+
+════════════════════════════════════════════════════════════════════
+SECTION 5 — STATUS AND SINGLE BLOCKER
+════════════════════════════════════════════════════════════════════
+GREEN (evidence-backed, this milestone): evidence-chain re-verification,
+read-model derivation w/ all invariants, review workbench v1.
+PENDING (blocked on ONE credential): GitHub PAT is no longer in this
+environment (previous token redacted in session summary; envs do not
+persist across resets). Needed to:
+  1. Clone syllabai-core → apply V1..V16 (immutable) to the ready cluster
+  2. Idempotent replay of 17 batches → verify_final_state (26 checks)
+  3. Verify remote durability claims (main @ e1d5ee8, release
+     t-c04-r2-recovery, 6 assets)
+Until then the canonical serving DB does not exist locally; the retained
+dump + replay packages remain the canonical state (by design).

@@ -1,0 +1,802 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "Summer 2012",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "7703c573-740f-56aa-aa74-8cb10f0bf2a7"
+  },
+  "entries" : [ {
+    "entryId" : "ms-7703c573-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "1 mark for each correct answer",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "Ignore extra apparatus on top of tripod eg beaker Minimum is 2 vertical or diagonal lines with something on top"
+    }, {
+      "kind" : "note",
+      "text" : "measuring cylinder"
+    }, {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "Or 2D diagram"
+    }, {
+      "kind" : "note",
+      "text" : "C"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore D"
+    }, {
+      "kind" : "note",
+      "text" : "(top pan) balance/scale(s)/weighing machine"
+    }, {
+      "kind" : "note",
+      "text" : "A or E"
+    } ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q1b",
+    "label" : "1(b)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 wear(safety) glasses/spectacles/goggles/eye protection\nM2 salt/solution/water may spit out(when evaporating the salty water)/may get in your eye\nIGNORE references to hazards eg toxic/irritant",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "It"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "leave basin(to cool)before removing"
+    }, {
+      "kind" : "note",
+      "text" : "crucible tongs/plastic gloves"
+    }, {
+      "kind" : "note",
+      "text" : "M1 use(beaker)tongs/hot hand/(rigger/oven)glove(s)(to remove/lift the basin)"
+    }, {
+      "kind" : "note",
+      "text" : "to avoid burning hand"
+    }, {
+      "kind" : "note",
+      "text" : "M2 basin will/may be hot"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 tie hair back/tuck in tie"
+    }, {
+      "kind" : "note",
+      "text" : "M2 might catch fire(in Bunsen burner)"
+    }, {
+      "kind" : "note",
+      "text" : "the reason must match the precaution"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to wearing lab.coats/protective clothing"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "(2.9x2)=5.8(g)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q2ci",
+    "label" : "2(c)(i)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "exothermic",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "MgO"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "magnesium oxide"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE incorrect formula"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 precipitate of barium sulfate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "sulphate for sulfate insoluble barium sulphate / BaSO4"
+    }, {
+      "kind" : "note",
+      "text" : "incorrect name of ppt."
+    }, {
+      "kind" : "note",
+      "text" : "M2 no precipitate"
+    }, {
+      "kind" : "note",
+      "text" : "no (visible) change solution (formed)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 precipitate of calcium sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "sulphate for sulfate insoluble calcium sulfate / CaSO4"
+    }, {
+      "kind" : "note",
+      "text" : "incorrect name of ppt."
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE colours"
+    }, {
+      "kind" : "note",
+      "text" : "penalise incorrect extra observations (e.g. effervescence) ONCE only"
+    }, {
+      "kind" : "note",
+      "text" : "For M1 and M3 only: if only precipitate appears twice (with no names), penalise missing names once only"
+    }, {
+      "kind" : "note",
+      "text" : "if only names correct (with no precipitates), penalise omission of precipitate once only"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q3b",
+    "label" : "3(b)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "aq aq s aq",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "obtain the lead(II) bromide/the residue/the solid OR remove the liquid/solution/potassium nitrate/water"
+    }, {
+      "kind" : "note",
+      "text" : "separate the solid and liquid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "to wash away/remove the (remaining) potassium nitrate/lead(II) nitrate/potassium bromide/solution IGNORE clean"
+    }, {
+      "kind" : "note",
+      "text" : "wash away/remove (remaining soluble) impurities to make it pure"
+    }, {
+      "kind" : "note",
+      "text" : "make the mixture pure"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "distilled water is pure/does not contain(dissolved) impurities/ions/substances/compounds/other chemicals (that would contaminate the lead(II) bromide)/residue/solid IGNORE elements IGNORE references to distilled water being cleaner(ORA)"
+    }, {
+      "kind" : "note",
+      "text" : "reverse argument for tap water"
+    }, {
+      "kind" : "note",
+      "text" : "any suggestion that the water/impurities react"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "to evaporate the water/to dry (the solid/crystals)/increase rate of evaporation(of water) IGNORE liquid"
+    }, {
+      "kind" : "note",
+      "text" : "to avoid decomposition(if heated strongly)"
+    }, {
+      "kind" : "note",
+      "text" : "to evaporate the potassium nitrate/solution any reference to crystallisation"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(increasing) atomic number(s)\nIGNORE references to electrons/electronic configurations",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "proton number/number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "mass number/RAM"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "sodium/potassium"
+    }, {
+      "kind" : "note",
+      "text" : "Na/K"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "fluorine/chlorine/bromine"
+    }, {
+      "kind" : "note",
+      "text" : "F/Cl/Br/F2/Cl2/Br2"
+    }, {
+      "kind" : "note",
+      "text" : "fluoride/chloride/bromide"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "sodium OR potassium"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "fluorine OR chlorine OR bromine OR hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "Answers can be in either order"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE incorrect symbols/formulae if names are correct"
+    }, {
+      "kind" : "note",
+      "text" : "Marks do not have to be CQ on(c)(i), and all marks can be scored here for correct diagrams of the ions in a hydrogen halide"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Na or K with 8 electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Na/K"
+    }, {
+      "kind" : "note",
+      "text" : "F/Cl/Br/H/F2/Cl2/Br2/H2"
+    }, {
+      "kind" : "note",
+      "text" : "fluoride/chloride/bromide/hydride"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "0 electrons"
+    }, {
+      "kind" : "note",
+      "text" : "Incorrect electron transfer for M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 F, Cl or Br with 8 electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE diagrams showing initial electron configurations"
+    }, {
+      "kind" : "note",
+      "text" : "M3(1)+AND(1)-charges correct"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE inner shells even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "H with 2 electrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q4d",
+    "label" : "4(d)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(fluorine reacts) vigorously/instantly/explosively/violently/very quickly/very rapidly",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "the quickest/more quickly than chlorine"
+    }, {
+      "kind" : "note",
+      "text" : "fluorine reaction slower than chlorine reaction"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to electron transfer, even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "ferric fluoride/FeF3"
+    }, {
+      "kind" : "note",
+      "text" : "(to form) iron(III) fluoride"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q5a",
+    "label" : "5(a)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2H2O2→2H2O+O2M1 all formulae correct(including catalyst if given)M2 correct balancingM2 DEP on M1If catalyst included in equation, must be MnO2 on both sidesIGNORE MnO2 above the arrow",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "H2O2→H2O+1/2O2multiples"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "relights a glowing spillIGNORE reference to popping"
+    }, {
+      "kind" : "note",
+      "text" : "splint for spillsmouldering/emberingfor glowing"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(rate) increasesM2provides an alternative pathway/route/mechanism(for the reaction)ORhydrogen peroxide) particles/molecules/reactant(s)adsorb(onto catalyst)M3with a lower activation energyORmore particles/molecules have the(required) activation energyORweakens the(covalent)bonds(in the hydrogen peroxide)"
+    }, {
+      "kind" : "note",
+      "text" : "speeds up/goes faster/decreases time(for decomposition)lowers the activation energy by going a different way=M2and M3Absorb/sticks to/bonds to/provides a surface for particles/molecules/reactant(s) to reactdescription of activation energyeg particles have enough energy to react"
+    }, {
+      "kind" : "note",
+      "text" : "gives particles more kinetic energy for M2and M3atomsatoms"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 both protons = 6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 C-13 has 7 and C-14 has 8 (neutrons)"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "same electronic configuration(s)/structure(s)"
+    }, {
+      "kind" : "note",
+      "text" : "different number of protons"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "same number of electrons"
+    }, {
+      "kind" : "note",
+      "text" : "amount for number/six electrons"
+    }, {
+      "kind" : "note",
+      "text" : "have four/same number of electrons in outer/valence shell"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE same number of electrons in inner shells"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to atomic number/same number of protons/different number of neutrons"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 the average/mean mass of an atom(of the element)"
+    }, {
+      "kind" : "note",
+      "text" : "average/mean of:atomic masses/mass numbers/mass of isotopes"
+    }, {
+      "kind" : "note",
+      "text" : "mean mass of an element"
+    }, {
+      "kind" : "note",
+      "text" : "M2 compared to/relative to(1/12th)the mass(of an atom)of carbon-12"
+    }, {
+      "kind" : "note",
+      "text" : "on a scale where carbon-12 has a mass of12/compared with the mass of carbon-12which is12"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass of one mole of atoms"
+    }, {
+      "kind" : "note",
+      "text" : "mass of one mole of the element"
+    }, {
+      "kind" : "note",
+      "text" : "M2 compared to(mass of)1/12thone mole/1g of carbon-12"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q7c",
+    "label" : "7(c)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any 4 from:\n• produces smaller/shorter(chain) molecules\n• smaller/shorter(chain) molecules more useful(as fuels)/have greater demand\n• smaller/shorter(chain) molecules burn more cleanly/are used to make petrol/diesel/fuel for vehicles\n• crude oil richer in/has a surplus of long(chain) molecules\n• produces alkenes/any named alkene\n• alkenes used to make alcohol/polymers/plastics/chemical feedstock/any named addition polymer",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ORA"
+    }, {
+      "kind" : "note",
+      "text" : "low(er) demand products converted to high(er) demand products"
+    }, {
+      "kind" : "note",
+      "text" : "ORA"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q8c",
+    "label" : "8(c)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "particles/molecules collide with air particles/molecules in airORparticles/molecules collide with one another/the wall(of the tube)Do not penalise collisions between ammonia and hydrogen chlorideORparticles move in random direction/need many collisions(for white ring)to become visible/many particles of ammonium chloride must form(before white ring seen)Do not penalise atoms in place of molecules/particlesIGNORE references to time taken for evaporation to take placeIGNORE references to time taken for reaction to take place",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q9a",
+    "label" : "9(a)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "silicon dioxide is acidic",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "an acid"
+    }, {
+      "kind" : "note",
+      "text" : "calcium oxide is basic/a base"
+    }, {
+      "kind" : "note",
+      "text" : "calcium oxide is alkaline/an alkali"
+    }, {
+      "kind" : "note",
+      "text" : "If neither mark scored, award 1 mark for: reaction is neutralisation OR reaction is between an acid and a base/alkali (even if wrongly identified)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q10biii",
+    "label" : "10(b)(iii)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 two electrons between the oxygen atoms",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M2 all other electrons correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "allow",
+      "text" : "Allow any combination of dots and crosses"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q11ai",
+    "label" : "11(a)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "potassium/K+",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "K"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "iron(II)/Fe2+"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "iodide/I-"
+    }, {
+      "kind" : "note",
+      "text" : "I"
+    }, {
+      "kind" : "note",
+      "text" : "iodine/I2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 use a(clean platinum/nichrome)wire/glass rod/silica rod"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to hydrochloric acid"
+    }, {
+      "kind" : "note",
+      "text" : "M2(to put)solid/solution/Min/overa flame/burner"
+    }, {
+      "kind" : "note",
+      "text" : "M3flame as either blue/roaring/non-luminous/Bunsen/blow torch"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "burner described Bunsen/blow torch"
+    }, {
+      "kind" : "note",
+      "text" : "no marks if solid is in a container,e.g.test tube/tray/beaker/basin"
+    }, {
+      "kind" : "note",
+      "text" : "any method of introducing the solid into the flame,e.g.(wet) wooden spill/spatula/metal rod/tip or sprinkle in powder"
+    }, {
+      "kind" : "note",
+      "text" : "any metal that will burn or melt in a flame(e.g.magnesium)or any metal that will colour the flame(e.g.copper)"
+    }, {
+      "kind" : "note",
+      "text" : "tongs/tweezers/(deflagrating)spoon"
+    }, {
+      "kind" : "note",
+      "text" : "luminous/yellow flame"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q11ci",
+    "label" : "11(c)(i)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "reacts with/removes carbonate(ions)ORremove ions/substances/impurities that(form a) precipitate(with silver ions/silver nitrate)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "formularemoves ions that give a positive result(with silver ions/silver nitrate)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(hydrochloric acid)contains chloride ionsM2which interfere with test/make silver chlorideORM1forms a(white) precipitateM2of silver chlorideDo not award either mark if wrong chemistry described,eg redox reactions,formation of iodine"
+    }, {
+      "kind" : "note",
+      "text" : "gives a(white) precipitate/(false) positive result"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine ions"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "nitrate/NO3-If both name and formula given,both must be correct"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q12a",
+    "label" : "12(a)",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "2PbS+3O2→2PbO+2SO2M1 all formulae correctM2 correct balancingM2 DEP on M1IGNORE state symbols",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Multiples and fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Reduced AND oxygen has been removedIGNORE It/PbO gains electronsDo not penalise molecules"
+    }, {
+      "kind" : "note",
+      "text" : "arguments based on decrease in oxidation number ofPb/gain of electrons byPb2+/lead ions"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Mr(PbO)=223(moles method)M2 n(PbO)=44.6/223(=0.2)M3 mass ofC=0.2/2x12=1.2(mass ratio method)M2446 require12/44.6×12/446M344.6 require1.2/1.2Calculations with and without use of106are acceptablemark csq at each stageCorrect final answer with or without working"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q12ci",
+    "label" : "12(c)(i)",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(silver is / it is)more soluble in zinc / less soluble in lead",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "soluble in zinc but insoluble in lead"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(it is) less than / equal to 530(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "implication that Zn and Ag melting points are both less than or equal to 530℃"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 zinc/it is lower / silver is higher"
+    }, {
+      "kind" : "note",
+      "text" : "M2 zinc turns into a vapour / gas(when heated) while silver remains"
+    }, {
+      "kind" : "note",
+      "text" : "boils off(as a gas) first when heated"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to melting point"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "silver is expensive / valuable"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-7703c573-q13c",
+    "label" : "13(c)",
+    "number" : 13,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1anhydrous/white copper sulfate",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "anhydrous cobalt chloride/blue cobalt chloride(solid or paper)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE crystals"
+    }, {
+      "kind" : "note",
+      "text" : "turns pink"
+    }, {
+      "kind" : "note",
+      "text" : "M2 turns blue"
+    }, {
+      "kind" : "note",
+      "text" : "if oxidation number of copper given, must be+2"
+    }, {
+      "kind" : "note",
+      "text" : "if oxidation number of copper given, must be+2"
+    }, {
+      "kind" : "note",
+      "text" : "copper sulfate turns from white to blue=2"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1 correct or near miss"
+    }, {
+      "kind" : "note",
+      "text" : "cobalt chloride turns from blue to pink=2"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to determining melting and/or boiling point, even if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "dehydrated in place of anhydrous"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to acid/base indicators or UI, even if incorrect"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)(iii)", "orphan row before first entry: iron/zinc", "orphan row before first entry: calcium magnesium zinc iron copper", "orphan row before first entry: M1 for calcium as most reactiveM2 for copper as least reactiveM3 for remainder in correct order", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: all the (sulfuric) acid has reacted/all hydrogen (ions) have been replaced (by magnesium (ions))ORacid has been used up/been neutralised/acid has run out", "orphan row before first entry: IGNORE the acid is saturated/excess magnesium has been added", "orphan row before first entry: magnesium sulfate (solution)IGNORE incorrect formula", "orphan row before first entry: (iv)", "orphan row before first entry: IGNORE references to distillation/centrifuging/washing/evaporation after filtration", "2(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(b): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Allow any combination of dots and crosses\nIf shown covalently bonded, then max.1 for correct charges if given\nIf the position of 2 electrons shown between the two species makes it hard to be sure that the bonding is definitely ionic(and not covalent),do not award M1 or M2", "4(d): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (e)", "orphan row before first entry: M2 orange/yellow/brown", "orphan row before first entry: IGNORE qualifiers such as light/dark", "5(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 5(d)(i)(ii)", "orphan row before first entry: M2 levelling off at 30cm3(+/-0.5)和 anywhere between30s and120s", "orphan row before first entry: M1 curve starting at origin and above original curve", "orphan row before first entry: M2 levelling off at60cm3(+/-0.5)和 before80sif curves incorrectly labelled then penalise each curve1mark,so max.2for the question", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 6 c (ii)", "orphan row before first entry: M2÷100", "orphan row before first entry: M312.01", "orphan row before first entry: IGNORE units", "orphan row before first entry: 7(a)(i)(ii)", "orphan row before first entry: M2 only", "orphan row before first entry: M2 DEP on M1, but allow M2 if molecules/ions/ mixture used in M1", "orphan row before first entry: IGNORE structural formula", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: M1 one of the bonds in the double bond breaks", "orphan row before first entry: M2(many) ethene(s)/molecules/monomers join(together)OR(many) ethene(s)/molecules/monomers form a chain", "orphan row before first entry: 8(a)(i)(ii)", "orphan row before first entry: ammonia because it moves further (in the same time) / ammonia moved 60cm and hydrogen chloride moved 40cm", "orphan row before first entry: OR", "orphan row before first entry: ammonia because (white) ring right of centre / ring is further from ammonia end / closer to HCl end", "orphan row before first entry: Do not penalise atoms in place of molecules/ particles", "orphan row before first entry: (b)", "orphan row before first entry: M2 particles / molecules have more (kinetic) energy", "orphan row before first entry: M3 and particles/gas move(s) / diffuse faster", "orphan row before first entry: IGNORE references to rate of reaction / more (successful/frequent) collisions", "orphan row before first entry: Do not penalise atoms in place of molecules/particles", "9(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: M2 forms two bonds/smaller atom/has valency of2\nIGNORE more(oxygen)in the formula", "orphan row before first entry: M2 DEP on M1, although allow M2 if oxygen mentioned but M1 not awarded because of reference to molecule/ion/O2", "orphan row before first entry: M1 giant(structure/lattice/atomic)\nIGNORE large/3D", "orphan row before first entry: M2 covalent", "orphan row before first entry: M3 idea that covalent bonds are broken\nIGNORE bonds are loosened", "orphan row before first entry: M4 covalent bonds are strong/lots of energy required to break covalent bonds/lots of heat required to break covalent bonds", "orphan row before first entry: IGNORE high temperature needed", "orphan row before first entry: Do not penalise silicone", "orphan row before first entry: Max2 for mention of ionic or metallic bonding or intermolecular forces", "orphan row before first entry: Max3 if discussing diamond/carbon", "orphan row before first entry: 10(a)(i)(ii)", "orphan row before first entry: M2 ratio 1:1M2 DEP on M1", "orphan row before first entry: M1 78÷39=2M2 Na2O2", "orphan row before first entry: Final answer scores 2", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: M1 all formulae correctM2 correct balancingM2 DEP on M1", "orphan row before first entry: Hydroxide/OH-/HO-/OH", "10(b)(iii): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "11(c)(i): bare integer cell \"11\" skipped (rubric/rowspan ambiguity)", "11(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"446\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"111\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: scores3\nFinal answers that may score2 are:\n0.6/2.4/4.8/0.12/12", "12(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(c)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 13(a)(i)(ii)", "orphan row before first entry: 3.78(g)", "orphan row before first entry: (iii)", "orphan row before first entry: M2n(H2O)=3.78÷18/=0.21", "orphan row before first entry: M3x=n(H2O)÷n(ZnSO4)=7", "orphan row before first entry: CSQ on(i)和(ii)Do not penalise non-integer values of xCorrect final answer with no working=1Correct final answer with some correct working=3", "orphan row before first entry: (b)", "13(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)" ]
+}

@@ -1,0 +1,617 @@
+{
+  "generated_at_utc": "2026-09-13 13:08:04 UTC",
+  "campaign": "T-C04 r2 final \u2014 81/82 sessions ingested, 1c-2016jan quarantined (operator/PDF resolution required)",
+  "commit_shas": {
+    "corpus_past_papers": "c42b6a144d7579ffe1f1f8db4c40d95b27d6b58d",
+    "syllabai_parser": "d3415caa85e1e9d5e815916bda89c107bf773364",
+    "syllabai_core": "5991187afb8d5efa3c92222b73928be08e2cb946"
+  },
+  "schema": {
+    "migration_tool": "flyway (classpath:db/migration)",
+    "migration_version": "16",
+    "migration_head": "concept nodes and t11 edge relations",
+    "note": "V15 = campaign_db_identity (isolation hardening); identity row claimed T-C04-CAMPAIGN"
+  },
+  "engine": {
+    "parser_engine_version": "1.1.0 (<br> printed-line-break fix current)",
+    "extraction": "opendataloader-fast+heuristics + glm-ocr markdown adapter"
+  },
+  "db_identity": {
+    "campaign_label": "T-C04-CAMPAIGN",
+    "db_name": "syllabai",
+    "claim_rule": "destructive tooling runs campaign_db_preflight.py: missing/mismatched identity \u2192 fail closed"
+  },
+  "row_counts": {
+    "exam_papers": 81,
+    "documents": 162,
+    "questions": 766,
+    "question_versions": 766,
+    "question_versions_suggested": 758,
+    "question_versions_validated_seed": 8,
+    "mark_schemes": 641,
+    "mark_points": 1105,
+    "question_parts": 4822,
+    "knowledge_nodes": 96,
+    "knowledge_edges": 21,
+    "glm_ocr_bridge_records": 81,
+    "document_chunks": 2210,
+    "document_chunks_embedded": 0
+  },
+  "figures": {
+    "figure_refs_in_imported_drafts": 1507,
+    "resolved": 1507,
+    "manifest_checksums": {
+      "paper 1/MANIFEST.json": "4dfb7f936e4bf5cf9ef22d6b4a13d68bc345da8a4f114b61b88fc0371650b30c",
+      "paper 2/MANIFEST.json": "a54ed5c68e69604285397279d606803c855546bb19b451601bc54037e2bdef02"
+    }
+  },
+  "batch_manifest": {
+    "total_batches": 17,
+    "source": "download/ingestion-campaign-r2/ (per-batch evidence: run1/run2 audit reports + logs + bundles)",
+    "batches": {
+      "batch-001": {
+        "igcse-chemistry-4ch0-1c-2011jun": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 92,
+          "points": 14
+        },
+        "igcse-chemistry-4ch0-1c-2012jan": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 85,
+          "points": 25
+        },
+        "igcse-chemistry-4ch0-1c-2012jun": {
+          "status": "INGESTED",
+          "questions": 13,
+          "parts": 77,
+          "points": 18
+        }
+      },
+      "batch-002": {
+        "igcse-chemistry-4ch0-1c-2013jan": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 85,
+          "points": 24
+        },
+        "igcse-chemistry-4ch0-1c-2013jun": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 97,
+          "points": 14
+        },
+        "igcse-chemistry-4ch0-1c-2013junr": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 88,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-1c-2014jan": {
+          "status": "INGESTED",
+          "questions": 14,
+          "parts": 73,
+          "points": 18
+        },
+        "igcse-chemistry-4ch0-1c-2014jun": {
+          "status": "INGESTED",
+          "questions": 15,
+          "parts": 75,
+          "points": 11
+        }
+      },
+      "batch-003": {
+        "igcse-chemistry-4ch0-1c-2014junr": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 97,
+          "points": 21
+        },
+        "igcse-chemistry-4ch0-1c-2015jan": {
+          "status": "INGESTED",
+          "questions": 12,
+          "parts": 90,
+          "points": 1
+        },
+        "igcse-chemistry-4ch0-1c-2015jun": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 98,
+          "points": 1
+        },
+        "igcse-chemistry-4ch0-1c-2016jun": {
+          "status": "INGESTED",
+          "questions": 16,
+          "parts": 84,
+          "points": 16
+        },
+        "igcse-chemistry-4ch0-1c-2016junr": {
+          "status": "INGESTED",
+          "questions": 12,
+          "parts": 81,
+          "points": 0
+        }
+      },
+      "batch-004": {
+        "igcse-chemistry-4ch0-1c-2017jan": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 72,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-1c-2017jun": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 75,
+          "points": 12
+        },
+        "igcse-chemistry-4ch0-1c-2017junr": {
+          "status": "INGESTED",
+          "questions": 15,
+          "parts": 86,
+          "points": 26
+        },
+        "igcse-chemistry-4ch0-1c-2018jan": {
+          "status": "INGESTED",
+          "questions": 16,
+          "parts": 86,
+          "points": 21
+        },
+        "igcse-chemistry-4ch0-1c-2018jun": {
+          "status": "INGESTED",
+          "questions": 15,
+          "parts": 80,
+          "points": 30
+        }
+      },
+      "batch-005": {
+        "igcse-chemistry-4ch0-1c-2019jan": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 85,
+          "points": 14
+        },
+        "igcse-chemistry-4ch0-1c-2019jun": {
+          "status": "INGESTED",
+          "questions": 15,
+          "parts": 71,
+          "points": 2
+        },
+        "igcse-chemistry-4ch0-1c-2019junr": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 66,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-1c-2020jan": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 72,
+          "points": 15
+        },
+        "igcse-chemistry-4ch0-1c-2020janr": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 68,
+          "points": 11
+        }
+      },
+      "batch-006": {
+        "igcse-chemistry-4ch0-1c-2020jun": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 72,
+          "points": 18
+        },
+        "igcse-chemistry-4ch0-1c-2020junr": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 71,
+          "points": 15
+        },
+        "igcse-chemistry-4ch0-1c-2021jan": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 60,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-1c-2021janr": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 66,
+          "points": 18
+        },
+        "igcse-chemistry-4ch0-1c-2021jun": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 59,
+          "points": 15
+        }
+      },
+      "batch-007": {
+        "igcse-chemistry-4ch0-1c-2021nov": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 77,
+          "points": 14
+        },
+        "igcse-chemistry-4ch0-1c-2022jan": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 78,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-1c-2022janr": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 63,
+          "points": 40
+        },
+        "igcse-chemistry-4ch0-1c-2022jun": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 70,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-1c-2022junr": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 63,
+          "points": 10
+        }
+      },
+      "batch-008": {
+        "igcse-chemistry-4ch0-1c-2023jan": {
+          "status": "INGESTED",
+          "questions": 12,
+          "parts": 71,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-1c-2023janr": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 68,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-1c-2023jun": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 67,
+          "points": 8
+        },
+        "igcse-chemistry-4ch0-1c-2023junr": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 67,
+          "points": 8
+        },
+        "igcse-chemistry-4ch0-1c-2024jun": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 70,
+          "points": 10
+        }
+      },
+      "batch-009": {
+        "igcse-chemistry-4ch0-1c-2024junr": {
+          "status": "INGESTED",
+          "questions": 12,
+          "parts": 65,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-1c-specimen2017": {
+          "status": "INGESTED",
+          "questions": 11,
+          "parts": 74,
+          "points": 117
+        },
+        "igcse-chemistry-4ch0-2c-2011jun": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 40,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2012jan": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 46,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2012jun": {
+          "status": "INGESTED",
+          "questions": 5,
+          "parts": 52,
+          "points": 12
+        }
+      },
+      "batch-010": {
+        "igcse-chemistry-4ch0-2c-2013jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 43,
+          "points": 8
+        },
+        "igcse-chemistry-4ch0-2c-2013jun": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 36,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2013junr": {
+          "status": "INGESTED",
+          "questions": 6,
+          "parts": 38,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2014jan": {
+          "status": "INGESTED",
+          "questions": 5,
+          "parts": 45,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2014jun": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 40,
+          "points": 15
+        }
+      },
+      "batch-011": {
+        "igcse-chemistry-4ch0-2c-2014junr": {
+          "status": "INGESTED",
+          "questions": 6,
+          "parts": 48,
+          "points": 0
+        },
+        "igcse-chemistry-4ch0-2c-2015jan": {
+          "status": "INGESTED",
+          "questions": 9,
+          "parts": 28,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2015jun": {
+          "status": "INGESTED",
+          "questions": 6,
+          "parts": 48,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-2c-2016jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 38,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2016jun": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 41,
+          "points": 8
+        }
+      },
+      "batch-012": {
+        "igcse-chemistry-4ch0-2c-2016junr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 40,
+          "points": 0
+        },
+        "igcse-chemistry-4ch0-2c-2017jan": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 44,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2017jun": {
+          "status": "INGESTED",
+          "questions": 5,
+          "parts": 38,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-2c-2017junr": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 42,
+          "points": 7
+        },
+        "igcse-chemistry-4ch0-2c-2018jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 39,
+          "points": 10
+        }
+      },
+      "batch-013": {
+        "igcse-chemistry-4ch0-2c-2018jun": {
+          "status": "INGESTED",
+          "questions": 9,
+          "parts": 48,
+          "points": 13
+        },
+        "igcse-chemistry-4ch0-2c-2019jan": {
+          "status": "INGESTED",
+          "questions": 10,
+          "parts": 37,
+          "points": 7
+        },
+        "igcse-chemistry-4ch0-2c-2019jun": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 45,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2019junr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 49,
+          "points": 11
+        },
+        "igcse-chemistry-4ch0-2c-2020jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 47,
+          "points": 12
+        }
+      },
+      "batch-014": {
+        "igcse-chemistry-4ch0-2c-2020janr": {
+          "status": "DUPLICATE",
+          "questions": 7,
+          "parts": 43,
+          "points": 18
+        },
+        "igcse-chemistry-4ch0-2c-2020jun": {
+          "status": "DUPLICATE",
+          "questions": 7,
+          "parts": 41,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2020junr": {
+          "status": "DUPLICATE",
+          "questions": 7,
+          "parts": 29,
+          "points": 12
+        },
+        "igcse-chemistry-4ch0-2c-2021jan": {
+          "status": "DUPLICATE",
+          "questions": 7,
+          "parts": 48,
+          "points": 8
+        },
+        "igcse-chemistry-4ch0-2c-2021janr": {
+          "status": "DUPLICATE",
+          "questions": 8,
+          "parts": 53,
+          "points": 11
+        }
+      },
+      "batch-015": {
+        "igcse-chemistry-4ch0-2c-2021jun": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 52,
+          "points": 10
+        },
+        "igcse-chemistry-4ch0-2c-2021nov": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 47,
+          "points": 13
+        },
+        "igcse-chemistry-4ch0-2c-2022jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 53,
+          "points": 6
+        },
+        "igcse-chemistry-4ch0-2c-2022janr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 42,
+          "points": 12
+        },
+        "igcse-chemistry-4ch0-2c-2022jun": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 44,
+          "points": 6
+        }
+      },
+      "batch-016": {
+        "igcse-chemistry-4ch0-2c-2022junr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 47,
+          "points": 9
+        },
+        "igcse-chemistry-4ch0-2c-2023jan": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 44,
+          "points": 6
+        },
+        "igcse-chemistry-4ch0-2c-2023janr": {
+          "status": "INGESTED",
+          "questions": 8,
+          "parts": 42,
+          "points": 8
+        },
+        "igcse-chemistry-4ch0-2c-2023jun": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 47,
+          "points": 7
+        },
+        "igcse-chemistry-4ch0-2c-2023junr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 38,
+          "points": 8
+        }
+      },
+      "batch-017": {
+        "igcse-chemistry-4ch0-2c-2024jun": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 45,
+          "points": 5
+        },
+        "igcse-chemistry-4ch0-2c-2024junr": {
+          "status": "INGESTED",
+          "questions": 7,
+          "parts": 45,
+          "points": 6
+        },
+        "igcse-chemistry-4ch0-2c-specimen2017": {
+          "status": "INGESTED",
+          "questions": 9,
+          "parts": 46,
+          "points": 80
+        }
+      }
+    }
+  },
+  "quarantine": {
+    "session": "1c-2016jan (paper 1, January 2016)",
+    "evidence": [
+      "QP prints January 2015 and duplicates the already-ingested January-2015 paper",
+      "its paired MS identifies a different January-2016 paper",
+      "the genuine 4CH0/1C January-2016 QP is absent from the corpus"
+    ],
+    "resolution": "requires original-source/operator resolution \u2014 never auto-fixed",
+    "paper2_jan2016_ingested": "4CH0/2C January 2016 (unaffected)"
+  },
+  "isolation_hardening": {
+    "root_cause_assessment": "bridge-record disappearance mechanism = repair script delete phase (only DB actor with DELETE power; stdout-only logging); core test suite carried a latent hole (campaign DB default leaked into context tests) \u2014 closed",
+    "mechanisms": [
+      "V15 campaign_db_identity + CampaignDbIdentity startup claim (prints + records)",
+      "RequireTestDatabase guard (autodetected, fail-closed: tests target syllabai_test only)",
+      "campaign_db_preflight.py wired into repair_identity_reingest.py + run_ingestion_campaign.py",
+      "provision_test_db.sh (disposable DB, identity stays UNCLAIMED)",
+      "run_tests_isolated.sh (full-suite snapshot/diff proof)"
+    ],
+    "proof": "download/isolation-proof/verdict.txt \u2014 334/334 green, campaign DB byte-identical (row counts + data dump sha256)",
+    "core_tests": "334 run, 0 failed, 0 skipped (live isolation check included)",
+    "parser_tests": "99 run, 0 failed"
+  },
+  "verification_result": {
+    "final_state_checks": "ALL VERIFICATION CHECKS PASSED (26 checks \u2014 identity spot-checks, orphans, part-label uniqueness, SUGGESTED boundary, figure resolution, engine-version currency)",
+    "boundaries": "0 imported rows VALIDATED/REJECTED; seed 8 VALIDATED untouched; 0 embedded; STRUCTURED serves only at VALIDATED \u2192 0 servable",
+    "next_stage_unblocked": [
+      "teacher validation",
+      "review UI work",
+      "graph/resource work",
+      "learner-model work",
+      "unrelated corpus processing"
+    ]
+  },
+  "recovery_provenance": {
+    "event": "T-C04 r2 state lost to environment reset; rebuilt 2026-09-13 from committed sources",
+    "replay": "run_ingestion_campaign.py all \u2014 17/17 batches, all gates green (idempotent rerun DUPLICATE, row-delta, DB totals)",
+    "core_at_replay": "a54f3101c0d4630bcb7a02b4aba2fe815a81f649 (baseline commit)",
+    "parser_at_replay": "d3415caa (post-baseline Python-reference sync; Java stage-1 CLI unaffected \u2014 per-pair counts identical to r2 evidence)",
+    "corpus_at_replay": "c42b6a144d7579ffe1f1f8db4c40d95b27d6b58d (exact baseline match)",
+    "isolation_proof": "PASS 334/334 green, campaign DB byte-identical; data dumps RETAINED (isolation-proof/before.dump.gz, after.dump.gz) \u2014 closes the hash-without-object gap",
+    "verification": "verify_final_state.py ALL CHECKS PASSED; totals identical to original baseline"
+  }
+}

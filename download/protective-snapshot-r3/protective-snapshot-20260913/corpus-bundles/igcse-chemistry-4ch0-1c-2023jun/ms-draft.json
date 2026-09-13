@@ -1,0 +1,654 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P71950A",
+    "publicationCode" : "4CH1_1C_2306_MS",
+    "session" : "Summer 2023",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "abbd285f-bc05-53d1-9e44-a5f8d6a7fb26"
+  },
+  "entries" : [ {
+    "entryId" : "ms-abbd285f-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "fractional distillation",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "chromatography"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "simple distillation"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 A mixture of copper(II) oxide and copper(II) sulfate can be separated by first dissolving the copper(II) sulfate in distilled water.M2 The copper(II) oxide is then removed by filteringM3 Some of the water from the copper(II) sulfate solution is then removed by evaporatingM4 A pure sample of hydrated copper(II) sulfate is then obtained by crystallisation"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT filtrationACCEPT evaporationACCEPT simple distillationACCEPT crystallising"
+    }, {
+      "kind" : "note",
+      "text" : "Total 7"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Type of bonding",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Type of structure"
+    }, {
+      "kind" : "note",
+      "text" : "(X) covalent"
+    }, {
+      "kind" : "note",
+      "text" : "simple molecular"
+    }, {
+      "kind" : "note",
+      "text" : "(Y) M1 covalent"
+    }, {
+      "kind" : "note",
+      "text" : "M2 giant(covalent)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW giant molecular/giant covalent latticeACCEPT macromolecular"
+    }, {
+      "kind" : "note",
+      "text" : "(Z) M3 ionic"
+    }, {
+      "kind" : "note",
+      "text" : "M4 giant(ionic)lattice"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW(ionic)latticeIGNORE‘giant’alone"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1(X has) weak intermolecular forces/weak forces between molecules"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weak intermolecular bonds/weak bonds between moleculesIGNORE less energy"
+    }, {
+      "kind" : "note",
+      "text" : "M2(so) little energy needed to overcome the forces/separate the molecules/the forces require little energy to break"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any reference to weak covalent bonds or covalent bonds being broken or ionic bonds for both marks.REJECT intermolecular forces between atoms/bonds for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "Total 6"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q4ai",
+    "label" : "4(a)(i)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "ignore",
+      "text" : "IGNORE references to a specific homologous series"
+    }, {
+      "kind" : "note",
+      "text" : "M1 same general formula"
+    }, {
+      "kind" : "note",
+      "text" : "M2 same functional group"
+    }, {
+      "kind" : "note",
+      "text" : "M3 each member differs from the next by CH2"
+    }, {
+      "kind" : "note",
+      "text" : "M4 similar chemical properties / (chemical) reactions"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW same chemical properties / (chemical) reactions"
+    }, {
+      "kind" : "note",
+      "text" : "M5 trend/change/increase in physical properties"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT named physical property e.g. trend in boiling points"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT same / similar physical properties"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 two shared pairs of electrons between two carbon atoms"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crosses"
+    }, {
+      "kind" : "note",
+      "text" : "M2 shared pair of electrons between each hydrogen and the carbon it is bonded to"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT with or without shells drawn"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE inner shells on carbon atoms"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if non-bonding electrons shown on carbon"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if non-bonding electrons shown on hydrogen"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "There are twice as many hydrogen atoms as carbon atoms (in every alkene) OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT general formula is CnH2n"
+    }, {
+      "kind" : "note",
+      "text" : "M1"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT it is the lowest whole number ratio of atoms in alkenes"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 H H"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "-C-C-"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "H CH3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW methyl group to be shown as -CH3 rather than fully displayed"
+    }, {
+      "kind" : "note",
+      "text" : "M2 H H"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "-C-C-"
+    }, {
+      "kind" : "note",
+      "text" : "I I"
+    }, {
+      "kind" : "note",
+      "text" : "H CH3"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE brackets and n"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT structure without extension bonds"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Any two from:",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 effervescence/fizzing/bubbles"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE hydrogen / gas formed"
+    }, {
+      "kind" : "note",
+      "text" : "M2 lithium becomes smaller/disappears"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW lithium dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M3 moves (across the surface)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE melts / forms a ball / flame"
+    }, {
+      "kind" : "note",
+      "text" : "M1 (solution turns) yellow"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (solution is) an alkali/alkaline"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT lithium hydroxide / hydroxide ions / OH- ions formed"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW basic"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following five points"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT description of flame test"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE ‘burning’"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 flame test"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT crimson"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT brick-red"
+    }, {
+      "kind" : "note",
+      "text" : "M2 red (flame)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT nitric or sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if additional incorrect reagent given eg silver nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "M3 add (dilute hydrochloric) acid"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT nitric or sulfuric acid"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT if additional incorrect reagent given eg silver nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "M4 (pass/bubble) gas/carbon dioxide into limewater"
+    }, {
+      "kind" : "note",
+      "text" : "M4 dep on acid in M3"
+    }, {
+      "kind" : "note",
+      "text" : "M5 (limewater) turns cloudy/milky / white ppt forms"
+    }, {
+      "kind" : "note",
+      "text" : "M5 dep on use of limewater"
+    }, {
+      "kind" : "note",
+      "text" : "No M4 or M5 if limewater added directly to the solution"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 electrostatic attraction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 between oppositely charged ions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT between anions/negative ions and cations/positive ions"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT implication of covalent bonding for M2"
+    }, {
+      "kind" : "note",
+      "text" : "Total 11"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q6",
+    "label" : "6",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Pb(NO3)2(aq)+2KCl(aq)→PbCl2(s)+2KNO3(aq)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW upper case letters for state symbols"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "Pb2+and NO3-"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1207+(14+16×3)×2M2331"
+    }, {
+      "kind" : "note",
+      "text" : "Correct answer without working scoresALLOW ECF on M1 if other multiples of atomic masses added together eg 207+14+(16×3)=269 for 1 markREJECT use of atomic numbers for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "all points plotted correctly to the nearest grid line"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "point at 2.9cm/6.0cm3 circled"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ecf from incorrect plotting"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 best fit straight line through first four points ignoring the anomalous pointM2 horizontal straight line through last three points"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW max(1) if lines do not cross or meet, or if a smooth curve is drawn, avoiding the anomalous point"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "Any two fromM1 precipitate not allowed to settleM2 height(of precipitate) measured incorrectly eg reference to parallax when measuring heightM3 more than 2cm3(of lead(II) nitrate) added/(total volume of lead(II) nitrate added was) more than 6cm3"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT height measured too soonALLOW too much lead(II) nitrate added"
+    }, {
+      "kind" : "note",
+      "text" : "(v)"
+    }, {
+      "kind" : "note",
+      "text" : "no precipitate as no lead(II) nitrate added OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "(vi)"
+    }, {
+      "kind" : "note",
+      "text" : "value read from graph where lines cross"
+    }, {
+      "kind" : "note",
+      "text" : "no mark if lines do not cross/meet or if there aren't two lines eg a curve is drawn"
+    }, {
+      "kind" : "note",
+      "text" : "Total 12"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(number of protons)53M2(number of neutrons)(127-53=)74",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M179×52.8+81×47.2OR7994.4M27994.4÷100OR79.944M379.9"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores379.944 without working scores2M3 dep on use of79&81 in calculation"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(amount ofAlCl3=)26.7÷133.5OR0.2(00)(mol)M2(amount ofCl2=)0.2(00)×3/2OR0.3(00)(mol)M3(mass ofCl2=)0.3(00)×71=21.3(g)ORM1213g ofCl2produces267g ofAlCl3M2(mass ofCl2=)26.7/267×213M3=21.3(g)"
+    }, {
+      "kind" : "note",
+      "text" : "correct answer without working scores3ALLOW ECF on M1,as long as an attempt has been made to find molesALLOW ECF on M2ALLOW any number of sig figs except1"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q9",
+    "label" : "9",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B4"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as there are not 3 different elements in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as there are not 5 different elements in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as there are not 10 different elements in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "D28"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as there is not a total of 10 atoms in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as there is not a total of 22 atoms in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as there is not a total of 27 atoms in Na2SO4.7H2O"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 heat the sodium sulfate (again)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT ‘heat to constant mass’ for both marks"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (repeat) until there is no further change in mass"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT steam"
+    }, {
+      "kind" : "note",
+      "text" : "M1 to cool the (water) vapour"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so it condenses / forms liquid/water"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "A description that refers to the following two points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 heat (the water) / measure the boiling point"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW find the freezing point /melting point?"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (if it) boils at 100℃ (it is pure water) / boiling point is 100℃"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT evaporate"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW freezes / melts at 0℃"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE chemical test even if incorrect"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-abbd285f-q10",
+    "label" : "10",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 0.0036 moles of HCl react with 0.0018 moles of Zn"
+    }, {
+      "kind" : "note",
+      "text" : "M2 mass of Zn that reacts is 0.0018 x 65=0.117(g)(which is less than 1.3g,so zinc is in excess)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 0.234g is less than 1.3g,so zinc in excess for(1)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 moles of zinc that can react with 0.0036 moles of HCl=0.0036/2=0.0018(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 moles of Zn present=1.3÷65=0.02(mol)(which is more than 0.0018,so zinc is in excess)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1 amount of zinc=1.3÷65=0.02(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 amount of HCl that can react=2x0.02=0.04(mol)(which is greater than 0.0036,so zinc is in excess)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve starting at origin and steeper than curve AM2 curve levelling off at same volume as curve A/at40cm3"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "An explanation that links any of the following four points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 curve B is less steep(than curve A)"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because) the particles have less kinetic energy"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles move more slowly"
+    }, {
+      "kind" : "note",
+      "text" : "M3so there are fewer successful collisions per unit time/less frequent successful collisions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT less frequent collisions that exceed activation energy"
+    }, {
+      "kind" : "note",
+      "text" : "M4so rate of reaction is slower/reaction takes longer to complete"
+    }, {
+      "kind" : "note",
+      "text" : "M5no change in reacting quantities,so final volume is unchanged"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT reverse argument throughout"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 2(a)(i)(ii)(iii)", "orphan row before first entry: D oxidation", "orphan row before first entry: A is incorrect as it is not a combustion reactionB is incorrect as it is not a decomposition reactionC is incorrect as it is not a neutralisation reaction", "orphan row before first entry: zinc", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: (squeaky) pop with lighted splint/lit with a(Bunsen) flame", "orphan row before first entry: (squeaky) pop with lighted splint/lit with a(Bunsen) flame", "orphan row before first entry: (squeaky) pop with lighted splint/lit with a(Bunsen) flame", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: pink-brown/pink(solid)", "orphan row before first entry: (squeaky) pop with lighted splint/lit with a(Bunsen) flame", "orphan row before first entry: (squeaky) pop with lighted splint/lit with a(Bunsen) flame", "orphan row before first entry: (d)", "orphan row before first entry: Total 8", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(c)(i)(ii)(iii)", "orphan row before first entry: M2(empirical formula)C2H3", "orphan row before first entry: An explanation that links the following three points", "orphan row before first entry: M1made up of carbon/C and hydrogen/H(atoms)", "orphan row before first entry: M2only", "orphan row before first entry: M3contains(two)C=C/(carbon-carbon)doublebonds", "orphan row before first entry: A description that refers to the following two points", "orphan row before first entry: (iii)", "orphan row before first entry: M2(bromine water)decolourised/turns(fromorange/yellowto)colourless", "orphan row before first entry: IGNORE incorrect initialcolour", "orphan row before first entry: REJECT if reference to uvbeing needed for reactionto take place", "orphan row before first entry: Total14", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (d)", "orphan row before first entry: Total 14", "orphan row before first entry: 8(a)(i)(ii)", "orphan row before first entry: to avoid some of the liquid/fuel/pentanol evaporating OWTTE", "orphan row before first entry: (b)", "orphan row before first entry: Final temperature of water in $ ^{\\circ}C $", "orphan row before first entry: Temperature change in $ ^{\\circ}C $", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: M2 14700 (J)", "orphan row before first entry: M1 (mass of pentanol=) 90.11-89.75 OR 0.36(g)", "orphan row before first entry: M2 (amount of pentanol=) 0.36 $ \\div $ 88 OR 0.0041(mol)", "orphan row before first entry: M3 14700 $ \\div $ 0.0041 OR 3600000 (J/mol)", "orphan row before first entry: M4 3600000 $ \\div $ 1000 OR 3600(kJ/mol)", "orphan row before first entry: M5 ($ \\Delta H= $ )-3600(kJ/mol)", "orphan row before first entry: (d)", "orphan row before first entry: M1 all formulae correct", "orphan row before first entry: M2 balancing of correct formulae", "orphan row before first entry: Total 13", "9: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: Total 13", "10: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "10: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: (c)", "orphan row before first entry: Total 12" ]
+}

@@ -1,0 +1,679 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "4CH0_2C_1806_MS",
+    "session" : "Summer 2018",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "3023ea80-4256-5711-9beb-70293e846c70"
+  },
+  "entries" : [ {
+    "entryId" : "ms-3023ea80-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 carbon\nM2 hydrogen\nFor M1 and M2, if name and symbol/formula given both must be correct\nM2 water(vapour)\ncarbon monoxide",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT C"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H/H2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT O2IGNORE O"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT CO2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT H2O"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW steam"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT COIf name and formula given both must be correct"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "W\nX\nY\nZ",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "All three must be correct"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE trailing zeroes"
+    }, {
+      "kind" : "note",
+      "text" : "(+)10.3"
+    }, {
+      "kind" : "note",
+      "text" : "(+)15.9"
+    }, {
+      "kind" : "note",
+      "text" : "(+)11.1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fuel Y"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because it produces the) largest temperature rise/increase"
+    }, {
+      "kind" : "ecf",
+      "text" : "ECF on temperature changes recorded in table"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(because it produces the) largest temperature change"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reaches the highest final temperature"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "C(exothermic)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as decomposition is not the name given to reactions that release heat energy"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as endothermic reactions take in heat energy"
+    }, {
+      "kind" : "note",
+      "text" : "D is incorrect as reduction is not the name given to reactions that release heat energy"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q3ai",
+    "label" : "3(a)(i)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Burette reading after\nBurette reading before\nVolume of acid added\nM1 3.15M2 17.65",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(20.80)"
+    }, {
+      "kind" : "note",
+      "text" : "Mark M2 CQ on M1If the answers are in the wrong order allow 1 mark"
+    }, {
+      "kind" : "note",
+      "text" : "3.15"
+    }, {
+      "kind" : "note",
+      "text" : "17.65"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "All three columns must contain ticks"
+    }, {
+      "kind" : "note",
+      "text" : "Volume of acid added"
+    }, {
+      "kind" : "note",
+      "text" : "26.25"
+    }, {
+      "kind" : "note",
+      "text" : "25.10"
+    }, {
+      "kind" : "note",
+      "text" : "25.75"
+    }, {
+      "kind" : "note",
+      "text" : "25.30"
+    }, {
+      "kind" : "note",
+      "text" : "25.20"
+    }, {
+      "kind" : "note",
+      "text" : "Concordant results"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    }, {
+      "kind" : "note",
+      "text" : "√"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q3bii",
+    "label" : "3(b)(ii)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "25.2(0)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "25.2",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "25.2"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "CQ on any combination of ticked results rounded correctlyIf no results are ticked then the mark can only be awarded for 25.2(0)If only one column ticked then no mark can be awarded in(b)(ii)ALLOW any number of figures after the decimal point,but answer must be given to at least one decimal place"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C(fluorine)\nA is incorrect as bromine is not the most reactive element. It is not as reactive as fluorine\nB is incorrect as chlorine is not the most reactive element. It is not as reactive as fluorine\nD is incorrect as iodine is the least reactive element of the four",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "D(iodine)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as bromine is a liquid at room temperature"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as chlorine is a gas at room temperature"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as fluorine is a gas at room temperature"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "D(iodine)"
+    }, {
+      "kind" : "note",
+      "text" : "A is incorrect as bromine is brown and not as dark as iodine, which is dark grey"
+    }, {
+      "kind" : "note",
+      "text" : "B is incorrect as chlorine is pale green"
+    }, {
+      "kind" : "note",
+      "text" : "C is incorrect as fluorine is pale yellow"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Σ(bonds broken) = 436+193"
+    }, {
+      "kind" : "note",
+      "text" : "OR 629(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 Σ(bonds made) = 2×366"
+    }, {
+      "kind" : "note",
+      "text" : "OR 732(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "M3 ΔH=-103(kJ/mol)"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "M1-M2 evaluated correctly with the correct sign"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE any signs in M1 and M2"
+    }, {
+      "kind" : "note",
+      "text" : "negative sign required"
+    }, {
+      "kind" : "note",
+      "text" : "-103 with or without working scores 3"
+    }, {
+      "kind" : "note",
+      "text" : "(+)103 with or without working scores 2"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Yeast",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOWzymaseIGNOREenzyme(s)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(C12H22O11+H2O\\rightarrow)2C6H12O6"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiples andfractionsIGNOREstate symbolseven if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "C6H12O6\\rightarrow2C2H5OH+2CO2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiples andfractionsIGNOREstate symbolseven if incorrectALLOWC2H6Ofor ethanol"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "C(fractional distillation)A is incorrect as you couldnot obtain ethanol by crystallisationB is incorrect as you couldnot obtain ethanol by filtrationD is incorrect as simpledistillation is not the mosteffective way to obtainethanol"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q5bi",
+    "label" : "5(b)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "phosphoric acid",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT $ \\mathrm{H_{3}PO_{4}} $ If both name and formula given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT phosphorus acid"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to concentration"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 300( $ ^{\\circ} \\mathrm{C} $)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any temperature, or range of temperatures, between 250 and 350 inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT temperatures in other units provided unit is given"
+    }, {
+      "kind" : "note",
+      "text" : "M2 60-70(atm)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any pressure or range of pressures between 60 and 70 inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT pressures in other units provided unit is given e.g. $ 6 \\times10^{6} $ Pa to $ 7 \\times10^{6} $ Pa"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q6ai",
+    "label" : "6(a)(i)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 the equilibrium shifts to the left(as temperature increases)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW the reaction moves in the backwards direction OWTTE"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE changes in amounts of reactants and products e.g. less phosgene/more CO and Cl2 produced"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because the forward)"
+    }, {
+      "kind" : "note",
+      "text" : "reaction is exothermic/releases heat(energy)/releases thermal energy"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(because the) backward reaction is endothermic/takes in heat(energy)/takes in thermal energy"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to Le Chatelier's principle, eg favours the reaction that tries to reduce the temperature/favours the backward reaction"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1 correct or missing"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(yield) increases/the amount of phosgene increases"
+    }, {
+      "kind" : "note",
+      "text" : "M2as there are fewer moles/molecules(of gas) on the right"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTthere are fewer moles/molecules of product"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTreverse argument"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW particles"
+    }, {
+      "kind" : "note",
+      "text" : "REJECTatoms"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to Le Chatelier's principle, eg favours the reaction with more moles(of gas)"
+    }, {
+      "kind" : "note",
+      "text" : "M2dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "COCl2+H2O→2HCl+CO2"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiples and fractions"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNOREstate symbols even if incorrect"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 both bond pairs for C-Cl correctM2 bond pairs for C=O correctM3 all non-bonded electrons correct",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT any combination of dots and crossesIGNORE inner shells even if incorrectM3 dep on M1 and M2 correct"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "carbon dioxide/gas escapes(from the crucible)/is given off/is lost/is released",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "REJECT incorrectly named gas"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE carbon dioxide is formed"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT references to evaporation"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "to check that the magnesium carbonate has fully decomposed"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to make sure all(the magnesium carbonate) has reacted/the reaction is complete OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to make sure allthe gas/carbon dioxide has been given off"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE the reaction has stopped"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(expt)1"
+    }, {
+      "kind" : "note",
+      "text" : "M2(because the) mass is not constant(after heating for 15 minutes)/mass at 15 minutes is different from the mass at 10 minutes"
+    }, {
+      "kind" : "note",
+      "text" : "OR"
+    }, {
+      "kind" : "note",
+      "text" : "the mass is still changing(after heating for 15 minutes)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW weight for mass"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 0.0968x0.1(00)",
+    "markPoints" : [ {
+      "ordinal" : 1,
+      "text" : "M1 0.0968x0.1",
+      "marks" : 0,
+      "dependentOn" : [ ],
+      "ecf" : false,
+      "alternatives" : [ ],
+      "anyTwoFrom" : false,
+      "reject" : false,
+      "rawText" : "M1 0.0968x0.1"
+    } ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "OR 0.0968x1001000"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.00968(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT 0.0097REJECT 0.01ALLOW 9.68/9.7 for 1 markCorrect final answer without working scores both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 0.29÷58"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.005(0)(mol)"
+    }, {
+      "kind" : "note",
+      "text" : "Correct final answer without working scores both marks"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 Yes(he used the right amount of magnesium hydroxide)/no he used too much(magnesium hydroxide)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 1molMg(OH)2reacts with/neutralises 2molHCl"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT He needs 0.00484mol(Mg(OH)2)"
+    }, {
+      "kind" : "note",
+      "text" : "OR 0.005molMg(OH)2reacts with/neutralises0.01molHCl"
+    }, {
+      "kind" : "note",
+      "text" : "OR 0.00968molHClreactswith/is neutralised by0.00484molMg(OH)2"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(⇌)(the reaction is) reversible",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT reaction goes both ways/both forward and backward reactions can occur"
+    }, {
+      "kind" : "note",
+      "text" : "M2(ΔH)(molar) enthalpy change(of reaction)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT heat(energy) change/thermal energy change"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE enthalpy alone"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT temperature change"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "vanadium(V) oxide/vanadium pentoxide"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT vanadium oxide"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(temperature)450(℃)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any temperature,or range of temperatures,between400to500inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "M2(pressure)2(atm)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT temperature in other units provided unit is given"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT any pressure,or range of pressures,between1and5(atm)inclusive"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT pressure in other units provided unit is givene.g.1x105to5x105Pa"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-3023ea80-q9bi",
+    "label" : "9(b)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a(corrosive)mist/cloud/fog/spray/fumes(of sulfuric acid)would be formed(above the mixture)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPTthe reactiongenerates a lot of/too much heat/istooxothermicACCEPTthe mixturegets very/too hot/formssteamIGNOREveryoxothermicIGNOREtoo dangerous/explosive"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(step3)H2SO4+SO3H2S2O7"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiples"
+    }, {
+      "kind" : "note",
+      "text" : "M2(step4)H2S2O7+H2O2H2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPTmultiplesandfractions"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: (d)(i)", "orphan row before first entry: (ii)", "orphan row before first entry: M2(to) colourless", "6(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(b)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (c)", "orphan row before first entry: M1 manufacture of/making detergents/soaps", "orphan row before first entry: M2 manufacture of/making fertilisers", "orphan row before first entry: M3 manufacture of/making paints/pigments/dyes", "orphan row before first entry: M4 manufacture of/making polymers/plastics/fibres", "orphan row before first entry: M5 pickling of steel/cleaning metals", "orphan row before first entry: M6 manufacture of/making explosives", "orphan row before first entry: M7 manufacture of/making paper", "orphan row before first entry: M8 in car batteries/battery acid" ]
+}

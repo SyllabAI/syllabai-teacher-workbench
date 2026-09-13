@@ -1,0 +1,362 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : null,
+    "session" : "Summer 2017",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "4f3e8b3c-78e8-5005-b586-cbe9d600cb5e"
+  },
+  "entries" : [ {
+    "entryId" : "ms-4f3e8b3c-q1ai",
+    "label" : "1(a)(i)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "C(proton)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "The only correct answer is C"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because X is not an electron"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because X is not an ion"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "C(9)"
+    }, {
+      "kind" : "note",
+      "text" : "The only correct answer is C"
+    }, {
+      "kind" : "note",
+      "text" : "A is not correct because the sum of the number of protons and neutrons is 9 not 4"
+    }, {
+      "kind" : "note",
+      "text" : "B is not correct because the sum of the number of protons and neutrons is 9 not 5"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "beryllium"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Be"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 bubbles(of gas)/effervescence\nALLOW solid for magnesium\nIGNORE reference to movement\nIGNORE reference to temperature change",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "M2 magnesium disappears/magnesium gets smaller"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT magnesium dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "(b) increases"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT gets hotter"
+    }, {
+      "kind" : "note",
+      "text" : "(c) magnesium+(dilute)sulfuric acid→magnesium sulfate+hydrogen"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW chemical equationIf both word and chemical equation given mark word equation only"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(A) hydrochloric acid/HCl(aq)\nM2(B) calcium carbonate/marble\n/limestone/chalk/CaCO3",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "If both name and formula given, both must be correct."
+    }, {
+      "kind" : "note",
+      "text" : "State symbol not needed, but penalise if incorrect"
+    }, {
+      "kind" : "note",
+      "text" : "If both name and formula given, both must be correct"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(gas) syringe/downward delivery(in air)"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT upward displacement of air"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "orange/yellow"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT yellow-orange"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE shades or qualifiers,e.g. light"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(name) carbonic acid"
+    }, {
+      "kind" : "note",
+      "text" : "M2(formula)H2CO3"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW as the only product of an equation"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "hydrogen AND carbon",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT in either order"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT C and H"
+    }, {
+      "kind" : "note",
+      "text" : "if both names and symbols given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(a mixture of)"
+    }, {
+      "kind" : "note",
+      "text" : "compounds/hydrocarbons/substances with similar boiling points"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT elements"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT same boiling points"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to condense at similar temperatures"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW references to similar carbon chain length"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to other physical properties e.g. viscosity"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to similar chemical properties"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(method 1)zymase",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT yeast"
+    }, {
+      "kind" : "note",
+      "text" : "M2(method 2)phosphoric acid/H3PO4"
+    }, {
+      "kind" : "note",
+      "text" : "If both name and formula given, mark name only"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1company A chooses method 1/fermentation AND company B chooses method 2/ethene with steam/hydration"
+    }, {
+      "kind" : "note",
+      "text" : "M2company A has(access to)a supply of sugar(cane)/glucose"
+    }, {
+      "kind" : "note",
+      "text" : "M3company B can obtain ethene from crude oil/an oil refinery"
+    }, {
+      "kind" : "note",
+      "text" : "M4company A does not need pure ethanol/company B does need pure ethanol"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE company A only needs a dilute solution of ethanolIGNORE references to batch/continuous processes"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Chemical structure"
+    }, {
+      "kind" : "note",
+      "text" : "M1one correct repeat unit drawn with continuation bonds e.g.HCCHnor-CH2-CH2-M2rest of diagram correct ie brackets and balanced using n"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 polystyrene is a better insulator",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW polystyrene is an insulator"
+    }, {
+      "kind" : "note",
+      "text" : "M2 so less heat(energy)/thermal energy is transferred/lost to the surroundings/atmosphere/air"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT no heat loss to the surroundings"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(before)18.6(0℃)"
+    }, {
+      "kind" : "note",
+      "text" : "one mark for correct answers in the wrong order"
+    }, {
+      "kind" : "note",
+      "text" : "M2(after)22.8(0℃)"
+    }, {
+      "kind" : "ignore",
+      "text" : "Ignore trailing zeros e.g. accept 18.60"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-4f3e8b3c-q8b",
+    "label" : "8(b)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1heat/boil until crystals form in a sample of solution that has been removed and cooled",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT heat/boil to produce a (hot) saturated/concentrated solution"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT heat/boil until crystals start/begin to form"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW (heat/boil to) evaporate some of the water"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW heat/boil to crystallisation point"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to filtering before heating"
+    }, {
+      "kind" : "note",
+      "text" : "M2cool/leave (the solution) until crystals have formed"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3filter (to remove the crystals)"
+    }, {
+      "kind" : "note",
+      "text" : "AND"
+    }, {
+      "kind" : "note",
+      "text" : "wash with (a little deionised/distilled) water"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT decant/pour off the liquid/(excess solution)"
+    }, {
+      "kind" : "note",
+      "text" : "M4suitable method of drying the crystals"
+    }, {
+      "kind" : "note",
+      "text" : "M3 dep on crystals having been formed"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. place in (warm) oven / leave to dry (in warm place) / use filter paper / use kitchen towel"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any reference to heating directly with a flame, e.g. with a Bunsen"
+    }, {
+      "kind" : "note",
+      "text" : "If M1 not scored then award 1 mark out of 4 for leaving the solution until the water evaporates fully OR for evaporating solution to dryness"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (b)", "orphan row before first entry: M2(different) number of neutrons", "orphan row before first entry: Total", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "3(a): bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Question", "orphan row before first entry: (b)(ii)", "orphan row before first entry: M2 pass vapour/gas into a (fractionating) column/tower", "orphan row before first entry: M3 vapours/gases/fractions/hydrocarbons/substances condense at different heights/levels/points", "orphan row before first entry: ALLOW shorter chain substances condense/collected higher up\nAND\nlonger chain substances condense/collected lower down\nIGNORE reference to melting points\nIf reference to cracking only M1 can be scored", "orphan row before first entry: Question", "orphan row before first entry: 4(c)(i)(ii)", "orphan row before first entry: (d)(i)(ii)", "orphan row before first entry: Total", "orphan row before first entry: 5(a)(i)(ii)", "orphan row before first entry: (b)", "orphan row before first entry: (c)", "orphan row before first entry: (d)", "orphan row before first entry: Total", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: (iii)", "orphan row before first entry: Total", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: Question", "orphan row before first entry: (c)(i)", "orphan row before first entry: Question", "orphan row before first entry: (c)(ii)", "orphan row before first entry: M2(hydrochloric acid)(100-M1) expected value63-62cm3", "orphan row before first entry: (iii)", "orphan row before first entry: M1 sodium hydroxide and hydrochloric acid react in a1:1(molar) ratio", "orphan row before first entry: M2 the volume of sodium hydroxide required is less(than the volume of hydrochloric acid required)", "orphan row before first entry: Total", "orphan row before first entry: (ii)", "orphan row before first entry: M2 0.000470/4.70x10-4(mol)", "orphan row before first entry: ACCEPT 0.47 for 1 mark\nCorrect answer without working scores 2", "orphan row before first entry: M1 M2 from(i)÷0.0250/(0.000470)÷0.0250", "orphan row before first entry: M2 0.0188(mol/dm3)", "orphan row before first entry: OR", "orphan row before first entry: M1 M2 from(i)x1000/25", "orphan row before first entry: M2 0.0188(mol/dm3)", "orphan row before first entry: OR", "orphan row before first entry: M1(23.5÷25.0)x0.0200", "orphan row before first entry: M2 0.0188(mol/dm3)", "8(b): bare integer cell \"8\" skipped (rubric/rowspan ambiguity)" ]
+}

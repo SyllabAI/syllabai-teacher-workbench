@@ -1,0 +1,699 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : "Edexcel",
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : "P73424A",
+    "publicationCode" : "4CH1_1CR_2406_MS",
+    "session" : "Summer 2024",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d18c14bc-666b-5d06-9abe-fb72e0f12c94"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d18c14bc-q1",
+    "label" : "1",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "W"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "V"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "Z"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "the number of protons(in the nucleus)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE reference to electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount of protons"
+    }, {
+      "kind" : "note",
+      "text" : "(the sum of) the number of protons and neutrons(in the nucleus)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW amount of protons and neutrons"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q2a",
+    "label" : "2(a)",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "oxygen\ntotal for question=6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW O2"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon dioxide/CO2M2 water/H2O"
+    }, {
+      "kind" : "note",
+      "text" : "answers can be in either orderACCEPT water vapourALLOW steam"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "there is a limited supply of air/oxygen OWTTE"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW not enough air/oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "carbon monoxide reduces the capacity of blood to transport oxygen OWTTE"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT correct references to haemoglobinALLOW produces carboxyhaemoglobin"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "substitution"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW redox (reaction)"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q4a",
+    "label" : "4(a)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "any two from:\ntotal for question=6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 floats"
+    }, {
+      "kind" : "note",
+      "text" : "M1 and M2 moves on the surface"
+    }, {
+      "kind" : "note",
+      "text" : "M2 moves"
+    }, {
+      "kind" : "note",
+      "text" : "M3 melts/turns into a ball/sphere"
+    }, {
+      "kind" : "note",
+      "text" : "M4 gets smaller/disappears"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW sodium dissolves"
+    }, {
+      "kind" : "note",
+      "text" : "M5 white trail"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE effervescence/bubbling/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 do a flame test"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW a description of the flame test"
+    }, {
+      "kind" : "note",
+      "text" : "M2 yellow(flame)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW orange(flame)"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(they have the) same number of outer shell electrons/one outer shell electron"
+    }, {
+      "kind" : "note",
+      "text" : "as the atomic radius increases they get more reactive OWTTE"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q5ai",
+    "label" : "5(a)(i)",
+    "number" : 5,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "clockwise from bottom left\nALLOW pencil will not run (up the chromatogram)\ntotal for question=7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 solvent"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW water"
+    }, {
+      "kind" : "note",
+      "text" : "M2 solvent front"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW paper"
+    }, {
+      "kind" : "note",
+      "text" : "M3 chromatography paper"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW chromatogram"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)pencil is not soluble / insoluble"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT pencil will not dissolve"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "B(W and Y)"
+    }, {
+      "kind" : "note",
+      "text" : "A is not the correct answer because W and X do not have a spot at the same heightC is not the correct answer because X and Z do not have a spot at the same heightD is not the correct answer because Y and Z do not have a spot at the same height"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)M1 distance moved by the dye from 1.1 to 1.4(cm) distance moved by the solvent 6.5(cm)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 distance moved by the dye ÷ distance moved by the solvent and correctly evaluated"
+    }, {
+      "kind" : "note",
+      "text" : "e.g.0.17/0.18/0.2(0)/0.22ALLOW any number of sig figs as long as it is correctly rounded.ALLOW ECF from M1"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1(a substance/a fuel that) when burnedM2releases heat(energy)/thermal energy\ntotal for question=11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW burns /combusts/catches fire"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "temperature at the start=20.4℃highest temperature reached=77.6℃"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF fromincorrect temperaturereading"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1150×4.2×57.2M236036(J)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW36000ifM1is scored36036with no working scores2ALLOW ECF fromM1aslong as the3values aremultiplied"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "M136.036kJM2amount of ethanol=2.3÷46OR0.05(mol)M336.036÷0.05OR720.720(kJ)ORM336036÷0.05(J)M4-720(kJ/mol)"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW36kJM3subsumesM1andM2ALLOWM3to2sigfigsALLOWECFM4with2sigfigsanda-signCorrectanswerwithoutworkingscores4marks"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "any one fromheat absorbed by the metal canincomplete combustionheat lost to the surroundings"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOWheat loss"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(a)(i)",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "measuring cylinder"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW burette/pipette/syringe"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT gas syringe"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "(the) zinc/Zn/it is in excess"
+    }, {
+      "kind" : "note",
+      "text" : "(iii)"
+    }, {
+      "kind" : "note",
+      "text" : "so as little gas as possible is lost"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT to keep as much gas as possible"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW to avoid loss of gas/so gas does not escape"
+    }, {
+      "kind" : "note",
+      "text" : "(iv)"
+    }, {
+      "kind" : "note",
+      "text" : "any one from"
+    }, {
+      "kind" : "note",
+      "text" : "no further effervescence/bubbles/fizzing"
+    }, {
+      "kind" : "note",
+      "text" : "no more gas collects in the syringe"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW gas syringe does not move"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 calculation of gradient OR 50÷150"
+    }, {
+      "kind" : "note",
+      "text" : "triangle needs to be drawn on graph for M1"
+    }, {
+      "kind" : "note",
+      "text" : "M2 0.33"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW ECF from M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 units cm3/s"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT cm3s-1"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "from 0 to 60 s"
+    }, {
+      "kind" : "note",
+      "text" : "M1 gradient is steepest"
+    }, {
+      "kind" : "note",
+      "text" : "M2 because there are most acid particles(per unit volume)/most collisions(per unit time)/most frequent collisions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT because concentration is greatest/highest"
+    }, {
+      "kind" : "note",
+      "text" : "from 60 to 150 s"
+    }, {
+      "kind" : "note",
+      "text" : "M3 the curve becomes less steep"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M4 because there are fewer particles(per unit volume)/fewer collisions(per unit time)/fewer frequent collisions"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT because concentration is lower"
+    }, {
+      "kind" : "note",
+      "text" : "from 150 to 240 s"
+    }, {
+      "kind" : "note",
+      "text" : "M5 the reaction has stopped/curve levels off/becomes flat/plateaus"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the volume of gas becomes constant"
+    }, {
+      "kind" : "note",
+      "text" : "M6 because the(sulfuric) acid has been used up"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q8a",
+    "label" : "8(a)",
+    "number" : 8,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "a description that links any 4 of the following points\ntotal for question = 11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "M1 crude oil is heated / vapourised"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW boiled"
+    }, {
+      "kind" : "note",
+      "text" : "M2 the vapour enters the lower part / bottom of the column"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT cooler at the top and hotter at the bottom"
+    }, {
+      "kind" : "note",
+      "text" : "M3 there is a temperature gradient in the column"
+    }, {
+      "kind" : "note",
+      "text" : "M4 the vapours rise up the column until they condense"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW the fractions are separated according to their boiling point"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "an explanation that links any 4 of the following points"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fractional distillation of crude oil produces more long chain hydrocarbons than can be used directly"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW is a lower demand for long chain hydrocarbons / a higher demand for short chain hydrocarbons"
+    }, {
+      "kind" : "note",
+      "text" : "M2 (cracking) produces shorter (chain) alkanes"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW petrol / gasoline"
+    }, {
+      "kind" : "note",
+      "text" : "M3 which are more flammable / more useful as fuels"
+    }, {
+      "kind" : "note",
+      "text" : "M3 dep on M2"
+    }, {
+      "kind" : "note",
+      "text" : "M4 (cracking) produces alkenes"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "M5 which are used to make polymers/plastics"
+    }, {
+      "kind" : "note",
+      "text" : "M5 dep on M4"
+    }, {
+      "kind" : "note",
+      "text" : "M1 fuels contain sulfur"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE C / CO / CO2 and any reference to global warming etc."
+    }, {
+      "kind" : "note",
+      "text" : "M2 which burns producing sulfur dioxide"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT nitrogen for M1"
+    }, {
+      "kind" : "note",
+      "text" : "M3 causing acid rain"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW effects of acid rain"
+    } ],
+    "marks" : 4,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q9ai",
+    "label" : "9(a)(i)",
+    "number" : 9,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 NaCl",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT Na+Cl-/CINa"
+    }, {
+      "kind" : "note",
+      "text" : "M2 ZnO"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT Zn2+O2-/OZn"
+    }, {
+      "kind" : "note",
+      "text" : "M3(NH4)2SO4"
+    }, {
+      "kind" : "note",
+      "text" : "ACCEPT(NH4+)2SO42-/SO4(NH4)2"
+    }, {
+      "kind" : "note",
+      "text" : "REJECT any incorrect charges"
+    }, {
+      "kind" : "note",
+      "text" : "zinc sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise once only for incorrect case or subscripts/superscripts"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M12 bonding electrons"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dots, crosses or any combination"
+    }, {
+      "kind" : "note",
+      "text" : "M2 rest of the molecule correct"
+    }, {
+      "kind" : "note",
+      "text" : "M2 dep on M1"
+    }, {
+      "kind" : "note",
+      "text" : "M1 magnesium ion"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW dots, crosses or any combination"
+    }, {
+      "kind" : "note",
+      "text" : "M2 chloride ion"
+    }, {
+      "kind" : "note",
+      "text" : "Only 1 mark max in M1 and M2 if they only show the outer electrons, as the question requires the electronic configurations"
+    }, {
+      "kind" : "note",
+      "text" : "M3 Mg2+ and Cl-"
+    } ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q10a",
+    "label" : "10(a)",
+    "number" : 10,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1 a catalyst provides an alternative pathway/routeM2 of lower activation energy\ntotal for question=6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "conical flask"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW flask"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 filter out the manganese(IV) oxideM2 allow it to dryM3 reweigh the catalyst,the same mass should be left/mass is still1g"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q11a",
+    "label" : "11(a)",
+    "number" : 11,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "has only one type of atom\ntotal for question=12",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ACCEPT only made up of carbon atoms"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(attraction between) a shared pair of electronsM2 and nucleiORM1 a shared pair of electronsM2 and(attraction between) nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "do not accept nucleus nuclei must be pluraldo not accept nucleus nuclei must be plural"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 delocalised electronsM2(electrons) can move / flow(throughout the structure)"
+    }, {
+      "kind" : "note",
+      "text" : "No marks if mention of ions / molecules in graphite"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1(diamond is hard because) it has a 3D lattice/rigid lattice/tetrahedral lattice/every carbon is bonded to four other carbonsM2 in diamond,the bonds need a lot of energy to breakM3(graphite is soft because) it has layersM4 which can slide over one another"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW 3D/ rigid/tetrahedral structureREJECT mention of intermolecular forces in diamond for M1 and M2ALLOW sheetsIGNORE intermolecular forces in graphiteM4 dep on M3"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1calculation Mrof CxM2Mr÷12M3answer given as an integerexemplarM11.40×10-21×6.02×1023OR842.8M2842.8÷12(=70.23)M370"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW any number of significant figures from 2ALLOW ECF if division by atomic number 6Answer of 70 without working scores 3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d18c14bc-q12a",
+    "label" : "12(a)",
+    "number" : 12,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "$2\\text{TaCl}_{5}(\\text{s})+5\\text{H}_{2}(\\text{g})\\rightarrow 2\\text{Ta}(\\text{s})+10\\text{HCl}(\\text{g})$",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "allow",
+      "text" : "ALLOW multiples or fractions"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "the last(3) masses are the same"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW mass does not change / mass becomes constant"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 mass of chlorine=1243(kg)"
+    }, {
+      "kind" : "note",
+      "text" : "M2 1267000÷181and1243000÷35.5"
+    }, {
+      "kind" : "allow",
+      "text" : "ALLOW calculation done in kilomolese.g.1267÷181and1243÷35.5"
+    }, {
+      "kind" : "note",
+      "text" : "M3 7000 moles of tantalum and 35014 moles of chlorine(so 1:5 ratio)"
+    }, {
+      "kind" : "note",
+      "text" : "e.g. ratio 7:35 molesM3 subsumes M1 and M2no M2 or M3 for upside down calculation or use of atomic numbers"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 carbon is oxidised and tantalum oxide is reducedM2 carbon gains oxygen and tantalum oxide loses oxygenORM1 carbon gains oxygen and is oxidisedM2 tantalum oxide loses oxygen and is reduced"
+    }, {
+      "kind" : "note",
+      "text" : "Penalise tantalum is reduced or tantalum loses oxygen once onlyREJECT tantalum loses oxygen and is reducedALLOW correct symbols and formulae throughoutACCEPT correct changes in oxidation numbers"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "2(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 3(a)(i)(ii)", "orphan row before first entry: fractional distillation", "orphan row before first entry: (b)", "orphan row before first entry: M2joined/bonded together", "orphan row before first entry: (c)(i)(ii)", "orphan row before first entry: 788", "orphan row before first entry: (d)", "orphan row before first entry: M216.7%", "orphan row before first entry: total for question=8", "4(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "4(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "5(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "6(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"6\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "8(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "9(a)(i): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (iii)", "orphan row before first entry: M1 hydrogen chloride is simple molecular / simple covalent", "orphan row before first entry: M2 magnesium chloride is giant ionic / ionic lattice", "orphan row before first entry: M3 strong electrostatic attraction between (oppositely charged) ions", "orphan row before first entry: No M3 if any mention of covalent bonds or intermolecular forces in magnesium chloride", "orphan row before first entry: M4 in hydrogen chloride there are weak intermolecular forces / weak forces between molecules", "orphan row before first entry: M5 (much) more energy is required to break the (ionic) bonds in MgCl2 than to overcome the (intermolecular) forces in HCl", "10(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "10(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "11(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"3\" skipped (rubric/rowspan ambiguity)", "12(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: M2(10000×12=)120000g of carbon is needed(which is less than500000g)", "orphan row before first entry: OR", "orphan row before first entry: M1(500000÷12)of carbon is41667moles", "orphan row before first entry: M2which is enough to react with(41667÷5=)8333moles of tantalum oxide", "orphan row before first entry: OR", "orphan row before first entry: M1(5×2000=)10000moles of carbon is needed", "orphan row before first entry: (iii)", "orphan row before first entry: M1(2×2000=)4000moles of tantalumM2(4000×181=)724000g of tantalum", "orphan row before first entry: total for question=11" ]
+}

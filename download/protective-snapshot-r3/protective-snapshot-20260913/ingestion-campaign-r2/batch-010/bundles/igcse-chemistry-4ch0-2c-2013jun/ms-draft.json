@@ -1,0 +1,554 @@
+{
+  "schemaVersion" : "1.0",
+  "extractionMethod" : "glm-ocr-ms-v1",
+  "reviewRequired" : true,
+  "paper" : {
+    "board" : null,
+    "qualification" : null,
+    "subject" : null,
+    "paperReference" : null,
+    "logNumber" : null,
+    "publicationCode" : "UG037093",
+    "session" : "Summer 2013",
+    "examDate" : null,
+    "duration" : null,
+    "canonicalDocumentId" : "d43d38fe-1078-53fb-96ca-86dd38c818c6"
+  },
+  "entries" : [ {
+    "entryId" : "ms-d43d38fe-q1a",
+    "label" : "1(a)",
+    "number" : 1,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "filtration",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "filtering"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "(simple) distillation"
+    }, {
+      "kind" : "note",
+      "text" : "distilling"
+    }, {
+      "kind" : "note",
+      "text" : "fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "(c)"
+    }, {
+      "kind" : "note",
+      "text" : "dissolving"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "chromatography"
+    }, {
+      "kind" : "note",
+      "text" : "(e)"
+    }, {
+      "kind" : "note",
+      "text" : "fractional distillation"
+    }, {
+      "kind" : "note",
+      "text" : "fractionally distil(ling)"
+    }, {
+      "kind" : "note",
+      "text" : "just distillation / simple distillation"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q2",
+    "label" : "2",
+    "number" : 2,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "pH at start",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "pH at end"
+    }, {
+      "kind" : "note",
+      "text" : "Correct letter"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "A"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "11",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "E"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q14",
+    "label" : "14",
+    "number" : 14,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "7",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "C"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q7",
+    "label" : "7",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "6",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "B"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q3a",
+    "label" : "3(a)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Highest temperature",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Temperature rise"
+    }, {
+      "kind" : "note",
+      "text" : "Readings to 1dp only if zero"
+    } ],
+    "marks" : 2,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q28",
+    "label" : "28",
+    "number" : 28,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "3",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 3,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q30",
+    "label" : "30",
+    "number" : 30,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "6",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 6,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q32",
+    "label" : "32",
+    "number" : 32,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "9",
+    "markPoints" : [ ],
+    "guidance" : [ ],
+    "marks" : 9,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q32",
+    "label" : "32",
+    "number" : 32,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "9",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "M1&M2- all points correctly plotted to the nearest gridline[Deduct 1 mark for each incorrectly plotted point up to a max.of 2]M3- straight lines drawn through points 1 to 3 and through points 3 to 5line does not need to be extrapolated to(0,0)must be drawn with the aid of a ruler"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "0.75(g)"
+    }, {
+      "kind" : "note",
+      "text" : "correct reading to nearest gridline from candidate's graph"
+    }, {
+      "kind" : "note",
+      "text" : "incorrect unit"
+    } ],
+    "marks" : 9,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q3c",
+    "label" : "3(c)",
+    "number" : 3,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "copper sulfate/copper ions completely reacted/been used up/run out\nIGNORE copper completely reacted/magnesium is in excess/references to saturated solution/reactant(s) used up",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "all of the copper has been displaced/deposited reaction complete"
+    }, {
+      "kind" : "note",
+      "text" : "(d)"
+    }, {
+      "kind" : "note",
+      "text" : "M1- smaller/larger with magnesium"
+    }, {
+      "kind" : "note",
+      "text" : "M2-fewer moles of metal/zinc added/less copper displaced/fewer moles of copper sulfate reacted/fewer moles of copper ions reacted"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to particles/surface area"
+    }, {
+      "kind" : "note",
+      "text" : "M2 DEP on M1"
+    }, {
+      "kind" : "note",
+      "text" : "less/lower less heat produced"
+    }, {
+      "kind" : "note",
+      "text" : "ORA less amount fewer atoms of metal/zinc added less (mass/moles of) copper displaced"
+    }, {
+      "kind" : "note",
+      "text" : "less mass of metal/zinc added"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q4c",
+    "label" : "4(c)",
+    "number" : 4,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "A/buried underground becauseAny two from:M1(plastics) do not produce carbon dioxide/carbon emissions/toxic/poisonous gasesIGNORE harmful/dangerous/polluting gases/sulfur dioxideM2(plastics) do not contribute to global warming/climate change/greenhouse effect/acid rainM3Does not pollute the soil/cause damage to the soilIGNORE references to effect on wildlife/habitats/costORB/burned becauseM1(burning) space in landfill not taken up/does not cause landfill sites toget filled up/will not run out of space for landfillsM2 it provides heat/can be used to generate electricityIGNORE just provides energy",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "ORAcarbon monoxide/nitrogen dioxide/hydrogen chloride/chlorine/formulae"
+    }, {
+      "kind" : "note",
+      "text" : "References to ozone layer forM2 only"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    } ],
+    "marks" : 7,
+    "marksCellSource" : "rowspan continuation row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q6a",
+    "label" : "6(a)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "(giant) ionic\nIGNORE three-dimensional / lattice",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "any other answer"
+    }, {
+      "kind" : "note",
+      "text" : "(b)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 and M3 can be scored from labelled diagrams"
+    }, {
+      "kind" : "note",
+      "text" : "sodium:"
+    }, {
+      "kind" : "note",
+      "text" : "M1-positive ions/cations/Na+and(delocalised/sea of) electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE metal ions"
+    }, {
+      "kind" : "note",
+      "text" : "M2-(electrostatic) forces/attraction between positive ions/cations/Na+and(delocalised) electrons"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to metallic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "sodium chloride:"
+    }, {
+      "kind" : "note",
+      "text" : "M3-positive and negative ions/cations and anions/Na+andCl- (ions)"
+    }, {
+      "kind" : "note",
+      "text" : "M4-electrostatic forces/attraction between (oppositely charged/positive and negative) ions/cations and anions/Na+andCl-IGNORE references to ionic bonding"
+    }, {
+      "kind" : "note",
+      "text" : "comparison:"
+    }, {
+      "kind" : "note",
+      "text" : "M5-forces in Na are weaker(than forces in NaCl) can be awarded even if an incorrect description of the forces has been given."
+    }, {
+      "kind" : "note",
+      "text" : "[standalone]"
+    }, {
+      "kind" : "note",
+      "text" : "Sodium / metal ions"
+    }, {
+      "kind" : "note",
+      "text" : "oppositely charged ions"
+    }, {
+      "kind" : "note",
+      "text" : "chlorine ions if stated as being negative"
+    }, {
+      "kind" : "note",
+      "text" : "atoms/molecules nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "atoms/molecules nuclei"
+    }, {
+      "kind" : "note",
+      "text" : "intermolecular forces"
+    }, {
+      "kind" : "note",
+      "text" : "reference to covalent loses M4"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q6c",
+    "label" : "6(c)",
+    "number" : 6,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "M1-n(Na)=0.138/23or0.006",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "0.072dm3"
+    }, {
+      "kind" : "note",
+      "text" : "M2-n(H2)=1/2xM1or0.003"
+    }, {
+      "kind" : "note",
+      "text" : "M3-vol.H2=24000xM2or72(cm3)"
+    }, {
+      "kind" : "note",
+      "text" : "[Mark consequentially.n(Na)和n(H2)need not be evaluated.] correct final answer on its own without working scores3"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  }, {
+    "entryId" : "ms-d43d38fe-q7a",
+    "label" : "7(a)",
+    "number" : 7,
+    "qwc" : false,
+    "mcq" : false,
+    "correctOption" : null,
+    "answerText" : "Solution",
+    "markPoints" : [ ],
+    "guidance" : [ {
+      "kind" : "note",
+      "text" : "Negative electrode"
+    }, {
+      "kind" : "note",
+      "text" : "Positive electrode"
+    }, {
+      "kind" : "note",
+      "text" : "Substance left"
+    }, {
+      "kind" : "note",
+      "text" : "correct formulae throughout"
+    }, {
+      "kind" : "note",
+      "text" : "O for oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "silver sulfate"
+    }, {
+      "kind" : "note",
+      "text" : "silver"
+    }, {
+      "kind" : "note",
+      "text" : "potassium nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "potassium nitrate"
+    }, {
+      "kind" : "note",
+      "text" : "(b)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "platinum"
+    }, {
+      "kind" : "note",
+      "text" : "carbon/graphite copper/silver/gold/titanium"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "to increase its (electrical) conductivity/to make it a (better)(electrical) conductor/to lower its (electrical) resistance"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE references to carrying current/charge/adds hydrogen ions"
+    }, {
+      "kind" : "note",
+      "text" : "to increase the concentration/number of ions"
+    }, {
+      "kind" : "note",
+      "text" : "(c)(i)"
+    }, {
+      "kind" : "note",
+      "text" : "Moles/amount of hydrogen (produced) = 2x moles/amount of oxygen (produced)"
+    }, {
+      "kind" : "ignore",
+      "text" : "IGNORE explanations based on forming water"
+    }, {
+      "kind" : "note",
+      "text" : "(some of the) oxygen dissolves in water/acid"
+    }, {
+      "kind" : "note",
+      "text" : "number of molecules of hydrogen (produced) is twice that of oxygen"
+    }, {
+      "kind" : "note",
+      "text" : "(some of the) oxygen reacts with the (carbon) electrode/to form CO2 (which then dissolves)"
+    }, {
+      "kind" : "note",
+      "text" : "explanations based on atoms"
+    }, {
+      "kind" : "note",
+      "text" : "oxygen reacts with water/(sulfuric) acid"
+    }, {
+      "kind" : "note",
+      "text" : "(ii)"
+    }, {
+      "kind" : "note",
+      "text" : "M1 - number of faradays = 482500 or 5"
+    }, {
+      "kind" : "note",
+      "text" : "M2 - n(H2)=1/2xM1or2.5"
+    }, {
+      "kind" : "note",
+      "text" : "Final answer on its own without working scores 2"
+    }, {
+      "kind" : "note",
+      "text" : "Incorrect units"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "1"
+    }, {
+      "kind" : "note",
+      "text" : "Total"
+    }, {
+      "kind" : "note",
+      "text" : "Total for paper"
+    } ],
+    "marks" : 1,
+    "marksCellSource" : "label row",
+    "confidence" : 0.75
+  } ],
+  "questionTotals" : { },
+  "paperTotal" : null,
+  "icTable" : null,
+  "warnings" : [ "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "1(a): bare integer cell \"5\" skipped (rubric/rowspan ambiguity)", "7: bare integer cell \"4\" skipped (rubric/rowspan ambiguity)", "32: bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "32: bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "3(c): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: 4(a)(i)(ii)", "orphan row before first entry: cracking", "orphan row before first entry: (b)(i)(ii)", "orphan row before first entry: M2-drawn to correct height", "orphan row before first entry: (boiling point/it) increases as number of carbon atoms increases", "orphan row before first entry: 5(a)(i)(ii)(iii)", "orphan row before first entry: M1-(unsaturated) colourless\nIGNORE clear/transparent/looks like water", "orphan row before first entry: M2-(saturated) orange", "orphan row before first entry: addition", "orphan row before first entry: (b)(i)(ii)(iii)", "orphan row before first entry: C and D", "orphan row before first entry: each colouring has a different mixture/combination/patterns of dyes", "orphan row before first entry: IGNORE references to different heights/distances and solubilities.", "orphan row before first entry: Total", "6(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "6(c): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "orphan row before first entry: (ii)", "orphan row before first entry: M2-(add aqueous)silver nitrate", "orphan row before first entry: M3-white precipitate/solid/suspension", "orphan row before first entry: M3 dependent on M2", "orphan row before first entry: Reason-it fizzed/a gas was evolvedORsodium hydroxide would not fizz/produce a gasIGNORE incorrect identification of gas", "orphan row before first entry: X=sodium carbonate/sodiumhydrogencarbonate", "orphan row before first entry: (e)", "orphan row before first entry: M2-8 electrons around Cl.IGNORE inner shells even if incorrectIGNORE starting diagrams showing atoms either with or without arrow to show movement of electron", "orphan row before first entry: M3-correct charge onbothNa and Cl[standalone]", "orphan row before first entry: (f)", "orphan row before first entry: M2-(but) bromine is less reactive than chlorine", "orphan row before first entry: Total", "7(a): bare integer cell \"2\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"1\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"9\" skipped (rubric/rowspan ambiguity)", "7(a): bare integer cell \"60\" skipped (rubric/rowspan ambiguity)" ]
+}
