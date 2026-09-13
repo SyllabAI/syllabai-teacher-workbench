@@ -1,0 +1,46 @@
+[19:33:34] PHASE A: real log, read-only browsing
+✓ Done
+✓ SyllabAI · Teacher Validation Workbench — T-C04
+  http://127.0.0.1:3000/
+What I am proposing
+canonical feed LIVE
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/01-workbench-top.png
+[19:33:43] 01 top screenshot: banners + live feed pill
+"clicked"
+session decision
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/02-dossier-paper-applied.png
+[19:33:46] 02 paper dossier: CANONICAL row + APPLIED FLAG/REVERSE rows with attribution
+"scrolled"
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/03-question-applied-then-reversed.png
+[19:33:47] 03 question panel: applied VALIDATE + applied REVERSE + relationship chips
+✓ Done
+APPLIED, THEN REVERSED
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/04-staging-log-applied-chips.png
+✓ Done
+[19:33:50] 04 staging log sheet: applied/unapplied chips from canonical events feed
+[19:33:50] phase A console/errors captured
+[19:33:50] PHASE B: scratch log, staging flow
+✓ SyllabAI · Teacher Validation Workbench — T-C04
+  http://127.0.0.1:3000/
+canonical feed LIVE
+✓ Done
+✓ Done
+teacher session
+[19:34:01] session opened
+"clicked"
+session decision
+"staged"
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/05-staged-validate-relationship.png
+[19:34:06] 05 staged VALIDATE: STAGED — NOT YET APPLIED chip + WOULD CHANGE badge + toast
+✓ Done
+STAGED — NOT YET APPLIED
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/06-staging-log-staged-chip.png
+✓ Done
+[19:34:09] 06 log sheet: new entry shows STAGED — NOT YET APPLIED (not applied)
+✓ Done
+✓ Screenshot saved to /home/z/my-project/download/evidence-r3-6/screenshots/07-mobile-390x844.png
+[19:34:10] 07 mobile viewport
+✓ Browser closed
+[19:34:12] REAL LOG UNTOUCHED: sha256 d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+[19:34:12] scratch log entries: 1
+[19:34:12] DONE

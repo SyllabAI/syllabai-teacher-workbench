@@ -144,3 +144,27 @@ Work Log:
 Stage Summary:
 - R3-6 GREEN by machine gates with a complete evidence pack: the workbench now enforces-by-construction the distinction between canonical truth (authoritative DB), staged intent (never truth), and applied events (attribution trail); 12/12 acceptance gates VERIFIED; one honest BLOCKED label for the off-container release upload (PAT).
 - Per directive, real teachers are still NOT pointed at the workbench. Ready for that decision: next steps are (1) PAT provision -> push core 68e9da9/9615b69/b37837a + workbench commits + cut t-c04-r3-6 release; (2) operator decision on real-teacher onboarding (optionally with server-side reviewer provisioning instead of local session files).
+
+---
+Task ID: R3-6-b
+Agent: Super Z (main agent, this session)
+Task: On PAT arrival, complete R3-6 durability: reconcile core with advanced remote main, re-verify R3-6 claims under the hardened importer, push workbench commits, cut the t-c04-r3-6 release with the frozen evidence pack.
+
+Work Log:
+- Per AGENT.md §8 recorded task/base before work: Task R3-6-b, base core 9747d0a (after ff), workbench d11d778; surfaces = GitHub durability + read-only re-verification; no canonical writes, no migrations.
+- Core reconciliation: origin main had ADVANCED past local (b37837a -> 9747d0a) via parallel sessions: 21cce2e (verify_final_state engine expectation 1.2.0), 704c3f1 (coordination alignment, AGENT.md §8 added), 9747d0a (importer hardening F-1/F-2/F-3). Fast-forwarded cleanly; R3-5 commits 68e9da9/9615b69/b37837a VERIFIED in remote history. Migration tree re-checked by NUMERIC MAX: still V18 — no V19, no new migration needed.
+- Campaign DB re-verified intact and byte-consistent with the R3-6 manifest: identity syllabai|T-C04-CAMPAIGN|9615b69, versions 766 = 758 SUGGESTED + 8 seed VALIDATED, 0 REJECTED, events 6, flyway 18 rows. Postgres pid 4637 survived.
+- Workbench HEAD d11d778 inspected: scratch/test-runner files only (scratch decision log, empty .gitignore.r3-6-check marker, one tool-results read output) — no source changes on top of a5ee887 (evidence pack). Real staging log sha256 = d2bac629… == manifest value.
+- Importer re-check under HARDENED importer (sha256 b71ef91b…, core 9747d0a) vs REAL log: check-mode exit 0, chain valid (6 entries, head 891dbf10…), 6/6 already-applied DUPLICATE, real log untouched pre/post. Legacy prose-reverses REVERSE entries compatible with F-3. Artifact: evidence-r3-6/importer-check-mode-hardened-r3-6b.log.
+- R3-6 test suite RE-RUN at release base d11d778: 42/42 pass, 0 fail, 181 expect() calls, 4.34s; real staging log sha256 identical pre/post suite (TV_LOG_FILE isolation held). Artifact: evidence-r3-6/test-results-rerun-r3-6b.log.
+- Workbench durability: full-history secret scan (7 commits, ALL blobs scanned) — zero GitHub-token patterns; tracked .env is a benign SQLite path; session-secret.key confirmed UNVERSIONED (.gitignore line 56); credential-pattern sweep clean (one benign DSN-placeholder comment inside the core subrepo working tree, not sandbox-tracked content). Push payload = 74MB .git (repos/ are gitlinks; big dumps untracked).
+- Created PRIVATE repo SyllabAI/syllabai-teacher-workbench and pushed exact main history — SHAs 2f6e8a7 (R3-6 feature), a5ee887 (evidence pack), d11d778 (HEAD) all VERIFIED HTTP 200 on GitHub. Evidence-referenced commit SHAs are now durably verifiable. Remote URL token-stripped after push. Private chosen deliberately (operational/run metadata inside); operator can flip visibility.
+- Release t-c04-r3-6-teacher-validation-workbench created on SyllabAI/syllabai-core (id 388016740, target main = 9747d0a) with 16 assets: frozen R3-6 pack (14 non-empty files incl. 10 screenshots + SHA256SUMS + VERIFICATION-VERDICT + state manifest), workbench-source-2f6e8a7.tar.gz (63,493,611 bytes, sha256 24ada70a…), SHA256SUMS.r3-6b, RELEASE-NOTES.md, and both R3-6-b re-verification logs.
+- Two pack files EXCLUDED from assets: phaseA-errors.txt + phaseB-errors.txt are 0-byte BY DESIGN (zero console errors — emptiness IS the evidence); GitHub rejects 0-byte assets (422 size>=1). Documented in release notes; hashes verifiable via pack SHA256SUMS + frozen tarball + workbench repo. Frozen pack directory NOT modified.
+- ALL 16 assets re-downloaded and sha256-verified byte-identical (PASS=16 FAIL=0): evidence-r3-6-b/asset-verify.log. Release notes updated with honest-audit corrections (manifest's "unpushed" note was true at R3-6 time; since pushed; importer since hardened — frozen pack left unmodified).
+- Worklog appended (this entry) and committed to the workbench repo; R3-6-b scripts persisted under scripts/r3-6b_*. Token handled env-only, one-shot push URLs, never written to scripts/logs/config.
+
+Stage Summary:
+- R3-6-b COMPLETE. Claim labels: durability VERIFIED (release 388016740 + workbench repo push, asset hashes re-verified); importer-under-hardening VERIFIED (check-mode green on real log); test suite VERIFIED 42/42 at release base; canonical DB UNTOUCHED (read-only operations only); reconciliation VERIFIED (ff-only, no conflicts, migration head still V18).
+- BLOCKED labels remaining: NONE for R3-6. Open operator decision: real-teacher onboarding (server-side reviewer provisioning recommended over local session files before real users arrive).
+- Next safe action: operator reviews VERIFICATION-VERDICT.txt + release notes and decides on teacher onboarding; next milestone (R3-7 candidates) can proceed independently.

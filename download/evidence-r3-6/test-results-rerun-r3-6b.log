@@ -1,0 +1,62 @@
+== R3-6 test suite re-run at release base (d11d778) ==
+real log sha256 BEFORE: d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+bun: 1.3.14, db up: 4637
+
+bun test v1.3.14 (0d9b296a)
+
+tests/r3-6/relationship.test.ts:
+(pass) canonical state rendering (gates 1, 2) > canonical VALIDATED renders as authoritative canonical VALIDATED [0.14ms]
+(pass) canonical state rendering (gates 1, 2) > canonical REJECTED renders as authoritative canonical REJECTED [0.03ms]
+(pass) canonical state rendering (gates 1, 2) > canonical SUGGESTED renders as canonical (not as staged) [0.01ms]
+(pass) staged intent vs canonical (gates 3, 4, 5) > staged VALIDATE against SUGGESTED = WOULD_CHANGE, explicitly NOT applied [0.36ms]
+(pass) staged intent vs canonical (gates 3, 4, 5) > staged REJECT against SUGGESTED = WOULD_CHANGE, canonical unchanged [0.04ms]
+(pass) staged intent vs canonical (gates 3, 4, 5) > FLAG is events-only: it never produces a canonical state [0.08ms]
+(pass) staged intent vs canonical (gates 3, 4, 5) > staged VALIDATE against VALIDATED = AGREES (no canonical change proposed) [0.03ms]
+(pass) staged intent vs canonical (gates 3, 4, 5) > staged intent is never canonical merely because it exists in the log [0.18ms]
+(pass) applied vs staged (gate 6) > a staged entry with a matching applied event = ALREADY_APPLIED, not pending [0.06ms]
+(pass) applied vs staged (gate 6) > matching is by BOTH seq and chain hash — same seq with different hash never matches [0.04ms]
+(pass) reversal semantics per R3-5 events (gate 7) > applied intent + applied REVERSE = APPLIED_THEN_REVERSED, canonical back to SUGGESTED [0.31ms]
+(pass) reversal semantics per R3-5 events (gate 7) > applied intent without reversal stays ALREADY_APPLIED even when a staged REVERSE exists unapplied [0.05ms]
+(pass) reversal semantics per R3-5 events (gate 7) > applied REVERSE entry reports its reversal as ALREADY_APPLIED [0.03ms]
+(pass) reversal semantics per R3-5 events (gate 7) > parseReverseSeq extracts the R3-5 note format [0.04ms]
+(pass) fail-safe behavior (gate 8) > UNKNOWN canonical state = BLOCKED, never inferred [0.02ms]
+(pass) target view (seed lock + dimensions kept separate) > seed-VALIDATED target (canonical VALIDATED, zero events) is seed-locked [0.03ms]
+(pass) target view (seed lock + dimensions kept separate) > post-apply VALIDATED target with applied events is NOT seed-locked [0.03ms]
+(pass) target view (seed lock + dimensions kept separate) > relationship badges carry distinct labels (no collapsed status) [0.14ms]
+
+tests/r3-6/integration.test.ts:
+(pass) R3-6 integration matrix > canonical applied-events feed is live with full attribution (gates 6, 9) [66.29ms]
+(pass) R3-6 integration matrix > live canonical state query: FLAG event left state SUGGESTED; UNKNOWN ids fail safe (gates 5, 8) [44.23ms]
+(pass) R3-6 integration matrix > authorization matrix: no session / forged cookie / wrong role -> 403 (gate 10) [58.79ms]
+(pass) R3-6 integration matrix > session issue + attribution (gate 9) [39.54ms]
+(pass) R3-6 integration matrix > staged VALIDATE against SUGGESTED stays staged — canonical state unchanged (gate 3) [47.12ms]
+(pass) R3-6 integration matrix > duplicate staged VALIDATE refused; REJECT-after-VALIDATE refused (negative) [11.70ms]
+(pass) R3-6 integration matrix > staged REJECT against SUGGESTED stays staged — canonical state unchanged (gate 4) [15.33ms]
+(pass) R3-6 integration matrix > REJECT without reason refused (negative) [561.56ms]
+(pass) R3-6 integration matrix > FLAG remains events-only: staged flag does not touch canonical state (gate 5) [21.99ms]
+(pass) R3-6 integration matrix > seed-VALIDATED lock still enforced through the API (negative) [9.62ms]
+(pass) R3-6 integration matrix > staged REVERSE clears the staged intent; canonical still untouched (gates 3, 7) [13.38ms]
+(pass) R3-6 integration matrix > unknown target ids fail safely at staging (gate 8) [13.02ms]
+(pass) R3-6 integration matrix > serving path is connection-level read-only: UPDATE through the workbench DB config must fail (gate 10) [3.47ms]
+(pass) R3-6 integration matrix > hostile sweep: no route can mutate canonical validation state from HTTP (gate 10) [472.27ms]
+(pass) R3-6 integration matrix > test isolation: real hash-chained staging log untouched by the whole suite [0.33ms]
+
+tests/r3-6/session-auth.test.ts:
+(pass) teacher session gate (acceptance gate 10) > valid teacher session round-trips [0.54ms]
+(pass) teacher session gate (acceptance gate 10) > missing/garbage/short tokens are rejected [0.05ms]
+(pass) teacher session gate (acceptance gate 10) > forged signature is rejected (constant-time path) [0.11ms]
+(pass) teacher session gate (acceptance gate 10) > tampered payload (same signature) is rejected [0.07ms]
+(pass) teacher session gate (acceptance gate 10) > expired session is rejected [0.06ms]
+(pass) teacher session gate (acceptance gate 10) > wrong role (viewer) is rejected even when correctly signed [0.07ms]
+(pass) teacher session gate (acceptance gate 10) > token signed with the WRONG secret is rejected [0.05ms]
+(pass) teacher session gate (acceptance gate 10) > display-name validation: too short / too long refused [0.04ms]
+(pass) teacher session gate (acceptance gate 10) > sessionFromRequest parses the HttpOnly cookie from a Request [0.38ms]
+
+ 42 pass
+ 0 fail
+ 181 expect() calls
+Ran 42 tests across 3 files. [4.34s]
+
+real log sha256 AFTER:  d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+REAL LOG UNTOUCHED: yes
+suite exit code: 0

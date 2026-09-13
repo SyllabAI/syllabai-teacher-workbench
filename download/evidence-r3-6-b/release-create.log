@@ -1,0 +1,126 @@
+created release id=388016740
+retry 1 for IMPLEMENTATION-PLAN.md (HTTP 404)
+retry 2 for IMPLEMENTATION-PLAN.md (HTTP 404)
+retry 3 for IMPLEMENTATION-PLAN.md (HTTP 404)
+FAILED: IMPLEMENTATION-PLAN.md
+retry 1 for SHA256SUMS (HTTP 404)
+retry 2 for SHA256SUMS (HTTP 404)
+retry 3 for SHA256SUMS (HTTP 404)
+FAILED: SHA256SUMS
+retry 1 for VERIFICATION-VERDICT.txt (HTTP 404)
+retry 2 for VERIFICATION-VERDICT.txt (HTTP 404)
+retry 3 for VERIFICATION-VERDICT.txt (HTTP 404)
+FAILED: VERIFICATION-VERDICT.txt
+retry 1 for browser-verify.log (HTTP 404)
+retry 2 for browser-verify.log (HTTP 404)
+retry 3 for browser-verify.log (HTTP 404)
+FAILED: browser-verify.log
+retry 1 for importer-check-mode-hardened-r3-6b.log (HTTP 404)
+retry 2 for importer-check-mode-hardened-r3-6b.log (HTTP 404)
+retry 3 for importer-check-mode-hardened-r3-6b.log (HTTP 404)
+FAILED: importer-check-mode-hardened-r3-6b.log
+retry 1 for importer-check-mode-r3-6.log (HTTP 404)
+retry 2 for importer-check-mode-r3-6.log (HTTP 404)
+retry 3 for importer-check-mode-r3-6.log (HTTP 404)
+FAILED: importer-check-mode-r3-6.log
+retry 1 for importer-sha256.txt (HTTP 404)
+retry 2 for importer-sha256.txt (HTTP 404)
+retry 3 for importer-sha256.txt (HTTP 404)
+FAILED: importer-sha256.txt
+retry 1 for phaseA-console.txt (HTTP 404)
+retry 2 for phaseA-console.txt (HTTP 404)
+retry 3 for phaseA-console.txt (HTTP 404)
+FAILED: phaseA-console.txt
+retry 1 for phaseA-errors.txt (HTTP 404)
+retry 2 for phaseA-errors.txt (HTTP 404)
+retry 3 for phaseA-errors.txt (HTTP 404)
+FAILED: phaseA-errors.txt
+retry 1 for phaseB-console.txt (HTTP 404)
+retry 2 for phaseB-console.txt (HTTP 404)
+retry 3 for phaseB-console.txt (HTTP 404)
+FAILED: phaseB-console.txt
+retry 1 for phaseB-errors.txt (HTTP 404)
+retry 2 for phaseB-errors.txt (HTTP 404)
+retry 3 for phaseB-errors.txt (HTTP 404)
+FAILED: phaseB-errors.txt
+retry 1 for r3-6-state-manifest.json (HTTP 404)
+retry 2 for r3-6-state-manifest.json (HTTP 404)
+retry 3 for r3-6-state-manifest.json (HTTP 404)
+FAILED: r3-6-state-manifest.json
+retry 1 for seed-validated-live-state.json (HTTP 404)
+retry 2 for seed-validated-live-state.json (HTTP 404)
+retry 3 for seed-validated-live-state.json (HTTP 404)
+FAILED: seed-validated-live-state.json
+retry 1 for test-results-full.log (HTTP 404)
+retry 2 for test-results-full.log (HTTP 404)
+retry 3 for test-results-full.log (HTTP 404)
+FAILED: test-results-full.log
+retry 1 for test-results-rerun-r3-6b.log (HTTP 404)
+retry 2 for test-results-rerun-r3-6b.log (HTTP 404)
+retry 3 for test-results-rerun-r3-6b.log (HTTP 404)
+FAILED: test-results-rerun-r3-6b.log
+retry 1 for workbench-source-2f6e8a7.tar.gz (HTTP 404)
+retry 2 for workbench-source-2f6e8a7.tar.gz (HTTP 404)
+retry 3 for workbench-source-2f6e8a7.tar.gz (HTTP 404)
+FAILED: workbench-source-2f6e8a7.tar.gz
+retry 1 for SHA256SUMS.r3-6b (HTTP 404)
+retry 2 for SHA256SUMS.r3-6b (HTTP 404)
+retry 3 for SHA256SUMS.r3-6b (HTTP 404)
+FAILED: SHA256SUMS.r3-6b
+retry 1 for RELEASE-NOTES.md (HTTP 404)
+retry 2 for RELEASE-NOTES.md (HTTP 404)
+retry 3 for RELEASE-NOTES.md (HTTP 404)
+FAILED: RELEASE-NOTES.md
+assets: uploaded=0 skipped=0 failed=18
+release exists id=388016740 (reuse)
+uploaded: IMPLEMENTATION-PLAN.md
+uploaded: SHA256SUMS
+uploaded: VERIFICATION-VERDICT.txt
+uploaded: browser-verify.log
+uploaded: importer-check-mode-hardened-r3-6b.log
+uploaded: importer-check-mode-r3-6.log
+uploaded: importer-sha256.txt
+uploaded: phaseA-console.txt
+retry 1 for phaseA-errors.txt (HTTP 422)
+retry 2 for phaseA-errors.txt (HTTP 422)
+retry 3 for phaseA-errors.txt (HTTP 422)
+FAILED: phaseA-errors.txt
+uploaded: phaseB-console.txt
+retry 1 for phaseB-errors.txt (HTTP 422)
+retry 2 for phaseB-errors.txt (HTTP 422)
+retry 3 for phaseB-errors.txt (HTTP 422)
+FAILED: phaseB-errors.txt
+uploaded: r3-6-state-manifest.json
+uploaded: seed-validated-live-state.json
+uploaded: test-results-full.log
+uploaded: test-results-rerun-r3-6b.log
+uploaded: workbench-source-2f6e8a7.tar.gz
+uploaded: SHA256SUMS.r3-6b
+uploaded: RELEASE-NOTES.md
+assets: uploaded=16 skipped=0 failed=2
+release exists id=388016740 (reuse)
+skip (present): IMPLEMENTATION-PLAN.md
+skip (present): SHA256SUMS
+skip (present): VERIFICATION-VERDICT.txt
+skip (present): browser-verify.log
+skip (present): importer-check-mode-hardened-r3-6b.log
+skip (present): importer-check-mode-r3-6.log
+skip (present): importer-sha256.txt
+skip (present): phaseA-console.txt
+retry 1 for phaseA-errors.txt (HTTP 422)
+retry 2 for phaseA-errors.txt (HTTP 422)
+retry 3 for phaseA-errors.txt (HTTP 422)
+FAILED: phaseA-errors.txt
+skip (present): phaseB-console.txt
+retry 1 for phaseB-errors.txt (HTTP 422)
+retry 2 for phaseB-errors.txt (HTTP 422)
+retry 3 for phaseB-errors.txt (HTTP 422)
+FAILED: phaseB-errors.txt
+skip (present): r3-6-state-manifest.json
+skip (present): seed-validated-live-state.json
+skip (present): test-results-full.log
+skip (present): test-results-rerun-r3-6b.log
+skip (present): workbench-source-2f6e8a7.tar.gz
+uploaded: SHA256SUMS.r3-6b
+uploaded: RELEASE-NOTES.md
+assets: uploaded=2 skipped=14 failed=2
