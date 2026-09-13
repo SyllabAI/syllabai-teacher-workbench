@@ -1,0 +1,119 @@
+================================================================================
+R3-7 VERIFICATION VERDICT — Reviewer Provisioning & Production Readiness
+================================================================================
+Date (UTC): 2026-09-14
+Milestone:  R3-7 (follows R3-6 GREEN — accepted by operator; no R3-5/R3-6 gate
+            weakened or redesigned; real teachers still NOT onboarded)
+
+1. OBJECTIVE
+   Establish the minimum production-safe boundary required before real
+   teachers/reviewers can use the validation workbench: provisioned reviewer
+   identity, hardened sessions, fail-closed production configuration,
+   explicit conflict/staleness representation, auditability, public-repo
+   audit, and repository hygiene — with every mandated negative test.
+
+2. WHAT SHIPPED (workbench repo)
+   - Reviewer registry + provisioning CLI (scripts/provision-reviewer.ts):
+     one token per reviewer, shown once, stored ONLY as sha256; unique
+     active names (no shared accounts); append-only provisioning audit log;
+     revocation bumps epoch (immediate session death); rotation command.
+   - Sessions v2: payload binds {reviewerId, name (registry-authoritative),
+     role, exp, epoch}. Issuance REQUIRES a provisioned token. Staging
+     revalidates the registry on EVERY write. Legacy v1 cookies fail closed.
+   - Cookie: HttpOnly, SameSite=Strict, Secure in production.
+   - Production fail-closed gate (src/instrumentation.ts): missing/undersized
+     secret, missing registry, TV_PUBLIC_HTTPS!=1, or implicit DB defaults ->
+     explicit startup failure (prod-boot-check.log: all six problems listed;
+     insecure boot fails to prepare; secure boot serves 200).
+   - Live canonical staging gate (mirror of the importer, which remains the
+     sole apply authority): VALIDATE/REJECT/FLAG require LIVE SUGGESTED
+     (fail-closed on feed unavailability); REVERSE requires the prior entry
+     applied AND still the last event on the target. A stale read model can
+     no longer admit intent against a target whose canonical state moved.
+   - CSRF hardening: application/json required; cross-origin Origin refused.
+   - Relationship semantics (pure module, five R3-6 kinds preserved): open
+     state-changing intent vs non-SUGGESTED canonical = BLOCKED with an
+     explicit CONFLICT explanation; STALE flag + supersededBy[] carrying the
+     newer applied events' attribution. Never collapsed into one status.
+   - reviewerId rides in staging entries OUTSIDE the frozen hash base
+     (F-3 pattern) — cross-side compatibility PROVEN: bun helper reproduces
+     real-log hashes; importer check-mode accepts reviewerId-bearing logs.
+   - Repo hygiene: *.tar.gz/*.dump* + identity-state gitignore rules,
+     pre-commit hook, check-large-files.sh, docs/RELEASING.md.
+
+3. WHAT WAS NOT TOUCHED (scope discipline)
+   - Importer: sha256 6f56c993… (core 4343b5a, F-1..F-4 upstream) — zero
+     changes by R3-7; check-mode green vs the real log (6/6 DUPLICATE,
+     chain valid, real log byte-identical pre/post).
+   - No migration: numeric max over the remote tree is still V18; the
+     campaign DB still has 18 flyway rows.
+   - Canonical content: identity 9615b69 | T-C04-CAMPAIGN; 766 versions =
+     758 SUGGESTED + 8 seed VALIDATED + 0 REJECTED; 6 applied rehearsal
+     events — identical pre/post milestone (read-only probes only).
+   - No apply endpoint, no new validation-state model, no learner-state
+     duplication, no UI-as-truth.
+
+4. COMMIT SHAs (workbench repo, filled at release time)
+   - R3-7 implementation commit: 3cb3aa8 (parent lineage 5d4b502 -> ce2b00d)
+   - R3-7 evidence pack commit: follows this file (see release notes)
+   - Evidence pack commit: same lineage
+   - core local main (reconciled, includes R3-7-relevant hardening): 4343b5a
+   - corpus: c42b6a14 (unchanged) | parser: d3415caa (unchanged)
+
+5. VERIFICATION MATRIX (mandated negative tests — all VERIFIED)
+   1  unauthenticated staging -> 403 ................ VERIFIED (integration)
+   2  forged session -> 403 ......................... VERIFIED (unit+integ)
+   3  expired session -> 403 ........................ VERIFIED (unit+integ)
+   4  wrong role -> 403 ............................. VERIFIED (unit+integ)
+   5  missing/invalid production secret fail-closed . VERIFIED (unit+boot A)
+   6  insecure prod cookie config -> startup failure  VERIFIED (unit+boot A)
+   7  unauthorized canonical mutation impossible .... VERIFIED (conn RO +
+                                                        hostile sweep)
+   8  concurrent conflicting intent explicit ........ VERIFIED (integration)
+   9  stale staged intent cannot become canonical ... VERIFIED (3 layers)
+   10 reviewer revocation ends session .............. VERIFIED (integration)
+   11 real staging log protected .................... VERIFIED (sha identical
+                                                        pre/post all suites)
+   Full suite: 97 pass / 0 fail / 343 expect() across 6 files
+   (test-results-full.log). eslint clean; tsc clean (app scope); next build
+   success.
+
+6. CONCURRENCY PROOF (mandated scenario)
+   Two provisioned reviewers, one LIVE-SUGGESTED target:
+   A VALIDATE 200 (canonical unchanged, appliedCount 0) ->
+   B REJECT 422 ("already staged as VALIDATED; reverse that entry first") ->
+   B VALIDATE 422 -> B FLAG 200 (events-only coexistence, by design) ->
+   events feed still 6, distinct reviewerIds in the ledger, no merge.
+
+7. AUDITABILITY (minimum record, single sources of truth)
+   staged  = hash-chained staging entry {seq, ts, action, target identity,
+             reviewer + reviewerId, note, prevHash/hash}
+   applied = teacher_validation_events (V18) {decision_seq/hash linkage,
+             action, reviewer, result_state, applied_at}
+   reversal= REVERSE entry/event "reverses seq N" (+ F-3 structured field)
+   identity admin = provisioning-log.jsonl {ts, PROVISION/REVOKE/ROTATE,
+             id, name, by, note}
+   No second validation-state model introduced.
+
+8. PUBLIC-REPO AUDIT
+   2325 tracked files classified: SAFE 108 / OPERATIONAL_SAFE 2216 /
+   UNCERTAIN 1 (frozen 60MB tarball — documented, remediated via ignore+hook,
+   history NOT rewritten) / SHOULD_NOT_BE_PUBLIC 0. Secrets, identity state
+   and provisioning logs verified untracked; zero token/private-key patterns
+   in all history blobs. (public-repo-audit.json + PUBLIC-REPO-AUDIT.md)
+
+9. CLAIM LABELS (explicit)
+   VERIFIED: provisioning model+CLI; session v2 binding; revocation; rotation;
+             production fail-closed gate (local boot simulation); CSRF paths;
+             live staging gate; BLOCKED/STALE semantics; importer untouched
+             and green; canonical DB unchanged; log isolation; public-repo
+             classification; hygiene guards.
+   UNVERIFIED: TLS termination on a real host; standalone-server boot check;
+               production backups/monitoring (no host exists yet).
+   REPORTED: none (everything above is artifact-backed).
+   PENDING: real-teacher onboarding decision (operator).
+
+10. NEXT SAFE ACTION
+   Operator reviews this pack. When satisfied, the workbench is ready for a
+   REAL deployment host (with TV_PUBLIC_HTTPS=1, mounted secret, provisioned
+   reviewers) and the first real reviewer provisioning — in that order.

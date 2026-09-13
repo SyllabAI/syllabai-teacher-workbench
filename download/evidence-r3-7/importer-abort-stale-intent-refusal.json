@@ -1,0 +1,10 @@
+{
+ "mode": "check",
+ "ts": "2026-09-13T20:43:37.001726+00:00",
+ "log_file": "/home/z/my-project/download/teacher-validation/test-runs/r3-7-26736/stale-intent-copy.jsonl",
+ "log_sha256": "e4fd46c7ecf952013826ea9d86b860f2862d5a912819657a12c0f742a6eb9496",
+ "entries": 1,
+ "chain": "FAILED",
+ "reason": "gate: seq 1 targets question_version:5d1a327a-2d55-47ab-916f-4d8018afef6f in state VALIDATED, not SUGGESTED (seed lock / lifecycle violation) \u2014 aborting",
+ "decision": "ABORT \u2014 nothing written (fail-closed)"
+}

@@ -1,0 +1,14 @@
+== R3-7 production boot check 2026-09-13T20:49:12Z ==
+next build first (needed for next start)...
+RESULT A: PASS — insecure production boot FAILED TO PREPARE (HTTP 500 on probe; explicit R3-7 startup error logged)
+Failed to prepare server Error: An error occurred while loading instrumentation hook: R3-7 production configuration check FAILED — refusing to start:
+- session secret file missing at download/teacher-validation/test-runs/prodboot/missing-secret.key — generate it out-of-band (openssl rand -base64 32) and mount it at 0600; production never auto-generates secrets
+- reviewer registry not found at download/teacher-validation/test-runs/prodboot/no-registry.json — provision at least one reviewer before production start
+- TV_PUBLIC_HTTPS must be "1" in production — the session cookie is Secure and must only be served over HTTPS
+- TV_PGHOST must be set explicitly in production — no silent DB defaults
+- TV_PGUSER must be set explicitly in production — no silent DB defaults
+- TV_PGDATABASE must be set explicitly in production — no silent DB defaults
+--
+Error: An error occurred while loading instrumentation hook: R3-7 production configuration check FAILED — refusing to start:
+- session secret file missing at download/teacher-validation/test-runs/prodboot/missing-secret.key — generate it out-of-band (openssl rand -base64 32) and mount it at 0600; production never auto-generates secrets
+RESULT B: PASS — fully configured production boot serves /api/review/index -> 200

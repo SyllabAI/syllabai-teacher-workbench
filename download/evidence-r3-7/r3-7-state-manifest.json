@@ -1,0 +1,116 @@
+{
+  "milestone": "R3-7 \u2014 Reviewer Provisioning & Production Readiness",
+  "generatedAt": "2026-09-14T20:55:00Z",
+  "bases": {
+    "workbench_head": "see commits (R3-7 feature commit; parent 5d4b502)",
+    "syllabai_core": "4343b5a (importer F-1..F-4; local main fast-forwarded, unpushed delta none)",
+    "corpus_past_papers": "c42b6a14",
+    "syllabai_parser": "d3415caa"
+  },
+  "migrationProvenance": {
+    "decision": "NO new migration (V18 teacher_validation_review already stores everything; R3-7 adds no schema)",
+    "numericMaxOverRemoteTree": "V18 (checked by numeric max at implementation time, commit 4343b5a)",
+    "flywayRowsInCampaignDB": 18
+  },
+  "commits": {
+    "note": "workbench implementation commit 3cb3aa8 (parent ce2b00d lineage from 5d4b502); evidence pack commit follows; core local main 4343b5a with ZERO R3-7 commits",
+    "syllabai_core_local_main": "4343b5a",
+    "core_commits_by_r3_7": 0,
+    "workbench_r3_7_implementation": "3cb3aa8"
+  },
+  "reviewerProvisioning": {
+    "registryPath": "download/teacher-validation/reviewers.json (0600, gitignored, NEVER committed \u2014 verified absent)",
+    "provisioningAudit": "download/teacher-validation/provisioning-log.jsonl (append-only, fsync, gitignored)",
+    "tokenModel": "32-byte random, shown once, stored only as sha256 hash",
+    "roles": [
+      "teacher"
+    ],
+    "sharedAccounts": "refused (active-name uniqueness)",
+    "revocation": "immediate via registry revalidation on every staging write + epoch bump",
+    "cliSmoke": "evidence-r3-7/importer-and-integrity-r3-7.log"
+  },
+  "sessionSecurity": {
+    "payload": "v2 {v, reviewerId, name, role, exp, epoch}; legacy v1 fail-closed rejected",
+    "issuance": "provisioned token REQUIRED; name from registry; client displayName ignored",
+    "cookie": "HttpOnly, SameSite=Strict, Secure in production, 12h TTL",
+    "productionSecretPolicy": "never auto-generated in production; missing/undersized -> explicit startup failure",
+    "rotation": "rotate-session-secret regenerates 0600 secret; all sessions invalidated; audited"
+  },
+  "productionGate": {
+    "wiring": "src/instrumentation.ts register() -> assertProductionConfig()",
+    "requiresInProduction": [
+      "existing >=32B session secret",
+      "reviewer registry present",
+      "TV_PUBLIC_HTTPS=1",
+      "explicit TV_PGHOST/TV_PGUSER/TV_PGDATABASE"
+    ],
+    "bootCheck": "evidence-r3-7/prod-boot-check.log \u2014 A(insecure): FAILED TO PREPARE, HTTP 500, all 6 problems listed; B(secure): serves 200"
+  },
+  "stagingGate": {
+    "liveCanonicalGate": "VALIDATE/REJECT/FLAG require LIVE SUGGESTED (fail-closed when feed unavailable); REVERSE requires prior applied AND last-event consistency \u2014 mirrors importer gates; importer remains sole authority",
+    "csrf": "application/json required (415 otherwise); cross-origin Origin refused (403)",
+    "reviewerIdInLog": "outside the frozen hash base (F-3 pattern); importer check-mode accepts reviewerId-bearing scratch logs; helper reproduces real-log hashes"
+  },
+  "relationshipSemantics": {
+    "preserved": [
+      "AGREES_WITH_CANONICAL",
+      "WOULD_CHANGE_CANONICAL",
+      "ALREADY_APPLIED",
+      "APPLIED_THEN_REVERSED",
+      "BLOCKED"
+    ],
+    "new": "open state-changing intent vs non-SUGGESTED canonical -> BLOCKED (CONFLICT, never merged); stale flag + supersededBy[] with newer applied-event attribution",
+    "neverCollapsed": true
+  },
+  "concurrencyProof": {
+    "scenario": "Ada VALIDATE (200) -> Ben REJECT (422 'already staged...reverse first') -> Ben VALIDATE (422) -> Ben FLAG (200, events-only coexistence) -> canonical state unchanged, events feed still 6, distinct reviewerIds in ledger",
+    "artifact": "evidence-r3-7/test-results-full.log"
+  },
+  "requiredNegativeTests": {
+    "unauthenticated staging 403": "VERIFIED (integration)",
+    "forged session 403": "VERIFIED (unit + integration)",
+    "expired session 403": "VERIFIED (unit + integration)",
+    "wrong role 403": "VERIFIED (unit + integration)",
+    "missing/invalid production secret fail-closed": "VERIFIED (unit + boot check A)",
+    "insecure production cookie config -> startup failure": "VERIFIED (unit + boot check A: TV_PUBLIC_HTTPS problem listed, server fails to prepare)",
+    "unauthorized canonical mutation impossible": "VERIFIED (connection read-only + hostile sweep, canonical byte-identical)",
+    "concurrent/conflicting reviewer intent explicit": "VERIFIED (integration)",
+    "stale staged intent cannot silently become canonical": "VERIFIED (live gate 422 + importer refusal on COPY + relationship STALE)",
+    "reviewer revocation ends session": "VERIFIED (integration: same cookie 403 after revoke; dead token cannot re-auth)",
+    "real staging log protected from test mutation": "VERIFIED (sha256 d2bac629... identical pre/post every suite; TV_LOG_FILE isolation; real registry never created)"
+  },
+  "testResults": {
+    "suite": "97 pass / 0 fail / 343 expect() across 6 files (R3-6 suites adapted + R3-7 suites)",
+    "artifact": "evidence-r3-7/test-results-full.log",
+    "lint": "clean (eslint src tests scripts)",
+    "tsc": "clean for app scope (pre-existing scaffold noise in examples/, skills/ excluded \u2014 unchanged by R3-7)",
+    "build": "next build success"
+  },
+  "importerUntouched": {
+    "sha256": "6f56c993549c9a4564dc212b599cc68149b88c92926057d6ce364fc93690cd79",
+    "checkMode": "exit 0 \u2014 chain valid (6 entries, head 891dbf10...), 6/6 already-applied DUPLICATE, real log untouched \u2014 evidence-r3-7/importer-and-integrity-r3-7.log"
+  },
+  "canonicalDb": {
+    "identity": "syllabai | T-C04-CAMPAIGN | 9615b69",
+    "versions": "766 = 758 SUGGESTED + 8 seed VALIDATED + 0 REJECTED",
+    "appliedEvents": 6,
+    "flywayRows": 18,
+    "unchangedByR3_7": true
+  },
+  "publicRepoAudit": {
+    "artifact": "evidence-r3-7/public-repo-audit.json + PUBLIC-REPO-AUDIT.md",
+    "result": "SAFE 108, OPERATIONAL_SAFE 2216, UNCERTAIN 1 (frozen 60MB tarball), SHOULD_NOT_BE_PUBLIC 0 tracked",
+    "hygiene": "gitignore rules + pre-commit hook + check-large-files.sh + docs/RELEASING.md; tarball frozen (no history rewrite)"
+  },
+  "claimLabels": {
+    "reviewer provisioning model + CLI": "VERIFIED",
+    "session v2 binding + revocation + rotation": "VERIFIED",
+    "production fail-closed config gate": "VERIFIED (local boot simulation)",
+    "HTTPS termination on a real host": "UNVERIFIED (no production host yet)",
+    "standalone-server boot check": "UNVERIFIED",
+    "importer untouched + green under F-4": "VERIFIED",
+    "canonical DB unchanged": "VERIFIED",
+    "public-repo classification": "VERIFIED",
+    "real-teacher readiness decision": "PENDING OPERATOR (do not onboard yet)"
+  }
+}

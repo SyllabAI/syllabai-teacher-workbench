@@ -1,0 +1,33 @@
+== R3-7 importer re-verification + integrity 2026-09-13T20:49:56Z ==
+core HEAD: 4343b5a6919e157c9c35018f8c71c4ccb9d07bd7
+importer sha256: 6f56c993549c9a4564dc212b599cc68149b88c92926057d6ce364fc93690cd79
+real staging log sha256: d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+real log exists / registry does NOT exist: yes/correct-absent
+
+-- importer check-mode vs REAL log (F-4 importer, 4343b5a) --
+DB IDENTITY VERIFIED: db=syllabai label=T-C04-CAMPAIGN (campaign_db_identity row matched, gate passed)
+chain: chain valid (6 entries, head 891dbf1053f7)
+plan: 0 operation(s) [6 already-applied DUPLICATE skipped; 0 events-only (FLAG)]
+manifest: /home/z/my-project/download/teacher-validation/runs/importer-run-check-204956.json
+real log untouched: yes
+check exit: 0
+
+-- provisioning CLI smoke (scratch registry) --
+provision exit: 0
+reviewer provisioned: id=tvr-5ee4a059 name="CLI Smoke Reviewer" role=teacher epoch=1
+registry: download/teacher-validation/test-runs/r3-7-cli-smoke/reviewers.json
+THE TOKEN BELOW IS SHOWN EXACTLY ONCE — store it in the reviewer's password manager now:
+token sha256 (recorded in registry): 977f7dea36d49cc4ec94d3e7bdcf63622a6a57cd4cb109fc4fd2745bb7999478
+token prefix: tvr_tI41... (shown once, then only hash stored)
+tvr-5ee4a059  CLI Smoke Reviewer  role=teacher epoch=1 status=active provisioned_by=operator:cli-smoke at 2026-09-13T20:49:57.000Z
+revoked: id=tvr-5ee4a059 name="CLI Smoke Reviewer" epoch now 2 — all outstanding sessions for this reviewer are dead on their next staging request.
+tvr-5ee4a059  CLI Smoke Reviewer  role=teacher epoch=2 status=revoked provisioned_by=operator:cli-smoke at 2026-09-13T20:49:57.000Z REVOKED at 2026-09-13T20:49:57.057Z
+2
+provisioning audit entries: 2 (PROVISION+REVOKE)
+
+-- canonical DB integrity (read-only probes) --
+identity|syllabai|T-C04-CAMPAIGN|9615b69
+versions|766|758|8|0
+events|6
+flyway_rows|18
+final check exit: 0
