@@ -37,6 +37,8 @@ export interface StagedEntryLike {
   reviewer: string;
   note: string;
   hash: string;
+  /** R3-7: provisioned reviewer identity (present on new entries; outside the entry hash). */
+  reviewerId?: string;
 }
 
 export interface AppliedEventLike {
@@ -76,6 +78,40 @@ export interface EntryRelationship {
   eventsOnly: boolean;
   appliedEvent: AppliedEventLike | null;
   explanation: string;
+  /**
+   * R3-7: the staged intent is OPEN but newer applied events exist on the
+   * same target — the world moved on after this intent was staged. Stale
+   * intent is reported explicitly; it can never silently become canonical
+   * (the live staging gate and the importer both refuse it).
+   */
+  stale: boolean;
+  supersededBy: AppliedEventLike[];
+}
+
+/**
+ * R3-7 staleness: applied events on the SAME target that are not this
+ * entry's own match and were applied AFTER this entry was staged.
+ */
+function supersedingEvents(entry: StagedEntryLike, appliedEvents: AppliedEventLike[]): AppliedEventLike[] {
+  return appliedEvents
+    .filter((e) => e.targetType === entry.targetType && e.targetId === entry.targetId)
+    .filter((e) => !(e.decisionSeq === entry.seq && e.decisionHash === entry.hash))
+    .filter((e) => new Date(e.appliedAt).getTime() > new Date(entry.ts).getTime())
+    .sort((a, b) => new Date(a.appliedAt).getTime() - new Date(b.appliedAt).getTime());
+}
+
+function finish(
+  relationship: Relationship,
+  eventsOnly: boolean,
+  appliedEvent: AppliedEventLike | null,
+  explanation: string,
+  superseded: AppliedEventLike[]
+): EntryRelationship {
+  const stale = superseded.length > 0;
+  const staleNote = stale
+    ? ` STALE: ${superseded.length} newer applied event(s) exist on this target (most recent: seq ${superseded[superseded.length - 1].decisionSeq}, ${superseded[superseded.length - 1].action} by ${superseded[superseded.length - 1].reviewer}) — this intent was overtaken by canonical reality and cannot silently become canonical.`
+    : "";
+  return { relationship, eventsOnly, appliedEvent, explanation: explanation + staleNote, stale, supersededBy: superseded };
 }
 
 /**
@@ -83,7 +119,11 @@ export interface EntryRelationship {
  *
  * Precedence:
  *   BLOCKED (unknown/invalid target) > APPLIED_THEN_REVERSED > ALREADY_APPLIED
- *   > (open intent) WOULD_CHANGE / AGREES.
+ *   > (open intent) BLOCKED (importer-ineligible) > WOULD_CHANGE / AGREES.
+ * R3-7: an OPEN state-changing intent whose live canonical state is not
+ * SUGGESTED (and does not already agree) is BLOCKED — the gated importer
+ * applies VALIDATE/REJECT/FLAG only against SUGGESTED targets, so predicting
+ * "would change" would be false. Conflicting intent is reported, never merged.
  */
 export function computeRelationshipForEntry(
   entry: StagedEntryLike,
@@ -96,34 +136,39 @@ export function computeRelationshipForEntry(
     appliedEvents.find((e) => e.decisionSeq === entry.seq && e.decisionHash === entry.hash) || null;
 
   if (canonicalState === "UNKNOWN") {
-    return {
-      relationship: "BLOCKED",
-      eventsOnly: entry.action === "FLAG",
-      appliedEvent: appliedMatch,
-      explanation: "Canonical target not found in the live canonical DB — staging for this target is blocked; the canonical state cannot be confirmed.",
-    };
+    return finish(
+      "BLOCKED",
+      entry.action === "FLAG",
+      appliedMatch,
+      "Canonical target not found in the live canonical DB — staging for this target is blocked; the canonical state cannot be confirmed.",
+      supersedingEvents(entry, appliedEvents)
+    );
   }
 
   if (entry.action === "REVERSE") {
     // The reversal itself: has it been applied? If yes, the intent it targets
     // is (from this entry's perspective) already applied as a reversal.
+    const superseded = supersedingEvents(entry, appliedEvents);
     if (appliedMatch) {
-      return {
-        relationship: "ALREADY_APPLIED",
-        eventsOnly: false,
-        appliedEvent: appliedMatch,
-        explanation: `Reversal of seq ${parseReverseSeq(entry.note) ?? "?"} has been applied to canonical state (event seq ${appliedMatch.decisionSeq}, by ${appliedMatch.reviewer}).`,
-      };
+      return finish(
+        "ALREADY_APPLIED",
+        false,
+        appliedMatch,
+        `Reversal of seq ${parseReverseSeq(entry.note) ?? "?"} has been applied to canonical state (event seq ${appliedMatch.decisionSeq}, by ${appliedMatch.reviewer}).`,
+        superseded
+      );
     }
-    return {
-      relationship: "WOULD_CHANGE_CANONICAL",
-      eventsOnly: false,
-      appliedEvent: null,
-      explanation: `Staged reversal of seq ${parseReverseSeq(entry.note) ?? "?"} — NOT YET APPLIED; canonical state would restore to SUGGESTED when the gated importer runs.`,
-    };
+    return finish(
+      "WOULD_CHANGE_CANONICAL",
+      false,
+      null,
+      `Staged reversal of seq ${parseReverseSeq(entry.note) ?? "?"} — NOT YET APPLIED; canonical state would restore to SUGGESTED when the gated importer runs.`,
+      superseded
+    );
   }
 
   // Original (non-REVERSE) intent: was it applied AND later reversed?
+  const superseded = supersedingEvents(entry, appliedEvents);
   if (appliedMatch) {
     const reversedBy = allStagedEntries.find(
       (e) => e.action === "REVERSE" && parseReverseSeq(e.note) === entry.seq
@@ -132,45 +177,61 @@ export function computeRelationshipForEntry(
       ? appliedEvents.some((e) => e.decisionSeq === reversedBy.seq && e.decisionHash === reversedBy.hash)
       : false;
     if (reversedBy && reversalApplied) {
-      return {
-        relationship: "APPLIED_THEN_REVERSED",
-        eventsOnly: entry.action === "FLAG",
-        appliedEvent: appliedMatch,
-        explanation: `Applied to canonical state (event seq ${appliedMatch.decisionSeq}, result ${appliedMatch.resultState}) and later reversed (staged seq ${reversedBy.seq} applied) — canonical state is back to SUGGESTED.`,
-      };
+      return finish(
+        "APPLIED_THEN_REVERSED",
+        entry.action === "FLAG",
+        appliedMatch,
+        `Applied to canonical state (event seq ${appliedMatch.decisionSeq}, result ${appliedMatch.resultState}) and later reversed (staged seq ${reversedBy.seq} applied) — canonical state is back to SUGGESTED.`,
+        superseded
+      );
     }
-    return {
-      relationship: "ALREADY_APPLIED",
-      eventsOnly: entry.action === "FLAG",
-      appliedEvent: appliedMatch,
-      explanation: `This staged intent has ALREADY BEEN APPLIED to canonical state (event seq ${appliedMatch.decisionSeq}, result ${appliedMatch.resultState}, by ${appliedMatch.reviewer}). It is not a pending action.`,
-    };
+    return finish(
+      "ALREADY_APPLIED",
+      entry.action === "FLAG",
+      appliedMatch,
+      `This staged intent has ALREADY BEEN APPLIED to canonical state (event seq ${appliedMatch.decisionSeq}, result ${appliedMatch.resultState}, by ${appliedMatch.reviewer}). It is not a pending action.`,
+      superseded
+    );
   }
 
   // Open staged intent (not applied).
   const resulting = entryResultingState(entry);
   if (resulting === null) {
-    return {
-      relationship: "AGREES_WITH_CANONICAL",
-      eventsOnly: true,
-      appliedEvent: null,
-      explanation: "FLAG is an events-only annotation — it never changes canonical validation state and never becomes canonical truth.",
-    };
+    return finish(
+      "AGREES_WITH_CANONICAL",
+      true,
+      null,
+      "FLAG is an events-only annotation — it never changes canonical validation state and never becomes canonical truth.",
+      superseded
+    );
   }
   if (canonicalState === resulting) {
-    return {
-      relationship: "AGREES_WITH_CANONICAL",
-      eventsOnly: false,
-      appliedEvent: null,
-      explanation: `Staged ${entry.action} agrees with the canonical state (already ${canonicalState}) — applying it would not change canonical truth.`,
-    };
+    return finish(
+      "AGREES_WITH_CANONICAL",
+      false,
+      null,
+      `Staged ${entry.action} agrees with the canonical state (already ${canonicalState}) — applying it would not change canonical truth.`,
+      superseded
+    );
   }
-  return {
-    relationship: "WOULD_CHANGE_CANONICAL",
-    eventsOnly: false,
-    appliedEvent: null,
-    explanation: `Staged ${entry.action} is NOT YET APPLIED — canonical state remains ${canonicalState} and would become ${resulting} only after the gated importer applies this entry.`,
-  };
+  if (canonicalState !== "SUGGESTED") {
+    // R3-7: importer-ineligible conflict, reported explicitly (never merged,
+    // never rendered as a would-change that will not happen).
+    return finish(
+      "BLOCKED",
+      false,
+      null,
+      `CONFLICT: canonical state is ${canonicalState}, but this staged ${entry.action} would produce ${resulting}. The gated importer applies state-changing decisions ONLY against SUGGESTED targets, so this intent is ineligible as things stand — it must be reversed/withdrawn or the canonical decision revisited through a new decision.`,
+      superseded
+    );
+  }
+  return finish(
+    "WOULD_CHANGE_CANONICAL",
+    false,
+    null,
+    `Staged ${entry.action} is NOT YET APPLIED — canonical state remains ${canonicalState} and would become ${resulting} only after the gated importer applies this entry.`,
+    superseded
+  );
 }
 
 export interface TargetView {

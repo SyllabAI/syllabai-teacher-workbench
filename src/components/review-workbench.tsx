@@ -27,6 +27,7 @@ type PaperCounts = Record<string, { validated: number; rejected: number; flagged
 interface DecisionEntry {
   seq: number; ts: string; action: string; targetType: string;
   targetId: string; targetLabel: string; reviewer: string; note: string; hash: string;
+  reviewerId?: string;
 }
 
 interface DecisionsState {
@@ -139,9 +140,12 @@ function TargetStatePanel({
             ) : (
               <Badge className="bg-amber-100 text-amber-950 hover:bg-amber-100 text-[9px] font-mono">STAGED — NOT YET APPLIED</Badge>
             )}
-            <span className="text-stone-500">by {e.reviewer} · {fmtTime(e.ts)} · log #{e.seq} h{shortHash(e.hash)}</span>
+            <span className="text-stone-500">by {e.reviewer}{e.reviewerId ? <> · <span className="font-mono text-[9px]" title="provisioned reviewer id">{e.reviewerId}</span></> : null} · {fmtTime(e.ts)} · log #{e.seq} h{shortHash(e.hash)}</span>
             <span className="w-full flex items-center gap-1.5">
               <Badge className={`${REL_BADGE[rel.relationship].cls} text-[9px]`}>{rb.label}</Badge>
+              {rel.stale && (
+                <Badge className="bg-orange-100 text-orange-900 hover:bg-orange-100 text-[9px]">STALE — superseded by newer applied events</Badge>
+              )}
               {!compact && <span className="text-stone-500">{rel.explanation}</span>}
             </span>
           </div>
@@ -187,7 +191,7 @@ export default function ReviewWorkbench() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [dossier, setDossier] = useState<SessionDossier | null>(null);
   const [decisions, setDecisions] = useState<DecisionsState | null>(null);
-  const [reviewer, setReviewer] = useState("");
+  const [token, setToken] = useState("");
   const [search, setSearch] = useState("");
   const [onlyReview, setOnlyReview] = useState(false);
   // R3-6 canonical feed state
@@ -195,8 +199,8 @@ export default function ReviewWorkbench() {
   const [feedAvailable, setFeedAvailable] = useState<boolean | null>(null);
   const [canonStates, setCanonStates] = useState<CanonicalStatusMap>({});
   const [canonAvailable, setCanonAvailable] = useState<boolean | null>(null);
-  // R3-6 teacher session
-  const [session, setSession] = useState<{ name: string; expiresAt: string } | null>(null);
+  // R3-6 teacher session (R3-7: binds a provisioned reviewer identity)
+  const [session, setSession] = useState<{ name: string; reviewerId: string; expiresAt: string } | null>(null);
   const [dialog, setDialog] = useState<
     null
     | { kind: "REJECT" | "FLAG"; targetType: string; targetId: string; label: string; note: string }
@@ -224,15 +228,9 @@ export default function ReviewWorkbench() {
     refreshEvents();
     // session probe: a cheap GET that 403s tells us there is no session; we
     // simply start logged-out (cookie presence is verified server-side).
+    // R3-7: the provisioned token is intentionally NOT persisted anywhere
+    // (no localStorage) — it is re-entered per browser session.
   }, [refreshDecisions, refreshEvents]);
-
-  useEffect(() => {
-    const saved = window.localStorage.getItem("tv-reviewer");
-    if (saved) {
-      const id = requestAnimationFrame(() => setReviewer(saved));
-      return () => cancelAnimationFrame(id);
-    }
-  }, []);
 
   useEffect(() => {
     if (!selectedId) return;
@@ -269,15 +267,16 @@ export default function ReviewWorkbench() {
     const res = await fetch("/api/session", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ displayName: reviewer.trim() }),
+      body: JSON.stringify({ token: token.trim() }),
     });
     const data = await res.json();
     if (!res.ok) {
       toast({ title: "could not open session", description: data.error, variant: "destructive" });
       return;
     }
-    setSession({ name: data.name, expiresAt: data.expiresAt });
-    toast({ title: "teacher session open", description: "you can now stage validation intent (staging only — never applies)" });
+    setSession({ name: data.name, reviewerId: data.reviewerId, expiresAt: data.expiresAt });
+    setToken(""); // token is shown once at provisioning; never cached in the browser
+    toast({ title: `teacher session open — ${data.name}`, description: "you can now stage validation intent (staging only — never applies)" });
   };
 
   const closeSession = async () => {
@@ -288,7 +287,7 @@ export default function ReviewWorkbench() {
 
   const requireSession = (): boolean => {
     if (!session) {
-      toast({ title: "open a teacher session first", description: "enter your name and press 'open session' (top right)", variant: "destructive" });
+      toast({ title: "open a teacher session first", description: "paste your provisioned reviewer token and press 'open session' (top right)", variant: "destructive" });
       return false;
     }
     return true;
@@ -430,7 +429,7 @@ export default function ReviewWorkbench() {
             {session ? (
               <>
                 <Badge variant="outline" className="text-[10px] gap-1 text-emerald-800 border-emerald-400">
-                  <LogIn className="h-3 w-3" /> {session.name} · teacher session
+                  <LogIn className="h-3 w-3" /> {session.name} · teacher session · <span className="font-mono">{session.reviewerId}</span>
                 </Badge>
                 <Button variant="outline" size="sm" className="h-7 text-xs gap-1" onClick={closeSession}>
                   <LogOut className="h-3 w-3" /> close session
@@ -439,14 +438,16 @@ export default function ReviewWorkbench() {
             ) : (
               <>
                 <Input
-                  value={reviewer}
-                  onChange={(e) => { setReviewer(e.target.value); window.localStorage.setItem("tv-reviewer", e.target.value); }}
+                  type="password"
+                  value={token}
+                  onChange={(e) => setToken(e.target.value)}
                   onKeyDown={(e) => { if (e.key === "Enter") openSession(); }}
-                  placeholder="reviewer name"
-                  className="h-7 w-36 text-xs"
-                  aria-label="reviewer name"
+                  placeholder="provisioned reviewer token"
+                  className="h-7 w-44 text-xs font-mono"
+                  aria-label="provisioned reviewer token"
+                  autoComplete="off"
                 />
-                <Button variant="outline" size="sm" className="h-7 text-xs gap-1" onClick={openSession} disabled={reviewer.trim().length < 2}>
+                <Button variant="outline" size="sm" className="h-7 text-xs gap-1" onClick={openSession} disabled={token.trim().length < 8}>
                   <LogIn className="h-3 w-3" /> open session
                 </Button>
               </>
@@ -522,7 +523,7 @@ export default function ReviewWorkbench() {
                           <div className="mt-1 text-[11px] font-medium">{e.targetLabel}</div>
                           {e.note && <div className="text-[11px] text-stone-600">{e.note}</div>}
                           <div className="mt-1 flex items-center gap-2">
-                            <span className="text-[10px] text-stone-400">by {e.reviewer}</span>
+                            <span className="text-[10px] text-stone-400">by {e.reviewer}{e.reviewerId ? <span className="font-mono"> ({e.reviewerId})</span> : null}</span>
                             {e.action !== "REVERSE" && (
                               <button className="ml-auto text-[10px] text-stone-500 hover:text-rose-600 underline flex items-center gap-0.5"
                                 onClick={() => reverse(e.seq)}>

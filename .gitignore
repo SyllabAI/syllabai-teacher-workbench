@@ -57,3 +57,13 @@ download/teacher-validation/session-secret.key
 
 # R3-6-b: source tarballs are release assets, not repo content (60MB blob swept by auto-commit 4c58b19; kept, not rewritten — SHA stability)
 download/evidence-r3-6-b/*.tar.gz
+
+# R3-7: reviewer identity state + provisioning audit — NEVER versioned (secret hashes, PII)
+download/teacher-validation/reviewers.json
+download/teacher-validation/provisioning-log.jsonl
+# R3-7: suite scratch state (logs/registries) is throwaway, never evidence
+download/teacher-validation/test-runs/
+# R3-7: release bundles belong in GitHub Releases, not git history
+*.tar.gz
+*.dump
+*.dump.gz

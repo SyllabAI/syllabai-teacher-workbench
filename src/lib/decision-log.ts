@@ -42,11 +42,24 @@ export interface DecisionEntry {
   note: string;
   prevHash: string;
   hash: string;
+  /**
+   * R3-7: stable provisioned reviewer identity. Deliberately OUTSIDE the
+   * entry hash (exact F-3 `reverses` pattern): the hash base is frozen to
+   * match the gated importer's verifier, so adding a field to the JSON
+   * without adding it to the hash keeps every existing entry verifiable by
+   * BOTH sides. Old entries simply lack the field.
+   */
+  reviewerId?: string;
 }
 
 const GENESIS = "0".repeat(64);
 
-function entryHash(e: Omit<DecisionEntry, "hash">): string {
+/**
+ * Hash base EXCLUDES reviewerId (R3-7) — frozen to match the gated
+ * importer's verifier. Do not add fields here without a cross-side
+ * compatibility proof (importer check-mode on a scratch log).
+ */
+function entryHash(e: Omit<DecisionEntry, "hash" | "reviewerId">): string {
   return createHash("sha256").update(JSON.stringify(e)).digest("hex");
 }
 
@@ -115,6 +128,23 @@ export interface AppendInput {
   reviewer: string;
   note?: string;
   reverseSeq?: number;
+  /** R3-7: provisioned reviewer identity (stored outside the hash). */
+  reviewerId?: string;
+  /**
+   * R3-7 live canonical gate — a MIRROR of the importer's gates (the
+   * importer remains the only authority). The caller (staging route) fetches
+   * this from the LIVE canonical DB; the log itself stays I/O-free.
+   *   liveState: live validation_state of the target, or null if the live
+   *              DB could not confirm it (fail-closed).
+   *   priorApplied / priorIsLastEvent: for REVERSE — the referenced prior
+   *              staged entry has a matching applied event and it is still
+   *              the last event on that target (R3-5 reverse-consistency).
+   */
+  liveGate?: {
+    liveState: string | null;
+    priorApplied?: boolean;
+    priorIsLastEvent?: boolean;
+  };
 }
 
 export function appendDecision(input: AppendInput): { ok: true; entry: DecisionEntry } | { ok: false; error: string } {
@@ -133,16 +163,39 @@ export function appendDecision(input: AppendInput): { ok: true; entry: DecisionE
       (e) => e.action === "REVERSE" && parseInt(extractSeq(e.note), 10) === prior.seq
     );
     if (alreadyReversed) return { ok: false, error: `entry seq ${prior.seq} already reversed` };
+    // R3-7 live reverse-consistency (mirror of the importer's gate): the
+    // referenced decision must already be applied AND still be the last
+    // event on that target — otherwise the staged REVERSE is dead intent
+    // that the importer would refuse.
+    if (!input.liveGate || input.liveGate.liveState === null) {
+      return { ok: false, error: "live canonical state not confirmed — reversal staging is blocked (fail-closed)" };
+    }
+    if (input.liveGate.priorApplied !== true) {
+      return { ok: false, error: `seq ${prior.seq} has no matching applied event in the canonical DB — a reversal may only be staged for an APPLIED decision` };
+    }
+    if (input.liveGate.priorIsLastEvent !== true) {
+      return { ok: false, error: `seq ${prior.seq} is no longer the last applied event on this target — reversal refused (stale intent must not accumulate)` };
+    }
     return writeEntry({
       action: "REVERSE", targetType: prior.targetType, targetId: prior.targetId,
-      targetLabel: prior.targetLabel, reviewer,
-      note: `reverses seq ${prior.seq} (${prior.action})${note ? ` — ${note}` : ""}`,
+      targetLabel: prior.targetLabel, reviewer, note: `reverses seq ${prior.seq} (${prior.action})${note ? ` — ${note}` : ""}`,
+      reviewerId: input.reviewerId,
     });
   }
 
   const target = reg.get(input.targetId);
   if (!target || target.type !== input.targetType) {
     return { ok: false, error: `unknown target ${input.targetType}:${input.targetId}` };
+  }
+  // R3-7 LIVE canonical gate (mirror of the importer's SUGGESTED-only rule).
+  // The static read-model registry remains the identity source; the LIVE DB
+  // decides decidability — a stale read model can no longer let intent
+  // enter the log against a target whose canonical state has moved on.
+  if (!input.liveGate || input.liveGate.liveState === null) {
+    return { ok: false, error: "live canonical state not confirmed — staging is blocked (fail-closed); the canonical DB feed must confirm the target" };
+  }
+  if (input.liveGate.liveState !== "SUGGESTED") {
+    return { ok: false, error: `live canonical state is ${input.liveGate.liveState}, not SUGGESTED — the gated importer applies state-changing decisions only against SUGGESTED targets (lifecycle violation refused)` };
   }
   if (target.state !== "SUGGESTED") {
     return { ok: false, error: `lifecycle violation: target is ${target.state}, not SUGGESTED — only SUGGESTED content may be decided` };
@@ -160,18 +213,25 @@ export function appendDecision(input: AppendInput): { ok: true; entry: DecisionE
   return writeEntry({
     action: input.action, targetType: target.type, targetId: target.id,
     targetLabel: target.label, reviewer, note,
+    reviewerId: input.reviewerId,
   });
 }
 
 function writeEntry(
-  e: Omit<DecisionEntry, "seq" | "ts" | "prevHash" | "hash">
+  e: Omit<DecisionEntry, "seq" | "ts" | "prevHash" | "hash"> & { reviewerId?: string }
 ): { ok: true; entry: DecisionEntry } | { ok: false; error: string } {
   try {
     fs.mkdirSync(path.dirname(logFile()), { recursive: true });
     const entries = readEntries();
     const prevHash = entries.length ? entries[entries.length - 1].hash : GENESIS;
-    const base = { ...e, seq: entries.length + 1, ts: new Date().toISOString(), prevHash };
-    const entry: DecisionEntry = { ...base, hash: entryHash(base) };
+    // reviewerId rides OUTSIDE the hash base (frozen cross-side base).
+    const { reviewerId, ...rest } = e;
+    const base = { ...rest, seq: entries.length + 1, ts: new Date().toISOString(), prevHash };
+    const entry: DecisionEntry = {
+      ...base,
+      ...(reviewerId ? { reviewerId } : {}),
+      hash: entryHash(base),
+    };
     // append-only durable write
     const fd = fs.openSync(logFile(), "a");
     try {

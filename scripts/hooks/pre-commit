@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# R3-7 pre-commit hook — blocks large artifacts and reviewer-identity state
+# from entering git history. Install with:
+#   git config core.hooksPath scripts/hooks
+# (or copy to .git/hooks/pre-commit)
+set -u
+rc=0
+for f in $(git diff --cached --name-only); do
+  [ -f "$f" ] || continue
+  size=$(stat -c%s "$f" 2>/dev/null || echo 0)
+  case "$f" in
+    download/teacher-validation/reviewers.json|download/teacher-validation/provisioning-log.jsonl)
+      echo "BLOCKED: $f is reviewer identity state — must never be versioned" >&2; rc=1 ;;
+    *.tar.gz|*.dump|*.dump.gz)
+      echo "BLOCKED: $f is a release-bundle artifact — upload to GitHub Releases instead" >&2; rc=1 ;;
+  esac
+  if [ "$size" -gt $((50 * 1024 * 1024)) ]; then
+    echo "BLOCKED: $f is $((size / 1048576))MB (>50MB) — use GitHub Releases" >&2; rc=1
+  fi
+done
+exit $rc

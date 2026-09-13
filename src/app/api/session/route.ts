@@ -1,10 +1,16 @@
 import { NextResponse } from "next/server";
-import { issueSession, SESSION_COOKIE, sessionFromRequest } from "@/lib/session";
+import { issueSessionForReviewer, SESSION_COOKIE, sessionFromRequest, cookieConfig } from "@/lib/session";
+import { verifyReviewerToken } from "@/lib/reviewers";
 
 /**
- * R3-6 session gate: POST opens a teacher staging session (HttpOnly HMAC
- * cookie); DELETE closes it. This grants ONLY the ability to stage intent —
- * canonical validation state is never writable from the serving path.
+ * R3-6/R3-7 session gate.
+ *
+ * R3-7 CHANGE: a session is issued ONLY against a provisioned reviewer
+ * token. The display name comes from the reviewer registry — client-supplied
+ * displayName fields are IGNORED (they can no longer mint or impersonate an
+ * identity). The session's only privilege remains staging intent; canonical
+ * apply is importer-only. Revocation/re-provisioning kills outstanding
+ * sessions on their next staging write (registry revalidation).
  */
 export async function POST(req: Request) {
   let body: Record<string, unknown>;
@@ -13,28 +19,25 @@ export async function POST(req: Request) {
   } catch {
     return NextResponse.json({ error: "invalid JSON body" }, { status: 400 });
   }
-  const result = issueSession(String(body.displayName || ""));
-  if ("error" in result) {
-    return NextResponse.json({ error: result.error }, { status: 422 });
+  const verify = verifyReviewerToken(typeof body.token === "string" ? body.token : "");
+  if (!verify.ok) {
+    return NextResponse.json({ error: verify.error }, { status: verify.status });
   }
+  const { token, payload } = issueSessionForReviewer(verify.reviewer);
   const res = NextResponse.json({
     ok: true,
-    role: result.payload.role,
-    name: result.payload.name,
-    expiresAt: new Date(result.payload.exp).toISOString(),
+    role: payload.role,
+    name: payload.name,
+    reviewerId: payload.reviewerId,
+    expiresAt: new Date(payload.exp).toISOString(),
   });
-  res.cookies.set(SESSION_COOKIE, result.token, {
-    httpOnly: true,
-    sameSite: "strict",
-    path: "/",
-    maxAge: 12 * 60 * 60,
-  });
+  res.cookies.set(SESSION_COOKIE, token, cookieConfig(12 * 60 * 60));
   return res;
 }
 
 export async function DELETE(req: Request) {
   const existing = sessionFromRequest(req);
   const res = NextResponse.json({ ok: true, closed: !!existing });
-  res.cookies.set(SESSION_COOKIE, "", { httpOnly: true, sameSite: "strict", path: "/", maxAge: 0 });
+  res.cookies.set(SESSION_COOKIE, "", cookieConfig(0));
   return res;
 }

@@ -4,22 +4,34 @@ import { Client } from "pg";
 import { createHash, createHmac } from "crypto";
 import fs from "fs";
 import path from "path";
+import { provisionReviewer } from "@/lib/reviewers";
 
 /**
  * R3-6 integration matrix — exercises the REAL HTTP surface of the workbench
  * (next dev on :3199 with TV_LOG_FILE isolated to a scratch log) against the
  * LIVE canonical DB. The real hash-chained staging log must remain untouched
  * (proven by sha256 before/after the whole suite).
+ *
+ * R3-7 adaptation (semantics preserved, issuance contract updated):
+ *  - sessions are issued against PROVISIONED reviewers from a SCRATCH
+ *    registry (TV_REVIEWERS_FILE) — never the real one;
+ *  - staging a REVERSE for an UNAPPLIED entry is now a 422 negative (live
+ *    reverse-consistency gate mirrors the importer); the positive REVERSE
+ *    representation remains covered by the pure relationship tests and the
+ *    live rehearsal events (seq 4-6 in the canonical events feed).
  */
 
 const PORT = 3199;
 const BASE = `http://127.0.0.1:${PORT}`;
 const SCRATCH_LOG = path.join(process.cwd(), "download", "teacher-validation", "test-runs", "scratch-decision-log.jsonl");
+const SCRATCH_REGISTRY = path.join(process.cwd(), "download", "teacher-validation", "test-runs", "scratch-reviewers.json");
+const SCRATCH_PROV_LOG = path.join(process.cwd(), "download", "teacher-validation", "test-runs", "scratch-provisioning-log.jsonl");
 const REAL_LOG = path.join(process.cwd(), "download", "teacher-validation", "decision-log.jsonl");
 const SECRET_FILE = path.join(process.cwd(), "download", "teacher-validation", "session-secret.key");
 
 let child: ChildProcess | null = null;
 let teacherCookie = "";
+let teacherToken = "";
 const db = new Client({
   host: "127.0.0.1", port: 5432, user: "syllabai", database: "syllabai",
   options: "-c default_transaction_read_only=on", // never write from tests either
@@ -44,10 +56,24 @@ beforeAll(async () => {
   realLogShaBefore = sha256(REAL_LOG);
   fs.mkdirSync(path.dirname(SCRATCH_LOG), { recursive: true });
   if (fs.existsSync(SCRATCH_LOG)) fs.rmSync(SCRATCH_LOG);
+  if (fs.existsSync(SCRATCH_REGISTRY)) fs.rmSync(SCRATCH_REGISTRY);
+  if (fs.existsSync(SCRATCH_PROV_LOG)) fs.rmSync(SCRATCH_PROV_LOG);
+  // R3-7: provision the suite's reviewer in the SCRATCH registry (the real
+  // registry is never touched — tests run with env-isolated paths).
+  process.env.TV_REVIEWERS_FILE = SCRATCH_REGISTRY;
+  process.env.TV_PROVISIONING_LOG_FILE = SCRATCH_PROV_LOG;
+  const provisioned = provisionReviewer({ name: "R3-6 Verification Teacher", by: "operator:r3-6-suite", note: "scratch registry — suite-local" });
+  if (!provisioned.ok) throw new Error("scratch reviewer provisioning failed: " + provisioned.error);
+  teacherToken = provisioned.token;
   await db.connect();
   child = spawn("bun", ["x", "next", "dev", "-p", String(PORT)], {
     cwd: process.cwd(),
-    env: { ...process.env, TV_LOG_FILE: SCRATCH_LOG },
+    env: {
+      ...process.env,
+      TV_LOG_FILE: SCRATCH_LOG,
+      TV_REVIEWERS_FILE: SCRATCH_REGISTRY,
+      TV_PROVISIONING_LOG_FILE: SCRATCH_PROV_LOG,
+    },
     stdio: ["ignore", "pipe", "pipe"],
   });
   await waitForServer();
@@ -152,9 +178,9 @@ describe("R3-6 integration matrix", () => {
     // forged cookie
     r = await stage({ action: "VALIDATE", targetType: "question_version", targetId: realId }, `${"tvs"}=forged.token.value`);
     expect(r.status).toBe(403);
-    // validly-signed token with WRONG ROLE
+    // validly-signed token with WRONG ROLE (v2 shape)
     const secret = fs.readFileSync(SECRET_FILE);
-    const payloadB64 = Buffer.from(JSON.stringify({ name: "Viewer V", role: "viewer", exp: Date.now() + 999e6 })).toString("base64url");
+    const payloadB64 = Buffer.from(JSON.stringify({ v: 2, reviewerId: "tvr-0a1b2c3d", name: "Viewer V", role: "viewer", exp: Date.now() + 999e6, epoch: 1 })).toString("base64url");
     const sig = createHmac("sha256", secret).update(payloadB64).digest("base64url");
     r = await stage({ action: "VALIDATE", targetType: "question_version", targetId: realId }, `tvs=${payloadB64}.${sig}`);
     expect(r.status).toBe(403);
@@ -162,15 +188,17 @@ describe("R3-6 integration matrix", () => {
     expect(scratchLines()).toHaveLength(0);
   }, 30_000);
 
-  test("session issue + attribution (gate 9)", async () => {
+  test("session issue requires a provisioned reviewer token; attribution comes from the registry (gate 9, R3-7)", async () => {
+    // garbage token -> 403 (staging authorization cannot be self-minted)
     let r = await fetch(`${BASE}/api/session`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ displayName: "x" }),
+      body: JSON.stringify({ token: "garbage-token", displayName: "x" }),
     });
-    expect(r.status).toBe(422);
+    expect(r.status).toBe(403);
+    // provisioned token -> 200; the NAME comes from the registry, not the client
     r = await fetch(`${BASE}/api/session`, {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ displayName: "R3-6 Verification Teacher" }),
+      body: JSON.stringify({ token: teacherToken, displayName: "Impostor Name" }),
     });
     expect(r.status).toBe(200);
     const setCookie = r.headers.get("set-cookie") || "";
@@ -179,7 +207,8 @@ describe("R3-6 integration matrix", () => {
     teacherCookie = setCookie.split(";")[0];
     const d = await r.json();
     expect(d.role).toBe("teacher");
-    expect(d.name).toBe("R3-6 Verification Teacher");
+    expect(d.name).toBe("R3-6 Verification Teacher"); // registry-authoritative
+    expect(String(d.reviewerId)).toMatch(/^tvr-[0-9a-f]{8}$/);
   }, 30_000);
 
   test("staged VALIDATE against SUGGESTED stays staged — canonical state unchanged (gate 3)", async () => {
@@ -194,6 +223,7 @@ describe("R3-6 integration matrix", () => {
     const d = await r.json();
     expect(d.entry.action).toBe("VALIDATE");
     expect(d.entry.reviewer).toBe("R3-6 Verification Teacher"); // session-authoritative attribution
+    expect(String(d.entry.reviewerId)).toMatch(/^tvr-[0-9a-f]{8}$/); // R3-7 provisioned identity (outside the hash)
     expect(d.effective[validateTargetQv]).toBe("VALIDATED");
 
     // Staged intent exists in the log...
@@ -265,19 +295,14 @@ describe("R3-6 integration matrix", () => {
     expect(scratchLines()).toHaveLength(3);
   }, 30_000);
 
-  test("staged REVERSE clears the staged intent; canonical still untouched (gates 3, 7)", async () => {
+  test("staged REVERSE for an UNAPPLIED entry is refused — stale intent cannot enter the log (R3-7 live reverse-consistency)", async () => {
+    // The scratch log's seq 1 (VALIDATE) was never applied to canonical state.
+    // Mirroring the importer's reverse-consistency gate, staging a REVERSE for
+    // it must be refused: dead intent must not accumulate in the log.
     const r = await stage({ action: "REVERSE", reverseSeq: 1 });
-    expect(r.status).toBe(200);
-    const d = await r.json();
-    expect(d.entry.action).toBe("REVERSE");
-    expect(d.entry.note).toContain("reverses seq 1");
-    expect(d.effective[validateTargetQv]).toBeUndefined();
-    const after = await (await fetch(`${BASE}/api/canonical/state`, {
-      method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ targets: [{ type: "question_version", id: validateTargetQv }] }),
-    })).json();
-    expect(after.states[`question_version:${validateTargetQv}`].state).toBe("SUGGESTED");
-    expect(scratchLines()).toHaveLength(4);
+    expect(r.status).toBe(422);
+    expect((await r.json()).error).toContain("no matching applied event");
+    expect(scratchLines()).toHaveLength(3); // unchanged: VALIDATE, REJECT, FLAG
   }, 30_000);
 
   test("unknown target ids fail safely at staging (gate 8)", async () => {
@@ -286,7 +311,7 @@ describe("R3-6 integration matrix", () => {
     expect((await r.json()).error).toContain("unknown target");
     const r2 = await stage({ action: "VALIDATE", targetType: "bogus_type", targetId: validateTargetQv });
     expect(r2.status).toBe(422);
-    expect(scratchLines()).toHaveLength(4);
+    expect(scratchLines()).toHaveLength(3);
   }, 30_000);
 
   test("serving path is connection-level read-only: UPDATE through the workbench DB config must fail (gate 10)", async () => {
@@ -357,9 +382,12 @@ describe("R3-6 integration matrix", () => {
   test("test isolation: real hash-chained staging log untouched by the whole suite", async () => {
     const after = sha256(REAL_LOG);
     expect(after).toBe(realLogShaBefore);
-    // scratch log holds exactly the 4 intentional staging writes
+    // scratch log holds exactly the 3 intentional staging writes (the
+    // reverse-consistency refusal added no entry — R3-7)
     const lines = scratchLines().map((l) => JSON.parse(l));
-    expect(lines.map((l: any) => l.action)).toEqual(["VALIDATE", "REJECT", "FLAG", "REVERSE"]);
+    expect(lines.map((l: any) => l.action)).toEqual(["VALIDATE", "REJECT", "FLAG"]);
     expect(lines.every((l: any) => l.reviewer === "R3-6 Verification Teacher")).toBe(true);
+    // R3-7: every entry carries the provisioned reviewer identity
+    expect(lines.every((l: any) => /^tvr-[0-9a-f]{8}$/.test(l.reviewerId))).toBe(true);
   }, 30_000);
 });
