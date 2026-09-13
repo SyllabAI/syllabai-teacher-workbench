@@ -181,3 +181,16 @@ Work Log:
 
 Stage Summary:
 - Workbench repo is now PUBLIC at commit 1437d65 with all R3-6/R3-6-b evidence readable without authentication; release 388016740 assets re-verified 16/16 after the notes update. No code or DB changes; canonical state untouched.
+
+---
+Task ID: R3-6-b (addendum 3 — housekeeping note)
+Agent: Super Z (main agent, this session)
+Task: Record auto-commit side effect discovered after the public flip.
+
+Work Log:
+- Sandbox auto-commit 4c58b19 (git add .) swept the 60MB source tarball into history between 1437d65 and f63f934; it is therefore PUBLIC on GitHub.
+- Assessed: no new exposure — committed blob sha256 = 24ada70a346a197d… (verified via git cat-file) == the release asset already published on release 388016740; contents = the 2f6e8a7 tree, fully public in this repo anyway.
+- Decision: history NOT rewritten (SHA stability of a public, evidence-referenced repo outweighs 60MB bloat). .gitignore now excludes download/evidence-r3-6-b/*.tar.gz to prevent recurrence. Documented rather than silently tolerated.
+
+Stage Summary:
+- No further action required. Repo public @ HEAD with full evidence; release assets 16/16 hash-verified; canonical DB untouched throughout R3-6-b.
