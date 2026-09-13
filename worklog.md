@@ -168,3 +168,16 @@ Stage Summary:
 - R3-6-b COMPLETE. Claim labels: durability VERIFIED (release 388016740 + workbench repo push, asset hashes re-verified); importer-under-hardening VERIFIED (check-mode green on real log); test suite VERIFIED 42/42 at release base; canonical DB UNTOUCHED (read-only operations only); reconciliation VERIFIED (ff-only, no conflicts, migration head still V18).
 - BLOCKED labels remaining: NONE for R3-6. Open operator decision: real-teacher onboarding (server-side reviewer provisioning recommended over local session files before real users arrive).
 - Next safe action: operator reviews VERIFICATION-VERDICT.txt + release notes and decides on teacher onboarding; next milestone (R3-7 candidates) can proceed independently.
+
+---
+Task ID: R3-6-b (addendum 2 — visibility change)
+Agent: Super Z (main agent, this session)
+Task: Flip SyllabAI/syllabai-teacher-workbench from private to public (operator instruction, while operator verifies R3-6 evidence).
+
+Work Log:
+- Pre-flip safety: re-scanned EVERY blob in all 8 commits (incl. post-scan commit 1437d65) — zero GitHub-token patterns, zero private-key material; session-secret.key confirmed unversioned; working tree clean; the 13 blobs added by 1437d65 are exactly the deliberate R3-6-b evidence/scripts/worklog files.
+- PATCH repo private=false -> visibility public. VERIFIED anonymously: raw.githubusercontent.com serves pack files (HTTP 200 on download/evidence-r3-6/VERIFICATION-VERDICT.txt) and anonymous git ls-remote resolves HEAD = 1437d65. (Unauthenticated api.github.com returns 403 from this datacenter IP — rate-limit artifact, not access.)
+- Release notes updated honestly (workbench repo line: "created private 2026-09-14; PUBLIC since 2026-09-14 after full-history secret re-scan" + new honest-audit bullet); SHA256SUMS.r3-6b regenerated; release body patched; both affected assets re-uploaded; full asset verification re-run: 16/16 PASS.
+
+Stage Summary:
+- Workbench repo is now PUBLIC at commit 1437d65 with all R3-6/R3-6-b evidence readable without authentication; release 388016740 assets re-verified 16/16 after the notes update. No code or DB changes; canonical state untouched.

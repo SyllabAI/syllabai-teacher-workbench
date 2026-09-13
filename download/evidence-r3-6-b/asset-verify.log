@@ -1,4 +1,4 @@
-== R3-6-b release asset verification 2026-09-13T20:02:40Z ==
+== R3-6-b release asset verification 2026-09-13T20:13:50Z ==
 PASS browser-verify.log (2041 bytes, ddc9ee4b91f0cab001707e18b817e69c2199105212ab860aa5dd7303f15813cc)
 PASS IMPLEMENTATION-PLAN.md (6452 bytes, 265b781506158be768ba36dffed481ce85e902af771321f9813a199c7ab7ce5f)
 PASS importer-check-mode-hardened-r3-6b.log (815 bytes, e9c40053fdc86e8395cd9596c6e4602f0d1158a2a434584d704208d7b4237fc2)
@@ -7,10 +7,10 @@ PASS importer-sha256.txt (102 bytes, ac6ca08973ddddac32a1e86022daf2078d9e7848c92
 PASS phaseA-console.txt (582 bytes, 25e50b9aa25c1b0929796bebb24ae58459e5f4b211ee06013dbef538f4d28725)
 PASS phaseB-console.txt (1186 bytes, acdd601b45df7dba3e2f0722da280d0d10b234154df955358e8263dd33de2328)
 PASS r3-6-state-manifest.json (5909 bytes, c3057288fc0e2fd2398ea3528a0de2538d2ffb333936e2a9ea368210170579fa)
-PASS RELEASE-NOTES.md (4697 bytes, d163e264fcee493f0950915b1d70585ee97e9a336782dc93bbef2d995ae1015b)
+PASS RELEASE-NOTES.md (5163 bytes, 1a617765784b67f71da55f94aa5a34adf585f09a3535892527c3b0d09ab40cd6)
 PASS seed-validated-live-state.json (402 bytes, f3f199e5d0e312787ffb7f2a70dcf7ba9f656b563d27588d9aa0373cc30540d1)
 PASS SHA256SUMS (2284 bytes, 5932b00ba8f2d54afa5a2195421cd17ca5d38bf09dfa9ff21fffbd80ca63782a)
-PASS SHA256SUMS.r3-6b (441 bytes, fb1a408ca4e774b433dc6611952dbf660922920ef6534baed131a8c9ed2999fa)
+PASS SHA256SUMS.r3-6b (441 bytes, 7727f9579708efbdf27ee218c54c29c04a0a6c513651a59e107f3be87967bbda)
 PASS test-results-full.log (5213 bytes, 9763d8483711bed3ff5c0ba4753abb580b732c5512508f7f040272444d27a724)
 PASS test-results-rerun-r3-6b.log (5515 bytes, 5cb196ef0638658bacb401e27bcdf476c7eb56d4dbd29cc7257fb2be1e40ec83)
 PASS VERIFICATION-VERDICT.txt (8435 bytes, 95c040151f9351372cef4b580e8a2c58af808b0f4d14f48de194124aa05c0afd)

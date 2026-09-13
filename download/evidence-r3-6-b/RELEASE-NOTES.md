@@ -11,7 +11,7 @@ gates VERIFIED. Follows R3-5 GREEN; no R3-5 gate weakened or redesigned.
 |---|---|---|
 | syllabai-core local main @ R3-6 | `b37837a` | in `main` history |
 | syllabai-core `main` at release | `9747d0a` | includes post-R3-6 importer hardening F-1/F-2/F-3 (`9747d0a`), verify_final_state re-anchor (`21cce2e`), coordination alignment (`704c3f1`) |
-| workbench app @ R3-6 feature | `2f6e8a7` | durable at SyllabAI/syllabai-teacher-workbench (private, created 2026-09-14) |
+| workbench app @ R3-6 feature | `2f6e8a7` | durable at SyllabAI/syllabai-teacher-workbench (created private 2026-09-14; PUBLIC since 2026-09-14 after full-history secret re-scan) |
 | workbench evidence pack commit | `a5ee887` | same repo |
 | workbench HEAD at release | `d11d778` | same repo (scratch/test-runner files only) |
 | corpus Past-Papers | `c42b6a14` | unchanged from baseline |
@@ -77,6 +77,12 @@ and both files ship inside `workbench-source-2f6e8a7.tar.gz` under
 
 ## Honest-audit notes / corrections
 
+- Workbench repo visibility: created PRIVATE (conservative default for
+  operational metadata), flipped PUBLIC the same day on operator instruction —
+  only after a full-history re-scan of every blob in all 8 commits (zero
+  GitHub-token patterns, zero private-key material; `session-secret.key`
+  confirmed unversioned). Anonymous read access verified (raw file HTTP 200,
+  anonymous `git ls-remote` OK).
 - `r3-6-state-manifest.json` (frozen, unmodified) records core R3-5 commits
   as unpushed and importer sha `f6657901…` — true at R3-6 time. Since then:
   commits pushed (now in `main` history) and importer hardened by `9747d0a`
