@@ -19,7 +19,14 @@ import { getLifecycleRegistry } from "./review-data";
  */
 
 const LOG_DIR = path.join(process.cwd(), "download", "teacher-validation");
-const LOG_FILE = path.join(LOG_DIR, "decision-log.jsonl");
+
+/**
+ * Log path is lazy so tests can isolate the real hash-chained log via
+ * TV_LOG_FILE (the real log is durable evidence — tests must never touch it).
+ */
+function logFile(): string {
+  return process.env.TV_LOG_FILE || path.join(LOG_DIR, "decision-log.jsonl");
+}
 
 export type TargetType = "question_version" | "mark_scheme" | "exam_paper";
 export type DecisionAction = "VALIDATE" | "REJECT" | "FLAG" | "REVERSE";
@@ -44,6 +51,7 @@ function entryHash(e: Omit<DecisionEntry, "hash">): string {
 }
 
 export function readEntries(): DecisionEntry[] {
+  const LOG_FILE = logFile();
   if (!fs.existsSync(LOG_FILE)) return [];
   const out: DecisionEntry[] = [];
   for (const line of fs.readFileSync(LOG_FILE, "utf-8").split("\n")) {
@@ -159,13 +167,13 @@ function writeEntry(
   e: Omit<DecisionEntry, "seq" | "ts" | "prevHash" | "hash">
 ): { ok: true; entry: DecisionEntry } | { ok: false; error: string } {
   try {
-    fs.mkdirSync(LOG_DIR, { recursive: true });
+    fs.mkdirSync(path.dirname(logFile()), { recursive: true });
     const entries = readEntries();
     const prevHash = entries.length ? entries[entries.length - 1].hash : GENESIS;
     const base = { ...e, seq: entries.length + 1, ts: new Date().toISOString(), prevHash };
     const entry: DecisionEntry = { ...base, hash: entryHash(base) };
     // append-only durable write
-    const fd = fs.openSync(LOG_FILE, "a");
+    const fd = fs.openSync(logFile(), "a");
     try {
       fs.writeSync(fd, JSON.stringify(entry) + "\n");
       fs.fsyncSync(fd);

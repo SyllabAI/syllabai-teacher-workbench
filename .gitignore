@@ -52,3 +52,5 @@ prompt
 server.log
 # Skills directory
 /skills/
+# R3-6: live HMAC secret must never be versioned
+download/teacher-validation/session-secret.key

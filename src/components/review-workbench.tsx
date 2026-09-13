@@ -12,10 +12,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import {
-  AlertTriangle, CheckCircle2, ClipboardList, Download, FileText, Flag,
-  Lock, ScrollText, Search, Undo2, XCircle, RefreshCw,
+  AlertTriangle, CheckCircle2, ClipboardList, Database, Download, FileText, Flag,
+  Lock, ScrollText, Search, ShieldCheck, Undo2, XCircle, RefreshCw, LogIn, LogOut,
 } from "lucide-react";
 import type { ReviewIndex, SessionDossier } from "@/lib/review-data";
+import {
+  canonicalStateBadge, relationshipBadge, computeRelationshipForEntry, parseReverseSeq,
+  type AppliedEventLike, type StagedEntryLike, type CanonicalState, type Relationship,
+} from "@/lib/canonical-relationship";
 
 type Effective = Record<string, "VALIDATED" | "REJECTED" | "FLAGGED">;
 type PaperCounts = Record<string, { validated: number; rejected: number; flagged: number }>;
@@ -33,9 +37,34 @@ interface DecisionsState {
   paperCounts: PaperCounts;
 }
 
+/** Applied event as served by GET /api/canonical/events (read-only canonical feed). */
+interface CanonicalEvent extends AppliedEventLike {
+  id: number;
+  importerRunId: string;
+  targetLabel: string;
+}
+
+/** Live canonical status as served by POST /api/canonical/state. */
+type CanonicalStatusMap = Record<string, { state: string; appliedCount: number; lastEvent: CanonicalEvent | null }>;
+
 const TARGET_VERSION = "question_version" as const;
 const TARGET_SCHEME = "mark_scheme" as const;
 const TARGET_PAPER = "exam_paper" as const;
+
+const REL_BADGE: Record<Relationship, { cls: string }> = {
+  AGREES_WITH_CANONICAL: { cls: "bg-sky-100 text-sky-900 hover:bg-sky-100" },
+  WOULD_CHANGE_CANONICAL: { cls: "bg-amber-200 text-amber-950 hover:bg-amber-200" },
+  ALREADY_APPLIED: { cls: "bg-violet-200 text-violet-950 hover:bg-violet-200" },
+  APPLIED_THEN_REVERSED: { cls: "bg-emerald-100 text-emerald-900 hover:bg-emerald-100" },
+  BLOCKED: { cls: "bg-rose-100 text-rose-900 hover:bg-rose-100" },
+};
+
+const CANON_BADGE: Record<string, string> = {
+  VALIDATED: "bg-emerald-700 text-white hover:bg-emerald-700",
+  REJECTED: "bg-rose-700 text-white hover:bg-rose-700",
+  SUGGESTED: "bg-stone-200 text-stone-800 hover:bg-stone-200",
+  UNKNOWN: "bg-amber-200 text-amber-950 hover:bg-amber-200",
+};
 
 function bridgeBadge(status: string) {
   if (status === "OK") return <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-100">bridge OK</Badge>;
@@ -43,18 +72,113 @@ function bridgeBadge(status: string) {
   return <Badge variant="outline">{status}</Badge>;
 }
 
-function stagedBadge(effective: Effective, targetId: string | null | undefined, canonical?: string | null) {
-  const items: React.ReactNode[] = [];
-  if (canonical === "VALIDATED") {
-    items.push(<Badge key="seed" variant="outline" className="gap-1 text-stone-500"><Lock className="h-3 w-3" /> seed-validated</Badge>);
-  } else if (canonical) {
-    items.push(<Badge key="canon" variant="outline" className="text-stone-500">{canonical}</Badge>);
-  }
-  const st = targetId ? effective[targetId] : undefined;
-  if (st === "VALIDATED") items.push(<Badge key="st" className="bg-emerald-600 hover:bg-emerald-600">staged VALIDATE</Badge>);
-  if (st === "REJECTED") items.push(<Badge key="st" className="bg-rose-600 hover:bg-rose-600">staged REJECT</Badge>);
-  if (st === "FLAGGED") items.push(<Badge key="st" className="bg-amber-500 hover:bg-amber-500">staged FLAG</Badge>);
-  return items;
+function fmtTime(ts: string) {
+  try { return new Date(ts).toLocaleString(); } catch { return ts; }
+}
+
+function shortHash(h: string) { return (h || "").slice(0, 10); }
+
+/**
+ * R3-6 TargetStatePanel — the load-bearing UI element that makes
+ * "what I am proposing" ≠ "what the system currently believes" visible.
+ * Three SEPARATE dimensions (canonical / staged / applied) + a derived
+ * relationship line. Never a single collapsed status field.
+ */
+function TargetStatePanel({
+  type, id, canonicalState, stateSource, stagedEntries, appliedEvents, chainEntries, compact,
+}: {
+  type: string; id: string | null | undefined;
+  canonicalState: CanonicalState;           // live if available, else dataset snapshot
+  stateSource: "LIVE_CANONICAL" | "SNAPSHOT";
+  stagedEntries: StagedEntryLike[];         // all staged entries for this target
+  appliedEvents: AppliedEventLike[];        // applied events for this target (canonical feed)
+  chainEntries: StagedEntryLike[];          // full log (needed for reversal linkage)
+  compact?: boolean;
+}) {
+  if (!id) return null;
+  const canonBadge = canonicalStateBadge(canonicalState);
+  const lastApplied = appliedEvents.length
+    ? appliedEvents.reduce((a, b) => (a.appliedAt > b.appliedAt ? a : b))
+    : null;
+  // EVERY staged intent for this target gets an explicit relationship row —
+  // open intents AND closed ones (already applied / applied then reversed).
+  const intentRows = stagedEntries.map((e) => ({ entry: e, rel: computeRelationshipForEntry(e, canonicalState, appliedEvents, chainEntries) }));
+
+  return (
+    <div className={`rounded-md border bg-white ${compact ? "text-[10px]" : "text-[11px]"}`}>
+      {/* CANONICAL row — authoritative */}
+      <div className="flex flex-wrap items-center gap-1.5 px-2 py-1 border-b bg-stone-50 rounded-t-md">
+        <Database className="h-3 w-3 text-stone-400 shrink-0" />
+        <span className="font-semibold text-stone-500 uppercase tracking-wide">canonical</span>
+        <Badge className={`${CANON_BADGE[canonicalState] || CANON_BADGE.UNKNOWN} text-[10px]`}>{canonBadge.label}</Badge>
+        {stateSource === "LIVE_CANONICAL"
+          ? <Badge variant="outline" className="text-[9px] text-emerald-700 border-emerald-300">live DB</Badge>
+          : <Badge variant="outline" className="text-[9px] text-amber-700 border-amber-300">snapshot — feed unavailable</Badge>}
+        <span className="font-mono text-[9px] text-stone-400">{type}:{id.slice(0, 8)}</span>
+        {lastApplied && (
+          <span className="text-stone-500">
+            last applied: <b>{lastApplied.action}</b> → {lastApplied.resultState} · by {lastApplied.reviewer} · {fmtTime(lastApplied.appliedAt)}
+          </span>
+        )}
+      </div>
+      {/* STAGED rows — proposed intent, one row per staged entry with its relationship */}
+      {intentRows.map(({ entry: e, rel }) => {
+        const applied = rel.relationship === "ALREADY_APPLIED" || rel.relationship === "APPLIED_THEN_REVERSED";
+        const rb = relationshipBadge(rel.relationship);
+        return (
+          <div key={`stg-${e.seq}`} className="px-2 py-1 border-b flex flex-wrap items-center gap-1.5">
+            <Undo2 className={`h-3 w-3 shrink-0 ${applied ? "text-violet-500" : "text-amber-600"} rotate-90`} />
+            <span className="font-semibold text-stone-500 uppercase tracking-wide">staged</span>
+            <Badge variant="outline" className="text-[10px] border-amber-400 text-amber-800">{e.action}</Badge>
+            {rel.relationship === "APPLIED_THEN_REVERSED" ? (
+              <Badge className="bg-emerald-100 text-emerald-900 hover:bg-emerald-100 text-[9px]">APPLIED, THEN REVERSED</Badge>
+            ) : applied ? (
+              <Badge className="bg-violet-200 text-violet-950 hover:bg-violet-200 text-[9px]">
+                {e.action === "REVERSE" ? "REVERSAL APPLIED" : "APPLIED — IN CANONICAL STATE"}
+              </Badge>
+            ) : (
+              <Badge className="bg-amber-100 text-amber-950 hover:bg-amber-100 text-[9px] font-mono">STAGED — NOT YET APPLIED</Badge>
+            )}
+            <span className="text-stone-500">by {e.reviewer} · {fmtTime(e.ts)} · log #{e.seq} h{shortHash(e.hash)}</span>
+            <span className="w-full flex items-center gap-1.5">
+              <Badge className={`${REL_BADGE[rel.relationship].cls} text-[9px]`}>{rb.label}</Badge>
+              {!compact && <span className="text-stone-500">{rel.explanation}</span>}
+            </span>
+          </div>
+        );
+      })}
+      {/* APPLIED rows — committed events with attribution */}
+      {appliedEvents.map((ev) => {
+        const isReverse = ev.action === "REVERSE";
+        const rel: Relationship = isReverse ? "APPLIED_THEN_REVERSED" : "ALREADY_APPLIED";
+        const rb = relationshipBadge(rel);
+        const origSeq = isReverse ? parseReverseSeq(ev.note) : null;
+        return (
+          <div key={`app-${ev.decisionSeq}-${ev.decisionHash.slice(0, 10)}`} className="px-2 py-1 border-b last:border-b-0 last:rounded-b-md flex flex-wrap items-center gap-1.5">
+            <ShieldCheck className="h-3 w-3 text-violet-600 shrink-0" />
+            <span className="font-semibold text-stone-500 uppercase tracking-wide">applied</span>
+            <Badge className="bg-violet-100 text-violet-900 hover:bg-violet-100 text-[10px]">{ev.action}</Badge>
+            <span className="text-stone-600">
+              → result <b>{ev.resultState}</b> · by {ev.reviewer} · {fmtTime(ev.appliedAt)} · event(log #{ev.decisionSeq}, h{shortHash(ev.decisionHash)})
+            </span>
+            {isReverse && origSeq !== null && (
+              <Badge variant="outline" className="text-[9px] text-emerald-700 border-emerald-300">reverses staged seq {origSeq}</Badge>
+            )}
+            {!isReverse && ev.action !== "FLAG" && (
+              <Badge className={`${REL_BADGE.APPLIED_THEN_REVERSED.cls} text-[9px]`}>{rb.label === "already applied" ? "in canonical state" : rb.label}</Badge>
+            )}
+            {ev.action === "FLAG" && (
+              <Badge variant="outline" className="text-[9px] text-amber-700 border-amber-300">events-only — no canonical state change</Badge>
+            )}
+            {ev.note && !compact && <span className="w-full text-stone-500">note: {ev.note}</span>}
+          </div>
+        );
+      })}
+      {stagedEntries.length === 0 && appliedEvents.length === 0 && (
+        <div className="px-2 py-1 text-stone-400">no staged intent · no applied events for this target</div>
+      )}
+    </div>
+  );
 }
 
 export default function ReviewWorkbench() {
@@ -66,8 +190,15 @@ export default function ReviewWorkbench() {
   const [reviewer, setReviewer] = useState("");
   const [search, setSearch] = useState("");
   const [onlyReview, setOnlyReview] = useState(false);
+  // R3-6 canonical feed state
+  const [events, setEvents] = useState<CanonicalEvent[] | null>(null);
+  const [feedAvailable, setFeedAvailable] = useState<boolean | null>(null);
+  const [canonStates, setCanonStates] = useState<CanonicalStatusMap>({});
+  const [canonAvailable, setCanonAvailable] = useState<boolean | null>(null);
+  // R3-6 teacher session
+  const [session, setSession] = useState<{ name: string; expiresAt: string } | null>(null);
   const [dialog, setDialog] = useState<
-    | null
+    null
     | { kind: "REJECT" | "FLAG"; targetType: string; targetId: string; label: string; note: string }
   >(null);
 
@@ -81,28 +212,83 @@ export default function ReviewWorkbench() {
     fetch("/api/decisions").then((r) => r.json()).then(setDecisions).catch(() => {});
   }, []);
 
+  const refreshEvents = useCallback(() => {
+    fetch("/api/canonical/events")
+      .then((r) => r.json())
+      .then((d) => { setEvents(d.events || []); setFeedAvailable(!!d.available); })
+      .catch(() => setFeedAvailable(false));
+  }, []);
+
   useEffect(() => {
     refreshDecisions();
+    refreshEvents();
+    // session probe: a cheap GET that 403s tells us there is no session; we
+    // simply start logged-out (cookie presence is verified server-side).
+  }, [refreshDecisions, refreshEvents]);
+
+  useEffect(() => {
     const saved = window.localStorage.getItem("tv-reviewer");
     if (saved) {
       const id = requestAnimationFrame(() => setReviewer(saved));
       return () => cancelAnimationFrame(id);
     }
-  }, [refreshDecisions]);
+  }, []);
 
   useEffect(() => {
     if (!selectedId) return;
     let cancelled = false;
     fetch(`/api/review/session/${selectedId}`)
       .then((r) => r.json())
-      .then((d) => { if (!cancelled) setDossier(d); })
+      .then((d) => {
+        if (cancelled) return;
+        setDossier(d);
+        // Load LIVE canonical states for every target in this dossier.
+        const targets: Array<{ type: string; id: string }> = [{ type: "exam_paper", id: selectedId }];
+        for (const q of d.questions || []) {
+          if (q.versionId) targets.push({ type: "question_version", id: q.versionId });
+          for (const s of q.schemes || []) targets.push({ type: "mark_scheme", id: s.id });
+        }
+        fetch("/api/canonical/state", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ targets }),
+        })
+          .then((r) => r.json())
+          .then((res) => {
+            if (cancelled) return;
+            setCanonAvailable(!!res.available);
+            if (res.available) setCanonStates(res.states || {});
+          })
+          .catch(() => { if (!cancelled) setCanonAvailable(false); });
+      })
       .catch(() => { if (!cancelled) toast({ title: "failed to load session", variant: "destructive" }); });
     return () => { cancelled = true; };
   }, [selectedId]);
 
-  const requireReviewer = (): boolean => {
-    if (reviewer.trim().length < 2) {
-      toast({ title: "enter a reviewer name first (top right)", variant: "destructive" });
+  const openSession = async () => {
+    const res = await fetch("/api/session", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ displayName: reviewer.trim() }),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      toast({ title: "could not open session", description: data.error, variant: "destructive" });
+      return;
+    }
+    setSession({ name: data.name, expiresAt: data.expiresAt });
+    toast({ title: "teacher session open", description: "you can now stage validation intent (staging only — never applies)" });
+  };
+
+  const closeSession = async () => {
+    await fetch("/api/session", { method: "DELETE" });
+    setSession(null);
+    toast({ title: "session closed" });
+  };
+
+  const requireSession = (): boolean => {
+    if (!session) {
+      toast({ title: "open a teacher session first", description: "enter your name and press 'open session' (top right)", variant: "destructive" });
       return false;
     }
     return true;
@@ -113,9 +299,14 @@ export default function ReviewWorkbench() {
       const res = await fetch("/api/decisions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...payload, reviewer: reviewer.trim() }),
+        body: JSON.stringify(payload),
       });
       const data = await res.json();
+      if (res.status === 403) {
+        setSession(null);
+        toast({ title: "not authorized", description: data.error, variant: "destructive" });
+        return false;
+      }
       if (!res.ok) {
         toast({ title: "refused by lifecycle gate", description: data.error, variant: "destructive" });
         return false;
@@ -128,14 +319,14 @@ export default function ReviewWorkbench() {
         paperCounts: data.paperCounts,
         entries: [...prev.entries, data.entry],
       } : prev);
-      toast({ title: okTitle, description: `seq ${data.entry.seq} appended to the hash-chained staging log` });
+      toast({ title: okTitle, description: `seq ${data.entry.seq} appended to the hash-chained staging log — NOT applied to canonical state` });
       return true;
     },
-    [reviewer, toast]
+    [toast]
   );
 
   const act = async (action: "VALIDATE" | "REJECT" | "FLAG", targetType: string, targetId: string, label: string) => {
-    if (!requireReviewer()) return;
+    if (!requireSession()) return;
     if (action === "VALIDATE") {
       await stageDecision({ action, targetType, targetId }, "VALIDATE staged");
     } else {
@@ -144,7 +335,7 @@ export default function ReviewWorkbench() {
   };
 
   const reverse = async (seq: number) => {
-    if (!requireReviewer()) return;
+    if (!requireSession()) return;
     await stageDecision({ action: "REVERSE", reverseSeq: seq }, "reversal staged");
   };
 
@@ -160,6 +351,41 @@ export default function ReviewWorkbench() {
     toast({ title: "evidence bundle exported", description: "a durable copy was also written into download/teacher-validation/" });
   };
 
+  // ---- R3-6 selectors ------------------------------------------------------
+  const chainEntries: StagedEntryLike[] = useMemo(
+    () => (decisions?.entries || []).map((e) => ({
+      seq: e.seq, ts: e.ts, action: e.action as StagedEntryLike["action"], targetType: e.targetType,
+      targetId: e.targetId, targetLabel: e.targetLabel, reviewer: e.reviewer, note: e.note, hash: e.hash,
+    })),
+    [decisions]
+  );
+
+  const appliedEventsByTarget = useCallback((type: string, id: string | null | undefined): AppliedEventLike[] => {
+    if (!id || !events) return [];
+    return events
+      .filter((e) => e.targetType === type && e.targetId === id)
+      .map((e) => ({
+        decisionSeq: e.decisionSeq, decisionHash: e.decisionHash, action: e.action,
+        targetType: e.targetType, targetId: e.targetId, reviewer: e.reviewer,
+        note: e.note, resultState: e.resultState, appliedAt: e.appliedAt,
+      }));
+  }, [events]);
+
+  const stagedByTarget = useCallback((type: string, id: string | null | undefined): StagedEntryLike[] => {
+    if (!id) return [];
+    return chainEntries.filter((e) => e.targetType === type && e.targetId === id);
+  }, [chainEntries]);
+
+  /** Live canonical state when available; dataset snapshot otherwise (labeled). */
+  const canonStateOf = useCallback((type: string, id: string | null | undefined, snapshot: string | null | undefined): CanonicalState => {
+    if (id && canonAvailable && canonStates[`${type}:${id}`]) return canonStates[`${type}:${id}`].state;
+    return (snapshot as CanonicalState) ?? "UNKNOWN";
+  }, [canonAvailable, canonStates]);
+
+  const stateSourceOf = useCallback((type: string, id: string | null | undefined): "LIVE_CANONICAL" | "SNAPSHOT" => {
+    return id && canonAvailable && canonStates[`${type}:${id}`] ? "LIVE_CANONICAL" : "SNAPSHOT";
+  }, [canonAvailable, canonStates]);
+
   const papers = useMemo(() => {
     if (!index) return [];
     const q = search.trim().toLowerCase();
@@ -173,7 +399,11 @@ export default function ReviewWorkbench() {
   const dossierLoading = !!selectedId && dossier?.paper?.id !== selectedId;
   const dossierCurrent = !!selectedId && dossier?.paper?.id === selectedId;
   const pc = selectedId ? decisions?.paperCounts[selectedId] : undefined;
-  const decidable = (canonical: string | null | undefined) => canonical !== "VALIDATED";
+  /** Decidable = canonical state is SUGGESTED (live value when available). */
+  const decidable = (canonical: CanonicalState) => canonical === "SUGGESTED";
+  const paperCanon = dossierCurrent
+    ? canonStateOf(TARGET_PAPER, selectedId, openPaper?.validationState)
+    : "UNKNOWN";
 
   return (
     <div className="min-h-screen flex flex-col bg-stone-50">
@@ -185,16 +415,42 @@ export default function ReviewWorkbench() {
           <span className="text-xs text-stone-500">T-C04 · 81 imported sessions</span>
           <div className="ml-auto flex flex-wrap items-center gap-1.5">
             <Badge variant="outline" className="font-mono text-[10px]">T-C04-CAMPAIGN @ syllabai</Badge>
-            <Badge variant="outline" className="font-mono text-[10px]">core a54f310</Badge>
-            <Badge variant="outline" className="font-mono text-[10px]">dump c06d8ab3…</Badge>
-            <Badge className="bg-stone-800 hover:bg-stone-800 text-[10px]">INFERRED read model</Badge>
-            <Input
-              value={reviewer}
-              onChange={(e) => { setReviewer(e.target.value); window.localStorage.setItem("tv-reviewer", e.target.value); }}
-              placeholder="reviewer name"
-              className="h-7 w-36 text-xs"
-              aria-label="reviewer name"
-            />
+            <Badge variant="outline" className="font-mono text-[10px]">core {index?.identity.coreCommit?.slice(0, 7) || "…"}</Badge>
+            <Badge className="bg-stone-800 hover:bg-stone-800 text-[10px]">read model: DERIVED-FROM-CANONICAL</Badge>
+            {feedAvailable === true && (
+              <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-100 text-[10px] gap-1">
+                <Database className="h-3 w-3" /> canonical feed LIVE · {events?.length ?? 0} applied events
+              </Badge>
+            )}
+            {feedAvailable === false && (
+              <Badge className="bg-amber-200 text-amber-950 hover:bg-amber-200 text-[10px] gap-1">
+                <AlertTriangle className="h-3 w-3" /> canonical feed UNAVAILABLE — treat staged as NOT applied
+              </Badge>
+            )}
+            {session ? (
+              <>
+                <Badge variant="outline" className="text-[10px] gap-1 text-emerald-800 border-emerald-400">
+                  <LogIn className="h-3 w-3" /> {session.name} · teacher session
+                </Badge>
+                <Button variant="outline" size="sm" className="h-7 text-xs gap-1" onClick={closeSession}>
+                  <LogOut className="h-3 w-3" /> close session
+                </Button>
+              </>
+            ) : (
+              <>
+                <Input
+                  value={reviewer}
+                  onChange={(e) => { setReviewer(e.target.value); window.localStorage.setItem("tv-reviewer", e.target.value); }}
+                  onKeyDown={(e) => { if (e.key === "Enter") openSession(); }}
+                  placeholder="reviewer name"
+                  className="h-7 w-36 text-xs"
+                  aria-label="reviewer name"
+                />
+                <Button variant="outline" size="sm" className="h-7 text-xs gap-1" onClick={openSession} disabled={reviewer.trim().length < 2}>
+                  <LogIn className="h-3 w-3" /> open session
+                </Button>
+              </>
+            )}
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="outline" size="sm" className="h-7 text-xs">
@@ -212,8 +468,8 @@ export default function ReviewWorkbench() {
                 </SheetHeader>
                 <div className="px-3 pb-6 text-xs">
                   <p className="text-stone-600 mb-3">
-                    Append-only, hash-chained. <b>Staging only</b> — applying these decisions to the canonical
-                    campaign DB happens through a gated importer once the canonical state is provisioned.
+                    Append-only, hash-chained. <b>Staging only</b> — entries below become canonical
+                    state exclusively via the gated importer; the workbench can never apply them.
                   </p>
                   <div className="flex gap-2 mb-3">
                     <Button size="sm" variant="outline" onClick={exportLog} className="gap-1">
@@ -223,31 +479,60 @@ export default function ReviewWorkbench() {
                   <Separator className="my-3" />
                   {decisions?.entries.length === 0 && <p className="text-stone-500">No staged decisions yet.</p>}
                   <div className="space-y-2">
-                    {[...(decisions?.entries || [])].reverse().map((e) => (
-                      <div key={e.seq} className="rounded-md border p-2">
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <span className="font-mono text-[10px] text-stone-400">#{e.seq}</span>
-                          <Badge variant="outline" className={
-                            e.action === "VALIDATE" ? "text-emerald-700 border-emerald-300" :
-                            e.action === "REJECT" ? "text-rose-700 border-rose-300" :
-                            e.action === "FLAG" ? "text-amber-700 border-amber-300" : ""
-                          }>{e.action}</Badge>
-                          <span className="text-[10px] text-stone-400">{e.targetType}</span>
-                          <span className="ml-auto text-[10px] text-stone-400">{new Date(e.ts).toLocaleString()}</span>
+                    {[...(decisions?.entries || [])].reverse().map((e) => {
+                      // Applied/unapplied representation comes ONLY from the
+                      // canonical events feed (matched by seq + chain hash).
+                      const ev = feedAvailable
+                        ? (events || []).find((x) => x.decisionSeq === e.seq && x.decisionHash === e.hash)
+                        : undefined;
+                      const reversedBy = chainEntries.find((r) => r.action === "REVERSE" && parseReverseSeq(r.note) === e.seq);
+                      const reversalApplied = reversedBy && feedAvailable
+                        ? (events || []).some((x) => x.decisionSeq === reversedBy.seq && x.decisionHash === reversedBy.hash)
+                        : false;
+                      return (
+                        <div key={e.seq} className="rounded-md border p-2">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <span className="font-mono text-[10px] text-stone-400">#{e.seq}</span>
+                            <Badge variant="outline" className={
+                              e.action === "VALIDATE" ? "text-emerald-700 border-emerald-300" :
+                              e.action === "REJECT" ? "text-rose-700 border-rose-300" :
+                              e.action === "FLAG" ? "text-amber-700 border-amber-300" : ""
+                            }>{e.action}</Badge>
+                            {e.action === "REVERSE" && parseReverseSeq(e.note) !== null && (
+                              <Badge variant="outline" className="text-[9px]">reverses seq {parseReverseSeq(e.note)}</Badge>
+                            )}
+                            {ev && !reversalApplied && e.action !== "REVERSE" && (
+                              <Badge className="bg-violet-200 text-violet-950 hover:bg-violet-200 text-[9px]">APPLIED — in canonical state</Badge>
+                            )}
+                            {ev && reversalApplied && (
+                              <Badge className="bg-emerald-100 text-emerald-900 hover:bg-emerald-100 text-[9px]">APPLIED, THEN REVERSED</Badge>
+                            )}
+                            {ev && e.action === "REVERSE" && (
+                              <Badge className="bg-violet-200 text-violet-950 hover:bg-violet-200 text-[9px]">REVERSAL APPLIED</Badge>
+                            )}
+                            {!ev && (
+                              <Badge className="bg-amber-100 text-amber-950 hover:bg-amber-100 text-[9px] font-mono">STAGED — NOT YET APPLIED</Badge>
+                            )}
+                            {!feedAvailable && (
+                              <Badge variant="outline" className="text-[9px] text-amber-700 border-amber-300">applied-state unknown — feed unavailable</Badge>
+                            )}
+                            <span className="text-[10px] text-stone-400">{e.targetType}</span>
+                            <span className="ml-auto text-[10px] text-stone-400">{new Date(e.ts).toLocaleString()}</span>
+                          </div>
+                          <div className="mt-1 text-[11px] font-medium">{e.targetLabel}</div>
+                          {e.note && <div className="text-[11px] text-stone-600">{e.note}</div>}
+                          <div className="mt-1 flex items-center gap-2">
+                            <span className="text-[10px] text-stone-400">by {e.reviewer}</span>
+                            {e.action !== "REVERSE" && (
+                              <button className="ml-auto text-[10px] text-stone-500 hover:text-rose-600 underline flex items-center gap-0.5"
+                                onClick={() => reverse(e.seq)}>
+                                <Undo2 className="h-3 w-3" /> reverse
+                              </button>
+                            )}
+                          </div>
                         </div>
-                        <div className="mt-1 text-[11px] font-medium">{e.targetLabel}</div>
-                        {e.note && <div className="text-[11px] text-stone-600">{e.note}</div>}
-                        <div className="mt-1 flex items-center gap-2">
-                          <span className="text-[10px] text-stone-400">by {e.reviewer}</span>
-                          {e.action !== "REVERSE" && (
-                            <button className="ml-auto text-[10px] text-stone-500 hover:text-rose-600 underline flex items-center gap-0.5"
-                              onClick={() => reverse(e.seq)}>
-                              <Undo2 className="h-3 w-3" /> reverse
-                            </button>
-                          )}
-                        </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               </SheetContent>
@@ -256,8 +541,18 @@ export default function ReviewWorkbench() {
         </div>
       </header>
 
-      {/* quarantine + note */}
-      <div className="mx-auto w-full max-w-7xl px-4 pt-3">
+      {/* R3-6 boundary banner: proposing ≠ believing */}
+      <div className="mx-auto w-full max-w-7xl px-4 pt-3 space-y-2">
+        <div className="rounded-md border border-sky-300 bg-sky-50 px-3 py-2 text-xs text-sky-950 flex gap-2">
+          <AlertTriangle className="h-4 w-4 mt-0.5 shrink-0 text-sky-700" />
+          <div>
+            <b>What I am proposing ≠ what the system currently believes.</b> Every target below shows three separate
+            dimensions: <b>CANONICAL</b> (persisted in the canonical DB — authoritative), <b>STAGED</b> (your proposed
+            intent — <span className="font-mono">STAGED — NOT YET APPLIED</span>, never canonical truth), and
+            <b> APPLIED</b> events (committed by the gated importer, with attribution). Inspect the canonical state
+            before staging a decision.
+          </div>
+        </div>
         <div className="rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-xs text-amber-900 flex gap-2">
           <AlertTriangle className="h-4 w-4 mt-0.5 shrink-0" />
           <div>
@@ -265,8 +560,9 @@ export default function ReviewWorkbench() {
             unresolved until original-source/operator review. Never auto-fixed, never inferred. — {index?.quarantine.rule}
           </div>
         </div>
-        <p className="mt-2 text-[11px] text-stone-500">
-          {index?.label} · All content below is <b>SUGGESTED</b> in the canonical lifecycle; decisions made here are staged for the gated apply.
+        <p className="text-[11px] text-stone-500">
+          {index?.label} · serving boundary: imported content is <b>SUGGESTED</b> until a teacher decision is APPLIED by
+          the gated importer; this workbench has no canonical write path (read-only DB connection).
         </p>
       </div>
 
@@ -276,7 +572,7 @@ export default function ReviewWorkbench() {
           ["sessions", index?.stats.papers], ["questions", index?.stats.questions],
           ["versions", index?.stats.versions], ["parts", index?.stats.parts],
           ["schemes", index?.stats.schemes], ["mark points", index?.stats.points],
-          ["review-required", index?.stats.reviewRequiredSessions], ["embedded", index?.stats.embedded],
+          ["review-required", index?.stats.reviewRequiredSessions], ["applied events", feedAvailable ? events?.length : "—"],
         ].map(([label, val]) => (
           <Card key={label as string} className="py-2">
             <CardContent className="px-3">
@@ -308,7 +604,7 @@ export default function ReviewWorkbench() {
             </div>
           </CardHeader>
           <CardContent className="p-0">
-            <ScrollArea className="h-[calc(100vh-320px)] min-h-72">
+            <ScrollArea className="h-[calc(100vh-380px)] min-h-72">
               <div className="px-3 pb-3 space-y-1">
                 {papers.map((p) => {
                   const counts = decisions?.paperCounts[p.id];
@@ -368,35 +664,45 @@ export default function ReviewWorkbench() {
                     <span className="font-mono">{openPaper?.paperCode}</span>
                     <span>{openPaper?.sessionLabel}</span>
                     {bridgeBadge(dossier.bridge?.status || "UNKNOWN")}
-                    {stagedBadge(decisions?.effective || {}, selectedId, openPaper?.validationState)}
                   </CardTitle>
                   <div className="text-xs text-stone-500">
                     {openPaper?.title} · {openPaper?.board} · {openPaper?.qualification} ·
                     {" "}provenance {openPaper?.provenance} · bridge {openPaper?.bridge}
                   </div>
                 </CardHeader>
-                <CardContent className="flex flex-wrap items-center gap-2">
-                  <span className="text-xs text-stone-500 mr-1">session decision:</span>
-                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-emerald-700 border-emerald-300 hover:bg-emerald-50"
-                    disabled={!decidable(openPaper?.validationState) || decisions?.effective[selectedId!] === "VALIDATED" || decisions?.effective[selectedId!] === "REJECTED"}
-                    onClick={() => act("VALIDATE", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
-                    <CheckCircle2 className="h-3.5 w-3.5" /> validate session
-                  </Button>
-                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-rose-700 border-rose-300 hover:bg-rose-50"
-                    disabled={!decidable(openPaper?.validationState) || decisions?.effective[selectedId!] === "VALIDATED" || decisions?.effective[selectedId!] === "REJECTED"}
-                    onClick={() => act("REJECT", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
-                    <XCircle className="h-3.5 w-3.5" /> reject
-                  </Button>
-                  <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-amber-700 border-amber-300 hover:bg-amber-50"
-                    onClick={() => act("FLAG", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
-                    <Flag className="h-3.5 w-3.5" /> flag
-                  </Button>
-                  {pc && (
-                    <span className="ml-auto text-[11px] text-stone-500">
-                      staged here: <b className="text-emerald-700">{pc.validated}</b> validated ·{" "}
-                      <b className="text-rose-700">{pc.rejected}</b> rejected · <b className="text-amber-700">{pc.flagged}</b> flagged
-                    </span>
-                  )}
+                <CardContent className="space-y-2">
+                  {/* canonical-vs-staged panel for the PAPER target */}
+                  <TargetStatePanel
+                    type={TARGET_PAPER} id={selectedId}
+                    canonicalState={paperCanon}
+                    stateSource={stateSourceOf(TARGET_PAPER, selectedId)}
+                    stagedEntries={stagedByTarget(TARGET_PAPER, selectedId)}
+                    appliedEvents={appliedEventsByTarget(TARGET_PAPER, selectedId)}
+                    chainEntries={chainEntries}
+                  />
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs text-stone-500 mr-1">session decision (stages intent only):</span>
+                    <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-emerald-700 border-emerald-300 hover:bg-emerald-50"
+                      disabled={!decidable(paperCanon)}
+                      onClick={() => act("VALIDATE", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+                      <CheckCircle2 className="h-3.5 w-3.5" /> validate
+                    </Button>
+                    <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-rose-700 border-rose-300 hover:bg-rose-50"
+                      disabled={!decidable(paperCanon)}
+                      onClick={() => act("REJECT", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+                      <XCircle className="h-3.5 w-3.5" /> reject
+                    </Button>
+                    <Button size="sm" variant="outline" className="h-7 text-xs gap-1 text-amber-700 border-amber-300 hover:bg-amber-50"
+                      onClick={() => act("FLAG", TARGET_PAPER, selectedId!, `${openPaper?.paperCode} ${openPaper?.sessionLabel}`)}>
+                      <Flag className="h-3.5 w-3.5" /> flag
+                    </Button>
+                    {pc && (
+                      <span className="ml-auto text-[11px] text-stone-500">
+                        staged here: <b className="text-emerald-700">{pc.validated}</b> validated ·{" "}
+                        <b className="text-rose-700">{pc.rejected}</b> rejected · <b className="text-amber-700">{pc.flagged}</b> flagged
+                      </span>
+                    )}
+                  </div>
                 </CardContent>
               </Card>
 
@@ -411,6 +717,7 @@ export default function ReviewWorkbench() {
                 <TabsContent value="questions" className="space-y-3 mt-3">
                   {dossier.questions.map((q) => {
                     const label = `${q.externalRef} — ${q.prompt?.slice(0, 60) || ""}`;
+                    const qCanon = canonStateOf(TARGET_VERSION, q.versionId, q.validationState);
                     return (
                       <Card key={q.id}>
                         <CardHeader className="pb-2">
@@ -420,9 +727,6 @@ export default function ReviewWorkbench() {
                             {q.marks !== null && <Badge variant="outline" className="text-[10px]">{q.marks} marks</Badge>}
                             {q.commandWord && <Badge variant="outline" className="text-[10px]">{q.commandWord}</Badge>}
                             {q.topicNode && <span className="text-[10px] text-stone-400">{q.topicNode}</span>}
-                            <span className="ml-auto flex gap-1">
-                              {stagedBadge(decisions?.effective || {}, q.versionId, q.validationState)}
-                            </span>
                           </CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-2 text-sm">
@@ -451,24 +755,21 @@ export default function ReviewWorkbench() {
                             </div>
                           )}
 
-                          {q.schemes.map((s) => (
+                          {q.schemes.map((s) => {
+                            const sCanon = canonStateOf(TARGET_SCHEME, s.id, s.validationState);
+                            return (
                             <div key={s.id} className="rounded border border-stone-200 bg-stone-50">
-                              <div className="px-2 py-1.5 flex items-center gap-2 border-b bg-white rounded-t">
+                              <div className="px-2 py-1.5 flex flex-wrap items-center gap-2 border-b bg-white rounded-t">
                                 <span className="text-xs font-semibold">Mark scheme #{s.questionNumber}</span>
-                                <Badge variant="outline" className="text-[10px]">{s.validationState}</Badge>
-                                <span className="ml-auto flex items-center gap-1">
-                                  {stagedBadge(decisions?.effective || {}, s.id, s.validationState).slice(-1)}
-                                  {decidable(s.validationState) && decisions?.effective[s.id] !== "VALIDATED" && decisions?.effective[s.id] !== "REJECTED" && (
-                                    <>
-                                      <button className="text-[10px] text-emerald-700 hover:underline"
-                                        onClick={() => act("VALIDATE", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>validate</button>
-                                      <button className="text-[10px] text-rose-700 hover:underline"
-                                        onClick={() => act("REJECT", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>reject</button>
-                                      <button className="text-[10px] text-amber-700 hover:underline"
-                                        onClick={() => act("FLAG", TARGET_SCHEME, s.id, `scheme #${s.questionNumber} (${label})`)}>flag</button>
-                                    </>
-                                  )}
-                                </span>
+                                <TargetStatePanel
+                                  type={TARGET_SCHEME} id={s.id}
+                                  canonicalState={sCanon}
+                                  stateSource={stateSourceOf(TARGET_SCHEME, s.id)}
+                                  stagedEntries={stagedByTarget(TARGET_SCHEME, s.id)}
+                                  appliedEvents={appliedEventsByTarget(TARGET_SCHEME, s.id)}
+                                  chainEntries={chainEntries}
+                                  compact
+                                />
                               </div>
                               <div className="divide-y">
                                 {s.points.map((m) => (
@@ -482,17 +783,28 @@ export default function ReviewWorkbench() {
                                 ))}
                               </div>
                             </div>
-                          ))}
+                            );
+                          })}
+
+                          {/* canonical-vs-staged panel for the QUESTION VERSION target */}
+                          <TargetStatePanel
+                            type={TARGET_VERSION} id={q.versionId}
+                            canonicalState={qCanon}
+                            stateSource={stateSourceOf(TARGET_VERSION, q.versionId)}
+                            stagedEntries={stagedByTarget(TARGET_VERSION, q.versionId)}
+                            appliedEvents={appliedEventsByTarget(TARGET_VERSION, q.versionId)}
+                            chainEntries={chainEntries}
+                          />
 
                           <div className="flex items-center gap-2 pt-1">
-                            <span className="text-[11px] text-stone-500">question decision:</span>
+                            <span className="text-[11px] text-stone-500">question decision (stages intent only):</span>
                             <Button size="sm" variant="outline" className="h-6 text-[11px] gap-1 text-emerald-700 border-emerald-300 hover:bg-emerald-50"
-                              disabled={!decidable(q.validationState) || decisions?.effective[q.versionId || ""] === "VALIDATED" || decisions?.effective[q.versionId || ""] === "REJECTED"}
+                              disabled={!decidable(qCanon)}
                               onClick={() => act("VALIDATE", TARGET_VERSION, q.versionId!, label)}>
                               <CheckCircle2 className="h-3 w-3" /> validate
                             </Button>
                             <Button size="sm" variant="outline" className="h-6 text-[11px] gap-1 text-rose-700 border-rose-300 hover:bg-rose-50"
-                              disabled={!decidable(q.validationState) || decisions?.effective[q.versionId || ""] === "VALIDATED" || decisions?.effective[q.versionId || ""] === "REJECTED"}
+                              disabled={!decidable(qCanon)}
                               onClick={() => act("REJECT", TARGET_VERSION, q.versionId!, label)}>
                               <XCircle className="h-3 w-3" /> reject
                             </Button>
@@ -571,6 +883,9 @@ export default function ReviewWorkbench() {
           <div className="w-full max-w-md rounded-lg bg-white p-4 shadow-lg" onClick={(e) => e.stopPropagation()}>
             <h3 className="text-sm font-semibold mb-1">{dialog.kind === "REJECT" ? "Reject with reason" : "Flag for review"}</h3>
             <p className="text-xs text-stone-500 mb-2">{dialog.label}</p>
+            <p className="text-[11px] text-amber-800 bg-amber-50 border border-amber-200 rounded px-2 py-1 mb-2">
+              Staging only — this will NOT change the canonical state. It becomes canonical only after the gated importer applies it.
+            </p>
             <Textarea value={dialog.note} onChange={(e) => setDialog({ ...dialog, note: e.target.value })}
               placeholder={dialog.kind === "REJECT" ? "reason (required, min 4 chars)…" : "what needs review? (required, min 4 chars)…"}
               className="mb-3 text-xs" rows={3} />
@@ -594,10 +909,10 @@ export default function ReviewWorkbench() {
       {/* sticky footer */}
       <footer className="mt-auto border-t bg-white">
         <div className="mx-auto max-w-7xl px-4 py-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-stone-500">
-          <span>Derived read model from retained campaign dump <span className="font-mono">c06d8ab3…</span> (byte-identical isolation proof, 2026-09-13)</span>
+          <span>Canonical DB <b>LIVE</b> @ 127.0.0.1:5432/syllabai · flyway head V18 · identity T-C04-CAMPAIGN @ {index?.identity.coreCommit?.slice(0, 7) || "…"}</span>
           <span>·</span>
-          <span>Canonical DB provisioning: <b>pending repo access</b> — V1..V16 immutable, replay path machine-gated</span>
-          <span className="ml-auto">Decisions are staged only · hash-chained log · durable copy at export</span>
+          <span>workbench DB path is <b>read-only</b> (connection-enforced); apply path = gated importer only</span>
+          <span className="ml-auto">staged intent ≠ canonical truth · applied events carry full attribution</span>
         </div>
       </footer>
     </div>

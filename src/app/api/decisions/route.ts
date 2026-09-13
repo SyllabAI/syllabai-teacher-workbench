@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getStageState, appendDecision, DecisionAction, TargetType } from "@/lib/decision-log";
 import { getLifecycleRegistry } from "@/lib/review-data";
+import { sessionFromRequest } from "@/lib/session";
 
 function paperCounts(effective: Record<string, string>) {
   const reg = getLifecycleRegistry();
@@ -29,6 +30,17 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  // R3-6 authorization gate: staging writes require a verified teacher
+  // session. This privilege stages intent ONLY — it can never mutate
+  // canonical validation state (that remains the gated importer's exclusive
+  // power, server-side, behind identity preflight).
+  const session = sessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { error: "staging requires a teacher session — open one first (POST /api/session)" },
+      { status: 403 }
+    );
+  }
   let body: Record<string, unknown>;
   try {
     body = await req.json();
@@ -39,7 +51,9 @@ export async function POST(req: Request) {
     action: body.action as DecisionAction,
     targetType: body.targetType as TargetType,
     targetId: String(body.targetId || ""),
-    reviewer: String(body.reviewer || ""),
+    // Attribution: the session identity is authoritative for the staging log;
+    // a client-supplied reviewer name cannot impersonate another session.
+    reviewer: session.name,
     note: body.note === undefined || body.note === null ? "" : String(body.note),
     reverseSeq: body.reverseSeq === undefined ? undefined : Number(body.reverseSeq),
   });

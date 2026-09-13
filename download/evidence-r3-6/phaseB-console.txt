@@ -1,0 +1,27 @@
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 246ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 567ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 319ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 270ms
+[warning] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 344ms
+[log] [HMR] connected
+[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[log] [HMR] connected
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 419ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 177ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 272ms
+[log] [Fast Refresh] rebuilding
+[warning] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[log] [Fast Refresh] done in 744ms
+[log] [Fast Refresh] rebuilding
+[log] [Fast Refresh] done in 446ms
