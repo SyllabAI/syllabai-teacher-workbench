@@ -1,0 +1,124 @@
+{
+  "milestone": "R3-6 \u2014 Teacher Validation Workbench: canonical state + staged intent",
+  "generatedAt": "2026-09-13T19:40:20.912344+00:00",
+  "commits": {
+    "workbench_app_local_main": "2f6e8a7db42a4b80cbe291026653e1a64b611ef6",
+    "syllabai_core_local_main": "b37837afc7c17f6e6d9c7c58f29183b855dc3665",
+    "syllabai_core_origin_main": "5f7897b8150367b29512f934467188fc298cc0df",
+    "corpus_past_papers": "c42b6a144d7579ffe1f1f8db4c40d95b27d6b58d",
+    "parser": "d3415caa85e1e9d5e815916bda89c107bf773364",
+    "note": "core local main is AHEAD of origin (R3-5 commits 68e9da9/9615b69/b37837a unpushed \u2014 no PAT in sandbox); workbench commit 2f6e8a7 likewise local-only"
+  },
+  "migrationProvenance": {
+    "decision": "NO new migration",
+    "numericMaxOverRemoteTree": "V18 (checked by numeric max, not filename sorting)",
+    "v17": "learner_state_version_columns (parallel agent, aa5319e)",
+    "v18": "teacher_validation_review (R3-5, 9615b69)",
+    "flywayRowsInCampaignDB": 18
+  },
+  "canonicalIdentity": {
+    "campaign_label": "T-C04-CAMPAIGN",
+    "db_name": "syllabai",
+    "core_commit": "9615b69",
+    "claimed_at": "2026-09-13 16:43:04.422444+00"
+  },
+  "canonicalCounts": {
+    "papers": 81,
+    "papers_suggested": 81,
+    "versions": 766,
+    "versions_validated_seed": 8,
+    "versions_suggested": 758,
+    "versions_rejected": 0,
+    "schemes": 641,
+    "schemes_rejected": 0,
+    "applied_events": 6
+  },
+  "appliedEvents": [
+    {
+      "decision_seq": "1",
+      "action": "VALIDATE",
+      "target_type": "question_version",
+      "result_state": "VALIDATED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "d30138847d840831"
+    },
+    {
+      "decision_seq": "2",
+      "action": "REJECT",
+      "target_type": "mark_scheme",
+      "result_state": "REJECTED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "70c6586c709eea87"
+    },
+    {
+      "decision_seq": "3",
+      "action": "FLAG",
+      "target_type": "exam_paper",
+      "result_state": "SUGGESTED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "e3c0ba34f1bcd2fc"
+    },
+    {
+      "decision_seq": "4",
+      "action": "REVERSE",
+      "target_type": "question_version",
+      "result_state": "SUGGESTED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "cac2fd0059a7451b"
+    },
+    {
+      "decision_seq": "5",
+      "action": "REVERSE",
+      "target_type": "mark_scheme",
+      "result_state": "SUGGESTED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "b475e372bb8a0ecb"
+    },
+    {
+      "decision_seq": "6",
+      "action": "REVERSE",
+      "target_type": "exam_paper",
+      "result_state": "SUGGESTED",
+      "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+      "hash16": "891dbf1053f709ad"
+    }
+  ],
+  "stagingLog": {
+    "realLogSha256": "d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf",
+    "entries": 6,
+    "browserVerificationScratchLog": "download/teacher-validation/test-runs/browser-verify-decision-log.jsonl",
+    "browserScratchSha256": "6597ed128c7b2dec05e6920d7b4edc317eaf1d3af53bec1cd655e0d7f5eefaea"
+  },
+  "verificationMatrix": {
+    "unit_and_integration_tests": "42/42 pass (tests/r3-6: relationship, session-auth, integration) \u2014 test-results-full.log",
+    "importerUntouched": {
+      "sha256": "f665790197dbf4fbe3cc8af517d1e74c6acab44f9d6a231a4a3cad2db6ff7064",
+      "checkMode": "exit 0 \u2014 6/6 already-applied DUPLICATE, chain valid \u2014 importer-check-mode-r3-6.log"
+    },
+    "lint": "eslint clean",
+    "tsc": "clean (app tsconfig)",
+    "build": "next build success (8 routes)",
+    "browser": "agent-browser two-phase script; 7 screenshots; 0 console errors both phases; real staging log sha256 identical before/after",
+    "dbUntouchedDuringR3_6": "papers SUGGESTED=81, versions 758 SUGGESTED + 8 seed VALIDATED, events=6 \u2014 identical pre/post milestone"
+  },
+  "authorization": {
+    "stagingWrites": "require HMAC teacher session (HttpOnly cookie); 403 without/forged/expired/wrong-role \u2014 proven by tests",
+    "canonicalWrites": "impossible from serving path: connection-level read-only + hostile sweep test (72 requests) left canonical DB byte-identical; apply path = gated importer only (server-side, identity-preflighted)"
+  },
+  "claimLabels": {
+    "canonical-vs-staged UI separation": "VERIFIED (screenshots 01-06 + relationship unit tests)",
+    "applied events with attribution": "VERIFIED (live feed + screenshots 02/03/04)",
+    "reversal representation": "VERIFIED (unit tests + screenshot 03 rehearsal chain seq1->seq4)",
+    "FLAG events-only": "VERIFIED (unit + integration + live event result_state=SUGGESTED)",
+    "authorization matrix": "VERIFIED (integration tests, hostile sweep)",
+    "importer gates untouched and passing": "VERIFIED (sha256 + check-mode log)",
+    "seed-VALIDATED lock": "VERIFIED (integration test + seed-validated-live-state.json)",
+    "canonical REJECTED rendering": "VERIFIED for the render mapping by unit fixture; NOTE: 0 canonical REJECTED rows exist in the live DB (nothing to photograph) \u2014 honest absence, not a gap",
+    "durable off-container export": "BLOCKED \u2014 no GitHub PAT in sandbox; evidence committed locally (2f6e8a7) + SHA256SUMS; release upload deferred to next PAT provision"
+  },
+  "canonicalVsStagedExample": {
+    "staged": "browser scratch log seq 1: VALIDATE exam_paper:f95f3b12 by Browser Verification (R3-6) \u2014 relationship WOULD_CHANGE_CANONICAL, canonical stays SUGGESTED",
+    "applied": "teacher_validation_events seq 1: VALIDATE question_version:00190480 by E2E Rehearsal (R3-5 machine-gate test) \u2014 was applied, then reversed by seq 4; canonical SUGGESTED",
+    "canonical": "8 seed question_versions VALIDATED with zero applied events (seed-locked); 81 papers SUGGESTED"
+  }
+}

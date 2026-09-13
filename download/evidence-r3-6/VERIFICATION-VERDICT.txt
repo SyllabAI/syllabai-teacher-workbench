@@ -1,0 +1,138 @@
+================================================================================
+R3-6 VERIFICATION VERDICT — Teacher Validation Workbench:
+     canonical state + staged intent + applied events
+================================================================================
+Date (UTC): 2026-09-13
+Milestone:  R3-6 (follows R3-5 GREEN; no R3-5 gate weakened or redesigned)
+
+1. OBJECTIVE
+   Make it visually and semantically impossible to confuse:
+     (a) CANONICAL state — what is actually persisted in the canonical DB,
+     (b) STAGED intent  — what a teacher proposed in the workbench (never truth),
+     (c) APPLIED events — what the gated importer committed, with attribution.
+
+2. WHAT SHIPPED (workbench app, commit 2f6e8a7 local main)
+   - TargetStatePanel on every review target (paper / question version /
+     mark scheme): separate CANONICAL row (badge + "live DB" chip + target
+     identity + last applied event), STAGED rows (one per staged entry with
+     explicit "STAGED — NOT YET APPLIED" or closed-state chips), APPLIED rows
+     (event ledger with reviewer + time + seq/hash), and a relationship badge
+     per staged intent with a full-sentence explanation.
+   - Relationship semantics in a PURE module (src/lib/canonical-relationship.ts)
+     shared by UI and tests: AGREES_WITH_CANONICAL / WOULD_CHANGE_CANONICAL /
+     ALREADY_APPLIED / APPLIED_THEN_REVERSED / BLOCKED — deliberately NOT
+     collapsed into one status field.
+   - Live canonical feed: GET /api/canonical/events (applied events with
+     attribution) + POST /api/canonical/state (live validation_state per
+     target, UNKNOWN for stale/malformed ids). Both READ-ONLY, fail-closed.
+   - Authorization boundary (genuine contract extension, mandated by gate 10):
+     POST /api/session issues an HMAC-signed HttpOnly teacher-session cookie;
+     staging POST now returns 403 without a valid teacher session. GETs and
+     payload shapes unchanged (backward compatible).
+   - Connection-level read-only enforcement: the workbench's canonical DB
+     pool opens with default_transaction_read_only=on — the serving path is
+     PHYSICALLY unable to mutate canonical state even through a code bug.
+   - Stale provenance fixed: header now shows core 9615b69 (was a54f310),
+     read-model label DERIVED-FROM-CANONICAL (was INFERRED), footer states
+     canonical DB LIVE (was "pending repo access").
+   - Test-isolation hook: TV_LOG_FILE env override so tests never touch the
+     real hash-chained staging log.
+
+3. MIGRATION DECISION — NO new migration
+   V18 (teacher_validation_review) already stores everything R3-6 displays.
+   Migration head checked by NUMERIC MAX over the remote tree (not filename
+   sorting — V17 lesson applied): max = V18. V1..V18 untouched. No V19.
+   Flyway rows in campaign DB: 18.
+
+4. VERIFICATION MATRIX (acceptance gates)
+   Gate  1 canonical VALIDATED renders canonical ........ VERIFIED
+           (unit fixture + live seed rows via /api/canonical/state ->
+            seed-validated-live-state.json; seed rows have no paper dossier
+            by design, so no screenshot exists — absence documented)
+   Gate  2 canonical REJECTED renders canonical ......... VERIFIED (mapping)
+           (unit fixture; NOTE: the live DB contains 0 canonical REJECTED
+            rows — nothing to render in situ; honest absence, not a gap)
+   Gate  3 staged VALIDATE vs SUGGESTED stays staged .... VERIFIED
+           (integration test asserts canonical state + events unchanged)
+   Gate  4 staged REJECT vs SUGGESTED stays staged ...... VERIFIED (same)
+   Gate  5 FLAG remains events-only ..................... VERIFIED
+           (unit: resulting state null; integration: events feed unchanged;
+            live rehearsal FLAG event carries result_state SUGGESTED)
+   Gate  6 applied distinguishable from staged .......... VERIFIED
+           (seq+hash matching against the live events feed; screenshot 04
+            shows APPLIED, THEN REVERSED chips; screenshot 05a shows STAGED)
+   Gate  7 reversed event represented correctly ......... VERIFIED
+           (unit tests + screenshot 03: rehearsal chain seq1 VALIDATE ->
+            seq4 REVERSE rendered as applied-then-reversed, canonical back
+            to SUGGESTED)
+   Gate  8 stale/unknown target ids fail safely ......... VERIFIED
+           (422 at staging; UNKNOWN in canonical query — live demo captured
+            with a well-formed-but-absent uuid)
+   Gate  9 teacher attribution preserved ................ VERIFIED
+           (reviewer on staged entries, applied events, UI rows, export)
+   Gate 10 unauthorized cannot apply via UI/API ......... VERIFIED
+           (403 matrix: no cookie / forged / expired / wrong-role; hostile
+            sweep of 72 requests across 6 routes left canonical DB
+            byte-identical: 81/758/8/0/6 counts pre == post; UPDATE through
+            the workbench DB config raises read-only error)
+   Gate 11 R3-5 importer gates untouched and passing .... VERIFIED
+           (sha256 f6657901... unchanged; check mode exit 0: 6/6
+            already-applied DUPLICATE, chain valid)
+   Gate 12 existing app tests green ..................... VERIFIED
+           (eslint clean, tsc clean, next build success, 42/42 bun tests)
+
+5. TESTS
+   tests/r3-6/relationship.test.ts ....... 14 tests (pure semantics)
+   tests/r3-6/session-auth.test.ts .......  9 tests (forgery/expiry/role)
+   tests/r3-6/integration.test.ts ........ 19 tests (live HTTP + canonical DB)
+   Total 42/42 pass — test-results-full.log
+   Negatives included: duplicate staging, REJECT-without-note, seed lock,
+   unknown target, unknown type, forged/expired/wrong-role sessions,
+   hostile-method sweep, connection-level read-only UPDATE.
+
+6. BROWSER EVIDENCE (agent-browser, scripts/r3-6-browser-verify.sh)
+   screenshots/01 workbench top: boundary banner "What I am proposing ≠ what
+     the system currently believes", quarantine banner, LIVE feed pill
+   screenshots/02a/02b paper dossier: CANONICAL row + APPLIED FLAG/REVERSE
+     rows with attribution + events-only chip (rehearsal fixture)
+   screenshots/03  question panel: applied VALIDATE then REVERSE, canonical
+     back to SUGGESTED, full relationship explanations
+   screenshots/04  staging log sheet: APPLIED, THEN REVERSED / REVERSAL
+     APPLIED chips from the canonical events feed
+   screenshots/05a/05b staged VALIDATE: "STAGED — NOT YET APPLIED" + WOULD
+     CHANGE canonical badge + duplicate-refusal toast (negative UX)
+   screenshots/06  log sheet: staged entry + "NOT applied to canonical state"
+   screenshots/07  mobile 390x844
+   Console/errors: ZERO errors in both phases (phaseA/B-*.txt)
+   Real staging log sha256 identical before/after browser verification
+     (d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf);
+     browser staging write went to a labeled scratch log (kept as evidence).
+
+7. CANONICAL DB INVARIANTS (pre == post R3-6)
+   papers 81 (all SUGGESTED) · versions 766 = 758 SUGGESTED + 8 seed
+   VALIDATED · schemes 641 · REJECTED rows 0 · applied events 6 (R3-5
+   rehearsal, attributed) · identity T-C04-CAMPAIGN @ 9615b69 · flyway 18.
+   REVIEW_REQUIRED 34 and 1c-2016jan quarantine untouched. No KG writes
+   (T-C11 independence preserved). V1..V18 untouched.
+
+8. DURABILITY
+   Evidence committed to local main (workbench repo commit 2f6e8a7;
+   core repo unchanged at local b37837a). SHA256SUMS covers this pack.
+   LIMITATION (honest): no GitHub PAT in this sandbox — the R3-5 commits
+   (68e9da9, 9615b69, b37837a) remain unpushed on origin/main and the R3-6
+   GitHub release could not be cut. Deferred to the next PAT provision;
+   nothing else blocks the milestone.
+
+9. CLAIM LABELS
+   All twelve acceptance gates: VERIFIED (artifact-backed, listed above).
+   Off-container release export: BLOCKED (PAT) — everything else durable.
+
+10. VERDICT
+    R3-6 is GREEN by the machine gates, with one explicitly documented
+    durability limitation (release upload deferred; local durability in
+    place). The workbench now distinguishes canonical truth, staged intent,
+    and applied events by construction — with tests and screenshots as proof.
+    Per the R3-6 directive, real teachers are NOT yet pointed at the
+    workbench; the UI/state representation and the verification matrix are
+    now ready for that decision.
+================================================================================
