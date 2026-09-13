@@ -149,10 +149,25 @@ def main():
 
     index_rows.sort(key=lambda r: (r["paperCode"], r["sessionLabel"]))
     review_required = sum(1 for r in index_rows if r["bridgeStatus"] == "REVIEW_REQUIRED")
+    # provenance: prefer the live canonical manifest (R3-5), fall back to the
+    # historical R2-era constants if it is absent.
+    rm = "/home/z/my-project/download/read-model/CANONICAL_READ_MODEL.json"
+    import os as _os
+    if _os.path.exists(rm):
+        _m = json.load(open(rm))
+        _label = _m["label"]
+        _identity = {"campaign": _m["identity"]["campaign"],
+                     "db": _m["identity"]["db"],
+                     "coreCommit": _m["identity"]["core_commit"]}
+        _src = f"live canonical DB @ flyway head {_m['flyway_head']}"
+    else:
+        _label = "INFERRED read model — derived from retained dump c06d8ab3…"
+        _identity = {"campaign": "T-C04-CAMPAIGN", "db": "syllabai", "coreCommit": "a54f310"}
+        _src = "retained dump c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2"
     index = {
-        "label": "INFERRED read model — derived from retained dump c06d8ab3…; NOT the canonical DB",
-        "identity": {"campaign": "T-C04-CAMPAIGN", "db": "syllabai", "coreCommit": "a54f310"},
-        "dumpSha256": "c06d8ab3fe0e788e3ecc85d68752910ae0a437056068f20a7853b203ba06fba2",
+        "label": _label,
+        "identity": _identity,
+        "sourceProvenance": _src,
         "stats": {
             "papers": len(papers), "questions": len(questions),
             "versions": len(versions), "parts": len(parts),

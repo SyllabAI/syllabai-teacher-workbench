@@ -17,3 +17,4 @@ smart_mark_results=0
 subjects=2
 curriculum_versions=2
 campaign_db_identity=1
+teacher_validation_events=6

@@ -1,0 +1,10 @@
+{
+ "mode": "check",
+ "ts": "2026-09-13T17:46:00.763378+00:00",
+ "log_file": "/tmp/seedlock-log.jsonl",
+ "log_sha256": "3b6a0767b056370e1924beef4f39a1df6126c65edff7271204c0d3de2bcd7c6c",
+ "entries": 7,
+ "chain": "FAILED",
+ "reason": "gate: seq 7 targets question_version:0bfc0a72-093e-4f8f-95d9-fcc2308edf08 in state VALIDATED, not SUGGESTED (seed lock / lifecycle violation) \u2014 aborting",
+ "decision": "ABORT \u2014 nothing written (fail-closed)"
+}

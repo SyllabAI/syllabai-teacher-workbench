@@ -1,0 +1,10 @@
+{
+ "mode": "check",
+ "ts": "2026-09-13T17:44:32.780758+00:00",
+ "log_file": "/tmp/tampered-log.jsonl",
+ "log_sha256": "93bb18954a0644cb21c46a6317b0deb9847d8ee6a648783c55f21c94150d02ff",
+ "entries": 3,
+ "chain": "FAILED",
+ "reason": "CHAIN VERIFY FAILED (hash mismatch at seq 2 (entry tampered)) \u2014 refusing to operate",
+ "decision": "ABORT \u2014 nothing written (fail-closed)"
+}

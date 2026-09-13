@@ -1,0 +1,121 @@
+{
+ "mode": "apply",
+ "ts": "2026-09-13T17:45:41.172613+00:00",
+ "log_file": "/home/z/my-project/download/teacher-validation/decision-log.jsonl",
+ "log_sha256": "d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf",
+ "entries": 6,
+ "chain": "chain valid",
+ "chain_head": "891dbf1053f709ad432144f8be0e0c7a7a48a35726616bb6fad4ac3d5e9f8d9c",
+ "duplicates_skipped": 3,
+ "events_only_ops": 1,
+ "operations": [
+  {
+   "seq": 4,
+   "hash": "cac2fd0059a7451b51f10b654f30951e8c39dbe5cd245977807c7a6024583b22",
+   "table": "question_versions",
+   "tid": "00190480-0ffd-4074-8988-614dbfa32fb0",
+   "set_state": "SUGGESTED",
+   "result_state": "SUGGESTED",
+   "reverses": 1
+  },
+  {
+   "seq": 5,
+   "hash": "b475e372bb8a0ecb77b05e69d0992190dd2e6e40417e8e9d6d8bf3bc03181b8f",
+   "table": "mark_schemes",
+   "tid": "00041235-03d1-4e6c-9e74-a562c815e83a",
+   "set_state": "SUGGESTED",
+   "result_state": "SUGGESTED",
+   "reverses": 2
+  },
+  {
+   "seq": 6,
+   "hash": "891dbf1053f709ad432144f8be0e0c7a7a48a35726616bb6fad4ac3d5e9f8d9c",
+   "table": "exam_papers",
+   "tid": "018ec619-709f-46e1-abe3-14bab6a42e95",
+   "set_state": null,
+   "result_state": "SUGGESTED",
+   "reverses": 3
+  }
+ ],
+ "identity": {
+  "campaign": "T-C04-CAMPAIGN",
+  "db": "syllabai"
+ },
+ "write_whitelist": [
+  "exam_papers",
+  "mark_schemes",
+  "question_versions",
+  "teacher_validation_events"
+ ],
+ "evidence_tables_verified_untouched": [
+  "questions",
+  "question_parts",
+  "question_options",
+  "question_topics",
+  "mark_points",
+  "documents",
+  "document_chunks",
+  "glm_ocr_bridge_records",
+  "knowledge_nodes",
+  "knowledge_edges",
+  "curriculum_versions",
+  "subjects",
+  "attempts",
+  "answers",
+  "smart_mark_results",
+  "campaign_db_identity"
+ ],
+ "apply_result": {
+  "importer_run_id": "91c383c8-4196-4cb5-aa87-69a6e1b703ec",
+  "pre_counts": {
+   "exam_papers": "81",
+   "question_versions": "766",
+   "mark_schemes": "641",
+   "glm_ocr_bridge_records": "81",
+   "documents": "162",
+   "document_chunks": "2210",
+   "knowledge_nodes": "96",
+   "knowledge_edges": "21"
+  },
+  "post_counts": {
+   "exam_papers": "81",
+   "question_versions": "766",
+   "mark_schemes": "641",
+   "glm_ocr_bridge_records": "81",
+   "documents": "162",
+   "document_chunks": "2210",
+   "knowledge_nodes": "96",
+   "knowledge_edges": "21"
+  },
+  "embedded": "0",
+  "review_required_preserved": "34",
+  "evidence_byte_identical": {
+   "questions": true,
+   "question_parts": true,
+   "question_options": true,
+   "question_topics": true,
+   "mark_points": true,
+   "documents": true,
+   "document_chunks": true,
+   "glm_ocr_bridge_records": true,
+   "knowledge_nodes": true,
+   "knowledge_edges": true,
+   "curriculum_versions": true,
+   "subjects": true,
+   "attempts": true,
+   "answers": true,
+   "smart_mark_results": true,
+   "campaign_db_identity": true
+  },
+  "kg_untouched": {
+   "knowledge_nodes": "96",
+   "knowledge_edges": "21"
+  },
+  "states": {
+   "question_versions": "766",
+   "mark_schemes": "641",
+   "exam_papers": "81"
+  }
+ },
+ "decision": "APPLIED"
+}

@@ -1,0 +1,42 @@
+{
+ "mode": "apply",
+ "ts": "2026-09-13T17:46:00.666433+00:00",
+ "log_file": "/home/z/my-project/download/teacher-validation/decision-log.jsonl",
+ "log_sha256": "d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf",
+ "entries": 6,
+ "chain": "chain valid",
+ "chain_head": "891dbf1053f709ad432144f8be0e0c7a7a48a35726616bb6fad4ac3d5e9f8d9c",
+ "duplicates_skipped": 6,
+ "events_only_ops": 0,
+ "operations": [],
+ "identity": {
+  "campaign": "T-C04-CAMPAIGN",
+  "db": "syllabai"
+ },
+ "write_whitelist": [
+  "exam_papers",
+  "mark_schemes",
+  "question_versions",
+  "teacher_validation_events"
+ ],
+ "evidence_tables_verified_untouched": [
+  "questions",
+  "question_parts",
+  "question_options",
+  "question_topics",
+  "mark_points",
+  "documents",
+  "document_chunks",
+  "glm_ocr_bridge_records",
+  "knowledge_nodes",
+  "knowledge_edges",
+  "curriculum_versions",
+  "subjects",
+  "attempts",
+  "answers",
+  "smart_mark_results",
+  "campaign_db_identity"
+ ],
+ "apply_result": null,
+ "decision": "APPLIED"
+}

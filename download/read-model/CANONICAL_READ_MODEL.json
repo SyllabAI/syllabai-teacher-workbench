@@ -1,0 +1,27 @@
+{
+ "label": "DERIVED-FROM-CANONICAL read model \u2014 rebuilt live from the verified campaign DB (R3-5); real column names (V1..V18 schema)",
+ "generated_at_utc": "2026-09-13T17:42:26.956227+00:00",
+ "identity": {
+  "campaign": "T-C04-CAMPAIGN",
+  "db": "syllabai",
+  "core_commit": "9615b69"
+ },
+ "flyway_head": "18",
+ "flyway_rows": 18,
+ "tables": {
+  "exam_papers": 81,
+  "questions": 766,
+  "question_versions": 766,
+  "question_parts": 4822,
+  "mark_schemes": 641,
+  "mark_points": 1105,
+  "question_options": 32,
+  "documents": 162,
+  "document_chunks": 2210,
+  "glm_ocr_bridge_records": 81,
+  "knowledge_nodes": 96,
+  "knowledge_edges": 21
+ },
+ "supersedes": "INFERRED_READ_MODEL (R3-2-era dump parse, stale UUIDs)",
+ "note": "Registry/dataset consumers unchanged; ids now match the live canonical DB. The stale R2-era tables kept at tables_r2_inferred/."
+}

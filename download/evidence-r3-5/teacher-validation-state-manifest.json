@@ -1,0 +1,125 @@
+{
+ "manifest": "teacher-validation-state-manifest (T-C04 r3-5)",
+ "generated_at_utc": "2026-09-13 17:49:12 UTC",
+ "identity": {
+  "campaign": "T-C04-CAMPAIGN",
+  "db": "syllabai",
+  "core_commit": "9615b69",
+  "flyway_head": "18"
+ },
+ "staging_log": {
+  "path": "/home/z/my-project/download/teacher-validation/decision-log.jsonl",
+  "sha256": "d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf",
+  "entries": 6,
+  "chain_valid": true,
+  "head": "891dbf1053f709ad432144f8be0e0c7a7a48a35726616bb6fad4ac3d5e9f8d9c",
+  "actions": {
+   "VALIDATE": 1,
+   "REJECT": 1,
+   "FLAG": 1,
+   "REVERSE": 3
+  }
+ },
+ "applied_events": [
+  {
+   "importer_run_id": "5205cbef-16ba-4432-a870-a8ce0b08b8a1",
+   "decision_seq": 1,
+   "action": "VALIDATE",
+   "target_type": "question_version",
+   "target_id": "00190480-0ffd-4074-8988-614dbfa32fb0",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "VALIDATED",
+   "applied_at": "2026-09-13T17:45:17.236463+00:00"
+  },
+  {
+   "importer_run_id": "5205cbef-16ba-4432-a870-a8ce0b08b8a1",
+   "decision_seq": 2,
+   "action": "REJECT",
+   "target_type": "mark_scheme",
+   "target_id": "00041235-03d1-4e6c-9e74-a562c815e83a",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "REJECTED",
+   "applied_at": "2026-09-13T17:45:17.236463+00:00"
+  },
+  {
+   "importer_run_id": "5205cbef-16ba-4432-a870-a8ce0b08b8a1",
+   "decision_seq": 3,
+   "action": "FLAG",
+   "target_type": "exam_paper",
+   "target_id": "018ec619-709f-46e1-abe3-14bab6a42e95",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "SUGGESTED",
+   "applied_at": "2026-09-13T17:45:17.236463+00:00"
+  },
+  {
+   "importer_run_id": "91c383c8-4196-4cb5-aa87-69a6e1b703ec",
+   "decision_seq": 4,
+   "action": "REVERSE",
+   "target_type": "question_version",
+   "target_id": "00190480-0ffd-4074-8988-614dbfa32fb0",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "SUGGESTED",
+   "applied_at": "2026-09-13T17:45:40.134853+00:00"
+  },
+  {
+   "importer_run_id": "91c383c8-4196-4cb5-aa87-69a6e1b703ec",
+   "decision_seq": 5,
+   "action": "REVERSE",
+   "target_type": "mark_scheme",
+   "target_id": "00041235-03d1-4e6c-9e74-a562c815e83a",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "SUGGESTED",
+   "applied_at": "2026-09-13T17:45:40.134853+00:00"
+  },
+  {
+   "importer_run_id": "91c383c8-4196-4cb5-aa87-69a6e1b703ec",
+   "decision_seq": 6,
+   "action": "REVERSE",
+   "target_type": "exam_paper",
+   "target_id": "018ec619-709f-46e1-abe3-14bab6a42e95",
+   "reviewer": "E2E Rehearsal (R3-5 machine-gate test)",
+   "result_state": "SUGGESTED",
+   "applied_at": "2026-09-13T17:45:40.134853+00:00"
+  }
+ ],
+ "final_canonical_state": {
+  "counts": {
+   "exam_papers": 81,
+   "question_versions": 766,
+   "mark_schemes": 641,
+   "mark_points": 1105,
+   "question_parts": 4822,
+   "documents": 162,
+   "document_chunks": 2210,
+   "glm_ocr_bridge_records": 81,
+   "knowledge_nodes": 96,
+   "knowledge_edges": 21,
+   "teacher_validation_events": 6
+  },
+  "embedded": 0,
+  "review_required_preserved": 34,
+  "imported_content_all_suggested": true,
+  "rehearsal_targets_restored_to": "SUGGESTED,SUGGESTED,SUGGESTED"
+ },
+ "boundary_proofs": {
+  "evidence_tables_byte_identical_across_importer_runs": true,
+  "kg_untouched": {
+   "knowledge_nodes": 96,
+   "knowledge_edges": 21
+  },
+  "tc11_independence": "importer whitelist: exam_papers/question_versions/mark_schemes validation_state + teacher_validation_events ONLY; no knowledge_* writes possible",
+  "quarantine": "1c-2016jan: no canonical rows exist; a staged decision on it refuses (unknown-target gate)"
+ },
+ "machine_gates": [
+  "identity preflight (positive+negative)",
+  "chain verify (tamper test)",
+  "SUGGESTED-only lifecycle",
+  "seed lock",
+  "unknown-target refusal",
+  "note-required REJECT/FLAG",
+  "duplicate staging lock",
+  "reverse-consistency",
+  "idempotent replay (UNIQUE seq+hash)",
+  "post-apply invariants"
+ ]
+}
