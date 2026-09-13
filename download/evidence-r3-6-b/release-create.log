@@ -124,3 +124,24 @@ skip (present): workbench-source-2f6e8a7.tar.gz
 uploaded: SHA256SUMS.r3-6b
 uploaded: RELEASE-NOTES.md
 assets: uploaded=2 skipped=14 failed=2
+release exists id=388016740 (reuse)
+skip (present): IMPLEMENTATION-PLAN.md
+skip (present): SHA256SUMS
+skip (present): VERIFICATION-VERDICT.txt
+skip (present): browser-verify.log
+skip (present): importer-check-mode-hardened-r3-6b.log
+skip (present): importer-check-mode-r3-6.log
+skip (present): importer-sha256.txt
+skip (present): phaseA-console.txt
+skip (0-byte by design, GitHub rejects empty assets): phaseA-errors.txt
+skip (present): phaseB-console.txt
+skip (0-byte by design, GitHub rejects empty assets): phaseB-errors.txt
+skip (present): r3-6-state-manifest.json
+skip (present): seed-validated-live-state.json
+skip (present): test-results-full.log
+skip (present): test-results-rerun-r3-6b.log
+skip (present): workbench-source-2f6e8a7.tar.gz
+uploaded: SHA256SUMS.r3-6b
+uploaded: RELEASE-NOTES.md
+assets: uploaded=2 skipped=16 failed=0
+RELEASE_ID=388016740
