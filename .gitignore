@@ -54,3 +54,6 @@ server.log
 /skills/
 # R3-6: live HMAC secret must never be versioned
 download/teacher-validation/session-secret.key
+
+# R3-6-b: source tarballs are release assets, not repo content (60MB blob swept by auto-commit 4c58b19; kept, not rewritten — SHA stability)
+download/evidence-r3-6-b/*.tar.gz
