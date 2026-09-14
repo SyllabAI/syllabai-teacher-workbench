@@ -305,3 +305,18 @@ Work Log:
 Stage Summary:
 - Live product loop VERIFIED end-to-end at production URLs (API + browser levels); two UX/data fixes shipped and deploying; one genuine external blocker recorded (LLM provider keys) without halting other work.
 - Next product-critical moves: verify deploys live (Render + Vercel), then the 4CH1 content unlock = T-C04 validation resumption path on prod (needs teacher-role account investigation), first-teacher onboarding decision remains operator's.
+
+---
+Task ID: P1 (continuation — monitor probe + campaign env rebuild)
+Agent: main
+Task: keep product work moving while operator-side items pend.
+
+Work Log:
+- Tutor outage made VISIBLE: pilot_probe.py gained check_tutor() (monitor learner session; distinguishes 200-grounded / 200-refusal / 503-chain-down with the Render remediation hint). Dispatched run 34814944026: 14/15 green, [FAIL] tutor 503 all-providers — the alert path works end-to-end (exit 1 = designed alert). web 46d803c pushed.
+- VERCEL DEPLOY STALE (REPORTED): local `bun run build` of 4a2ffe0 passes clean; 18+ min after push vercel.app still serves the old chunk set (old handoff string present, new string absent, chunk hashes unchanged). Conclusion: Vercel Git integration is disconnected or deploys are manual — operator must check the Vercel project (or run a manual deploy). Code is verified shippable.
+- Campaign environment rebuilt from the reset survivor snapshot (/tmp/my-project): PG17.11 debs extracted to /home/z/toolchain/pgdebs/root; cluster initdb'd at /home/z/pgdata (socket dir /tmp — /var/run not writable); pgvector 0.8.0 compiled from source (server-dev deb added; LLVM bitcode shimmed — vector.so unaffected); role syllabai/syllabai; DB syllabai; core jar (a5604a9) booted against it → Flyway V1-V18 applied cleanly, numeric max V18 preserved, zero migration edits; local API health 200; seed parity VERIFIED (8 servable, first SEED-WCH11-001, demo student login OK).
+- Deploy mechanics learned: Render autoDeploy:true (a5604a9 reached prod within minutes — nodeName/misconceptionName verified LIVE in /learners/me/state).
+
+Stage Summary:
+- Local campaign substrate = operational again (schema V18 + seed), unblocking the T-C04 r2 corpus re-ingestion (bundles in /tmp/my-project) and the workbench redeploy path.
+- Operator queue: (1) LLM provider keys/quota on Render (tutor 503 — now monitored); (2) Vercel Git integration / manual deploy for web 4a2ffe0+; (3) T-C04 human review decision; (4) first-teacher onboarding decision.
