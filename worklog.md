@@ -270,3 +270,18 @@ Work Log:
 
 Stage Summary:
 - R3-8 commit reconstructed, evidence re-verified, release notes + full SHA256SUMS built; push/release = the only remaining step, gated on a valid operator PAT.
+
+---
+Task ID: R3-8 (addendum 2 — push + release durability)
+Agent: main
+Task: Push reconstructed R3-8 commit and cut t-c04-r3-8 release (operator instruction "push 34ed7e3+evidence and cut the t-c04-r3-8 release")
+
+Work Log:
+- Pushed 43eace2 -> SyllabAI/syllabai-teacher-workbench main; remote==local verified via ls-remote AND authenticated API (commit 43eace29, 46 files, parent c42ab03).
+- Release t-c04-r3-8 cut on SyllabAI/syllabai-core (id 388168171, target_commitish main @ 4343b5a): 33 assets = 32 evidence-pack files (31 SHA256SUMS entries + SHA256SUMS itself) + workbench-source-43eace2.tar.gz (git archive of 43eace2; sha256 4b24cb55c10e6722ed03bb29c15d4bf868cf41597b08dcf485d5d991e4f62d2f, independently recomputed).
+- Asset durability (R3-7 pattern): every asset re-downloaded and sha256-compared — FINAL VERIFICATION 33/33 PASS, 0 FAIL, none missing. Release body = RELEASE-NOTES.md + asset manifest + tarball digest + push provenance (contains original deployed SHA 34ed7e396a20dfcd0c08cf8d082c8d5ac6561c36).
+- Release-ops findings (all fixed in scripts/r3-8_push_release.sh): (1) fresh-shell-per-command execution made an env-exported token look dead (401 from an EMPTY Authorization header) — one-shot re-export in the same command resolved it; token never written to disk or logs (redaction verified by grep). (2) Directory-scan asset enumeration swept run.log (1450 B ops log) into release 1 — stale-asset purge + STRICT ALLOWLIST re-upload (SHA256SUMS entries + tarball only, never a directory scan). (3) Private-repo asset download requires the API asset endpoint with Accept: application/octet-stream (browser_download_url 404s). (4) Allowlist initially omitted SHA256SUMS itself (self-excluded from its own manifest) — caught by the expected-count check; surgical upload closed it.
+
+Stage Summary:
+- R3-8 push + release durability VERIFIED end-to-end: workbench main = c42ab03 + 43eace2 (reconstructed tree of deployed 34ed7e3, provenance in RELEASE-NOTES); release t-c04-r3-8 33/33 assets hash-verified.
+- Single remaining UNVERIFIED item (unchanged from verdict): operator click-through of the platform preview URL (public-hostname routing is operator-side control-plane state). After that check, R3-8 GREEN is unconditional; first-teacher onboarding remains a SEPARATE decision.
