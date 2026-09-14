@@ -1,0 +1,812 @@
+{
+ "igcse-chemistry-4ch0-1c-2011jun": {
+  "session": "igcse-chemistry-4ch0-1c-2011jun",
+  "status": "DUPLICATE",
+  "paperId": "fdccde9f-e87b-4412-b28a-1e64c3f92eeb",
+  "questions": 11,
+  "parts": 92,
+  "markPoints": 43,
+  "embeddingSkipped": true,
+  "findings": 63
+ },
+ "igcse-chemistry-4ch0-1c-2012jan": {
+  "session": "igcse-chemistry-4ch0-1c-2012jan",
+  "status": "DUPLICATE",
+  "paperId": "73ba98b3-8bed-4fe9-a3dd-bff77ee9ace0",
+  "questions": 11,
+  "parts": 85,
+  "markPoints": 25,
+  "embeddingSkipped": true,
+  "findings": 97
+ },
+ "igcse-chemistry-4ch0-1c-2012jun": {
+  "session": "igcse-chemistry-4ch0-1c-2012jun",
+  "status": "DUPLICATE",
+  "paperId": "4ff41810-8e47-42ed-849e-47d6ee92e627",
+  "questions": 13,
+  "parts": 77,
+  "markPoints": 48,
+  "embeddingSkipped": true,
+  "findings": 77
+ },
+ "igcse-chemistry-4ch0-1c-2013jan": {
+  "session": "igcse-chemistry-4ch0-1c-2013jan",
+  "status": "DUPLICATE",
+  "paperId": "a81bc1e8-74d9-4ffb-ad82-11cad0c0737e",
+  "questions": 10,
+  "parts": 85,
+  "markPoints": 24,
+  "embeddingSkipped": true,
+  "findings": 110
+ },
+ "igcse-chemistry-4ch0-1c-2013jun": {
+  "session": "igcse-chemistry-4ch0-1c-2013jun",
+  "status": "DUPLICATE",
+  "paperId": "31ad242a-43c6-4246-a158-bd79f586994a",
+  "questions": 11,
+  "parts": 97,
+  "markPoints": 14,
+  "embeddingSkipped": true,
+  "findings": 120
+ },
+ "igcse-chemistry-4ch0-1c-2014jan": {
+  "session": "igcse-chemistry-4ch0-1c-2014jan",
+  "status": "DUPLICATE",
+  "paperId": "f550479a-0c0d-4aed-8ec0-e9d2694cbc81",
+  "questions": 14,
+  "parts": 73,
+  "markPoints": 57,
+  "embeddingSkipped": true,
+  "findings": 49
+ },
+ "igcse-chemistry-4ch0-1c-2014jun": {
+  "session": "igcse-chemistry-4ch0-1c-2014jun",
+  "status": "DUPLICATE",
+  "paperId": "0494f765-5f3f-41c7-9173-241ee7ee0d16",
+  "questions": 15,
+  "parts": 75,
+  "markPoints": 49,
+  "embeddingSkipped": true,
+  "findings": 73
+ },
+ "igcse-chemistry-4ch0-1c-2014junr": {
+  "session": "igcse-chemistry-4ch0-1c-2014junr",
+  "status": "INGESTED",
+  "paperId": "60054b96-4e60-4245-9897-6ce278bf131e",
+  "questions": 10,
+  "parts": 97,
+  "markPoints": 21,
+  "embeddingSkipped": true,
+  "findings": 69
+ },
+ "igcse-chemistry-4ch0-1c-2015jun": {
+  "session": "igcse-chemistry-4ch0-1c-2015jun",
+  "status": "DUPLICATE",
+  "paperId": "2b234bde-3d89-458e-9a43-b0288437dd5c",
+  "questions": 11,
+  "parts": 98,
+  "markPoints": 1,
+  "embeddingSkipped": true,
+  "findings": 143
+ },
+ "igcse-chemistry-4ch0-1c-2016jun": {
+  "session": "igcse-chemistry-4ch0-1c-2016jun",
+  "status": "DUPLICATE",
+  "paperId": "1db58ecb-d735-40de-8062-bc031fd37d5b",
+  "questions": 16,
+  "parts": 84,
+  "markPoints": 75,
+  "embeddingSkipped": true,
+  "findings": 34
+ },
+ "igcse-chemistry-4ch0-1c-2016junr": {
+  "session": "igcse-chemistry-4ch0-1c-2016junr",
+  "status": "DUPLICATE",
+  "paperId": "1995f447-d824-4ae7-bf9a-590ff2cff5b3",
+  "questions": 12,
+  "parts": 81,
+  "markPoints": 0,
+  "embeddingSkipped": true,
+  "findings": 157
+ },
+ "igcse-chemistry-4ch0-1c-2017jan": {
+  "session": "igcse-chemistry-4ch0-1c-2017jan",
+  "status": "DUPLICATE",
+  "paperId": "31236989-60fe-4dd9-b7c8-b86160f8a14e",
+  "questions": 11,
+  "parts": 72,
+  "markPoints": 39,
+  "embeddingSkipped": true,
+  "findings": 55
+ },
+ "igcse-chemistry-4ch0-1c-2017jun": {
+  "session": "igcse-chemistry-4ch0-1c-2017jun",
+  "status": "DUPLICATE",
+  "paperId": "e97797b8-6c19-4380-8f67-ee39a703b76e",
+  "questions": 11,
+  "parts": 75,
+  "markPoints": 54,
+  "embeddingSkipped": true,
+  "findings": 29
+ },
+ "igcse-chemistry-4ch0-1c-2017junr": {
+  "session": "igcse-chemistry-4ch0-1c-2017junr",
+  "status": "DUPLICATE",
+  "paperId": "a29dfbd8-54c4-41b0-97ec-8fa8fe94b966",
+  "questions": 15,
+  "parts": 86,
+  "markPoints": 74,
+  "embeddingSkipped": true,
+  "findings": 34
+ },
+ "igcse-chemistry-4ch0-1c-2018jan": {
+  "session": "igcse-chemistry-4ch0-1c-2018jan",
+  "status": "DUPLICATE",
+  "paperId": "863487b3-2ee3-48cc-ab83-753ca476448c",
+  "questions": 16,
+  "parts": 86,
+  "markPoints": 63,
+  "embeddingSkipped": true,
+  "findings": 37
+ },
+ "igcse-chemistry-4ch0-1c-2018jun": {
+  "session": "igcse-chemistry-4ch0-1c-2018jun",
+  "status": "DUPLICATE",
+  "paperId": "90975a33-63b4-4d32-bbe0-eed99a60ab26",
+  "questions": 15,
+  "parts": 80,
+  "markPoints": 75,
+  "embeddingSkipped": true,
+  "findings": 23
+ },
+ "igcse-chemistry-4ch0-1c-2019jan": {
+  "session": "igcse-chemistry-4ch0-1c-2019jan",
+  "status": "DUPLICATE",
+  "paperId": "0395a8cb-ead0-43fc-8317-ba27de481e9c",
+  "questions": 10,
+  "parts": 85,
+  "markPoints": 39,
+  "embeddingSkipped": true,
+  "findings": 46
+ },
+ "igcse-chemistry-4ch0-1c-2019jun": {
+  "session": "igcse-chemistry-4ch0-1c-2019jun",
+  "status": "DUPLICATE",
+  "paperId": "0924a1fe-8672-413d-9b37-25c2e6f303de",
+  "questions": 15,
+  "parts": 71,
+  "markPoints": 6,
+  "embeddingSkipped": true,
+  "findings": 123
+ },
+ "igcse-chemistry-4ch0-1c-2019junr": {
+  "session": "igcse-chemistry-4ch0-1c-2019junr",
+  "status": "INGESTED",
+  "paperId": "c0c8b771-9367-4257-975e-927ccb2959e1",
+  "questions": 10,
+  "parts": 66,
+  "markPoints": 11,
+  "embeddingSkipped": true,
+  "findings": 87
+ },
+ "igcse-chemistry-4ch0-1c-2020jan": {
+  "session": "igcse-chemistry-4ch0-1c-2020jan",
+  "status": "DUPLICATE",
+  "paperId": "2be80aaf-ef8f-47b8-8063-52788f2c4ff8",
+  "questions": 10,
+  "parts": 72,
+  "markPoints": 51,
+  "embeddingSkipped": true,
+  "findings": 27
+ },
+ "igcse-chemistry-4ch0-1c-2020janr": {
+  "session": "igcse-chemistry-4ch0-1c-2020janr",
+  "status": "INGESTED",
+  "paperId": "5378cfc1-c063-4d07-9c45-f63d27b6c6b4",
+  "questions": 11,
+  "parts": 68,
+  "markPoints": 11,
+  "embeddingSkipped": true,
+  "findings": 57
+ },
+ "igcse-chemistry-4ch0-1c-2020jun": {
+  "session": "igcse-chemistry-4ch0-1c-2020jun",
+  "status": "DUPLICATE",
+  "paperId": "060f40c2-eb7b-410c-a593-947fe096c9c2",
+  "questions": 10,
+  "parts": 72,
+  "markPoints": 49,
+  "embeddingSkipped": true,
+  "findings": 18
+ },
+ "igcse-chemistry-4ch0-1c-2020junr": {
+  "session": "igcse-chemistry-4ch0-1c-2020junr",
+  "status": "DUPLICATE",
+  "paperId": "364e20fe-9441-4428-bfd4-e09e494d37ee",
+  "questions": 10,
+  "parts": 71,
+  "markPoints": 47,
+  "embeddingSkipped": true,
+  "findings": 31
+ },
+ "igcse-chemistry-4ch0-1c-2021jan": {
+  "session": "igcse-chemistry-4ch0-1c-2021jan",
+  "status": "DUPLICATE",
+  "paperId": "dbce6727-b3c0-4e3c-8d5b-521593d1512a",
+  "questions": 11,
+  "parts": 60,
+  "markPoints": 37,
+  "embeddingSkipped": true,
+  "findings": 35
+ },
+ "igcse-chemistry-4ch0-1c-2021janr": {
+  "session": "igcse-chemistry-4ch0-1c-2021janr",
+  "status": "DUPLICATE",
+  "paperId": "02920f96-acb9-4b81-9a61-5e3c068a783c",
+  "questions": 10,
+  "parts": 66,
+  "markPoints": 47,
+  "embeddingSkipped": true,
+  "findings": 22
+ },
+ "igcse-chemistry-4ch0-1c-2021jun": {
+  "session": "igcse-chemistry-4ch0-1c-2021jun",
+  "status": "DUPLICATE",
+  "paperId": "c30856ff-9a6f-478a-970b-2c9e2c8f4c51",
+  "questions": 10,
+  "parts": 59,
+  "markPoints": 37,
+  "embeddingSkipped": true,
+  "findings": 27
+ },
+ "igcse-chemistry-4ch0-1c-2021nov": {
+  "session": "igcse-chemistry-4ch0-1c-2021nov",
+  "status": "DUPLICATE",
+  "paperId": "84dbb606-faf4-47fb-a09b-506e4ee8c161",
+  "questions": 11,
+  "parts": 77,
+  "markPoints": 51,
+  "embeddingSkipped": true,
+  "findings": 43
+ },
+ "igcse-chemistry-4ch0-1c-2022jan": {
+  "session": "igcse-chemistry-4ch0-1c-2022jan",
+  "status": "DUPLICATE",
+  "paperId": "cd78e165-65db-4af6-9434-ed09ef3b0b3f",
+  "questions": 11,
+  "parts": 78,
+  "markPoints": 49,
+  "embeddingSkipped": true,
+  "findings": 35
+ },
+ "igcse-chemistry-4ch0-1c-2022janr": {
+  "session": "igcse-chemistry-4ch0-1c-2022janr",
+  "status": "DUPLICATE",
+  "paperId": "f70cb051-2c0f-4755-8aa7-3ab6979fca00",
+  "questions": 11,
+  "parts": 64,
+  "markPoints": 51,
+  "embeddingSkipped": true,
+  "findings": 21
+ },
+ "igcse-chemistry-4ch0-1c-2022jun": {
+  "session": "igcse-chemistry-4ch0-1c-2022jun",
+  "status": "DUPLICATE",
+  "paperId": "ce7d191b-9331-4b2c-85ee-23d19f0d30bc",
+  "questions": 10,
+  "parts": 70,
+  "markPoints": 53,
+  "embeddingSkipped": true,
+  "findings": 17
+ },
+ "igcse-chemistry-4ch0-1c-2022junr": {
+  "session": "igcse-chemistry-4ch0-1c-2022junr",
+  "status": "DUPLICATE",
+  "paperId": "e0dfa4c1-79eb-4bde-b22b-e19ca6f1a94a",
+  "questions": 11,
+  "parts": 63,
+  "markPoints": 44,
+  "embeddingSkipped": true,
+  "findings": 34
+ },
+ "igcse-chemistry-4ch0-1c-2023jan": {
+  "session": "igcse-chemistry-4ch0-1c-2023jan",
+  "status": "DUPLICATE",
+  "paperId": "f67a265b-eb8a-44b7-b40b-3dd64fea8bbf",
+  "questions": 12,
+  "parts": 71,
+  "markPoints": 44,
+  "embeddingSkipped": true,
+  "findings": 33
+ },
+ "igcse-chemistry-4ch0-1c-2023janr": {
+  "session": "igcse-chemistry-4ch0-1c-2023janr",
+  "status": "DUPLICATE",
+  "paperId": "8b81eacb-3684-4390-8072-a28dab478b11",
+  "questions": 10,
+  "parts": 68,
+  "markPoints": 33,
+  "embeddingSkipped": true,
+  "findings": 38
+ },
+ "igcse-chemistry-4ch0-1c-2023jun": {
+  "session": "igcse-chemistry-4ch0-1c-2023jun",
+  "status": "DUPLICATE",
+  "paperId": "3eca1130-420c-4310-b864-4241c8dac2ef",
+  "questions": 10,
+  "parts": 67,
+  "markPoints": 40,
+  "embeddingSkipped": true,
+  "findings": 42
+ },
+ "igcse-chemistry-4ch0-1c-2023junr": {
+  "session": "igcse-chemistry-4ch0-1c-2023junr",
+  "status": "DUPLICATE",
+  "paperId": "916acb01-5d94-4682-b694-f0d9ab48b2c3",
+  "questions": 11,
+  "parts": 67,
+  "markPoints": 39,
+  "embeddingSkipped": true,
+  "findings": 48
+ },
+ "igcse-chemistry-4ch0-1c-2024jun": {
+  "session": "igcse-chemistry-4ch0-1c-2024jun",
+  "status": "DUPLICATE",
+  "paperId": "a7aa6a5f-30c4-4eb9-ac1c-45c4898b8a5d",
+  "questions": 10,
+  "parts": 70,
+  "markPoints": 49,
+  "embeddingSkipped": true,
+  "findings": 18
+ },
+ "igcse-chemistry-4ch0-1c-2024junr": {
+  "session": "igcse-chemistry-4ch0-1c-2024junr",
+  "status": "DUPLICATE",
+  "paperId": "fc5548e5-aaf2-4da1-8cd3-ffb622255235",
+  "questions": 12,
+  "parts": 66,
+  "markPoints": 46,
+  "embeddingSkipped": true,
+  "findings": 29
+ },
+ "igcse-chemistry-4ch0-1c-specimen2017": {
+  "session": "igcse-chemistry-4ch0-1c-specimen2017",
+  "status": "DUPLICATE",
+  "paperId": "fd1bf331-138c-4872-a92e-17d613c11924",
+  "questions": 11,
+  "parts": 74,
+  "markPoints": 117,
+  "embeddingSkipped": true,
+  "findings": 15
+ },
+ "igcse-chemistry-4ch0-2c-2011jun": {
+  "session": "igcse-chemistry-4ch0-2c-2011jun",
+  "status": "DUPLICATE",
+  "paperId": "7041ab60-1e67-4b7a-917e-7896ea0a0edf",
+  "questions": 8,
+  "parts": 40,
+  "markPoints": 27,
+  "embeddingSkipped": true,
+  "findings": 29
+ },
+ "igcse-chemistry-4ch0-2c-2012jan": {
+  "session": "igcse-chemistry-4ch0-2c-2012jan",
+  "status": "DUPLICATE",
+  "paperId": "6cb01d0f-e130-4ca4-b498-e8357708c736",
+  "questions": 8,
+  "parts": 46,
+  "markPoints": 28,
+  "embeddingSkipped": true,
+  "findings": 26
+ },
+ "igcse-chemistry-4ch0-2c-2012jun": {
+  "session": "igcse-chemistry-4ch0-2c-2012jun",
+  "status": "DUPLICATE",
+  "paperId": "0ab7b37c-7567-41f2-a902-32aeed7977ff",
+  "questions": 5,
+  "parts": 52,
+  "markPoints": 12,
+  "embeddingSkipped": true,
+  "findings": 49
+ },
+ "igcse-chemistry-4ch0-2c-2013jan": {
+  "session": "igcse-chemistry-4ch0-2c-2013jan",
+  "status": "DUPLICATE",
+  "paperId": "38aeec70-d6e1-4bd6-9eb3-173c4dd5eff8",
+  "questions": 7,
+  "parts": 43,
+  "markPoints": 24,
+  "embeddingSkipped": true,
+  "findings": 31
+ },
+ "igcse-chemistry-4ch0-2c-2013jun": {
+  "session": "igcse-chemistry-4ch0-2c-2013jun",
+  "status": "DUPLICATE",
+  "paperId": "e7e03906-1a3f-4d2f-b98b-16fa2397d874",
+  "questions": 7,
+  "parts": 36,
+  "markPoints": 24,
+  "embeddingSkipped": true,
+  "findings": 36
+ },
+ "igcse-chemistry-4ch0-2c-2013junr": {
+  "session": "igcse-chemistry-4ch0-2c-2013junr",
+  "status": "DUPLICATE",
+  "paperId": "cb2c0cf8-f60a-4a15-a244-d356cbb3899b",
+  "questions": 6,
+  "parts": 38,
+  "markPoints": 14,
+  "embeddingSkipped": true,
+  "findings": 42
+ },
+ "igcse-chemistry-4ch0-2c-2014jan": {
+  "session": "igcse-chemistry-4ch0-2c-2014jan",
+  "status": "DUPLICATE",
+  "paperId": "7f3ecd08-5682-419e-9d68-e2acfcaf202e",
+  "questions": 5,
+  "parts": 45,
+  "markPoints": 9,
+  "embeddingSkipped": true,
+  "findings": 54
+ },
+ "igcse-chemistry-4ch0-2c-2014jun": {
+  "session": "igcse-chemistry-4ch0-2c-2014jun",
+  "status": "DUPLICATE",
+  "paperId": "93c7eb86-8c7e-406a-88a2-c98e058be1e1",
+  "questions": 8,
+  "parts": 40,
+  "markPoints": 15,
+  "embeddingSkipped": true,
+  "findings": 30
+ },
+ "igcse-chemistry-4ch0-2c-2014junr": {
+  "session": "igcse-chemistry-4ch0-2c-2014junr",
+  "status": "INGESTED",
+  "paperId": "da53c201-4cc2-4828-9dd5-4f47ae542085",
+  "questions": 6,
+  "parts": 48,
+  "markPoints": 0,
+  "embeddingSkipped": true,
+  "findings": 62
+ },
+ "igcse-chemistry-4ch0-2c-2015jan": {
+  "session": "igcse-chemistry-4ch0-2c-2015jan",
+  "status": "INGESTED",
+  "paperId": "aeea7975-70e9-4c21-bb02-6184fbd9eff4",
+  "questions": 9,
+  "parts": 28,
+  "markPoints": 9,
+  "embeddingSkipped": true,
+  "findings": 25
+ },
+ "igcse-chemistry-4ch0-2c-2015jun": {
+  "session": "igcse-chemistry-4ch0-2c-2015jun",
+  "status": "INGESTED",
+  "paperId": "cb3a9474-cd78-424b-bede-688966c6b564",
+  "questions": 6,
+  "parts": 48,
+  "markPoints": 10,
+  "embeddingSkipped": true,
+  "findings": 45
+ },
+ "igcse-chemistry-4ch0-2c-2016jan": {
+  "session": "igcse-chemistry-4ch0-2c-2016jan",
+  "status": "DUPLICATE",
+  "paperId": "2f6675a3-925b-40ea-9407-e6d2a3c9ed46",
+  "questions": 7,
+  "parts": 38,
+  "markPoints": 12,
+  "embeddingSkipped": true,
+  "findings": 23
+ },
+ "igcse-chemistry-4ch0-2c-2016junr": {
+  "session": "igcse-chemistry-4ch0-2c-2016junr",
+  "status": "DUPLICATE",
+  "paperId": "c41dad58-957f-4254-94ed-f26cf1d7b5ed",
+  "questions": 7,
+  "parts": 40,
+  "markPoints": 0,
+  "embeddingSkipped": true,
+  "findings": 67
+ },
+ "igcse-chemistry-4ch0-2c-2017jan": {
+  "session": "igcse-chemistry-4ch0-2c-2017jan",
+  "status": "DUPLICATE",
+  "paperId": "a14b48ef-23e3-4cd2-881a-5ee8b96bb172",
+  "questions": 8,
+  "parts": 44,
+  "markPoints": 34,
+  "embeddingSkipped": true,
+  "findings": 12
+ },
+ "igcse-chemistry-4ch0-2c-2017jun": {
+  "session": "igcse-chemistry-4ch0-2c-2017jun",
+  "status": "DUPLICATE",
+  "paperId": "0a94f411-b2c4-4db8-ba22-150a4560c31c",
+  "questions": 5,
+  "parts": 38,
+  "markPoints": 29,
+  "embeddingSkipped": true,
+  "findings": 19
+ },
+ "igcse-chemistry-4ch0-2c-2017junr": {
+  "session": "igcse-chemistry-4ch0-2c-2017junr",
+  "status": "DUPLICATE",
+  "paperId": "c2dab965-b9e9-4ca9-a37c-74a557e9b3b5",
+  "questions": 8,
+  "parts": 42,
+  "markPoints": 27,
+  "embeddingSkipped": true,
+  "findings": 21
+ },
+ "igcse-chemistry-4ch0-2c-2018jan": {
+  "session": "igcse-chemistry-4ch0-2c-2018jan",
+  "status": "DUPLICATE",
+  "paperId": "2852f64f-29ff-427d-aa0e-55a612a66cd3",
+  "questions": 7,
+  "parts": 39,
+  "markPoints": 34,
+  "embeddingSkipped": true,
+  "findings": 6
+ },
+ "igcse-chemistry-4ch0-2c-2018jun": {
+  "session": "igcse-chemistry-4ch0-2c-2018jun",
+  "status": "DUPLICATE",
+  "paperId": "73990d4b-8751-4fd3-ac37-2d65144cda44",
+  "questions": 9,
+  "parts": 48,
+  "markPoints": 39,
+  "embeddingSkipped": true,
+  "findings": 14
+ },
+ "igcse-chemistry-4ch0-2c-2019jan": {
+  "session": "igcse-chemistry-4ch0-2c-2019jan",
+  "status": "DUPLICATE",
+  "paperId": "59fc6548-9896-4acd-8624-21c6e01cde08",
+  "questions": 10,
+  "parts": 37,
+  "markPoints": 22,
+  "embeddingSkipped": true,
+  "findings": 54
+ },
+ "igcse-chemistry-4ch0-2c-2019jun": {
+  "session": "igcse-chemistry-4ch0-2c-2019jun",
+  "status": "DUPLICATE",
+  "paperId": "8b1a3959-9661-42c6-ae53-fca65ef6f44f",
+  "questions": 8,
+  "parts": 45,
+  "markPoints": 32,
+  "embeddingSkipped": true,
+  "findings": 19
+ },
+ "igcse-chemistry-4ch0-2c-2020jan": {
+  "session": "igcse-chemistry-4ch0-2c-2020jan",
+  "status": "DUPLICATE",
+  "paperId": "a6cb40f8-0c74-451d-9b97-405e9d64fbcc",
+  "questions": 7,
+  "parts": 47,
+  "markPoints": 19,
+  "embeddingSkipped": true,
+  "findings": 34
+ },
+ "igcse-chemistry-4ch0-2c-2020janr": {
+  "session": "igcse-chemistry-4ch0-2c-2020janr",
+  "status": "DUPLICATE",
+  "paperId": "6a50e784-ae71-4756-b932-40b8f0371094",
+  "questions": 7,
+  "parts": 43,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 15
+ },
+ "igcse-chemistry-4ch0-2c-2020jun": {
+  "session": "igcse-chemistry-4ch0-2c-2020jun",
+  "status": "DUPLICATE",
+  "paperId": "d8203c55-773e-4c22-bcb4-4ef17d41c5a1",
+  "questions": 7,
+  "parts": 41,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 8
+ },
+ "igcse-chemistry-4ch0-2c-2020junr": {
+  "session": "igcse-chemistry-4ch0-2c-2020junr",
+  "status": "DUPLICATE",
+  "paperId": "a09c8a70-1581-42a4-97e3-54171c319ee5",
+  "questions": 7,
+  "parts": 29,
+  "markPoints": 25,
+  "embeddingSkipped": true,
+  "findings": 17
+ },
+ "igcse-chemistry-4ch0-2c-2021jan": {
+  "session": "igcse-chemistry-4ch0-2c-2021jan",
+  "status": "DUPLICATE",
+  "paperId": "f10c6814-c4ce-425d-afb6-3501eb5f06e1",
+  "questions": 7,
+  "parts": 48,
+  "markPoints": 34,
+  "embeddingSkipped": true,
+  "findings": 12
+ },
+ "igcse-chemistry-4ch0-2c-2021janr": {
+  "session": "igcse-chemistry-4ch0-2c-2021janr",
+  "status": "DUPLICATE",
+  "paperId": "73b3c496-6190-4ad9-9a54-9cd62b4fc01c",
+  "questions": 8,
+  "parts": 53,
+  "markPoints": 39,
+  "embeddingSkipped": true,
+  "findings": 18
+ },
+ "igcse-chemistry-4ch0-2c-2021jun": {
+  "session": "igcse-chemistry-4ch0-2c-2021jun",
+  "status": "DUPLICATE",
+  "paperId": "b1068e09-d65d-42b5-b225-b53637e1dc5c",
+  "questions": 7,
+  "parts": 52,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 29
+ },
+ "igcse-chemistry-4ch0-2c-2021nov": {
+  "session": "igcse-chemistry-4ch0-2c-2021nov",
+  "status": "DUPLICATE",
+  "paperId": "e850e6fe-4d43-41b1-97b1-ef6845ef5caf",
+  "questions": 7,
+  "parts": 47,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 16
+ },
+ "igcse-chemistry-4ch0-2c-2022jan": {
+  "session": "igcse-chemistry-4ch0-2c-2022jan",
+  "status": "DUPLICATE",
+  "paperId": "683a73cd-6129-4376-af25-5fdb2f091a5c",
+  "questions": 7,
+  "parts": 53,
+  "markPoints": 18,
+  "embeddingSkipped": true,
+  "findings": 35
+ },
+ "igcse-chemistry-4ch0-2c-2022janr": {
+  "session": "igcse-chemistry-4ch0-2c-2022janr",
+  "status": "DUPLICATE",
+  "paperId": "3638b166-faea-4ad0-8aa7-06be702d10ae",
+  "questions": 7,
+  "parts": 42,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 12
+ },
+ "igcse-chemistry-4ch0-2c-2022jun": {
+  "session": "igcse-chemistry-4ch0-2c-2022jun",
+  "status": "DUPLICATE",
+  "paperId": "9c3b63a0-cda1-4f16-bd4e-f1801fb4fc0b",
+  "questions": 7,
+  "parts": 44,
+  "markPoints": 29,
+  "embeddingSkipped": true,
+  "findings": 20
+ },
+ "igcse-chemistry-4ch0-2c-2022junr": {
+  "session": "igcse-chemistry-4ch0-2c-2022junr",
+  "status": "DUPLICATE",
+  "paperId": "ba8eb78c-625b-45dc-986b-1ae3409541f4",
+  "questions": 7,
+  "parts": 47,
+  "markPoints": 25,
+  "embeddingSkipped": true,
+  "findings": 32
+ },
+ "igcse-chemistry-4ch0-2c-2023jan": {
+  "session": "igcse-chemistry-4ch0-2c-2023jan",
+  "status": "DUPLICATE",
+  "paperId": "4f8ab80f-f435-4747-9511-6f30bf91d1fa",
+  "questions": 7,
+  "parts": 44,
+  "markPoints": 28,
+  "embeddingSkipped": true,
+  "findings": 17
+ },
+ "igcse-chemistry-4ch0-2c-2023janr": {
+  "session": "igcse-chemistry-4ch0-2c-2023janr",
+  "status": "DUPLICATE",
+  "paperId": "69413d94-8ed5-4444-8c46-75fe2aa80822",
+  "questions": 8,
+  "parts": 42,
+  "markPoints": 36,
+  "embeddingSkipped": true,
+  "findings": 16
+ },
+ "igcse-chemistry-4ch0-2c-2023jun": {
+  "session": "igcse-chemistry-4ch0-2c-2023jun",
+  "status": "DUPLICATE",
+  "paperId": "9957a86a-3cae-4f58-893c-24f961f21990",
+  "questions": 7,
+  "parts": 47,
+  "markPoints": 41,
+  "embeddingSkipped": true,
+  "findings": 14
+ },
+ "igcse-chemistry-4ch0-2c-2023junr": {
+  "session": "igcse-chemistry-4ch0-2c-2023junr",
+  "status": "DUPLICATE",
+  "paperId": "55d9f002-73e1-4072-b73a-0147a78025d6",
+  "questions": 7,
+  "parts": 38,
+  "markPoints": 33,
+  "embeddingSkipped": true,
+  "findings": 16
+ },
+ "igcse-chemistry-4ch0-2c-2024jun": {
+  "session": "igcse-chemistry-4ch0-2c-2024jun",
+  "status": "DUPLICATE",
+  "paperId": "7ee45299-7584-410a-b360-ea07f7ceb9d0",
+  "questions": 7,
+  "parts": 45,
+  "markPoints": 31,
+  "embeddingSkipped": true,
+  "findings": 19
+ },
+ "igcse-chemistry-4ch0-2c-specimen2017": {
+  "session": "igcse-chemistry-4ch0-2c-specimen2017",
+  "status": "DUPLICATE",
+  "paperId": "23ef5e6e-7cd2-4180-94d5-f180af2cca22",
+  "questions": 9,
+  "parts": 46,
+  "markPoints": 80,
+  "embeddingSkipped": true,
+  "findings": 9
+ },
+ "igcse-chemistry-4ch0-1c-2015jan": {
+  "session": "igcse-chemistry-4ch0-1c-2015jan",
+  "status": "DUPLICATE",
+  "paperId": "ad069fa9-3eb4-47b7-891c-784365aa1c45",
+  "questions": 12,
+  "parts": 90,
+  "markPoints": 1,
+  "embeddingSkipped": true,
+  "findings": 123
+ },
+ "igcse-chemistry-4ch0-1c-2013junr": {
+  "session": "igcse-chemistry-4ch0-1c-2013junr",
+  "status": "INGESTED",
+  "paperId": "0e3d9cfa-dc8b-447f-9856-40440a0c9e53",
+  "questions": 11,
+  "parts": 86,
+  "markPoints": 9,
+  "embeddingSkipped": true,
+  "findings": 112
+ },
+ "igcse-chemistry-4ch0-2c-2016jun": {
+  "session": "igcse-chemistry-4ch0-2c-2016jun",
+  "status": "INGESTED",
+  "paperId": "6b5dc788-7de9-4148-a24e-afedaae165fb",
+  "questions": 8,
+  "parts": 42,
+  "markPoints": 8,
+  "embeddingSkipped": true,
+  "findings": 40
+ },
+ "igcse-chemistry-4ch0-2c-2019junr": {
+  "session": "igcse-chemistry-4ch0-2c-2019junr",
+  "status": "INGESTED",
+  "paperId": "cfccc663-8aef-4a20-90b4-1205b3e740b5",
+  "questions": 7,
+  "parts": 46,
+  "markPoints": 11,
+  "embeddingSkipped": true,
+  "findings": 28
+ },
+ "igcse-chemistry-4ch0-2c-2024junr": {
+  "session": "igcse-chemistry-4ch0-2c-2024junr",
+  "status": "INGESTED",
+  "paperId": "f2afb69f-3cf0-46ff-a62b-20066eacb5eb",
+  "questions": 7,
+  "parts": 45,
+  "markPoints": 6,
+  "embeddingSkipped": true,
+  "findings": 59
+ }
+}

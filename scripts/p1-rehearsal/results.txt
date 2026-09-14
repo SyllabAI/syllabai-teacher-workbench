@@ -1,0 +1,42 @@
+== DB totals before (papers/versions/validated/attempts): 0/8/8/0
+[PASS] rehearsal core boots + healthy (got 1)
+[PASS] Flyway V19 bootstrap_admin_state table present (got t)
+[PASS] bootstrap status initially available (got {"available":true})
+[PASS] weak password claim refused (got 400)
+[PASS] first-admin claim succeeds (got 200)
+[PASS] claimant roles = ADMIN+TEACHER (got ['ADMIN', 'TEACHER'])
+[PASS] second claim refused (window consumed) (got 409)
+[PASS] bootstrap status now closed (got {"available":false})
+[PASS] review-queue anonymous -> 401 (got 401)
+[PASS] review-queue as teacher -> 200 (got 200)
+[PASS] review-queue as student -> 403 (got 403)
+[PASS] 2011jun ingested (got INGESTED)
+[PASS] 2011jun question count (got 11)
+[PASS] 2011jun parts count (got 92)
+[PASS] 2011jun mark points (got 14)
+[PASS] 2011jun embedding skipped (got True)
+[PASS] 2012jan ingested (got INGESTED)
+[PASS] 2012jan parts count (got 85)
+[PASS] 2011jun re-run deduped (got DUPLICATE)
+== 4CH1 subject: 
+[PASS] student sees 2 subject papers (got 2)
+[PASS] papers are SUGGESTED (got SUGGESTED)
+[PASS] paper detail metadata-only (no answer leak) (got False)
+== 2011jun review: 11 versions, 11 schemes
+[PASS] teacher review carries answer/marking evidence (got True)
+[PASS] review-queue lists 2 suggested papers (got 2)
+[PASS] structured attempt on SUGGESTED question refused (got 404)
+[PASS] MCQ attempt on SUGGESTED structured question refused (got 404)
+[PASS] paper validate refused while versions unvalidated (got 409)
+== validated 11 versions + 11 schemes
+[PASS] all 2011jun versions validated (got 11)
+[PASS] paper validate succeeds once versions done (got 200)
+[PASS] paper state reflected to student view (got VALIDATED)
+== student question view parts: 9
+[PASS] structured attempt on VALIDATED question accepted (got 201)
+[PASS] attempt enters PENDING marking (got PENDING)
+== history entries: 1
+[PASS] learner history records the attempt (got 1)
+[PASS] review-queue shrinks to 1 paper (got 1)
+== DB totals after (papers/versions/validated/attempts): 2/30/19/1
+== REHEARSAL VERDICT: 34 PASS / 0 FAIL

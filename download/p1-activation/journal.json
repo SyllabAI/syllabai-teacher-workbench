@@ -1,0 +1,184 @@
+{
+ "started": "2026-09-14T12:26:29Z",
+ "steps": [
+  {
+   "t": "12:26:30",
+   "kind": "deploy_detected",
+   "available": true
+  },
+  {
+   "t": "12:26:39",
+   "kind": "claimed",
+   "roles": [
+    "ADMIN",
+    "TEACHER"
+   ],
+   "email": "admin@syllabai.dev"
+  },
+  {
+   "t": "12:26:39",
+   "kind": "window_closed",
+   "available": false
+  },
+  {
+   "t": "12:26:43",
+   "kind": "student_probe",
+   "registered": true,
+   "teacher_route_code": 403
+  },
+  {
+   "t": "12:26:43",
+   "kind": "ingest_plan",
+   "total_bundles": 82,
+   "quarantined": [
+    "igcse-chemistry-4ch0-1c-2016jan"
+   ],
+   "to_ingest": 81
+  },
+  {
+   "t": "12:27:23",
+   "kind": "pair_http_error",
+   "session": "igcse-chemistry-4ch0-1c-2013junr",
+   "code": 500,
+   "body": {
+    "_error": "{\"status\":500,\"error\":\"internal_error\",\"message\":\"an internal error occurred\",\"timestamp\":\"2026-09-14T12:27:22.796517443Z\"}"
+   }
+  },
+  {
+   "t": "12:27:55",
+   "kind": "pair_http_error",
+   "session": "igcse-chemistry-4ch0-1c-2015jan",
+   "code": 502,
+   "body": {
+    "_error": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>502</title>\n    <style>@font-face {\n  font-family: \"Roobert\";\n  font-weight: 500;\n  font-style: normal;\n  font-stretch: normal;\n  src: url(\"data:fo"
+   }
+  },
+  {
+   "t": "12:28:53",
+   "kind": "ingest_progress",
+   "at": 20,
+   "ingested": 1,
+   "duplicate": 17,
+   "errors": 2
+  },
+  {
+   "t": "12:29:59",
+   "kind": "ingest_progress",
+   "at": 30,
+   "ingested": 3,
+   "duplicate": 25,
+   "errors": 2
+  },
+  {
+   "t": "12:30:41",
+   "kind": "ingest_progress",
+   "at": 40,
+   "ingested": 3,
+   "duplicate": 35,
+   "errors": 2
+  },
+  {
+   "t": "12:31:26",
+   "kind": "ingest_progress",
+   "at": 50,
+   "ingested": 5,
+   "duplicate": 43,
+   "errors": 2
+  },
+  {
+   "t": "12:31:47",
+   "kind": "pair_http_error",
+   "session": "igcse-chemistry-4ch0-2c-2016jun",
+   "code": 500,
+   "body": {
+    "_error": "{\"status\":500,\"error\":\"internal_error\",\"message\":\"an internal error occurred\",\"timestamp\":\"2026-09-14T12:31:47.409926565Z\"}"
+   }
+  },
+  {
+   "t": "12:32:10",
+   "kind": "ingest_progress",
+   "at": 60,
+   "ingested": 6,
+   "duplicate": 51,
+   "errors": 3
+  },
+  {
+   "t": "12:32:20",
+   "kind": "pair_http_error",
+   "session": "igcse-chemistry-4ch0-2c-2019junr",
+   "code": 500,
+   "body": {
+    "_error": "{\"status\":500,\"error\":\"internal_error\",\"message\":\"an internal error occurred\",\"timestamp\":\"2026-09-14T12:32:20.362320359Z\"}"
+   }
+  },
+  {
+   "t": "12:32:47",
+   "kind": "ingest_progress",
+   "at": 70,
+   "ingested": 6,
+   "duplicate": 60,
+   "errors": 4
+  },
+  {
+   "t": "12:33:26",
+   "kind": "pair_http_error",
+   "session": "igcse-chemistry-4ch0-2c-2024junr",
+   "code": 500,
+   "body": {
+    "_error": "{\"status\":500,\"error\":\"internal_error\",\"message\":\"an internal error occurred\",\"timestamp\":\"2026-09-14T12:33:26.166943644Z\"}"
+   }
+  },
+  {
+   "t": "12:33:29",
+   "kind": "ingest_complete",
+   "ingested": 6,
+   "duplicate": 70,
+   "errors": 5
+  },
+  {
+   "t": "12:33:38",
+   "kind": "sample_verification",
+   "checks": [
+    {
+     "session": "igcse-chemistry-4ch0-2c-2024jun",
+     "student_read": 200,
+     "validation_state": "SUGGESTED",
+     "answer_leak": false
+    },
+    {
+     "session": "igcse-chemistry-4ch0-1c-2019jun",
+     "student_read": 200,
+     "validation_state": "SUGGESTED",
+     "answer_leak": false
+    },
+    {
+     "session": "igcse-chemistry-4ch0-2c-2022junr",
+     "student_read": 200,
+     "validation_state": "SUGGESTED",
+     "answer_leak": false
+    },
+    {
+     "session": "igcse-chemistry-4ch0-1c-2024junr",
+     "student_read": 200,
+     "validation_state": "SUGGESTED",
+     "answer_leak": false
+    },
+    {
+     "session": "igcse-chemistry-4ch0-1c-2019jan",
+     "student_read": 200,
+     "validation_state": "SUGGESTED",
+     "answer_leak": false
+    }
+   ]
+  },
+  {
+   "t": "12:33:40",
+   "kind": "review_queue",
+   "code": 200,
+   "papers": 87,
+   "suggestedVersions": 810
+  }
+ ],
+ "finished": "2026-09-14T12:33:40Z",
+ "verdict": "ATTENTION"
+}
