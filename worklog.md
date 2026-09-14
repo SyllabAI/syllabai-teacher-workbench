@@ -320,3 +320,16 @@ Work Log:
 Stage Summary:
 - Local campaign substrate = operational again (schema V18 + seed), unblocking the T-C04 r2 corpus re-ingestion (bundles in /tmp/my-project) and the workbench redeploy path.
 - Operator queue: (1) LLM provider keys/quota on Render (tutor 503 — now monitored); (2) Vercel Git integration / manual deploy for web 4a2ffe0+; (3) T-C04 human review decision; (4) first-teacher onboarding decision.
+
+---
+Task ID: P1 (addendum — Vercel deploy verdict)
+Agent: main
+Task: verify the web UX fixes reached production.
+
+Work Log:
+- Vercel did eventually rebuild (chunk set changed ~35 min after push) BUT the rebuilt bundle still contains the OLD handoff string and lacks "answered this question correctly" — i.e. Vercel deployed an OLD commit, not 4a2ffe0. Cache-busted browser re-check confirms My state still renders the short-id fallback.
+- Conclusion (REPORTED): the Vercel project is NOT building SyllabAI/syllabai-web main. Code side is fully verified (tsc clean, eslint clean, bun run build clean at 46d803c). The deploy pipeline is the blocker — operator must open the Vercel dashboard (Git integration / latest deployment) and trigger a deploy of 4a2ffe0-or-later.
+- Everything server-side is LIVE and verified: Render core a5604a9 serving nodeName/misconceptionName (curl-verified against prod), monitor alerting the tutor 503, campaign DB V18 + seed rebuilt locally.
+
+Stage Summary:
+- One operator action makes the two UX fixes user-visible: deploy web main on Vercel. Everything else shipped and verified.
