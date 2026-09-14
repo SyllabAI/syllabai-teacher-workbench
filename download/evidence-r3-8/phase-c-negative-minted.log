@@ -1,0 +1,16 @@
+== Negative tests on REAL HOST (minted + session-based) 2026-09-13T21:47:36Z
+-- N1 expired session (valid signature, exp in past) -> 403:
+403
+-- N2 wrong role (signed role:admin — not issuable) -> 403:
+403
+-- N3 revoked reviewer (R1 credential-1 session from evidence) -> 403: [PROVEN in phase-f-revocation.log]
+-- N4 malformed target (nonexistent uuid, R2 session) -> 422:
+{"error":"unknown target question_version:ffffffff-ffff-ffff-ffff-ffffffffffff"}
+HTTP:422
+-- N5 stale target (already-VALIDATED seed version, R2 session) -> 422 (BLOCKED/STALE semantics):
+{"error":"live canonical state is VALIDATED, not SUGGESTED — the gated importer applies state-changing decisions only against SUGGESTED targets (lifecycle violation refused)"}
+HTTP:422
+-- N6 malformed body (bad JSON) -> 400:
+400
+-- N7 unknown action -> 422:
+200

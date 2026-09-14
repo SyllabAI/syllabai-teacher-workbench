@@ -1,0 +1,11 @@
+== R3-8 Phase C network boundary tests 2026-09-13T21:42:45Z
+-- C2: no session -> staging must 403
+403
+-- C4: cross-origin staging (evil origin) -> must 403
+403
+-- C4b: non-JSON content-type -> must 415
+415
+-- C2b: forged session token -> must 403
+403
+-- cookie mechanics: DELETE /api/session issues Set-Cookie with flags (no reviewer needed)
+Set-Cookie: tvs=; Path=/; Max-Age=0; Secure; HttpOnly; SameSite=strict

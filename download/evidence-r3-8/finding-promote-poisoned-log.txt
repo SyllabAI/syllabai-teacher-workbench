@@ -1,0 +1,7 @@
+== R3-8 finding F-2: unknown action 'PROMOTE' accepted by write path (stale bundle) + chain poisoning
+-- poisoned prod log 8ac6df9608745b82fc4b366e09acf6b3fc386bbd6da1ff0ac5c52f8e38746c53:
+{"action":"PROMOTE","targetType":"question_version","targetId":"ff67ead3-97b4-43db-aff0-37515d9269f7","targetLabel":"q08-3815dec0 · v1 · SUGGESTED","reviewer":"First Reviewer","note":"","seq":1,"ts":"2026-09-13T21:47:37.025Z","prevHash":"0000000000000000000000000000000000000000000000000000000000000000","reviewerId":"tvr-af21ceeb","hash":"ea2c1ef9eaadf85e865c41a79c5d6c6093406ef96ed1d72361c774e4b06b8512"}
+-- app response at append time: HTTP 200 (phase-c-negative-minted.log N7)
+-- app GET /api/decisions right after: chainValid FALSE
+-- source-side verifyChain on same file: TRUE (hash base mismatch => bundle write path was STALE)
+post-repair sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 (bootstrapped-empty; pre-poison state was e3b0c442... empty)

@@ -1,0 +1,8 @@
+== operator slip 2026-09-13T21:50:53Z: scratch provision ran WITHOUT TV_* overrides
+-- accidental files created at dev defaults (download/teacher-validation/):
+   reviewers.json: registry {version:1, reviewers:[tvr-f111e528 'Scratch Tester' epoch 1, tokenHash 859030d4...]}
+   provisioning-log.jsonl: 1 line (PROVISION tvr-f111e528)
+-- campaign staging log UNAFFECTED: sha256 d2bac6290577ca4d... (verified pre/post)
+-- production registry UNAFFECTED: /home/z/workbench-prod/state/reviewers.json (env-bound)
+-- disposition: accidental dev-path artifacts removed; no server ever authenticated against this registry
+{"ts":"2026-09-13T21:50:53.191Z","action":"PROVISION","id":"tvr-f111e528","name":"Scratch Tester","role":"teacher","by":"operator:campaign-owner"}

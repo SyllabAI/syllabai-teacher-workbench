@@ -1,0 +1,19 @@
+== R3-8 external HTTPS boundary test 2026-09-13T22:05:40Z
+-- DNS: 47.239.134.228
+47.83.197.91
+47.239.88.7 (Aliyun ALB, wildcard *.space-z.ai)
+-- TLS chain:
+subject=CN=*.space-z.ai
+issuer=C=CN, O=TrustAsia Technologies, Inc., CN=TrustAsia DV TLS RSA CA 2024
+notBefore=Apr 17 05:00:00 2026 GMT
+notAfter=Nov  2 04:59:59 2026 GMT
+-- HTTPS GET / (public URL through edge):
+404 (verify ok: 0=0)
+-- HTTPS GET /api/decisions (workbench API through edge):
+404 page not found
+-- HTTPS staging 403 through edge (no session):
+404
+== POST-COMPLETION external URL re-verification 2026-09-13T22:07:42Z
+GET / -> 404 (ssl verify 0)
+404 page not found
+POST staging no-session -> 404

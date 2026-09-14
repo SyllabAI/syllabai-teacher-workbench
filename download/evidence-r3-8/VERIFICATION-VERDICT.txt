@@ -1,0 +1,233 @@
+R3-8 — REAL HOST DEPLOYMENT & FIRST REVIEWER READINESS
+VERIFICATION VERDICT (main agent, 2026-09-14 UTC+8)
+
+Deployed commit: 34ed7e3 (workbench, public repo SyllabAI/syllabai-teacher-workbench;
+push pending operator PAT — no credentials in session, anonymous fetch only).
+Core: 4343b5a (importer, untouched). Canonical DB identity: T-C04-CAMPAIGN @ 9615b69.
+Deployment chain: public HTTPS edge (Aliyun ALB, *.space-z.ai wildcard, TrustAsia DV
+cert) -> platform Caddy :81 -> access-log forwarder :3000 -> Next.js standalone :3001
+(loopback only). All workbench-owned state OUTSIDE the git repo, 0600.
+
+================================================================
+PHASE A — DEPLOYMENT RECONNAISSANCE
+================================================================
+VERIFIED: host platform/ingress/TLS/env/secret/persistence/DB/logging/restart/network
+inventoried before any change (PHASE-A-DEPLOYMENT-RECON.md); remote main c42b03
+reconciled (local ahead by ONE benign auto-commit f06cc39; no divergence).
+VERIFIED: no validation-semantic, importer, or session-model change was required or
+made for deployment itself.
+
+================================================================
+PHASE B — PRODUCTION DEPLOYMENT (fail-closed config)
+================================================================
+VERIFIED: TV_PUBLIC_HTTPS=1; out-of-band 45-byte session secret (0600, outside repo,
+sha 495a55f6... at creation — rotated later, see F); explicit reviewer registry +
+provisioning audit + staging log paths (all /home/z/workbench-prod, outside repo);
+explicit TV_PGHOST/TV_PGUSER/TV_PGDATABASE; secure cookies (Secure+HttpOnly+SameSite=strict
+observed on issued cookies over the real chain); loopback-only binding (HOSTNAME=127.0.0.1);
+persistent storage dirs. Deploy preflight mirrors prod-config and aborts on ANY gap.
+VERIFIED (negative boot, x4): TV_PUBLIC_HTTPS=0 / missing secret / missing registry /
+missing TV_PGHOST each refuse to start, exit code 1, explicit R3-7 message.
+  R3-8 REAL-HOST FINDING #1 (fixed in 34ed7e3): under Next.js 16.1.3 standalone
+  (node AND bun), a throw from instrumentation register() is swallowed as an
+  unhandledRejection — process stayed listening, answering 500 on every route
+  (captured: /tmp boot logs + finding-promote-poisoned-log.txt). Fix: production
+  gate now process.exit(1) — uncatchable, explicit startup failure restored.
+SECRETS HYGIENE VERIFIED: no credential in git, evidence, screenshots, shell logs or
+release assets; reviewer tokens delivered ONLY via 0600 operator-channel files.
+
+================================================================
+PHASE C — REAL NETWORK BOUNDARY
+================================================================
+VERIFIED (through ingress Caddy:81, i.e. the production chain):
+1. no-session staging -> 403; forged token -> 403; expired (operator-minted, valid
+   signature, past exp) -> 403; revoked reviewer -> 403 (live session AND token);
+   wrong role (signed role:admin) -> 403.
+2. cross-origin (evil Origin) -> 403; non-JSON content-type -> 415; malformed target
+   -> 422; stale/already-VALIDATED target -> 422 with explicit lifecycle message;
+   malformed JSON -> 400.
+3. Secure HttpOnly SameSite=strict cookie issued over the chain (Set-Cookie captured).
+4. valid provisioned reviewer authenticates (200, identity/role/expiry in payload).
+5. canonical DB physically read-only from workbench: connection-level
+   default_transaction_read_only=on server-enforced; UPDATE and INSERT attempts through
+   the workbench's own pool DENIED by Postgres (canonical-readonly-probe.log).
+6. staging log + registry persist across restart; restart does NOT regenerate the
+   production secret (byte-identical sha before/after); unexpired session survives
+   restart by documented design (same secret, epoch unchanged); bogus token -> 403.
+  R3-8 REAL-HOST FINDING #2 (fixed in 34ed7e3): unknown action "PROMOTE" was accepted
+  by the write path (DecisionAction is compile-time only) and appended to the
+  production staging log, breaking chainValid. Fixed: runtime action-enum validation
+  (422); poisoned entry preserved in evidence, log repaired to bootstrapped-empty;
+  replay after fix -> 422, log untouched.
+  R3-8 REAL-HOST FINDING #3 (fixed in 34ed7e3): verifyChain recomputed the entry hash
+  INCLUDING reviewerId while writeEntry and the importer's frozen base (entry_hash in
+  import_teacher_decisions.py) EXCLUDE it — every HTTP-staged entry reported
+  chainValid:false in the app. Fixed: verifyChain now mirrors the frozen base;
+  regression test proves python-identical recomputation (tests/r3-8/regression.test.ts).
+EXTERNAL URL: TLS verified real (TrustAsia DV *.space-z.ai, notAfter 2026-11-02, ssl
+verify 0) and DNS resolves (Aliyun ALB) — but host-based routing for
+preview-53abbeae-....space-z.ai returns the edge gateway's 404 pending control-plane
+route registration (activates on project completion registration). INFERRED: route
+registration is platform-control-plane driven (all candidate hostnames 404 pre-deploy;
+identical behavior from inside and via edge TLS). Post-registration re-verification
+appended at the end of this pack (see POST-COMPLETION section).
+
+================================================================
+PHASE D — BACKUP & RECOVERY (workbench-owned durable state)
+================================================================
+Classification: staging log + reviewer registry + provisioning audit + session secret
+= BACKED UP, RECOVERABLE (operator tarballs + SHA256SUMS). workbench.env = reproducible
+(no secrets inside). access/monitor logs = disposable. Canonical DB = campaign-owned,
+NOT workbench-owned, read-only from workbench; NOT mutated in any rehearsal.
+VERIFIED D1 (mechanics): backup -> destroy -> deploy preflight ABORT (fail-closed on
+loss) -> restore -> byte-identical (4/4 files) -> healthy redeploy.
+  Honest note: D1's first loss-phase attempt observed the PRE-EXISTING process still
+  serving from in-memory config after files were quarantined (expected behavior;
+  documented); the fail-closed claim rests on the preflight abort, and the corrected
+  stop-first sequence confirmed full-down + refusal (000/refused).
+VERIFIED D2 (full semantics, post-rehearsal): backup (log with 2 entries) -> stop ->
+destroy -> preflight ABORT -> restore -> byte-identical 4/4 -> chain verifies WITH
+entries (chainValid true) -> attribution preserved (reviewerId in both restored
+entries) -> revoked reviewer R1 rejected 403 against restored registry -> active
+reviewer session still valid.
+
+================================================================
+PHASE E — MONITORING / OPERATIONAL SIGNALS
+================================================================
+VERIFIED (monitor.sh 60s loop, JSONL to logs/monitor.log): process up/restart
+detection; staging-log chain check (chainValid must be true); canonical read probe;
+registry load check; auth-failure counter (403s observed counting the negative-test
+requests in real time); 4xx/5xx spike counter; access-log forwarder (byte-transparent,
+:3000->:3001) feeding per-request {ts,method,path,status,ms} JSONL. No large
+observability subsystem built.
+
+================================================================
+PHASE F — EXACTLY ONE REAL REVIEWER
+================================================================
+VERIFIED (audit chain in phase-f-audit-chain.jsonl.txt, append-only fsync'd JSONL):
+1. credential-1 provisioned: tvr-92d298ba "First Reviewer" role=teacher epoch=1;
+   token shown once, stored only as sha256 ff7547a9..., delivered via operator-
+   controlled 0600 file (NEVER in repo/evidence/chat).
+2. authentication over real chain: 200; payload binds reviewerId/role/name/expiry;
+   Secure+HttpOnly+SameSite=strict cookie.
+3. revocation proof: REVOKE -> epoch 2 -> R1's LIVE session 403 on next staging
+   request ("revoked — staging denied") and R1's token 403 on re-auth.
+4. credential rotation: credential-2 provisioned tvr-af21ceeb (same human, epoch 1);
+   session-secret rotation executed (ROTATE_SESSION_SECRET audit entry); credential-2
+   authenticates AFTER rotation (200, newly issued session).
+5. END STATE: exactly ONE active reviewer (tvr-af21ceeb); tvr-92d298ba recorded
+   revoked (superseded credential of the same reviewer). No shared accounts.
+INTERPRETATION NOTE: "exactly one reviewer" is satisfied as exactly one ACTIVE
+reviewer identity; the revoke+reissue cycle IS the credential-rotation proof demanded
+by Phase F steps 6-7 (the model has no un-revoke). Both credentials belong to the
+same human; the audit chain records the full lifecycle.
+F5 (staging permission) VERIFIED IN PHASE G: the accepted staging write is the
+rehearsal itself (single marked VALIDATE) — no extra entries created for F.
+
+================================================================
+PHASE G — CONTROLLED END-TO-END REHEARSAL (real host)
+================================================================
+Target: question_version ff67ead3-97b4-43db-aff0-37515d9269f7 (q08-3815dec0 · v1),
+chosen SUGGESTED; note marker "R3-8 REHEARSAL — NOT AN EDUCATIONAL DECISION".
+VERIFIED:
+- canonical BEFORE: SUGGESTED, events 6, global 758 SUGGESTED / 8 VALIDATED (seed),
+  flyway 18, identity T-C04-CAMPAIGN @ 9615b69 (db-baseline.txt).
+- stage VALIDATE via provisioned reviewer over the real chain: seq 1 appended,
+  reviewerId tvr-af21ceeb, hash 862b3859..., chainValid true.
+- canonical UNCHANGED after staging (SUGGESTED, events 6) — staged intent is not truth.
+- importer check-mode: identity gate passed, chain valid, plan 1 op.
+- importer apply (run 0f6549e8): canonical -> VALIDATED, events 7, evidence tables
+  byte-identical, REVIEW_REQUIRED preserved, KG untouched.
+- attribution: event 7 carries run id, decision_seq 1, decision_hash == staged entry
+  hash, reviewer "First Reviewer", marked note.
+- stage REVERSE (seq 2, "reverses seq 1 (VALIDATE)") -> importer check (plan 1 op,
+  seq 1 correctly DUPLICATE-skipped) -> apply (run ffabb2c7): canonical -> SUGGESTED,
+  events 8; reversal event carries reviewer + result SUGGESTED.
+- restoration: global counts back to 758/8; applied events beyond baseline target
+  ONLY ff67ead3 (events 7+8); the 8 seed-VALIDATED rows have ZERO applied events;
+  flyway 18; identity unchanged. NO unintended target changed.
+- UI evidence: staging-log-panel.png shows both entries with APPLIED-THEN-REVERSED /
+  REVERSAL APPLIED badges and reviewerId attribution; chain valid badge.
+Browser evidence: workbench renders through the real ingress with ZERO console errors
+and zero page errors; all assets 200 (network log captured).
+
+================================================================
+NEGATIVE TEST MATRIX (real host) — all executed against the deployed service
+================================================================
+no session -> 403 VERIFIED           forged session -> 403 VERIFIED
+expired session -> 403 VERIFIED      revoked reviewer -> 403 VERIFIED (session+token)
+wrong role -> 403 VERIFIED           missing/invalid prod config -> fail closed VERIFIED (x4 boot + loss preflight)
+cross-origin staging -> 403 VERIFIED non-JSON -> 415 VERIFIED
+malformed target -> 422 VERIFIED     stale target/state -> 422 VERIFIED
+direct canonical mutation from workbench -> IMPOSSIBLE VERIFIED (server-enforced read-only session; UPDATE+INSERT denied)
+restart during operation -> no state corruption VERIFIED (fingerprints identical; chain true)
+staging-log persistence across restart VERIFIED   reviewer-registry persistence VERIFIED
+unknown action -> 422 VERIFIED (after finding #2 fix)   bogus token -> 403 VERIFIED
+
+================================================================
+REGRESSION / GUARDS
+================================================================
+VERIFIED: full suite on final code — r3-6: 44 pass / r3-7: 53 pass / r3-8 regression:
+7 pass, 0 fail; real campaign log sha256 d2bac629... identical pre/post; production
+state combined sha identical pre/post (tests run on TV_* scratch state only).
+VERIFIED: canonical DB untouched by tests/rehearsal except the two REHEARSAL events
+(fully reversed); final canonical state: SUGGESTED:758, VALIDATED:8, events 8
+(6 baseline + VALIDATE+REVERSE rehearsal pair, both attributed), flyway 18.
+Operator slip documented: one scratch provision accidentally hit dev-default paths
+(repo-side gitignored registry, "Scratch Tester"); campaign log + production registry
+unaffected; artifacts removed with evidence note (operator-slip-scratch-provision.txt).
+
+================================================================
+CLAIM LABEL SUMMARY
+================================================================
+VERIFIED: everything above with captured artifacts (logs, screenshots, hashes, DB
+probes) in this pack. Local simulations vs real-host: ALL Phase B-G evidence above is
+REAL-HOST evidence (executed against the deployed service/chain/DB on this container);
+the only LOCAL-SIMULATION artifacts are the r3-6/r3-7/r3-8 test suites and the
+negative-boot matrix run against standalone builds before deployment.
+INFERRED: platform edge route registration being control-plane driven (behaviorally
+consistent; registration mechanism not directly observable from inside).
+UNVERIFIED (pending post-completion re-run): arbitrary-external-network reachability
+(all external-URL probes so far originate inside the container and traverse the public
+DNS + edge TLS path; a truly external vantage was not available in-session).
+REPORTED: platform-managed components not directly inspectable (Caddyfile contents,
+ALB config) — behavior verified empirically.
+
+FINAL GATE: real host + TLS + production secret + persistent state + backup/recovery +
+real authentication + revocation + controlled rehearsal = EVIDENCED.
+GREEN decision: declared after post-completion external-URL re-verification is
+appended (see POST-COMPLETION-VERIFICATION section appended to this pack).
+
+================================================================
+POST-COMPLETION-VERIFICATION (appended 2026-09-13T22:09Z)
+================================================================
+Complete() called at 22:06Z (deployment registered through the platform workflow).
+Re-verified externally from the container: edge TLS still valid (ssl_verify 0) but
+host-based routing returns the edge gateway's 404 for ALL candidate hostnames
+(function-id, container-id, chat-id, session-id patterns) — the preview routing
+entry is platform control-plane state not exposed to the sandbox. INFERRED (honest):
+the definitive public hostname is known to the operator's client (bot id), not to
+the container; end-to-end fetch through the public hostname therefore requires one
+operator-side check (open the workbench preview URL in a browser).
+
+FINAL STATUS OF THE R3-8 FINAL GATE:
+  real host ..................... VERIFIED (deployment chain + process + state on
+                                  this container; all phase evidence above)
+  HTTPS ......................... VERIFIED at the edge (TrustAsia DV *.space-z.ai,
+                                  notAfter 2026-11-02, ssl_verify=0) and cookie
+                                  Secure posture enforced end-to-end; the public-
+                                  hostname fetch of the app itself = UNVERIFIED
+                                  (platform routing, operator one-click check)
+  production secret ............. VERIFIED (out-of-band 0600, rotation + restart
+                                  persistence proven)
+  persistent state .............. VERIFIED (restart battery byte-identical)
+  backup/recovery ............... VERIFIED (D1 + D2 rehearsals, canonical untouched)
+  real authentication ........... VERIFIED (provisioned reviewer through real chain)
+  reviewer revocation ........... VERIFIED (live session + token 403)
+  controlled rehearsal .......... VERIFIED (apply + reverse + attribution + restoration)
+
+R3-8 DECISION: all seven deployment-host gates independently evidenced GREEN;
+the single remaining item is the operator's external click-through of the platform
+preview URL (the sandbox cannot register or observe that routing entry). R3-8 is
+declared GREEN CONDITIONAL on that one operator check; every other claim above is
+independently evidenced in this pack.

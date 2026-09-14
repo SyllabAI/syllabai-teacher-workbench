@@ -1,0 +1,6 @@
+superseded: this file originally captured a broken query (relation paper_versions
+does not exist) before the real table name was known. The authoritative baseline
+is db-baseline.txt (SUGGESTED:758 VALIDATED:8, events 6, flyway 18, identity
+T-C04-CAMPAIGN @ 9615b69). Row-level no-unintended-change proof for the rehearsal
+is in phase-g-rehearsal.log G13b (events 7+8 target only the rehearsal target;
+seed VALIDATED set has zero events; counts restored to 758/8).

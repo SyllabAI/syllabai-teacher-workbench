@@ -1,0 +1,3 @@
+reviewer provisioned: id=tvr-92d298ba name="First Reviewer" role=teacher epoch=1
+registry: /home/z/workbench-prod/state/reviewers.json
+token sha256 (recorded in registry): ff7547a90d40a34a39e36ac9785bbfc9a36546e2ac1bd48988241a14be8c4c57

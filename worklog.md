@@ -218,3 +218,55 @@ Stage Summary:
 - R3-7 GREEN by machine gates with a complete evidence pack (VERIFICATION-VERDICT.txt, r3-7-state-manifest.json, PRODUCTION-READINESS.md, REVIEWER-PROVISIONING.md, PUBLIC-REPO-AUDIT.md, test + boot + importer artifacts, SHA256SUMS).
 - Claim labels: all 11 mandated negative tests VERIFIED; provisioning/revocation/rotation VERIFIED; production config gate VERIFIED (local boot simulation); importer untouched + green VERIFIED; canonical DB unchanged VERIFIED. UNVERIFIED (honest, needs a real host): TLS termination, standalone-server boot check, production backups/monitoring. PENDING: real-teacher onboarding decision (operator).
 - Next safe action: operator review; when ready — real host (TV_PUBLIC_HTTPS=1, mounted secret) -> provision first real reviewer -> onboarding decision, in that order.
+
+---
+Task ID: R3-8
+Agent: main
+Task: R3-8 — Real Host Deployment & First Reviewer Readiness (Phases A–G + negative tests + evidence pack)
+
+Work Log:
+- Phase A recon complete (documented in download/evidence-r3-8/PHASE-A-DEPLOYMENT-RECON.md): host = z.ai sandbox container c-6aa6a9f9 (Aliyun cn-hongkong); ingress = platform Caddy *:81 -> 127.0.0.1:3000 (behaviorally verified); TLS = platform edge ALB, wildcard *.space-z.ai, cert verify PASS; public host preview-53abbeae-8642-42f8-af6a-e1b918e5b53e.space-z.ai (route registration control-plane driven, re-verify post-deploy).
+- Base commits (§8): workbench local f06cc39 (ahead of remote c42b03 by one benign auto-commit; NO GitHub PAT in session — push/release pending operator token, same as R3-6-b pattern); core 4343b5a (synced); Past-Papers c42b6a14; parser d3415caa.
+- No code changes required to validation semantics/importer/session model; R3-8 adds operational infra only.
+
+Stage Summary:
+- Phase A documented; deployment Phase B starting: /home/z/workbench-prod (secrets 0600 outside repo), TV_* explicit env, fail-closed boot, app on 127.0.0.1:3000 via access-log forwarder.
+
+---
+Task ID: R3-8
+Agent: main
+Task: R3-8 — Real Host Deployment & First Reviewer Readiness (Phases A–G complete)
+
+Work Log:
+- Phase B: production deploy on real host chain (edge TLS -> Caddy:81 -> forwarder:3000 -> app:3001 loopback); /home/z/workbench-prod (secrets/state outside repo, 0600); TV_* explicit env; deploy preflight fail-closed.
+- THREE real-host findings, all fixed in 34ed7e3: (1) instrumentation throw swallowed as unhandledRejection (Next 16.1.3 standalone, node+bun) — process kept listening 500s; now process.exit(1). (2) unknown action 'PROMOTE' appended (DecisionAction compile-time only) — poisoned prod log (evidence preserved, repaired, replay=422). (3) verifyChain hashed reviewerId INTO base while writeEntry+importer entry_hash exclude it — every HTTP-staged entry chainValid:false; now frozen-base identical (regression-tested python-identical).
+- Negative matrix on real host: no-session/forged/expired/revoked/wrong-role 403; cross-origin 403; non-JSON 415; malformed/stale target 422; canonical UPDATE+INSERT denied server-side; restart battery byte-identical (log/registry/secret); bogus token 403.
+- Phase D: D1 mechanics + D2 full-semantic backup/destroy/fail-closed/restore rehearsals; canonical DB untouched; classification table in VERIFICATION-VERDICT.
+- Phase E: access-log forwarder + 60s monitor (process/staging-chain/canonical/registry/auth-403s/4xx-5xx signals); auth-failure counter observed counting live negatives.
+- Phase F: credential-1 tvr-92d298ba -> revocation proof (live session 403 + token 403) -> credential-2 tvr-af21ceeb (same human) -> session-secret rotation -> re-auth 200. End state: exactly ONE active reviewer. Tokens only via 0600 operator files.
+- Phase G: marked rehearsal on ff67ead3 (q08-3815dec0 v1): stage VALIDATE -> canonical unchanged -> importer apply (run 0f6549e8, attribution event 7) -> stage REVERSE -> apply (run ffabb2c7, event 8) -> canonical restored 758/8, flyway 18, identity intact, no unintended target (3-angle proof). UI screenshots with attribution badges.
+- Browser evidence: zero console/page errors through real ingress; network log captured. External URL: TLS real (TrustAsia DV *.space-z.ai) but host routing 404 pre-registration; post-Complete re-verification pending.
+- Regression: r3-6 44 + r3-7 53 + r3-8 7 = 0 fail; campaign log d2bac629 untouched; prod state untouched by tests. Operator slip (scratch provision to dev defaults) documented + cleaned.
+- Evidence pack: download/evidence-r3-8/ (VERIFICATION-VERDICT, recon, manifest, SHA256SUMS, screenshots, phase logs). Push/release PENDING operator PAT.
+
+Stage Summary:
+- R3-8 evidence complete on the real host; GREEN declaration gated on post-completion external-URL re-verification (route registration).
+- Next safe action: operator supplies PAT -> push 34ed7e3 + evidence + cut release t-c04-r3-8; then first-actual-teacher onboarding decision (separate decision per mandate).
+
+---
+Task ID: R3-8 (addendum 1 — reconstruction & push attempt)
+Agent: main
+Task: Operator instruction "push 34ed7e3+evidence and cut the t-c04-r3-8 release"
+
+Work Log:
+- Sandbox RESET discovered between the R3-8 session and this one: /home/z/my-project recreated empty (platform skeleton, git "Initial commit"), .git history + repos/ + workbench-prod state gone. Remote workbench main untouched at c42ab03f (R3-7 tip); R3-8 was never pushed.
+- Pre-reset working tree RECOVERED from platform snapshot /tmp/my-project (855MB; download/evidence-r3-8 intact; mtimes 2026-09-13 21:32-22:08).
+- Evidence integrity in snapshot: sha256sum -c SHA256SUMS = 26/26 OK (4 late files not yet in manifest).
+- Delta vs remote main computed programmatically (tracked 2354: 2347 identical, 4 modified, 3 repos/ gitlinks absent from snapshot and preserved): modified = src/instrumentation.ts (finding #1 fix), src/lib/decision-log.ts (findings #2+#3 fixes), worklog.md (R3-8 entries), test-runs/scratch-decision-log.jsonl (synthetic scratch, regenerated by R3-8 regression); untracked R3-8 content = download/evidence-r3-8 (31 files), scripts/prod (6), tests/r3-8 (2), scripts/r3-8_full_regression.sh; plus R3-7 leftover scripts/r3-7_verify_assets.sh (untracked at R3-7 push, committed here).
+- Original commit 34ed7e396a20dfcd0c08cf8d082c8d5ac6561c36 is NOT byte-reproducible (.git objects lost). Tree reconstructed and re-committed; the new SHA differs — provenance recorded here and in RELEASE-NOTES.md. Evidence files byte-verified against SHA256SUMS after copy.
+- SHA256SUMS regenerated to FULL coverage (all 30 pack files + RELEASE-NOTES.md; 4 late files now covered: db-baseline-nonSUGGESTED.txt, finding-promote-postfix.log, phase-g-staged-log-sha.txt, test-results-full-r3-8.log).
+- Secret scan over the entire delta (scripts/prod, tests/r3-8, evidence, worklog): no PAT, no session-secret material, no reviewer token values — reviewer IDs + sha256(token) only, matching manifest secrets_policy.
+- OPERATOR PAT supplied in-session returns GitHub 401 Bad credentials (token and Bearer) — push + release BLOCKED pending a fresh token. All content is push-ready in the local clone.
+
+Stage Summary:
+- R3-8 commit reconstructed, evidence re-verified, release notes + full SHA256SUMS built; push/release = the only remaining step, gated on a valid operator PAT.

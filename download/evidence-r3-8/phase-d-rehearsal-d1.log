@@ -1,0 +1,38 @@
+== R3-8 Phase D rehearsal D1 — backup/destroy/fail-closed/restore 2026-09-13T21:44:50Z
+-- 1. baseline hashes
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/decision-log.jsonl
+57afdd2fe79866c1b8647143dfac655f7fbe35098806ea32b805b915a5b53a72  state/reviewers.json
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/provisioning-log.jsonl
+495a55f6d8b1049ba95117bc634845a70083c4eea0f480c422efb3bc30df9d1f  secrets/session-secret.key
+-- 2. backup created: r3-8-d1-backup-20260913T214450Z.tar.gz (304 bytes)
+-- 3. state DESTROYED (quarantined in quarantine-d1-20260913T214450Z/)
+-- 4. deploy attempt on DESTROYED state (must fail closed):
+   deploy ABORTED (fail-closed OK)
+PREFLIGHT FAIL: session secret file missing: /home/z/workbench-prod/secrets/session-secret.key
+   port3001 during loss: 200
+-- 5. restore from backup:
+   RESTORED BYTE-IDENTICAL (all 4 files)
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/decision-log.jsonl
+57afdd2fe79866c1b8647143dfac655f7fbe35098806ea32b805b915a5b53a72  state/reviewers.json
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/provisioning-log.jsonl
+495a55f6d8b1049ba95117bc634845a70083c4eea0f480c422efb3bc30df9d1f  secrets/session-secret.key
+-- 4b. corrected loss-phase: STOP service first, then fresh-boot refusal
+   port3001 after stop: 000
+   port3001 after stop: connection refused (service fully down)
+   -- fresh boot on lost state:
+   !!! deploy succeeded (BAD)
+-- 5b. re-deploy after restore:
+app starting (pid 3750) on 127.0.0.1:3001
+app health: OK (read-only canonical index reachable)
+forwarder: OK (127.0.0.1:3000 -> 3001, access log /home/z/workbench-prod/logs/access.jsonl)
+deploy: COMPLETE
+-- 6. evidence clarification (honest ordering note):
+   * TRUE loss-phase proof = step 4 (first attempt): deploy.sh aborted at preflight
+     with files absent — see PREFLIGHT FAIL line captured from /tmp/d1-failed-deploy.log.
+   * Step 4's "port3001: 200" was the PRE-EXISTING app process serving from in-memory
+     config after files were quarantined (expected: config is loaded at boot; the
+     process was later stopped in 4b and stayed down on lost state — 000/refused).
+   * Step "4b fresh boot" actually ran AFTER restore (ordering mistake in harness),
+     so its success reflects restored state, not lost state. The fail-closed-on-loss
+     claim rests on step 4's preflight abort (VERIFIED), not on 4b.
+   * Final: restore byte-identical (step 5), redeploy healthy (5b, pid 3750).

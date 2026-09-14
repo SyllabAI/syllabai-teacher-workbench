@@ -1,0 +1,72 @@
+== R3-8 Phase G — controlled end-to-end rehearsal 2026-09-13T21:59:05Z
+== target: question_version ff67ead3-97b4-43db-aff0-37515d9269f7 (q08-3815dec0 · v1) — MARKED REHEARSAL, not an educational decision
+-- G1 canonical BEFORE: state=SUGGESTED events=6 global=SUGGESTED:758 VALIDATED:8
+-- G2 reviewer: R2 session (tvr-af21ceeb 'First Reviewer' credential-2) staging GET: 200
+-- G4 stage VALIDATE (marked):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+KeyError: 'entries'
+-- G5 canonical AFTER STAGE (must be unchanged): state=SUGGESTED events=6
+-- evidence correction:
+-- G4 CORRECTION: the python parse (d['entries']) used the GET shape; the POST
+   response carries `entry` (singular). The append SUCCEEDED: log seq 1, ts
+   21:59:06, marked note, reviewerId tvr-af21ceeb, hash 862b3859... (raw line +
+   api dump re-captured). G5 (canonical unchanged: SUGGESTED, events 6) is valid.
+   Replay of the exact request returned 422 "target already staged as VALIDATED"
+   — idempotency guard intact.
+-- G6 staged intent (pre-apply):
+   entries: 1 | chainValid: True | head: 862b38595c544978
+   seq 1 VALIDATE question_version ff67ead3 | reviewerId tvr-af21ceeb | note: R3-8 REHEARSAL — NOT AN EDUCATIONAL DECISION (real-host end-
+   effective (UI state): {'ff67ead3-97b4-43db-aff0-37515d9269f7': 'VALIDATED'}
+-- G7a importer CHECK-MODE on prod log (dry run, no mutation):
+DB IDENTITY VERIFIED: db=syllabai label=T-C04-CAMPAIGN (campaign_db_identity row matched, gate passed)
+chain: chain valid (1 entries, head 862b38595c54)
+plan: 1 operation(s) [0 already-applied DUPLICATE skipped; 0 events-only (FLAG)]
+  seq   1 VALIDATE question_versions.ff67ead3.. -> VALIDATED
+manifest: /home/z/my-project/download/teacher-validation/runs/importer-run-check-215949.json
+DB IDENTITY VERIFIED: db=syllabai label=T-C04-CAMPAIGN (campaign_db_identity row matched, gate passed)
+chain: chain valid (1 entries, head 862b38595c54)
+plan: 1 operation(s) [0 already-applied DUPLICATE skipped; 0 events-only (FLAG)]
+  seq   1 VALIDATE question_versions.ff67ead3.. -> VALIDATED
+applied run 0f6549e8-41e5-402e-9a0b-0445dcd5f502: 1 op(s), evidence tables byte-identical: True, embedded=0 ok, REVIEW_REQUIRED preserved (34), KG untouched (nodes 96, edges 21)
+manifest: /home/z/my-project/download/teacher-validation/runs/importer-run-0f6549e8-215955.json
+-- G8 canonical AFTER APPLY: state=VALIDATED events=7 global=SUGGESTED:757 VALIDATED:9
+-- G9 applied event attribution:
+event 7: run=0f6549e8-41e5-402e-9a0b-0445dcd5f502 seq=1 action=VALIDATE reviewer=First Reviewer result=VALIDATED
+  note: R3-8 REHEARSAL — NOT AN EDUCATIONAL DECISION (real-host end-to-end proof)
+  decision_hash=862b38595c54497897be0fd6efa77babecd1f995ad75c268b408de654434fc1e
+-- G10 stage REVERSE of seq 1:
+   staged seq 2 REVERSE | reverses seq 1 (VALIDATE) | chainValid True | reviewerId tvr-af21ceeb
+chain: chain valid (2 entries, head 486579ff93ff)
+plan: 1 operation(s) [1 already-applied DUPLICATE skipped; 0 events-only (FLAG)]
+  seq   2 REVERSE  question_versions.ff67ead3.. -> SUGGESTED [reverses seq 1]
+manifest: /home/z/my-project/download/teacher-validation/runs/importer-run-check-220008.json
+plan: 1 operation(s) [1 already-applied DUPLICATE skipped; 0 events-only (FLAG)]
+  seq   2 REVERSE  question_versions.ff67ead3.. -> SUGGESTED [reverses seq 1]
+applied run ffabb2c7-0164-4b27-ab59-76ef3f7a3e2c: 1 op(s), evidence tables byte-identical: True, embedded=0 ok, REVIEW_REQUIRED preserved (34), KG untouched (nodes 96, edges 21)
+manifest: /home/z/my-project/download/teacher-validation/runs/importer-run-ffabb2c7-220011.json
+-- G11 canonical AFTER REVERSE: state=SUGGESTED events=8 global=SUGGESTED:758 VALIDATED:8
+-- G11b reversal event:
+event 8: run=ffabb2c7-0164-4b27-ab59-76ef3f7a3e2c seq=2 action=REVERSE reviewer=First Reviewer result=SUGGESTED
+-- G12 audit chain: prod staging log 2 entries, app chainValid: True
+-- G13 no unintended changes: identity=T-C04-CAMPAIGN flyway=18
+-- G13b baseline non-SUGGESTED set restored:
+ERROR:  column "question_versions.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: ...ion_versions where validation_state='VALIDATED' order by id;
+                                                                    ^
+1,3c1
+<                                                  ^
+< ERROR:  relation "paper_versions" does not exist
+< LINE 1: select version_id, validation_state from paper_versions wher...
+---
+> 
+   !!! VALIDATED set differs
+70efbae81b416150ff14a1bbba882acf1326ce6ae067eb392994a25fcf55b274  /home/z/workbench-prod/state/decision-log.jsonl
+-- G13b (redo, 22:00:53Z) no-unintended-change proof, three independent angles:
+   (1) applied events beyond baseline-6 target ONLY the rehearsal target:
+   event 7: question_version ff67ead3-97b4-43db-aff0-37515d9269f7 VALIDATE
+   event 8: question_version ff67ead3-97b4-43db-aff0-37515d9269f7 REVERSE
+   (2) current VALIDATED set contains rehearsal target? NO (rehearsal target back to SUGGESTED)
+   (3) the 8 current VALIDATED rows have ZERO applied events (pure seed set, unchanged):
+   seed rows with events: 0
+70efbae81b416150ff14a1bbba882acf1326ce6ae067eb392994a25fcf55b274  /home/z/workbench-prod/state/decision-log.jsonl

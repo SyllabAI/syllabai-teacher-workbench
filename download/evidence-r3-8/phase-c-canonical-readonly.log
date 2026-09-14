@@ -1,0 +1,6 @@
+PASS — connection-level read-only guard is server-enforced (SHOW transaction_read_only = on)
+PASS — UPDATE attempt blocked server-side: "cannot execute UPDATE in a read-only transaction"
+PASS — INSERT attempt blocked server-side: "cannot execute INSERT in a read-only transaction"
+PASS — canonical SELECTs still work through the read-only path (available=true)
+PASS — applied-events read path works (available=true)
+CANONICAL READ-ONLY PROBE: ALL PASS

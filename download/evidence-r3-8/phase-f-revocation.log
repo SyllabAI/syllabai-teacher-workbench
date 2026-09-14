@@ -1,0 +1,10 @@
+== F5-session-live-check: staging GET with R1 session (pre-revocation)
+200
+== F6: REVOKE R1 (operator CLI)
+revoked: id=tvr-92d298ba name="First Reviewer" epoch now 2 — all outstanding sessions for this reviewer are dead on their next staging request.
+== F6a: R1 live session after revocation -> staging POST must 403
+{"error":"reviewer First Reviewer has been revoked — staging denied"}
+HTTP:403
+== F6b: R1 token after revocation -> re-auth must 403
+{"error":"reviewer tvr-92d298ba (First Reviewer) is revoked — access denied"}
+HTTP:403

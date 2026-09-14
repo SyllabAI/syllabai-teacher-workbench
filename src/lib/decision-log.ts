@@ -75,9 +75,17 @@ export function readEntries(): DecisionEntry[] {
 }
 
 export function verifyChain(entries: DecisionEntry[]): boolean {
+  // R3-8 REAL-HOST FINDING (cross-side consistency): the hash base MUST
+  // exclude `reviewerId` — identical to writeEntry and to the importer's
+  // frozen base (import_teacher_decisions.py entry_hash). verifyChain
+  // previously recomputed the hash over the FULL entry INCLUDING
+  // reviewerId, so every HTTP-staged entry (which carries reviewerId) was
+  // rejected by the workbench's own verifier (chainValid:false) even though
+  // writeEntry, the bun helper and the python importer all agreed. Caught
+  // by real-host verification in R3-8; regression-tested in tests/r3-8.
   let prev = GENESIS;
   for (const e of entries) {
-    const { hash, ...rest } = e;
+    const { hash, reviewerId, ...rest } = e;
     if (e.prevHash !== prev) return false;
     if (entryHash(rest) !== hash) return false;
     prev = hash;
@@ -148,6 +156,14 @@ export interface AppendInput {
 }
 
 export function appendDecision(input: AppendInput): { ok: true; entry: DecisionEntry } | { ok: false; error: string } {
+  // R3-8 REAL-HOST FINDING: DecisionAction is a compile-time type only — an
+  // unknown action string (e.g. "PROMOTE") previously FELL THROUGH every
+  // guard below and was appended to the log, poisoning the chain (verified
+  // on the deployment host). Runtime-validate the enum here, fail closed.
+  const ACTION_ENUM = ["VALIDATE", "REJECT", "FLAG", "REVERSE"] as const;
+  if (!ACTION_ENUM.includes(input.action as never)) {
+    return { ok: false, error: `unknown action "${String(input.action)}" — must be one of ${ACTION_ENUM.join(", ")}` };
+  }
   const reviewer = (input.reviewer || "").trim();
   if (reviewer.length < 2 || reviewer.length > 80) {
     return { ok: false, error: "reviewer name required (2-80 chars)" };

@@ -1,0 +1,7 @@
+== Post-fix re-verification on clean bundle 2026-09-13T21:50:43Z
+-- N7 REPEAT: unknown action PROMOTE -> must now be 422:
+{"error":"unknown action \"PROMOTE\" — must be one of VALIDATE, REJECT, FLAG, REVERSE"}
+HTTP:422
+-- prod log still empty (nothing appended): 0 lines
+-- chain state via app: {"entries":[],"chainValid":true,"head":"0000000000000000000000000000000000000000000000000000000000000000","staged":{"val
+-- R2 session still valid (staging GET): 200

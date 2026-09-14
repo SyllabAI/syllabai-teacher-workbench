@@ -1,0 +1,23 @@
+== R3-8 Phase D rehearsal D2 — full semantic restore 2026-09-13T22:01:14Z
+-- 1. pre-hashes:
+70efbae81b416150ff14a1bbba882acf1326ce6ae067eb392994a25fcf55b274  state/decision-log.jsonl
+16e96b4f027a91bc1a32dfb01359fee15b1fab0b4fcd68d567e12d6e25978f17  state/reviewers.json
+6bd36567149dfa12686df656be49582d41d074e3b02733609013fd8197c3e63c  state/provisioning-log.jsonl
+dcb99c792d6c4556aee0d1ed276eaf9f0eb82f6219267fcdad38a78c9de7c922  secrets/session-secret.key
+-- 2. backup r3-8-d2-backup-20260913T220114Z.tar.gz (1295 bytes)
+-- 3. service stopped, all 4 files quarantined (fresh-boot refused? deploy.sh preflight:)
+   preflight ABORT (fail-closed): PREFLIGHT FAIL: session secret file missing: /home/z/workbench-prod/secrets/session-secret.key
+-- 4. restored + redeployed: healthy
+-- 5. post-restore proofs:
+   a. hashes byte-identical to pre-backup:
+70efbae81b416150ff14a1bbba882acf1326ce6ae067eb392994a25fcf55b274  state/decision-log.jsonl
+16e96b4f027a91bc1a32dfb01359fee15b1fab0b4fcd68d567e12d6e25978f17  state/reviewers.json
+6bd36567149dfa12686df656be49582d41d074e3b02733609013fd8197c3e63c  state/provisioning-log.jsonl
+dcb99c792d6c4556aee0d1ed276eaf9f0eb82f6219267fcdad38a78c9de7c922  secrets/session-secret.key
+   b. staging-log chain verifies WITH entries:
+   entries: 2 | chainValid: True
+   c. attribution preserved in restored log:
+   seq 1 VALIDATE reviewerId=tvr-af21ceeb
+   seq 2 REVERSE reviewerId=tvr-af21ceeb
+   d. R2 session (issued pre-loss) still valid against restored state: 200
+   e. R1 REVOKED token rejected against restored registry: 403

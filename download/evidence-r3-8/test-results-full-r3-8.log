@@ -1,0 +1,32 @@
+== R3-8 full regression at f06cc39 (2026-09-13T21:56:12Z) ==
+real campaign log sha256 BEFORE: d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+prod state combined sha256 BEFORE: 2c441bbe8cbb33a65e9233d3481b1b3d8c453e3aea07a5d78d7e13a8e2372bd4
+
+--- bun test tests/r3-6/ ---
+(pass) teacher session gate (acceptance gate 10) > sessionFromRequest parses the HttpOnly cookie from a Request [0.35ms]
+
+ 44 pass
+ 0 fail
+ 185 expect() calls
+Ran 44 tests across 3 files. [6.02s]
+r3-6 exit: 0
+
+--- bun test tests/r3-7/ ---
+(pass) R3-7 badges and resulting-state map stay total > entryResultingState: FLAG events-only, REVERSE restores SUGGESTED [0.04ms]
+
+ 53 pass
+ 0 fail
+ 158 expect() calls
+Ran 53 tests across 3 files. [4.33s]
+r3-7 exit: 0
+
+--- bun tests/r3-8/regression.test.ts ---
+PASS — F-B: verifyChain accepts the reviewerId-bearing entry (was FALSE pre-fix)
+PASS — F-B: hash equals importer frozen-base recomputation (python-identical)
+R3-8 regression: ALL PASS
+r3-8 regression exit: 0
+
+real campaign log sha256 AFTER:  d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf
+prod state combined sha256 AFTER:  2c441bbe8cbb33a65e9233d3481b1b3d8c453e3aea07a5d78d7e13a8e2372bd4
+REAL CAMPAIGN LOG UNTOUCHED: yes
+PROD STATE UNTOUCHED BY TESTS: yes

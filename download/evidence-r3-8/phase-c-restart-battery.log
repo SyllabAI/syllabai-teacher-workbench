@@ -1,0 +1,20 @@
+== R3-8 restart battery 2026-09-13T21:58:39Z
+-- pre-restart fingerprints:
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/decision-log.jsonl
+16e96b4f027a91bc1a32dfb01359fee15b1fab0b4fcd68d567e12d6e25978f17  state/reviewers.json
+6bd36567149dfa12686df656be49582d41d074e3b02733609013fd8197c3e63c  state/provisioning-log.jsonl
+dcb99c792d6c4556aee0d1ed276eaf9f0eb82f6219267fcdad38a78c9de7c922  secrets/session-secret.key
+-- R2 session pre-restart staging GET: 200
+preflight: OK (config complete, secret present, registry valid, staging log writable, loopback binding)
+app starting (pid 5382) on 127.0.0.1:3001
+app health: OK (read-only canonical index reachable)
+forwarder: OK (127.0.0.1:3000 -> 3001, access log /home/z/workbench-prod/logs/access.jsonl)
+deploy: COMPLETE
+-- post-restart fingerprints:
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  state/decision-log.jsonl
+16e96b4f027a91bc1a32dfb01359fee15b1fab0b4fcd68d567e12d6e25978f17  state/reviewers.json
+6bd36567149dfa12686df656be49582d41d074e3b02733609013fd8197c3e63c  state/provisioning-log.jsonl
+dcb99c792d6c4556aee0d1ed276eaf9f0eb82f6219267fcdad38a78c9de7c922  secrets/session-secret.key
+-- R2 session post-restart staging GET: 200  (12h unexpired session survives restart by design: same secret, same registry)
+-- chainValid via app post-restart: {"entries":[],"chainValid":true,"head":"00000000000000000000
+-- registry still authoritative: 403 on bogus token (403 = registry consulted, fail-closed)

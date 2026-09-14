@@ -1,0 +1,4 @@
+== F2/F3/F4: authentication, identity/role, session issuance on real host 2026-09-13T21:46:39Z
+-- POST /api/session with provisioned token (via ingress :81):
+Set-Cookie: tvs=eyJ2IjoyLCJyZXZpZXdlcklkIjoidHZyLTkyZDI5OGJhIiwibmFtZSI6IkZpcnN0IFJldmlld2VyIiwicm9sZSI6InRlYWNoZXIiLCJleHAiOjE3ODkzNzkxOTk0NzgsImVwb2NoIjoxfQ.fxE8Rzd3POr_YPUvydzIRKUZW5L2G3XprHdYGDHZpGA; Path=/; Expires=Mon, 14 Sep 2026 09:46:39 GMT; Max-Age=43200; Secure; HttpOnly; SameSite=strict
+{"ok":true,"role":"teacher","name":"First Reviewer","reviewerId":"tvr-92d298ba","expiresAt":"2026-09-14T09:46:39.478Z"}

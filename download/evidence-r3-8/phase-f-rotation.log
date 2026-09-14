@@ -1,0 +1,12 @@
+== F7a: re-provision after credential rotation (same human, new credential-2)
+reviewer provisioned: id=tvr-af21ceeb name="First Reviewer" role=teacher epoch=1
+token sha256 (recorded in registry): 33615cf850d8444f4c3cb858dc4ffa1869c2b504a35b50b01fdc3473ff5074f3
+credential-2 id=tvr-af21ceeb -> operator channel file (0600)
+== F7b: session-secret rotation (operator CLI)
+session secret rotated: new file /home/z/workbench-prod/secrets/session-secret.key (32 bytes, 0600, fsync'd).
+All previously issued workbench sessions are now INVALID (fail-closed). Rotation does not touch the reviewer registry — reviewers re-authenticate with their existing provisioned tokens.
+session secret rotated
+== F7c: authenticate with credential-2 AFTER rotation -> must 200 (newly issued session)
+{"ok":true,"role":"teacher","name":"First Reviewer","reviewerId":"tvr-af21ceeb","expiresAt":"2026-09-14T09:47:06.673Z"}
+HTTP:200
+Set-Cookie: tvs=eyJ2IjoyLCJyZXZpZXdlcklkIjoidHZyLWFmMjFjZWViIiwibmFtZSI6IkZpcnN0IFJldmlld2VyIiwicm9sZSI6InRlYWNoZXIiLCJleHAiOjE3ODkzNzkyMjY2...

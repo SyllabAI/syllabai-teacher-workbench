@@ -1,0 +1,38 @@
+== case: no-https-flag (exit=1)
+R3-7 production configuration check FAILED
+refusing to start
+✓ Starting...
+FATAL: R3-7 production configuration check FAILED — refusing to start:
+- TV_PUBLIC_HTTPS must be "1" in production — the session cookie is Secure and must only be served over HTTPS
+
+   RESULT: FAIL-CLOSED OK
+
+== case: missing-secret (exit=1)
+R3-7 production configuration check FAILED
+refusing to start
+✓ Starting...
+FATAL: R3-7 production configuration check FAILED — refusing to start:
+- session secret file missing at /home/z/workbench-prod/secrets/DOES-NOT-EXIST.key — generate it out-of-band (openssl rand -base64 32) and mount it at 0600; production never auto-generates secrets
+
+   RESULT: FAIL-CLOSED OK
+
+== case: missing-registry (exit=1)
+R3-7 production configuration check FAILED
+refusing to start
+✓ Starting...
+FATAL: R3-7 production configuration check FAILED — refusing to start:
+- reviewer registry not found at /home/z/workbench-prod/state/DOES-NOT-EXIST.json — provision at least one reviewer before production start
+
+   RESULT: FAIL-CLOSED OK
+
+== case: missing-pghost (exit=1)
+R3-7 production configuration check FAILED
+refusing to start
+✓ Starting...
+FATAL: R3-7 production configuration check FAILED — refusing to start:
+- TV_PGHOST must be set explicitly in production — no silent DB defaults
+
+   RESULT: FAIL-CLOSED OK
+
+==== SUMMARY ====
+fail-closed cases passed: 4

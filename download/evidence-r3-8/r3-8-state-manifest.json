@@ -1,0 +1,44 @@
+{
+ "milestone": "R3-8",
+ "generated": "2026-09-13T22:07:15.741604Z",
+ "deployed_commit": "34ed7e396a20dfcd0c08cf8d082c8d5ac6561c36",
+ "core": "4343b5a",
+ "identity": {
+  "campaign": "T-C04-CAMPAIGN",
+  "db": "syllabai",
+  "claim_commit": "9615b69"
+ },
+ "canonical_final": {
+  "suggested": 758,
+  "validated": 8,
+  "rejected": 0,
+  "events": 8,
+  "flyway": 18,
+  "rehearsal_events": [
+   {
+    "id": 7,
+    "action": "VALIDATE",
+    "target": "ff67ead3-97b4-43db-aff0-37515d9269f7",
+    "run": "0f6549e8-41e5-402e-9a0b-0445dcd5f502"
+   },
+   {
+    "id": 8,
+    "action": "REVERSE",
+    "target": "ff67ead3-97b4-43db-aff0-37515d9269f7",
+    "run": "ffabb2c7-0164-4b27-ab59-76ef3f7a3e2c"
+   }
+  ]
+ },
+ "workbench_state": {
+  "state/decision-log.jsonl": "70efbae81b416150ff14a1bbba882acf1326ce6ae067eb392994a25fcf55b274",
+  "state/reviewers.json": "16e96b4f027a91bc1a32dfb01359fee15b1fab0b4fcd68d567e12d6e25978f17",
+  "state/provisioning-log.jsonl": "6bd36567149dfa12686df656be49582d41d074e3b02733609013fd8197c3e63c",
+  "secrets/session-secret.key": "dcb99c792d6c4556aee0d1ed276eaf9f0eb82f6219267fcdad38a78c9de7c922"
+ },
+ "campaign_log_sha256": "d2bac6290577ca4dff0cdba5f217f8a75daa20d7f06d79bd2509b7ec85911abf",
+ "reviewer_final": {
+  "active": "tvr-af21ceeb (First Reviewer, credential-2)",
+  "revoked": "tvr-92d298ba (credential-1, superseded)"
+ },
+ "secrets_policy": "all secrets outside repo, 0600; tokens only as sha256 in registry; operator-channel delivery"
+}

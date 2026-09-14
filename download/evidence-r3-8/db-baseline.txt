@@ -1,0 +1,32 @@
+== baseline 2026-09-13T21:34:10Z
+identity: T-C04-CAMPAIGN @ 9615b69
+SUGGESTED|758
+VALIDATED|8
+events: 6
+events_detail:
+                                         Table "public.teacher_validation_events"
+     Column      |           Type           | Collation | Nullable |                        Default                        
+-----------------+--------------------------+-----------+----------+-------------------------------------------------------
+ id              | bigint                   |           | not null | nextval('teacher_validation_events_id_seq'::regclass)
+ importer_run_id | uuid                     |           | not null | 
+ decision_seq    | integer                  |           | not null | 
+ decision_hash   | character(64)            |           | not null | 
+ action          | character varying(12)    |           | not null | 
+ target_type     | character varying(20)    |           | not null | 
+ target_id       | uuid                     |           | not null | 
+ target_label    | text                     |           | not null | ''::text
+ reviewer        | character varying(80)    |           | not null | 
+ note            | text                     |           | not null | ''::text
+ result_state    | character varying(12)    |           | not null | 
+ applied_at      | timestamp with time zone |           | not null | now()
+Indexes:
+    "teacher_validation_events_pkey" PRIMARY KEY, btree (id)
+    "ix_tve_run" btree (importer_run_id)
+    "ix_tve_target" btree (target_type, target_id)
+    "uq_tve_decision" UNIQUE CONSTRAINT, btree (decision_seq, decision_hash)
+Check constraints:
+    "ck_tve_action" CHECK (action::text = ANY (ARRAY['VALIDATE'::character varying, 'REJECT'::character varying, 'FLAG'::character varying, 'REVERSE'::character varying]::text[]))
+    "ck_tve_result_state" CHECK (result_state::text = ANY (ARRAY['SUGGESTED'::character varying, 'VALIDATED'::character varying, 'REJECTED'::character varying]::text[]))
+    "ck_tve_target_type" CHECK (target_type::text = ANY (ARRAY['question_version'::character varying, 'mark_scheme'::character varying, 'exam_paper'::character varying]::text[]))
+    "ck_tve_targets_differ" CHECK (NOT (action::text = 'REVERSE'::text AND decision_seq <= 0))
+flyway rows: 18
