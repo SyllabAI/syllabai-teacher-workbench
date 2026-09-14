@@ -1,0 +1,25 @@
+# T-031 workbench Vercel deployment fix (2026-09-14).
+#
+# This repo doubles as the campaign EVIDENCE store: download/ alone carries
+# 284 MB of durable evidence (dumps, tarballs, campaign batches, snapshots),
+# and the tracked db/custom.db scaffold adds 20 MB. None of it is read by the
+# Next.js app at runtime — but Vercel's file tracer pulled it all into the
+# serverless function and the deployment died at:
+#   "Required files read using Node.js fs library and node_modules exceed
+#    max lambda size of 262144000 bytes"
+# (every workbench deploy through 28e3ae9 failed this way, both projects).
+#
+# Runtime needs: src/, public/, data/review/** (the inferred read model),
+# config files, package.json/bun.lock. Everything else is excluded here.
+# Evidence durability is NOT affected: .vercelignore only shapes the upload,
+# and the canonical evidence lives in git + GitHub releases (docs/RELEASING.md).
+download/
+db/
+repos/
+tool-results/
+test-runs/
+tests/
+scripts/
+examples/
+mini-services/
+docs/
