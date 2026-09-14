@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { issueSessionForReviewer, SESSION_COOKIE, sessionFromRequest, cookieConfig } from "@/lib/session";
 import { verifyReviewerToken } from "@/lib/reviewers";
+import { isReadOnlyDeployment } from "@/lib/prod-config";
 
 /**
  * R3-6/R3-7 session gate.
@@ -13,6 +14,13 @@ import { verifyReviewerToken } from "@/lib/reviewers";
  * sessions on their next staging write (registry revalidation).
  */
 export async function POST(req: Request) {
+  // Readonly deployment (Vercel mirror): no staging capability exists — refuse
+  // BEFORE touching the registry, with an explicit reason (never a 500).
+  if (isReadOnlyDeployment()) {
+    return NextResponse.json(
+      { error: "readonly deployment — reviewer sessions are not issued here; stage decisions on the primary workbench host" },
+      { status: 503 });
+  }
   let body: Record<string, unknown>;
   try {
     body = await req.json();

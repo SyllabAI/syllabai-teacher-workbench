@@ -27,7 +27,9 @@ import { isProduction } from "./prod-config";
  * Legacy v1 cookies (no reviewerId) fail verification — fail-closed.
  */
 
-const SESSION_DIR = path.join(process.cwd(), "download", "teacher-validation");
+const SESSION_DIR =
+  process.env.TV_STATE_DIR ||
+  path.join(process.cwd(), "data", "teacher-validation");
 const SECRET_FILE = path.join(SESSION_DIR, "session-secret.key");
 const TTL_MS = 12 * 60 * 60 * 1000;
 

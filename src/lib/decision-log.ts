@@ -14,11 +14,15 @@ import { getLifecycleRegistry } from "./review-data";
  *    provisioned (currently blocked on repo access).
  *  - The lifecycle is enforced server-side: only SUGGESTED targets may be
  *    decided; seed-VALIDATED content is locked; REJECT/FLAG require a note.
- *  - Durable by construction: the log lives under download/teacher-validation/
- *    (evidence-bundle territory, outside scaffold-owned paths).
+ *  - Durable by construction: the log lives under data/teacher-validation/
+ *    (git-tracked and Vercel-traced; used to live under download/, which the
+ *    deployment upload excludes). On serverless hosts the log is READ-ONLY —
+ *    staging writes degrade to an explicit 503 in TV_DEPLOYMENT_MODE=readonly.
  */
 
-const LOG_DIR = path.join(process.cwd(), "download", "teacher-validation");
+const LOG_DIR =
+  process.env.TV_LOG_DIR ||
+  path.join(process.cwd(), "data", "teacher-validation");
 
 /**
  * Log path is lazy so tests can isolate the real hash-chained log via

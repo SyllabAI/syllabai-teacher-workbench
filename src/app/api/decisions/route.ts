@@ -4,6 +4,7 @@ import { getLifecycleRegistry } from "@/lib/review-data";
 import { sessionFromRequest } from "@/lib/session";
 import { revalidateSessionReviewer } from "@/lib/reviewers";
 import { getCanonicalStates, getAppliedEvents, isCanonicalTargetType, type AppliedEvent } from "@/lib/canonical";
+import { isReadOnlyDeployment } from "@/lib/prod-config";
 
 function paperCounts(effective: Record<string, string>) {
   const reg = getLifecycleRegistry();
@@ -51,6 +52,13 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  // Readonly deployment (Vercel mirror): the decision log is served read-only;
+  // staging writes are refused BEFORE auth with an explicit reason.
+  if (isReadOnlyDeployment()) {
+    return NextResponse.json(
+      { error: "readonly deployment — staging is disabled here; stage decisions on the primary workbench host" },
+      { status: 503 });
+  }
   // R3-6 authorization gate: staging writes require a verified teacher
   // session. R3-7: that session must bind a PROVISIONED reviewer who is
   // STILL active in the registry (revalidated on every write), and the

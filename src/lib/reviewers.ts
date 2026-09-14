@@ -45,7 +45,9 @@ export interface ReviewerRegistry {
   reviewers: ReviewerRecord[];
 }
 
-const DEFAULT_DIR = path.join(process.cwd(), "download", "teacher-validation");
+const DEFAULT_DIR =
+  process.env.TV_STATE_DIR ||
+  path.join(process.cwd(), "data", "teacher-validation");
 
 /** Env-overridable so tests isolate BOTH the registry and the audit log. */
 export function registryFile(): string {

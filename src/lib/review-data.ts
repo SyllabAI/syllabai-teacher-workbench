@@ -9,6 +9,15 @@ import path from "path";
  */
 
 const DATA_DIR = path.join(process.cwd(), "data", "review");
+/**
+ * Canonical identity tables (read model). LIVES UNDER data/ (git-tracked and
+ * Vercel-traced) — it used to point at download/read-model/tables, which the
+ * .vercelignore excludes and the file tracer cannot see: the lifecycle
+ * registry ENOENT-crashed every deployed /api/* route.
+ */
+const READ_MODEL_DIR =
+  process.env.TV_READ_MODEL_DIR ||
+  path.join(process.cwd(), "data", "read-model", "tables");
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 export interface PaperSummary {
@@ -111,7 +120,7 @@ export interface LifecycleTarget {
 let registryCache: Map<string, LifecycleTarget> | null = null;
 
 function readJsonl(name: string): Array<Record<string, string>> {
-  const file = path.join(process.cwd(), "download", "read-model", "tables", `${name}.jsonl`);
+  const file = path.join(READ_MODEL_DIR, `${name}.jsonl`);
   return fs.readFileSync(file, "utf-8").split("\n").filter(Boolean)
     .map((l) => JSON.parse(l) as Record<string, string>);
 }

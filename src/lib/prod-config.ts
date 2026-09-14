@@ -27,15 +27,65 @@ export interface ProductionCheckResult {
 }
 
 function secretFile(env: NodeJS.ProcessEnv): string {
-  return env.TV_SESSION_SECRET_FILE || path.join(process.cwd(), "download", "teacher-validation", "session-secret.key");
+  return env.TV_SESSION_SECRET_FILE || path.join(process.cwd(), "data", "teacher-validation", "session-secret.key");
 }
 function reviewersFile(env: NodeJS.ProcessEnv): string {
-  return env.TV_REVIEWERS_FILE || path.join(process.cwd(), "download", "teacher-validation", "reviewers.json");
+  return env.TV_REVIEWERS_FILE || path.join(process.cwd(), "data", "teacher-validation", "reviewers.json");
+}
+
+/**
+ * TV_DEPLOYMENT_MODE (2026-09-15 workbench Vercel repair):
+ *  - "full" (default off-platform) — the original single-host posture:
+ *    out-of-band session secret + provisioned reviewer registry + explicit
+ *    canonical DB. Staging writes enabled. Unchanged behavior.
+ *  - "readonly" — a READ-ONLY audit mirror (e.g. the Vercel deployment): the
+ *    dataset reads (data/review, read-model tables, decision log) are served,
+ *    but NO session can be issued and NO staging write is accepted (routes
+ *    refuse with 503 before touching auth). No secret is required because no
+ *    secret-bearing capability exists — fail-closed is preserved: the gate
+ *    still refuses to boot on any undeclared mode, and "readonly" still
+ *    requires the HTTPS declaration. This is strictly LESS capability than
+ *    full mode, never more.
+ *
+ * On Vercel (platform-injected VERCEL=1) the default is "readonly": staging
+ * writes can never be durable on serverless hosts, so the platform can only
+ * honestly serve a mirror. An operator MAY still opt into "full" there by
+ * setting TV_DEPLOYMENT_MODE=full and providing the full secret set — the
+ * gate then enforces exactly the same requirements as any other host.
+ */
+export function deploymentMode(env: NodeJS.ProcessEnv = process.env):
+    "full" | "readonly" {
+  const raw = (env.TV_DEPLOYMENT_MODE || "").trim().toLowerCase();
+  if (raw === "readonly") return "readonly";
+  if (raw === "full") return "full";
+  if (raw !== "") {
+    throw new Error(`TV_DEPLOYMENT_MODE must be "full" or "readonly" (got "${raw}")`);
+  }
+  // Undeclared: serverless hosts default to readonly (writes cannot persist).
+  return env.VERCEL === "1" ? "readonly" : "full";
+}
+
+export function isReadOnlyDeployment(env: NodeJS.ProcessEnv = process.env): boolean {
+  return isProduction(env) && deploymentMode(env) === "readonly";
 }
 
 export function assertProductionConfig(env: NodeJS.ProcessEnv = process.env): ProductionCheckResult {
   if (!isProduction(env)) return { ok: true, problems: [] };
   const problems: string[] = [];
+
+  // Deployment mode (declared, never implicit).
+  const readonly = deploymentMode(env) === "readonly";
+
+  if (readonly) {
+    // Readonly mirror: no staging capability exists, so no secret/registry/DB
+    // is required. The ONLY hard requirement is HTTPS honesty. On Vercel the
+    // platform serves HTTPS-only by construction, so VERCEL=1 satisfies the
+    // declaration; elsewhere the operator must declare it explicitly.
+    if (env.TV_PUBLIC_HTTPS !== "1" && env.VERCEL !== "1") {
+      problems.push("TV_PUBLIC_HTTPS must be \"1\" in production — the readonly mirror must still declare HTTPS");
+    }
+    return { ok: problems.length === 0, problems };
+  }
 
   // 1. Session secret: must EXIST (never auto-generated in production).
   const sec = secretFile(env);

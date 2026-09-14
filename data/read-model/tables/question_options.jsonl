@@ -1,0 +1,32 @@
+{"id": "41000000-0000-0000-0000-000000000001", "question_id": "40000000-0000-0000-0000-000000000001", "label": "A", "text": "0.25 g", "is_correct": false, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000002", "question_id": "40000000-0000-0000-0000-000000000001", "label": "B", "text": "4.0 g", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000003", "question_id": "40000000-0000-0000-0000-000000000001", "label": "C", "text": "25.0 g", "is_correct": true, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000004", "question_id": "40000000-0000-0000-0000-000000000001", "label": "D", "text": "400.4 g", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000011", "question_id": "40000000-0000-0000-0000-000000000002", "label": "A", "text": "0.20 mol", "is_correct": true, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000012", "question_id": "40000000-0000-0000-0000-000000000002", "label": "B", "text": "0.32 mol", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000013", "question_id": "40000000-0000-0000-0000-000000000002", "label": "C", "text": "5.0 mol", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000014", "question_id": "40000000-0000-0000-0000-000000000002", "label": "D", "text": "8.0 mol", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000021", "question_id": "40000000-0000-0000-0000-000000000003", "label": "A", "text": "CH2O", "is_correct": true, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000022", "question_id": "40000000-0000-0000-0000-000000000003", "label": "B", "text": "C2H4O", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000023", "question_id": "40000000-0000-0000-0000-000000000003", "label": "C", "text": "CHO", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000024", "question_id": "40000000-0000-0000-0000-000000000003", "label": "D", "text": "C6H12O6", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000031", "question_id": "40000000-0000-0000-0000-000000000004", "label": "A", "text": "They have different chemical properties because their masses differ", "is_correct": false, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000032", "question_id": "40000000-0000-0000-0000-000000000004", "label": "B", "text": "They have the same number of protons but different numbers of neutrons", "is_correct": true, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000033", "question_id": "40000000-0000-0000-0000-000000000004", "label": "C", "text": "They have different numbers of protons but the same number of neutrons", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000034", "question_id": "40000000-0000-0000-0000-000000000004", "label": "D", "text": "They are atoms of different elements with similar chemistry", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000041", "question_id": "40000000-0000-0000-0000-000000000005", "label": "A", "text": "17 protons, 20 neutrons, 18 electrons", "is_correct": true, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000042", "question_id": "40000000-0000-0000-0000-000000000005", "label": "B", "text": "17 protons, 20 neutrons, 16 electrons", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000043", "question_id": "40000000-0000-0000-0000-000000000005", "label": "C", "text": "20 protons, 17 neutrons, 18 electrons", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000044", "question_id": "40000000-0000-0000-0000-000000000005", "label": "D", "text": "17 protons, 37 neutrons, 17 electrons", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000051", "question_id": "40000000-0000-0000-0000-000000000006", "label": "A", "text": "A lattice of alternating Na+ and Cl- ions held by electrostatic attraction", "is_correct": true, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000052", "question_id": "40000000-0000-0000-0000-000000000006", "label": "B", "text": "Discrete molecules each containing one Na+ ion bonded to one Cl- ion", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000053", "question_id": "40000000-0000-0000-0000-000000000006", "label": "C", "text": "A covalent network of shared electron pairs", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000054", "question_id": "40000000-0000-0000-0000-000000000006", "label": "D", "text": "Separate atoms held together by weak intermolecular forces", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000061", "question_id": "40000000-0000-0000-0000-000000000007", "label": "A", "text": "Because each atom completes its outer electron shell", "is_correct": false, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000062", "question_id": "40000000-0000-0000-0000-000000000007", "label": "B", "text": "Because nuclei attract the shared bonding electrons, stabilising the arrangement", "is_correct": true, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000063", "question_id": "40000000-0000-0000-0000-000000000007", "label": "C", "text": "Because the octet rule requires atoms to bond", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000064", "question_id": "40000000-0000-0000-0000-000000000007", "label": "D", "text": "Because bond formation always releases energy absorbed by the surroundings", "is_correct": false, "ordering": 4}
+{"id": "41000000-0000-0000-0000-000000000071", "question_id": "40000000-0000-0000-0000-000000000008", "label": "A", "text": "The lone pair on nitrogen repels bonding pairs more strongly, compressing the angle", "is_correct": true, "ordering": 1}
+{"id": "41000000-0000-0000-0000-000000000072", "question_id": "40000000-0000-0000-0000-000000000008", "label": "B", "text": "Hydrogen atoms are smaller than carbon atoms", "is_correct": false, "ordering": 2}
+{"id": "41000000-0000-0000-0000-000000000073", "question_id": "40000000-0000-0000-0000-000000000008", "label": "C", "text": "Nitrogen is more electronegative than carbon", "is_correct": false, "ordering": 3}
+{"id": "41000000-0000-0000-0000-000000000074", "question_id": "40000000-0000-0000-0000-000000000008", "label": "D", "text": "Ammonia is a planar molecule with 107° angles by convention", "is_correct": false, "ordering": 4}
