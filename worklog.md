@@ -285,3 +285,23 @@ Work Log:
 Stage Summary:
 - R3-8 push + release durability VERIFIED end-to-end: workbench main = c42ab03 + 43eace2 (reconstructed tree of deployed 34ed7e3, provenance in RELEASE-NOTES); release t-c04-r3-8 33/33 assets hash-verified.
 - Single remaining UNVERIFIED item (unchanged from verdict): operator click-through of the platform preview URL (public-hostname routing is operator-side control-plane state). After that check, R3-8 GREEN is unconditional; first-teacher onboarding remains a SEPARATE decision.
+
+---
+Task ID: P1 (product readiness — student learning loop E2E + fixes)
+Agent: main
+Task: New operating mode "GET SYLLABAI PRODUCT-READY ASAP" — verify the live product end-to-end, fix what is broken, keep moving.
+
+Work Log:
+- Product survey: backend = SyllabAI/syllabai-core (Java 25/Spring Boot 4.1.1, LIVE https://syllabai-core.onrender.com, Render free tier, cold start ~55s, autoDeploy:true); frontend = SyllabAI/syllabai-web (Next.js 16, LIVE https://syllabai-web.vercel.app); master pack = SyllabAI/syllabai (.syllabai/ coordination; locks empty). Campaign DB (local sandbox) did NOT survive the reset; prod substrate = Neon.
+- Base commits (§8): core 4343b5a -> a5604a9; web c81c7a8 -> 4a2ffe0; workbench c3029ff; master 7ee862f (read-only).
+- PRODUCTION API E2E (download/p1-prod-e2e/p1-api-e2e.log): register -> 200; subjects 2 (4CH1 real curriculum 370-node subtree, honest-empty 0 questions BY DESIGN until T-C04 validation; seed CHM subject serves 8 VALIDATED questions); knowledge tree 200; MCQ attempt -> correct=False (guessed option A) with marks + implicated misconceptions; learner state updates; history 1; recommendations shape OK; student->teacher route 403; CORS preflight from web origin = ACAO echo OK.
+- PRODUCTION BROWSER E2E (screenshots in download/p1-prod-e2e/browser-*.png): register via UI -> workbench; subject selector; practice player (options/confidence/flags); correct answer feedback "Correct — 1/1 marks, BKT updated"; tutor handoff prefill; tutor tab chips; tutor 503 surfaces honest inline error + Retry (no white-screen); My state BKT table; history rich evidence; mastery map full Edexcel tree expandable. VERDICT: student loop GREEN except tutor generation.
+- FINDING 1 (operator-credential blocker, REPORTED): POST /tutor/ask -> 503 tutor_unavailable "LLM chain failed: all providers failed, last error: generation failed" — retrieval+grounding OK, generation fails on ALL THREE providers (Groq/Gemini/OpenRouter). Cause not observable from outside (Render logs + LLM admin health endpoint /api/v1/admin/** are ADMIN-gated). Needs operator: check Render env LLM keys/quota (or provide an admin token). UI handles the failure gracefully — not a code fix from my side.
+- FINDING 2 (FIXED, core a5604a9): My state rendered raw UUID prefixes for topics — state read model now resolves KG titles (batched findAllById; additive nodeName/misconceptionName fields; clients keep fallbacks). mvn compile clean; learner unit suite 31/31.
+- FINDING 3 (FIXED, web 4a2ffe0): tutor handoff draft claimed "I got this question wrong" even after a CORRECT answer — now branches on result.correct. tsc + eslint clean.
+- Toolchain reconstructed (reset survivor): JDK 25.0.4.1 (/home/z/toolchain/jdk-25.0.4.1+1), Maven 3.9.9 (repo.maven.apache.org — archive.apache.org stalls), PG17 debs script preserved (setup_toolchain.sh, not yet run).
+- Honest notes: (a) an initial 401 on the operator PAT was MY fresh-shell env artifact, not a dead token; (b) web main at c81c7a8 was verified build-clean — a suspected syntax error in StateView.tsx:149 was a misread of sed output (file was correct).
+
+Stage Summary:
+- Live product loop VERIFIED end-to-end at production URLs (API + browser levels); two UX/data fixes shipped and deploying; one genuine external blocker recorded (LLM provider keys) without halting other work.
+- Next product-critical moves: verify deploys live (Render + Vercel), then the 4CH1 content unlock = T-C04 validation resumption path on prod (needs teacher-role account investigation), first-teacher onboarding decision remains operator's.
