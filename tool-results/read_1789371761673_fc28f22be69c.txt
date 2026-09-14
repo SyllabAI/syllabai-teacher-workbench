@@ -1,0 +1,725 @@
+     1→"use client";
+     2→
+     3→/**
+     4→ * T-029 Teacher minimal surface (Master Spec §6.10/§15/§22): class list,
+     5→ * Smart Mark review queue, human-mark overrides, and the κ agreement gate.
+     6→ *
+     7→ * Everything here is a projection of backend read models — no business rules.
+     8→ * The backend enforces /api/v1/teacher/** (TEACHER/ADMIN); the UI role check
+     9→ * that gates this tab is an affordance, never authorization.
+    10→ *
+    11→ * Honesty rules carried over from the backend read models:
+    12→ * - smart-mark failures render their failure reason (e.g. PROVIDER_UNAVAILABLE),
+    13→ *   never a fabricated score;
+    14→ * - per-point decisions are only offered when a smart-mark breakdown exists
+    15→ *   (the κ pairing needs them);
+    16→ * - κ states are explicit: none recorded yet / not enough paired decisions.
+    17→ */
+    18→
+    19→import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+    20→import { Badge } from "@/components/ui/badge";
+    21→import { Button } from "@/components/ui/button";
+    22→import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+    23→import { Input } from "@/components/ui/input";
+    24→import { Label } from "@/components/ui/label";
+    25→import { Skeleton } from "@/components/ui/skeleton";
+    26→import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+    27→import { Textarea } from "@/components/ui/textarea";
+    28→import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+    29→import {
+    30→  Select,
+    31→  SelectContent,
+    32→  SelectItem,
+    33→  SelectTrigger,
+    34→  SelectValue,
+    35→} from "@/components/ui/select";
+    36→import {
+    37→  ClipboardCheck,
+    38→  ClipboardList,
+    39→  Gauge,
+    40→  RotateCw,
+    41→  ShieldCheck,
+    42→  Sparkles,
+    43→  Users,
+    44→} from "lucide-react";
+    45→import { api, ApiError } from "@/lib/api";
+    46→import { formatRelative, humanizeCode } from "@/lib/format";
+    47→import { ConceptGraphView } from "@/components/syllabai/ConceptGraphView";
+    48→import type {
+    49→  AnswerMarkingView,
+    50→  KappaEvaluationView,
+    51→  SmartMarkBreakdownItem,
+    52→  SmartMarkView,
+    53→  TeacherLearnerView,
+    54→} from "@/lib/types";
+    55→
+    56→const QUEUE_STATES = [
+    57→  { value: "PENDING", label: "Pending" },
+    58→  { value: "SMART_MARKED", label: "Smart-marked" },
+    59→  { value: "HUMAN_MARKED", label: "Human-marked" },
+    60→  { value: "OVERRIDDEN", label: "Overridden" },
+    61→] as const;
+    62→
+    63→const stateBadgeClass: Record<string, string> = {
+    64→  PENDING: "bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200",
+    65→  SMART_MARKED: "bg-sky-100 text-sky-900 dark:bg-sky-950 dark:text-sky-200",
+    66→  HUMAN_MARKED: "bg-emerald-100 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200",
+    67→  OVERRIDDEN: "bg-violet-100 text-violet-900 dark:bg-violet-950 dark:text-violet-200",
+    68→};
+    69→
+    70→function is404(e: unknown): boolean {
+    71→  return e instanceof ApiError && e.status === 404;
+    72→}
+    73→
+    74→function is409(e: unknown): boolean {
+    75→  return e instanceof ApiError && e.status === 409;
+    76→}
+    77→
+    78→export function TeacherReviewView() {
+    79→  // class list
+    80→  const [learners, setLearners] = useState<TeacherLearnerView[] | null>(null);
+    81→  const [learnersError, setLearnersError] = useState<string | null>(null);
+    82→
+    83→  // marking queue
+    84→  const [queueState, setQueueState] = useState<string>("PENDING");
+    85→  const [queue, setQueue] = useState<AnswerMarkingView[] | null>(null);
+    86→  const [queueError, setQueueError] = useState<string | null>(null);
+    87→  const [queueLoading, setQueueLoading] = useState(false);
+    88→
+    89→  // selected answer detail + actions
+    90→  const [detail, setDetail] = useState<AnswerMarkingView | null>(null);
+    91→  const [detailError, setDetailError] = useState<string | null>(null);
+    92→  const [actionBusy, setActionBusy] = useState<string | null>(null);
+    93→  const [actionError, setActionError] = useState<string | null>(null);
+    94→  const [actionNotice, setActionNotice] = useState<string | null>(null);
+    95→
+    96→  // human mark form
+    97→  const [marksInput, setMarksInput] = useState("");
+    98→  const [comments, setComments] = useState("");
+    99→  const [pointDecisions, setPointDecisions] = useState<Record<string, number>>({});
+   100→
+   101→  // V15: the teacher tab hosts two surfaces — the Cycle-1 marking review
+   102→  // queue and the curriculum concept graph (4CH1 seed + T-C11 settled layer)
+   103→  const [surface, setSurface] = useState<"marking" | "graph">("marking");
+   104→
+   105→  // kappa gate
+   106→  const [kappa, setKappa] = useState<KappaEvaluationView | null>(null);
+   107→  const [kappaStatus, setKappaStatus] = useState<
+   108→    "none" | "conflict" | "ok" | "loading" | "error"
+   109→  >("loading");
+   110→  const [kappaError, setKappaError] = useState<string | null>(null);
+   111→
+   112→  const loadLearners = useCallback(async () => {
+   113→    setLearnersError(null);
+   114→    try {
+   115→      setLearners(await api.teacherLearners());
+   116→    } catch (e) {
+   117→      setLearnersError(e instanceof ApiError ? e.message : "Could not load the class list.");
+   118→    }
+   119→  }, []);
+   120→
+   121→  // Last-request-wins guards: rapid state-tab switches or answer clicks must
+   122→  // never let a slower older response overwrite the newer one (a human mark
+   123→  // recorded from a queue/detail that no longer matches the visible list is a
+   124→  // wrong-mark hazard, not a cosmetic glitch).
+   125→  const queueSeq = useRef(0);
+   126→  const detailSeq = useRef(0);
+   127→
+   128→  const loadQueue = useCallback(async (state: string) => {
+   129→    const seq = ++queueSeq.current;
+   130→    setQueueLoading(true);
+   131→    setQueueError(null);
+   132→    try {
+   133→      const view = await api.markingQueue(state);
+   134→      if (seq !== queueSeq.current) return; // a newer state switch won
+   135→      setQueue(view);
+   136→    } catch (e) {
+   137→      if (seq !== queueSeq.current) return;
+   138→      setQueueError(e instanceof ApiError ? e.message : "Could not load the marking queue.");
+   139→    } finally {
+   140→      if (seq === queueSeq.current) setQueueLoading(false);
+   141→    }
+   142→  }, []);
+   143→
+   144→  const loadKappa = useCallback(async () => {
+   145→    setKappaStatus("loading");
+   146→    setKappaError(null);
+   147→    try {
+   148→      setKappa(await api.kappaLatest());
+   149→      setKappaStatus("ok");
+   150→    } catch (e) {
+   151→      setKappa(null);
+   152→      if (is404(e)) {
+   153→        setKappaStatus("none");
+   154→      } else if (is409(e)) {
+   155→        setKappaStatus("conflict");
+   156→      } else {
+   157→        // honesty rule (file header): a 500 / network failure is NOT "none
+   158→        // recorded" — say so and surface the reason instead
+   159→        setKappaStatus("error");
+   160→        setKappaError(e instanceof ApiError ? e.message : "Could not reach the κ evaluation.");
+   161→      }
+   162→    }
+   163→  }, []);
+   164→
+   165→  useEffect(() => {
+   166→    loadLearners();
+   167→    loadKappa();
+   168→  }, [loadLearners, loadKappa]);
+   169→
+   170→  useEffect(() => {
+   171→    loadQueue(queueState);
+   172→    setDetail(null);
+   173→    setDetailError(null);
+   174→    setActionError(null);
+   175→    setActionNotice(null);
+   176→  }, [queueState, loadQueue]);
+   177→
+   178→  const selectAnswer = useCallback(
+   179→    async (answerId: string) => {
+   180→      const seq = ++detailSeq.current;
+   181→      setDetailError(null);
+   182→      setActionError(null);
+   183→      setActionNotice(null);
+   184→      try {
+   185→        const view = await api.markingAnswer(answerId);
+   186→        if (seq !== detailSeq.current) return; // a newer selection won
+   187→        setDetail(view);
+   188→        setMarksInput(view.latestHumanMark ? String(view.latestHumanMark.marksAwarded) : "");
+   189→        setComments(view.latestHumanMark?.comments ?? "");
+   190→        // seed per-point decisions from the smart-mark breakdown so κ pairing
+   191→        // has something concrete to align against; teacher can flip each one
+   192→        const seeds: Record<string, number> = {};
+   193→        view.latestSmartMark?.breakdown?.forEach((b: SmartMarkBreakdownItem) => {
+   194→          if (b.markPointId) seeds[b.markPointId] = b.awarded ? 1 : 0;
+   195→        });
+   196→        setPointDecisions(seeds);
+   197→      } catch (e) {
+   198→        if (seq !== detailSeq.current) return;
+   199→        setDetail(null);
+   200→        setDetailError(e instanceof ApiError ? e.message : "Could not load the answer.");
+   201→      }
+   202→    },
+   203→    [],
+   204→  );
+   205→
+   206→  const refreshDetailAndQueue = useCallback(
+   207→    async (answerId: string) => {
+   208→      await selectAnswer(answerId);
+   209→      await loadQueue(queueState);
+   210→      await loadKappa();
+   211→    },
+   212→    [selectAnswer, loadQueue, queueState, loadKappa],
+   213→  );
+   214→
+   215→  const runSmartMark = useCallback(
+   216→    async (answerId: string) => {
+   217→      setActionBusy("smart");
+   218→      setActionError(null);
+   219→      setActionNotice(null);
+   220→      try {
+   221→        const result: SmartMarkView = await api.runSmartMark(answerId);
+   222→        if (result.validationPassed) {
+   223→          setActionNotice(
+   224→            `Smart Mark awarded ${result.marksAwarded} mark(s) — provisional until the κ gate passes.`,
+   225→          );
+   226→        } else {
+   227→          setActionError(
+   228→            `Smart Mark did not produce marks: ${humanizeCode(result.failureReason ?? "FAILED")}.`,
+   229→          );
+   230→        }
+   231→        await refreshDetailAndQueue(answerId);
+   232→      } catch (e) {
+   233→        setActionError(e instanceof ApiError ? e.message : "Smart Mark could not run.");
+   234→      } finally {
+   235→        setActionBusy(null);
+   236→      }
+   237→    },
+   238→    [refreshDetailAndQueue],
+   239→  );
+   240→
+   241→  const submitHumanMark = useCallback(
+   242→    async (answerId: string, partMarks: number) => {
+   243→      // Guard the blank field FIRST: Number("") is 0, so the old check let an
+   244→      // empty input through as a legitimate zero-mark submission.
+   245→      const raw = marksInput.trim();
+   246→      if (raw === "") {
+   247→        setActionError("Enter the marks awarded before submitting.");
+   248→        return;
+   249→      }
+   250→      const marks = Number(raw);
+   251→      if (!Number.isInteger(marks) || marks < 0 || marks > partMarks) {
+   252→        setActionError(`Marks must be a whole number between 0 and ${partMarks}.`);
+   253→        return;
+   254→      }
+   255→      setActionBusy("human");
+   256→      setActionError(null);
+   257→      setActionNotice(null);
+   258→      try {
+   259→        await api.recordHumanMark(answerId, {
+   260→          marksAwarded: marks,
+   261→          perPointDecisions: Object.keys(pointDecisions).length ? pointDecisions : null,
+   262→          comments: comments.trim() || null,
+   263→        });
+   264→        setActionNotice("Human mark recorded — it is now the authoritative grade.");
+   265→        await refreshDetailAndQueue(answerId);
+   266→      } catch (e) {
+   267→        setActionError(e instanceof ApiError ? e.message : "The mark could not be recorded.");
+   268→      } finally {
+   269→        setActionBusy(null);
+   270→      }
+   271→    },
+   272→    [marksInput, comments, pointDecisions, refreshDetailAndQueue],
+   273→  );
+   274→
+   275→  const recomputeKappa = useCallback(async () => {
+   276→    setActionBusy("kappa");
+   277→    setActionError(null);
+   278→    setActionNotice(null);
+   279→    try {
+   280→      const evaluation = await api.evaluateKappa();
+   281→      setKappa(evaluation);
+   282→      setKappaStatus("ok");
+   283→      setActionNotice(
+   284→        `κ = ${evaluation.kappa.toFixed(2)} on ${evaluation.sampleSize} paired point decisions (gate ${evaluation.passed ? "PASSED" : "not passed"}, threshold ${evaluation.threshold.toFixed(2)}).`,
+   285→      );
+   286→    } catch (e) {
+   287→      if (is409(e)) {
+   288→        setActionError(
+   289→          "κ needs paired per-point decisions: record human marks with point decisions after a validated Smart Mark run.",
+   290→        );
+   291→      } else {
+   292→        setActionError(e instanceof ApiError ? e.message : "κ could not be evaluated.");
+   293→      }
+   294→    } finally {
+   295→      setActionBusy(null);
+   296→    }
+   297→  }, []);
+   298→
+   299→  const smartBreakdownPoints = useMemo(() => {
+   300→    const points: { markPointId: string; awarded: boolean }[] = [];
+   301→    detail?.latestSmartMark?.breakdown?.forEach((b) => {
+   302→      if (b.markPointId) {
+   303→        points.push({ markPointId: b.markPointId, awarded: Boolean(b.awarded) });
+   304→      }
+   305→    });
+   306→    return points;
+   307→  }, [detail]);
+   308→
+   309→  return (
+   310→    <div className="space-y-4">
+   311→      <Tabs value={surface} onValueChange={(v) => setSurface(v as "marking" | "graph")}>
+   312→        <TabsList className="grid h-auto w-full max-w-md grid-cols-2">
+   313→          <TabsTrigger value="marking" className="text-xs">
+   314→            Marking review
+   315→          </TabsTrigger>
+   316→          <TabsTrigger value="graph" className="text-xs">
+   317→            Curriculum concept graph
+   318→          </TabsTrigger>
+   319→        </TabsList>
+   320→      </Tabs>
+   321→
+   322→      {surface === "graph" ? (
+   323→        <ConceptGraphView />
+   324→      ) : (
+   325→        <>
+   326→          <Alert>
+   327→          <ShieldCheck className="size-4" aria-hidden="true" />
+   328→          <AlertTitle>Teacher review surface (minimal, Cycle 1)</AlertTitle>
+   329→          <AlertDescription>
+   330→            The class list is the whole pilot cohort (classes are a Cycle-2+ concept). Human marks are
+   331→            the authoritative grade; Smart Mark results are provisional until the κ agreement gate
+   332→            passes. This surface presents facts only — no recommendations.
+   333→          </AlertDescription>
+   334→        </Alert>
+   335→
+   336→      {/* ── Class list ─────────────────────────────────────────── */}
+   337→      <Card>
+   338→        <CardHeader className="pb-3">
+   339→          <CardTitle className="flex items-center gap-2 text-base">
+   340→            <Users className="size-4 text-primary" aria-hidden="true" />
+   341→            Class list
+   342→            {learners && (
+   343→              <Badge variant="secondary" className="ml-1">
+   344→                {learners.length}
+   345→              </Badge>
+   346→            )}
+   347→          </CardTitle>
+   348→          <CardDescription>
+   349→            Every enabled learner account, ordered by name. Joined dates come from the identity
+   350→            store.
+   351→          </CardDescription>
+   352→        </CardHeader>
+   353→        <CardContent>
+   354→          {learnersError ? (
+   355→            <p className="text-sm text-destructive">{learnersError}</p>
+   356→          ) : !learners ? (
+   357→            <Skeleton className="h-24 w-full" />
+   358→          ) : learners.length === 0 ? (
+   359→            <p className="text-sm text-muted-foreground">
+   360→              No learner accounts yet — learners appear here when they register.
+   361→            </p>
+   362→          ) : (
+   363→            <div className="overflow-hidden rounded-md border">
+   364→              <table className="w-full text-sm">
+   365→                <thead className="bg-muted/50 text-left">
+   366→                  <tr>
+   367→                    <th className="px-3 py-2 font-medium">Learner</th>
+   368→                    <th className="px-3 py-2 font-medium">Email</th>
+   369→                    <th className="hidden px-3 py-2 font-medium sm:table-cell">Joined</th>
+   370→                  </tr>
+   371→                </thead>
+   372→                <tbody>
+   373→                  {learners.map((l) => (
+   374→                    <tr key={l.id} className="border-t">
+   375→                      <td className="px-3 py-2 font-medium">{l.displayName}</td>
+   376→                      <td className="px-3 py-2 text-muted-foreground">{l.email}</td>
+   377→                      <td className="hidden px-3 py-2 text-muted-foreground sm:table-cell">
+   378→                        {formatRelative(l.createdAt)}
+   379→                      </td>
+   380→                    </tr>
+   381→                  ))}
+   382→                </tbody>
+   383→              </table>
+   384→            </div>
+   385→          )}
+   386→        </CardContent>
+   387→      </Card>
+   388→
+   389→      {/* ── κ agreement gate ───────────────────────────────────── */}
+   390→      <Card>
+   391→        <CardHeader className="pb-3">
+   392→          <CardTitle className="flex items-center gap-2 text-base">
+   393→            <Gauge className="size-4 text-primary" aria-hidden="true" />
+   394→            Smart Mark agreement gate (κ)
+   395→          </CardTitle>
+   396→          <CardDescription>
+   397→            Cohen&apos;s κ over paired per-point decisions between the newest accepted Smart Mark
+   398→            run and the newest human mark. Fail-closed: below threshold, Smart Mark stays
+   399→            provisional.
+   400→          </CardDescription>
+   401→        </CardHeader>
+   402→        <CardContent className="flex flex-wrap items-center gap-3">
+   403→          {kappaStatus === "loading" ? (
+   404→            <Skeleton className="h-9 w-64" />
+   405→          ) : kappa ? (
+   406→            <>
+   407→              <div className="flex items-center gap-2">
+   408→                <Badge className={kappa.passed ? "bg-emerald-600" : "bg-rose-600"}>
+   409→                  κ {kappa.kappa.toFixed(2)}
+   410→                </Badge>
+   411→                <span className="text-sm text-muted-foreground">
+   412→                  {kappa.sampleSize} pairs · threshold {kappa.threshold.toFixed(2)} ·{" "}
+   413→                  {kappa.scope === "ALL" ? "all papers" : "one paper"} ·{" "}
+   414→                  {formatRelative(kappa.computedAt)}
+   415→                </span>
+   416→              </div>
+   417→              <Button
+   418→                variant="outline"
+   419→                size="sm"
+   420→                onClick={recomputeKappa}
+   421→                disabled={actionBusy === "kappa"}
+   422→              >
+   423→                <RotateCw className="size-4" aria-hidden="true" />
+   424→                Recompute
+   425→              </Button>
+   426→            </>
+   427→          ) : (
+   428→            <>
+   429→              <span className="text-sm text-muted-foreground">
+   430→                {kappaStatus === "conflict"
+   431→                  ? "No paired smart/human point decisions available yet."
+   432→                  : kappaStatus === "error"
+   433→                    ? (kappaError ?? "Could not load the κ evaluation.")
+   434→                    : "No κ evaluation recorded yet."}
+   435→              </span>
+   436→              <Button
+   437→                variant="outline"
+   438→                size="sm"
+   439→                onClick={recomputeKappa}
+   440→                disabled={actionBusy === "kappa"}
+   441→              >
+   442→                <Sparkles className="size-4" aria-hidden="true" />
+   443→                Evaluate κ
+   444→              </Button>
+   445→            </>
+   446→          )}
+   447→        </CardContent>
+   448→      </Card>
+   449→
+   450→      {/* ── Marking review queue ───────────────────────────────── */}
+   451→      <Card>
+   452→        <CardHeader className="pb-3">
+   453→          <CardTitle className="flex items-center gap-2 text-base">
+   454→            <ClipboardList className="size-4 text-primary" aria-hidden="true" />
+   455→            Marking review queue
+   456→          </CardTitle>
+   457→          <CardDescription>
+   458→            Answers by marking state. Review the answer, compare against the mark scheme via Smart
+   459→            Mark, then record the authoritative human mark.
+   460→          </CardDescription>
+   461→        </CardHeader>
+   462→        <CardContent className="space-y-4">
+   463→          <Tabs value={queueState} onValueChange={setQueueState}>
+   464→            <TabsList className="grid h-auto w-full max-w-xl grid-cols-2 sm:grid-cols-4">
+   465→              {QUEUE_STATES.map((s) => (
+   466→                <TabsTrigger key={s.value} value={s.value} className="text-xs">
+   467→                  {s.label}
+   468→                </TabsTrigger>
+   469→              ))}
+   470→            </TabsList>
+   471→          </Tabs>
+   472→
+   473→          {queueError ? (
+   474→            <p className="text-sm text-destructive">{queueError}</p>
+   475→          ) : !queue || (queueLoading && !detail) ? (
+   476→            <Skeleton className="h-32 w-full" />
+   477→          ) : queue.length === 0 ? (
+   478→            <p className="text-sm text-muted-foreground">
+   479→              No answers in this state right now. Learner submissions appear here as they practise.
+   480→            </p>
+   481→          ) : (
+   482→            <ul className="space-y-2" aria-live="polite">
+   483→              {queue.map((item) => (
+   484→                <li key={item.answerId}>
+   485→                  <button
+   486→                    type="button"
+   487→                    onClick={() => selectAnswer(item.answerId)}
+   488→                    className={`w-full rounded-lg border p-3 text-left transition-colors hover:bg-muted/60 ${
+   489→                      detail?.answerId === item.answerId ? "border-primary bg-muted/40" : ""
+   490→                    }`}
+   491→                  >
+   492→                    <div className="flex flex-wrap items-center justify-between gap-2">
+   493→                      <div className="flex items-center gap-2">
+   494→                        <span className="text-sm font-medium">
+   495→                          {item.learnerDisplayName ?? "Unknown learner"}
+   496→                        </span>
+   497→                        <span className="text-xs text-muted-foreground">
+   498→                          {item.questionExternalRef ?? "question"} · part {item.partLabel} ·{" "}
+   499→                          {item.partMarks} mark{item.partMarks === 1 ? "" : "s"}
+   500→                        </span>
+   501→                      </div>
+   502→                      <div className="flex items-center gap-2">
+   503→                        {item.marksAwarded != null && (
+   504→                          <span className="text-xs text-muted-foreground">
+   505→                            {item.marksAwarded}/{item.partMarks}
+   506→                          </span>
+   507→                        )}
+   508→                        <span
+   509→                          className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+   510→                            stateBadgeClass[item.markingState] ?? ""
+   511→                          }`}
+   512→                        >
+   513→                          {humanizeCode(item.markingState)}
+   514→                        </span>
+   515→                      </div>
+   516→                    </div>
+   517→                    <p className="mt-1 truncate text-xs text-muted-foreground">
+   518→                      {item.answerText || "(blank answer)"}
+   519→                    </p>
+   520→                  </button>
+   521→                </li>
+   522→              ))}
+   523→            </ul>
+   524→          )}
+   525→
+   526→          {detailError && <p className="text-sm text-destructive">{detailError}</p>}
+   527→
+   528→          {actionError && (
+   529→            <Alert variant="destructive">
+   530→              <AlertTitle>Could not complete</AlertTitle>
+   531→              <AlertDescription>{actionError}</AlertDescription>
+   532→            </Alert>
+   533→          )}
+   534→          {actionNotice && (
+   535→            <Alert>
+   536→              <AlertTitle>Done</AlertTitle>
+   537→              <AlertDescription>{actionNotice}</AlertDescription>
+   538→            </Alert>
+   539→          )}
+   540→
+   541→          {detail && (
+   542→            <div className="rounded-lg border p-4 space-y-4">
+   543→              <div>
+   544→                <div className="flex flex-wrap items-center justify-between gap-2">
+   545→                  <h3 className="text-sm font-semibold">
+   546→                    {detail.learnerDisplayName ?? "Unknown learner"} — part {detail.partLabel}
+   547→                    <span className="ml-2 font-normal text-muted-foreground">
+   548→                      {detail.questionExternalRef ?? "question"}
+   549→                    </span>
+   550→                  </h3>
+   551→                  <Badge variant="outline">{humanizeCode(detail.markingState)}</Badge>
+   552→                </div>
+   553→                <p className="mt-2 text-sm">{detail.partPrompt}</p>
+   554→                <div className="mt-2 rounded-md bg-muted/60 p-3">
+   555→                  <p className="text-xs font-medium text-muted-foreground">Learner answer</p>
+   556→                  <p className="mt-1 whitespace-pre-wrap text-sm">
+   557→                    {detail.answerText || "(blank answer)"}
+   558→                  </p>
+   559→                </div>
+   560→              </div>
+   561→
+   562→              <div className="grid gap-4 md:grid-cols-2">
+   563→                <div className="space-y-2">
+   564→                  <p className="text-xs font-semibold text-muted-foreground">
+   565→                    Latest Smart Mark (provisional)
+   566→                  </p>
+   567→                  {detail.latestSmartMark ? (
+   568→                    <div className="space-y-1 text-sm">
+   569→                      <p>
+   570→                        <span className="font-medium">
+   571→                          {detail.latestSmartMark.marksAwarded}/{detail.partMarks}
+   572→                        </span>{" "}
+   573→                        {detail.latestSmartMark.confidence != null && (
+   574→                          <span className="text-muted-foreground">
+   575→                            · confidence {(detail.latestSmartMark.confidence * 100).toFixed(0)}%
+   576→                          </span>
+   577→                        )}
+   578→                      </p>
+   579→                      <p className="text-xs text-muted-foreground">
+   580→                        {detail.latestSmartMark.validationPassed
+   581→                          ? `validated · ${detail.latestSmartMark.modelId ?? "unknown model"} · pipeline ${detail.latestSmartMark.pipelineVersion ?? "?"} · ${formatRelative(detail.latestSmartMark.createdAt)}`
+   582→                          : `failed: ${humanizeCode(detail.latestSmartMark.failureReason ?? "FAILED")} — never fabricated`}
+   583→                      </p>
+   584→                    </div>
+   585→                  ) : (
+   586→                    <p className="text-sm text-muted-foreground">No Smart Mark run yet.</p>
+   587→                  )}
+   588→                  <Button
+   589→                    variant="outline"
+   590→                    size="sm"
+   591→                    onClick={() => runSmartMark(detail.answerId)}
+   592→                    disabled={actionBusy !== null}
+   593→                  >
+   594→                    <Sparkles className="size-4" aria-hidden="true" />
+   595→                    {actionBusy === "smart" ? "Running…" : "Run Smart Mark"}
+   596→                  </Button>
+   597→                </div>
+   598→
+   599→                <div className="space-y-2">
+   600→                  <p className="text-xs font-semibold text-muted-foreground">
+   601→                    Latest human mark (authoritative)
+   602→                  </p>
+   603→                  {detail.latestHumanMark ? (
+   604→                    <div className="space-y-1 text-sm">
+   605→                      <p>
+   606→                        <span className="font-medium">
+   607→                          {detail.latestHumanMark.marksAwarded}/{detail.partMarks}
+   608→                        </span>
+   609→                      </p>
+   610→                      {detail.latestHumanMark.comments && (
+   611→                        <p className="text-xs text-muted-foreground">
+   612→                          “{detail.latestHumanMark.comments}”
+   613→                        </p>
+   614→                      )}
+   615→                      <p className="text-xs text-muted-foreground">
+   616→                        recorded {formatRelative(detail.latestHumanMark.createdAt)}
+   617→                      </p>
+   618→                    </div>
+   619→                  ) : (
+   620→                    <p className="text-sm text-muted-foreground">No human mark yet.</p>
+   621→                  )}
+   622→                </div>
+   623→              </div>
+   624→
+   625→              {smartBreakdownPoints.length > 0 && (
+   626→                <div className="space-y-2">
+   627→                  <p className="text-xs font-semibold text-muted-foreground">
+   628→                    Mark-point decisions (for κ pairing)
+   629→                  </p>
+   630→                  <div className="space-y-1">
+   631→                    {smartBreakdownPoints.map((p) => (
+   632→                      <div
+   633→                        key={p.markPointId}
+   634→                        className="flex items-center justify-between gap-2 rounded-md border px-3 py-1.5"
+   635→                      >
+   636→                        <span className="font-mono text-xs text-muted-foreground">
+   637→                          {p.markPointId.slice(0, 8)}
+   638→                        </span>
+   639→                        <div className="flex items-center gap-2">
+   640→                          <span className="text-xs text-muted-foreground">
+   641→                            smart: {p.awarded ? "1" : "0"}
+   642→                          </span>
+   643→                          <Select
+   644→                            value={String(pointDecisions[p.markPointId] ?? (p.awarded ? 1 : 0))}
+   645→                            onValueChange={(v) =>
+   646→                              setPointDecisions((prev) => ({
+   647→                                ...prev,
+   648→                                [p.markPointId]: Number(v),
+   649→                              }))
+   650→                            }
+   651→                          >
+   652→                            <SelectTrigger className="h-7 w-28 text-xs" aria-label="Human decision">
+   653→                              <SelectValue />
+   654→                            </SelectTrigger>
+   655→                            <SelectContent>
+   656→                              <SelectItem value="1">human: 1</SelectItem>
+   657→                              <SelectItem value="0">human: 0</SelectItem>
+   658→                            </SelectContent>
+   659→                          </Select>
+   660→                        </div>
+   661→                      </div>
+   662→                    ))}
+   663→                  </div>
+   664→                  <p className="text-xs text-muted-foreground">
+   665→                    Seeded from the Smart Mark breakdown — adjust to your judgement; they drive the
+   666→                    κ calibration set.
+   667→                  </p>
+   668→                </div>
+   669→              )}
+   670→
+   671→              <div className="space-y-2 border-t pt-3">
+   672→                <p className="text-xs font-semibold text-muted-foreground">
+   673→                  Record human mark (override)
+   674→                </p>
+   675→                <div className="flex flex-wrap items-end gap-3">
+   676→                  <div className="space-y-1">
+   677→                    <Label htmlFor="marks" className="text-xs">
+   678→                      Marks (0–{detail.partMarks})
+   679→                    </Label>
+   680→                    <Input
+   681→                      id="marks"
+   682→                      inputMode="numeric"
+   683→                      className="h-8 w-24"
+   684→                      value={marksInput}
+   685→                      onChange={(e) => setMarksInput(e.target.value)}
+   686→                      placeholder="0"
+   687→                    />
+   688→                  </div>
+   689→                  <div className="min-w-[200px] flex-1 space-y-1">
+   690→                    <Label htmlFor="comments" className="text-xs">
+   691→                      Comments (rationale)
+   692→                    </Label>
+   693→                    <Textarea
+   694→                      id="comments"
+   695→                      className="min-h-9"
+   696→                      rows={2}
+   697→                      value={comments}
+   698→                      onChange={(e) => setComments(e.target.value)}
+   699→                      placeholder="Why these marks…"
+   700→                    />
+   701→                  </div>
+   702→                  <Button
+   703→                    size="sm"
+   704→                    onClick={() => submitHumanMark(detail.answerId, detail.partMarks)}
+   705→                    disabled={actionBusy !== null}
+   706→                  >
+   707→                    <ClipboardCheck className="size-4" aria-hidden="true" />
+   708→                    {actionBusy === "human" ? "Recording…" : "Record mark"}
+   709→                  </Button>
+   710→                </div>
+   711→                <p className="text-xs text-muted-foreground">
+   712→                  First human mark fires the evidence contract once (BKT/fluency react); later
+   713→                  marks are overrides that never re-fire evidence.
+   714→                </p>
+   715→              </div>
+   716→            </div>
+   717→          )}
+   718→        </CardContent>
+   719→      </Card>
+   720→        </>
+   721→      )}
+   722→    </div>
+   723→  );
+   724→}
+   725→
